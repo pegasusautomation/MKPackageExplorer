@@ -25,7 +25,7 @@ const App = () => {
   const themeStyle = theme === 'light' ? lightTheme : darkTheme;
 
   const LoginDetails = [
-      { email: 'parul.behal_EXT@mediakind.com',password: 'p123', role: 'admin', name: 'Parul Behal' },
+      { email: 'niwas.kumar@MediaKind.com',password: 'n123', role: 'admin', name: 'Niwas Kumar' },
       { email: 'yogesh.puranik_ext@mediakind.com', password: 'y123', role: 'manager', name: 'Yogesh Puranik' },
       { email: 'Raghavendra.Gandanahalli_EXT@MediaKind.com', password: 'r123', role: 'user', name: 'Raghavendra'},
       { email: 'kothakota.deepika_ext@mediakind.com', password: 'd123', role: 'user', name: 'Deepika'},
