@@ -81,14 +81,11 @@ const App = () => {
                <HomePage/>
             </Route>
             {/* <Route path="/login" component={LoginPage} />  */}
-            <Route exact path="/servers">
+            <Route exact path="/Bitrates">
                 <Servertable userData={userData}/>
              </Route>
-            <Route exact path="/certificates">
+            <Route exact path="/Licences">
                <Certtable userData={userData}/>
-            </Route>
-            <Route exact path="/loginhistory">
-               <LoginHistory/>
             </Route>
             <Route path="/profile">
                   {userData.role === 'user' && <UserProfile userData={userData}/>}

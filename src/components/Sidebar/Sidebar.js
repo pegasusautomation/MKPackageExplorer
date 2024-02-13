@@ -63,14 +63,14 @@ const Sidebar = ({userData}) => {
                 </SLinkContainer>
             ))}
             <SDivider />
-            {secondaryLinksArray.map(({ icon, label }) => (
+            {/* {secondaryLinksArray.map(({ icon, label }) => (
                 <SLinkContainer key={label}>
                     <SLink to="/loginhistory" style={!sidebarOpen ? { width: `fit-content` } : {}}>
                         <SLinkIcon>{icon}</SLinkIcon>
                         {sidebarOpen && <SLinkLabel>{label}</SLinkLabel>}
                     </SLink>
                 </SLinkContainer>
-            ))}
+            ))} */}
             {/* <SDivider /> */}
             <STheme>
                 {sidebarOpen && <SThemeLabel>Dark Mode</SThemeLabel>}
@@ -99,24 +99,23 @@ const linksArray = [
         to: "/home",
     },
     {
-        label: "Servers",
+        label: "Bitrate",
         icon: <BsServer />,
-        to: "/servers",
+        to: "/Bitrates",
     },
     {
-        label: "Certificates",
+        label: "Licence",
         icon: <AiFillSafetyCertificate />,
-        to: "/certificates",
+        to: "/Licences",
     },
 ];
-
-const secondaryLinksArray = [
-    {
-        label: "Login History",
-        icon: <MdLogout />,
-        to:"/loginhistory"
-    },
-];
+//     const secondaryLinksArray = [
+//         // {
+//         //     label: "Login History",
+//         //     icon: <MdLogout />,
+//         //     to:"/loginhistory"
+//         // },
+// ];
 
 export default Sidebar;
 
