@@ -22,7 +22,7 @@ import {
     AiOutlineLeft,
     AiOutlineProfile,
 } from "react-icons/ai";
-import { MdLogout } from "react-icons/md";
+// import { MdLogout } from "react-icons/md";
 import { BsServer } from "react-icons/bs";
 
 import { ThemeContext } from 'styled-components'
@@ -43,7 +43,7 @@ const Sidebar = ({userData}) => {
                 </SSidebarButton>
             </>
             <SLogo>
-                <h1><br></br>MR</h1>
+                <h1><br></br>MK Explorer</h1>
             </SLogo>
             <SDivider />
             {linksArray.map(({ icon, label, notification, to }) => (

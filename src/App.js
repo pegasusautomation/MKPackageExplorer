@@ -15,7 +15,6 @@ import UserProfile from "./pages/UserProfile.js";
 import ManagerProfile from "./pages/ManagerProfile.js";
 import AdminProfile from "./pages/AdminProfile.js";
 import TopbarPage from "./pages/TopbarPage.js";
-import LoginHistory from "./pages/LoginHistory.js";
 import AuthService from "./AuthService.js";
 
 export const ThemeContext = React.createContext(null);
