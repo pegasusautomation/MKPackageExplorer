@@ -1,6 +1,6 @@
 import "../Table.css";
 import React ,{ useState, useEffect } from "react";
-import servertable from "C:/MKPackageExplorer/src/manageserver/bitrate_hist_mksp1_active.json";
+import servertable from "./bitrate_hist_mksp1_active.json";
 // import { data } from "autoprefixer";
 
 
