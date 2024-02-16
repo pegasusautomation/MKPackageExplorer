@@ -1,5 +1,5 @@
 import "../Table.css";
-import React ,{ useState, useEffect } from "react";
+import React ,{ useState } from "react";
 import servertable from "./bitrate_hist_mksp1_active.json";
 // import { data } from "autoprefixer";
 

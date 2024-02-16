@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 // import { ThemeProvider } from 'styled-components';
 import {
     SDivider,
@@ -10,10 +10,6 @@ import {
     SLogo,
     SSidebar,
     SSidebarButton,
-    STheme,
-    SThemeLabel,
-    SThemeToggler,
-    SToggleThumb,
 } from "./styles";
 
 import {
@@ -25,11 +21,9 @@ import {
 // import { MdLogout } from "react-icons/md";
 import { BsServer } from "react-icons/bs";
 
-import { ThemeContext } from 'styled-components'
 import { useLocation } from "react-router-dom";
 
 const Sidebar = ({userData}) => {
-    const { setTheme, theme } = useContext(ThemeContext);
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const { pathname } = useLocation();
 
