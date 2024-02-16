@@ -37,7 +37,7 @@ const Sidebar = ({userData}) => {
                 </SSidebarButton>
             </>
             <SLogo>
-                <h1><br></br>MK Explorer</h1>
+                <h1><br></br>MediaKind</h1>
             </SLogo>
             <SDivider />
             {linksArray.map(({ icon, label, notification, to }) => (
