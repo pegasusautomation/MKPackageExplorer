@@ -93,7 +93,7 @@ const Servertable = ({userData}) => {
             <br></br>
           </caption>
           {filteredData.length === 0 ? (
-        <div style={{ textAlign: 'center', color: 'gray' }}>No matching data found.</div>
+        <div style={{ textAlign: 'center', color: 'black' }}>No matching data found.</div>
       ) : (
           <thead>
           <tr>
