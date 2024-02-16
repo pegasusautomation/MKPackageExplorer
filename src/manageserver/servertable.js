@@ -1,7 +1,10 @@
 import "../Table.css";
-import React from "react";
-import servertable from "./ServerData.json";
+import React ,{ useState, useEffect } from "react";
+import servertable from "C:/MKPackageExplorer/src/manageserver/bitrate_hist_mksp1_active.json";
+// import { data } from "autoprefixer";
 
+
+const ITEMS_PER_PAGE = 10;
 const Servertable = ({userData}) => {
   // role=userData.role
   // const handleClick = (e) => {
@@ -9,47 +12,116 @@ const Servertable = ({userData}) => {
   //     ? console.log("Running")
   //     : alert("Your server restarted successfully!");
   // };
+  const [currentPage, setCurrentPage] = useState(1);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchColumn, setSearchColumn] = useState('date');
 
+  const handleSearchChange = (event) => {
+    const value = event.target.value;
+    setSearchTerm(value);
+    setCurrentPage(1); // Reset current page when searching
+
+    // Optional: You can apply debounce to limit the frequency of filter calls
+    // debounceSearch(value);
+  };
+
+  const handleColumnChange = (event) => {
+    setSearchColumn(event.target.value);
+  }; 
+
+  const filteredData = servertable.filter((item) => {
+    const searchValue = item[searchColumn];
+
+    // Handle filtering by other columns
+    if (typeof searchValue === 'string') {
+      return searchValue.toLowerCase().includes(searchTerm.toLowerCase());
+    } else if (typeof searchValue === 'number' && !isNaN(searchValue)) {
+      // Handle filtering for numbers
+      return searchValue === parseFloat(searchTerm);
+    } else {
+      // Handle other data types (e.g., booleans)
+      return searchValue === searchTerm;
+    }
+  });
+  
+    // Convert the search value to a string
+  //   const stringValue = String(searchValue);
+  
+  //   // Perform case-insensitive search
+  //   return stringValue.toLowerCase().includes(searchTerm.toLowerCase());
+  // });
+  
+
+  const totalPages = Math.ceil(filteredData.length / ITEMS_PER_PAGE);
+
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIndex = Math.min(startIndex + ITEMS_PER_PAGE, filteredData.length);
+
+  const handlePreviousPage = () => {
+    setCurrentPage(currentPage > 1 ? currentPage - 1 : 1);
+  };
+
+  const handleNextPage = () => {
+    setCurrentPage(currentPage < totalPages ? currentPage + 1 : totalPages);
+  };
   return (
     userData.role==="admin" ?
     // CURRENT_USER_TYPE===<div>{userData.role}</div> ?
     <div className="column">
-      {servertable ? (
+      {/* {servertable ? ( */}
         <table className="table">
           <caption className="caption">
             <b>
               <br></br>
-              <br></br>SERVER DETAILS
+              <br></br>BITRATE DETAILS
             </b>
             <br></br>
             <br></br>
+            <select value={searchColumn} onChange={handleColumnChange}>
+          <option value="date">Date</option>
+          <option value="fec_primary.br">fec_primary</option>
+          <option value="fec_secondary.br">fec_secondary</option>
+          <option value="null.br">null</option>
+          <option value="psi.br">psi</option>
+        </select>
+            <input className="searchstyle"
+        type="text"
+        placeholder="Search..."
+        value={searchTerm}
+        onChange={handleSearchChange}
+      />
+            <br></br>
           </caption>
-          <thead>
-            <tr>
-              {Object.keys(servertable[0]).map((key, index) => (
-                <th key={index}>{key}</th>
-              ))}
-              {/* <th>{Action}</th> */}
-            </tr>
-          </thead>
-          <tbody>
-            {servertable.map((row, rowIndex) => (
-              <tr key={rowIndex}>
-                {Object.values(row).map((cell, cellIndex) => (
-                  <td key={cellIndex}>{cell}</td>
-                ))}
-                {/* <td>
-                  <button onClick={() => handleClick(row)}>
-                    {row.Status === "Restart" ? "Running" : "Restart"}
-                  </button>
-                </td> */}
-              </tr>
-            ))}
-          </tbody>
-        </table>
+          {filteredData.length === 0 ? (
+        <div style={{ textAlign: 'center', color: 'gray' }}>No matching data found.</div>
       ) : (
-        <p>Loading...</p>
-      )}
+          <thead>
+          <tr>
+            <th>Date</th>
+            <th>fec_primary</th>
+            <th>fec_secondary</th>
+            <th>null</th>
+            <th>psi</th>
+          </tr>
+          </thead>
+            )}
+          <tbody>
+          {filteredData.slice(startIndex, endIndex).map((item, index) => (
+            <tr key={item.index}>
+              <td>{item.date}</td>
+              <td>{item.fec_primary.br}</td>
+              <td>{item.fec_secondary.br}</td>
+              <td>{item.null.br}</td>
+              <td>{item.psi.br}</td>
+            </tr>
+          ))}
+        </tbody>
+        </table>
+        <div style={{ textAlign: 'center', marginTop: '10px' }}>
+        <button onClick={handlePreviousPage} disabled={currentPage === 1 || filteredData.length === 0} style={{ color: currentPage === 1 || filteredData.length === 0 ? 'gray' : 'black', cursor: currentPage === 1 || filteredData.length === 0 ? 'default' : 'pointer' }}>{'<'}</button>
+        <span style={{ margin: '0 10px' }}>Page {currentPage} of {totalPages}</span>
+        <button onClick={handleNextPage} disabled={currentPage === totalPages || filteredData.length === 0} style={{ color: currentPage === totalPages || filteredData.length === 0 ? 'gray' : 'black' , cursor: currentPage === totalPages || filteredData.length === 0 ? 'default' : 'pointer'  }}>{'>'}</button>
+      </div>
     </div>
     :<div>You are not Authorised</div>
   );

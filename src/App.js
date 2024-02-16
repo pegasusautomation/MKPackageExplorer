@@ -26,7 +26,7 @@ const App = () => {
   const themeStyle = theme === 'light' ? lightTheme : darkTheme;
 
   const LoginDetails = [
-      { email: 'parul.behal_EXT@mediakind.com',password: 'p123', role: 'admin', name: 'Parul Behal' },
+      { email: 'niwas.kumar@mediakind.com',password: 'n123', role: 'admin', name: 'Niwas Kumar' },
       { email: 'yogesh.puranik_ext@mediakind.com', password: 'y123', role: 'manager', name: 'Yogesh Puranik' },
       { email: 'Raghavendra.Gandanahalli_EXT@MediaKind.com', password: 'r123', role: 'user', name: 'Raghavendra'},
       { email: 'kothakota.deepika_ext@mediakind.com', password: 'd123', role: 'user', name: 'Deepika'},
@@ -74,14 +74,15 @@ const App = () => {
         <TopbarPage  userData={userData}/>
         <Layout userData={userData}>
         {/* <Sidebar userRole={userRole} userData={userData}/> */}
-        <div className="content">
+        {/* <div className="content"> */}
           <Switch>
+            {/* <div className="content"> */}
           {/* <Route path="/home" component={HomePage} />  */}
           <Route exact path="/home">
                <HomePage/>
             </Route>
             {/* <Route path="/login" component={LoginPage} />  */}
-            <Route exact path="/Bitrates">
+            <Route exact path="/Bitrates" className="bitrate">
                 <Servertable userData={userData}/>
              </Route>
             <Route exact path="/Licences">
@@ -92,8 +93,9 @@ const App = () => {
                   {userData.role === 'manager' && <ManagerProfile userData={userData}/>}
                   {userData.role === 'admin' && <AdminProfile userData={userData}/>}
                 </Route>
+                 {/* </div> */}
           </Switch>
-         </div>
+         {/* </div> */}
           </Layout>
          </>
         )}
