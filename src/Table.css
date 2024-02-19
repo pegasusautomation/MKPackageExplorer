@@ -54,6 +54,9 @@ thead {
   background-color: #faf9f6;
   position: fixed;
     width:90%;
+    max-width: 100%;
+
+    overflow-x: hidden;
    /* overflow-y:initial; */
     top: 0;
     bottom: 0;
@@ -61,7 +64,7 @@ thead {
 
 .caption
 {
-  color: rgb(170, 170, 180);
+  color: rgb(15, 15, 15);
   font-size: x-large;
 }
 
@@ -76,9 +79,11 @@ thead {
   /* flex-direction:row-reverse; */
   align-items:flex-start;
   justify-content:left;
-    width: 70%;
+    /* width: 70%; */
     box-sizing: border-box;
-    margin-bottom:10px ;
+    margin-left: 90px;
+    /* margin-bottom:10px ; */
+    /* height: 20px; */
 }
 /* style={{ marginBottom: '10px', width: '25%', boxSizing: 'border-box'}}  */
 

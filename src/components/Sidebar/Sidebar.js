@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "./././images.png"
 // import { ThemeProvider } from 'styled-components';
 import {
     SDivider,
@@ -30,14 +31,16 @@ const Sidebar = ({userData}) => {
  
     return (
       
-        <SSidebar isOpen={sidebarOpen}>
+        <SSidebar isOpen={sidebarOpen} style={{background:'#8482b8',height:'1000px'}}>
             <>
                 <SSidebarButton isOpen={sidebarOpen} onClick={() => setSidebarOpen((p) => !p)}>
                     <AiOutlineLeft />
                 </SSidebarButton>
             </>
             <SLogo>
-                <h1><br></br>MediaKind</h1>
+                {/* <h1><br></br>MK</h1> */}
+                <img src={logo} alt="Logo" style={{ width: '100%', height: '50px' }}/>
+                <caption>Package Analyser</caption>
             </SLogo>
             <SDivider />
             {linksArray.map(({ icon, label, notification, to }) => (

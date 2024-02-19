@@ -51,7 +51,7 @@ const LoginPage = ({onLogin}) => {
  
     return (
         <div className="auth-form-container">
-        <h2>MediaRoom</h2>
+        <h2>MediaKind</h2>
         <form className="login-form" onSubmit={handleSubmit}>
         <br></br>
             {/* <label htmlFor="email">email</label> */}

@@ -27,6 +27,8 @@ const Servertable = ({userData}) => {
 
   const handleColumnChange = (event) => {
     setSearchColumn(event.target.value);
+    setSearchTerm(''); // Clear search term when column changes
+    setCurrentPage(1);
   }; 
 
   const filteredData = servertable.filter((item) => {
@@ -69,32 +71,39 @@ const Servertable = ({userData}) => {
     // CURRENT_USER_TYPE===<div>{userData.role}</div> ?
     <div className="column">
       {/* {servertable ? ( */}
-        <table className="table">
+        {/* <table className="table"> */}
           <caption className="caption">
             <b>
-              <br></br>
               <br></br>BITRATE DETAILS
             </b>
             <br></br>
+            </caption>
             <br></br>
-            <select value={searchColumn} onChange={handleColumnChange}>
+            <div style={{ marginBottom: '10px', display: 'flex', alignItems: 'center'}}>
+              <div style={{height:'20px'}}>
+            {filteredData.length > 0 && (
+            <select value={searchColumn} onChange={handleColumnChange} style={{ marginRight: '140px' }}>
           <option value="date">Date</option>
           <option value="fec_primary.br">fec_primary</option>
           <option value="fec_secondary.br">fec_secondary</option>
           <option value="null.br">null</option>
           <option value="psi.br">psi</option>
         </select>
+            )}
+            </div>
             <input className="searchstyle"
         type="text"
         placeholder="Search..."
         value={searchTerm}
         onChange={handleSearchChange}
+        style={{ height: '20px', width: '200px', boxSizing: 'border-box' }}
       />
-            <br></br>
-          </caption>
-          {filteredData.length === 0 ? (
+            </div>
+          {filteredData.length === 0 && (
         <div style={{ textAlign: 'center', color: 'black' }}>No matching data found.</div>
-      ) : (
+      ) }
+        {filteredData.length > 0 && (
+           <table className="table">
           <thead>
           <tr>
             <th>Date</th>
@@ -104,7 +113,6 @@ const Servertable = ({userData}) => {
             <th>psi</th>
           </tr>
           </thead>
-            )}
           <tbody>
           {filteredData.slice(startIndex, endIndex).map((item, index) => (
             <tr key={item.index}>
@@ -117,6 +125,7 @@ const Servertable = ({userData}) => {
           ))}
         </tbody>
         </table>
+        )}
         <div style={{ textAlign: 'center', marginTop: '10px' }}>
         <button onClick={handlePreviousPage} disabled={currentPage === 1 || filteredData.length === 0} style={{ color: currentPage === 1 || filteredData.length === 0 ? 'gray' : 'black', cursor: currentPage === 1 || filteredData.length === 0 ? 'default' : 'pointer' }}>{'<'}</button>
         <span style={{ margin: '0 10px' }}>Page {currentPage} of {totalPages}</span>
