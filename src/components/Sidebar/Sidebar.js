@@ -20,7 +20,7 @@ import {
     AiOutlineProfile,
 } from "react-icons/ai";
 // import { MdLogout } from "react-icons/md";
-import { BsServer } from "react-icons/bs";
+import { BsCloudUpload, BsServer } from "react-icons/bs";
 
 import { useLocation } from "react-router-dom";
 
@@ -40,7 +40,7 @@ const Sidebar = ({userData}) => {
             <SLogo>
                 {/* <h1><br></br>MK</h1> */}
                 <img src={logo} alt="Logo" style={{ width: '100%', height: '50px' }}/>
-                <caption>Package Analyser</caption>
+                <caption>Support Package Analyser</caption>
             </SLogo>
             <SDivider />
             {linksArray.map(({ icon, label, notification, to }) => (
@@ -94,6 +94,11 @@ const linksArray = [
         label: "Home",
         icon: <AiOutlineHome />,
         to: "/home",
+    },
+    {
+        label: "Package Uploader",
+        icon: <BsCloudUpload />,
+        to: "/pkgupload",
     },
     {
         label: "Bitrate",

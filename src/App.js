@@ -7,6 +7,7 @@ import React ,{useState}from 'react';
 import { BrowserRouter as  Route, Switch } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import HomePage from "./pages/HomePage";
+import Packageuploader from "./pages/Packageuploader.js";
 import Certtable from "./certtable.js";
 import "./Table.css";
 import "./App.css";
@@ -79,6 +80,9 @@ const App = () => {
           {/* <Route path="/home" component={HomePage} />  */}
           <Route exact path="/home">
                <HomePage/>
+            </Route>
+            <Route exact path="/pkgupload">
+               <Packageuploader/>
             </Route>
             {/* <Route path="/login" component={LoginPage} />  */}
             <Route exact path="/Bitrates" className="bitrate">
