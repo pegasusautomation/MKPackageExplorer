@@ -1,0 +1,426 @@
+metadata:
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generateName: alarm-7f7cbb5f7f-
+  labels:
+    app.kubernetes.io/component: alarm
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: alarm
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.103.5
+    helm.sh/chart: alarm-1.103.5
+    pod-template-hash: 7f7cbb5f7f
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+          f:pod-template-hash: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"9bfca074-f0ca-465d-9c96-cb2490982c0d"}: {}
+      f:spec:
+        f:containers:
+          k:{"name":"alarm-api"}:
+            .: {}
+            f:args: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:livenessProbe:
+              .: {}
+              f:failureThreshold: {}
+              f:httpGet:
+                .: {}
+                f:path: {}
+                f:port: {}
+                f:scheme: {}
+              f:initialDelaySeconds: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:name: {}
+            f:ports:
+              .: {}
+              k:{"containerPort":8099,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:name: {}
+                f:protocol: {}
+            f:readinessProbe:
+              .: {}
+              f:failureThreshold: {}
+              f:httpGet:
+                .: {}
+                f:path: {}
+                f:port: {}
+                f:scheme: {}
+              f:initialDelaySeconds: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:resources: {}
+            f:securityContext:
+              .: {}
+              f:allowPrivilegeEscalation: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/opt/ericsson/alarm/etc/alarm-api-logging.json"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/opt/ericsson/alarm/etc/alarm-api.ini"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+          k:{"name":"alarm-collector"}:
+            .: {}
+            f:args: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:name: {}
+            f:resources: {}
+            f:securityContext:
+              .: {}
+              f:allowPrivilegeEscalation: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/opt/ericsson/alarm/etc/alarm-api.ini"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/opt/ericsson/alarm/etc/alarm-collector-logging.json"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+          k:{"name":"alarm-daemon"}:
+            .: {}
+            f:args: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:name: {}
+            f:resources: {}
+            f:securityContext:
+              .: {}
+              f:allowPrivilegeEscalation: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/opt/ericsson/alarm/etc/alarm-api.ini"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/opt/ericsson/alarm/etc/alarm-daemon-logging.json"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+        f:dnsPolicy: {}
+        f:enableServiceLinks: {}
+        f:restartPolicy: {}
+        f:schedulerName: {}
+        f:securityContext:
+          .: {}
+          f:fsGroup: {}
+          f:runAsUser: {}
+        f:terminationGracePeriodSeconds: {}
+        f:volumes:
+          .: {}
+          k:{"name":"config"}:
+            .: {}
+            f:configMap:
+              .: {}
+              f:defaultMode: {}
+              f:name: {}
+            f:name: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:conditions:
+          k:{"type":"ContainersReady"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Initialized"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Ready"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+        f:containerStatuses: {}
+        f:hostIP: {}
+        f:phase: {}
+        f:podIP: {}
+        f:podIPs:
+          .: {}
+          k:{"ip":"10.42.0.157"}:
+            .: {}
+            f:ip: {}
+        f:startTime: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:29:09Z'
+  name: alarm-7f7cbb5f7f-htmk9
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: alarm-7f7cbb5f7f
+    uid: 9bfca074-f0ca-465d-9c96-cb2490982c0d
+  resourceVersion: '8615217'
+  uid: 7010820a-858d-4933-b400-667b6585017b
+spec:
+  containers:
+  - args:
+    - /src/mediakind/alarm/api/app.py
+    - --conf
+    - /opt/ericsson/alarm/etc/alarm-api.ini
+    - --log
+    - /opt/ericsson/alarm/etc/alarm-api-logging.json
+    image: packages.mediakind.com/mpd-docker/mediakind/alarm:1.103.5
+    imagePullPolicy: IfNotPresent
+    livenessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /api/liveness
+        port: restapi
+        scheme: HTTP
+      initialDelaySeconds: 30
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 1
+    name: alarm-api
+    ports:
+    - containerPort: 8099
+      name: restapi
+      protocol: TCP
+    readinessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /api/readiness
+        port: restapi
+        scheme: HTTP
+      initialDelaySeconds: 5
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 1
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: false
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /opt/ericsson/alarm/etc/alarm-api.ini
+      name: config
+      subPath: alarm-api.ini
+    - mountPath: /opt/ericsson/alarm/etc/alarm-api-logging.json
+      name: config
+      subPath: alarm-api-logging.json
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-6j8mg
+      readOnly: true
+  - args:
+    - /src/mediakind/alarm/collector/collector.py
+    - --conf
+    - /opt/ericsson/alarm/etc/alarm-api.ini
+    - --log
+    - /opt/ericsson/alarm/etc/alarm-collector-logging.json
+    image: packages.mediakind.com/mpd-docker/mediakind/alarm:1.103.5
+    imagePullPolicy: IfNotPresent
+    name: alarm-collector
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: false
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /opt/ericsson/alarm/etc/alarm-api.ini
+      name: config
+      subPath: alarm-api.ini
+    - mountPath: /opt/ericsson/alarm/etc/alarm-collector-logging.json
+      name: config
+      subPath: alarm-collector-logging.json
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-6j8mg
+      readOnly: true
+  - args:
+    - /src/mediakind/alarm/daemon/app.py
+    - --conf
+    - /opt/ericsson/alarm/etc/alarm-api.ini
+    - --log
+    - /opt/ericsson/alarm/etc/alarm-daemon-logging.json
+    image: packages.mediakind.com/mpd-docker/mediakind/alarm:1.103.5
+    imagePullPolicy: IfNotPresent
+    name: alarm-daemon
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: false
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /opt/ericsson/alarm/etc/alarm-api.ini
+      name: config
+      subPath: alarm-api.ini
+    - mountPath: /opt/ericsson/alarm/etc/alarm-daemon-logging.json
+      name: config
+      subPath: alarm-daemon-logging.json
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-6j8mg
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: false
+  nodeName: mediakind-k3s
+  preemptionPolicy: Never
+  priority: 0
+  priorityClassName: default
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext:
+    fsGroup: 2
+    runAsUser: 2
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 0
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - configMap:
+      defaultMode: 420
+      name: alarm-config
+    name: config
+  - name: kube-api-access-6j8mg
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:09:18Z'
+    status: 'True'
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:29:09Z'
+    status: 'True'
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:29:09Z'
+    status: 'True'
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:09:17Z'
+    status: 'True'
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://7d11ca36f8d6a62c49926d1e67547589e65642ad0c5e8bda37a882cd0f4eea67
+    image: packages.mediakind.com/mpd-docker/mediakind/alarm:1.103.5
+    imageID: sha256:4cbd904d2160d6766fb63ee9c4a31e758a4adf5b5f1f32a9a5d4e5ba8a22425c
+    lastState:
+      terminated:
+        containerID: containerd://05d756d03882bc11fd36f93ae8acd27a503e2002abed0d1b8a7baa1705cf5f8a
+        exitCode: 255
+        finishedAt: '2024-02-06T13:27:47Z'
+        reason: Unknown
+        startedAt: '2024-02-06T08:36:01Z'
+    name: alarm-api
+    ready: true
+    restartCount: 1182
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:28:20Z'
+  - containerID: containerd://b514d20e8562442fb24186ab8d93e32250b31436679bf6e12fff634f88d9c432
+    image: packages.mediakind.com/mpd-docker/mediakind/alarm:1.103.5
+    imageID: sha256:4cbd904d2160d6766fb63ee9c4a31e758a4adf5b5f1f32a9a5d4e5ba8a22425c
+    lastState:
+      terminated:
+        containerID: containerd://80b94c3481562ca5842acfde1af75e80dda873c2fff8b44c2892586f887371c1
+        exitCode: 255
+        finishedAt: '2024-02-06T13:27:47Z'
+        reason: Unknown
+        startedAt: '2024-02-06T08:36:01Z'
+    name: alarm-collector
+    ready: true
+    restartCount: 9
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:28:20Z'
+  - containerID: containerd://990fda1bce3bdd7aee320212a2bfd22db6cacde78062b284c8ab4f568cebd154
+    image: packages.mediakind.com/mpd-docker/mediakind/alarm:1.103.5
+    imageID: sha256:4cbd904d2160d6766fb63ee9c4a31e758a4adf5b5f1f32a9a5d4e5ba8a22425c
+    lastState:
+      terminated:
+        containerID: containerd://730c0360d3cbe0a0b831e3204d8a4d1155c02a6117d243921982a79a11a9d937
+        exitCode: 255
+        finishedAt: '2024-02-06T13:27:47Z'
+        reason: Unknown
+        startedAt: '2024-02-06T08:36:02Z'
+    name: alarm-daemon
+    ready: true
+    restartCount: 9
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:28:21Z'
+  hostIP: 192.168.255.1
+  phase: Running
+  podIP: 10.42.0.157
+  podIPs:
+  - ip: 10.42.0.157
+  qosClass: BestEffort
+  startTime: '2023-12-14T10:09:18Z'

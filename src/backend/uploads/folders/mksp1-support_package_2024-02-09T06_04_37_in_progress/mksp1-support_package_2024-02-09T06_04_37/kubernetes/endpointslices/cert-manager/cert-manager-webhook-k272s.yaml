@@ -1,0 +1,75 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.164
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: cert-manager-webhook-6bdcc5f9fd-kbrlb
+    namespace: cert-manager
+    resourceVersion: '8614951'
+    uid: fac31431-0b95-46d8-a6ba-81b1dcdff7b3
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:31Z'
+  creationTimestamp: '2023-12-14T06:56:52Z'
+  generateName: cert-manager-webhook-
+  generation: 26
+  labels:
+    app: webhook
+    app.kubernetes.io/component: webhook
+    app.kubernetes.io/instance: cert-manager
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: webhook
+    app.kubernetes.io/version: v1.5.3
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: cert-manager-v1.5.3
+    kubernetes.io/service-name: cert-manager-webhook
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"dc055790-4b1d-4eea-bb42-ac332c7e99b2"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-01T20:59:33Z'
+  name: cert-manager-webhook-k272s
+  namespace: cert-manager
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: cert-manager-webhook
+    uid: dc055790-4b1d-4eea-bb42-ac332c7e99b2
+  resourceVersion: '8614952'
+  uid: 460d1e49-d152-4e66-897f-ba019f3f83b9
+ports:
+- name: https
+  port: 10250
+  protocol: TCP

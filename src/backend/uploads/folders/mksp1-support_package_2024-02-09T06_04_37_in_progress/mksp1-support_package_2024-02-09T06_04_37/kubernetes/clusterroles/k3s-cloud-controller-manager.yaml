@@ -1,0 +1,97 @@
+metadata:
+  annotations:
+    objectset.rio.cattle.io/applied: H4sIAAAAAAAA/5SST4/TMBDFvwqaI0qy/Rc2G4kD4sCBGwcuqIeJPduaOJ7IM84KVv3uyGUXyoZCe0o8nvnpzXt+BBzdZ4riOEALsUNTYdI9R/cd1XGo+kYqxzfTEgroXbDQwnufRCl+Yk9QwECKFhWhfQQMgfU4J/nI3VcyKqRVdFwZVPWUYS5ToDh7zw+BYrmbemihX8vJzbQsXn10wb59Zy2H/yICDgQtGDNc1Cojmtzfp45K+SZKAxwK8NiR/+dCe5Q9tFAvmrvNm6be1KbeNKvNcm1u7xc1Netbuuua5n6xQruoVxn6JK1fS2k8J1saDhrZe4rlgAF3FHNbTJ4E2i/HoD5ETmM+gWGO1oXTiGBbQCThFM1xAjyhkOTyRLE7lnakUICJhJqjS6PNP9tD8QI/Y9FEQf9k/aKMqGZ/FS2wfSHs9cVjN6KoSaAAoTg587tyyvup6QLmMyTvwfZvbnkn+fNwNXGu5xqPnjBoDKcz1l9i2fOrPpNdXnGOwXGUGcoiDRyEdJ7c9vAjAAD//9fUhjNIBAAA
+    objectset.rio.cattle.io/id: ''
+    objectset.rio.cattle.io/owner-gvk: k3s.cattle.io/v1, Kind=Addon
+    objectset.rio.cattle.io/owner-name: ccm
+    objectset.rio.cattle.io/owner-namespace: kube-system
+  creationTimestamp: '2023-12-14T06:48:12Z'
+  labels:
+    objectset.rio.cattle.io/hash: 5089468545c5482413c7f05e837e9b88f02ad052
+  managedFields:
+  - apiVersion: rbac.authorization.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:objectset.rio.cattle.io/applied: {}
+          f:objectset.rio.cattle.io/id: {}
+          f:objectset.rio.cattle.io/owner-gvk: {}
+          f:objectset.rio.cattle.io/owner-name: {}
+          f:objectset.rio.cattle.io/owner-namespace: {}
+        f:labels:
+          .: {}
+          f:objectset.rio.cattle.io/hash: {}
+      f:rules: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:12Z'
+  name: k3s-cloud-controller-manager
+  resourceVersion: '268'
+  uid: 051b4f4b-c586-425c-ba31-e6ab5d7eb389
+rules:
+- apiGroups:
+  - coordination.k8s.io
+  resources:
+  - leases
+  verbs:
+  - get
+  - create
+  - update
+- apiGroups:
+  - ''
+  resources:
+  - events
+  verbs:
+  - create
+  - patch
+  - update
+- apiGroups:
+  - ''
+  resources:
+  - nodes
+  verbs:
+  - '*'
+- apiGroups:
+  - ''
+  resources:
+  - nodes/status
+  - services/status
+  verbs:
+  - patch
+- apiGroups:
+  - ''
+  resources:
+  - services
+  - pods
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - ''
+  resources:
+  - services
+  verbs:
+  - patch
+  - update
+- apiGroups:
+  - ''
+  resources:
+  - serviceaccounts
+  verbs:
+  - create
+- apiGroups:
+  - ''
+  resources:
+  - namespaces
+  verbs:
+  - create
+  - get
+- apiGroups:
+  - apps
+  resources:
+  - daemonsets
+  verbs:
+  - '*'

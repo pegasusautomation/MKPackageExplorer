@@ -1,0 +1,1682 @@
+     },
+                    "veth99f316be": {
+                        "bytes_recv": 149500369,
+                        "bytes_sent": 482594155,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 1464395,
+                        "packets_sent": 1196597
+                    },
+                    "vethab8de63f": {
+                        "bytes_recv": 5228705677,
+                        "bytes_sent": 5376531556,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 25336802,
+                        "packets_sent": 35322740
+                    },
+                    "vethc7482a0b": {
+                        "bytes_recv": 189273482,
+                        "bytes_sent": 470441391,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 1323857,
+                        "packets_sent": 1177907
+                    },
+                    "vethd07128f3": {
+                        "bytes_recv": 612,
+                        "bytes_sent": 570,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 8,
+                        "packets_sent": 7
+                    },
+                    "vethdf8ce8d7": {
+                        "bytes_recv": 27604733,
+                        "bytes_sent": 32522540,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 363353,
+                        "packets_sent": 428465
+                    },
+                    "vethe16126b4": {
+                        "bytes_recv": 48495439,
+                        "bytes_sent": 146885522,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 343750,
+                        "packets_sent": 305544
+                    },
+                    "vethe84f9b0b": {
+                        "bytes_recv": 54236019,
+                        "bytes_sent": 68504230,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 281633,
+                        "packets_sent": 277977
+                    },
+                    "vethea8d12c4": {
+                        "bytes_recv": 598902562,
+                        "bytes_sent": 6514247639,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 2277472,
+                        "packets_sent": 2144987
+                    },
+                    "vethed6cf7c0": {
+                        "bytes_recv": 186706871,
+                        "bytes_sent": 287675223,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 1893474,
+                        "packets_sent": 1868648
+                    },
+                    "vethf5d6af97": {
+                        "bytes_recv": 61309894,
+                        "bytes_sent": 360098649,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 537553,
+                        "packets_sent": 629181
+                    }
+                },
+                "networkInterfaceStats": {
+                    "cni0": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "eth0": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "down",
+                        "speed": 65535
+                    },
+                    "eth1": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "up",
+                        "speed": 1000
+                    },
+                    "eth2": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "down",
+                        "speed": 65535
+                    },
+                    "eth3": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "up",
+                        "speed": 1000
+                    },
+                    "eth4": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "up",
+                        "speed": 1000
+                    },
+                    "eth5": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "down",
+                        "speed": 65535
+                    },
+                    "flannel_1": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "unknown",
+                        "speed": 0
+                    },
+                    "internalk3s0": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "unknown",
+                        "speed": 0
+                    },
+                    "kube-ipvs0": {
+                        "duplex": 0,
+                        "isup": false,
+                        "mtu": 1500,
+                        "operstate": "down",
+                        "speed": 0
+                    },
+                    "lo": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 65536,
+                        "operstate": "unknown",
+                        "speed": 0
+                    },
+                    "veth0161da41": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth0a373b38": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth293794b0": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth2c54b4c3": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth38b8342a": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth3dc4c0e6": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth3e801014": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth41618c99": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth4e9f522f": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth555764a7": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth6b16fdae": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth6b8ddfb8": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth6c6ca4ef": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth6f3e1c02": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth73821d3a": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth748760ef": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth7efefcdc": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth83fc6c62": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth8c448120": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth8f5626bc": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth903077c8": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth9292b7b9": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth95dd6f3f": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth99f316be": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethab8de63f": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethc7482a0b": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethd07128f3": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethdf8ce8d7": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethe16126b4": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethe84f9b0b": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethea8d12c4": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethed6cf7c0": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethf5d6af97": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    }
+                }
+            },
+            "lastStatsUpdate": "2024-02-09T06:04:15Z",
+            "memory": {
+                "swap": {
+                    "free": 0,
+                    "percent": 0.0,
+                    "sin": 0,
+                    "sout": 0,
+                    "total": 0,
+                    "used": 0
+                },
+                "virtual": {
+                    "active": 1502695424,
+                    "available": 8864337920,
+                    "buffers": 485748736,
+                    "cached": 8213655552,
+                    "free": 549916672,
+                    "inactive": 12497526784,
+                    "percent": 46.3,
+                    "shared": 46243840,
+                    "slab": 1024827392,
+                    "total": 16501997568,
+                    "used": 7252676608
+                }
+            },
+            "updateInterval": "60"
+        },
+        "system_settings": {
+            "OS": "Linux AlmaLinux 8.5 Arctic Sphynx 64bit",
+            "networkSettings": {
+                "DNS": [
+                    "10.43.0.10"
+                ],
+                "devices": [
+                 [
+    {
+        "_id": {
+            "$oid": "657ad461053625cb03eca053"
+        },
+        "last_modified": {
+            "$date": 1707458676006
+        },
+        "server_id": "mksp1",
+        "settings": {
+            "managementIpAddress": "10.69.8.31"
+        },
+        "software": {
+            "controller": {
+                "connectors": [
+                    {
+                        "name": "Aquila-Multiplexing",
+                        "version": "20.0.3-29"
+                    }
+                ],
+                "name": "Aquila-Controller",
+                "version": "20.0.2+183"
+            },
+            "licensing": {
+                "name": "Aquila-Licenses",
+                "version": "20.0.2+183"
+            },
+            "mux": {
+                "name": "Aquila-Multiplexing",
+                "version": "20.0.3-29"
+            }
+        },
+        "statistics": {
+            "cpu": {
+                "info": "Intel(R) Xeon(R) CPU E3-1245 v6 @ 3.70GHz",
+                "usage": {
+                    "per_cpu": [
+                        10.5,
+                        12.1,
+                        10.3,
+                        12.2,
+                        11.9,
+                        10.0,
+                        12.4,
+                        11.4
+                    ],
+                    "total": 11.4
+                }
+            },
+            "disks": [
+                {
+                    "device": "/dev/mapper/vg_main-lv_var",
+                    "free": 12592545792,
+                    "mountpoint": "/etc/hosts",
+                    "percent": 54.9,
+                    "total": 29440770048,
+                    "type": "ext4",
+                    "used": 15326740480
+                }
+            ],
+            "gpu": {
+                "gpu": [
+                    {
+                        "Frequency": 0.0,
+                        "Render": 0.0,
+                        "Video 1": 0.0,
+                        "Video Enhancement": 0.0,
+                        "max": 0.0
+                    }
+                ]
+            },
+            "io": {
+                "disks": {
+                    "busy_time": 9274577,
+                    "read_bytes": 6944406016,
+                    "read_count": 134986,
+                    "read_merged_count": 2431,
+                    "read_time": 166951,
+                    "write_bytes": 319257117184,
+                    "write_count": 20996327,
+                    "write_merged_count": 6168468,
+                    "write_time": 22495287
+                },
+                "network": {
+                    "bytes_recv": 114293877099,
+                    "bytes_sent": 538735433054,
+                    "dropin": 0,
+                    "dropout": 0,
+                    "errin": 0,
+                    "errout": 0,
+                    "packets_recv": 314809676,
+                    "packets_sent": 618462507
+                },
+                "networkInterfaceCounters": {
+                    "cni0": {
+                        "bytes_recv": 10565687783,
+                        "bytes_sent": 29630509162,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 103328585,
+                        "packets_sent": 110004525
+                    },
+                    "eth0": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 0,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 0
+                    },
+                    "eth1": {
+                        "bytes_recv": 232620,
+                        "bytes_sent": 453933328887,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 3877,
+                        "packets_sent": 331720213
+                    },
+                    "eth2": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 0,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 0
+                    },
+                    "eth3": {
+                        "bytes_recv": 65789931375,
+                        "bytes_sent": 82619997,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 49051807,
+                        "packets_sent": 722398
+                    },
+                    "eth4": {
+                        "bytes_recv": 4145566099,
+                        "bytes_sent": 3578157403,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 21196759,
+                        "packets_sent": 26354829
+                    },
+                    "eth5": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 0,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 0
+                    },
+                    "flannel_1": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 0,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 0
+                    },
+                    "internalk3s0": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 126,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 3
+                    },
+                    "kube-ipvs0": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 0,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 0
+                    },
+                    "lo": {
+                        "bytes_recv": 16375887504,
+                        "bytes_sent": 16375887504,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 20245959,
+                        "packets_sent": 20245959
+                    },
+                    "veth0161da41": {
+                        "bytes_recv": 5414731163,
+                        "bytes_sent": 9852151724,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 44268459,
+                        "packets_sent": 34010055
+                    },
+                    "veth0a373b38": {
+                        "bytes_recv": 1383644,
+                        "bytes_sent": 4546654,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 21042,
+                        "packets_sent": 73199
+                    },
+                    "veth293794b0": {
+                        "bytes_recv": 5512,
+                        "bytes_sent": 3398582,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 78,
+                        "packets_sent": 53777
+                    },
+                    "veth2c54b4c3": {
+                        "bytes_recv": 32114399,
+                        "bytes_sent": 41392127,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 340821,
+                        "packets_sent": 499857
+                    },
+                    "veth38b8342a": {
+                        "bytes_recv": 816363562,
+                        "bytes_sent": 1684921576,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 4872505,
+                        "packets_sent": 4129076
+                    },
+                    "veth3dc4c0e6": {
+                        "bytes_recv": 6116,
+                        "bytes_sent": 3387792,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 86,
+                        "packets_sent": 53624
+                    },
+                    "veth3e801014": {
+                        "bytes_recv": 197225611,
+                        "bytes_sent": 485455052,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 1363957,
+                        "packets_sent": 952664
+                    },
+                    "veth41618c99": {
+                        "bytes_recv": 1339651239,
+                        "bytes_sent": 816717946,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 7611690,
+                        "packets_sent": 7672998
+                    },
+                    "veth4e9f522f": {
+                        "bytes_recv": 34912125,
+                        "bytes_sent": 92649526,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 394599,
+                        "packets_sent": 427657
+                    },
+                    "veth555764a7": {
+                        "bytes_recv": 163533368,
+                        "bytes_sent": 478099610,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 1315251,
+                        "packets_sent": 1195221
+                    },
+                    "veth6b16fdae": {
+                        "bytes_recv": 40983707,
+                        "bytes_sent": 102779578,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 455119,
+                        "packets_sent": 560207
+                    },
+                    "veth6b8ddfb8": {
+                        "bytes_recv": 22266576,
+                        "bytes_sent": 26896638,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 233226,
+                        "packets_sent": 379562
+                    },
+                    "veth6c6ca4ef": {
+                        "bytes_recv": 40933856,
+                        "bytes_sent": 34161498,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 372164,
+                        "packets_sent": 518828
+                    },
+                    "veth6f3e1c02": {
+                        "bytes_recv": 5442,
+                        "bytes_sent": 3392924,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 77,
+                        "packets_sent": 53698
+                    },
+                    "veth73821d3a": {
+                        "bytes_recv": 529989574,
+                        "bytes_sent": 709701983,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 5868041,
+                        "packets_sent": 5921276
+                    },
+                    "veth748760ef": {
+                        "bytes_recv": 228263875,
+                        "bytes_sent": 378322076,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 1607858,
+                        "packets_sent": 1422572
+                    },
+                    "veth7efefcdc": {
+                        "bytes_recv": 47060375,
+                        "bytes_sent": 333064152,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 317240,
+                        "packets_sent": 390115
+                    },
+                    "veth83fc6c62": {
+                        "bytes_recv": 496440676,
+                        "bytes_sent": 370784898,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 1695543,
+                        "packets_sent": 2237215
+                    },
+                    "veth8c448120": {
+                        "bytes_recv": 170515736,
+                        "bytes_sent": 251705399,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 1222233,
+                        "packets_sent": 958422
+                    },
+                    "veth8f5626bc": {
+                        "bytes_recv": 985943109,
+                        "bytes_sent": 5073800190,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 13563956,
+                        "packets_sent": 22528058
+                    },
+                    "veth903077c8": {
+                        "bytes_recv": 5442,
+                        "bytes_sent": 3400746,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 77,
+                        "packets_sent": 53813
+                    },
+                    "veth9292b7b9": {
+                        "bytes_recv": 309495511,
+                        "bytes_sent": 641305329,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 1636293,
+                        "packets_sent": 1916923
+                    },
+                    "veth95dd6f3f": {
+                        "bytes_recv": 5442,
+                        "bytes_sent": 3393870,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 77,
+                        "packets_sent": 53711
+                  {
+                        "address": "10.69.14.31",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "eth1",
+                        "gateway": null,
+                        "netmask": "255.255.255.0",
+                        "staticRoutes": [
+                            {
+                                "destination": "10.69.14.0",
+                                "gateway": "*",
+                                "netmask": "255.255.255.0"
+                            }
+                        ]
+                    },
+                    {
+                        "address": "10.69.12.31",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "eth3",
+                        "gateway": null,
+                        "netmask": "255.255.255.0",
+                        "staticRoutes": [
+                            {
+                                "destination": "10.69.12.0",
+                                "gateway": "*",
+                                "netmask": "255.255.255.0"
+                            }
+                        ]
+                    },
+                    {
+                        "address": "10.69.8.31",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "eth4",
+                        "gateway": null,
+                        "netmask": "255.255.255.0",
+                        "staticRoutes": [
+                            {
+                                "destination": "10.69.8.0",
+                                "gateway": "*",
+                                "netmask": "255.255.255.0"
+                            }
+                        ]
+                    },
+                    {
+                        "address": "192.168.255.1",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "internalk3s0",
+                        "gateway": null,
+                        "netmask": "255.255.255.0",
+                        "staticRoutes": [
+                            {
+                                "destination": "192.168.255.0",
+                                "gateway": "*",
+                                "netmask": "255.255.255.0"
+                            }
+                        ]
+                    },
+                    {
+                        "address": "10.43.228.145",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "kube-ipvs0",
+                        "gateway": null,
+                        "netmask": "255.255.255.255",
+                        "staticRoutes": []
+                    },
+                    {
+                        "address": "10.42.0.0",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "flannel.1",
+                        "gateway": null,
+                        "netmask": "255.255.255.255",
+                        "staticRoutes": []
+                    },
+                    {
+                        "address": "10.42.0.1",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "cni0",
+                        "gateway": null,
+                        "netmask": "255.255.255.0",
+                        "staticRoutes": [
+                            {
+                                "destination": "10.42.0.0",
+                                "gateway": "*",
+                                "netmask": "255.255.255.0"
+                            }
+                        ]
+                    }
+                ],
+                "hostname": "mksp1"
+            }
+        }
+    },
+    {
+        "_id": {
+            "$oid": "657ad8d5053625cb03ed0c66"
+        },
+        "last_modified": {
+            "$date": 1704351778101
+        },
+        "server_id": "mksp2",
+        "settings": {
+            "managementIpAddress": "10.69.8.32"
+        },
+        "software": {
+            "controller": {
+                "connectors": [
+                    {
+                        "name": "Aquila-Multiplexing",
+                        "version": "20.0.3-29"
+                    }
+                ],
+                "name": "Aquila-Controller",
+                "version": "20.0.2+183"
+            },
+            "licensing": {
+                "name": "Aquila-Licenses",
+                "version": "20.0.2+183"
+            },
+            "mux": {
+                "name": "Aquila-Multiplexing",
+                "version": "20.0.3-29"
+            }
+        },
+        "statistics": {
+            "cpu": {
+                "info": "Intel(R) Xeon(R) CPU E3-1245 v6 @ 3.70GHz",
+                "usage": {
+                    "per_cpu": [
+                        6.4,
+                        7.0,
+                        6.5,
+                        7.5,
+                        6.0,
+                        6.2,
+                        7.9,
+                        5.9
+                    ],
+                    "total": 6.7
+                }
+            },
+            "disks": [
+                {
+                    "device": "/dev/mapper/vg_main-lv_var",
+                    "free": 17554374656,
+                    "mountpoint": "/etc/hosts",
+                    "percent": 37.1,
+                    "total": 29440770048,
+                    "type": "ext4",
+                    "used": 10364911616
+                }
+            ],
+            "gpu": {
+                "gpu": [
+                    {
+                        "Frequency": 0.0,
+                        "Render": 0.0,
+                        "Video 1": 0.0,
+                        "Video Enhancement": 0.0,
+                        "max": 0.0
+                    }
+                ]
+            },
+            "io": {
+                "disks": {
+                    "busy_time": 59505,
+                    "read_bytes": 4973095424,
+                    "read_count": 90651,
+                    "read_merged_count": 1861,
+                    "read_time": 91830,
+                    "write_bytes": 1556059136,
+                    "write_count": 58991,
+                    "write_merged_count": 16452,
+                    "write_time": 100519
+                },
+                "network": {
+                    "bytes_recv": 20791782,
+                    "bytes_sent": 22531596,
+                    "dropin": 0,
+                    "dropout": 5,
+                    "errin": 0,
+                    "errout": 0,
+                    "packets_recv": 35566,
+                    "packets_sent": 35771
+                },
+                "networkInterfaceCounters": {
+                    "cni0": {
+                        "bytes_recv": 521948,
+                        "bytes_sent": 4092202,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 5423,
+                        "packets_sent": 3967
+                    },
+                    "eth0": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 0,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 0
+                    },
+                    "eth1": {
+                        "bytes_recv": 699,
+                        "bytes_sent": 908,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 7,
+                        "packets_sent": 12
+                    },
+                    "eth2": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 0,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 0
+                    },
+                    "eth3": {
+                        "bytes_recv": 120,
+                        "bytes_sent": 796,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 2,
+                        "packets_sent": 10
+                    },
+                    "eth4": {
+                        "bytes_recv": 3950976,
+                        "bytes_sent": 1350230,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 9471,
+                        "packets_sent": 7529
+                    },
+                    "eth5": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 0,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 0
+                    },
+                    "flannel_1": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 0,
+                        "dropin": 0,
+                        "dropout": 5,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 0
+                    },
+                    "internalk3s0": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 126,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 3
+                    },
+                    "kube-ipvs0": {
+                        "bytes_recv": 0,
+                        "bytes_sent": 0,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 0,
+                        "packets_sent": 0
+                    },
+                    "lo": {
+                        "bytes_recv": 15925829,
+                        "bytes_sent": 15925829,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 17019,
+                        "packets_sent": 17019
+                    },
+                    "veth03bf01ad": {
+                        "bytes_recv": 65883,
+                        "bytes_sent": 210104,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 603,
+                        "packets_sent": 657
+                    },
+                    "veth054bec3a": {
+                        "bytes_recv": 18502,
+                        "bytes_sent": 49873,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 228,
+                        "packets_sent": 599
+                    },
+                    "veth2ce27148": {
+                        "bytes_recv": 752,
+                        "bytes_sent": 23674,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 10,
+                        "packets_sent": 330
+                    },
+                    "veth35896e7e": {
+                        "bytes_recv": 10713,
+                        "bytes_sent": 22204,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 124,
+                        "packets_sent": 280
+                    },
+                    "veth35ad6add": {
+                        "bytes_recv": 752,
+                        "bytes_sent": 23250,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 10,
+                        "packets_sent": 324
+                    },
+                    "veth3d222a29": {
+                        "bytes_recv": 4098,
+                        "bytes_sent": 28298,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 47,
+                        "packets_sent": 372
+                    },
+                    "veth6e1e27f2": {
+                        "bytes_recv": 46825,
+                        "bytes_sent": 134516,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 435,
+                        "packets_sent": 515
+                    },
+                    "veth7becd6f0": {
+                        "bytes_recv": 16894,
+                        "bytes_sent": 55062,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 165,
+                        "packets_sent": 389
+                    },
+                    "veth8d9b1863": {
+                        "bytes_recv": 10110,
+                        "bytes_sent": 51524,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 97,
+                        "packets_sent": 357
+                    },
+                    "veth8da5f745": {
+                        "bytes_recv": 18320,
+                        "bytes_sent": 51211,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 167,
+                        "packets_sent": 324
+                    },
+                    "veth964a42da": {
+                        "bytes_recv": 29992,
+                        "bytes_sent": 69658,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 264,
+                        "packets_sent": 409
+                    },
+                    "vetha21424ae": {
+                        "bytes_recv": 3496,
+                        "bytes_sent": 19404,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 44,
+                        "packets_sent": 265
+                    },
+                    "vetha3bd2163": {
+                        "bytes_recv": 17160,
+                        "bytes_sent": 52828,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 179,
+                        "packets_sent": 383
+                    },
+                    "vethba8404bd": {
+                        "bytes_recv": 752,
+                        "bytes_sent": 15366,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 10,
+                        "packets_sent": 222
+                    },
+                    "vethc27cb557": {
+                        "bytes_recv": 35408,
+                        "bytes_sent": 95136,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 354,
+                        "packets_sent": 541
+                    },
+                    "vethc51ce4ce": {
+                        "bytes_recv": 11328,
+                        "bytes_sent": 35618,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 116,
+                        "packets_sent": 444
+                    },
+                    "vethf514377e": {
+                        "bytes_recv": 101225,
+                        "bytes_sent": 223779,
+                        "dropin": 0,
+                        "dropout": 0,
+                        "errin": 0,
+                        "errout": 0,
+                        "packets_recv": 791,
+                        "packets_sent": 820
+                    }
+                },
+                "networkInterfaceStats": {
+                    "cni0": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "eth0": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "down",
+                        "speed": 65535
+                    },
+                    "eth1": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "up",
+                        "speed": 1000
+                    },
+                    "eth2": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "down",
+                        "speed": 65535
+                    },
+                    "eth3": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "up",
+                        "speed": 1000
+                    },
+                    "eth4": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "up",
+                        "speed": 1000
+                    },
+                    "eth5": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "down",
+                        "speed": 65535
+                    },
+                    "flannel_1": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "unknown",
+                        "speed": 0
+                    },
+                    "internalk3s0": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 1500,
+                        "operstate": "unknown",
+                        "speed": 0
+                    },
+                    "kube-ipvs0": {
+                        "duplex": 0,
+                        "isup": false,
+                        "mtu": 1500,
+                        "operstate": "down",
+                        "speed": 0
+                    },
+                    "lo": {
+                        "duplex": 0,
+                        "isup": true,
+                        "mtu": 65536,
+                        "operstate": "unknown",
+                        "speed": 0
+                    },
+                    "veth03bf01ad": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth054bec3a": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth2ce27148": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth35896e7e": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth35ad6add": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth3d222a29": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth6e1e27f2": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth7becd6f0": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth8d9b1863": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth8da5f745": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "veth964a42da": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vetha21424ae": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vetha3bd2163": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethba8404bd": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethc27cb557": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethc51ce4ce": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    },
+                    "vethf514377e": {
+                        "duplex": 2,
+                        "isup": true,
+                        "mtu": 1450,
+                        "operstate": "up",
+                        "speed": 10000
+                    }
+                }
+            },
+            "lastStatsUpdate": "2024-01-04T07:02:31Z",
+            "memory": {
+                "swap": {
+                    "free": 0,
+                    "percent": 0.0,
+                    "sin": 0,
+                    "sout": 0,
+                    "total": 0,
+                    "used": 0
+                },
+                "virtual": {
+                    "active": 791465984,
+                    "available": 13350498304,
+                    "buffers": 74936320,
+                    "cached": 2809122816,
+                    "free": 10925932544,
+                    "inactive": 3634618368,
+                    "percent": 19.1,
+                    "shared": 125947904,
+                    "slab": 322510848,
+                    "total": 16501997568,
+                    "used": 2692005888
+                }
+            },
+            "updateInterval": "60"
+        },
+        "system_settings": {
+            "OS": "Linux AlmaLinux 8.5 Arctic Sphynx 64bit",
+            "networkSettings": {
+                "DNS": [
+                    "10.43.0.10"
+                ],
+                "devices": [
+                    {
+                        "address": "10.69.14.32",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "eth1",
+                        "gateway": null,
+                        "netmask": "255.255.255.0",
+                        "staticRoutes": [
+                            {
+                                "destination": "10.69.14.0",
+                                "gateway": "*",
+                                "netmask": "255.255.255.0"
+                            }
+                        ]
+                    },
+                    {
+                        "address": "10.69.12.32",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "eth3",
+                        "gateway": null,
+                        "netmask": "255.255.255.0",
+                        "staticRoutes": [
+                            {
+                                "destination": "10.69.12.0",
+                                "gateway": "*",
+                                "netmask": "255.255.255.0"
+                            }
+                        ]
+                    },
+                    {
+                        "address": "10.69.8.32",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "eth4",
+                        "gateway": null,
+                        "netmask": "255.255.255.0",
+                        "staticRoutes": [
+                            {
+                                "destination": "10.69.8.0",
+                                "gateway": "*",
+                                "netmask": "255.255.255.0"
+                            }
+                        ]
+                    },
+                    {
+                        "address": "192.168.255.1",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "internalk3s0",
+                        "gateway": null,
+                        "netmask": "255.255.255.0",
+                        "staticRoutes": [
+                            {
+                                "destination": "192.168.255.0",
+                                "gateway": "*",
+                                "netmask": "255.255.255.0"
+                            }
+                        ]
+                    },
+                    {
+                        "address": "10.43.93.26",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "kube-ipvs0",
+                        "gateway": null,
+                        "netmask": "255.255.255.255",
+                        "staticRoutes": []
+                    },
+                    {
+                        "address": "10.42.0.0",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "flannel.1",
+                        "gateway": null,
+                        "netmask": "255.255.255.255",
+                        "staticRoutes": []
+                    },
+                    {
+                        "address": "10.42.0.1",
+                        "bonded": false,
+                        "configType": "static",
+                        "devName": "cni0",
+                        "gateway": null,
+                        "netmask": "255.255.255.0",
+                        "staticRoutes": [
+                            {
+                                "destination": "10.42.0.0",
+                                "gateway": "*",
+                                "netmask": "255.255.255.0"
+                            }
+                        ]
+                    }
+                ],
+                "hostname": "mksp2"
+            }
+        }
+    }
+]

@@ -1,0 +1,180 @@
+data:
+  custom-init-script.sh: "#!/bin/bash\nsource /opt/bitnami/scripts/libbitnami.sh\n\
+    source /opt/bitnami/scripts/libmongodb.sh\nsource /opt/bitnami/scripts/mongodb-env.sh\n\
+    info \"** Starting MongoDB MediaKind custom setup **\"\n\n# We use the 'root'\
+    \ mongodb user here only to connect to a, possibly uninitialized (therefore no\
+    \ \"MediaKind\" user), localhost install\n\njoin_replicaset() {\n  local url=${1%%}\n\
+    \  if [[ \"${MONGODB_MK_ARBITER%%}\" == \"true\" ]]; then\n    info \"** MongoDB\
+    \ Join Replicaset as Arbiter **\"\n    mongo ${url%%} -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%}\
+    \ \\\n      --disableImplicitSessions  \\\n      --eval \"rs.addArb(\\\"${MONGODB_ADVERTISED_HOSTNAME%%}\\\
+    \")\"\n  else\n    info \"** MongoDB Join Replicaset as Secondary **\"\n    mongo\
+    \ ${url%%} -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%} \\\n      --disableImplicitSessions\
+    \  \\\n      --eval \"rs.add(\\\"${MONGODB_ADVERTISED_HOSTNAME%%}\\\")\"\n  fi\n\
+    }\n\ncreate_replicaset() {\n  info \"** MongoDB Create Replicaset **\"\n  local\
+    \ localhost_url=\"mongodb://127.0.0.1:27017/admin?authSource=admin\"\n  mongo\
+    \ ${localhost_url%%} -u root -p ${MONGODB_ROOT_PASSWORD%%} \\\n    --disableImplicitSessions\
+    \  \\\n    --eval \"rs.initiate({_id: \\\"repldb\\\", members:[{_id: 0, host:\
+    \ \\\"${MONGODB_ADVERTISED_HOSTNAME%%}:27017\\\"}]})\"\n  mongo ${localhost_url%%}\
+    \ -u root -p ${MONGODB_ROOT_PASSWORD%%} \\\n    --disableImplicitSessions  \\\n\
+    \    --eval 'cfg = rs.conf(); cfg.settings.electionTimeoutMillis = 1000; cfg.settings.heartbeatTimeoutSecs\
+    \ = 1; cfg.settings.heartbeatIntervalMillis = 200; rs.reconfig(cfg)'\n}\n\ninitialise_replicaset()\
+    \ {\n  mongodb_start_bg \"${MONGODB_CONF_FILE%%}\"\n  local localhost_url=\"mongodb://127.0.0.1:27017/admin?authSource=admin\"\
+    \n  if [[ \"${MONGODB_MK_ARBITER%%}\" == \"true\" ]]; then\n    mk_primary_url=\"\
+    mongodb://${MONGODB_MK_PRIMARY_HOST%%}:27017/admin?authSource=admin\"\n    local\
+    \ other_controller_address=$(mongo ${mk_primary_url%%} -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%}\
+    \ \\\n                                                               --disableImplicitSessions\
+    \  --quiet \\\n                                                              \
+    \ --eval \"rs.isMaster().primary\")\n    local other_controller_url=\"mongodb://${other_controller_address%%}/admin?authSource=admin\"\
+    \n  elif [[ \"${MONGODB_ADVERTISED_HOSTNAME%%}\" == \"${MONGODB_MK_PRIMARY_HOST%%}\"\
+    \ ]]; then\n    local other_controller_url=\"mongodb://${MONGODB_MK_SECONDARY_HOST%%}:27017/admin?authSource=admin\"\
+    \n  else\n    local other_controller_url=\"mongodb://${MONGODB_MK_PRIMARY_HOST%%}:27017/admin?authSource=admin\"\
+    \n  fi\n  info \"** Controller IPs = ${MONGODB_MK_PRIMARY_HOST%%}, ${MONGODB_MK_SECONDARY_HOST%%}\
+    \ **\"\n  info \"** other_controller=${other_controller_url%%} **\"\n\n  local\
+    \ first_try=true\n  while true; do\n    if ! ${first_try%%}; then\n      info\
+    \ \"** MongoDB Retrying In 1 Second **\"\n      sleep 1\n    fi\n    first_try=false\n\
+    \    local replicaset_status=$(mongo ${localhost_url%%} -u root -p ${MONGODB_ROOT_PASSWORD%%}\
+    \ --quiet --eval \"rs.conf()\")\n    if [[ \"${replicaset_status%%}\" == *\"NotYetInitialized\"\
+    * ]]; then\n      info \"** MongoDB Replicaset Not Yet Initialized **\"\n\n  \
+    \    # Create or join a replicaset\n      if [[ \"${other_controller_url%%}\"\
+    \ == *\"NOT_PRESENT\"* ]]; then\n        local other_mongo_ismaster=\"false\"\n\
+    \      else\n        local other_mongo_ismaster=$(mongo ${other_controller_url%%}\
+    \ -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%} --quiet --eval \"rs.isMaster().ismaster\"\
+    )\n      fi\n      # If there is a replicaset up on the other controller, try\
+    \ to join it\n      if [[ ${other_mongo_ismaster%%} == \"true\" ]]; then\n   \
+    \     info \"** Joining to ${other_controller_url%%} **\"\n        join_replicaset\
+    \ ${other_controller_url%%}\n      elif [[ \"${MONGODB_ADVERTISED_HOSTNAME%%}\"\
+    \ == \"${MONGODB_MK_PRIMARY_HOST%%}\" ]]; then\n        create_replicaset\n  \
+    \      # No need to retry replica set creation\n        break\n      fi\n    else\n\
+    \      info \"** MongoDB Replicaset Initialized **\"\n      break\n    fi\n  done\n\
+    \  mongodb_stop\n}\n\n/opt/bitnami/scripts/mongodb/setup.sh\n# Create the replset\
+    \ auth key and use it\nmongodb_create_keyfile \"${MONGODB_REPLICA_SET_KEY%%}\"\
+    \nmongodb_set_keyfile_conf \"${MONGODB_CONF_FILE%%}\"\n# Ensure we are listening\
+    \ on all interfaces\nmongodb_set_listen_all_conf \"${MONGODB_CONF_FILE%%}\"\n\
+    mongodb_set_replicasetmode_conf \"${MONGODB_CONF_FILE%%}\"\n# Copy the config\
+    \ to persistent storage\nrm -rf ${MONGODB_MOUNTED_CONF_DIR%%}\nmkdir -p ${MONGODB_MOUNTED_CONF_DIR%%}\n\
+    cp /opt/bitnami/mongodb/conf/* ${MONGODB_MOUNTED_CONF_DIR%%}/\n\n# Ensure that\
+    \ the replicaset is initialised\ninitialise_replicaset\n\ninfo \"** MongoDB MediaKind\
+    \ custom setup finished **\"\n/opt/bitnami/scripts/mongodb/run.sh \"$@\""
+  ensure-single-arbiter.sh: "#!/bin/bash\nsource /opt/bitnami/scripts/libbitnami.sh\n\
+    source /opt/bitnami/scripts/libmongodb.sh\nsource /opt/bitnami/scripts/mongodb-env.sh\n\
+    remove_old_arbiter() {\n  local url=\"mongodb://${MONGODB_MK_PRIMARY_HOST%%}:27017/admin?authSource=admin\"\
+    \n  # Find out which node is master (after an upgrade it will probably be controller2)\n\
+    \  local master_address=$(mongo ${url%%} -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%}\
+    \ \\\n                                        --disableImplicitSessions  --quiet\
+    \ \\\n                                        --eval \"rs.isMaster().primary\"\
+    )\n  local master_url=\"mongodb://${master_address%%}/admin?authSource=admin\"\
+    \n  local keep_going=1\n  local removed_arbiters=0\n  while [[ ${keep_going%%}\
+    \ -eq 1 ]]; do\n    keep_going=0\n    existing_arbiter=$(mongo ${master_url%%}\
+    \ -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%} \\\n                            --disableImplicitSessions\
+    \  --quiet \\\n                            --eval \"db.hello().arbiters[0]\")\n\
+    \    if [[ -n \"${existing_arbiter%%}\" && \"${MONGODB_ADVERTISED_HOSTNAME%%}:27017\"\
+    \ != \"${existing_arbiter%%}\" ]]; then\n      info \"** MongoDB Removing old\
+    \ Arbiter ${existing_arbiter%%} New Arbiter is ${MONGODB_ADVERTISED_HOSTNAME%%}:27017\
+    \ **\"\n      mongo ${master_url%%} -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%}\
+    \ \\\n            --disableImplicitSessions  \\\n            --eval \"rs.remove(\\\
+    \"${existing_arbiter%%}\\\")\"\n      keep_going=1\n      removed_arbiters=$((removed_arbiters+1))\n\
+    \      if [[ ${removed_arbiters%%} -gt 5 ]]; then\n        # It should never happen\
+    \ that we have multiple arbiters,\n        # but incase we do, only remove a few\
+    \ so we don't sit\n        # here too long.\n        warn \"** MongoDB Removed\
+    \ the maximum number of old Arbiters - if there are any more they should be manually\
+    \ removed **\"\n        break\n      fi\n      sleep 2\n    fi\n  done\n}\n\n\
+    info \"** MongoDB MediaKind removing any old arbiters starting **\"\nremove_old_arbiter\n\
+    info \"** MongoDB MediaKind removing any old arbiters finished **\"\n"
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: '{"apiVersion":"v1","data":{"custom-init-script.sh":"#!/bin/bash\nsource
+      /opt/bitnami/scripts/libbitnami.sh\nsource /opt/bitnami/scripts/libmongodb.sh\nsource
+      /opt/bitnami/scripts/mongodb-env.sh\ninfo \"** Starting MongoDB MediaKind custom
+      setup **\"\n\n# We use the ''root'' mongodb user here only to connect to a,
+      possibly uninitialized (therefore no \"MediaKind\" user), localhost install\n\njoin_replicaset()
+      {\n  local url=${1%%}\n  if [[ \"${MONGODB_MK_ARBITER%%}\" == \"true\" ]]; then\n    info
+      \"** MongoDB Join Replicaset as Arbiter **\"\n    mongo ${url%%} -u MediaKind
+      -p ${MONGODB_ROOT_PASSWORD%%} \\\n      --disableImplicitSessions  \\\n      --eval
+      \"rs.addArb(\\\"${MONGODB_ADVERTISED_HOSTNAME%%}\\\")\"\n  else\n    info \"**
+      MongoDB Join Replicaset as Secondary **\"\n    mongo ${url%%} -u MediaKind -p
+      ${MONGODB_ROOT_PASSWORD%%} \\\n      --disableImplicitSessions  \\\n      --eval
+      \"rs.add(\\\"${MONGODB_ADVERTISED_HOSTNAME%%}\\\")\"\n  fi\n}\n\ncreate_replicaset()
+      {\n  info \"** MongoDB Create Replicaset **\"\n  local localhost_url=\"mongodb://127.0.0.1:27017/admin?authSource=admin\"\n  mongo
+      ${localhost_url%%} -u root -p ${MONGODB_ROOT_PASSWORD%%} \\\n    --disableImplicitSessions  \\\n    --eval
+      \"rs.initiate({_id: \\\"repldb\\\", members:[{_id: 0, host: \\\"${MONGODB_ADVERTISED_HOSTNAME%%}:27017\\\"}]})\"\n  mongo
+      ${localhost_url%%} -u root -p ${MONGODB_ROOT_PASSWORD%%} \\\n    --disableImplicitSessions  \\\n    --eval
+      ''cfg = rs.conf(); cfg.settings.electionTimeoutMillis = 1000; cfg.settings.heartbeatTimeoutSecs
+      = 1; cfg.settings.heartbeatIntervalMillis = 200; rs.reconfig(cfg)''\n}\n\ninitialise_replicaset()
+      {\n  mongodb_start_bg \"${MONGODB_CONF_FILE%%}\"\n  local localhost_url=\"mongodb://127.0.0.1:27017/admin?authSource=admin\"\n  if
+      [[ \"${MONGODB_MK_ARBITER%%}\" == \"true\" ]]; then\n    mk_primary_url=\"mongodb://${MONGODB_MK_PRIMARY_HOST%%}:27017/admin?authSource=admin\"\n    local
+      other_controller_address=$(mongo ${mk_primary_url%%} -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%}
+      \\\n                                                               --disableImplicitSessions  --quiet
+      \\\n                                                               --eval \"rs.isMaster().primary\")\n    local
+      other_controller_url=\"mongodb://${other_controller_address%%}/admin?authSource=admin\"\n  elif
+      [[ \"${MONGODB_ADVERTISED_HOSTNAME%%}\" == \"${MONGODB_MK_PRIMARY_HOST%%}\"
+      ]]; then\n    local other_controller_url=\"mongodb://${MONGODB_MK_SECONDARY_HOST%%}:27017/admin?authSource=admin\"\n  else\n    local
+      other_controller_url=\"mongodb://${MONGODB_MK_PRIMARY_HOST%%}:27017/admin?authSource=admin\"\n  fi\n  info
+      \"** Controller IPs = ${MONGODB_MK_PRIMARY_HOST%%}, ${MONGODB_MK_SECONDARY_HOST%%}
+      **\"\n  info \"** other_controller=${other_controller_url%%} **\"\n\n  local
+      first_try=true\n  while true; do\n    if ! ${first_try%%}; then\n      info
+      \"** MongoDB Retrying In 1 Second **\"\n      sleep 1\n    fi\n    first_try=false\n    local
+      replicaset_status=$(mongo ${localhost_url%%} -u root -p ${MONGODB_ROOT_PASSWORD%%}
+      --quiet --eval \"rs.conf()\")\n    if [[ \"${replicaset_status%%}\" == *\"NotYetInitialized\"*
+      ]]; then\n      info \"** MongoDB Replicaset Not Yet Initialized **\"\n\n      #
+      Create or join a replicaset\n      if [[ \"${other_controller_url%%}\" == *\"NOT_PRESENT\"*
+      ]]; then\n        local other_mongo_ismaster=\"false\"\n      else\n        local
+      other_mongo_ismaster=$(mongo ${other_controller_url%%} -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%}
+      --quiet --eval \"rs.isMaster().ismaster\")\n      fi\n      # If there is a
+      replicaset up on the other controller, try to join it\n      if [[ ${other_mongo_ismaster%%}
+      == \"true\" ]]; then\n        info \"** Joining to ${other_controller_url%%}
+      **\"\n        join_replicaset ${other_controller_url%%}\n      elif [[ \"${MONGODB_ADVERTISED_HOSTNAME%%}\"
+      == \"${MONGODB_MK_PRIMARY_HOST%%}\" ]]; then\n        create_replicaset\n        #
+      No need to retry replica set creation\n        break\n      fi\n    else\n      info
+      \"** MongoDB Replicaset Initialized **\"\n      break\n    fi\n  done\n  mongodb_stop\n}\n\n/opt/bitnami/scripts/mongodb/setup.sh\n#
+      Create the replset auth key and use it\nmongodb_create_keyfile \"${MONGODB_REPLICA_SET_KEY%%}\"\nmongodb_set_keyfile_conf
+      \"${MONGODB_CONF_FILE%%}\"\n# Ensure we are listening on all interfaces\nmongodb_set_listen_all_conf
+      \"${MONGODB_CONF_FILE%%}\"\nmongodb_set_replicasetmode_conf \"${MONGODB_CONF_FILE%%}\"\n#
+      Copy the config to persistent storage\nrm -rf ${MONGODB_MOUNTED_CONF_DIR%%}\nmkdir
+      -p ${MONGODB_MOUNTED_CONF_DIR%%}\ncp /opt/bitnami/mongodb/conf/* ${MONGODB_MOUNTED_CONF_DIR%%}/\n\n#
+      Ensure that the replicaset is initialised\ninitialise_replicaset\n\ninfo \"**
+      MongoDB MediaKind custom setup finished **\"\n/opt/bitnami/scripts/mongodb/run.sh
+      \"$@\"","ensure-single-arbiter.sh":"#!/bin/bash\nsource /opt/bitnami/scripts/libbitnami.sh\nsource
+      /opt/bitnami/scripts/libmongodb.sh\nsource /opt/bitnami/scripts/mongodb-env.sh\nremove_old_arbiter()
+      {\n  local url=\"mongodb://${MONGODB_MK_PRIMARY_HOST%%}:27017/admin?authSource=admin\"\n  #
+      Find out which node is master (after an upgrade it will probably be controller2)\n  local
+      master_address=$(mongo ${url%%} -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%} \\\n                                        --disableImplicitSessions  --quiet
+      \\\n                                        --eval \"rs.isMaster().primary\")\n  local
+      master_url=\"mongodb://${master_address%%}/admin?authSource=admin\"\n  local
+      keep_going=1\n  local removed_arbiters=0\n  while [[ ${keep_going%%} -eq 1 ]];
+      do\n    keep_going=0\n    existing_arbiter=$(mongo ${master_url%%} -u MediaKind
+      -p ${MONGODB_ROOT_PASSWORD%%} \\\n                            --disableImplicitSessions  --quiet
+      \\\n                            --eval \"db.hello().arbiters[0]\")\n    if [[
+      -n \"${existing_arbiter%%}\" \u0026\u0026 \"${MONGODB_ADVERTISED_HOSTNAME%%}:27017\"
+      != \"${existing_arbiter%%}\" ]]; then\n      info \"** MongoDB Removing old
+      Arbiter ${existing_arbiter%%} New Arbiter is ${MONGODB_ADVERTISED_HOSTNAME%%}:27017
+      **\"\n      mongo ${master_url%%} -u MediaKind -p ${MONGODB_ROOT_PASSWORD%%}
+      \\\n            --disableImplicitSessions  \\\n            --eval \"rs.remove(\\\"${existing_arbiter%%}\\\")\"\n      keep_going=1\n      removed_arbiters=$((removed_arbiters+1))\n      if
+      [[ ${removed_arbiters%%} -gt 5 ]]; then\n        # It should never happen that
+      we have multiple arbiters,\n        # but incase we do, only remove a few so
+      we don''t sit\n        # here too long.\n        warn \"** MongoDB Removed the
+      maximum number of old Arbiters - if there are any more they should be manually
+      removed **\"\n        break\n      fi\n      sleep 2\n    fi\n  done\n}\n\ninfo
+      \"** MongoDB MediaKind removing any old arbiters starting **\"\nremove_old_arbiter\ninfo
+      \"** MongoDB MediaKind removing any old arbiters finished **\"\n"},"kind":"ConfigMap","metadata":{"annotations":{},"name":"mongodb-custom-init-scripts","namespace":"mediakind"}}
+
+      '
+  creationTimestamp: '2023-12-14T06:57:08Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:custom-init-script.sh: {}
+        f:ensure-single-arbiter.sh: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:kubectl.kubernetes.io/last-applied-configuration: {}
+    manager: kubectl-client-side-apply
+    operation: Update
+    time: '2023-12-14T06:57:08Z'
+  name: mongodb-custom-init-scripts
+  namespace: mediakind
+  resourceVersion: '1037'
+  uid: 5ee03632-8578-4eca-8c72-d37d4bc4b0a3

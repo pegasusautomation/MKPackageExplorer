@@ -1,0 +1,75 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.153
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: cert-manager-7cd4d77f86-srqgs
+    namespace: cert-manager
+    resourceVersion: '8614868'
+    uid: 4c208f0f-d59d-4b3d-94f6-21890b569538
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:18Z'
+  creationTimestamp: '2023-12-14T06:56:52Z'
+  generateName: cert-manager-
+  generation: 17
+  labels:
+    app: cert-manager
+    app.kubernetes.io/component: controller
+    app.kubernetes.io/instance: cert-manager
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: cert-manager
+    app.kubernetes.io/version: v1.5.3
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: cert-manager-v1.5.3
+    kubernetes.io/service-name: cert-manager
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"a963427d-f9a4-44d2-82b8-65d1730851fc"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T08:36:30Z'
+  name: cert-manager-5mrbv
+  namespace: cert-manager
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: cert-manager
+    uid: a963427d-f9a4-44d2-82b8-65d1730851fc
+  resourceVersion: '8614871'
+  uid: 6309becd-55f9-4731-8634-346fb1d74c90
+ports:
+- name: tcp-prometheus-servicemonitor
+  port: 9402
+  protocol: TCP

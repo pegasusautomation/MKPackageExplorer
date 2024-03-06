@@ -1,0 +1,233 @@
+data:
+  spec:
+    template:
+      $patch: replace
+      metadata:
+        annotations:
+          checksum/config: ff214fedac28236efa1a749a92fd354271236af9c6d54fb77a84e9e9319e8f25
+          checksum/secret: ed01d3809f5702b815553522a405379a2e00d68228a5cec40feced7a652f1082
+        creationTimestamp: null
+        labels:
+          app.kubernetes.io/instance: mk-deps
+          app.kubernetes.io/managed-by: Helm
+          app.kubernetes.io/name: rabbitmq
+          helm.sh/chart: rabbitmq-8.21.0
+      spec:
+        affinity:
+          podAntiAffinity:
+            requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchLabels:
+                  app.kubernetes.io/instance: rabbitmq-ha
+              topologyKey: kubernetes.io/hostname
+        containers:
+        - command:
+          - /bin/bash
+          - -c
+          - 'shopt -s dotglob
+
+            rm -fR /opt/bitnami/rabbitmq/.rabbitmq/*
+
+            rm -fR /opt/bitnami/rabbitmq/var/lib/rabbitmq/*
+
+            rm -fR /bitnami/rabbitmq/mnesia/*
+
+            echo "${RABBITMQ_ERL_COOKIE}" > /opt/bitnami/rabbitmq/.rabbitmq/.erlang.cookie
+
+            chmod 600 /opt/bitnami/rabbitmq/.rabbitmq/.erlang.cookie
+
+            exec /opt/bitnami/scripts/rabbitmq/entrypoint.sh /opt/bitnami/scripts/rabbitmq/run.sh
+
+            '
+          env:
+          - name: BITNAMI_DEBUG
+            value: 'false'
+          - name: MY_POD_IP
+            valueFrom:
+              fieldRef:
+                apiVersion: v1
+                fieldPath: status.podIP
+          - name: MY_POD_NAME
+            valueFrom:
+              fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.name
+          - name: MY_POD_NAMESPACE
+            valueFrom:
+              fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.namespace
+          - name: K8S_SERVICE_NAME
+            value: rabbitmq-ha-controller1-headless
+          - name: K8S_ADDRESS_TYPE
+            value: hostname
+          - name: RABBITMQ_FORCE_BOOT
+            value: 'no'
+          - name: RABBITMQ_NODE_NAME
+            value: rabbit@$(MY_POD_NAME).$(K8S_SERVICE_NAME).$(MY_POD_NAMESPACE).svc.cluster.local
+          - name: K8S_HOSTNAME_SUFFIX
+            value: .$(K8S_SERVICE_NAME).$(MY_POD_NAMESPACE).svc.cluster.local
+          - name: RABBITMQ_MNESIA_DIR
+            value: /bitnami/rabbitmq/mnesia/$(RABBITMQ_NODE_NAME)
+          - name: RABBITMQ_LDAP_ENABLE
+            value: 'no'
+          - name: RABBITMQ_LOGS
+            value: '-'
+          - name: RABBITMQ_ULIMIT_NOFILES
+          - name: RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS
+            value: +S 2:1
+          - name: RABBITMQ_USE_LONGNAME
+            value: 'true'
+          - name: RABBITMQ_ERL_COOKIE
+            valueFrom:
+              secretKeyRef:
+                key: rabbitmq-erlang-cookie
+                name: rabbitmq-ha-controller1
+          - name: RABBITMQ_LOAD_DEFINITIONS
+            value: 'yes'
+          - name: RABBITMQ_SECURE_PASSWORD
+            value: 'no'
+          - name: RABBITMQ_PLUGINS
+            value: rabbitmq_management, rabbitmq_peer_discovery_k8s, rabbitmq_auth_backend_ldap
+          image: packages.mediakind.com/mpd-docker/bitnami/rabbitmq:3.9.5-debian-10-r12
+          imagePullPolicy: IfNotPresent
+          lifecycle:
+            preStop:
+              exec:
+                command:
+                - /bin/bash
+                - -ec
+                - "if [[ -f /opt/bitnami/scripts/rabbitmq/nodeshutdown.sh ]]; then\n\
+                  \    /opt/bitnami/scripts/rabbitmq/nodeshutdown.sh -t \"120\" -d\
+                  \  \"false\"\nelse\n    rabbitmqctl stop_app\nfi\n"
+          livenessProbe:
+            exec:
+              command:
+              - /usr/bin/curl
+              - -i
+              - -m 2
+              - -u guest:guest
+              - -H "content-type:application/json" -XGET -d'{"type":"direct","durable":true}'
+              - http://localhost:15672/api/aliveness-test/%2F
+            failureThreshold: 6
+            initialDelaySeconds: 120
+            periodSeconds: 30
+            successThreshold: 1
+            timeoutSeconds: 5
+          name: rabbitmq
+          ports:
+          - containerPort: 5672
+            hostPort: 5672
+            name: amqp
+            protocol: TCP
+          - containerPort: 25672
+            hostPort: 25672
+            name: dist
+            protocol: TCP
+          - containerPort: 15672
+            hostPort: 15672
+            name: stats
+            protocol: TCP
+          - containerPort: 4369
+            hostPort: 4369
+            name: epmd
+            protocol: TCP
+          readinessProbe:
+            exec:
+              command:
+              - /usr/bin/curl
+              - -i
+              - -m 2
+              - -u guest:guest
+              - -H "content-type:application/json" -XGET -d'{"type":"direct","durable":true}'
+              - http://localhost:15672/api/aliveness-test/%2F
+            failureThreshold: 6
+            initialDelaySeconds: 10
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 5
+          resources:
+            limits:
+              cpu: '1'
+              memory: 1Gi
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /bitnami/rabbitmq/conf
+            name: configuration
+          - mountPath: /bitnami/rabbitmq/mnesia
+            name: data
+          - mountPath: /app
+            name: load-definition-volume
+            readOnly: true
+        dnsPolicy: ClusterFirst
+        priorityClassName: controller-highest-priority
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext:
+          fsGroup: 1001
+          runAsUser: 1001
+        serviceAccount: rabbitmq-ha-controller1
+        serviceAccountName: rabbitmq-ha-controller1
+        terminationGracePeriodSeconds: 120
+        volumes:
+        - configMap:
+            defaultMode: 420
+            items:
+            - key: rabbitmq.conf
+              path: rabbitmq.conf
+            name: rabbitmq-ha-controller1-config
+          name: configuration
+        - name: load-definition-volume
+          secret:
+            defaultMode: 420
+            secretName: load-definition
+        - emptyDir: {}
+          name: data
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mk-deps
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T07:14:04Z'
+  labels:
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: rabbitmq
+    controller.kubernetes.io/hash: 544bf9c687
+    helm.sh/chart: rabbitmq-8.21.0
+  managedFields:
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:controller.kubernetes.io/hash: {}
+          f:helm.sh/chart: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"019f9fbd-1bb9-4c52-8a80-c062339cb535"}: {}
+      f:revision: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T07:14:04Z'
+  name: rabbitmq-ha-controller1-544bf9c687
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: StatefulSet
+    name: rabbitmq-ha-controller1
+    uid: 019f9fbd-1bb9-4c52-8a80-c062339cb535
+  resourceVersion: '18430'
+  uid: a5527c2e-2628-4a9e-8e48-de59886eeb87
+revision: 13

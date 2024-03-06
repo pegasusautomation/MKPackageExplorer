@@ -1,0 +1,49 @@
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:17Z'
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: alarm
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: alarm-legacy
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.103.5
+    helm.sh/chart: alarm-1.103.5
+    service.kubernetes.io/headless: ''
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+          f:service.kubernetes.io/headless: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-01-30T10:39:57Z'
+  name: alarm-legacy
+  namespace: mediakind
+  resourceVersion: '8614796'
+  uid: 004aefbe-6dd8-4591-a923-74acee6fe3e5
+subsets:
+- addresses:
+  - ip: 10.42.0.150
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: alarm-legacy-587f58d9cb-vq59l
+      namespace: mediakind
+      resourceVersion: '8614794'
+      uid: efdd1149-a0b5-459e-b935-dcb7afec0cc0

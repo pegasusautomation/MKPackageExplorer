@@ -1,0 +1,71 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.180
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: support-package-588855995d-cwk9f
+    namespace: mediakind
+    resourceVersion: '8615103'
+    uid: c767d6a6-02ae-4b23-a0cd-bd494bfa6387
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:56Z'
+  creationTimestamp: '2023-12-14T06:51:36Z'
+  generateName: crpm-support-package-
+  generation: 36
+  labels:
+    app.kubernetes.io/component: support-package
+    app.kubernetes.io/instance: support-package
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: support-package
+    app.kubernetes.io/part-of: support-package
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    kubernetes.io/service-name: crpm-support-package
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"9c8e88c0-312b-480f-a333-6150795018c5"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:28:57Z'
+  name: crpm-support-package-r8478
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: crpm-support-package
+    uid: 9c8e88c0-312b-480f-a333-6150795018c5
+  resourceVersion: '8615105'
+  uid: f3ea3d7f-c62c-4544-a69c-f78f6c54ac92
+ports:
+- name: restapi
+  port: 8062
+  protocol: TCP

@@ -1,0 +1,81 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: api-gateway
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: api-gateway
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.29.21
+    helm.sh/chart: api-gateway-1.29.21
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:spec:
+        f:internalTrafficPolicy: {}
+        f:ports:
+          .: {}
+          k:{"port":8080,"protocol":"TCP"}:
+            .: {}
+            f:name: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+          k:{"port":8443,"protocol":"TCP"}:
+            .: {}
+            f:name: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+        f:selector: {}
+        f:sessionAffinity: {}
+        f:type: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  name: api-gateway
+  namespace: mediakind
+  resourceVersion: '18896'
+  uid: 466ae53c-6bad-44f0-8cd0-49b779a804ef
+spec:
+  clusterIP: 10.43.9.213
+  clusterIPs:
+  - 10.43.9.213
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: http
+    port: 8080
+    protocol: TCP
+    targetPort: http
+  - name: https
+    port: 8443
+    protocol: TCP
+    targetPort: https
+  selector:
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/name: api-gateway
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

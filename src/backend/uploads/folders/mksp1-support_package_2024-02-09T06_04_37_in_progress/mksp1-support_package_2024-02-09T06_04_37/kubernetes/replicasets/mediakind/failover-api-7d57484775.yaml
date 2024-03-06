@@ -1,0 +1,387 @@
+metadata:
+  annotations:
+    deployment.kubernetes.io/desired-replicas: '1'
+    deployment.kubernetes.io/max-replicas: '2'
+    deployment.kubernetes.io/revision: '1'
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:18Z'
+  generation: 1
+  labels:
+    app.kubernetes.io/component: failover-api
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: failover-api
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.101.3
+    helm.sh/chart: failover-api-0.101.3
+    pod-template-hash: 7d57484775
+  managedFields:
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:deployment.kubernetes.io/desired-replicas: {}
+          f:deployment.kubernetes.io/max-replicas: {}
+          f:deployment.kubernetes.io/revision: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+          f:pod-template-hash: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"c16e4fff-418e-45aa-9ae2-9b65f10f6037"}: {}
+      f:spec:
+        f:replicas: {}
+        f:selector: {}
+        f:template:
+          f:metadata:
+            f:labels:
+              .: {}
+              f:app.kubernetes.io/component: {}
+              f:app.kubernetes.io/instance: {}
+              f:app.kubernetes.io/managed-by: {}
+              f:app.kubernetes.io/name: {}
+              f:app.kubernetes.io/part-of: {}
+              f:app.kubernetes.io/version: {}
+              f:helm.sh/chart: {}
+              f:pod-template-hash: {}
+          f:spec:
+            f:containers:
+              k:{"name":"celery"}:
+                .: {}
+                f:args: {}
+                f:env:
+                  .: {}
+                  k:{"name":"CELERYD_LOG_LEVEL"}:
+                    .: {}
+                    f:name: {}
+                    f:value: {}
+                  k:{"name":"CELERYD_NODES"}:
+                    .: {}
+                    f:name: {}
+                    f:value: {}
+                  k:{"name":"CELERYD_OPTS"}:
+                    .: {}
+                    f:name: {}
+                    f:value: {}
+                  k:{"name":"CELERY_APP"}:
+                    .: {}
+                    f:name: {}
+                    f:value: {}
+                  k:{"name":"CELERY_INI_FILE"}:
+                    .: {}
+                    f:name: {}
+                    f:value: {}
+                  k:{"name":"CELERY_RESULT_BACKEND"}:
+                    .: {}
+                    f:name: {}
+                    f:value: {}
+                  k:{"name":"CELERY_WORKER_COUNT"}:
+                    .: {}
+                    f:name: {}
+                    f:value: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:name: {}
+                f:resources: {}
+                f:securityContext:
+                  .: {}
+                  f:allowPrivilegeEscalation: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/opt/ericsson/failover-api/etc/failover-api.ini"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/tmp"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+              k:{"name":"failover-api"}:
+                .: {}
+                f:args: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:livenessProbe:
+                  .: {}
+                  f:failureThreshold: {}
+                  f:httpGet:
+                    .: {}
+                    f:path: {}
+                    f:port: {}
+                    f:scheme: {}
+                  f:initialDelaySeconds: {}
+                  f:periodSeconds: {}
+                  f:successThreshold: {}
+                  f:timeoutSeconds: {}
+                f:name: {}
+                f:ports:
+                  .: {}
+                  k:{"containerPort":8006,"protocol":"TCP"}:
+                    .: {}
+                    f:containerPort: {}
+                    f:name: {}
+                    f:protocol: {}
+                f:readinessProbe:
+                  .: {}
+                  f:failureThreshold: {}
+                  f:httpGet:
+                    .: {}
+                    f:path: {}
+                    f:port: {}
+                    f:scheme: {}
+                  f:initialDelaySeconds: {}
+                  f:periodSeconds: {}
+                  f:successThreshold: {}
+                  f:timeoutSeconds: {}
+                f:resources: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/opt/ericsson/failover-api/etc/failover-api.ini"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/opt/ericsson/failover-api/etc/logging_failover-api.json"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+              k:{"name":"failover-daemon"}:
+                .: {}
+                f:args: {}
+                f:env:
+                  .: {}
+                  k:{"name":"EVENTLET_NO_GREENDNS"}:
+                    .: {}
+                    f:name: {}
+                    f:value: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:name: {}
+                f:resources: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/opt/ericsson/failover-api/etc/failover-api.ini"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/opt/ericsson/failover-api/etc/logging_failover-daemon.json"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+            f:dnsPolicy: {}
+            f:enableServiceLinks: {}
+            f:restartPolicy: {}
+            f:schedulerName: {}
+            f:securityContext:
+              .: {}
+              f:fsGroup: {}
+              f:runAsUser: {}
+            f:terminationGracePeriodSeconds: {}
+            f:volumes:
+              .: {}
+              k:{"name":"config"}:
+                .: {}
+                f:configMap:
+                  .: {}
+                  f:defaultMode: {}
+                  f:name: {}
+                f:name: {}
+              k:{"name":"tmp"}:
+                .: {}
+                f:emptyDir: {}
+                f:name: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:09:18Z'
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:availableReplicas: {}
+        f:fullyLabeledReplicas: {}
+        f:observedGeneration: {}
+        f:readyReplicas: {}
+        f:replicas: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:29:18Z'
+  name: failover-api-7d57484775
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Deployment
+    name: failover-api
+    uid: c16e4fff-418e-45aa-9ae2-9b65f10f6037
+  resourceVersion: '8615315'
+  uid: e7977ad1-ceb0-4852-b5c5-6715e5bd6327
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: mkc
+      app.kubernetes.io/name: failover-api
+      pod-template-hash: 7d57484775
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app.kubernetes.io/component: failover-api
+        app.kubernetes.io/instance: mkc
+        app.kubernetes.io/managed-by: Helm
+        app.kubernetes.io/name: failover-api
+        app.kubernetes.io/part-of: mkc
+        app.kubernetes.io/version: 0.101.3
+        helm.sh/chart: failover-api-0.101.3
+        pod-template-hash: 7d57484775
+    spec:
+      containers:
+      - args:
+        - -m
+        - celery
+        - -A
+        - $(CELERY_APP)
+        - worker
+        - --concurrency
+        - $(CELERY_WORKER_COUNT)
+        - --loglevel
+        - $(CELERYD_LOG_LEVEL)
+        env:
+        - name: CELERY_INI_FILE
+          value: /opt/ericsson/failover-api/etc/failover-api.ini
+        - name: CELERY_APP
+          value: ericsson.failover
+        - name: CELERYD_NODES
+          value: ericssonfailoverworker1
+        - name: CELERYD_OPTS
+          value: -Ofair
+        - name: CELERYD_LOG_LEVEL
+          value: INFO
+        - name: CELERY_WORKER_COUNT
+          value: '8'
+        - name: CELERY_RESULT_BACKEND
+          value: rpc://
+        image: packages.mediakind.com/mpd-docker/mediakind/failover-api:0.101.3
+        imagePullPolicy: IfNotPresent
+        name: celery
+        resources: {}
+        securityContext:
+          allowPrivilegeEscalation: false
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /opt/ericsson/failover-api/etc/failover-api.ini
+          name: config
+          subPath: failover-api.ini
+        - mountPath: /tmp
+          name: tmp
+      - args:
+        - /src/ericsson/failover/api/app.py
+        - --conf
+        - /opt/ericsson/failover-api/etc/failover-api.ini
+        - --logging
+        - /opt/ericsson/failover-api/etc/logging_failover-api.json
+        image: packages.mediakind.com/mpd-docker/mediakind/failover-api:0.101.3
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /api/liveness
+            port: restapi
+            scheme: HTTP
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 1
+        name: failover-api
+        ports:
+        - containerPort: 8006
+          name: restapi
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /api/readiness
+            port: restapi
+            scheme: HTTP
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 1
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /opt/ericsson/failover-api/etc/failover-api.ini
+          name: config
+          subPath: failover-api.ini
+        - mountPath: /opt/ericsson/failover-api/etc/logging_failover-api.json
+          name: config
+          subPath: logging_failover-api.json
+      - args:
+        - /src/ericsson/failover/daemon/app.py
+        - --conf
+        - /opt/ericsson/failover-api/etc/failover-api.ini
+        - --logging
+        - /opt/ericsson/failover-api/etc/logging_failover-daemon.json
+        env:
+        - name: EVENTLET_NO_GREENDNS
+          value: 'yes'
+        image: packages.mediakind.com/mpd-docker/mediakind/failover-api:0.101.3
+        imagePullPolicy: IfNotPresent
+        name: failover-daemon
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /opt/ericsson/failover-api/etc/failover-api.ini
+          name: config
+          subPath: failover-api.ini
+        - mountPath: /opt/ericsson/failover-api/etc/logging_failover-daemon.json
+          name: config
+          subPath: logging_failover-daemon.json
+      dnsPolicy: ClusterFirst
+      enableServiceLinks: false
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext:
+        fsGroup: 2
+        runAsUser: 2
+      terminationGracePeriodSeconds: 0
+      volumes:
+      - configMap:
+          defaultMode: 420
+          name: failover-api-config
+        name: config
+      - emptyDir: {}
+        name: tmp
+status:
+  availableReplicas: 1
+  fullyLabeledReplicas: 1
+  observedGeneration: 1
+  readyReplicas: 1
+  replicas: 1

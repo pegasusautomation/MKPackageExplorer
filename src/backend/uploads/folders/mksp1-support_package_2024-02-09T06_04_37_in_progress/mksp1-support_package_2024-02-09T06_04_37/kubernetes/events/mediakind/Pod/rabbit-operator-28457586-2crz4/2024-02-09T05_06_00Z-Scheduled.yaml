@@ -1,0 +1,38 @@
+action: Binding
+eventTime: '2024-02-09T05:06:00.132827Z'
+firstTimestamp: null
+involvedObject:
+  apiVersion: v1
+  kind: Pod
+  name: rabbit-operator-28457586-2crz4
+  namespace: mediakind
+  resourceVersion: '9037166'
+  uid: 63771df7-ecab-4cd0-bf08-ab9140f3719d
+lastTimestamp: null
+message: Successfully assigned mediakind/rabbit-operator-28457586-2crz4 to mediakind-k3s
+metadata:
+  creationTimestamp: '2024-02-09T05:06:00Z'
+  managedFields:
+  - apiVersion: events.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:action: {}
+      f:eventTime: {}
+      f:note: {}
+      f:reason: {}
+      f:regarding: {}
+      f:reportingController: {}
+      f:reportingInstance: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-09T05:06:00Z'
+  name: rabbit-operator-28457586-2crz4.17b2196bf1a0092a
+  namespace: mediakind
+  resourceVersion: '9037170'
+  uid: adfa79b3-575a-4f3f-8b84-0dc7b07db22a
+reason: Scheduled
+reportingComponent: default-scheduler
+reportingInstance: default-scheduler-mksp1
+source: {}
+type: Normal

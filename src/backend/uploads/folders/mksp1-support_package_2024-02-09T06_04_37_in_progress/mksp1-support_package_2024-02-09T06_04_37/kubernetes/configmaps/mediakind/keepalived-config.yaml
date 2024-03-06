@@ -1,0 +1,58 @@
+data:
+  keepalived.conf: "global_defs {\n    enable_script_security\n    script_user root\n\
+    }\n\n# Define the script to see if the local node is the primary\nvrrp_script\
+    \ chk_mongo_primary {\n    script \"/check_mongo.sh\"\n    interval 2 # Every\
+    \ two seconds\n    timeout 2  # Increase the timeout to two seconds to avoid false\
+    \ positives on systems under heavy load\n    rise 1     # Number of successes\
+    \ for OK transition\n    fall 2     # Number of failures for KO transition\n}\n\
+    \nvrrp_instance VIP_CTRL {\n    state BACKUP\n    interface eth4\n    # Needs\
+    \ to be the same on both instances, and needs to be\n    # unique per Controller\
+    \ pair on the same network\n    virtual_router_id 30\n    priority 100   # Same\
+    \ value if symmetric configuration\n\n    unicast_src_ip 10.69.8.31\n    unicast_peer\
+    \ {\n        10.69.8.32\n    }\n\n    virtual_ipaddress {\n        10.69.8.30\n\
+    \    }\n\n    # Use the script above to check if we should fail over\n    track_script\
+    \ {\n        chk_mongo_primary\n    }\n\n    notify_master \"/notify_license_manager.sh\
+    \ MASTER\"\n    notify_backup \"/notify_license_manager.sh BACKUP\"\n    notify_fault\
+    \ \"/notify_license_manager.sh BACKUP\"\n    notify_stop \"/notify_license_manager.sh\
+    \ BACKUP\"\n}\n"
+metadata:
+  annotations:
+    meta.helm.sh/release-name: keepalived
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T06:56:50Z'
+  labels:
+    app.kubernetes.io/component: keepalived
+    app.kubernetes.io/instance: keepalived
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: keepalived
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.18.0
+    helm.sh/chart: keepalived-1.18.0
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:keepalived.conf: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T06:56:50Z'
+  name: keepalived-config
+  namespace: mediakind
+  resourceVersion: '798'
+  uid: 1c34caac-0a71-4d0c-aa2d-5920b017c0c3

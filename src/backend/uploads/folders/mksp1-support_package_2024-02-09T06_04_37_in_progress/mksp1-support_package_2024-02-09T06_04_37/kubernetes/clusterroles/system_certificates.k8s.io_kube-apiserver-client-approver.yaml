@@ -1,0 +1,33 @@
+metadata:
+  annotations:
+    rbac.authorization.kubernetes.io/autoupdate: 'true'
+  creationTimestamp: '2023-12-14T06:48:09Z'
+  labels:
+    kubernetes.io/bootstrapping: rbac-defaults
+  managedFields:
+  - apiVersion: rbac.authorization.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:rbac.authorization.kubernetes.io/autoupdate: {}
+        f:labels:
+          .: {}
+          f:kubernetes.io/bootstrapping: {}
+      f:rules: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T06:48:09Z'
+  name: system:certificates.k8s.io:kube-apiserver-client-approver
+  resourceVersion: '112'
+  uid: 79ef5346-1f3f-4f1b-b76f-875113b2f852
+rules:
+- apiGroups:
+  - certificates.k8s.io
+  resourceNames:
+  - kubernetes.io/kube-apiserver-client
+  resources:
+  - signers
+  verbs:
+  - approve

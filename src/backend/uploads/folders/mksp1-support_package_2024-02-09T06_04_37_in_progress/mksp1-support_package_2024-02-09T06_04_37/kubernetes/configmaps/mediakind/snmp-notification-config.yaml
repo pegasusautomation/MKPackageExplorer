@@ -1,0 +1,105 @@
+data:
+  logging.json: "{\n    \"version\": 1,\n    \"disable_existing_loggers\": true,\n\
+    \    \"formatters\": {\n        \"standard\": {\n            \"()\": \"mediakind.common.logging.LogFormatter\"\
+    ,\n            \"fmt\": \"%(asctime)s [%(levelname)s] %(name)s: %(message)s\"\n\
+    \        },\n        \"cee\": {\n            \"()\": \"ericsson.loggers.formatters.CeeFormatter\"\
+    ,\n            \"preset\": \"mediakind\",\n            \"fields\": {\n       \
+    \         \"time\": \"asctime\",\n                \"msg\": \"msg\",\n        \
+    \        \"pid\": \"process\",\n                \"tid\": \"thread\",\n       \
+    \         \"pri\": \"levelname\",\n                \"tname\": \"threadName\",\n\
+    \                \"file.name\": \"filename\",\n                \"file.line\":\
+    \ \"lineno\",\n                \"microservice\": \"snmp-notification\",\n    \
+    \            \"host\": \"host\"\n            },\n            \"exclude\": [ ]\n\
+    \        }\n    },\n    \"filters\": {\n        \"probe\": {\n            \"()\"\
+    : \"mediakind.common.logging.ProbeFilter\"\n        }\n    },\n    \"handlers\"\
+    : {\n        \"console\": {\n            \"class\": \"logging.StreamHandler\"\
+    ,\n            \"formatter\": \"cee\",\n            \"filters\": [\"probe\"],\n\
+    \            \"stream\": \"ext://sys.stdout\"\n        }\n    },\n    \"loggers\"\
+    : {\n        \"\": {\n            \"handlers\": [ \"console\" ],\n           \
+    \ \"level\": \"INFO\"\n        },\n        \"ericsson\": {\n            \"level\"\
+    : \"INFO\"\n        },\n        \"aiohttp\": {\n            \"level\": \"WARNING\"\
+    \n        },\n        \"aiohttp.access\": {\n            \"level\": \"INFO\"\n\
+    \        },\n        \"tornado.application\": {\n            \"level\": \"WARNING\"\
+    \n        },\n        \"tornado.access\": {\n            \"level\": \"INFO\"\n\
+    \        }\n    }\n}\n"
+  snmp-notification.ini: '[server]
+
+    host=0.0.0.0
+
+    port=8008
+
+
+    [api]
+
+    timeout=10
+
+    server_url=http://server-api:8001/api/servers
+
+    flow_url=http://flow:8013/api/flow
+
+
+    [storage]
+
+    username=MediaKind
+
+    password=Med/aK1nd
+
+    url=mongodb://10.69.8.31:27017,10.69.8.32:27017/envivioCluster?replicaSet=repldb
+
+
+    [messaging]
+
+    server_url=amqp://guest:guest@rabbitmq-ha:5672/?heartbeat=30
+
+
+    [snmp]
+
+    raw_mib_folder=/opt/ericsson/snmp-notification/etc
+
+    compiled_mib_folder=/tmp/compiled_snmp_mibs
+
+    engine_id_administrative_text=MFMmS
+
+    '
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: snmp-notification
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: snmp-notification
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.86.4
+    helm.sh/chart: snmp-notification-0.86.4
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:logging.json: {}
+        f:snmp-notification.ini: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  name: snmp-notification-config
+  namespace: mediakind
+  resourceVersion: '18815'
+  uid: 3c164468-09e2-4d4f-bfdf-3478bfc3dece

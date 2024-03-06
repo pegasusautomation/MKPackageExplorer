@@ -1,0 +1,59 @@
+data:
+  logging.json: "{\n  \"version\": 1,\n  \"disable_existing_loggers\": false,\n  \"\
+    filters\":{\n    \"quiet\": {\n      \"()\": \"envivio.spark.config.log.QuietFilter\"\
+    \n    }\n  },\n  \"formatters\": {\n    \"standard\": {\n      \"format\": \"\
+    [%(levelname)s] %(name)s: %(message)s\"\n    },\n    \"cee\": {\n      \"()\"\
+    : \"ericsson.loggers.formatters.CeeFormatter\",\n      \"preset\": \"mediakind\"\
+    ,\n      \"fields\": {\n        \"time\": \"asctime\",\n        \"msg\": \"msg\"\
+    ,\n        \"pid\": \"process\",\n        \"tid\": \"thread\",\n        \"pri\"\
+    : \"levelname\",\n        \"tname\": \"threadName\",\n        \"file.name\": \"\
+    filename\",\n        \"file.line\": \"lineno\",\n        \"mixin.field\": \"extra1\"\
+    \n      },\n      \"exclude\": [ \"extra2\" ]\n    }\n  },\n  \"handlers\": {\n\
+    \    \"console\": {\n      \"class\": \"logging.StreamHandler\",\n      \"formatter\"\
+    : \"cee\",\n      \"stream\": \"ext://sys.stdout\"\n    }\n  },\n  \"loggers\"\
+    : {\n    \"\": {\n      \"handlers\": [\"console\"],\n      \"level\": \"INFO\"\
+    \n    },\n    \"spark.error\": {\n      \"level\": \"INFO\"\n    },\n    \"spark.access\"\
+    : {\n      \"level\": \"INFO\"\n    },\n    \"tornado.access\": {\n      \"level\"\
+    : \"INFO\"\n    },\n    \"graphql\": {\n      \"level\": \"INFO\"\n    },\n  \
+    \  \"graphqllib\": {\n      \"level\": \"ERROR\"\n    }\n  }\n}\n"
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mksp
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:42:08Z'
+  labels:
+    app.kubernetes.io/component: stream-processor-config
+    app.kubernetes.io/instance: mksp
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: stream-processor-config
+    app.kubernetes.io/part-of: mksp
+    app.kubernetes.io/version: 20.0.3-29
+    helm.sh/chart: stream-processor-config-20.0.3-29
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:logging.json: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:42:08Z'
+  name: stream-processor-config-config
+  namespace: mediakind
+  resourceVersion: '22973'
+  uid: 363bf6d6-8e82-424d-b5a0-476fe8407382

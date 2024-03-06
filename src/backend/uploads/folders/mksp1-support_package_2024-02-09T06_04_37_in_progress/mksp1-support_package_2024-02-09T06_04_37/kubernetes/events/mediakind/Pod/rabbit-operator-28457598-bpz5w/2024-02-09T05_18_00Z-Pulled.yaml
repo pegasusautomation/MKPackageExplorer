@@ -1,0 +1,44 @@
+count: 1
+eventTime: null
+firstTimestamp: '2024-02-09T05:18:00Z'
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{rabbit-operator}
+  kind: Pod
+  name: rabbit-operator-28457598-bpz5w
+  namespace: mediakind
+  resourceVersion: '9038491'
+  uid: 18812da3-660a-4b32-a78a-4b648d4c0fb6
+lastTimestamp: '2024-02-09T05:18:00Z'
+message: Container image "packages.mediakind.com/mpd-docker/mediakind/rabbit-operator:0.24.1"
+  already present on machine
+metadata:
+  creationTimestamp: '2024-02-09T05:18:00Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+        f:host: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-09T05:18:00Z'
+  name: rabbit-operator-28457598-bpz5w.17b21a13b2a0d548
+  namespace: mediakind
+  resourceVersion: '9038497'
+  uid: 80108413-5d35-4639-8f5e-1ac4c9c4a594
+reason: Pulled
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: kubelet
+  host: mediakind-k3s
+type: Normal

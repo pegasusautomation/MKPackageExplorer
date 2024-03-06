@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:14Z'
+  name: expand-controller
+  namespace: kube-system
+  resourceVersion: '355'
+  uid: 68628b05-2eac-416b-890b-bb0011129875
+secrets:
+- name: expand-controller-token-dl2rq

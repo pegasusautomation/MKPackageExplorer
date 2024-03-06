@@ -1,0 +1,261 @@
+Writing /var/install/controller-20.0.2+183/controller/last_configure.sh
+*** Script: logo_controller ***
+[34m
+[34m
+[34m
+                                                                                [34m
+                          .@@@=                              -@@@-              [34m
+         ...            .=@@@@*                              -@@@-              [34m
+         +@@=.         :*@@@@@*                              -@@@-              [34m
+         @@@@+-      .-*@@@@@@*      .-=====:        .-====- -@@@-  :--.    -===[34m
+         @@@@@*=    .*@@@@+@@@*    .+*@@@@@@*+:    .+*@@@@@@*+@@@- .*@@:   +@@@@[34m
+         @@@@@@@+. :@@@@@: @@@*   -@@@@@++*@@@*:  .@@@@@@@@@@@@@@- :@@@-   @@@**[34m
+         @@@@*@@@@*@@@@*.  @@@*  :*@@*.    .@@@-  @@@@+    :+@@@@- :@@@-    .   [34m
+         @@@+:=@@@@@@*-.   @@@*  -@@@.    .-@@@- -@@@=       *@@@- :@@@-    :---[34m
+         @@@+  =*@@@*:     @@@*  *@@@=====+@@@+. *@@@-       =@@@- :@@@-  .=*@@@[34m
+         @@@+   :+@-.      @@@*  *@@@@@@@@@@*-.  *@@@-       =@@@- :@@@-  *@@@+:[34m
+         @@@+              @@@*  -@@@.           -@@@=       @@@*. :@@@-  @@@-  [34m
+         @@@+              @@@*  .*@@@:..  ....   *@@@=....:*@@@-  :@@@- .@@@=. [34m
+         @@@+              @@@*   :*@@@*+=+*@@=   .+@@@@***@@@@=   :@@@-  +@@@+-[34m
+         @@@-             .@@@=    :=@@@@@@@@*-    .-*@@@@@@@+:    :@@@-  .-*@@@[34m
+[34m
+[34m
+[34m
+[34m
+[34m
+                                ▓████████                       ▓████           [34m
+                              ▓██░░░░░▓██                     ░░▓██             [34m
+                              ▓██     ░░░   ▓█████  ▓███████   ███████   ▓██████[34m
+                             ░▓██          ▓██░░▓██░░▓██░░▓██ ░░░▓██░   ░░▓██░░▓[34m
+                             ░▓██         ░▓██ ░▓██ ░▓██ ░▓██   ░▓██     ░▓██ ░░[34m
+                             ░░▓██     ▓██░▓██ ░▓██ ░▓██ ░▓██   ░▓██ ▓██ ░▓██   [34m
+                              ░░▓████████ ░░▓█████  ▓███ ▓████  ░░▓████  ▓████  [34m
+                               ░░░░░░░░░   ░░░░░░  ░░░░ ░░░░░    ░░░░░  ░░░░░   [34m
+(B[m
+Script logo_controller completed successfully
+*** Script: create-user-mongod ***
+users list is: mongod
+User 'mongod' already exists, will check or modify sudoers only if the user is 'mediakind'
+Script create-user-mongod completed successfully
+*** Script: create-mongo-datadir ***
+/var/lib/mongo created
+chown mongod /var/lib/mongo
+Script create-mongo-datadir completed successfully
+*** Script: create-mongo-dumps-dir ***
+/var/opt/mediakind/unified-ui/dumps created
+chown daemon:daemon /var/opt/mediakind/unified-ui/dumps
+Script create-mongo-dumps-dir completed successfully
+*** Script: install-rabbitmqctl-proxy ***
+Script install-rabbitmqctl-proxy completed successfully
+*** Script: validate-cli-arguments-and-generate-associated-vars ***
+10.69.8.31 is present in /etc/hosts
+Controller1 value: 10.69.8.31 IP address is: 10.69.8.31
+Controller1 value: 10.69.8.31 hostname is: mksp1
+10.69.8.32 is present in /etc/hosts
+Controller2 value: 10.69.8.32 IP address is: 10.69.8.32
+Controller2 value: 10.69.8.32 hostname is: mksp2
+.
+This is an 'ha' Controller installation with a VIP
+This host is: controller1
+serverID is: mksp1
+The Management NIC of this host is: eth4
+Peer host is: controller2
+.
+RABBITMQ_FULLNAME_OVERRIDE is: rabbitmq-ha-controller1
+RABBITMQ_CONFIGURATION is: log.file.level = warning
+cluster_partition_handling = autoheal
+cluster_formation.peer_discovery_backend = rabbit_peer_discovery_classic_config
+cluster_formation.classic_config.nodes.1 = rabbitmq@rabbitmq-ha-controller1-0
+cluster_formation.classic_config.nodes.2 = rabbitmq@rabbitmq-ha-controller2-0
+vm_memory_high_watermark.absolute = 2048MB
+loopback_users = none
+management.load_definitions = /app/load_definition.json
+Using existing replicaset key
+uid=1001(mongod) gid=1002(mongod) groups=1002(mongod)
+MONGODB_MK_PRIMARY_HOST is: 10.69.8.31
+MONGODB_MK_SECONDARY_HOST is: 10.69.8.32
+MONGODB_STANDALONE_IP is: 
+MONGODB_ADVERTISED_HOSTNAME is: 10.69.8.31
+MONGODB_FULLNAME_OVERRIDE is: mongodb-replicaset-controller1
+MONGODB_UID is: 1001
+Script validate-cli-arguments-and-generate-associated-vars completed successfully
+*** Files: add-nftables-controller-config ***
+Files add-nftables-controller-config completed successfully
+*** Script: select-nft-rules ***
+Script select-nft-rules completed successfully
+*** Script: stop-start-nftables-mediakind-service ***
+Script stop-start-nftables-mediakind-service completed successfully
+*** Script: recheck-resolv-for-coreDNS-on-install ***
+Rechecking the presence of /etc/resolv.conf file...
+grep: /etc/resolv.conf: No such file or directory
+grep: /etc/resolv.conf: No such file or directory
+/etc/resolv.conf is an empty file. Renaming to .empty
+mv: cannot stat '/etc/resolv.conf': No such file or directory
+/etc/resolv.conf already NOT referenced. Do nothing.
+Script recheck-resolv-for-coreDNS-on-install completed successfully
+*** HelmDeployment: keepalived ***
+WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: /etc/rancher/k3s/k3s.yaml
+Release "keepalived" has been upgraded. Happy Helming!
+NAME: keepalived
+LAST DEPLOYED: Thu Dec 14 08:21:55 2023
+NAMESPACE: mediakind
+STATUS: deployed
+REVISION: 3
+TEST SUITE: None
+HelmDeployment keepalived completed successfully
+*** Script: install-mongo-shell-proxy ***
+Script install-mongo-shell-proxy completed successfully
+*** Script: create-root-CA ***
+Script create-root-CA completed successfully
+*** Script: httpd-rules ***
+Script httpd-rules completed successfully
+*** Script: remove-old-cert-manager ***
+Script remove-old-cert-manager completed successfully
+*** HelmDeployment: cert-manager ***
+WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: /etc/rancher/k3s/k3s.yaml
+Release "cert-manager" has been upgraded. Happy Helming!
+NAME: cert-manager
+LAST DEPLOYED: Thu Dec 14 08:21:57 2023
+NAMESPACE: cert-manager
+STATUS: deployed
+REVISION: 3
+TEST SUITE: None
+NOTES:
+cert-manager v1.5.3 has been deployed successfully!
+
+In order to begin issuing certificates, you will need to set up a ClusterIssuer
+or Issuer resource (for example, by creating a 'letsencrypt-staging' issuer).
+
+More information on the different types of issuers and how to configure them
+can be found in our documentation:
+
+https://cert-manager.io/docs/configuration/
+
+For information on how to configure cert-manager to automatically provision
+Certificates for Ingress resources, take a look at the `ingress-shim`
+documentation:
+
+https://cert-manager.io/docs/usage/ingress/
+HelmDeployment cert-manager completed successfully
+*** Script: wait-for-cert-manager ***
+deployment.apps/cert-manager-webhook condition met
+endpoints/cert-manager-webhook condition met
+Script wait-for-cert-manager completed successfully
+*** Files: update-https-certs-script ***
+Files update-https-certs-script completed successfully
+*** Files: update-ldaps-server ***
+Files update-ldaps-server completed successfully
+*** Script: update-https-certs-conf-if-notpresent ***
+/opt/mediakind/utility/bin/controller/certs.conf already present, will not overwrite
+Script update-https-certs-conf-if-notpresent completed successfully
+*** Script: update-ldaps-server-conf-if-notpresent ***
+/opt/mediakind/utility/bin/controller/ldaps.conf already present, will not overwrite
+Script update-ldaps-server-conf-if-notpresent completed successfully
+*** YamlDeployment: mongo-configmap ***
+namespace/mediakind configured
+configmap/mongodb-custom-init-scripts unchanged
+YamlDeployment mongo-configmap completed successfully
+*** YamlDeployment: mongo-env-vars ***
+namespace/mediakind configured
+configmap/mongodb-env-vars unchanged
+YamlDeployment mongo-env-vars completed successfully
+*** Script: remove-etcd-controller-1-2-crumb-file ***
+Removing file indicating that etcd has been previously installed on this node
+Script remove-etcd-controller-1-2-crumb-file completed successfully
+*** Script: create-etcd-server-config-file ***
+created etcd server config file on host at path: /opt/mediakind/etcd/etcd.conf.yaml
+Script create-etcd-server-config-file completed successfully
+*** YamlDeployment: etcd-init-operations-configmap ***
+namespace/mediakind configured
+configmap/etcd-init-operations unchanged
+YamlDeployment etcd-init-operations-configmap completed successfully
+*** HelmDeployment: mk-deps ***
+WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: /etc/rancher/k3s/k3s.yaml
+W1214 08:22:02.996681  129467 warnings.go:70] policy/v1beta1 PodDisruptionBudget is deprecated in v1.21+, unavailable in v1.25+; use policy/v1 PodDisruptionBudget
+W1214 08:22:02.998832  129467 warnings.go:70] policy/v1beta1 PodDisruptionBudget is deprecated in v1.21+, unavailable in v1.25+; use policy/v1 PodDisruptionBudget
+W1214 08:22:03.003304  129467 warnings.go:70] policy/v1beta1 PodDisruptionBudget is deprecated in v1.21+, unavailable in v1.25+; use policy/v1 PodDisruptionBudget
+Release "mk-deps" has been upgraded. Happy Helming!
+NAME: mk-deps
+LAST DEPLOYED: Thu Dec 14 08:22:02 2023
+NAMESPACE: mediakind
+STATUS: deployed
+REVISION: 3
+TEST SUITE: None
+namespace/mediakind not labeled
+HelmDeployment mk-deps completed successfully
+*** Script: delete-rabbitmq-services ***
+service "rabbitmq-ha-controller1-0" deleted
+service "rabbitmq-ha-controller2-0" deleted
+service "rabbitmq-ha" deleted
+service "rabbitmq-ha-controller1" deleted
+Couldn't find RabbitMQ endpoint - nothing to delete
+Script delete-rabbitmq-services completed successfully
+*** HelmDeployment: rabbitmq-external-service ***
+WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: /etc/rancher/k3s/k3s.yaml
+Release "rabbitmq-external-service" has been upgraded. Happy Helming!
+NAME: rabbitmq-external-service
+LAST DEPLOYED: Thu Dec 14 08:22:04 2023
+NAMESPACE: mediakind
+STATUS: deployed
+REVISION: 3
+TEST SUITE: None
+HelmDeployment rabbitmq-external-service completed successfully
+*** Script: patch-rabbitmq-statefulset ***
+statefulset.apps/rabbitmq-ha-controller1 env updated
+statefulset.apps/rabbitmq-ha-controller1 patched (no change)
+statefulset.apps/rabbitmq-ha-controller1 patched (no change)
+statefulset.apps/rabbitmq-ha-controller1 patched (no change)
+statefulset.apps/rabbitmq-ha-controller1 patched (no change)
+statefulset.apps/rabbitmq-ha-controller1 patched (no change)
+statefulset.apps/rabbitmq-ha-controller1 scaled
+Script patch-rabbitmq-statefulset completed successfully
+*** Script: scale-down-mongo ***
+statefulset.apps/mongodb-replicaset-controller1 scaled
+Script scale-down-mongo completed successfully
+*** Script: patch-mongo-datadir ***
+statefulset.apps/mongodb-replicaset-controller1 patched
+statefulset.apps/mongodb-replicaset-controller1 patched
+Script patch-mongo-datadir completed successfully
+*** Script: patch-mongo-custom-init-scripts ***
+statefulset.apps/mongodb-replicaset-controller1 patched (no change)
+Script patch-mongo-custom-init-scripts completed successfully
+*** Script: patch-mongo-host-network ***
+statefulset.apps/mongodb-replicaset-controller1 patched (no change)
+Script patch-mongo-host-network completed successfully
+*** Script: scale-up-mongo ***
+statefulset.apps/mongodb-replicaset-controller1 scaled
+Script scale-up-mongo completed successfully
+*** Script: delete-etcd-services ***
+service "etcd" deleted
+service "etcd-controller1-0" deleted
+service "etcd-controller2-0" deleted
+service "etcd-controller1" deleted
+Couldn't find etcd endpoint - nothing to delete
+Script delete-etcd-services completed successfully
+*** Script: patch-etcd-statefulset ***
+etcd statefulset found: 'etcd-controller1'
+statefulset.apps/etcd-controller1 scaled
+statefulset.apps/etcd-controller1 patched (no change)
+statefulset.apps/etcd-controller1 patched (no change)
+statefulset.apps/etcd-controller1 scaled
+Script patch-etcd-statefulset completed successfully
+*** HelmDeployment: etcd-external-service ***
+WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: /etc/rancher/k3s/k3s.yaml
+Release "etcd-external-service" has been upgraded. Happy Helming!
+NAME: etcd-external-service
+LAST DEPLOYED: Thu Dec 14 08:22:11 2023
+NAMESPACE: mediakind
+STATUS: deployed
+REVISION: 3
+TEST SUITE: None
+HelmDeployment etcd-external-service completed successfully
+*** Script: wait-for-mk-deps ***
+waiting for all deployments to finish...
+deployment "redis" successfully rolled out
+...all done
+
+waiting for all statefulsets to finish...
+Waiting for 1 pods to be ready...
+Waiting for 1 pods to be ready...
+error: timed out waiting for the condition
+ERROR: kubectl rollout failed. Possibly timeout exceeded. Aborting deployment.

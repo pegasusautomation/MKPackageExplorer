@@ -1,0 +1,51 @@
+data:
+  rabbitmq.conf: 'log.file.level = warning
+
+    cluster_partition_handling = autoheal
+
+    cluster_formation.peer_discovery_backend = rabbit_peer_discovery_classic_config
+
+    cluster_formation.classic_config.nodes.1 = rabbitmq@rabbitmq-ha-controller1-0
+
+    cluster_formation.classic_config.nodes.2 = rabbitmq@rabbitmq-ha-controller2-0
+
+    vm_memory_high_watermark.absolute = 2048MB
+
+    loopback_users = none
+
+    management.load_definitions = /app/load_definition.json'
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mk-deps
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T06:57:18Z'
+  labels:
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: rabbitmq
+    helm.sh/chart: rabbitmq-8.21.0
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:rabbitmq.conf: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T06:57:18Z'
+  name: rabbitmq-ha-controller1-config
+  namespace: mediakind
+  resourceVersion: '1084'
+  uid: d8b5584c-d96f-4fb0-a19c-56072a1d243d

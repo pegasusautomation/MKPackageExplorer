@@ -1,0 +1,292 @@
+metadata:
+  creationTimestamp: '2023-12-14T10:42:08Z'
+  generateName: stream-processor-content-extraction-574f98f786-
+  labels:
+    app.kubernetes.io/component: stream-processor-content-extraction
+    app.kubernetes.io/instance: mksp
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: stream-processor-content-extraction
+    app.kubernetes.io/part-of: mksp
+    app.kubernetes.io/version: 20.0.3-29
+    helm.sh/chart: stream-processor-content-extraction-20.0.3-29
+    pod-template-hash: 574f98f786
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+          f:pod-template-hash: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"20330e50-db83-46ca-afda-a2e4af172104"}: {}
+      f:spec:
+        f:containers:
+          k:{"name":"content-extraction"}:
+            .: {}
+            f:env:
+              .: {}
+              k:{"name":"ASPNETCORE_URLS"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"asiAPI"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"interfaceDiscovery__connect"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"interfaceDiscovery__location"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"proxy__enabled"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"serverName"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:name: {}
+            f:ports:
+              .: {}
+              k:{"containerPort":8083,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:hostPort: {}
+                f:name: {}
+                f:protocol: {}
+            f:readinessProbe:
+              .: {}
+              f:failureThreshold: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:tcpSocket:
+                .: {}
+                f:port: {}
+              f:timeoutSeconds: {}
+            f:resources: {}
+            f:securityContext:
+              .: {}
+              f:allowPrivilegeEscalation: {}
+              f:runAsUser: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+        f:dnsPolicy: {}
+        f:enableServiceLinks: {}
+        f:hostNetwork: {}
+        f:restartPolicy: {}
+        f:schedulerName: {}
+        f:securityContext: {}
+        f:terminationGracePeriodSeconds: {}
+        f:volumes:
+          .: {}
+          k:{"name":"config"}:
+            .: {}
+            f:configMap:
+              .: {}
+              f:defaultMode: {}
+              f:name: {}
+            f:name: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:42:08Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:conditions:
+          k:{"type":"ContainersReady"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:message: {}
+            f:reason: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Initialized"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Ready"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:message: {}
+            f:reason: {}
+            f:status: {}
+            f:type: {}
+        f:containerStatuses: {}
+        f:hostIP: {}
+        f:phase: {}
+        f:podIP: {}
+        f:podIPs:
+          .: {}
+          k:{"ip":"192.168.255.1"}:
+            .: {}
+            f:ip: {}
+        f:startTime: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-01-11T14:13:46Z'
+  name: stream-processor-content-extraction-574f98f786-gdvmh
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: stream-processor-content-extraction-574f98f786
+    uid: 20330e50-db83-46ca-afda-a2e4af172104
+  resourceVersion: '9043323'
+  uid: db1d1e8f-31d2-4cec-835d-b57f38c21e4c
+spec:
+  containers:
+  - env:
+    - name: proxy__enabled
+      value: 'false'
+    - name: interfaceDiscovery__connect
+      value: http://10.69.8.30:2379
+    - name: interfaceDiscovery__location
+      value: http://10.69.8.31:8083
+    - name: ASPNETCORE_URLS
+      value: http://+:8083
+    - name: serverName
+      value: mksp1
+    - name: asiAPI
+      value: http://10.69.8.30:8080/api/services/muxes/asi
+    image: packages.mediakind.com/mpd-docker/mediakind/stream-processor-content-extraction:20.0.3-29
+    imagePullPolicy: IfNotPresent
+    name: content-extraction
+    ports:
+    - containerPort: 8083
+      hostPort: 8083
+      name: cont-extr
+      protocol: TCP
+    readinessProbe:
+      failureThreshold: 50
+      periodSeconds: 5
+      successThreshold: 1
+      tcpSocket:
+        port: 8083
+      timeoutSeconds: 10
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: false
+      runAsUser: 1001
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-2hq4g
+      readOnly: true
+  dnsPolicy: ClusterFirstWithHostNet
+  enableServiceLinks: true
+  hostNetwork: true
+  nodeName: mediakind-k3s
+  preemptionPolicy: Never
+  priority: 0
+  priorityClassName: default
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 0
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - configMap:
+      defaultMode: 420
+      name: stream-processor-content-extraction-config
+    name: config
+  - name: kube-api-access-2hq4g
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:42:08Z'
+    status: 'True'
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: '2024-01-11T14:13:12Z'
+    message: 'containers with unready status: [content-extraction]'
+    reason: ContainersNotReady
+    status: 'False'
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: '2024-01-11T14:13:12Z'
+    message: 'containers with unready status: [content-extraction]'
+    reason: ContainersNotReady
+    status: 'False'
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:42:08Z'
+    status: 'True'
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://79cbf878956e06a966645d02b73a068074b21eb6797193204ab189c134e407a1
+    image: packages.mediakind.com/mpd-docker/mediakind/stream-processor-content-extraction:20.0.3-29
+    imageID: sha256:bc210340a23acb9d18d90410f21d72c94c26b7e7be1fa4430f774f041876b7c3
+    lastState:
+      terminated:
+        containerID: containerd://79cbf878956e06a966645d02b73a068074b21eb6797193204ab189c134e407a1
+        exitCode: 139
+        finishedAt: '2024-02-09T06:01:30Z'
+        reason: Error
+        startedAt: '2024-02-09T05:59:40Z'
+    name: content-extraction
+    ready: false
+    restartCount: 7000
+    started: false
+    state:
+      waiting:
+        message: back-off 5m0s restarting failed container=content-extraction pod=stream-processor-content-extraction-574f98f786-gdvmh_mediakind(db1d1e8f-31d2-4cec-835d-b57f38c21e4c)
+        reason: CrashLoopBackOff
+  hostIP: 192.168.255.1
+  phase: Running
+  podIP: 192.168.255.1
+  podIPs:
+  - ip: 192.168.255.1
+  qosClass: BestEffort
+  startTime: '2023-12-14T10:42:08Z'

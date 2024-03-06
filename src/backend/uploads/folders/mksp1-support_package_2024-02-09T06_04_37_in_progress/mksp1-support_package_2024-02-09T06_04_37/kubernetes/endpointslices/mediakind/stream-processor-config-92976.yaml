@@ -1,0 +1,75 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.160
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: stream-processor-config-55b87ff9b9-8bjnp
+    namespace: mediakind
+    resourceVersion: '8615273'
+    uid: 1c27599b-c2d0-474f-9655-5c9c30f470a1
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:29:15Z'
+  creationTimestamp: '2023-12-14T10:42:08Z'
+  generateName: stream-processor-config-
+  generation: 23
+  labels:
+    app.kubernetes.io/component: stream-processor-config
+    app.kubernetes.io/instance: mksp
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: stream-processor-config
+    app.kubernetes.io/part-of: mksp
+    app.kubernetes.io/version: 20.0.3-29
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: stream-processor-config-20.0.3-29
+    kubernetes.io/service-name: stream-processor-config
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"04d1ef28-bdd2-4a66-96fe-3025df08dee0"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T08:37:04Z'
+  name: stream-processor-config-92976
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: stream-processor-config
+    uid: 04d1ef28-bdd2-4a66-96fe-3025df08dee0
+  resourceVersion: '8615275'
+  uid: 8d336fe1-0f83-4c2a-9a47-4433a26b0c28
+ports:
+- name: ''
+  port: 8081
+  protocol: TCP

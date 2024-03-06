@@ -1,0 +1,43 @@
+count: 1
+eventTime: null
+firstTimestamp: '2024-02-09T05:27:00Z'
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{rabbit-operator}
+  kind: Pod
+  name: rabbit-operator-28457607-rppxr
+  namespace: mediakind
+  resourceVersion: '9039490'
+  uid: 73341136-4d24-41b4-9058-b3b901c96b4a
+lastTimestamp: '2024-02-09T05:27:00Z'
+message: Created container rabbit-operator
+metadata:
+  creationTimestamp: '2024-02-09T05:27:00Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+        f:host: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-09T05:27:00Z'
+  name: rabbit-operator-28457607-rppxr.17b21a9170f119e1
+  namespace: mediakind
+  resourceVersion: '9039495'
+  uid: ad9db6a7-1d5f-48d8-b55d-3549abe7738e
+reason: Created
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: kubelet
+  host: mediakind-k3s
+type: Normal

@@ -1,0 +1,391 @@
+.conf does not exist
+10:51:43,557 INF progress: Copy resolv.conf to sysroot
+10:51:43,557 DBG installation: Task completed: Copy resolv.conf to sysroot (8/41) (0.0 s)
+10:51:43,557 INF installation: Task started: Discover information about a realm (9/41)
+10:51:43,559 INF progress: Discover information about a realm
+10:51:43,559 DBG installation: Task completed: Discover information about a realm (9/41) (0.0 s)
+10:51:43,560 INF installation: Task started: Find additional packages & run pre_install() (10/41)
+10:51:43,563 DBG payload.requirement: no group requirement added for language groups
+10:51:43,598 DBG payload.requirement: no package requirement added for langpacks
+10:51:43,601 DBG installation: Adding requirements for module org.fedoraproject.Anaconda.Modules.Security : []
+10:51:43,604 DBG installation: Adding requirements for module org.fedoraproject.Anaconda.Modules.Network : [Requirement(name='firewalld', reason='Requested by the firewall kickstart command.', type='package')]
+10:51:43,605 DBG payload.requirement: added package requirement 'firewalld' for Requested by the firewall kickstart command., strong=True
+10:51:43,608 DBG installation: Adding requirements for module org.fedoraproject.Anaconda.Modules.Timezone : [Requirement(name='chrony', reason='Needed to run NTP service.', type='package')]
+10:51:43,608 DBG payload.requirement: added package requirement 'chrony' for Needed to run NTP service., strong=True
+10:51:43,612 DBG installation: Adding requirements for module org.fedoraproject.Anaconda.Modules.Storage : [Requirement(name='dosfstools', reason='Required to manage storage devices.', type='package'), Requirement(name='lvm2', reason='Required to manage storage devices.', type='package'), Requirement(name='e2fsprogs', reason='Required to manage storage devices.', type='package'), Requirement(name='grub2-efi-x64', reason='Necessary for the bootloader configuration.', type='package'), Requirement(name='shim-x64', reason='Necessary for the bootloader configuration.', type='package'), Requirement(name='efibootmgr', reason='Necessary for the bootloader configuration.', type='package'), Requirement(name='grub2-tools', reason='Necessary for the bootloader configuration.', type='package')]
+10:51:43,612 DBG payload.requirement: added package requirement 'dosfstools' for Required to manage storage devices., strong=True
+10:51:43,613 DBG payload.requirement: added package requirement 'lvm2' for Required to manage storage devices., strong=True
+10:51:43,613 DBG payload.requirement: added package requirement 'e2fsprogs' for Required to manage storage devices., strong=True
+10:51:43,613 DBG payload.requirement: added package requirement 'grub2-efi-x64' for Necessary for the bootloader configuration., strong=True
+10:51:43,613 DBG payload.requirement: added package requirement 'shim-x64' for Necessary for the bootloader configuration., strong=True
+10:51:43,613 DBG payload.requirement: added package requirement 'efibootmgr' for Necessary for the bootloader configuration., strong=True
+10:51:43,613 DBG payload.requirement: added package requirement 'grub2-tools' for Necessary for the bootloader configuration., strong=True
+10:51:43,692 INF progress: Find additional packages & run pre_install()
+10:51:43,692 DBG installation: Task completed: Find additional packages & run pre_install() (10/41) (0.1 s)
+10:51:43,692 INF progress: Installing.
+10:51:43,692 INF installation: Queue started: Payload installation (6/16)
+10:51:43,692 INF installation: Task started: Install the payload (11/41)
+10:51:43,693 INF progress: Starting package installation process
+10:51:43,697 DBG payload.requirement: apply with result True called on requirements [('package', 'firewalld', PayloadRequirement(id=firewalld, reasons=[PayloadRequirementReason(reason='Requested by the firewall kickstart command.', strong=True)])), ('package', 'chrony', PayloadRequirement(id=chrony, reasons=[PayloadRequirementReason(reason='Needed to run NTP service.', strong=True)])), ('package', 'dosfstools', PayloadRequirement(id=dosfstools, reasons=[PayloadRequirementReason(reason='Required to manage storage devices.', strong=True)])), ('package', 'lvm2', PayloadRequirement(id=lvm2, reasons=[PayloadRequirementReason(reason='Required to manage storage devices.', strong=True)])), ('package', 'e2fsprogs', PayloadRequirement(id=e2fsprogs, reasons=[PayloadRequirementReason(reason='Required to manage storage devices.', strong=True)])), ('package', 'grub2-efi-x64', PayloadRequirement(id=grub2-efi-x64, reasons=[PayloadRequirementReason(reason='Necessary for the bootloader configuration.', strong=True)])), ('package', 'shim-x64', PayloadRequirement(id=shim-x64, reasons=[PayloadRequirementReason(reason='Necessary for the bootloader configuration.', strong=True)])), ('package', 'efibootmgr', PayloadRequirement(id=efibootmgr, reasons=[PayloadRequirementReason(reason='Necessary for the bootloader configuration.', strong=True)])), ('package', 'grub2-tools', PayloadRequirement(id=grub2-tools, reasons=[PayloadRequirementReason(reason='Necessary for the bootloader configuration.', strong=True)]))]
+10:56:15,291 INF progress: Preparing transaction from installation source
+10:58:16,711 INF progress: Install the payload
+10:58:16,711 DBG installation: Task completed: Install the payload (11/41) (393.0 s)
+10:58:16,712 INF progress: Installing boot loader
+10:58:16,712 INF installation: Queue started: Bootloader installation (7/16)
+10:58:16,712 INF installation: Task started: Configure the bootloader (12/41)
+10:58:17,834 INF progress: Configure the bootloader
+10:58:17,834 DBG installation: Task completed: Configure the bootloader (12/41) (1.1 s)
+10:58:17,834 INF installation: Task started: Install the bootloader (13/41)
+10:58:20,842 INF progress: Install the bootloader
+10:58:20,842 DBG installation: Task completed: Install the bootloader (13/41) (3.0 s)
+10:58:20,842 INF progress: Performing post-installation setup tasks
+10:58:20,843 INF installation: Queue started: Post-installation setup tasks (8/16)
+10:58:20,843 INF installation: Task started: Run post-installation setup tasks (14/41)
+10:58:20,848 INF payload.base: Installation requirements: [('package', 'firewalld', PayloadRequirement(id=firewalld, reasons=[PayloadRequirementReason(reason='Requested by the firewall kickstart command.', strong=True)])), ('package', 'chrony', PayloadRequirement(id=chrony, reasons=[PayloadRequirementReason(reason='Needed to run NTP service.', strong=True)])), ('package', 'dosfstools', PayloadRequirement(id=dosfstools, reasons=[PayloadRequirementReason(reason='Required to manage storage devices.', strong=True)])), ('package', 'lvm2', PayloadRequirement(id=lvm2, reasons=[PayloadRequirementReason(reason='Required to manage storage devices.', strong=True)])), ('package', 'e2fsprogs', PayloadRequirement(id=e2fsprogs, reasons=[PayloadRequirementReason(reason='Required to manage storage devices.', strong=True)])), ('package', 'grub2-efi-x64', PayloadRequirement(id=grub2-efi-x64, reasons=[PayloadRequirementReason(reason='Necessary for the bootloader configuration.', strong=True)])), ('package', 'shim-x64', PayloadRequirement(id=shim-x64, reasons=[PayloadRequirementReason(reason='Necessary for the bootloader configuration.', strong=True)])), ('package', 'efibootmgr', PayloadRequirement(id=efibootmgr, reasons=[PayloadRequirementReason(reason='Necessary for the bootloader configuration.', strong=True)])), ('package', 'grub2-tools', PayloadRequirement(id=grub2-tools, reasons=[PayloadRequirementReason(reason='Necessary for the bootloader configuration.', strong=True)]))]
+10:58:20,849 INF progress: Run post-installation setup tasks
+10:58:20,849 DBG installation: Task completed: Run post-installation setup tasks (14/41) (0.0 s)
+10:58:20,849 INF installation: Queue started: Configuration queue (9/16)
+10:58:20,849 INF progress: Configuring installed system
+10:58:20,849 INF installation: Queue started: Installed system configuration (10/16)
+10:58:20,849 INF installation: Task started: Configure SELinux (15/41)
+10:58:21,853 INF progress: Configure SELinux
+10:58:21,853 DBG installation: Task completed: Configure SELinux (15/41) (1.0 s)
+10:58:21,853 INF installation: Task started: Configure fingerprint authentication (16/41)
+10:58:21,855 INF progress: Configure fingerprint authentication
+10:58:21,856 DBG installation: Task completed: Configure fingerprint authentication (16/41) (0.0 s)
+10:58:21,856 INF installation: Task started: Authselect configuration (17/41)
+10:58:21,858 INF progress: Authselect configuration
+10:58:21,858 DBG installation: Task completed: Authselect configuration (17/41) (0.0 s)
+10:58:21,858 INF installation: Task started: Authconfig configuration (18/41)
+10:58:21,860 INF progress: Authconfig configuration
+10:58:21,860 DBG installation: Task completed: Authconfig configuration (18/41) (0.0 s)
+10:58:21,860 INF installation: Task started: Configure time zone (19/41)
+10:58:22,864 INF progress: Configure time zone
+10:58:22,864 DBG installation: Task completed: Configure time zone (19/41) (1.0 s)
+10:58:22,864 INF installation: Task started: Configure NTP (20/41)
+10:58:23,869 INF progress: Configure NTP
+10:58:23,870 DBG installation: Task completed: Configure NTP (20/41) (1.0 s)
+10:58:23,870 INF installation: Task started: Configure Initial Setup (21/41)
+10:58:23,872 INF progress: Configure Initial Setup
+10:58:23,872 DBG installation: Task completed: Configure Initial Setup (21/41) (0.0 s)
+10:58:23,872 INF installation: Task started: Configure post-installation tools (22/41)
+10:58:24,876 INF progress: Configure post-installation tools
+10:58:24,876 DBG installation: Task completed: Configure post-installation tools (22/41) (1.0 s)
+10:58:24,876 INF installation: Task started: Configure services (23/41)
+10:58:24,878 INF progress: Configure services
+10:58:24,878 DBG installation: Task completed: Configure services (23/41) (0.0 s)
+10:58:24,878 INF installation: Task started: Configure systemd default target (24/41)
+10:58:24,880 INF progress: Configure systemd default target
+10:58:24,880 DBG installation: Task completed: Configure systemd default target (24/41) (0.0 s)
+10:58:24,881 INF installation: Task started: Configure default desktop (25/41)
+10:58:24,882 INF progress: Configure default desktop
+10:58:24,882 DBG installation: Task completed: Configure default desktop (25/41) (0.0 s)
+10:58:24,882 INF installation: Task started: Configure language (26/41)
+10:58:24,884 INF progress: Configure language
+10:58:24,884 DBG installation: Task completed: Configure language (26/41) (0.0 s)
+10:58:24,884 INF installation: Task started: Configure keyboard (27/41)
+10:58:25,887 INF progress: Configure keyboard
+10:58:25,887 DBG installation: Task completed: Configure keyboard (27/41) (1.0 s)
+10:58:25,887 INF installation: Task started: Configure firewall (28/41)
+10:58:26,893 INF progress: Configure firewall
+10:58:26,893 DBG installation: Task completed: Configure firewall (28/41) (1.0 s)
+10:58:26,893 INF installation: Task started: Create groups (29/41)
+10:58:26,895 INF progress: Create groups
+10:58:26,896 DBG installation: Task completed: Create groups (29/41) (0.0 s)
+10:58:26,896 INF installation: Task started: Create users (30/41)
+10:58:26,897 INF progress: Create users
+10:58:26,898 DBG installation: Task completed: Create users (30/41) (0.0 s)
+10:58:26,898 INF installation: Task started: Configure root password (31/41)
+10:58:27,903 INF progress: Configure root password
+10:58:27,903 DBG installation: Task completed: Configure root password (31/41) (1.0 s)
+10:58:27,903 INF installation: Task started: Set SSH keys (32/41)
+10:58:27,905 INF progress: Set SSH keys
+10:58:27,906 DBG installation: Task completed: Set SSH keys (32/41) (0.0 s)
+10:58:27,906 INF installation: Task started: Configure optional root password SSH login (33/41)
+10:58:27,908 INF progress: Configure optional root password SSH login
+10:58:27,908 DBG installation: Task completed: Configure optional root password SSH login (33/41) (0.0 s)
+10:58:27,908 INF progress: Writing network configuration
+10:58:27,908 INF installation: Queue started: Network configuration (11/16)
+10:58:27,908 INF installation: Task started: Network configuration (34/41)
+10:58:28,929 INF progress: Network configuration
+10:58:28,929 DBG installation: Task completed: Network configuration (34/41) (1.0 s)
+10:58:28,929 WRN installation_tasks: Attempting to start an empty task queue (User creation).
+10:58:28,929 INF progress: Creating users
+10:58:28,929 INF installation: Queue started: User creation (12/16)
+10:58:28,929 WRN installation_tasks: The task group User creation is empty.
+10:58:28,930 INF progress: Configuring addons
+10:58:28,930 INF installation: Queue started: Anaconda addon configuration (13/16)
+10:58:28,930 INF installation: Task started: Configure Anaconda addons (35/41)
+10:58:28,930 INF progress: Executing com_redhat_kdump addon
+10:58:28,937 INF progress: Executing org_fedora_oscap addon
+10:58:28,937 INF progress: Configure Anaconda addons
+10:58:28,938 DBG installation: Task completed: Configure Anaconda addons (35/41) (0.0 s)
+10:58:28,938 INF installation: Task started: Install the system (36/41)
+10:58:28,940 INF progress: Install the system
+10:58:28,940 DBG installation: Task completed: Install the system (36/41) (0.0 s)
+10:58:28,941 INF progress: Generating initramfs
+10:58:28,941 INF installation: Queue started: Initramfs generation (14/16)
+10:58:28,941 INF installation: Task started: Generate initramfs (37/41)
+10:58:28,941 DBG payload.base: new-kernel-pkg does not exist, using dracut instead.
+10:58:29,054 INF payload.base: recreating initrd for 4.18.0-348.el8.x86_64
+10:58:46,531 INF progress: Generate initramfs
+10:58:46,531 DBG installation: Task completed: Generate initramfs (37/41) (17.6 s)
+10:58:46,531 INF installation: Task started: Rerun zipl (38/41)
+10:58:46,534 INF progress: Rerun zipl
+10:58:46,534 DBG installation: Task completed: Rerun zipl (38/41) (0.0 s)
+10:58:46,534 INF installation: Task started: Join a realm (39/41)
+10:58:46,537 INF progress: Join a realm
+10:58:46,537 DBG installation: Task completed: Join a realm (39/41) (0.0 s)
+10:58:46,537 INF progress: Storing configuration files and kickstarts
+10:58:46,537 INF installation: Queue started: Write configs and kickstarts (15/16)
+10:58:46,538 INF installation: Task started: Store kickstarts (40/41)
+10:58:46,565 INF progress: Store kickstarts
+10:58:46,566 DBG installation: Task completed: Store kickstarts (40/41) (0.0 s)
+10:58:46,566 INF progress: Running post-installation scripts
+10:58:46,566 INF installation: Queue started: Post installation scripts (16/16)
+10:58:46,566 INF installation: Task started: Run post installation scripts (41/41)
+10:58:46,566 INF kickstart.script: Running kickstart %%post script(s)
+10:50:58,630 INF core.configuration.product: Loading information about products from /etc/anaconda/product.d.
+10:50:58,631 INF core.configuration.product: Found CentOS Linux at /etc/anaconda/product.d/centos.conf.
+10:50:58,631 INF core.configuration.product: Found Red Hat Enterprise Linux at /etc/anaconda/product.d/rhel.conf.
+10:50:58,632 INF core.configuration.product: Found CentOS Stream at /etc/anaconda/product.d/centos-stream.conf.
+10:50:58,632 INF core.configuration.product: Found Fedora Server at /etc/anaconda/product.d/fedora-server.conf.
+10:50:58,633 INF core.configuration.product: Found Fedora at /etc/anaconda/product.d/fedora.conf.
+10:50:58,633 INF core.configuration.product: Found AlmaLinux at /etc/anaconda/product.d/almalinux.conf.
+10:50:58,634 INF core.configuration.product: Found oVirt Node Next at /etc/anaconda/product.d/ovirt.conf.
+10:50:58,634 INF core.configuration.product: Found Scientific Linux at /etc/anaconda/product.d/scientific-linux.conf.
+10:50:58,635 INF core.configuration.product: Found Fedora Workstation Live at /etc/anaconda/product.d/fedora-workstation-live.conf.
+10:50:58,635 INF core.configuration.product: Found Fedora AtomicHost at /etc/anaconda/product.d/fedora-atomic-host.conf.
+10:50:58,635 INF core.configuration.product: Found Red Hat Virtualization at /etc/anaconda/product.d/rhev.conf.
+10:50:58,636 INF core.configuration.product: Found Fedora Silverblue at /etc/anaconda/product.d/fedora-silverblue.conf.
+10:50:58,636 INF core.configuration.product: Found Fedora Workstation at /etc/anaconda/product.d/fedora-workstation.conf.
+10:50:58,636 WRN core.configuration.product: No support for the product AlmaLinux Minimal.
+10:50:58,636 INF core.configuration.product: The product AlmaLinux is supported.
+10:50:58,640 INF main: /sbin/anaconda 33.16.5.6-1.el8.alma
+10:50:58,817 WRN misc: /usr/lib64/python3.6/site-packages/dbus/connection.py:399: DeprecationWarning: invalid escape sequence \ 
+  """
+
+10:50:58,820 WRN misc: /usr/lib64/python3.6/site-packages/dbus/proxies.py:362: DeprecationWarning: invalid escape sequence \ 
+  """
+
+10:51:00,323 INF isys: 16447864 kB (16062 MB) are available
+10:51:00,403 INF startup_utils: check_memory(): total:16062, needed:320, graphical:410
+10:51:00,409 INF main: anaconda called with cmdline = ['/sbin/anaconda']
+10:51:00,409 INF main: Default encoding = utf-8 
+10:51:00,409 INF misc: Writing a temporary configuration loaded from: ['/etc/anaconda/anaconda.conf', '/etc/anaconda/product.d/rhel.conf', '/etc/anaconda/product.d/almalinux.conf', '/etc/anaconda/conf.d/00-do-nothing.conf', '/etc/anaconda/conf.d/01-still-do-nothing.conf']
+10:51:00,415 INF core.dbus: Connecting to the Anaconda bus at unix:abstract=/tmp/dbus-RvfLgs3nGa,guid=58927cfdece2027998a5251c65798c94.
+10:51:05,613 INF main: Found a kickstart file: /run/install/ks.cfg
+10:51:05,643 INF kickstart.script: Running kickstart %%pre script(s)
+10:51:05,643 INF stdout: Running pre-installation scripts
+10:51:10,777 INF kickstart.script: All kickstart %%pre script(s) have been run
+10:51:10,777 DBG addons: Loading ks section into module path for addon com_redhat_kdump
+10:51:10,777 DBG addons: Loading spokes into module path for addon com_redhat_kdump
+10:51:10,777 DBG addons: Loading ks section into module path for addon org_fedora_oscap
+10:51:10,777 DBG addons: Loading spokes into module path for addon org_fedora_oscap
+10:51:10,842 INF startup_utils: Parsing kickstart: /run/install/ks.cfg
+10:51:11,110 WRN kickstart: Command keyboard will be parsed in DBus module.
+10:51:11,110 WRN kickstart: Command lang will be parsed in DBus module.
+10:51:11,111 WRN kickstart: Command network will be parsed in DBus module.
+10:51:11,111 WRN kickstart: Command harddrive will be parsed in DBus module.
+10:51:11,111 WRN kickstart: Command bootloader will be parsed in DBus module.
+10:51:11,111 WRN kickstart: Command clearpart will be parsed in DBus module.
+10:51:11,111 WRN kickstart: Command zerombr will be parsed in DBus module.
+10:51:11,111 WRN kickstart: Command ignoredisk will be parsed in DBus module.
+10:51:11,112 WRN kickstart: Command part will be parsed in DBus module.
+10:51:11,112 WRN kickstart: Command part will be parsed in DBus module.
+10:51:11,112 WRN kickstart: Command part will be parsed in DBus module.
+10:51:11,112 WRN kickstart: Command volgroup will be parsed in DBus module.
+10:51:11,112 WRN kickstart: Command logvol will be parsed in DBus module.
+10:51:11,112 WRN kickstart: Command logvol will be parsed in DBus module.
+10:51:11,112 WRN kickstart: Command logvol will be parsed in DBus module.
+10:51:11,113 WRN kickstart: Command logvol will be parsed in DBus module.
+10:51:11,113 WRN kickstart: Command logvol will be parsed in DBus module.
+10:51:11,113 WRN kickstart: Command timezone will be parsed in DBus module.
+10:51:11,113 WRN kickstart: Command rootpw will be parsed in DBus module.
+10:51:11,113 WRN kickstart: Command firewall will be parsed in DBus module.
+10:51:11,114 WRN kickstart: Command selinux will be parsed in DBus module.
+10:51:11,114 WRN kickstart: Command skipx will be parsed in DBus module.
+10:51:13,291 DBG localization: setting locale to: en_US.UTF-8
+10:51:13,298 DBG network: Initialization started.
+10:51:13,302 DBG network: Devices found: ['enp4s0f0', 'enp4s0f1', 'enp4s0f2', 'enp4s0f3', 'enp6s0', 'enp7s0']
+10:51:13,305 DBG network: Running task Consolidate initramfs connections
+10:51:13,308 DBG network: Consolidate initramfs connections result: []
+10:51:13,310 DBG network: Running task Apply kickstart
+10:51:13,312 DBG network: Apply kickstart result: []
+10:51:13,316 DBG network: Running task Dump missing ifcfg files
+10:51:14,322 DBG network: Dump missing ifcfg files result: ['enp4s0f0', 'enp4s0f1', 'enp4s0f2', 'enp4s0f3', 'enp6s0', 'enp7s0']
+10:51:14,325 DBG network: Running task Set real ONBOOT values from kickstart
+10:51:14,327 DBG network: Set real ONBOOT values from kickstart result: []
+10:51:14,328 DBG network: Creating network configurations.
+10:51:14,334 DBG network: Initialization finished.
+10:51:14,335 INF threading: Running Thread: AnaWaitForConnectingNMThread (140502771115776)
+10:51:14,335 DBG anaconda: setting display mode to TUI
+10:51:14,338 WRN stdout: Not asking for VNC because of an automated install
+10:51:14,338 INF threading: Thread Done: AnaWaitForConnectingNMThread (140502771115776)
+10:51:14,338 WRN stdout: Not asking for VNC because text mode was explicitly asked for in kickstart
+10:51:14,338 WRN stdout: Not asking for VNC because we don't have a network
+10:51:14,338 INF anaconda: Display mode is set to 'interactive text mode'.
+10:51:14,339 INF isys: 16447864 kB (16062 MB) are available
+10:51:14,342 INF startup_utils: check_memory(): total:16062, needed:320, graphical:410
+10:51:14,343 DBG addons: Loading ks section into module path for addon com_redhat_kdump
+10:51:14,343 DBG addons: Loading spokes into module path for addon com_redhat_kdump
+10:51:14,343 DBG addons: Loading ks section into module path for addon org_fedora_oscap
+10:51:14,450 DBG core.storage: LABEL=OEMDRV matches [] for devicetree=None and disks_only=True
+10:51:14,457 INF threading: Running Thread: AnaStorageThread (140502771115776)
+10:51:14,459 INF threading: Running Thread: AnaTimeInitThread (140502754338560)
+10:51:14,477 DBG payload.manager: Restarting payload thread
+10:51:14,477 INF threading: Running Thread: AnaPayloadRestartThread (140502745159424)
+10:51:14,477 INF geoloc: Geolocation is disabled due to automated kickstart based installation.
+10:51:14,478 INF threading: Running Thread: AnaPayloadThread (140502736766720)
+10:51:14,478 DBG payload.manager: Updating payload thread state: STARTED
+10:51:14,478 DBG payload.manager: Updating payload thread state: WAITING_STORAGE
+10:51:14,479 INF threading: Thread Done: AnaPayloadRestartThread (140502745159424)
+10:51:14,711 DBG simpleline: GLib event loop is used!
+10:51:14,762 INF core.util: Skipping detection of unsupported hardware.
+10:51:14,762 INF core.util: Skipping detection of SMT.
+10:51:14,769 INF lifecycle: Adding controller: SummaryHub
+10:51:14,772 INF lifecycle: Module initialized: TimeSpoke
+10:51:14,841 INF lifecycle: Module initialized: LangSpoke
+10:51:14,842 INF threading: Running Thread: AnaSoftwareWatcher (140502745159424)
+10:51:14,842 INF threading: Running Thread: AnaSourceWatcher (140502724003584)
+10:51:14,852 INF lifecycle: Module initialized: NetworkSpoke
+10:51:14,858 INF threading: Running Thread: AnaStorageWatcher (140502707218176)
+10:51:14,860 INF lifecycle: Module initialized: PasswordSpoke
+10:51:14,862 WRN ui.tui.hubs: Spoke PasswordSpoke initialization failure!
+10:51:14,865 INF lifecycle: Module initialized: UserSpoke
+10:51:14,867 INF lifecycle: Initialization of all modules (8) has been started.
+10:51:15,000 INF threading: Thread Done: AnaTimeInitThread (140502754338560)
+10:51:17,133 INF threading: Thread Done: AnaStorageThread (140502771115776)
+10:51:17,137 DBG ui.tui.spokes.storage: Saving storage configuration...
+10:51:18,165 DBG ui.tui.spokes.storage: Checking storage configuration...
+10:51:19,206 DBG ui.tui.spokes.storage: Partitioning has been applied: ValidationReport(error_messages=[], warning_messages=['You have not specified a swap partition. Although not strictly required in all cases, it will significantly improve performance for most installations.'])
+10:51:19,207 INF lifecycle: Module initialized: StorageSpoke
+10:51:19,207 INF threading: Thread Done: AnaStorageWatcher (140502707218176)
+10:51:19,207 DBG payload.manager: Updating payload thread state: WAITING_NETWORK
+10:51:19,207 DBG payload.manager: Updating payload thread state: DOWNLOADING_PKG_METADATA
+10:51:22,343 DBG payload.manager: Updating payload thread state: DOWNLOADING_GROUP_METADATA
+10:51:22,499 DBG payload.manager: Updating payload thread state: FINISHED
+10:51:22,499 DBG ui.tui.spokes.software_selection: Payload restarted, set new info and clear the old one.
+10:51:22,499 INF threading: Thread Done: AnaPayloadThread (140502736766720)
+10:51:22,499 DBG ui.tui.spokes.software_selection: Apply called old env None, new env None and addons set()
+10:51:22,499 INF lifecycle: Module initialized: SoftwareSpoke
+10:51:22,500 INF threading: Thread Done: AnaSoftwareWatcher (140502745159424)
+10:51:22,502 INF lifecycle: Module initialized: SourceSpoke
+10:51:22,502 INF lifecycle: All modules have been initialized.
+10:51:22,502 INF threading: Thread Done: AnaSourceWatcher (140502724003584)
+10:51:22,615 DBG simpleline: Scheduling screen SummaryHub
+10:51:22,615 DBG simpleline: New signal RenderScreenSignal enqueued with source ScreenScheduler
+10:51:22,616 DBG simpleline: Scheduling screen ProgressSpoke
+10:51:22,616 DBG simpleline: Starting main loop
+10:51:22,616 DBG simpleline: Processing screen ScreenData(SummaryHub,None,False)
+10:51:22,649 DBG simpleline: Input is required by ScreenData(SummaryHub,None,False) screen
+10:51:22,682 INF ui.lib.space: fs space: 7.94 GiB  needed: 2.79 GiB
+10:51:22,682 DBG simpleline: New signal CloseScreenSignal enqueued with source SummaryHub
+10:51:22,682 DBG simpleline: Closing screen ScreenData(SummaryHub,None,False) from SummaryHub
+10:51:22,682 DBG simpleline: New signal RenderScreenSignal enqueued with source ScreenScheduler
+10:51:22,683 DBG simpleline: Processing screen ScreenData(ProgressSpoke,None,False)
+10:51:22,687 INF threading: Running Thread: AnaInstallThread (140502724003584)
+10:51:22,770 INF installation: Top-level task queue: Complete installation queue
+Number of task queues: 16
+Number of tasks: 41
+Task & task group listing:
+ Task queue: Installation queue
+  Task: Save system time to HW clock
+  Task queue: Installation environment setup
+   Task: Setup addons
+   Task: Configure the runtime system
+  Task queue: Early storage configuration
+   Task: Activate filesystems
+   Task: Mount filesystems
+   Task: Write the storage configuration
+  Task queue: Pre-install scripts
+   Task: Run %pre-install scripts
+  Task queue: Pre install tasks
+   Task: Copy resolv.conf to sysroot
+   Task: Discover information about a realm
+   Task: Find additional packages & run pre_install()
+  Task queue: Payload installation
+   Task: Install the payload
+  Task queue: Bootloader installation
+   Task: Configure the bootloader
+   Task: Install the bootloader
+  Task queue: Post-installation setup tasks
+   Task: Run post-installation setup tasks
+ Task queue: Configuration queue
+  Task queue: Installed system configuration
+   Task: Configure SELinux
+   Task: Configure fingerprint authentication
+   Task: Authselect configuration
+   Task: Authconfig configuration
+   Task: Configure time zone
+   Task: Configure NTP
+   Task: Configure Initial Setup
+   Task: Configure post-installation tools
+   Task: Configure services
+   Task: Configure systemd default target
+   Task: Configure default desktop
+   Task: Configure language
+   Task: Configure keyboard
+   Task: Configure firewall
+   Task: Create groups
+   Task: Create users
+   Task: Configure root password
+   Task: Set SSH keys
+   Task: Configure optional root password SSH login
+  Task queue: Network configuration
+   Task: Network configuration
+  Task queue: User creation
+  Task queue: Anaconda addon configuration
+   Task: Configure Anaconda addons
+   Task: Install the system
+  Task queue: Initramfs generation
+   Task: Generate initramfs
+   Task: Rerun zipl
+  Task: Join a realm
+  Task queue: Write configs and kickstarts
+   Task: Store kickstarts
+  Task queue: Post installation scripts
+   Task: Run post installation scripts
+10:51:22,771 INF installation: Queue started: Installation queue (1/16)
+10:51:22,771 INF installation: Task started: Save system time to HW clock (1/41)
+10:51:23,501 INF progress: Save system time to HW clock
+10:51:23,501 DBG installation: Task completed: Save system time to HW clock (1/41) (0.7 s)
+10:51:23,501 INF progress: Setting up the installation environment
+10:51:23,501 INF installation: Queue started: Installation environment setup (2/16)
+10:51:23,501 INF installation: Task started: Setup addons (2/41)
+10:51:23,502 INF progress: Setting up com_redhat_kdump addon
+10:51:23,505 INF progress: Setting up org_fedora_oscap addon
+10:51:23,505 INF progress: Setup addons
+10:51:23,505 DBG installation: Task completed: Setup addons (2/41) (0.0 s)
+10:51:23,505 INF installation: Task started: Configure the runtime system (3/41)
+10:51:23,507 INF progress: Configure the runtime system
+10:51:23,507 DBG installation: Task completed: Configure the runtime system (3/41) (0.0 s)
+10:51:23,507 INF progress: Configuring storage
+10:51:23,507 INF installation: Queue started: Early storage configuration (3/16)
+10:51:23,508 INF installation: Task started: Activate filesystems (4/41)
+10:51:26,509 INF progress: Creating disklabel on /dev/sda
+10:51:26,509 INF progress: Creating efi on /dev/sda1
+10:51:26,509 INF progress: Creating lvmpv on /dev/sda3
+10:51:27,510 INF progress: Creating ext4 on /dev/mapper/vg_main-lv_tmp
+10:51:28,510 INF progress: Creating ext4 on /dev/mapper/vg_main-lv_var_log
+10:51:31,511 INF progress: Creating ext4 on /dev/mapper/vg_main-lv_var
+10:51:36,513 INF progress: Creating ext4 on /dev/mapper/vg_main-lv_home
+10:51:37,513 INF progress: Creating ext4 on /dev/mapper/vg_main-lv_root
+10:51:38,514 INF progress: Creating ext4 on /dev/sda2
+10:51:38,537 INF progress: Activate filesystems
+10:51:38,537 DBG installation: Task completed: Activate filesystems (4/41) (15.0 s)
+10:51:38,537 INF installation: Task started: Mount filesystems (5/41)
+10:51:42,548 INF progress: Mount filesystems
+10:51:42,548 DBG installation: Task completed: Mount filesystems (5/41) (4.0 s)
+10:51:42,548 INF installation: Task started: Write the storage configuration (6/41)
+10:51:43,555 INF progress: Write the storage configuration
+10:51:43,555 DBG installation: Task completed: Write the storage configuration (6/41) (1.0 s)
+10:51:43,555 INF progress: Running pre-installation scripts
+10:51:43,555 INF installation: Queue started: Pre-install scripts (4/16)
+10:51:43,556 INF installation: Task started: Run %pre-install scripts (7/41)
+10:51:43,556 INF progress: Run %pre-install scripts
+10:51:43,556 DBG installation: Task completed: Run %pre-install scripts (7/41) (0.0 s)
+10:51:43,556 INF progress: Running pre-installation tasks
+10:51:43,556 INF installation: Queue started: Pre install tasks (5/16)
+10:51:43,556 INF installation: Task started: Copy resolv.conf to sysroot (8/41)
+10:51:43,557 DBG network: /etc/resolv

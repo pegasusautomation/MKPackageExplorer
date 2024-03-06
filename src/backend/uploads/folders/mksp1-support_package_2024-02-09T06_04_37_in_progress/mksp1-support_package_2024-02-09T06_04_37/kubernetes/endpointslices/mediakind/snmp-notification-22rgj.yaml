@@ -1,0 +1,75 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.177
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: snmp-notification-7b84848b49-dfkxj
+    namespace: mediakind
+    resourceVersion: '8615280'
+    uid: 6316466b-4300-4f7b-ac55-3126310c892a
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:29:15Z'
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generateName: snmp-notification-
+  generation: 33
+  labels:
+    app.kubernetes.io/component: snmp-notification
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: snmp-notification
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.86.4
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: snmp-notification-0.86.4
+    kubernetes.io/service-name: snmp-notification
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"ec56eb07-29f8-471f-8ae8-7f380ea80beb"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:29:15Z'
+  name: snmp-notification-22rgj
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: snmp-notification
+    uid: ec56eb07-29f8-471f-8ae8-7f380ea80beb
+  resourceVersion: '8615282'
+  uid: 56ddbec8-f968-431d-9828-da086545cdca
+ports:
+- name: restapi
+  port: 8008
+  protocol: TCP

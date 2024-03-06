@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:13Z'
+  name: attachdetach-controller
+  namespace: kube-system
+  resourceVersion: '347'
+  uid: dcdf017c-1d8d-482e-93ea-8eeb3b84242c
+secrets:
+- name: attachdetach-controller-token-vmfmr

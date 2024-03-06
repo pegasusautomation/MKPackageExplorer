@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:24Z'
+  name: default
+  namespace: default
+  resourceVersion: '412'
+  uid: 7f2ac42c-12cb-4a57-bcc6-82297e853efb
+secrets:
+- name: default-token-79ptt

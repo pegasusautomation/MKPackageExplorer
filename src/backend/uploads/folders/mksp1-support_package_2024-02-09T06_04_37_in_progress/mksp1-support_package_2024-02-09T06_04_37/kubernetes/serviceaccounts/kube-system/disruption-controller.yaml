@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:11Z'
+  name: disruption-controller
+  namespace: kube-system
+  resourceVersion: '237'
+  uid: 2feec710-20a0-4aa2-8a97-db6c886abf73
+secrets:
+- name: disruption-controller-token-qjrqt

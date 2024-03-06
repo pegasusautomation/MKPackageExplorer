@@ -1,0 +1,178 @@
+metadata:
+  annotations:
+    deployment.kubernetes.io/desired-replicas: '1'
+    deployment.kubernetes.io/max-replicas: '2'
+    deployment.kubernetes.io/revision: '1'
+    objectset.rio.cattle.io/applied: H4sIAAAAAAAA/6xTT2vbThD9Kj/mLMl2nBgj+B1MkkJp45gGegmmjFejeOP9x+5YrTH67mUsOUlpnOTQk3Y1M2/fzHuzBwz6O8WkvYMSMIQ0aEaQwUa7Ckq4omD8zpJjyMASY4WMUO4BnfOMrL1LcvWrR1KciIuofaGQ2VCh/UALCGQn4/6no5g/NBsoYTNOLyLNKPvvi3bV/7Oq8u5dCIeWoATjFZo8sY/4QB8qSgGVVG62K8rTLjFZaDMwuCLzZmtrTGsoYTQd1+MLNbmo65UaDyfnk+G4Ph/Xo4vpsJqqyRTPKlxV5wL6B8mAvM5D9I2W4VOELn6CTwqkhE2kYLTCBOUog0SGFPsoAYus1l+fWGMIp19q2wyYbDDIdKh9Iaz5OMSRk/KOUTuKCcp7uVqL4p77050mxiiWynPlXa0fIIMBsRp0t/5TPCbvYJkBueaA3M9vcXv1Yz67ub5bzC6vIYMGzZY+RW+FTK3JVN+ofjovkEWnY4/F85Dbtl1moK1YpYSITq0pDl7nXDbDYlicjaEvWGyNWXij1Q5K+FzPPS8ipW5P3pO58WZr6cZvHXcTs3Lseb4cwzNW9yPvKqFdCvEQtY+ad5cGU5p3eZ1hcucrylXUrBUaGTfFRiuaKSUvzd/il/e5OXbJkAF7Q/G46/d72JA0fdnDH/Yz3Tqzk30LkimOhOtfOnGCNtsD1TUphhLm/k6tqdoa2c0O5kA1ekOFOD46YkqyXmKq6E0eDDr6p8gWEx90eAVyeVTnaGUZ+w0GcdPfsvbebU/L1Lbt7wAAAP//Zo7/lWMFAAA
+    objectset.rio.cattle.io/id: ''
+    objectset.rio.cattle.io/owner-gvk: k3s.cattle.io/v1, Kind=Addon
+    objectset.rio.cattle.io/owner-name: local-storage
+    objectset.rio.cattle.io/owner-namespace: kube-system
+  creationTimestamp: '2023-12-14T06:48:24Z'
+  generation: 1
+  labels:
+    app: local-path-provisioner
+    pod-template-hash: 5f8bbd68f9
+  managedFields:
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:deployment.kubernetes.io/desired-replicas: {}
+          f:deployment.kubernetes.io/max-replicas: {}
+          f:deployment.kubernetes.io/revision: {}
+          f:objectset.rio.cattle.io/applied: {}
+          f:objectset.rio.cattle.io/id: {}
+          f:objectset.rio.cattle.io/owner-gvk: {}
+          f:objectset.rio.cattle.io/owner-name: {}
+          f:objectset.rio.cattle.io/owner-namespace: {}
+        f:labels:
+          .: {}
+          f:app: {}
+          f:pod-template-hash: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"0c42f5b4-a1b0-4003-a799-5aeed5ee4422"}: {}
+      f:spec:
+        f:replicas: {}
+        f:selector: {}
+        f:template:
+          f:metadata:
+            f:labels:
+              .: {}
+              f:app: {}
+              f:pod-template-hash: {}
+          f:spec:
+            f:containers:
+              k:{"name":"local-path-provisioner"}:
+                .: {}
+                f:command: {}
+                f:env:
+                  .: {}
+                  k:{"name":"POD_NAMESPACE"}:
+                    .: {}
+                    f:name: {}
+                    f:valueFrom:
+                      .: {}
+                      f:fieldRef: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:name: {}
+                f:resources: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/etc/config/"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+            f:dnsPolicy: {}
+            f:priorityClassName: {}
+            f:restartPolicy: {}
+            f:schedulerName: {}
+            f:securityContext: {}
+            f:serviceAccount: {}
+            f:serviceAccountName: {}
+            f:terminationGracePeriodSeconds: {}
+            f:tolerations: {}
+            f:volumes:
+              .: {}
+              k:{"name":"config-volume"}:
+                .: {}
+                f:configMap:
+                  .: {}
+                  f:defaultMode: {}
+                  f:name: {}
+                f:name: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T06:48:24Z'
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:availableReplicas: {}
+        f:fullyLabeledReplicas: {}
+        f:observedGeneration: {}
+        f:readyReplicas: {}
+        f:replicas: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:28:35Z'
+  name: local-path-provisioner-5f8bbd68f9
+  namespace: kube-system
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Deployment
+    name: local-path-provisioner
+    uid: 0c42f5b4-a1b0-4003-a799-5aeed5ee4422
+  resourceVersion: '8614773'
+  uid: 91731edf-2c79-41d5-bd71-59a4c0b6ab85
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: local-path-provisioner
+      pod-template-hash: 5f8bbd68f9
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: local-path-provisioner
+        pod-template-hash: 5f8bbd68f9
+    spec:
+      containers:
+      - command:
+        - local-path-provisioner
+        - start
+        - --config
+        - /etc/config/config.json
+        env:
+        - name: POD_NAMESPACE
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+        image: rancher/local-path-provisioner:v0.0.23
+        imagePullPolicy: IfNotPresent
+        name: local-path-provisioner
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /etc/config/
+          name: config-volume
+      dnsPolicy: ClusterFirst
+      priorityClassName: system-node-critical
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      serviceAccount: local-path-provisioner-service-account
+      serviceAccountName: local-path-provisioner-service-account
+      terminationGracePeriodSeconds: 30
+      tolerations:
+      - key: CriticalAddonsOnly
+        operator: Exists
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/control-plane
+        operator: Exists
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/master
+        operator: Exists
+      volumes:
+      - configMap:
+          defaultMode: 420
+          name: local-path-config
+        name: config-volume
+status:
+  availableReplicas: 1
+  fullyLabeledReplicas: 1
+  observedGeneration: 1
+  readyReplicas: 1
+  replicas: 1

@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:12Z'
+  name: endpointslicemirroring-controller
+  namespace: kube-system
+  resourceVersion: '313'
+  uid: 19e27cd2-0375-4622-9a0a-e7130f23d5e6
+secrets:
+- name: endpointslicemirroring-controller-token-5gnw6

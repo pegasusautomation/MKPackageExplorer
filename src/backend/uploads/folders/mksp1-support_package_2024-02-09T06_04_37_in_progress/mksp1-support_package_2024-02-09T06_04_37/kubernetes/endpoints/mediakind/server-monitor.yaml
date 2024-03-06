@@ -1,0 +1,49 @@
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:33Z'
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: server-monitor
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: server-monitor
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.75.2
+    helm.sh/chart: server-monitor-0.75.2
+    service.kubernetes.io/headless: ''
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+          f:service.kubernetes.io/headless: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:28:54Z'
+  name: server-monitor
+  namespace: mediakind
+  resourceVersion: '8615072'
+  uid: eb4b8870-6e33-4542-9d9a-80f10b3e0eb4
+subsets:
+- addresses:
+  - ip: 10.42.0.175
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: server-monitor-7f8444fd47-gblcm
+      namespace: mediakind
+      resourceVersion: '8615070'
+      uid: 38f3226e-73d7-47b9-a9a1-5e760708f7e7

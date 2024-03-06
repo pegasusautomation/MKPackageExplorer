@@ -1,0 +1,175 @@
+uthentication::client-ca-file"}
+{"log_msg":"I0130 10:39:26.406818       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file\""}
+{"log_msg":"I0130 10:39:26.406838       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file"}
+{"log_msg":"I0130 10:39:26.406872       1 requestheader_controller.go:169] Starting RequestHeaderAuthRequestController"}
+{"log_msg":"I0130 10:39:26.406882       1 shared_informer.go:240] Waiting for caches to sync for RequestHeaderAuthRequestController"}
+{"log_msg":"W0130 10:39:26.407533       1 shared_informer.go:372] The sharedIndexInformer has started, run more than once is not allowed"}
+{"log_msg":"I0130 10:39:26.407643       1 tlsconfig.go:240] \"Starting DynamicServingCertificateController\""}
+{"log_msg":"I0130 10:39:26.429370       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:26.507619       1 shared_informer.go:247] Caches are synced for RequestHeaderAuthRequestController "}
+{"log_msg":"I0130 10:39:26.507724       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file "}
+{"log_msg":"I0130 10:39:26.508153       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file "}
+{"log_msg":"I0130 10:39:26.598412       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:26.787700       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:27.871758       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:28.593239       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:30.598474       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:32.592279       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:34.616040       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:36.602756       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:38.603905       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:40.602470       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0201 20:59:06.154674       1 secure_serving.go:266] Serving securely on [::]:10250"}
+{"log_msg":"I0201 20:59:06.154750       1 requestheader_controller.go:169] Starting RequestHeaderAuthRequestController"}
+{"log_msg":"I0201 20:59:06.154759       1 shared_informer.go:240] Waiting for caches to sync for RequestHeaderAuthRequestController"}
+{"log_msg":"I0201 20:59:06.154792       1 dynamic_serving_content.go:131] \"Starting controller\" name=\"serving-cert::/tmp/apiserver.crt::/tmp/apiserver.key\""}
+{"log_msg":"I0201 20:59:06.155047       1 tlsconfig.go:240] \"Starting DynamicServingCertificateController\""}
+{"log_msg":"I0201 20:59:06.161204       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0201 20:59:06.161876       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file\""}
+{"log_msg":"I0201 20:59:06.161890       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file"}
+{"log_msg":"I0201 20:59:06.161923       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::client-ca-file\""}
+{"log_msg":"I0201 20:59:06.161929       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file"}
+{"log_msg":"W0201 20:59:06.162374       1 shared_informer.go:372] The sharedIndexInformer has started, run more than once is not allowed"}
+{"log_msg":"I0201 20:59:06.255577       1 shared_informer.go:247] Caches are synced for RequestHeaderAuthRequestController "}
+{"log_msg":"I0201 20:59:06.263059       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file "}
+{"log_msg":"I0201 20:59:06.263241       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file "}
+{"log_msg":"I0201 20:59:06.705900       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0201 20:59:07.935004       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"msg":"e synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file "}
+{"log_msg":"I0206 08:36:08.193849       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 08:36:08.680419       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 08:36:09.332862       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 13:28:19.613330       1 secure_serving.go:266] Serving securely on [::]:10250"}
+{"log_msg":"I0206 13:28:19.613397       1 requestheader_controller.go:169] Starting RequestHeaderAuthRequestController"}
+{"log_msg":"I0206 13:28:19.613406       1 shared_informer.go:240] Waiting for caches to sync for RequestHeaderAuthRequestController"}
+{"log_msg":"I0206 13:28:19.613438       1 dynamic_serving_content.go:131] \"Starting controller\" name=\"serving-cert::/tmp/apiserver.crt::/tmp/apiserver.key\""}
+{"log_msg":"I0206 13:28:19.613619       1 tlsconfig.go:240] \"Starting DynamicServingCertificateController\""}
+{"log_msg":"I0206 13:28:19.613620       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file\""}
+{"log_msg":"I0206 13:28:19.613643       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file"}
+{"log_msg":"I0206 13:28:19.613667       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::client-ca-file\""}
+{"log_msg":"I0206 13:28:19.613673       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file"}
+{"log_msg":"W0206 13:28:19.613687       1 shared_informer.go:372] The sharedIndexInformer has started, run more than once is not allowed"}
+{"log_msg":"I0206 13:28:19.713684       1 shared_informer.go:247] Caches are synced for RequestHeaderAuthRequestController "}
+{"log_msg":"I0206 13:28:19.713701       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file "}
+{"log_msg":"I0206 13:28:19.713703       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file "}
+{"log_msg":"I0206 13:28:19.880208       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 13:28:20.169970       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 13:28:22.185506       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 13:28:24.179222       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 13:28:26.169311       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 13:28:28.170873       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 13:28:30.179725       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 13:28:32.174708       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0206 13:28:34.190524       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 07:10:30.053641       1 requestheader_controller.go:169] Starting RequestHeaderAuthRequestController"}
+{"log_msg":"I1214 07:10:30.053646       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::client-ca-file\""}
+{"log_msg":"I1214 07:10:30.053961       1 secure_serving.go:266] Serving securely on [::]:10250"}
+{"log_msg":"I1214 07:10:30.053964       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file"}
+{"log_msg":"I1214 07:10:30.053648       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file\""}
+{"log_msg":"I1214 07:10:30.053984       1 tlsconfig.go:240] \"Starting DynamicServingCertificateController\""}
+{"log_msg":"I1214 07:10:30.053988       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file"}
+{"log_msg":"I1214 07:10:30.053829       1 dynamic_serving_content.go:131] \"Starting controller\" name=\"serving-cert::/tmp/apiserver.crt::/tmp/apiserver.key\""}
+{"log_msg":"W1214 07:10:30.054111       1 shared_informer.go:372] The sharedIndexInformer has started, run more than once is not allowed"}
+{"log_msg":"I1214 07:10:30.053956       1 shared_informer.go:240] Waiting for caches to sync for RequestHeaderAuthRequestController"}
+{"log_msg":"I1214 07:10:30.056885       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 07:10:30.154463       1 shared_informer.go:247] Caches are synced for RequestHeaderAuthRequestController "}
+{"log_msg":"I1214 07:10:30.154507       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file "}
+{"log_msg":"I1214 07:10:30.154535       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file "}
+{"log_msg":"I1214 07:10:30.480692       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 07:10:30.917043       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 07:10:32.916182       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 07:10:34.917203       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 07:10:36.915772       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 07:10:38.915996       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 07:10:40.915917       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 07:10:42.915711       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 07:10:44.916297       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 10:00:39.046370       1 object_count_tracker.go:84] \"StorageObjectCountTracker pruner is exiting\""}
+{"log_msg":"I1214 10:00:39.046489       1 configmap_cafile_content.go:222] \"Shutting down controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::client-ca-file\""}
+{"log_msg":"I1214 10:00:39.046507       1 configmap_cafile_content.go:222] \"Shutting down controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file\""}
+{"log_msg":"I1214 10:00:39.046513       1 dynamic_serving_content.go:145] \"Shutting down controller\" name=\"serving-cert::/tmp/apiserver.crt::/tmp/apiserver.key\""}
+{"log_msg":"I1214 10:00:39.046518       1 requestheader_controller.go:183] Shutting down RequestHeaderAuthRequestController"}
+{"log_msg":"I1214 10:00:39.046554       1 tlsconfig.go:255] \"Shutting down DynamicServingCertificateController\""}
+{"log_msg":"I1214 10:00:39.046571       1 secure_serving.go:311] Stopped listening on [::]:10250"}
+{"log_msg":"I1214 10:03:03.723154       1 requestheader_controller.go:169] Starting RequestHeaderAuthRequestController"}
+{"log_msg":"I1214 10:03:03.723190       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file\""}
+{"log_msg":"I1214 10:03:03.723206       1 shared_informer.go:240] Waiting for caches to sync for RequestHeaderAuthRequestController"}
+{"log_msg":"I1214 10:03:03.723209       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file"}
+{"log_msg":"I1214 10:03:03.723172       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::client-ca-file\""}
+{"log_msg":"I1214 10:03:03.723226       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file"}
+{"log_msg":"I1214 10:03:03.723256       1 dynamic_serving_content.go:131] \"Starting controller\" name=\"serving-cert::/tmp/apiserver.crt::/tmp/apiserver.key\""}
+{"log_msg":"I1214 10:03:03.723326       1 secure_serving.go:266] Serving securely on [::]:10250"}
+{"log_msg":"I1214 10:03:03.723352       1 tlsconfig.go:240] \"Starting DynamicServingCertificateController\""}
+{"log_msg":"W1214 10:03:03.723433       1 shared_informer.go:372] The sharedIndexInformer has started, run more than once is not allowed"}
+{"log_msg":"I1214 10:03:03.824121       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file "}
+{"log_msg":"I1214 10:03:03.824142       1 shared_informer.go:247] Caches are synced for RequestHeaderAuthRequestController "}
+{"log_msg":"I1214 10:03:03.824126       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file "}
+{"log_msg":"I1214 10:03:04.109102       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 10:03:04.678236       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 10:03:06.678582       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 10:03:08.674955       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 10:03:10.675272       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 10:03:12.674965       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 10:03:14.674443       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 10:03:16.674944       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I1214 10:03:18.674840       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0102 08:59:04.120100       1 requestheader_controller.go:169] Starting RequestHeaderAuthRequestController"}
+{"log_msg":"I0102 08:59:04.120155       1 shared_informer.go:240] Waiting for caches to sync for RequestHeaderAuthRequestController"}
+{"log_msg":"I0102 08:59:04.120184       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::client-ca-file\""}
+{"log_msg":"I0102 08:59:04.120215       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file"}
+{"log_msg":"I0102 08:59:04.120235       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file\""}
+{"log_msg":"I0102 08:59:04.120245       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file"}
+{"log_msg":"I0102 08:59:04.120337       1 secure_serving.go:266] Serving securely on [::]:10250"}
+{"log_msg":"I0102 08:59:04.120365       1 dynamic_serving_content.go:131] \"Starting controller\" name=\"serving-cert::/tmp/apiserver.crt::/tmp/apiserver.key\""}
+{"log_msg":"I0102 08:59:04.120569       1 tlsconfig.go:240] \"Starting DynamicServingCertificateController\""}
+{"log_msg":"W0102 08:59:04.120800       1 shared_informer.go:372] The sharedIndexInformer has started, run more than once is not allowed"}
+{"log_msg":"I0102 08:59:04.127430       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0102 08:59:04.220876       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file "}
+{"log_msg":"I0102 08:59:04.220907       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file "}
+{"log_msg":"I0102 08:59:04.220879       1 shared_informer.go:247] Caches are synced for RequestHeaderAuthRequestController "}
+{"log_msg":"I0102 08:59:04.606237       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0102 08:59:05.091961       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0102 08:59:06.304646       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0102 08:59:06.604097       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0102 08:59:08.609543       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0111 14:13:33.469945       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0111 14:13:35.458352       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0111 14:13:37.446428       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0111 14:13:39.466389       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0112 14:08:05.496851       1 secure_serving.go:266] Serving securely on [::]:10250"}
+{"log_msg":"I0112 14:08:05.496932       1 requestheader_controller.go:169] Starting RequestHeaderAuthRequestController"}
+{"log_msg":"I0112 14:08:05.496941       1 shared_informer.go:240] Waiting for caches to sync for RequestHeaderAuthRequestController"}
+{"log_msg":"I0112 14:08:05.496975       1 dynamic_serving_content.go:131] \"Starting controller\" name=\"serving-cert::/tmp/apiserver.crt::/tmp/apiserver.key\""}
+{"log_msg":"I0112 14:08:05.499056       1 tlsconfig.go:240] \"Starting DynamicServingCertificateController\""}
+{"log_msg":"W0112 14:08:05.501876       1 shared_informer.go:372] The sharedIndexInformer has started, run more than once is not allowed"}
+{"log_msg":"I0112 14:08:05.502007       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file\""}
+{"log_msg":"I0112 14:08:05.502019       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file"}
+{"log_msg":"I0112 14:08:05.502043       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::client-ca-file\""}
+{"log_msg":"I0112 14:08:05.502048       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file"}
+{"log_msg":"I0112 14:08:05.513320       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0112 14:08:05.597059       1 shared_informer.go:247] Caches are synced for RequestHeaderAuthRequestController "}
+{"log_msg":"I0112 14:08:05.602957       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file "}
+{"log_msg":"I0112 14:08:05.603020       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file "}
+{"log_msg":"I0112 14:08:06.369457       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0112 14:08:06.738991       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0123 04:28:52.070381       1 secure_serving.go:266] Serving securely on [::]:10250"}
+{"log_msg":"I0123 04:28:52.070432       1 requestheader_controller.go:169] Starting RequestHeaderAuthRequestController"}
+{"log_msg":"I0123 04:28:52.070440       1 shared_informer.go:240] Waiting for caches to sync for RequestHeaderAuthRequestController"}
+{"log_msg":"I0123 04:28:52.070465       1 dynamic_serving_content.go:131] \"Starting controller\" name=\"serving-cert::/tmp/apiserver.crt::/tmp/apiserver.key\""}
+{"log_msg":"W0123 04:28:52.072189       1 shared_informer.go:372] The sharedIndexInformer has started, run more than once is not allowed"}
+{"log_msg":"I0123 04:28:52.072205       1 tlsconfig.go:240] \"Starting DynamicServingCertificateController\""}
+{"log_msg":"I0123 04:28:52.072217       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file\""}
+{"log_msg":"I0123 04:28:52.072228       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file"}
+{"log_msg":"I0123 04:28:52.072220       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::client-ca-file\""}
+{"log_msg":"I0123 04:28:52.072238       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file"}
+{"log_msg":"I0123 04:28:52.170847       1 shared_informer.go:247] Caches are synced for RequestHeaderAuthRequestController "}
+{"log_msg":"I0123 04:28:52.173125       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::requestheader-client-ca-file "}
+{"log_msg":"I0123 04:28:52.173581       1 shared_informer.go:247] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file "}
+{"log_msg":"I0123 04:28:52.627132       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0123 04:28:52.780910       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0123 04:28:54.794664       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0123 04:28:56.788161       1 server.go:187] \"Failed probe\" probe=\"metric-storage-ready\" err=\"no metrics to serve\""}
+{"log_msg":"I0130 10:39:26.405049       1 secure_serving.go:266] Serving securely on [::]:10250"}
+{"log_msg":"I0130 10:39:26.406633       1 dynamic_serving_content.go:131] \"Starting controller\" name=\"serving-cert::/tmp/apiserver.crt::/tmp/apiserver.key\""}
+{"log_msg":"I0130 10:39:26.406664       1 configmap_cafile_content.go:201] \"Starting controller\" name=\"client-ca::kube-system::extension-apiserver-authentication::client-ca-file\""}
+{"log_msg":"I0130 10:39:26.406685       1 shared_informer.go:240] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-a

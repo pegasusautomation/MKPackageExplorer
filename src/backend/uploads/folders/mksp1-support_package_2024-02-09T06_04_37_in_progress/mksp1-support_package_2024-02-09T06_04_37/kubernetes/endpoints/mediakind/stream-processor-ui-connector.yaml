@@ -1,0 +1,51 @@
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:24Z'
+  creationTimestamp: '2023-12-14T10:42:08Z'
+  labels:
+    app.kubernetes.io/component: stream-processor-ui-connector
+    app.kubernetes.io/instance: mksp
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: stream-processor-ui-connector
+    app.kubernetes.io/part-of: mksp
+    app.kubernetes.io/version: 20.0.3-29
+    helm.sh/chart: stream-processor-ui-connector-20.0.3-29
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T08:36:26Z'
+  name: stream-processor-ui-connector
+  namespace: mediakind
+  resourceVersion: '8614918'
+  uid: 6304af2d-3e75-4c9a-ad38-c2da298bcc72
+subsets:
+- addresses:
+  - ip: 10.42.0.163
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: stream-processor-ui-connector-86df9cfbd7-w6bd9
+      namespace: mediakind
+      resourceVersion: '8614917'
+      uid: 5911834d-af80-48f2-9432-c73a04feab58
+  ports:
+  - name: http
+    port: 5050
+    protocol: TCP

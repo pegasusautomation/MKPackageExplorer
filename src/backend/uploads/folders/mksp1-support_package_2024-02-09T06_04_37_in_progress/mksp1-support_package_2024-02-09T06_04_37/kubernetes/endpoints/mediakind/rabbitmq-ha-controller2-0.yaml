@@ -1,0 +1,43 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: rabbitmq-external-service
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:07:18Z'
+  labels:
+    app.kubernetes.io/managed-by: Helm
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/managed-by: {}
+      f:subsets: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:07:18Z'
+  name: rabbitmq-ha-controller2-0
+  namespace: mediakind
+  resourceVersion: '18474'
+  uid: f36654f6-fc96-4278-8fb2-010e1b953ce1
+subsets:
+- addresses:
+  - ip: 10.69.8.32
+  ports:
+  - name: amqp
+    port: 5672
+    protocol: TCP
+  - name: epmd
+    port: 4369
+    protocol: TCP
+  - name: dist
+    port: 25672
+    protocol: TCP
+  - name: stats
+    port: 15672
+    protocol: TCP

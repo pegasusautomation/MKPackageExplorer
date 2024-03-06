@@ -1,0 +1,139 @@
+Writing /var/install/controller-20.0.2+183/host-apps/last_configure.sh
+*** Packages: reboot-daemon ***
+reboot-daemon_repo repo                         205 kB/s | 1.8 kB     00:00    
+Dependencies resolved.
+================================================================================
+ Package            Arch        Version           Repository               Size
+================================================================================
+Installing:
+ inotify-tools      x86_64      3.14-19.el8       reboot-daemon_repo       57 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total size: 57 k
+Installed size: 120 k
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : inotify-tools-3.14-19.el8.x86_64                       1/1 
+  Running scriptlet: inotify-tools-3.14-19.el8.x86_64                       1/1 
+  Verifying        : inotify-tools-3.14-19.el8.x86_64                       1/1 
+
+Installed:
+  inotify-tools-3.14-19.el8.x86_64                                              
+
+Complete!
+Last metadata expiration check: 0:00:01 ago on Thu 14 Dec 2023 06:51:32 AM UTC.
+Dependencies resolved.
+================================================================================
+ Package                   Arch     Version          Repository            Size
+================================================================================
+Installing:
+ mediakind-reboot-daemon   noarch   1.0.0-2.el8      reboot-daemon_repo   8.6 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total size: 8.6 k
+Installed size: 2.0 k
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Running scriptlet: mediakind-reboot-daemon-1.0.0-2.el8.noarch             1/1 
+  Installing       : mediakind-reboot-daemon-1.0.0-2.el8.noarch             1/1 
+  Running scriptlet: mediakind-reboot-daemon-1.0.0-2.el8.noarch             1/1 
+Created symlink /etc/systemd/system/multi-user.target.wants/mediakind-reboot-daemon-listener.service → /usr/lib/systemd/system/mediakind-reboot-daemon-listener.service.
+
+  Verifying        : mediakind-reboot-daemon-1.0.0-2.el8.noarch             1/1 
+
+Installed:
+  mediakind-reboot-daemon-1.0.0-2.el8.noarch                                    
+
+Complete!
+Packages reboot-daemon completed successfully
+*** Script: logo_host-apps ***
+[34m
+[34m
+[34m
+                                                                                [34m
+                          .@@@=                              -@@@-              [34m
+         ...            .=@@@@*                              -@@@-              [34m
+         +@@=.         :*@@@@@*                              -@@@-              [34m
+         @@@@+-      .-*@@@@@@*      .-=====:        .-====- -@@@-  :--.    -===[34m
+         @@@@@*=    .*@@@@+@@@*    .+*@@@@@@*+:    .+*@@@@@@*+@@@- .*@@:   +@@@@[34m
+         @@@@@@@+. :@@@@@: @@@*   -@@@@@++*@@@*:  .@@@@@@@@@@@@@@- :@@@-   @@@**[34m
+         @@@@*@@@@*@@@@*.  @@@*  :*@@*.    .@@@-  @@@@+    :+@@@@- :@@@-    .   [34m
+         @@@+:=@@@@@@*-.   @@@*  -@@@.    .-@@@- -@@@=       *@@@- :@@@-    :---[34m
+         @@@+  =*@@@*:     @@@*  *@@@=====+@@@+. *@@@-       =@@@- :@@@-  .=*@@@[34m
+         @@@+   :+@-.      @@@*  *@@@@@@@@@@*-.  *@@@-       =@@@- :@@@-  *@@@+:[34m
+         @@@+              @@@*  -@@@.           -@@@=       @@@*. :@@@-  @@@-  [34m
+         @@@+              @@@*  .*@@@:..  ....   *@@@=....:*@@@-  :@@@- .@@@=. [34m
+         @@@+              @@@*   :*@@@*+=+*@@=   .+@@@@***@@@@=   :@@@-  +@@@+-[34m
+         @@@-             .@@@=    :=@@@@@@@@*-    .-*@@@@@@@+:    :@@@-  .-*@@@[34m
+[34m
+[34m
+[34m
+[34m
+[34m
+[34m
+                                         ██╗░░██╗░█████╗░░██████╗████████╗░░░░░░[34m
+                                         ██║░░██║██╔══██╗██╔════╝╚══██╔══╝░░░░░░[34m
+                                         ███████║██║░░██║╚█████╗░░░░██║░░░█████╗[34m
+                                         ██╔══██║██║░░██║░╚═══██╗░░░██║░░░╚════╝[34m
+                                         ██║░░██║╚█████╔╝██████╔╝░░░██║░░░░░░░░░[34m
+                                         ╚═╝░░╚═╝░╚════╝░╚═════╝░░░░╚═╝░░░░░░░░░[34m
+(B[m
+Script logo_host-apps completed successfully
+*** Script: create-fluent-dir ***
+/var/log/mediakind/kubernetes created
+/var/log/mediakind/systemd created
+/var/log/mediakind/dumps created
+chmod 755 /var/log/mediakind
+chown daemon:daemon /var/log/mediakind/dumps
+Script create-fluent-dir completed successfully
+*** HelmDeployment: fluent-bit ***
+WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: /etc/rancher/k3s/k3s.yaml
+Release "fluent-bit" does not exist. Installing it now.
+NAME: fluent-bit
+LAST DEPLOYED: Thu Dec 14 06:51:34 2023
+NAMESPACE: mediakind
+STATUS: deployed
+REVISION: 1
+NOTES:
+Get Fluent Bit build information by running these commands:
+
+export POD_NAME=$(kubectl get pods --namespace mediakind -l "app.kubernetes.io/name=fluent-bit,app.kubernetes.io/instance=fluent-bit" -o jsonpath="{.items[0].metadata.name}")
+echo "curl http://127.0.0.1:2020 for Fluent Bit build information"
+kubectl --namespace mediakind port-forward $POD_NAME 2020:2020
+HelmDeployment fluent-bit completed successfully
+*** HelmDeployment: support-package ***
+WARNING: Kubernetes configuration file is group-readable. This is insecure. Location: /etc/rancher/k3s/k3s.yaml
+Release "support-package" does not exist. Installing it now.
+NAME: support-package
+LAST DEPLOYED: Thu Dec 14 06:51:35 2023
+NAMESPACE: mediakind
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+namespace/mediakind labeled
+HelmDeployment support-package completed successfully
+*** YamlDeployment: services ***
+Warning: resource namespaces/mediakind is missing the kubectl.kubernetes.io/last-applied-configuration annotation which is required by kubectl apply. kubectl apply should only be used on resources created declaratively by either kubectl create --save-config or kubectl apply. The missing annotation will be patched automatically.
+namespace/mediakind configured
+service/crpm-support-package created
+YamlDeployment services completed successfully
+*** Files: add-nftables-support-package-config ***
+Files add-nftables-support-package-config completed successfully
+*** Script: stop-start-nftables-mediakind-service ***
+Script stop-start-nftables-mediakind-service completed successfully

@@ -1,0 +1,223 @@
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: '1'
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generation: 1
+  labels:
+    app.kubernetes.io/component: controller-metrics-exporter
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: controller-metrics-exporter
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.5.2
+    helm.sh/chart: controller-metrics-exporter-0.5.2
+  managedFields:
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:spec:
+        f:progressDeadlineSeconds: {}
+        f:replicas: {}
+        f:revisionHistoryLimit: {}
+        f:selector: {}
+        f:strategy:
+          f:rollingUpdate:
+            .: {}
+            f:maxSurge: {}
+            f:maxUnavailable: {}
+          f:type: {}
+        f:template:
+          f:metadata:
+            f:labels:
+              .: {}
+              f:app.kubernetes.io/component: {}
+              f:app.kubernetes.io/instance: {}
+              f:app.kubernetes.io/managed-by: {}
+              f:app.kubernetes.io/name: {}
+              f:app.kubernetes.io/part-of: {}
+              f:app.kubernetes.io/version: {}
+              f:helm.sh/chart: {}
+          f:spec:
+            f:containers:
+              k:{"name":"controller-metrics-exporter"}:
+                .: {}
+                f:args: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:name: {}
+                f:ports:
+                  .: {}
+                  k:{"containerPort":8015,"protocol":"TCP"}:
+                    .: {}
+                    f:containerPort: {}
+                    f:name: {}
+                    f:protocol: {}
+                f:resources: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/src/config.ini"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/src/logging.json"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+            f:dnsPolicy: {}
+            f:enableServiceLinks: {}
+            f:restartPolicy: {}
+            f:schedulerName: {}
+            f:securityContext:
+              .: {}
+              f:fsGroup: {}
+            f:terminationGracePeriodSeconds: {}
+            f:volumes:
+              .: {}
+              k:{"name":"config"}:
+                .: {}
+                f:configMap:
+                  .: {}
+                  f:defaultMode: {}
+                  f:name: {}
+                f:name: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          f:deployment.kubernetes.io/revision: {}
+      f:status:
+        f:availableReplicas: {}
+        f:conditions:
+          .: {}
+          k:{"type":"Available"}:
+            .: {}
+            f:lastTransitionTime: {}
+            f:lastUpdateTime: {}
+            f:message: {}
+            f:reason: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Progressing"}:
+            .: {}
+            f:lastTransitionTime: {}
+            f:lastUpdateTime: {}
+            f:message: {}
+            f:reason: {}
+            f:status: {}
+            f:type: {}
+        f:observedGeneration: {}
+        f:readyReplicas: {}
+        f:replicas: {}
+        f:updatedReplicas: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:28:54Z'
+  name: controller-metrics-exporter
+  namespace: mediakind
+  resourceVersion: '8615066'
+  uid: 3fa7942e-05e8-430d-b321-51d0fb6bd980
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: mkc
+      app.kubernetes.io/name: controller-metrics-exporter
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+    type: RollingUpdate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app.kubernetes.io/component: controller-metrics-exporter
+        app.kubernetes.io/instance: mkc
+        app.kubernetes.io/managed-by: Helm
+        app.kubernetes.io/name: controller-metrics-exporter
+        app.kubernetes.io/part-of: mkc
+        app.kubernetes.io/version: 0.5.2
+        helm.sh/chart: controller-metrics-exporter-0.5.2
+    spec:
+      containers:
+      - args:
+        - /src/mediakind/controller/metrics/exporter/app.py
+        - --logging
+        - /src/logging.json
+        - --conf
+        - /src/config.ini
+        image: packages.mediakind.com/mpd-docker/mediakind/controller-metrics-exporter:0.5.2
+        imagePullPolicy: IfNotPresent
+        name: controller-metrics-exporter
+        ports:
+        - containerPort: 8015
+          name: restapi
+          protocol: TCP
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /src/config.ini
+          name: config
+          subPath: config.ini
+        - mountPath: /src/logging.json
+          name: config
+          subPath: logging.json
+      dnsPolicy: ClusterFirst
+      enableServiceLinks: false
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext:
+        fsGroup: 2
+      terminationGracePeriodSeconds: 30
+      volumes:
+      - configMap:
+          defaultMode: 420
+          name: controller-metrics-exporter-config
+        name: config
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: '2023-12-14T10:09:17Z'
+    lastUpdateTime: '2023-12-14T10:09:32Z'
+    message: ReplicaSet "controller-metrics-exporter-7c8ffdf95" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: 'True'
+    type: Progressing
+  - lastTransitionTime: '2024-02-06T13:28:54Z'
+    lastUpdateTime: '2024-02-06T13:28:54Z'
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: 'True'
+    type: Available
+  observedGeneration: 1
+  readyReplicas: 1
+  replicas: 1
+  updatedReplicas: 1

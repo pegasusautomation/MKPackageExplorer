@@ -9,6 +9,7 @@ import LoginPage from "./pages/LoginPage";
 import HomePage from "./pages/HomePage";
 import Packageuploader from "./pages/Packageuploader.js";
 import Certtable from "./certtable.js";
+import Alarm from "./pages/Alarm.js";
 import "./Table.css";
 import "./App.css";
 import Servertable from "./manageserver/servertable.js";
@@ -88,6 +89,9 @@ const App = () => {
             <Route exact path="/Bitrates" className="bitrate">
                 <Servertable userData={userData}/>
              </Route>
+             <Route exact path="/Alarm">
+               <Alarm userData={userData}/>
+            </Route>
             <Route exact path="/Licences">
                <Certtable userData={userData}/>
             </Route>

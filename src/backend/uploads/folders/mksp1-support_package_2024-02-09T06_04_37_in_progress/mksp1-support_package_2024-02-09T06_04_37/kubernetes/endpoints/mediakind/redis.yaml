@@ -1,0 +1,47 @@
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:31Z'
+  creationTimestamp: '2023-12-14T06:57:18Z'
+  labels:
+    app: redis
+    app.kubernetes.io/managed-by: Helm
+    chart: redis-1.2.4
+    heritage: Helm
+    release: mk-deps
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:labels:
+          .: {}
+          f:app: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:chart: {}
+          f:heritage: {}
+          f:release: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T08:36:37Z'
+  name: redis
+  namespace: mediakind
+  resourceVersion: '8614996'
+  uid: 8ab70ce9-8cf3-4108-a958-1ef9d21f63a0
+subsets:
+- addresses:
+  - ip: 10.42.0.165
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: redis-7599f5bc7f-g4lx6
+      namespace: mediakind
+      resourceVersion: '8614993'
+      uid: b89919af-8113-4f62-ae23-2a9b5b42e3ed
+  ports:
+  - name: redis
+    port: 6379
+    protocol: TCP

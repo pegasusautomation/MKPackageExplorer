@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:11Z'
+  name: horizontal-pod-autoscaler
+  namespace: kube-system
+  resourceVersion: '246'
+  uid: 4c5fe180-a7ac-4329-996e-4a63aa39cb86
+secrets:
+- name: horizontal-pod-autoscaler-token-9zlwn

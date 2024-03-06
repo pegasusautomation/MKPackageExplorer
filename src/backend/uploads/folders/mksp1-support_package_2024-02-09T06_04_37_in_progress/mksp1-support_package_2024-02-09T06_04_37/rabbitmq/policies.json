@@ -1,0 +1,17 @@
+[
+    {
+        "apply-to": "all",
+        "definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "name": "ha-all",
+        "pattern": ".*",
+        "priority": 0,
+        "vhost": "/"
+    }
+]

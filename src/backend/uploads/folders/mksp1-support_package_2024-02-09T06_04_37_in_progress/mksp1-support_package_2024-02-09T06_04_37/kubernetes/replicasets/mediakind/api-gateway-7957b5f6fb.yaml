@@ -1,0 +1,426 @@
+metadata:
+  annotations:
+    deployment.kubernetes.io/desired-replicas: '1'
+    deployment.kubernetes.io/max-replicas: '1'
+    deployment.kubernetes.io/revision: '1'
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generation: 1
+  labels:
+    app.kubernetes.io/component: api-gateway
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: api-gateway
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.29.21
+    helm.sh/chart: api-gateway-1.29.21
+    pod-template-hash: 7957b5f6fb
+  managedFields:
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:deployment.kubernetes.io/desired-replicas: {}
+          f:deployment.kubernetes.io/max-replicas: {}
+          f:deployment.kubernetes.io/revision: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+          f:pod-template-hash: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"efc05a7f-b9ec-4ba6-9fef-29c06370fb3f"}: {}
+      f:spec:
+        f:replicas: {}
+        f:selector: {}
+        f:template:
+          f:metadata:
+            f:labels:
+              .: {}
+              f:app.kubernetes.io/component: {}
+              f:app.kubernetes.io/instance: {}
+              f:app.kubernetes.io/managed-by: {}
+              f:app.kubernetes.io/name: {}
+              f:app.kubernetes.io/part-of: {}
+              f:app.kubernetes.io/version: {}
+              f:helm.sh/chart: {}
+              f:pod-template-hash: {}
+          f:spec:
+            f:containers:
+              k:{"name":"httpd"}:
+                .: {}
+                f:args: {}
+                f:command: {}
+                f:env:
+                  .: {}
+                  k:{"name":"LOCAL_SERVER_ID"}:
+                    .: {}
+                    f:name: {}
+                    f:value: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:name: {}
+                f:ports:
+                  .: {}
+                  k:{"containerPort":8080,"protocol":"TCP"}:
+                    .: {}
+                    f:containerPort: {}
+                    f:hostPort: {}
+                    f:name: {}
+                    f:protocol: {}
+                  k:{"containerPort":8443,"protocol":"TCP"}:
+                    .: {}
+                    f:containerPort: {}
+                    f:hostPort: {}
+                    f:name: {}
+                    f:protocol: {}
+                f:resources: {}
+                f:securityContext:
+                  .: {}
+                  f:allowPrivilegeEscalation: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/etc/httpd/conf.d/mediakind"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                  k:{"mountPath":"/etc/httpd/conf.d/mediakind-vhost.conf"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/etc/mediakind/httpd"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                  k:{"mountPath":"/etc/pki/authentication/certs/authentication.crt"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/etc/pki/authentication/private/authentication.key"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/etc/pki/tls/certs/localhost.crt"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/etc/pki/tls/certs/server-chain.crt"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/etc/pki/tls/private/localhost.key"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+              k:{"name":"httpd-mapserverid"}:
+                .: {}
+                f:command: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:name: {}
+                f:resources: {}
+                f:securityContext:
+                  .: {}
+                  f:allowPrivilegeEscalation: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/etc/mediakind"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                  k:{"mountPath":"/etc/mediakind/httpd"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+            f:dnsPolicy: {}
+            f:enableServiceLinks: {}
+            f:initContainers:
+              .: {}
+              k:{"name":"httpd-rules-sync"}:
+                .: {}
+                f:command: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:name: {}
+                f:resources: {}
+                f:securityContext:
+                  .: {}
+                  f:allowPrivilegeEscalation: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/etc/httpd/conf.d/builtins"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                  k:{"mountPath":"/etc/httpd/conf.d/mediakind"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                  k:{"mountPath":"/etc/httpd/conf.d/workers"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:readOnly: {}
+            f:priorityClassName: {}
+            f:restartPolicy: {}
+            f:schedulerName: {}
+            f:securityContext:
+              .: {}
+              f:fsGroup: {}
+              f:runAsUser: {}
+            f:terminationGracePeriodSeconds: {}
+            f:volumes:
+              .: {}
+              k:{"name":"api-certificate"}:
+                .: {}
+                f:name: {}
+                f:secret:
+                  .: {}
+                  f:defaultMode: {}
+                  f:secretName: {}
+              k:{"name":"api-gateway-route-builtins"}:
+                .: {}
+                f:configMap:
+                  .: {}
+                  f:defaultMode: {}
+                  f:name: {}
+                f:name: {}
+              k:{"name":"api-gateway-route-combined"}:
+                .: {}
+                f:emptyDir: {}
+                f:name: {}
+              k:{"name":"api-gateway-route-workers"}:
+                .: {}
+                f:hostPath:
+                  .: {}
+                  f:path: {}
+                  f:type: {}
+                f:name: {}
+              k:{"name":"httpd-config"}:
+                .: {}
+                f:configMap:
+                  .: {}
+                  f:defaultMode: {}
+                  f:name: {}
+                f:name: {}
+              k:{"name":"httpd-mapserverid"}:
+                .: {}
+                f:configMap:
+                  .: {}
+                  f:defaultMode: {}
+                  f:name: {}
+                f:name: {}
+              k:{"name":"httpd-servermap"}:
+                .: {}
+                f:emptyDir: {}
+                f:name: {}
+              k:{"name":"tls-certificate"}:
+                .: {}
+                f:name: {}
+                f:secret:
+                  .: {}
+                  f:defaultMode: {}
+                  f:secretName: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:availableReplicas: {}
+        f:fullyLabeledReplicas: {}
+        f:observedGeneration: {}
+        f:readyReplicas: {}
+        f:replicas: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:28:49Z'
+  name: api-gateway-7957b5f6fb
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Deployment
+    name: api-gateway
+    uid: efc05a7f-b9ec-4ba6-9fef-29c06370fb3f
+  resourceVersion: '8614990'
+  uid: 6d969930-f71e-45f5-bd1d-2d0f797891ff
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: mkc
+      app.kubernetes.io/name: api-gateway
+      pod-template-hash: 7957b5f6fb
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app.kubernetes.io/component: api-gateway
+        app.kubernetes.io/instance: mkc
+        app.kubernetes.io/managed-by: Helm
+        app.kubernetes.io/name: api-gateway
+        app.kubernetes.io/part-of: mkc
+        app.kubernetes.io/version: 1.29.21
+        helm.sh/chart: api-gateway-1.29.21
+        pod-template-hash: 7957b5f6fb
+    spec:
+      containers:
+      - args:
+        - -c
+        - touch /etc/mediakind/httpd/serverid_mapping.cfg /etc/mediakind/httpd/serverid_license_mapping.cfg;
+          /usr/sbin/httpd -D FOREGROUND
+        command:
+        - /usr/bin/sh
+        env:
+        - name: LOCAL_SERVER_ID
+          value: mksp1
+        image: packages.mediakind.com/mpd-docker/mediakind/unified-ui-httpd:1.189.17
+        imagePullPolicy: IfNotPresent
+        name: httpd
+        ports:
+        - containerPort: 8080
+          hostPort: 8080
+          name: http
+          protocol: TCP
+        - containerPort: 8443
+          hostPort: 8443
+          name: https
+          protocol: TCP
+        resources: {}
+        securityContext:
+          allowPrivilegeEscalation: false
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /etc/pki/authentication/private/authentication.key
+          name: api-certificate
+          subPath: tls.key
+        - mountPath: /etc/pki/authentication/certs/authentication.crt
+          name: api-certificate
+          subPath: tls.crt
+        - mountPath: /etc/pki/tls/private/localhost.key
+          name: tls-certificate
+          subPath: tls.key
+        - mountPath: /etc/pki/tls/certs/localhost.crt
+          name: tls-certificate
+          subPath: tls.crt
+        - mountPath: /etc/pki/tls/certs/server-chain.crt
+          name: tls-certificate
+          subPath: ca.crt
+        - mountPath: /etc/httpd/conf.d/mediakind
+          name: api-gateway-route-combined
+        - mountPath: /etc/httpd/conf.d/mediakind-vhost.conf
+          name: httpd-config
+          subPath: mediakind-vhost.conf
+        - mountPath: /etc/mediakind/httpd
+          name: httpd-servermap
+      - command:
+        - /usr/bin/python3
+        - /etc/mediakind/mapserverid.py
+        image: packages.mediakind.com/mpd-docker/mediakind/server-daemon:0.78.2
+        imagePullPolicy: IfNotPresent
+        name: httpd-mapserverid
+        resources: {}
+        securityContext:
+          allowPrivilegeEscalation: false
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /etc/mediakind
+          name: httpd-mapserverid
+        - mountPath: /etc/mediakind/httpd
+          name: httpd-servermap
+      dnsPolicy: ClusterFirst
+      enableServiceLinks: false
+      initContainers:
+      - command:
+        - sh
+        - -c
+        - "cp /etc/httpd/conf.d/builtins/*.conf /etc/httpd/conf.d/mediakind/\nif ls\
+          \ /etc/httpd/conf.d/workers/*.conf 1> /dev/null 2>&1; then \n  cp /etc/httpd/conf.d/workers/*.conf\
+          \ /etc/httpd/conf.d/mediakind/ \nfi\n"
+        image: packages.mediakind.com/mpd-docker/mediakind/unified-ui-httpd:1.189.17
+        imagePullPolicy: IfNotPresent
+        name: httpd-rules-sync
+        resources: {}
+        securityContext:
+          allowPrivilegeEscalation: false
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /etc/httpd/conf.d/workers
+          name: api-gateway-route-workers
+          readOnly: true
+        - mountPath: /etc/httpd/conf.d/builtins
+          name: api-gateway-route-builtins
+        - mountPath: /etc/httpd/conf.d/mediakind
+          name: api-gateway-route-combined
+      priorityClassName: controller-high-priority
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext:
+        fsGroup: 2
+        runAsUser: 2
+      terminationGracePeriodSeconds: 0
+      volumes:
+      - name: api-certificate
+        secret:
+          defaultMode: 420
+          secretName: unified-ui-cert-auth
+      - name: tls-certificate
+        secret:
+          defaultMode: 420
+          secretName: unified-ui-cert-tls
+      - configMap:
+          defaultMode: 420
+          name: api-gateway-httpd
+        name: httpd-config
+      - configMap:
+          defaultMode: 420
+          name: api-gateway-httpd-mapserverid
+        name: httpd-mapserverid
+      - emptyDir: {}
+        name: httpd-servermap
+      - hostPath:
+          path: /etc/mediakind/controller/httpd_rules
+          type: Directory
+        name: api-gateway-route-workers
+      - configMap:
+          defaultMode: 420
+          name: api-gateway-routes
+        name: api-gateway-route-builtins
+      - emptyDir: {}
+        name: api-gateway-route-combined
+status:
+  availableReplicas: 1
+  fullyLabeledReplicas: 1
+  observedGeneration: 1
+  readyReplicas: 1
+  replicas: 1

@@ -1,0 +1,25 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:56:54Z'
+  managedFields:
+  - apiVersion: coordination.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:spec:
+        f:acquireTime: {}
+        f:holderIdentity: {}
+        f:leaseDurationSeconds: {}
+        f:leaseTransitions: {}
+        f:renewTime: {}
+    manager: cainjector
+    operation: Update
+    time: '2023-12-14T06:56:54Z'
+  name: cert-manager-cainjector-leader-election
+  namespace: kube-system
+  resourceVersion: '9043733'
+  uid: 2c7b9110-c6fe-42ca-abe5-145985702094
+spec:
+  acquireTime: '2024-02-06T13:28:40.000000Z'
+  holderIdentity: cert-manager-cainjector-c4c8bbc-9j8d5_263e2c44-6fd6-4ec6-ba53-eb608cfe7a1d
+  leaseDurationSeconds: 15
+  leaseTransitions: 11
+  renewTime: '2024-02-09T06:05:00.355405Z'

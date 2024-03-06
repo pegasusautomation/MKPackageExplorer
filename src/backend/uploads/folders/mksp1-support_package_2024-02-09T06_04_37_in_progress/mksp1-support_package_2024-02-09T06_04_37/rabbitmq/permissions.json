@@ -1,0 +1,16 @@
+[
+    {
+        "configure": ".*",
+        "read": ".*",
+        "user": "admin",
+        "vhost": "/",
+        "write": ".*"
+    },
+    {
+        "configure": ".*",
+        "read": ".*",
+        "user": "guest",
+        "vhost": "/",
+        "write": ".*"
+    }
+]

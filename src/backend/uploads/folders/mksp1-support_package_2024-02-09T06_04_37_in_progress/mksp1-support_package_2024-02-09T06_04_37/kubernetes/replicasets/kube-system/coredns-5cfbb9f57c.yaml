@@ -1,0 +1,301 @@
+metadata:
+  annotations:
+    deployment.kubernetes.io/desired-replicas: '1'
+    deployment.kubernetes.io/max-replicas: '2'
+    deployment.kubernetes.io/revision: '1'
+    objectset.rio.cattle.io/applied: H4sIAAAAAAAA/6xVUW/bNhD+K8M9S7GVpI0rYA9dnK1FV8+ok74UQUFTJ4szxePIkxMj0H8fTpIdu03TdtiTZfK743cfvzs+gPLmI4ZoyEEOyvs42mSQwNq4AnKYore0rdExJFAjq0KxgvwBlHPEig25KH9p+TdqjsgnwdCJVswWTwyNjCSB5Jv7dOcwpKvNGnJYn8WDnU2W/PLOuOLX10VB7rspnKoRctAUsHDxh+DRKy0x62aJadxGxhraBKxaou2KWk9iqrzfQfq88hkcMkbJNhx7SQGns8Uzx1YqVpDDUuPp5Oz01WSSZRfnZ2p8Nnmpli+ycXlavrzA8uL89HysX1wIka9KeoZ09KiFckSLminId61YV38+V00rkRwU42orkEDWGre68YVi7FPc3zi1UcaqpUXIszYB3noh8OEIK+tYe7uLO3DKs3q2B9w1OVbGYYiQf3oAFVbyAakmV0ICI2Q9GsQYieClsQi3CZharYRRUE5XGEa1CUFg6QDe/ebZyauTcxgC5o21c7JGbyGHt+WMeB4w9ka3ZoMOY5wHWnb1lMrYJuB1FTBWZAvIzxKomP0fyLLvFcvtjipUlitIwFNgyCfjyTiBqCvsbvLN9fVclDLOsFF2ilZtF6jJFRHyl+MEPAZDxX4pk+BGa4zx4OQsATY1UsOPwKfcIhR6JffCzjtWL8726AEZiEmThRxupsLwOyEpa38cdn35ZNir7CCwRg5GxycCbxMIqArznySXyO2j4tkk+1HFvxb89Cf0DhipCRo7Z1tTG46982sKYqnsYvzeQAf8p8HY72rfyNZ4XHfjdID2SOkE1E0wvL0kx3jflamspbt5MBtjcYVXUSvbTV3IS2UjJqCVV0tjDZueiioK6ZrZ1fXn397Opp8XVx8+vr28kkYpAnnZU9bCbduL/pez2w9E/LuxOIyTnEODbQIbsk2N76lxg49q+ZwPuh90Ixy4z5VmlfaR8HjCLue3c4x0E5nqg1Td//Q7GW/FPIWL+06eYqkaK03sqMDFwThcIquT4+lNEXKwxjX3clE+GOrUtyrGWc+ilyTVtomMIdXBsNHKgtxV2BiNr7WWimZfdh+TxbB7Hz89wBqF3eUQ371psasjAfKCFJJwdW/EKSIUliVqhhxmtNAVFo2V8vs0UloayOIX9Uj7BbKpt8rh/5q5VlL/0ylvpVpPllbbhZf7uSQnr4rZ+aZ7ARY//TLV6n6xxru+A4cD3nUsj7lVFLkzTQJ3FbobFxWbWJr+yYIpzYj3hQrb3kz72Via1XvlhYhhrI+ua/fKJLtxs18RIXvQjAp8Q6LEHvW4JMd9MZnbb3TLMD8f2RzHpfsGIS+2UnbfqM91THvbtm37bwAAAP//p8VSJ+cJAAA
+    objectset.rio.cattle.io/id: ''
+    objectset.rio.cattle.io/owner-gvk: k3s.cattle.io/v1, Kind=Addon
+    objectset.rio.cattle.io/owner-name: coredns
+    objectset.rio.cattle.io/owner-namespace: kube-system
+  creationTimestamp: '2023-12-14T06:48:24Z'
+  generation: 2
+  labels:
+    k8s-app: kube-dns
+    pod-template-hash: 5cfbb9f57c
+  managedFields:
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:deployment.kubernetes.io/desired-replicas: {}
+          f:deployment.kubernetes.io/max-replicas: {}
+          f:deployment.kubernetes.io/revision: {}
+          f:objectset.rio.cattle.io/applied: {}
+          f:objectset.rio.cattle.io/id: {}
+          f:objectset.rio.cattle.io/owner-gvk: {}
+          f:objectset.rio.cattle.io/owner-name: {}
+          f:objectset.rio.cattle.io/owner-namespace: {}
+        f:labels:
+          .: {}
+          f:k8s-app: {}
+          f:pod-template-hash: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"2c4ba868-6df6-474c-be7e-898807ab993d"}: {}
+      f:spec:
+        f:replicas: {}
+        f:selector: {}
+        f:template:
+          f:metadata:
+            f:labels:
+              .: {}
+              f:k8s-app: {}
+              f:pod-template-hash: {}
+          f:spec:
+            f:containers:
+              k:{"name":"coredns"}:
+                .: {}
+                f:args: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:livenessProbe:
+                  .: {}
+                  f:failureThreshold: {}
+                  f:httpGet:
+                    .: {}
+                    f:path: {}
+                    f:port: {}
+                    f:scheme: {}
+                  f:initialDelaySeconds: {}
+                  f:periodSeconds: {}
+                  f:successThreshold: {}
+                  f:timeoutSeconds: {}
+                f:name: {}
+                f:ports:
+                  .: {}
+                  k:{"containerPort":53,"protocol":"TCP"}:
+                    .: {}
+                    f:containerPort: {}
+                    f:name: {}
+                    f:protocol: {}
+                  k:{"containerPort":53,"protocol":"UDP"}:
+                    .: {}
+                    f:containerPort: {}
+                    f:name: {}
+                    f:protocol: {}
+                  k:{"containerPort":9153,"protocol":"TCP"}:
+                    .: {}
+                    f:containerPort: {}
+                    f:name: {}
+                    f:protocol: {}
+                f:readinessProbe:
+                  .: {}
+                  f:failureThreshold: {}
+                  f:httpGet:
+                    .: {}
+                    f:path: {}
+                    f:port: {}
+                    f:scheme: {}
+                  f:periodSeconds: {}
+                  f:successThreshold: {}
+                  f:timeoutSeconds: {}
+                f:resources:
+                  .: {}
+                  f:limits:
+                    .: {}
+                    f:memory: {}
+                  f:requests:
+                    .: {}
+                    f:cpu: {}
+                    f:memory: {}
+                f:securityContext:
+                  .: {}
+                  f:allowPrivilegeEscalation: {}
+                  f:capabilities:
+                    .: {}
+                    f:add: {}
+                    f:drop: {}
+                  f:readOnlyRootFilesystem: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/etc/coredns"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:readOnly: {}
+                  k:{"mountPath":"/etc/coredns/custom"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:readOnly: {}
+            f:dnsPolicy: {}
+            f:nodeSelector: {}
+            f:priorityClassName: {}
+            f:restartPolicy: {}
+            f:schedulerName: {}
+            f:securityContext: {}
+            f:serviceAccount: {}
+            f:serviceAccountName: {}
+            f:terminationGracePeriodSeconds: {}
+            f:tolerations: {}
+            f:topologySpreadConstraints:
+              .: {}
+              k:{"topologyKey":"kubernetes.io/hostname","whenUnsatisfiable":"DoNotSchedule"}:
+                .: {}
+                f:labelSelector: {}
+                f:maxSkew: {}
+                f:topologyKey: {}
+                f:whenUnsatisfiable: {}
+            f:volumes:
+              .: {}
+              k:{"name":"config-volume"}:
+                .: {}
+                f:configMap:
+                  .: {}
+                  f:defaultMode: {}
+                  f:items: {}
+                  f:name: {}
+                f:name: {}
+              k:{"name":"custom-config-volume"}:
+                .: {}
+                f:configMap:
+                  .: {}
+                  f:defaultMode: {}
+                  f:name: {}
+                  f:optional: {}
+                f:name: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T06:48:24Z'
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:observedGeneration: {}
+        f:replicas: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2023-12-14T06:48:30Z'
+  name: coredns-5cfbb9f57c
+  namespace: kube-system
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Deployment
+    name: coredns
+    uid: 2c4ba868-6df6-474c-be7e-898807ab993d
+  resourceVersion: '509'
+  uid: 6af08e93-c603-4016-a5cf-c5c0c9791a6b
+spec:
+  replicas: 0
+  selector:
+    matchLabels:
+      k8s-app: kube-dns
+      pod-template-hash: 5cfbb9f57c
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        k8s-app: kube-dns
+        pod-template-hash: 5cfbb9f57c
+    spec:
+      containers:
+      - args:
+        - -conf
+        - /etc/coredns/Corefile
+        image: rancher/mirrored-coredns-coredns:1.9.4
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /health
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 60
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 1
+        name: coredns
+        ports:
+        - containerPort: 53
+          name: dns
+          protocol: UDP
+        - containerPort: 53
+          name: dns-tcp
+          protocol: TCP
+        - containerPort: 9153
+          name: metrics
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /ready
+            port: 8181
+            scheme: HTTP
+          periodSeconds: 2
+          successThreshold: 1
+          timeoutSeconds: 1
+        resources:
+          limits:
+            memory: 170Mi
+          requests:
+            cpu: 100m
+            memory: 70Mi
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            add:
+            - NET_BIND_SERVICE
+            drop:
+            - all
+          readOnlyRootFilesystem: true
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /etc/coredns
+          name: config-volume
+          readOnly: true
+        - mountPath: /etc/coredns/custom
+          name: custom-config-volume
+          readOnly: true
+      dnsPolicy: Default
+      nodeSelector:
+        beta.kubernetes.io/os: linux
+      priorityClassName: system-cluster-critical
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      serviceAccount: coredns
+      serviceAccountName: coredns
+      terminationGracePeriodSeconds: 30
+      tolerations:
+      - key: CriticalAddonsOnly
+        operator: Exists
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/control-plane
+        operator: Exists
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/master
+        operator: Exists
+      topologySpreadConstraints:
+      - labelSelector:
+          matchLabels:
+            k8s-app: kube-dns
+        maxSkew: 1
+        topologyKey: kubernetes.io/hostname
+        whenUnsatisfiable: DoNotSchedule
+      volumes:
+      - configMap:
+          defaultMode: 420
+          items:
+          - key: Corefile
+            path: Corefile
+          - key: NodeHosts
+            path: NodeHosts
+          name: coredns
+        name: config-volume
+      - configMap:
+          defaultMode: 420
+          name: coredns-custom
+          optional: true
+        name: custom-config-volume
+status:
+  observedGeneration: 2
+  replicas: 0

@@ -1,0 +1,46 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mk-deps
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T06:57:18Z'
+  labels:
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: rabbitmq
+    helm.sh/chart: rabbitmq-8.21.0
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:helm.sh/chart: {}
+      f:secrets:
+        .: {}
+        k:{"name":"rabbitmq-ha-controller1"}: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T06:57:18Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:secrets:
+        k:{"name":"rabbitmq-ha-controller1-token-fkhr6"}: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T06:57:18Z'
+  name: rabbitmq-ha-controller1
+  namespace: mediakind
+  resourceVersion: '1101'
+  uid: 10104ff2-a1e7-48dd-bcef-7a5022998c4f
+secrets:
+- name: rabbitmq-ha-controller1
+- name: rabbitmq-ha-controller1-token-fkhr6

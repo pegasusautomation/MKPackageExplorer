@@ -1,0 +1,80 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mk-deps
+    meta.helm.sh/release-namespace: mediakind
+    service.alpha.kubernetes.io/tolerate-unready-endpoints: 'true'
+  creationTimestamp: '2023-12-14T06:57:18Z'
+  labels:
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: etcd
+    helm.sh/chart: etcd-8.5.10
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+          f:service.alpha.kubernetes.io/tolerate-unready-endpoints: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:helm.sh/chart: {}
+      f:spec:
+        f:clusterIP: {}
+        f:internalTrafficPolicy: {}
+        f:ports:
+          .: {}
+          k:{"port":2379,"protocol":"TCP"}:
+            .: {}
+            f:name: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+          k:{"port":2380,"protocol":"TCP"}:
+            .: {}
+            f:name: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+        f:publishNotReadyAddresses: {}
+        f:selector: {}
+        f:sessionAffinity: {}
+        f:type: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T06:57:18Z'
+  name: etcd-controller1-headless
+  namespace: mediakind
+  resourceVersion: '1088'
+  uid: aae40ccd-3fb2-4c35-aa2e-172a2afb88d6
+spec:
+  clusterIP: None
+  clusterIPs:
+  - None
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: client
+    port: 2379
+    protocol: TCP
+    targetPort: client
+  - name: peer
+    port: 2380
+    protocol: TCP
+    targetPort: peer
+  publishNotReadyAddresses: true
+  selector:
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/name: etcd
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

@@ -1,0 +1,134 @@
+ etcd - will boot accordingly","time":"2024-02-06T13:28:28.248Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2024-02-06T13:28:28.248Z","pname":"etcd"}
+{"time":"2023-12-14T06:57:25.704Z","msg":"initContainer 'etcd-init-operations' started","pname":"etcd"}
+{"time":"2023-12-14T06:57:25.704Z","msg":"setting data dir owner and group","pname":"etcd"}
+{"time":"2023-12-14T06:57:25.707Z","msg":"this a fresh install, will remove any existing etcd data from this node","pname":"etcd"}
+{"time":"2023-12-14T06:57:25.709Z","msg":"running init script 'add-member-controller1-2.sh'","pname":"etcd"}
+{"time":"2023-12-14T06:57:25.709Z","msg":"this is a fresh install - remove any existing instance of etcd-controller1-0 from cluster","pname":"etcd"}
+{"pname":"etcd","level":"warn","ts":"2023-12-14T06:57:30.723Z","logger":"client","caller":"v3@v3.5.6/retry_interceptor.go:62","msg":"retrying of unary invoker failed","target":"etcd-endpoints://0xc0000b2a80/etcd-controller2-0:2379","attempt":0,"error":"rpc error: code = DeadlineExceeded desc = latest balancer error: last connection error: connection error: desc = \"transport: Error while dialing dial tcp: lookup etcd-controller2-0 on 10.43.0.10:53: server misbehaving\""}
+{"log_msg":"etcd-controller2-0:2379 is unhealthy: failed to commit proposal: context deadline exceeded","pname":"etcd"}
+{"log_msg":"Error: unhealthy cluster","pname":"etcd"}
+{"time":"2023-12-14T06:57:30.725Z","msg":"'etcd-controller2-0:2379' is unhealthy - can not proceed with cluster operation","pname":"etcd"}
+{"time":"2023-12-14T06:57:30.725Z","msg":"Will try standard etcd boot","pname":"etcd"}
+{"time":"2023-12-14T06:57:30.726Z","msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","pname":"etcd"}
+{"time":"2023-12-14T06:57:31.832Z","msg":"initContainer 'etcd-init-operations' started","pname":"etcd"}
+{"time":"2023-12-14T06:57:31.832Z","msg":"setting data dir owner and group","pname":"etcd"}
+{"time":"2023-12-14T06:57:31.834Z","msg":"this an existing install, will not remove existing etcd data from this node","pname":"etcd"}
+{"time":"2023-12-14T06:57:31.836Z","msg":"running init script 'add-member-controller1-2.sh'","pname":"etcd"}
+{"time":"2023-12-14T06:57:31.836Z","msg":"this is an existing installation of etcd - will boot accordingly","pname":"etcd"}
+{"time":"2023-12-14T06:57:31.836Z","msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2023-12-14T07:10:30.361Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2023-12-14T07:10:30.361Z","pname":"etcd"}
+{"msg":"this an existing install, will not remove existing etcd data from this node","time":"2023-12-14T07:10:30.368Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2023-12-14T07:10:30.369Z","pname":"etcd"}
+{"msg":"this is an existing installation of etcd - will boot accordingly","time":"2023-12-14T07:10:30.369Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2023-12-14T07:10:30.369Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2023-12-14T07:14:05.605Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2023-12-14T07:14:05.605Z","pname":"etcd"}
+{"msg":"this a fresh install, will remove any existing etcd data from this node","time":"2023-12-14T07:14:05.608Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2023-12-14T07:14:05.611Z","pname":"etcd"}
+{"msg":"this is a fresh install - remove any existing instance of etcd-controller1-0 from cluster","time":"2023-12-14T07:14:05.611Z","pname":"etcd"}
+{"pname":"etcd","level":"warn","ts":"2023-12-14T07:14:10.623Z","logger":"client","caller":"v3@v3.5.6/retry_interceptor.go:62","msg":"retrying of unary invoker failed","target":"etcd-endpoints://0xc00055c380/etcd-controller2-0:2379","attempt":0,"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded"}
+{"log_msg":"etcd-controller2-0:2379 is unhealthy: failed to commit proposal: context deadline exceeded","pname":"etcd"}
+{"log_msg":"Error: unhealthy cluster","pname":"etcd"}
+{"msg":"'etcd-controller2-0:2379' is unhealthy - can not proceed with cluster operation","time":"2023-12-14T07:14:10.625Z","pname":"etcd"}
+{"msg":"Will try standard etcd boot","time":"2023-12-14T07:14:10.625Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2023-12-14T07:14:10.630Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2023-12-14T07:14:12.492Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2023-12-14T07:14:12.492Z","pname":"etcd"}
+{"msg":"this an existing install, will not remove existing etcd data from this node","time":"2023-12-14T07:14:12.495Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2023-12-14T07:14:12.496Z","pname":"etcd"}
+{"msg":"this is an existing installation of etcd - will boot accordingly","time":"2023-12-14T07:14:12.497Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2023-12-14T07:14:12.497Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2023-12-14T08:22:11.252Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2023-12-14T08:22:11.252Z","pname":"etcd"}
+{"msg":"this a fresh install, will remove any existing etcd data from this node","time":"2023-12-14T08:22:11.255Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2023-12-14T08:22:11.257Z","pname":"etcd"}
+{"msg":"this is a fresh install - remove any existing instance of etcd-controller1-0 from cluster","time":"2023-12-14T08:22:11.257Z","pname":"etcd"}
+{"pname":"etcd","level":"warn","ts":"2023-12-14T08:22:16.270Z","logger":"client","caller":"v3@v3.5.6/retry_interceptor.go:62","msg":"retrying of unary invoker failed","target":"etcd-endpoints://0xc0001aa000/etcd-controller2-0:2379","attempt":0,"error":"rpc error: code = DeadlineExceeded desc = latest balancer error: last connection error: connection error: desc = \"transport: Error while dialing dial tcp: lookup etcd-controller2-0 on 10.43.0.10:53: server misbehaving\""}
+{"log_msg":"etcd-controller2-0:2379 is unhealthy: failed to commit proposal: context deadline exceeded","pname":"etcd"}
+{"log_msg":"Error: unhealthy cluster","pname":"etcd"}
+{"msg":"'etcd-controller2-0:2379' is unhealthy - can not proceed with cluster operation","time":"2023-12-14T08:22:16.271Z","pname":"etcd"}
+{"msg":"Will try standard etcd boot","time":"2023-12-14T08:22:16.271Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2023-12-14T08:22:16.272Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2023-12-14T09:09:38.519Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2023-12-14T09:09:38.519Z","pname":"etcd"}
+{"msg":"this a fresh install, will remove any existing etcd data from this node","time":"2023-12-14T09:09:38.522Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2023-12-14T09:09:38.525Z","pname":"etcd"}
+{"msg":"this is a fresh install - remove any existing instance of etcd-controller1-0 from cluster","time":"2023-12-14T09:09:38.525Z","pname":"etcd"}
+{"pname":"etcd","level":"warn","ts":"2023-12-14T09:09:43.538Z","logger":"client","caller":"v3@v3.5.6/retry_interceptor.go:62","msg":"retrying of unary invoker failed","target":"etcd-endpoints://0xc000240000/etcd-controller2-0:2379","attempt":0,"error":"rpc error: code = DeadlineExceeded desc = latest balancer error: last connection error: connection error: desc = \"transport: Error while dialing dial tcp: lookup etcd-controller2-0 on 10.43.0.10:53: server misbehaving\""}
+{"log_msg":"etcd-controller2-0:2379 is unhealthy: failed to commit proposal: context deadline exceeded","pname":"etcd"}
+{"log_msg":"Error: unhealthy cluster","pname":"etcd"}
+{"msg":"'etcd-controller2-0:2379' is unhealthy - can not proceed with cluster operation","time":"2023-12-14T09:09:43.540Z","pname":"etcd"}
+{"msg":"Will try standard etcd boot","time":"2023-12-14T09:09:43.540Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2023-12-14T09:09:43.541Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2023-12-14T09:42:21.741Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2023-12-14T09:42:21.741Z","pname":"etcd"}
+{"msg":"this an existing install, will not remove existing etcd data from this node","time":"2023-12-14T09:42:21.744Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2023-12-14T09:42:21.745Z","pname":"etcd"}
+{"msg":"this is an existing installation of etcd - will boot accordingly","time":"2023-12-14T09:42:21.745Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2023-12-14T09:42:21.745Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2023-12-14T09:45:58.148Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2023-12-14T09:45:58.148Z","pname":"etcd"}
+{"msg":"this an existing install, will not remove existing etcd data from this node","time":"2023-12-14T09:45:58.150Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2023-12-14T09:45:58.151Z","pname":"etcd"}
+{"msg":"this is an existing installation of etcd - will boot accordingly","time":"2023-12-14T09:45:58.151Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2023-12-14T09:45:58.152Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2023-12-14T10:03:04.123Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2023-12-14T10:03:04.123Z","pname":"etcd"}
+{"msg":"this an existing install, will not remove existing etcd data from this node","time":"2023-12-14T10:03:04.130Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2023-12-14T10:03:04.131Z","pname":"etcd"}
+{"msg":"this is an existing installation of etcd - will boot accordingly","time":"2023-12-14T10:03:04.131Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2023-12-14T10:03:04.131Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2023-12-14T10:07:27.709Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2023-12-14T10:07:27.709Z","pname":"etcd"}
+{"msg":"this a fresh install, will remove any existing etcd data from this node","time":"2023-12-14T10:07:27.712Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2023-12-14T10:07:27.717Z","pname":"etcd"}
+{"msg":"this is a fresh install - remove any existing instance of etcd-controller1-0 from cluster","time":"2023-12-14T10:07:27.717Z","pname":"etcd"}
+{"pname":"etcd","level":"warn","ts":"2023-12-14T10:07:32.733Z","logger":"client","caller":"v3@v3.5.6/retry_interceptor.go:62","msg":"retrying of unary invoker failed","target":"etcd-endpoints://0xc0001d2000/etcd-controller2-0:2379","attempt":0,"error":"rpc error: code = DeadlineExceeded desc = context deadline exceeded"}
+{"log_msg":"etcd-controller2-0:2379 is unhealthy: failed to commit proposal: context deadline exceeded","pname":"etcd"}
+{"log_msg":"Error: unhealthy cluster","pname":"etcd"}
+{"msg":"'etcd-controller2-0:2379' is unhealthy - can not proceed with cluster operation","time":"2023-12-14T10:07:32.735Z","pname":"etcd"}
+{"msg":"Will try standard etcd boot","time":"2023-12-14T10:07:32.735Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2023-12-14T10:07:32.739Z","pname":"etcd"}
+{"time":"2024-01-02T08:59:07.492Z","msg":"initContainer 'etcd-init-operations' started","pname":"etcd"}
+{"time":"2024-01-02T08:59:07.492Z","msg":"setting data dir owner and group","pname":"etcd"}
+{"time":"2024-01-02T08:59:07.646Z","msg":"this an existing install, will not remove existing etcd data from this node","pname":"etcd"}
+{"time":"2024-01-02T08:59:07.646Z","msg":"running init script 'add-member-controller1-2.sh'","pname":"etcd"}
+{"time":"2024-01-02T08:59:07.646Z","msg":"this is an existing installation of etcd - will boot accordingly","pname":"etcd"}
+{"time":"2024-01-02T08:59:07.646Z","msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2024-01-11T14:13:30.829Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2024-01-11T14:13:30.829Z","pname":"etcd"}
+{"msg":"this an existing install, will not remove existing etcd data from this node","time":"2024-01-11T14:13:30.875Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2024-01-11T14:13:30.888Z","pname":"etcd"}
+{"msg":"this is an existing installation of etcd - will boot accordingly","time":"2024-01-11T14:13:30.888Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2024-01-11T14:13:30.895Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' started","time":"2024-01-12T14:08:05.182Z","pname":"etcd"}
+{"msg":"setting data dir owner and group","time":"2024-01-12T14:08:05.182Z","pname":"etcd"}
+{"msg":"this an existing install, will not remove existing etcd data from this node","time":"2024-01-12T14:08:05.317Z","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2024-01-12T14:08:05.354Z","pname":"etcd"}
+{"msg":"this is an existing installation of etcd - will boot accordingly","time":"2024-01-12T14:08:05.354Z","pname":"etcd"}
+{"msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","time":"2024-01-12T14:08:05.354Z","pname":"etcd"}
+{"time":"2024-01-23T04:28:51.863Z","msg":"initContainer 'etcd-init-operations' started","pname":"etcd"}
+{"time":"2024-01-23T04:28:51.863Z","msg":"setting data dir owner and group","pname":"etcd"}
+{"time":"2024-01-23T04:28:51.880Z","msg":"this an existing install, will not remove existing etcd data from this node","pname":"etcd"}
+{"time":"2024-01-23T04:28:51.893Z","msg":"running init script 'add-member-controller1-2.sh'","pname":"etcd"}
+{"time":"2024-01-23T04:28:51.893Z","msg":"this is an existing installation of etcd - will boot accordingly","pname":"etcd"}
+{"time":"2024-01-23T04:28:51.893Z","msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","pname":"etcd"}
+{"time":"2045-08-06T14:26:02.510Z","msg":"running init script 'add-member-controller1-2.sh'","pname":"etcd"}
+{"time":"2024-01-25T13:22:02.510Z","msg":"this is an existing installation of etcd - will boot accordingly","pname":"etcd"}
+{"time":"2024-01-25T13:22:02.510Z","msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","pname":"etcd"}
+{"time":"2024-01-30T10:39:33.275Z","msg":"initContainer 'etcd-init-operations' started","pname":"etcd"}
+{"time":"2024-01-30T10:39:33.275Z","msg":"setting data dir owner and group","pname":"etcd"}
+{"time":"2024-01-30T10:39:33.403Z","msg":"this an existing install, will not remove existing etcd data from this node","pname":"etcd"}
+{"time":"2024-01-30T10:39:33.403Z","msg":"running init script 'add-member-controller1-2.sh'","pname":"etcd"}
+{"time":"2024-01-30T10:39:33.403Z","msg":"this is an existing installation of etcd - will boot accordingly","pname":"etcd"}
+{"time":"2024-01-30T10:39:33.423Z","msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","pname":"etcd"}
+{"time":"2024-02-01T20:59:09.292Z","msg":"initContainer 'etcd-init-operations' started","pname":"etcd"}
+{"time":"2024-02-01T20:59:09.292Z","msg":"setting data dir owner and group","pname":"etcd"}
+{"time":"2024-02-01T20:59:09.466Z","msg":"this an existing install, will not remove existing etcd data from this node","pname":"etcd"}
+{"time":"2024-02-01T20:59:09.470Z","msg":"running init script 'add-member-controller1-2.sh'","pname":"etcd"}
+{"time":"2024-02-01T20:59:09.470Z","msg":"this is an existing installation of etcd - will boot accordingly","pname":"etcd"}
+{"time":"2024-02-01T20:59:09.486Z","msg":"initContainer 'etcd-init-operations' completed (all scripts ran)","pname":"etcd"}
+{"msg":"running init script 'add-member-controller1-2.sh'","time":"2045-08-18T14:32:28.248Z","pname":"etcd"}
+{"msg":"this is an existing installation of

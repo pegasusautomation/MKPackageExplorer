@@ -1,0 +1,57 @@
+Writing /var/install/multiplexer-20.0.3-29/compact/last_configure.sh
+*** Script: prepare-compact-vars.sh ***
+{"systemName": "Controller"}
+Compact installation env variables:
+ContentExtr: discoveryConnect=http://10.69.8.30:2379, discoveryLocation=http://10.69.8.31:8083, asiApi=http://10.69.8.30:8080/api/services/muxes/asi, proxyDiscoveryApi=http://10.69.8.30:8200/api/discoveries
+Others: mongoServiceName=mongodb-replicaset-controller1, serverId=mksp1, controllerIP=10.69.8.30
+Script prepare-compact-vars.sh completed successfully
+*** Files: add-nftables-config ***
+Files add-nftables-config completed successfully
+*** Script: apply-firewall-rules ***
+Script apply-firewall-rules completed successfully
+*** Files: tuned ***
+Files tuned completed successfully
+*** Script: apply-tuned ***
+Script apply-tuned completed successfully
+*** Files: multiplexer-config ***
+Files multiplexer-config completed successfully
+*** Script: restart_pod_api_gateway_to_apply_http_rules ***
+Waiting for deployment "api-gateway" rollout to finish: 0 of 1 updated replicas are available...
+deployment "api-gateway" successfully rolled out
+Script restart_pod_api_gateway_to_apply_http_rules completed successfully
+*** HelmDeployment: multiplexer-compact ***
+Release "mksp" does not exist. Installing it now.
+NAME: mksp
+LAST DEPLOYED: Thu Dec 14 10:42:08 2023
+NAMESPACE: mediakind
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+HelmDeployment multiplexer-compact completed successfully
+*** Script: wait-for-mksp ***
+INFO: Waiting for all deployments to finish...
+Waiting for deployment "stream-processor-content-extraction" rollout to finish: 0 of 1 updated replicas are available...
+deployment "stream-processor-content-extraction" successfully rolled out
+deployment "stream-processor-simulcrypt" successfully rolled out
+deployment "stream-processor-mux" successfully rolled out
+deployment "stream-processor-content-extraction-proxy" successfully rolled out
+INFO: no asi driver found skipping check for stream-processor-asi
+deployment "stream-processor-statmux" successfully rolled out
+deployment "stream-processor-biss-ca" successfully rolled out
+Waiting for deployment "stream-processor-config" rollout to finish: 0 of 1 updated replicas are available...
+deployment "stream-processor-config" successfully rolled out
+deployment "stream-processor-ui-connector" successfully rolled out
+...all done
+
+INFO: Waiting for all statefulsets to finish...
+...all done
+
+INFO: Waiting for all daemonsets to finish...
+...all done
+
+Script wait-for-mksp completed successfully
+*** Script: register-with-server-daemon ***
+Checking is server mksp1 already exists
+Registering server processingType mux, software: Aquila-Multiplexing/20.0.3-29
+Registering connector: Aquila-Multiplexing/20.0.3-29
+Script register-with-server-daemon completed successfully

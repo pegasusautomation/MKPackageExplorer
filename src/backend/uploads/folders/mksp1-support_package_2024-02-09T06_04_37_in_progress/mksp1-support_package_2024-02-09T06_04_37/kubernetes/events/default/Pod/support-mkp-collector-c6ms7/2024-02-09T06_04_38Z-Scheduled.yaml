@@ -1,0 +1,38 @@
+action: Binding
+eventTime: '2024-02-09T06:04:38.431019Z'
+firstTimestamp: null
+involvedObject:
+  apiVersion: v1
+  kind: Pod
+  name: support-mkp-collector-c6ms7
+  namespace: default
+  resourceVersion: '9043651'
+  uid: 3407cc6b-522b-44ae-a062-d516c83a090a
+lastTimestamp: null
+message: Successfully assigned default/support-mkp-collector-c6ms7 to mediakind-k3s
+metadata:
+  creationTimestamp: '2024-02-09T06:04:38Z'
+  managedFields:
+  - apiVersion: events.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:action: {}
+      f:eventTime: {}
+      f:note: {}
+      f:reason: {}
+      f:regarding: {}
+      f:reportingController: {}
+      f:reportingInstance: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-09T06:04:38Z'
+  name: support-mkp-collector-c6ms7.17b21c9f1c89fd7c
+  namespace: default
+  resourceVersion: '9043653'
+  uid: d539e6fc-e284-46b3-8e79-37445eb4dcae
+reason: Scheduled
+reportingComponent: default-scheduler
+reportingInstance: default-scheduler-mksp1
+source: {}
+type: Normal

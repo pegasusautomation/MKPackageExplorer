@@ -1,0 +1,3482 @@
+mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65b260bb86623b703ff5993d"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706188982906
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65b633c886623b703ff5993e"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706439624893
+        },
+        "failover_trigger": true,
+        "info": "Server mksp1 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp1",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp1",
+        "service_id": "mksp1",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65b633d186623b703ff5993f"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706439633909
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65b8d2114baf2dc57f0de440"
+        },
+        "alarm_id": "asi.start",
+        "date": {
+            "$date": 1706611217512
+        },
+        "failover_trigger": false,
+        "info": "ASI microservice has started",
+        "label": "ASI has started",
+        "object_id": "instance/server_id/mksp1/",
+        "processing_type": "instance",
+        "server_id": "mksp1",
+        "service_id": "server_id",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/asi"
+    },
+    {
+        "_id": {
+            "$oid": "65b8d2124baf2dc57f0de441"
+        },
+        "alarm_id": "mux.start",
+        "date": {
+            "$date": 1706611218403
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65b8d2154baf2dc57f0de442"
+        },
+        "alarm_id": "local-ca.start",
+        "date": {
+            "$date": 1706611221234
+        },
+        "failover_trigger": false,
+        "info": "Local CA microservice has started",
+        "label": "Local CA has started",
+        "object_id": "instance/",
+        "processing_type": "instance",
+        "server_id": "mksp1",
+        "service_id": "",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/"
+    },
+    {
+        "_id": {
+            "$oid": "65b8d21b6337fcb85aaafec8"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706439633910
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65b8d21ce3300136be8c4477"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706611223521
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04304baf2dc57f0de443"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1706689584175
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.3:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220249783/source_id/sou_3383225440",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04304baf2dc57f0de444"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1706689584175
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.4:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220315319/source_id/sou_1660555932",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04304baf2dc57f0de445"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1706689584176
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04304baf2dc57f0de446"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1706689584176
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (202), MKEL01- service02, Video (201)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220249783",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04304baf2dc57f0de447"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1706689584176
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (302), MKEL01- service03, Video (301)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220315319",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04304baf2dc57f0de448"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1706689584177
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04304baf2dc57f0de449"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1706689584177
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.22.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2215793335/source_id/sou_528852080",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04304baf2dc57f0de44a"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1706689584178
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (402), MKEL2-Service1, Video (401)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2215793335",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04eb4baf2dc57f0de44b"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1706689771164
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.4:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220315319/source_id/sou_1660555932",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04eb4baf2dc57f0de44c"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1706689771165
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (302), MKEL01- service03, Video (301)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220315319",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04ee4baf2dc57f0de44d"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1706689774507
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04ee4baf2dc57f0de44e"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1706689774508
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.3:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220249783/source_id/sou_3383225440",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04ee4baf2dc57f0de44f"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1706689774508
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04ee4baf2dc57f0de450"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1706689774509
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (202), MKEL01- service02, Video (201)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220249783",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65bbecb0e3300136be8c4478"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706814640507
+        },
+        "failover_trigger": true,
+        "info": "Server mksp1 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp1",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp1",
+        "service_id": "mksp1",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65bbecb56337fcb85aaafec9"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+ [
+    {
+        "_id": {
+            "$oid": "6593d040f6ab6bf8470f510f"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1704185894337
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65963454a65d80d0b3fb45c1"
+        },
+        "alarm_id": "mux.license.missing",
+        "date": {
+            "$date": 1704342612827
+        },
+        "failover_trigger": false,
+        "info": "Mux TS01 playout stopped on server mksp2 as not enough licenses available; problem licenses: FAT1023975/1 - 0/15",
+        "label": "Playout stopped due to insufficient number of licenses",
+        "object_id": "muxes/mux_1234_1234_1/instance/license/FAT1023975_1_FAT1023975_2",
+        "processing_type": "muxes",
+        "server_id": "mksp2",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp2/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65963455a65d80d0b3fb45c2"
+        },
+        "alarm_id": "mux.license.missing",
+        "date": {
+            "$date": 1704342613864
+        },
+        "failover_trigger": false,
+        "info": "Mux TS01 playout stopped on server mksp1 as not enough licenses available; problem licenses: FAT1023975/1 - 0/15",
+        "label": "Playout stopped due to insufficient number of licenses",
+        "object_id": "muxes/mux_1234_1234_1/instance/license/FAT1023975_1_FAT1023975_2",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "6596386aaf341b7b865907a4"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1704343658677
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "659638f2af341b7b865907a5"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1704343794673
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65963ddfaf341b7b865907a6"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1704345055671
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "659657cbaf341b7b865907a7"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1704351691672
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "6596582caf341b7b865907a8"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1704351788671
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "659a844daf341b7b865907a9"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1704625224685
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "659a8451af341b7b865907aa"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1704625233672
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65a3bebe74821d4c327494c9"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1704625233673
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65a3bebe19815fd3abedb1bd"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1705230009556
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65acf94919815fd3abedb1be"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1705834825535
+        },
+        "failover_trigger": true,
+        "info": "Server mksp1 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp1",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp1",
+        "service_id": "mksp1",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65acf95019815fd3abedb1bf"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1705834832534
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65ae007cbe80ba22bd331496"
+        },
+        "alarm_id": "mux.start",
+        "date": {
+            "$date": 1705902204013
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ae1a44be80ba22bd3314c1"
+        },
+        "alarm_id": "mux.start",
+        "date": {
+            "$date": 1705908804869
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ae1ababe80ba22bd3314d3"
+        },
+        "alarm_id": "mux.start",
+        "date": {
+            "$date": 1705908922159
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ae56f3be80ba22bd3314f5"
+        },
+        "alarm_id": "mux.start",
+        "date": {
+            "$date": 1705924339925
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65af40b73403b57f01b6056e"
+        },
+        "alarm_id": "asi.start",
+        "date": {
+            "$date": 1705984183732
+        },
+        "failover_trigger": false,
+        "info": "ASI microservice has started",
+        "label": "ASI has started",
+        "object_id": "instance/server_id/mksp1/",
+        "processing_type": "instance",
+        "server_id": "mksp1",
+        "service_id": "server_id",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/asi"
+    },
+    {
+        "_id": {
+            "$oid": "65af40b73403b57f01b6056f"
+        },
+        "alarm_id": "mux.start",
+        "date": {
+            "$date": 1705984183949
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65af40b83403b57f01b60570"
+        },
+        "alarm_id": "local-ca.start",
+        "date": {
+            "$date": 1705984184930
+        },
+        "failover_trigger": false,
+        "info": "Local CA microservice has started",
+        "label": "Local CA has started",
+        "object_id": "instance/",
+        "processing_type": "instance",
+        "server_id": "mksp1",
+        "service_id": "",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/"
+    },
+    {
+        "_id": {
+            "$oid": "65b260b674b1b6538432bb77"
+        },
+        "alarm_id": "mux.start",
+        "date": {
+            "$date": 1706188982813
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65b260b774b1b6538432bb78"
+        },
+        "alarm_id": "asi.start",
+        "date": {
+            "$date": 1706188983633
+        },
+        "failover_trigger": false,
+        "info": "ASI microservice has started",
+        "label": "ASI has started",
+        "object_id": "instance/server_id/mksp1/",
+        "processing_type": "instance",
+        "server_id": "mksp1",
+        "service_id": "server_id",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/asi"
+    },
+    {
+        "_id": {
+            "$oid": "65b260b874b1b6538432bb79"
+        },
+        "alarm_id": "local-ca.start",
+        "date": {
+            "$date": 1706188984457
+        },
+        "failover_trigger": false,
+        "info": "Local CA microservice has started",
+        "label": "Local CA has started",
+        "object_id": "instance/",
+        "processing_type": "instance",
+        "server_id": "mksp1",
+        "service_id": "",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/"
+    },
+    {
+        "_id": {
+            "$oid": "65b260bbac0a38b80bcd64b9"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1705834832535
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "       "date": {
+            "$date": 1706611223522
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65bbecb9e3300136be8c4479"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706814649504
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65bbed07e3300136be8c447a"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706814727504
+        },
+        "failover_trigger": true,
+        "info": "Server mksp1 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp1",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp1",
+        "service_id": "mksp1",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65bbed0de3300136be8c447b"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706814728518
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65bbed10e3300136be8c447c"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706814736505
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65bbee72e3300136be8c447d"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706815090506
+        },
+        "failover_trigger": true,
+        "info": "Server mksp1 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp1",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp1",
+        "service_id": "mksp1",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65bbee7be3300136be8c447e"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706815099504
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65bbf194e3300136be8c447f"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1706815892504
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65bc064ca558298273ec9114"
+        },
+        "alarm_id": "asi.start",
+        "date": {
+            "$date": 1706821196023
+        },
+        "failover_trigger": false,
+        "info": "ASI microservice has started",
+        "label": "ASI has started",
+        "object_id": "instance/server_id/mksp1/",
+        "processing_type": "instance",
+        "server_id": "mksp1",
+        "service_id": "server_id",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/asi"
+    },
+    {
+        "_id": {
+            "$oid": "65bc064da558298273ec9115"
+        },
+        "alarm_id": "mux.start",
+        "date": {
+            "$date": 1706821196995
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65bc064ea558298273ec9116"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1706821197989
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.22.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2215793335/source_id/sou_528852080",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65bc064ea558298273ec9117"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1706821197990
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (402), MKEL2-Service1, Video (401)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2215793335",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65bc064ea558298273ec9118"
+        },
+        "alarm_id": "local-ca.start",
+        "date": {
+            "$date": 1706821198368
+        },
+        "failover_trigger": false,
+        "info": "Local CA microservice has started",
+        "label": "Local CA has started",
+        "object_id": "instance/",
+        "processing_type": "instance",
+        "server_id": "mksp1",
+        "service_id": "",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/"
+    },
+    {
+        "_id": {
+            "$oid": "65bca560a558298273ec9119"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1706861920162
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.22.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2215793335/source_id/sou_528852080",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65bca560a558298273ec911a"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1706861920162
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (402), MKEL2-Service1, Video (401)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2215793335",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65bca560a558298273ec911b"
+        },
+        "alarm_id": "mux.stop",
+        "date": {
+            "$date": 1706861920926
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has stopped",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65bf6e3aa6cfc97f0d8d85a0"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1707044410922
+        },
+        "failover_trigger": true,
+        "info": "Server mksp1 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp1",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp1",
+        "service_id": "mksp1",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65bf6e3da6cfc97f0d8d85a1"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1707044408935
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65bf6e41a6cfc97f0d8d85a2"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1707044417923
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65c070dea558298273ec911c"
+        },
+        "alarm_id": "mux.start",
+        "date": {
+            "$date": 1707110622460
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c070dfa558298273ec911d"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707110623454
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.22.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2215793335/source_id/sou_528852080",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c070dfa558298273ec911e"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707110623455
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (402), MKEL2-Service1, Video (401)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2215793335",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c070dfa558298273ec911f"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707110623455
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c070dfa558298273ec9120"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707110623456
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.3:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220249783/source_id/sou_3383225440",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c070dfa558298273ec9121"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707110623456
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c070dfa558298273ec9122"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707110623457
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (202), MKEL01- service02, Video (201)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220249783",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c070dfa558298273ec9123"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707110623457
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.4:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220315319/source_id/sou_1660555932",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c070dfa558298273ec9124"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707110623458
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (302), MKEL01- service03, Video (301)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220315319",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0b19ca558298273ec9125"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707127196398
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0b19ca558298273ec9126"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707127196399
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0b1bca558298273ec9127"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707127228710
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0b1bca558298273ec9128"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707127228710
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0b1c1a558298273ec9129"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707127233711
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0b1c1a558298273ec912a"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707127233712
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0ba9da558298273ec912b"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707129501822
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0ba9da558298273ec912c"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707129501822
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0baa2a558298273ec912d"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707129506823
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0baa2a558298273ec912e"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707129506823
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0bd8ea558298273ec912f"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707130254041
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c0bd8ea558298273ec9130"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707130254042
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c1c5d7a558298273ec9131"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707197911435
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c1c5d7a558298273ec9132"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707197911435
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c1c5dda558298273ec9133"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707197917913
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c1c5dda558298273ec9134"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707197917913
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c1c789a558298273ec9135"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707198345300
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c1c789a558298273ec9136"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707198345301
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c1dd4fa558298273ec9137"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707203919289
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c1dd4fa558298273ec9138"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707203919290
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c1efb6311374b34f2eb0f9"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1707044417924
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared"
+    },
+    {
+        "_id": {
+            "$oid": "65c1efb6d449b6995c81bbf0"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1707208625646
+        },
+        "failover_trigger": true,
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised"
+    },
+    {
+        "_id": {
+            "$oid": "65c1f08e4dc14f7d4475363a"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707208846417
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c1f08e4dc14f7d4475363b"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707208846418
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c20c3b4dc14f7d4475363c"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707215931171
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c20c3b4dc14f7d4475363d"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707215931172
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c214894dc14f7d4475363e"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707218057314
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c214894dc14f7d4475363f"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707218057315
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c21d674dc14f7d44753640"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707220327621
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c21d674dc14f7d44753641"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707220327622
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c21d6c4dc14f7d44753642"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707220332622
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c21d6c4dc14f7d44753643"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707220332623
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c21e564dc14f7d44753644"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707220566627
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c21e564dc14f7d44753645"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707220566628
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c21e5b4dc14f7d44753646"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707220571627
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c21e5b4dc14f7d44753647"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707220571628
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c2342cc8c2c457c9d5c9f9"
+        },
+        "alarm_id": "local-ca.start",
+        "date": {
+            "$date": 1707226156021
+        },
+        "failover_trigger": false,
+        "info": "Local CA microservice has started",
+        "label": "Local CA has started",
+        "object_id": "instance/",
+        "processing_type": "instance",
+        "server_id": "mksp1",
+        "service_id": "",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/"
+    },
+    {
+        "_id": {
+            "$oid": "65c2342cc8c2c457c9d5c9fa"
+        },
+        "alarm_id": "mux.start",
+        "date": {
+            "$date": 1707226156647
+        },
+        "failover_trigger": false,
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c2342cc8c2c457c9d5c9fb"
+        },
+        "alarm_id": "asi.start",
+        "date": {
+            "$date": 1707226156788
+        },
+        "failover_trigger": false,
+        "info": "ASI microservice has started",
+        "label": "ASI has started",
+        "object_id": "instance/server_id/mksp1/",
+        "processing_type": "instance",
+        "server_id": "mksp1",
+        "service_id": "server_id",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/asi"
+    },
+    {
+        "_id": {
+            "$oid": "65c2342dc8c2c457c9d5c9fc"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707226157639
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.22.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2215793335/source_id/sou_528852080",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c2342dc8c2c457c9d5c9fd"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707226157639
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (402), MKEL2-Service1, Video (401)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2215793335",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c2342dc8c2c457c9d5c9fe"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707226157641
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.3:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220249783/source_id/sou_3383225440",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c2342dc8c2c457c9d5c9ff"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707226157641
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (202), MKEL01- service02, Video (201)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220249783",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c2342dc8c2c457c9d5ca00"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707226157642
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.4:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220315319/source_id/sou_1660555932",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c2342dc8c2c457c9d5ca01"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707226157642
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (302), MKEL01- service03, Video (301)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220315319",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c23c0dc8c2c457c9d5ca02"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707228173137
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c23c0dc8c2c457c9d5ca03"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707228173138
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c31bc2c8c2c457c9d5ca04"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707285442434
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c31bc2c8c2c457c9d5ca05"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707285442434
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c33910c8c2c457c9d5ca06"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707292944139
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c33910c8c2c457c9d5ca07"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707292944139
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c343a2c8c2c457c9d5ca08"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707295650511
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c343a2c8c2c457c9d5ca09"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707295650512
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c37209c8c2c457c9d5ca0a"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707307529033
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c37209c8c2c457c9d5ca0b"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707307529033
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c389a3c8c2c457c9d5ca0c"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707313571531
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c389a3c8c2c457c9d5ca0d"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707313571531
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c38d72c8c2c457c9d5ca0e"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707314546028
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c38d72c8c2c457c9d5ca0f"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707314546028
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c45244c8c2c457c9d5ca10"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707364932686
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c45244c8c2c457c9d5ca11"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707364932686
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46393c8c2c457c9d5ca12"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707369363248
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46393c8c2c457c9d5ca13"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707369363248
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46c8fc8c2c457c9d5ca14"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707371663018
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.4:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220315319/source_id/sou_1660555932",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46c8fc8c2c457c9d5ca15"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707371663018
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (302), MKEL01- service03, Video (301)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220315319",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46c91c8c2c457c9d5ca16"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707371665018
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46c91c8c2c457c9d5ca17"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707371665018
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46c93c8c2c457c9d5ca18"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707371667599
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.3:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220249783/source_id/sou_3383225440",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46c93c8c2c457c9d5ca19"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707371667599
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (202), MKEL01- service02, Video (201)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220249783",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46ca8c8c2c457c9d5ca1a"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707371688595
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.22.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2215793335/source_id/sou_528852080",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46ca8c8c2c457c9d5ca1b"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707371688595
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (402), MKEL2-Service1, Video (401)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2215793335",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46e9cc8c2c457c9d5ca1c"
+        },
+        "alarm_id": "input.clock.frequency-offset",
+        "date": {
+            "$date": 1707372188424
+        },
+        "failover_trigger": false,
+        "info": "Mux TS01 running on server mksp1 adjusted its PCR to track the PCR on input Multicast: 239.21.1.4:5000 PID 301",
+        "label": "PCR adjustment made for incoming PCR",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220315319/source_id/sou_1660555932/pid/301",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4c9e9c8c2c457c9d5ca1d"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707395561869
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.3:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220249783/source_id/sou_3383225440",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4c9e9c8c2c457c9d5ca1e"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707395561869
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (202), MKEL01- service02, Video (201)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220249783",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4c9eec8c2c457c9d5ca1f"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707395566869
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.3:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220249783/source_id/sou_3383225440",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4c9eec8c2c457c9d5ca20"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707395566870
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (202), MKEL01- service02, Video (201)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220249783",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4cc80c8c2c457c9d5ca21"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707396224153
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4cc80c8c2c457c9d5ca22"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707396224153
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4cc85c8c2c457c9d5ca23"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707396229240
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4cc85c8c2c457c9d5ca24"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707396229240
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4cce7c8c2c457c9d5ca25"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707396327865
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.3:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220249783/source_id/sou_3383225440",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4cce7c8c2c457c9d5ca26"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707396327865
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (202), MKEL01- service02, Video (201)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220249783",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4ccecc8c2c457c9d5ca27"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707396332866
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.3:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220249783/source_id/sou_3383225440",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4ccecc8c2c457c9d5ca28"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707396332866
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (202), MKEL01- service02, Video (201)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220249783",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4ce30c8c2c457c9d5ca29"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707396656739
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.4:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220315319/source_id/sou_1660555932",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4ce30c8c2c457c9d5ca2a"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707396656739
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (302), MKEL01- service03, Video (301)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220315319",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4ce35c8c2c457c9d5ca2b"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707396661739
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.4:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220315319/source_id/sou_1660555932",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4ce35c8c2c457c9d5ca2c"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707396661739
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (302), MKEL01- service03, Video (301)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220315319",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4cf40c8c2c457c9d5ca2d"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707396928190
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4cf40c8c2c457c9d5ca2e"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707396928190
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4cf45c8c2c457c9d5ca2f"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707396933190
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4cf45c8c2c457c9d5ca30"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707396933191
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4e028c8c2c457c9d5ca31"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707401256794
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4e028c8c2c457c9d5ca32"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707401256794
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4e0b7c8c2c457c9d5ca33"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707401399293
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4e0b7c8c2c457c9d5ca34"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707401399294
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4e5f9c8c2c457c9d5ca35"
+        },
+        "alarm_id": "input.signal-loss",
+        "date": {
+            "$date": 1707402745098
+        },
+        "failover_trigger": false,
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c4e5f9c8c2c457c9d5ca36"
+        },
+        "alarm_id": "input.all-inputs-lost",
+        "date": {
+            "$date": 1707402745098
+        },
+        "failover_trigger": true,
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    }
+]

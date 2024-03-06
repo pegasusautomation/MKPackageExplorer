@@ -1,0 +1,70 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.179
+  conditions:
+    ready: false
+    serving: false
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: interface-discovery-c89bbcdbd-sss29
+    namespace: mediakind
+    resourceVersion: '8614981'
+    uid: 85c2799d-2aa7-487c-bc27-901457d8b4d6
+metadata:
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generateName: interface-discovery-
+  generation: 21
+  labels:
+    app.kubernetes.io/component: interface-discovery
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: interface-discovery
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.87.7
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: interface-discovery-0.87.7
+    kubernetes.io/service-name: interface-discovery
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"6acbbab1-388a-438b-8760-d01a6f9d4281"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-01-11T14:13:48Z'
+  name: interface-discovery-hmpdn
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: interface-discovery
+    uid: 6acbbab1-388a-438b-8760-d01a6f9d4281
+  resourceVersion: '8614982'
+  uid: 3af16359-7441-4710-8650-b94c8b95dd43
+ports:
+- name: restapi
+  port: 8200
+  protocol: TCP

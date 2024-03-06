@@ -1,0 +1,71 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: statistic
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: statistic
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 2.54.0
+    helm.sh/chart: statistic-2.54.0
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:spec:
+        f:internalTrafficPolicy: {}
+        f:ports:
+          .: {}
+          k:{"port":8000,"protocol":"TCP"}:
+            .: {}
+            f:name: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+        f:selector: {}
+        f:sessionAffinity: {}
+        f:type: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  name: statistic
+  namespace: mediakind
+  resourceVersion: '18864'
+  uid: 64dddf71-e5fc-40bc-89ed-15b5babc08c7
+spec:
+  clusterIP: 10.43.130.106
+  clusterIPs:
+  - 10.43.130.106
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: restapi
+    port: 8000
+    protocol: TCP
+    targetPort: restapi
+  selector:
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/name: statistic
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

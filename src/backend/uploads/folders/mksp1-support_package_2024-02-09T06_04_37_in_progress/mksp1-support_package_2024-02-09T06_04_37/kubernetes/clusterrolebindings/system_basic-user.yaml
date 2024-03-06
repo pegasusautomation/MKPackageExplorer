@@ -1,0 +1,33 @@
+metadata:
+  annotations:
+    rbac.authorization.kubernetes.io/autoupdate: 'true'
+  creationTimestamp: '2023-12-14T06:48:09Z'
+  labels:
+    kubernetes.io/bootstrapping: rbac-defaults
+  managedFields:
+  - apiVersion: rbac.authorization.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:rbac.authorization.kubernetes.io/autoupdate: {}
+        f:labels:
+          .: {}
+          f:kubernetes.io/bootstrapping: {}
+      f:roleRef: {}
+      f:subjects: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T06:48:09Z'
+  name: system:basic-user
+  resourceVersion: '151'
+  uid: 554e3c57-3457-4467-954f-d60c070093e7
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: system:basic-user
+subjects:
+- apiGroup: rbac.authorization.k8s.io
+  kind: Group
+  name: system:authenticated

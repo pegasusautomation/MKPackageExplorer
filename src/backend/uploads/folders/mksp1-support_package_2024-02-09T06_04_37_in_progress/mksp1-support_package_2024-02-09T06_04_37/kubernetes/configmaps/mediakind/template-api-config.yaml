@@ -1,0 +1,80 @@
+data:
+  logging.json: "{\n    \"version\": 1,\n    \"disable_existing_loggers\": true,\n\
+    \    \"formatters\": {\n        \"standard\": {\n            \"()\": \"mediakind.common.logging.LogFormatter\"\
+    ,\n            \"fmt\": \"%(asctime)s [%(levelname)s] %(name)s: %(message)s\"\n\
+    \        },\n        \"cee\": {\n            \"()\": \"ericsson.loggers.formatters.CeeFormatter\"\
+    ,\n            \"preset\": \"mediakind\",\n            \"fields\": {\n       \
+    \         \"time\": \"asctime\",\n                \"msg\": \"msg\",\n        \
+    \        \"pid\": \"process\",\n                \"tid\": \"thread\",\n       \
+    \         \"pri\": \"levelname\",\n                \"tname\": \"threadName\",\n\
+    \                \"file.name\": \"filename\",\n                \"file.line\":\
+    \ \"lineno\",\n                \"microservice\": \"template-api\",\n         \
+    \       \"host\": \"host\"\n            },\n            \"exclude\": [ ]\n   \
+    \     }\n    },\n    \"filters\": {\n        \"probe\": {\n            \"()\"\
+    : \"mediakind.common.logging.ProbeFilter\"\n        }\n    },\n    \"handlers\"\
+    : {\n        \"console\": {\n            \"class\": \"logging.StreamHandler\"\
+    ,\n            \"formatter\": \"cee\",\n            \"filters\": [\"probe\"],\n\
+    \            \"stream\": \"ext://sys.stdout\"\n        }\n    },\n    \"loggers\"\
+    : {\n        \"\": {\n            \"handlers\": [ \"console\" ],\n           \
+    \ \"level\": \"INFO\"\n        },\n        \"envivio\": {\n            \"level\"\
+    : \"INFO\"\n        },\n        \"tornado.application\": {\n            \"level\"\
+    : \"WARNING\"\n        },\n        \"tornado.access\": {\n            \"level\"\
+    : \"INFO\"\n        }\n    }\n}\n"
+  template-api.ini: '[server]
+
+    host=0.0.0.0
+
+    port=8004
+
+
+    [storage]
+
+    url=mongodb://10.69.8.31:27017,10.69.8.32:27017/envivioCluster?replicaSet=repldb
+
+    username=MediaKind
+
+    password=Med/aK1nd
+
+    '
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: template-api
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: template-api
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.75.2
+    helm.sh/chart: template-api-0.75.2
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:logging.json: {}
+        f:template-api.ini: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  name: template-api-config
+  namespace: mediakind
+  resourceVersion: '18808'
+  uid: 8babf636-210b-4f50-9772-2202d93e5ced

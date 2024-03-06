@@ -1,0 +1,62 @@
+metadata:
+  annotations:
+    objectset.rio.cattle.io/applied: H4sIAAAAAAAA/5SSP4/UMBDFvwqa2htu/+iyiUSBKCjoKGjQFo49lwzxzkSeSVZw2u+OnDsE6A4Oypnn97Ofnu/BT/QJs5IwtJA7Hyo/2yCZvnkj4Wo8akXyetmCg5E4Qgvv0qyG+aMkBAdnNB+9eWjvwTOLrT4to3RfMJiiVZmkCt4sYYFRoYD7oy4XxrzplxFaGPf6i7Js3asPxPHN2xiFX0SwP2OJJQk74kjc6z95dPKhGMe5w41+VcMzXB0k32H6a7LB6wAt3DY3dXcbjxER6+2huQlh1+ybw12Ide1xd4eIuDscC/TxjQ+3tONeN0HYsqSEueh5TqjQfl6rep9lnsoEcHKQUWXOYZWBJaKW7YK5Wzc9Gpyu7kXjj8C/uxOpgYOLtzA8g2G0i+SRuH/8Ik+5DycmSRTo/+BPWMhxEmIr9U0Sn4WVuD+Rp+v3AAAA///LqXlJ3AIAAA
+    objectset.rio.cattle.io/id: ''
+    objectset.rio.cattle.io/owner-gvk: k3s.cattle.io/v1, Kind=Addon
+    objectset.rio.cattle.io/owner-name: rolebindings
+    objectset.rio.cattle.io/owner-namespace: kube-system
+  creationTimestamp: '2023-12-14T06:48:14Z'
+  labels:
+    objectset.rio.cattle.io/hash: 6907b6d8deee71490cc29394fcd77ae2feeee248
+  managedFields:
+  - apiVersion: rbac.authorization.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:objectset.rio.cattle.io/applied: {}
+          f:objectset.rio.cattle.io/id: {}
+          f:objectset.rio.cattle.io/owner-gvk: {}
+          f:objectset.rio.cattle.io/owner-name: {}
+          f:objectset.rio.cattle.io/owner-namespace: {}
+        f:labels:
+          .: {}
+          f:objectset.rio.cattle.io/hash: {}
+      f:rules: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:14Z'
+  name: system:k3s-controller
+  resourceVersion: '374'
+  uid: 4ef69831-9b79-4ca0-9c9b-7e4a01070c72
+rules:
+- apiGroups:
+  - ''
+  resources:
+  - nodes
+  verbs:
+  - get
+- apiGroups:
+  - ''
+  resources:
+  - namespaces
+  verbs:
+  - list
+  - watch
+- apiGroups:
+  - networking.k8s.io
+  resources:
+  - networkpolicies
+  verbs:
+  - list
+  - watch
+- apiGroups:
+  - ''
+  resources:
+  - endpoints
+  - pods
+  verbs:
+  - list
+  - get
+  - watch

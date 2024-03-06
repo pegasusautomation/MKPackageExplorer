@@ -1,0 +1,151 @@
+[
+    {
+        "_id": {
+            "$oid": "657adc02053625cb03edbf85"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "label": "Connection to server lost",
+        "processing_type": "serverMonitor",
+        "severity": "critical"
+    },
+    {
+        "_id": {
+            "$oid": "657adc03053625cb03edc02a"
+        },
+        "alarm_code": 25024,
+        "alarm_id": "simulcrypt.start",
+        "label": "Simulcrypt has started",
+        "processing_type": "instance",
+        "severity": "notice"
+    },
+    {
+        "_id": {
+            "$oid": "657adc0d053625cb03edc389"
+        },
+        "alarm_code": 25067,
+        "alarm_id": "asi.start",
+        "label": "ASI has started",
+        "processing_type": "instance",
+        "severity": "notice"
+    },
+    {
+        "_id": {
+            "$oid": "657adc0e053625cb03edc3ed"
+        },
+        "alarm_code": 25078,
+        "alarm_id": "local-ca.start",
+        "label": "Local CA has started",
+        "processing_type": "instance",
+        "severity": "notice"
+    },
+    {
+        "_id": {
+            "$oid": "657add20053625cb03ee376a"
+        },
+        "alarm_code": 25068,
+        "alarm_id": "asi.stop",
+        "label": "ASI has stopped",
+        "processing_type": "instance",
+        "severity": "notice"
+    },
+    {
+        "_id": {
+            "$oid": "65962f2787aef5635dbaf6d8"
+        },
+        "alarm_code": 25001,
+        "alarm_id": "input.signal-loss",
+        "label": "Input loss",
+        "processing_type": "muxes",
+        "severity": "major"
+    },
+    {
+        "_id": {
+            "$oid": "65962f2787aef5635dbaf6ff"
+        },
+        "alarm_code": 25052,
+        "alarm_id": "input.all-inputs-lost",
+        "label": "All inputs lost",
+        "processing_type": "muxes",
+        "severity": "critical"
+    },
+    {
+        "_id": {
+            "$oid": "65962f2b87aef5635dbafc9b"
+        },
+        "alarm_code": 25003,
+        "alarm_id": "mux.start",
+        "label": "Mux has started",
+        "processing_type": "muxes",
+        "severity": "notice"
+    },
+    {
+        "_id": {
+            "$oid": "65962f2c87aef5635dbafd8c"
+        },
+        "alarm_code": 25017,
+        "alarm_id": "mux.license.startPeriod",
+        "label": "Insufficient number of licenses available",
+        "processing_type": "muxes",
+        "severity": "major"
+    },
+    {
+        "_id": {
+            "$oid": "65962fe087aef5635dbb60b6"
+        },
+        "alarm_code": 25016,
+        "alarm_id": "mux.license.missing",
+        "label": "Playout stopped due to insufficient number of licenses",
+        "processing_type": "muxes",
+        "severity": "major"
+    },
+    {
+        "_id": {
+            "$oid": "6596347987aef5635dbde24e"
+        },
+        "alarm_code": 25004,
+        "alarm_id": "mux.stop",
+        "label": "Mux has stopped",
+        "processing_type": "muxes",
+        "severity": "notice"
+    },
+    {
+        "_id": {
+            "$oid": "659636ac87aef5635dbf21d7"
+        },
+        "alarm_code": 25007,
+        "alarm_id": "input.clock.frequency-offset",
+        "label": "PCR adjustment made for incoming PCR",
+        "processing_type": "muxes",
+        "severity": "notice"
+    },
+    {
+        "_id": {
+            "$oid": "6596381c87aef5635dbfdb3a"
+        },
+        "alarm_code": 25018,
+        "alarm_id": "mux.license.connectionLost",
+        "label": "Connection lost with license server",
+        "processing_type": "muxes",
+        "severity": "major"
+    },
+    {
+        "_id": {
+            "$oid": "65b04954054fbc29f90cbbeb"
+        },
+        "alarm_code": 25005,
+        "alarm_id": "input.cc-error-rate",
+        "label": "High CC error rate",
+        "processing_type": "muxes",
+        "severity": "major"
+    },
+    {
+        "_id": {
+            "$oid": "65b2749150ca3c1e5eb4315b"
+        },
+        "alarm_code": 25077,
+        "alarm_id": "mux.output.bitrate.insufficient",
+        "label": "Insufficient Output Bitrate",
+        "processing_type": "muxes",
+        "severity": "major"
+    }
+]

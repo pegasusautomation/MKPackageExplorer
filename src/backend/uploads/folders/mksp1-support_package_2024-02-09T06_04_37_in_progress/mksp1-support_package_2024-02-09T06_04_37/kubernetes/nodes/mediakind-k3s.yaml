@@ -1,0 +1,332 @@
+metadata:
+  annotations:
+    alpha.kubernetes.io/provided-node-ip: 192.168.255.1
+    flannel.alpha.coreos.com/backend-data: '{"VNI":1,"VtepMAC":"7a:da:1e:c2:7a:ec"}'
+    flannel.alpha.coreos.com/backend-type: vxlan
+    flannel.alpha.coreos.com/kube-subnet-manager: 'true'
+    flannel.alpha.coreos.com/public-ip: 192.168.255.1
+    k3s.io/external-ip: 192.168.255.1
+    k3s.io/hostname: mediakind-k3s
+    k3s.io/internal-ip: 192.168.255.1
+    k3s.io/node-args: '["server","--debug","false","--node-name","mediakind-k3s","--node-ip","192.168.255.1","--node-external-ip","192.168.255.1","--flannel-iface","internalk3s0","--cluster-cidr","10.42.0.0/16","--service-cidr","10.43.0.0/16","--cluster-dns","10.43.0.10","--kubelet-arg","image-gc-high-threshold=100","--disable","traefik","--flannel-iface","internalk3s0","--kube-proxy-arg","proxy-mode=ipvs"]'
+    k3s.io/node-config-hash: P6LAZKKP7IGGSXLDBCRN7GQFT2TUPIGHF32GPRUERBVSK4FGTDOQ====
+    k3s.io/node-env: '{"K3S_DATA_DIR":"/var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b","K3S_KUBECONFIG_MODE":"640","K3S_NODENAME":"mediakind-k3s"}'
+    node.alpha.kubernetes.io/ttl: '0'
+    volumes.kubernetes.io/controller-managed-attach-detach: 'true'
+  creationTimestamp: '2023-12-14T06:48:24Z'
+  finalizers:
+  - wrangler.cattle.io/node
+  labels:
+    beta.kubernetes.io/arch: amd64
+    beta.kubernetes.io/instance-type: k3s
+    beta.kubernetes.io/os: linux
+    egress.k3s.io/cluster: 'true'
+    kubernetes.io/arch: amd64
+    kubernetes.io/hostname: mediakind-k3s
+    kubernetes.io/os: linux
+    node-role.kubernetes.io/control-plane: 'true'
+    node-role.kubernetes.io/master: 'true'
+    node.kubernetes.io/instance-type: k3s
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:finalizers:
+          .: {}
+          v:"wrangler.cattle.io/node": {}
+        f:labels:
+          f:node-role.kubernetes.io/control-plane: {}
+          f:node-role.kubernetes.io/master: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:25Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          f:flannel.alpha.coreos.com/backend-data: {}
+          f:flannel.alpha.coreos.com/backend-type: {}
+          f:flannel.alpha.coreos.com/kube-subnet-manager: {}
+          f:flannel.alpha.coreos.com/public-ip: {}
+      f:status:
+        f:addresses:
+          k:{"type":"ExternalIP"}:
+            .: {}
+            f:address: {}
+            f:type: {}
+        f:conditions:
+          k:{"type":"DiskPressure"}:
+            f:lastHeartbeatTime: {}
+          k:{"type":"MemoryPressure"}:
+            f:lastHeartbeatTime: {}
+          k:{"type":"PIDPressure"}:
+            f:lastHeartbeatTime: {}
+          k:{"type":"Ready"}:
+            f:lastHeartbeatTime: {}
+            f:lastTransitionTime: {}
+            f:message: {}
+            f:reason: {}
+            f:status: {}
+        f:images: {}
+        f:nodeInfo:
+          f:bootID: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2023-12-14T07:10:23Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:alpha.kubernetes.io/provided-node-ip: {}
+          f:k3s.io/external-ip: {}
+          f:k3s.io/hostname: {}
+          f:k3s.io/internal-ip: {}
+          f:k3s.io/node-args: {}
+          f:k3s.io/node-config-hash: {}
+          f:k3s.io/node-env: {}
+          f:node.alpha.kubernetes.io/ttl: {}
+          f:volumes.kubernetes.io/controller-managed-attach-detach: {}
+        f:labels:
+          .: {}
+          f:beta.kubernetes.io/arch: {}
+          f:beta.kubernetes.io/instance-type: {}
+          f:beta.kubernetes.io/os: {}
+          f:egress.k3s.io/cluster: {}
+          f:kubernetes.io/arch: {}
+          f:kubernetes.io/hostname: {}
+          f:kubernetes.io/os: {}
+          f:node.kubernetes.io/instance-type: {}
+      f:spec:
+        f:podCIDR: {}
+        f:podCIDRs:
+          .: {}
+          v:"10.42.0.0/24": {}
+        f:providerID: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-01T20:58:45Z'
+  name: mediakind-k3s
+  resourceVersion: '9043381'
+  uid: beb4e102-7a86-415f-b416-926893ca2745
+spec:
+  podCIDR: 10.42.0.0/24
+  podCIDRs:
+  - 10.42.0.0/24
+  providerID: k3s://mediakind-k3s
+status:
+  addresses:
+  - address: 192.168.255.1
+    type: InternalIP
+  - address: 192.168.255.1
+    type: ExternalIP
+  - address: mediakind-k3s
+    type: Hostname
+  allocatable:
+    cpu: '8'
+    ephemeral-storage: '27968731524'
+    hugepages-1Gi: '0'
+    hugepages-2Mi: '0'
+    memory: 16115232Ki
+    pods: '110'
+  capacity:
+    cpu: '8'
+    ephemeral-storage: 28750752Ki
+    hugepages-1Gi: '0'
+    hugepages-2Mi: '0'
+    memory: 16115232Ki
+    pods: '110'
+  conditions:
+  - lastHeartbeatTime: '2024-02-09T06:02:12Z'
+    lastTransitionTime: '2023-12-14T06:48:24Z'
+    message: kubelet has sufficient memory available
+    reason: KubeletHasSufficientMemory
+    status: 'False'
+    type: MemoryPressure
+  - lastHeartbeatTime: '2024-02-09T06:02:12Z'
+    lastTransitionTime: '2023-12-14T06:48:24Z'
+    message: kubelet has no disk pressure
+    reason: KubeletHasNoDiskPressure
+    status: 'False'
+    type: DiskPressure
+  - lastHeartbeatTime: '2024-02-09T06:02:12Z'
+    lastTransitionTime: '2023-12-14T06:48:24Z'
+    message: kubelet has sufficient PID available
+    reason: KubeletHasSufficientPID
+    status: 'False'
+    type: PIDPressure
+  - lastHeartbeatTime: '2024-02-09T06:02:12Z'
+    lastTransitionTime: '2024-02-01T20:58:45Z'
+    message: kubelet is posting ready status
+    reason: KubeletReady
+    status: 'True'
+    type: Ready
+  daemonEndpoints:
+    kubeletEndpoint:
+      Port: 10250
+  images:
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/unified-ui:1.189.17
+    sizeBytes: 913766342
+  - names:
+    - packages.mediakind.com/mpd-docker/bitnami/mongodb:4.4.9-debian-10-r3
+    sizeBytes: 433668508
+  - names:
+    - docker.io/rancher/klipper-helm:v0.7.3-build20220613
+    sizeBytes: 239353491
+  - names:
+    - packages.mediakind.com/mpd-docker/bitnami/rabbitmq:3.9.5-debian-10-r12
+    sizeBytes: 235247627
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/stream-processor-ui-connector:20.0.3-29
+    sizeBytes: 191110872
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/unified-ui-httpd:1.189.17
+    sizeBytes: 169475777
+  - names:
+    - packages.mediakind.com/mpd-docker/bitnami/etcd:3.5.6-debian-11-r0
+    sizeBytes: 159470138
+  - names:
+    - packages.mediakind.com/mpd-docker/envoyproxy/envoy:v1.18.3
+    sizeBytes: 137557010
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/stream-processor-psi:20.0.3-29
+    sizeBytes: 137035918
+  - names:
+    - docker.io/rancher/mirrored-library-traefik:2.9.4
+    sizeBytes: 136381301
+  - names:
+    - packages.mediakind.com/mpd-docker/redis:6.2.7
+    sizeBytes: 116349681
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/stream-processor-mux:20.0.3-29
+    sizeBytes: 113668720
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/interface-discovery:0.87.7
+    sizeBytes: 97303414
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/keepalived:1.18.0
+    sizeBytes: 94321051
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/support-package:1.31.9
+    sizeBytes: 87156554
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/stream-processor-statmux:20.0.3-29
+    sizeBytes: 86250631
+  - names:
+    - docker.io/fluent/fluent-bit:1.8.11
+    sizeBytes: 83448914
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/stream-processor-config:20.0.3-29
+    sizeBytes: 74577118
+  - names:
+    - docker.io/rancher/mirrored-metrics-server:v0.6.1
+    sizeBytes: 70133187
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/snmp-notification:0.86.4
+    sizeBytes: 70061372
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/server-daemon:0.78.2
+    sizeBytes: 68172984
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/license-manager-api:0.94.2
+    sizeBytes: 66239857
+  - names:
+    - packages.mediakind.com/mpd-docker/jetstack/cert-manager-controller:v1.5.3
+    sizeBytes: 64605814
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/rabbit-operator:0.24.1
+    sizeBytes: 63945571
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/stream-processor-simulcrypt-control:20.0.3-29
+    sizeBytes: 63509968
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/failover-api:0.101.3
+    sizeBytes: 60981597
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/service-api:0.122.8
+    sizeBytes: 60898143
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/stream-processor-content-extraction:20.0.3-29
+    sizeBytes: 60779871
+  - names:
+    - packages.mediakind.com/mpd-docker/jetstack/cert-manager-ctl:v1.5.3
+    sizeBytes: 59659866
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/server-monitor:0.75.2
+    sizeBytes: 58837716
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/alarm:1.103.5
+    sizeBytes: 56090950
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/flow:0.65.2
+    sizeBytes: 55768389
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/server-api:0.99.3
+    sizeBytes: 54524754
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/stream-processor-simulcrypt:20.0.3-29
+    sizeBytes: 54078642
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/controller-metrics-exporter:0.5.2
+    sizeBytes: 52543364
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/esam-proxy:0.68.2
+    sizeBytes: 52193617
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/stream-processor-biss-ca:20.0.3-29
+    sizeBytes: 52169517
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/stream-processor-asi:20.0.3-29
+    sizeBytes: 51238392
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/command:1.60.1
+    sizeBytes: 50056523
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/template-api:0.75.2
+    sizeBytes: 49839961
+  - names:
+    - docker.io/rancher/mirrored-coredns-coredns:1.9.4
+    sizeBytes: 49810420
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/license-manager-lserv:0.94.2
+    sizeBytes: 48180967
+  - names:
+    - packages.mediakind.com/mpd-docker/jetstack/cert-manager-webhook:v1.5.3
+    sizeBytes: 47668842
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/statistic:2.54.0
+    sizeBytes: 47642451
+  - names:
+    - packages.mediakind.com/mpd-docker/mediakind/alarm-proxy:1.65.0
+    sizeBytes: 46397270
+  - names:
+    - packages.mediakind.com/mpd-docker/jetstack/cert-manager-cainjector:v1.5.3
+    sizeBytes: 43511414
+  - names:
+    - docker.io/rancher/local-path-provisioner:v0.0.23
+    sizeBytes: 37747099
+  - names:
+    - docker.io/rancher/klipper-lb:v0.3.5
+    sizeBytes: 8508384
+  - names:
+    - docker.io/library/busybox:latest
+    sizeBytes: 5094232
+  - names:
+    - docker.io/rancher/mirrored-library-busybox:1.34.1
+    sizeBytes: 1461085
+  nodeInfo:
+    architecture: amd64
+    bootID: b29d9666-d844-414b-863b-a5d81ac47782
+    containerRuntimeVersion: containerd://1.5.13-k3s1
+    kernelVersion: 4.18.0-425.19.2.el8_7.x86_64
+    kubeProxyVersion: v1.23.14+k3s1
+    kubeletVersion: v1.23.14+k3s1
+    machineID: efc87f361f0e4d109b54b7cccdc48450
+    operatingSystem: linux
+    osImage: AlmaLinux 8.7 (Stone Smilodon)
+    systemUUID: 4a30aac8-f4e7-7241-8d20-18132d95d984

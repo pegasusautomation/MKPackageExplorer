@@ -1,0 +1,431 @@
+[
+    {
+        "_id": {
+            "$oid": "6593d04087aef5635da8ecf0"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1707208625646
+        },
+        "failover_trigger": true,
+        "heartbeat": {
+            "$date": 1707458654255
+        },
+        "info": "Server mksp2 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "is_active": true,
+        "label": "Connection to server lost",
+        "object_id": "server/mksp2",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "seq_num": null,
+        "server_id": "mksp2",
+        "service_id": "mksp2",
+        "service_name": "",
+        "severity": "critical",
+        "state": "raised",
+        "version": "2.0"
+    },
+    {
+        "_id": {
+            "$oid": "65acf94934415a5a71982110"
+        },
+        "alarm_id": "alarm.server.connection.lost",
+        "date": {
+            "$date": 1707044410922
+        },
+        "failover_trigger": true,
+        "heartbeat": {
+            "$date": 1707044410922
+        },
+        "info": "Server mksp1 cannot be reached by controller. Please check connection and/or check if server is alive",
+        "is_active": false,
+        "label": "Connection to server lost",
+        "object_id": "server/mksp1",
+        "processing_type": "serverMonitor",
+        "publisher_id": "server-monitor",
+        "seq_num": null,
+        "server_id": "mksp1",
+        "service_id": "mksp1",
+        "service_name": "",
+        "severity": "critical",
+        "state": "cleared",
+        "version": "2.0"
+    },
+    {
+        "_id": {
+            "$oid": "65ae007c34415a5a71d62d48"
+        },
+        "alarm_code": 25003,
+        "alarm_id": "mux.start",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707226156647
+        },
+        "failover_trigger": false,
+        "heartbeat": {
+            "$date": 1707226156647
+        },
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "is_active": false,
+        "label": "Mux has started",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "sync_time": 1707226156.65335,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65af40b7054fbc29f9bf04e3"
+        },
+        "alarm_code": 25067,
+        "alarm_id": "asi.start",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707226156788
+        },
+        "failover_trigger": false,
+        "heartbeat": {
+            "$date": 1707226156788
+        },
+        "info": "ASI microservice has started",
+        "is_active": false,
+        "label": "ASI has started",
+        "object_id": "instance/server_id/mksp1/",
+        "processing_type": "instance",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "server_id",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "sync_time": 1707226156.78868,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/asi"
+    },
+    {
+        "_id": {
+            "$oid": "65af40b8054fbc29f9bf05b2"
+        },
+        "alarm_code": 25078,
+        "alarm_id": "local-ca.start",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707226156021
+        },
+        "failover_trigger": false,
+        "heartbeat": {
+            "$date": 1707226156021
+        },
+        "info": "Local CA microservice has started",
+        "is_active": false,
+        "label": "Local CA has started",
+        "object_id": "instance/",
+        "processing_type": "instance",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "",
+        "service_name": "",
+        "severity": "notice",
+        "state": "event",
+        "sync_time": 1707226156.02179,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04308d6944de02b9bf3e"
+        },
+        "alarm_code": 25001,
+        "alarm_id": "input.signal-loss",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707396332866
+        },
+        "failover_trigger": false,
+        "heartbeat": {
+            "$date": 1707396332866
+        },
+        "info": "No signal received for more than 1000ms on input 239.21.1.3:5000 of mux TS01 running on server mksp1",
+        "is_active": false,
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220249783/source_id/sou_3383225440",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "sync_time": 1707396332.86677,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04308d6944de02b9bf59"
+        },
+        "alarm_code": 25001,
+        "alarm_id": "input.signal-loss",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707396661739
+        },
+        "failover_trigger": false,
+        "heartbeat": {
+            "$date": 1707396661739
+        },
+        "info": "No signal received for more than 1000ms on input 239.21.1.4:5000 of mux TS01 running on server mksp1",
+        "is_active": false,
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220315319/source_id/sou_1660555932",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "sync_time": 1707396661.73999,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04308d6944de02b9bf71"
+        },
+        "alarm_code": 25001,
+        "alarm_id": "input.signal-loss",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707402745098
+        },
+        "failover_trigger": false,
+        "heartbeat": {
+            "$date": 1707458677716
+        },
+        "info": "No signal received for more than 1000ms on input 239.21.1.2:5000 of mux TS01 running on server mksp1",
+        "is_active": true,
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220184247/source_id/sou_1350577435",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "raised",
+        "sync_time": 1707402745.09888,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04308d6944de02b9bf8c"
+        },
+        "alarm_code": 25052,
+        "alarm_id": "input.all-inputs-lost",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707396332866
+        },
+        "failover_trigger": true,
+        "heartbeat": {
+            "$date": 1707396332866
+        },
+        "info": "Input with no available sources. Affected services: Audio (202), MKEL01- service02, Video (201)",
+        "is_active": false,
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220249783",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "sync_time": 1707396332.86719,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04308d6944de02b9bfa9"
+        },
+        "alarm_code": 25052,
+        "alarm_id": "input.all-inputs-lost",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707396661739
+        },
+        "failover_trigger": true,
+        "heartbeat": {
+            "$date": 1707396661739
+        },
+        "info": "Input with no available sources. Affected services: Audio (302), MKEL01- service03, Video (301)",
+        "is_active": false,
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220315319",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "sync_time": 1707396661.74043,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04308d6944de02b9bfc4"
+        },
+        "alarm_code": 25052,
+        "alarm_id": "input.all-inputs-lost",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707402745098
+        },
+        "failover_trigger": true,
+        "heartbeat": {
+            "$date": 1707458677717
+        },
+        "info": "Input with no available sources. Affected services: Audio (102), MKEL01- service01, Video (101)",
+        "is_active": true,
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2220184247",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "raised",
+        "sync_time": 1707402745.09933,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04308d6944de02b9bfdd"
+        },
+        "alarm_code": 25001,
+        "alarm_id": "input.signal-loss",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707371688595
+        },
+        "failover_trigger": false,
+        "heartbeat": {
+            "$date": 1707371688595
+        },
+        "info": "No signal received for more than 1000ms on input 239.22.1.2:5000 of mux TS01 running on server mksp1",
+        "is_active": false,
+        "label": "Input loss",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2215793335/source_id/sou_528852080",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "major",
+        "state": "cleared",
+        "sync_time": 1707371688.59571,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65ba04308d6944de02b9bff5"
+        },
+        "alarm_code": 25052,
+        "alarm_id": "input.all-inputs-lost",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707371688595
+        },
+        "failover_trigger": true,
+        "heartbeat": {
+            "$date": 1707371688595
+        },
+        "info": "Input with no available sources. Affected services: Audio (402), MKEL2-Service1, Video (401)",
+        "is_active": false,
+        "label": "All inputs lost",
+        "object_id": "muxes/mux_1234_1234_1/instance/source_id/inp_2215793335",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "critical",
+        "state": "cleared",
+        "sync_time": 1707371688.59609,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65bca560ecefbc1e786fb523"
+        },
+        "alarm_code": 25004,
+        "alarm_id": "mux.stop",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1706861920926
+        },
+        "failover_trigger": false,
+        "heartbeat": {
+            "$date": 1706861920926
+        },
+        "info": "MFSP service 'TS01' on server 'mksp1'",
+        "is_active": false,
+        "label": "Mux has stopped",
+        "object_id": "muxes/mux_1234_1234_1/instance/",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "sync_time": 1706861920.92632,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    },
+    {
+        "_id": {
+            "$oid": "65c46e9caa66595dfed489d3"
+        },
+        "alarm_code": 25007,
+        "alarm_id": "input.clock.frequency-offset",
+        "auto_expiry": true,
+        "date": {
+            "$date": 1707372188424
+        },
+        "failover_trigger": false,
+        "heartbeat": {
+            "$date": 1707372188424
+        },
+        "info": "Mux TS01 running on server mksp1 adjusted its PCR to track the PCR on input Multicast: 239.21.1.4:5000 PID 301",
+        "is_active": false,
+        "label": "PCR adjustment made for incoming PCR",
+        "object_id": "muxes/mux_1234_1234_1/instance/input_id/inp_2220315319/source_id/sou_1660555932/pid/301",
+        "processing_type": "muxes",
+        "resync_scope": "mksp1",
+        "server_id": "mksp1",
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "severity": "notice",
+        "state": "event",
+        "sync_time": 1707372188.42453,
+        "version": "1.0",
+        "worker_id": "alarms/servers/mksp1/muxes/mux_1234_1234_1"
+    }
+]

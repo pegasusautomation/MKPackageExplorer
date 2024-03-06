@@ -1,0 +1,51 @@
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:29:09Z'
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: alarm
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: alarm
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.103.5
+    helm.sh/chart: alarm-1.103.5
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T08:37:00Z'
+  name: alarm
+  namespace: mediakind
+  resourceVersion: '8615218'
+  uid: 5e8eae52-beef-4b51-88ea-5ee024602724
+subsets:
+- addresses:
+  - ip: 10.42.0.157
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: alarm-7f7cbb5f7f-htmk9
+      namespace: mediakind
+      resourceVersion: '8615217'
+      uid: 7010820a-858d-4933-b400-667b6585017b
+  ports:
+  - name: restapi
+    port: 8099
+    protocol: TCP

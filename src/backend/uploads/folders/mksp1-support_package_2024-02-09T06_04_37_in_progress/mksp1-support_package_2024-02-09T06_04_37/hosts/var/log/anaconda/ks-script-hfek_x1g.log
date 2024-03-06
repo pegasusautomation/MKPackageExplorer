@@ -1,0 +1,8 @@
+Installing extra tools
+warning: /root/MediaKind/RPM/boost-date-time-1.66.0-10.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID c21ad6ea: NOKEY
+warning: /root/MediaKind/RPM/ntfs-3g-libs-2021.8.22-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 2f86d6a1: NOKEY
+Creating /var/log/journal to enable persistent logs
+Cleaning third-party yum repositories
+0 files removed
+Disabling third-party yum repositories
+Enabling all network interfaces on boot

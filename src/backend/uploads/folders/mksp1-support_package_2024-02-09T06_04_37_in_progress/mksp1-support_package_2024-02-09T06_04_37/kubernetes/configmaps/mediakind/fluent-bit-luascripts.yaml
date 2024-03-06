@@ -1,0 +1,69 @@
+data:
+  script_3pp.lua: "-- 3pp logs are not in MK structured format\n-- This function ensures\
+    \ the 'time' and 'msg' fields are set in the record\nfunction pre_process(tag,\
+    \ timestamp, record)\n  if record[\"time\"] == nil then\n    if record[\"_SOURCE_REALTIME_TIMESTAMP\"\
+    ] ~= nil then\n      -- The '_SOURCE_REALTIME_TIMESTAMP' journal property is in\
+    \ microseconds and formatted as a string\n      ts = tonumber(record[\"_SOURCE_REALTIME_TIMESTAMP\"\
+    ]) / 1e6\n    else\n      -- Fluent-bit timestamp is a numeric fractional integer\
+    \ and formatted as SECONDS.NANOSECONDS\n      ts = timestamp\n    end\n    sec,\
+    \ nsec = math.modf(ts)\n\n    -- Format the time property to match with MediaKind\
+    \ time logging format: \"%Y-%m-%dT%H:%M:%S.%LZ\"\n    record[\"time\"] = os.date(\"\
+    %Y-%m-%dT%H:%M:%S\", sec) .. string.format(\"%.3f\", nsec):sub(2) .. \"Z\"\n\n\
+    \    -- Remove the time from the original message\n    pos = string.find(record[\"\
+    log_msg\"], \": \")\n    if pos ~= nil then\n      if (pos + 2) < string.len(record[\"\
+    log_msg\"]) then\n        record[\"log_msg\"] = string.sub(record[\"log_msg\"\
+    ], pos + 2)\n      end\n    end\n\n    record[\"msg\"] = record[\"log_msg\"]\n\
+    \    record[\"log_msg\"] = nil\n\n    -- 1 means record was modified, replace\
+    \ content\n    return 1, timestamp, record\n  end\n\n  -- 0 means record not modified,\
+    \ keep the original\n  return 0, 0, 0\nend\n"
+  script_systemd.lua: "-- Not every systemd log contains the 'time' property\n-- This\
+    \ function ensures the 'time' is set in the record\nfunction insert_time(tag,\
+    \ timestamp, record)\n  if record[\"time\"] == nil then\n    if record[\"_SOURCE_REALTIME_TIMESTAMP\"\
+    ] ~= nil then\n      -- The '_SOURCE_REALTIME_TIMESTAMP' journal property is in\
+    \ microseconds and formatted as a string\n      ts = tonumber(record[\"_SOURCE_REALTIME_TIMESTAMP\"\
+    ]) / 1e6\n    else\n      -- Fluent-bit timestamp is a numeric fractional integer\
+    \ and formatted as SECONDS.NANOSECONDS\n      ts = timestamp\n    end\n    sec,\
+    \ nsec = math.modf(ts)\n\n    -- Format the time property to match with MediaKind\
+    \ time logging format: \"%Y-%m-%dT%H:%M:%S.%LZ\"\n    record[\"time\"] = os.date(\"\
+    %Y-%m-%dT%H:%M:%S\", sec) .. string.format(\"%.9f\", nsec):sub(2) .. \"Z\"\n\n\
+    \    -- 1 means record was modified, replace content\n    return 1, timestamp,\
+    \ record\n  end\n\n  -- 0 means record not modified, keep the original\n  return\
+    \ 0, 0, 0\nend\n"
+metadata:
+  annotations:
+    meta.helm.sh/release-name: fluent-bit
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T06:51:34Z'
+  labels:
+    app.kubernetes.io/instance: fluent-bit
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: fluent-bit
+    app.kubernetes.io/version: 1.8.11
+    helm.sh/chart: fluent-bit-0.19.10
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:script_3pp.lua: {}
+        f:script_systemd.lua: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T06:51:34Z'
+  name: fluent-bit-luascripts
+  namespace: mediakind
+  resourceVersion: '604'
+  uid: 0731f3f3-7b1d-4100-9d83-36348fabd3d9

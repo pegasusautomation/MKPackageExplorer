@@ -1,0 +1,332 @@
+[
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca43c"
+        },
+        "codename": "can_backup_database",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40c"
+        },
+        "name": "Can backup database"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca43d"
+        },
+        "codename": "can_restore_database",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40c"
+        },
+        "name": "Can restore database"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca43e"
+        },
+        "codename": "add_service",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40b"
+        },
+        "name": "Can create service"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca43f"
+        },
+        "codename": "change_service",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40b"
+        },
+        "name": "Can edit service"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca440"
+        },
+        "codename": "delete_service",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40b"
+        },
+        "name": "Can delete service"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca441"
+        },
+        "codename": "schedule_job",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40b"
+        },
+        "name": "Can schedule job on service"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca442"
+        },
+        "codename": "add_template",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40a"
+        },
+        "name": "Can create template"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca443"
+        },
+        "codename": "change_template",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40a"
+        },
+        "name": "Can edit template"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca444"
+        },
+        "codename": "delete_template",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40a"
+        },
+        "name": "Can delete template"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca445"
+        },
+        "codename": "add_server",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca409"
+        },
+        "name": "Can create server"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca446"
+        },
+        "codename": "change_server",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca409"
+        },
+        "name": "Can edit server"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca447"
+        },
+        "codename": "delete_server",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca409"
+        },
+        "name": "Can delete server"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca448"
+        },
+        "codename": "reboot_server",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca409"
+        },
+        "name": "Can reboot server"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca449"
+        },
+        "codename": "can_change_license",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca409"
+        },
+        "name": "Can change license"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca44a"
+        },
+        "codename": "can_delete_license",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca409"
+        },
+        "name": "Can delete license"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca44b"
+        },
+        "codename": "can_manual_failover_server",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40d"
+        },
+        "name": "Can manual failover server"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca44c"
+        },
+        "codename": "can_manual_revert_server",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40d"
+        },
+        "name": "Can manual revert server"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca44d"
+        },
+        "codename": "add_failover_group",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40d"
+        },
+        "name": "Can create failover group"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca44e"
+        },
+        "codename": "change_failover_group",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40d"
+        },
+        "name": "Can edit failover group"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca44f"
+        },
+        "codename": "can_delete_failover_group",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40d"
+        },
+        "name": "Can delete failover group"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca450"
+        },
+        "codename": "can_access_settings",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40e"
+        },
+        "name": "Can access settings"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca451"
+        },
+        "codename": "change_snmp",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca410"
+        },
+        "name": "Can change SNMP"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca452"
+        },
+        "codename": "access_api_as_client",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40f"
+        },
+        "name": "Can access API"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca453"
+        },
+        "codename": "access_ui",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40f"
+        },
+        "name": "Can access UI"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca454"
+        },
+        "codename": "can_change_external_links",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca411"
+        },
+        "name": "Can change external links"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca455"
+        },
+        "codename": "can_change_general_settings",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca412"
+        },
+        "name": "Can change general settings"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca456"
+        },
+        "codename": "can_edit_alarm_overrides",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca413"
+        },
+        "name": "Can edit alarm overrides"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca457"
+        },
+        "codename": "change_proctype_solution_manager_transcode",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca414"
+        },
+        "name": "Can edit Solution Transcode"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca458"
+        },
+        "codename": "can_generate_catalog",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca414"
+        },
+        "name": "Can generate catalog"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca459"
+        },
+        "codename": "can_generate_output",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca414"
+        },
+        "name": "Can generate output"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca45a"
+        },
+        "codename": "can_generate_asset",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca414"
+        },
+        "name": "Can generate asset"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca45b"
+        },
+        "codename": "can_generate",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca415"
+        },
+        "name": "Can generate Support Package"
+    },
+    {
+        "_id": {
+            "$oid": "657ad487053625cb03eca45c"
+        },
+        "codename": "can_edit_ldap",
+        "content_type": {
+            "$oid": "657ad487053625cb03eca40e"
+        },
+        "name": "Can edit LDAP settings"
+    }
+]

@@ -1,0 +1,37 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: etcd-external-service
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:07:24Z'
+  labels:
+    app.kubernetes.io/managed-by: Helm
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/managed-by: {}
+      f:subsets: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:07:24Z'
+  name: etcd-controller2-0
+  namespace: mediakind
+  resourceVersion: '18538'
+  uid: 1039f995-804f-4679-bdbc-dea15721cabc
+subsets:
+- addresses:
+  - ip: 10.69.8.32
+  ports:
+  - name: client
+    port: 2379
+    protocol: TCP
+  - name: peer
+    port: 2380
+    protocol: TCP

@@ -1,0 +1,46 @@
+metadata:
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: interface-discovery
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: interface-discovery
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.87.7
+    helm.sh/chart: interface-discovery-0.87.7
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:28:48Z'
+  name: interface-discovery
+  namespace: mediakind
+  resourceVersion: '8614983'
+  uid: 4ab13aee-226d-40e8-86eb-3435daca2876
+subsets:
+- notReadyAddresses:
+  - ip: 10.42.0.179
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: interface-discovery-c89bbcdbd-sss29
+      namespace: mediakind
+      resourceVersion: '8614981'
+      uid: 85c2799d-2aa7-487c-bc27-901457d8b4d6
+  ports:
+  - name: restapi
+    port: 8200
+    protocol: TCP

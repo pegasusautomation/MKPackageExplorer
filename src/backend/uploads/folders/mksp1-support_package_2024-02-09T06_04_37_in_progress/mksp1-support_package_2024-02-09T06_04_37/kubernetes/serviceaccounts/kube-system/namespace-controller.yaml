@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:11Z'
+  name: namespace-controller
+  namespace: kube-system
+  resourceVersion: '241'
+  uid: 40ec8e9e-8958-40ff-83cb-ac3bc864a9c8
+secrets:
+- name: namespace-controller-token-lmwl8

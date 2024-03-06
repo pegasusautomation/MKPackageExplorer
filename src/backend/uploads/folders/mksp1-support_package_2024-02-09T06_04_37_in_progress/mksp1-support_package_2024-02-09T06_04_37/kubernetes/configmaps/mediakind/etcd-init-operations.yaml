@@ -1,0 +1,258 @@
+ed
+      to query it\necho \"checking for etcd instance: ''${MY_ETC_IDENTITY%%}'' at
+      peer: ''${PEER_ENDPOINT%%}''\"\nif echo \"$(etcdctl --endpoints ${PEER_ENDPOINT%%}
+      member list)\" | grep \"${MY_ETC_IDENTITY%%}\"; then\n  member_instance_in_cluster=\"true\"\n  echo
+      \"etcd instance found at peer: ''${PEER_ENDPOINT%%}''\"\nelse\n  member_instance_in_cluster=\"false\"\n  echo
+      \"no etcd instance: ''${MY_ETC_IDENTITY%%}'' found at peer: ''${PEER_ENDPOINT%%}''\"\nfi\n\n#step
+      3 - if member is already in the cluster, remove member from cluster\nif [[ \"${member_instance_in_cluster%%}\"
+      == \"true\" ]]; then\n  MY_EXISTING_ETCD_MEMBER_ID=$(etcdctl --endpoints ${PEER_ENDPOINT%%}
+      member list | grep ${MY_ETC_IDENTITY%%} | cut -d \",\" -f 1)\n  if [ $? -ne
+      0 ]; then\n    echo \"a problem occured getting my etcd member ID from the etcd
+      cluster at endpoint ''${PEER_ENDPOINT%%}''\"\n    exit 1\n  fi\n  echo \"ETCD
+      member ID for existing ${MY_ETC_IDENTITY%%} is: ''${MY_EXISTING_ETCD_MEMBER_ID%%}''\"\n\n  echo
+      \"removing \"${MY_ETC_IDENTITY%%}\" from cluster\"\n  etcdctl --endpoints ${PEER_ENDPOINT%%}
+      member remove ${MY_EXISTING_ETCD_MEMBER_ID%%}\n  if [ $? -ne 0 ]; then\n    echo
+      \"a problem occured removing the etcd member ''${MY_ETC_IDENTITY%%}'' from the
+      etcd cluster\"\n    echo \"  via endpoint ''${PEER_ENDPOINT%%}'' existing ID:
+      ''${EXISTING_ETCD_MEMBER_ID%%}''\"\n    exit 1\n  fi\n  # a short sleep is needed
+      after a cluster config change\n  sleep 4\n  #\nfi\n\n#step 4 - get the arbiter
+      url from the peer to build the initical cluster string\ncnt=0\nwhile ! [[ $(echo
+      \"${arbiterUrl%%}\" | grep \":\") ]]; do\n  echo \"learn arbiter URL from endpoint
+      ${PEER_ENDPOINT%%}\"\n  cnt=$((cnt+1))\n  maxArbUrlRetries=5\n  arbiterUrl=$(etcdctl
+      --endpoints ${PEER_ENDPOINT%%} member list | grep etcd-arbiter | cut -d \",\"
+      -f 4)\n  if [ $? -eq 0 ]; then\n    echo \"arbiter URL read: ''${arbiterUrl%%}''\"\n  else\n    if
+      (( cnt \u003e maxArbUrlRetries )); then\n      echo \"failed to obtain the arbiter
+      URL from ${PEER_ENDPOINT%%}, got: ''${arbiterUrl%%}''. Attempted ${maxArbUrlRetries%%}
+      times\"\n      exit 1\n    fi\n    # a short sleep is needed after a cluster
+      config change (or attempt)\n    sleep 2\n  fi\ndone\necho \"arbiter URL read:
+      ''${arbiterUrl%%}''\"\n\n#step 5 - change the etcd server config file, setup
+      the initial-cluster-state to ''existing'' and the initial-cluster to include
+      what''s in the cluster already and this new member.\ncp /opt/mediakind/etcd/etcd.conf.yaml
+      /tmp/etcd.conf.yaml\nif [ $? -ne 0 ]; then\n  echo \"unable to copy /opt/mediakind/etcd/etcd.conf.yaml
+      to /tmp/etcd.conf.yaml\"\n  exit 1\nfi\nsed -i ''/initial-cluster-state:/c\\initial-cluster-state:
+      existing'' /tmp/etcd.conf.yaml\nif [ $? -ne 0 ]; then\n  echo \"unable to modify
+      file /tmp/etcd.conf.yaml\"\n  exit 1\nfi\nsed -i \"/initial-cluster:/c\\initial-cluster:
+      etcd-controller1=http://etcd-controller1-0:2380,etcd-controller2=http://etcd-controller2-0:2380,etcd-arbiter=${arbiterUrl%%}\"
+      /tmp/etcd.conf.yaml\nif [ $? -ne 0 ]; then\n  echo \"unable to modify file /tmp/etcd.conf.yaml\"\n  exit
+      1\nfi\ncp /tmp/etcd.conf.yaml /opt/mediakind/etcd/etcd.conf.yaml\nif [ $? -ne
+      0 ]; then\n    echo \"unable to copy /tmp/etcd.conf.yaml to /opt/mediakind/etcd/etcd.conf.yaml\"\n    exit
+      1\nfi\nchmod 644 /opt/mediakind/etcd/etcd.conf.yaml\nif [ $? -ne 0 ]; then\n    echo
+      \"unable to set permissions 644 on file /opt/mediakind/etcd/etcd.conf.yaml\"\n    exit
+      1\nfi\n# remove the temp file\nrm -f /tmp/etcd.conf.yaml\n\n#step 6 - add myself
+      as a new node\ncnt=0\nmaxMemberAddRetries=4\nwhile [[ \"${addedOk%%}\" != \"true\"
+      ]]; do\n  echo \"adding \"${MY_ETC_IDENTITY%%}\" to cluster\"\n  cnt=$((cnt+1))\n  etcdctl
+      --endpoints ${PEER_ENDPOINT%%} member add \"${MY_ETC_IDENTITY%%}\" --peer-urls=http://${MY_ETC_IDENTITY%%}:2380\n  if
+      [ $? -eq 0 ]; then\n      echo \"added ${MY_ETC_IDENTITY%%} to cluster - OK\"\n      touch
+      /var/mediakind/state/etcd/is-initialised/true\n      addedOk=true\n  else\n    if
+      (( cnt \u003e maxMemberAddRetries )); then\n      echo \"ERROR - failed to add
+      ''${MY_ETC_IDENTITY%%}'' to cluster via endpoint ''${PEER_ENDPOINT%%}'', tried
+      ${cnt%%} times\"\n      exit 1\n    fi\n    # a short sleep is needed after
+      a cluster config change (or attempt)\n    sleep 2\n  fi\ndone","delete-data-dir-contents.sh":"#!/bin/bash\nset
+      -e\nif [[ -f /var/mediakind/state/etcd/is-initialised/true ]]; then\n   echo
+      \"this an existing install, will not remove existing etcd data from this node\"\nelse\n  echo
+      \"this a fresh install, will remove any existing etcd data from this node\"\n  rm
+      -rf /bitnami/etcd/data\nfi\n"},"kind":"ConfigMap","metadata":{"annotations":{},"name":"etcd-init-operations","namespace":"mediakind"}}
+
+      '
+  creationTimestamp: '2023-12-14T06:57:09Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:add-member-arbiter.sh: {}
+        f:add-member-controller1-2.sh: {}
+        f:delete-data-dir-contents.sh: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:kubectl.kubernetes.io/last-applied-configuration: {}
+    manager: kubectl-client-side-apply
+    operation: Update
+    time: '2023-12-14T06:57:09Z'
+  name: etcd-init-operations
+  namespace: mediakind
+  resourceVersion: '1040'
+  uid: c0235ea8-8d98-4819-95ca-62bd59e55de6
+data:
+  add-member-arbiter.sh: "#!/bin/bash\nset +e\necho \"running init script 'add-member-arbiter.sh'\"\
+    \n\nif [[ -f /var/mediakind/state/etcd/is-initialised/true ]]; then\n  echo \"\
+    this is an existing install\"\n  rm -rf /bitnami/etcd/data\nelse\n  echo \"this\
+    \ is a fresh install - remove any existing instance of etcd-arbiter from cluster\"\
+    \nfi\n\n#step 1 - verify endpoints are healthy\ncnt=1\nclusterFound=\"unknown\"\
+    \nwhile [[ \"${clusterFound%%}\" != \"found\" ]]; do\n  echo \"checking for etcd\
+    \ cluster\"\n  if etcdctl --endpoints etcd-controller1-0:2379 member list; then\n\
+    \    clusterFound=\"found\"\n    echo \"etcd cluster found - this is good\"\n\
+    \    allNodesHeathy=\"unknown\"\n    while [[ \"${allNodesHeathy%%}\" != \"true\"\
+    \ ]]; do\n      echo \"$(etcdctl --endpoints etcd-controller1-0:2379 endpoint\
+    \ health)\" | grep \"is healthy\"\n      if [ $? -eq 0 ]; then\n        controller1Heathy=\"\
+    true\"\n      else\n        controller1Heathy=\"false\"\n      fi\n      echo\
+    \ \"$(etcdctl --endpoints etcd-controller2-0:2379 endpoint health)\" | grep \"\
+    is healthy\"\n      if [ $? -eq 0 ]; then\n        controller2Heathy=\"true\"\n\
+    \      else\n        controller2Heathy=\"false\"\n      fi\n      echo \"etcd\
+    \ endpoint etcd-controller1-0:2379 is healthy: ${controller1Heathy%%}\"\n    \
+    \  echo \"etcd endpoint etcd-controller2-0:2379 is healthy: ${controller2Heathy%%}\"\
+    \n      if [[ \"${controller1Heathy%%}\" == \"true\" ]] && [[ \"${controller2Heathy%%}\"\
+    \ == \"true\" ]]; then\n        allNodesHeathy=\"true\"\n        echo \"etcd cluster\
+    \ ready to be configured\"\n      else\n        allNodesHeathy=\"false\"\n   \
+    \     echo \"etcd cluster not yet ready to be configured, will retry\"\n     \
+    \   sleep 5\n      fi\n    done\n  else\n    echo \"no etcd cluster found will\
+    \ try again. This was attempt number: ${cnt%%}\"\n    cnt=$((cnt+1))\n  fi\n \
+    \ sleep 5\ndone\n\n#step 2 - check if etcd-arbiter is in cluster\nif etcdctl --endpoints\
+    \ etcd-controller1-0:2379 member list | grep etcd-arbiter; then\n    echo \"etcd-arbiter\
+    \ is present in the cluster\"\n    etcd_arbiter_in_cluster=\"true\"\n  else\n\
+    \    echo \"etcd-arbiter not in the cluster\"\n    etcd_arbiter_in_cluster=\"\
+    false\"\nfi\n\n#step 3 - remove etcd-arbiter from cluster\nif [[ \"${etcd_arbiter_in_cluster%%}\"\
+    \ == \"true\" ]]; then\n    echo \"$(etcdctl --endpoints etcd-controller1-0:2379\
+    \ member list)\"\n    ETCD_ARBITER_ID=$(etcdctl --endpoints etcd-controller1-0:2379\
+    \ member list | grep etcd-arbiter | cut -d \",\" -f 1)\n    echo \"ETCD_ARBITER_ID\
+    \ is: ${ETCD_ARBITER_ID%%}\"\n    etcdctl --endpoints etcd-controller1-0:2379\
+    \ member remove ${ETCD_ARBITER_ID%%}\n    sleep 5\nfi\n\n#step 4 - adding etcd-arbiter\
+    \ to cluster\n#check endpoint health before adding etcd-arbiter\nendpointHealthy=\"\
+    unknown\"\nwhile [[ \"${endpointHealthy%%}\" != \"true\" ]]; do\n  echo \"$(etcdctl\
+    \ --endpoints etcd-controller1-0:2379 endpoint health)\" | grep \"is healthy\"\
+    \n    if [ $? -eq 0 ]; then\n      endpointHealthy=\"true\"\n      sleep 3\n \
+    \   else\n      endpointHealthy=\"false\"\n      sleep 3\n    fi\ndone\n\ncnt=0\n\
+    maxMemberAddRetries=4\nwhile [[ \"${addedOk%%}\" != \"true\" ]]; do\n  cnt=$((cnt+1))\n\
+    \  etcdctl --endpoints etcd-controller1-0:2379 member add \"etcd-arbiter\" --peer-urls=http://:2380\n\
+    \  if [ $? -eq 0 ]; then\n    echo \"added etcd-arbiter to cluster - OK\"\n  \
+    \  touch /var/mediakind/state/etcd/is-initialised/true\n    addedOk=true\n  else\n\
+    \    if (( cnt > maxMemberAddRetries )); then\n      echo \"ERROR - failed to\
+    \ add etcd-arbiter to cluster via endpoint '${ETCD_CONTROLLER_1_ENDPOINT%%}',\
+    \ tried ${cnt%%} times\"\n      exit 1\n    fi\n    # a short sleep is needed\
+    \ after a cluster config change (or attempt)\n    sleep 2\n  fi\ndone\n"
+  add-member-controller1-2.sh: "#!/bin/bash\nset +e\necho \"running init script 'add-member-controller1-2.sh'\"\
+    \n# we start off knowing ETCD_CONTROLLER_1_ENDPOINT and ETCD_CONTROLLER_2_ENDPOINT\n\
+    if [[ ${MY_POD_NAME%%} == etcd-controller1-0 ]]; then\n  PEER_ENDPOINT=etcd-controller2-0:2379\n\
+    \  MY_ETC_IDENTITY=etcd-controller1-0\nelif [[ ${MY_POD_NAME%%} == etcd-controller2-0\
+    \ ]]; then\n  PEER_ENDPOINT=etcd-controller1-0:2379\n  MY_ETC_IDENTITY=etcd-controller2-0\n\
+    fi\n\n# if this is the first time this has been done then /var/mediakind/state/etcd/is-initialised/true\
+    \ will not exist\nif [[ -f /var/mediakind/state/etcd/is-initialised/true ]]; then\n\
+    \  echo \"this is an existing installation of etcd - will boot accordingly\"\n\
+    \  exit 0\nelse\n  echo \"this is a fresh install - remove any existing instance\
+    \ of ${MY_ETC_IDENTITY%%} from cluster\"\nfi\n\n#step 1 - check PEER_ENDPOINT\
+    \ health before continuing\nif echo \"$(etcdctl --endpoints ${PEER_ENDPOINT%%}\
+    \ endpoint health)\" | grep \"is healthy\"; then\n  echo \"etcd at endpoint: '${PEER_ENDPOINT%%}'\
+    \ is healthy - can proceed with cluster operation\"\nelse\n  # In case this is\
+    \ the first install, the peer won't be healthy\n  echo \"etcd at endpoint: '${PEER_ENDPOINT%%}'\
+    \ is unhealthy - can not proceed with cluster operation\"\n  echo \"Will try standard\
+    \ etcd boot\"\n  touch /var/mediakind/state/etcd/is-initialised/true\n  exit 1\n\
+    fi\n\n#step 2 - check if etcd instance is in the cluster\n# This is a one time\
+    \ check, if this is a re-install then the cluster may exist on the 'other node'\
+    \ so need to query it\necho \"checking for etcd instance: '${MY_ETC_IDENTITY%%}'\
+    \ at peer: '${PEER_ENDPOINT%%}'\"\nif echo \"$(etcdctl --endpoints ${PEER_ENDPOINT%%}\
+    \ member list)\" | grep \"${MY_ETC_IDENTITY%%}\"; then\n  member_instance_in_cluster=\"\
+    true\"\n  echo \"etcd instance found at peer: '${PEER_ENDPOINT%%}'\"\nelse\n \
+    \ member_instance_in_cluster=\"false\"\n  echo \"no etcd instance: '${MY_ETC_IDENTITY%%}'\
+    \ found at peer: '${PEER_ENDPOINT%%}'\"\nfi\n\n#step 3 - if member is already\
+    \ in the cluster, remove member from cluster\nif [[ \"${member_instance_in_cluster%%}\"\
+    \ == \"true\" ]]; then\n  MY_EXISTING_ETCD_MEMBER_ID=$(etcdctl --endpoints ${PEER_ENDPOINT%%}\
+    \ member list | grep ${MY_ETC_IDENTITY%%} | cut -d \",\" -f 1)\n  if [ $? -ne\
+    \ 0 ]; then\n    echo \"a problem occured getting my etcd member ID from the etcd\
+    \ cluster at endpoint '${PEER_ENDPOINT%%}'\"\n    exit 1\n  fi\n  echo \"ETCD\
+    \ member ID for existing ${MY_ETC_IDENTITY%%} is: '${MY_EXISTING_ETCD_MEMBER_ID%%}'\"\
+    \n\n  echo \"removing \"${MY_ETC_IDENTITY%%}\" from cluster\"\n  etcdctl --endpoints\
+    \ ${PEER_ENDPOINT%%} member remove ${MY_EXISTING_ETCD_MEMBER_ID%%}\n  if [ $?\
+    \ -ne 0 ]; then\n    echo \"a problem occured removing the etcd member '${MY_ETC_IDENTITY%%}'\
+    \ from the etcd cluster\"\n    echo \"  via endpoint '${PEER_ENDPOINT%%}' existing\
+    \ ID: '${EXISTING_ETCD_MEMBER_ID%%}'\"\n    exit 1\n  fi\n  # a short sleep is\
+    \ needed after a cluster config change\n  sleep 4\n  #\nfi\n\n#step 4 - get the\
+    \ arbiter url from the peer to build the initical cluster string\ncnt=0\nwhile\
+    \ ! [[ $(echo \"${arbiterUrl%%}\" | grep \":\") ]]; do\n  echo \"learn arbiter\
+    \ URL from endpoint ${PEER_ENDPOINT%%}\"\n  cnt=$((cnt+1))\n  maxArbUrlRetries=5\n\
+    \  arbiterUrl=$(etcdctl --endpoints ${PEER_ENDPOINT%%} member list | grep etcd-arbiter\
+    \ | cut -d \",\" -f 4)\n  if [ $? -eq 0 ]; then\n    echo \"arbiter URL read:\
+    \ '${arbiterUrl%%}'\"\n  else\n    if (( cnt > maxArbUrlRetries )); then\n   \
+    \   echo \"failed to obtain the arbiter URL from ${PEER_ENDPOINT%%}, got: '${arbiterUrl%%}'.\
+    \ Attempted ${maxArbUrlRetries%%} times\"\n      exit 1\n    fi\n    # a short\
+    \ sleep is needed after a cluster config change (or attempt)\n    sleep 2\n  fi\n\
+    done\necho \"arbiter URL read: '${arbiterUrl%%}'\"\n\n#step 5 - change the etcd\
+    \ server config file, setup the initial-cluster-state to 'existing' and the initial-cluster\
+    \ to include what's in the cluster already and this new member.\ncp /opt/mediakind/etcd/etcd.conf.yaml\
+    \ /tmp/etcd.conf.yaml\nif [ $? -ne 0 ]; then\n  echo \"unable to copy /opt/mediakind/etcd/etcd.conf.yaml\
+    \ to /tmp/etcd.conf.yaml\"\n  exit 1\nfi\nsed -i '/initial-cluster-state:/c\\\
+    initial-cluster-state: existing' /tmp/etcd.conf.yaml\nif [ $? -ne 0 ]; then\n\
+    \  echo \"unable to modify file /tmp/etcd.conf.yaml\"\n  exit 1\nfi\nsed -i \"\
+    /initial-cluster:/c\\initial-cluster: etcd-controller1=http://etcd-controller1-0:2380,etcd-controller2=http://etcd-controller2-0:2380,etcd-arbiter=${arbiterUrl%%}\"\
+    \ /tmp/etcd.conf.yaml\nif [ $? -ne 0 ]; then\n  echo \"unable to modify file /tmp/etcd.conf.yaml\"\
+    \n  exit 1\nfi\ncp /tmp/etcd.conf.yaml /opt/mediakind/etcd/etcd.conf.yaml\nif\
+    \ [ $? -ne 0 ]; then\n    echo \"unable to copy /tmp/etcd.conf.yaml to /opt/mediakind/etcd/etcd.conf.yaml\"\
+    \n    exit 1\nfi\nchmod 644 /opt/mediakind/etcd/etcd.conf.yaml\nif [ $? -ne 0\
+    \ ]; then\n    echo \"unable to set permissions 644 on file /opt/mediakind/etcd/etcd.conf.yaml\"\
+    \n    exit 1\nfi\n# remove the temp file\nrm -f /tmp/etcd.conf.yaml\n\n#step 6\
+    \ - add myself as a new node\ncnt=0\nmaxMemberAddRetries=4\nwhile [[ \"${addedOk%%}\"\
+    \ != \"true\" ]]; do\n  echo \"adding \"${MY_ETC_IDENTITY%%}\" to cluster\"\n\
+    \  cnt=$((cnt+1))\n  etcdctl --endpoints ${PEER_ENDPOINT%%} member add \"${MY_ETC_IDENTITY%%}\"\
+    \ --peer-urls=http://${MY_ETC_IDENTITY%%}:2380\n  if [ $? -eq 0 ]; then\n    \
+    \  echo \"added ${MY_ETC_IDENTITY%%} to cluster - OK\"\n      touch /var/mediakind/state/etcd/is-initialised/true\n\
+    \      addedOk=true\n  else\n    if (( cnt > maxMemberAddRetries )); then\n  \
+    \    echo \"ERROR - failed to add '${MY_ETC_IDENTITY%%}' to cluster via endpoint\
+    \ '${PEER_ENDPOINT%%}', tried ${cnt%%} times\"\n      exit 1\n    fi\n    # a\
+    \ short sleep is needed after a cluster config change (or attempt)\n    sleep\
+    \ 2\n  fi\ndone"
+  delete-data-dir-contents.sh: "#!/bin/bash\nset -e\nif [[ -f /var/mediakind/state/etcd/is-initialised/true\
+    \ ]]; then\n   echo \"this an existing install, will not remove existing etcd\
+    \ data from this node\"\nelse\n  echo \"this a fresh install, will remove any\
+    \ existing etcd data from this node\"\n  rm -rf /bitnami/etcd/data\nfi\n"
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: '{"apiVersion":"v1","data":{"add-member-arbiter.sh":"#!/bin/bash\nset
+      +e\necho \"running init script ''add-member-arbiter.sh''\"\n\nif [[ -f /var/mediakind/state/etcd/is-initialised/true
+      ]]; then\n  echo \"this is an existing install\"\n  rm -rf /bitnami/etcd/data\nelse\n  echo
+      \"this is a fresh install - remove any existing instance of etcd-arbiter from
+      cluster\"\nfi\n\n#step 1 - verify endpoints are healthy\ncnt=1\nclusterFound=\"unknown\"\nwhile
+      [[ \"${clusterFound%%}\" != \"found\" ]]; do\n  echo \"checking for etcd cluster\"\n  if
+      etcdctl --endpoints etcd-controller1-0:2379 member list; then\n    clusterFound=\"found\"\n    echo
+      \"etcd cluster found - this is good\"\n    allNodesHeathy=\"unknown\"\n    while
+      [[ \"${allNodesHeathy%%}\" != \"true\" ]]; do\n      echo \"$(etcdctl --endpoints
+      etcd-controller1-0:2379 endpoint health)\" | grep \"is healthy\"\n      if [
+      $? -eq 0 ]; then\n        controller1Heathy=\"true\"\n      else\n        controller1Heathy=\"false\"\n      fi\n      echo
+      \"$(etcdctl --endpoints etcd-controller2-0:2379 endpoint health)\" | grep \"is
+      healthy\"\n      if [ $? -eq 0 ]; then\n        controller2Heathy=\"true\"\n      else\n        controller2Heathy=\"false\"\n      fi\n      echo
+      \"etcd endpoint etcd-controller1-0:2379 is healthy: ${controller1Heathy%%}\"\n      echo
+      \"etcd endpoint etcd-controller2-0:2379 is healthy: ${controller2Heathy%%}\"\n      if
+      [[ \"${controller1Heathy%%}\" == \"true\" ]] \u0026\u0026 [[ \"${controller2Heathy%%}\"
+      == \"true\" ]]; then\n        allNodesHeathy=\"true\"\n        echo \"etcd cluster
+      ready to be configured\"\n      else\n        allNodesHeathy=\"false\"\n        echo
+      \"etcd cluster not yet ready to be configured, will retry\"\n        sleep 5\n      fi\n    done\n  else\n    echo
+      \"no etcd cluster found will try again. This was attempt number: ${cnt%%}\"\n    cnt=$((cnt+1))\n  fi\n  sleep
+      5\ndone\n\n#step 2 - check if etcd-arbiter is in cluster\nif etcdctl --endpoints
+      etcd-controller1-0:2379 member list | grep etcd-arbiter; then\n    echo \"etcd-arbiter
+      is present in the cluster\"\n    etcd_arbiter_in_cluster=\"true\"\n  else\n    echo
+      \"etcd-arbiter not in the cluster\"\n    etcd_arbiter_in_cluster=\"false\"\nfi\n\n#step
+      3 - remove etcd-arbiter from cluster\nif [[ \"${etcd_arbiter_in_cluster%%}\"
+      == \"true\" ]]; then\n    echo \"$(etcdctl --endpoints etcd-controller1-0:2379
+      member list)\"\n    ETCD_ARBITER_ID=$(etcdctl --endpoints etcd-controller1-0:2379
+      member list | grep etcd-arbiter | cut -d \",\" -f 1)\n    echo \"ETCD_ARBITER_ID
+      is: ${ETCD_ARBITER_ID%%}\"\n    etcdctl --endpoints etcd-controller1-0:2379
+      member remove ${ETCD_ARBITER_ID%%}\n    sleep 5\nfi\n\n#step 4 - adding etcd-arbiter
+      to cluster\n#check endpoint health before adding etcd-arbiter\nendpointHealthy=\"unknown\"\nwhile
+      [[ \"${endpointHealthy%%}\" != \"true\" ]]; do\n  echo \"$(etcdctl --endpoints
+      etcd-controller1-0:2379 endpoint health)\" | grep \"is healthy\"\n    if [ $?
+      -eq 0 ]; then\n      endpointHealthy=\"true\"\n      sleep 3\n    else\n      endpointHealthy=\"false\"\n      sleep
+      3\n    fi\ndone\n\ncnt=0\nmaxMemberAddRetries=4\nwhile [[ \"${addedOk%%}\" !=
+      \"true\" ]]; do\n  cnt=$((cnt+1))\n  etcdctl --endpoints etcd-controller1-0:2379
+      member add \"etcd-arbiter\" --peer-urls=http://:2380\n  if [ $? -eq 0 ]; then\n    echo
+      \"added etcd-arbiter to cluster - OK\"\n    touch /var/mediakind/state/etcd/is-initialised/true\n    addedOk=true\n  else\n    if
+      (( cnt \u003e maxMemberAddRetries )); then\n      echo \"ERROR - failed to add
+      etcd-arbiter to cluster via endpoint ''${ETCD_CONTROLLER_1_ENDPOINT%%}'', tried
+      ${cnt%%} times\"\n      exit 1\n    fi\n    # a short sleep is needed after
+      a cluster config change (or attempt)\n    sleep 2\n  fi\ndone\n","add-member-controller1-2.sh":"#!/bin/bash\nset
+      +e\necho \"running init script ''add-member-controller1-2.sh''\"\n# we start
+      off knowing ETCD_CONTROLLER_1_ENDPOINT and ETCD_CONTROLLER_2_ENDPOINT\nif [[
+      ${MY_POD_NAME%%} == etcd-controller1-0 ]]; then\n  PEER_ENDPOINT=etcd-controller2-0:2379\n  MY_ETC_IDENTITY=etcd-controller1-0\nelif
+      [[ ${MY_POD_NAME%%} == etcd-controller2-0 ]]; then\n  PEER_ENDPOINT=etcd-controller1-0:2379\n  MY_ETC_IDENTITY=etcd-controller2-0\nfi\n\n#
+      if this is the first time this has been done then /var/mediakind/state/etcd/is-initialised/true
+      will not exist\nif [[ -f /var/mediakind/state/etcd/is-initialised/true ]]; then\n  echo
+      \"this is an existing installation of etcd - will boot accordingly\"\n  exit
+      0\nelse\n  echo \"this is a fresh install - remove any existing instance of
+      ${MY_ETC_IDENTITY%%} from cluster\"\nfi\n\n#step 1 - check PEER_ENDPOINT health
+      before continuing\nif echo \"$(etcdctl --endpoints ${PEER_ENDPOINT%%} endpoint
+      health)\" | grep \"is healthy\"; then\n  echo \"etcd at endpoint: ''${PEER_ENDPOINT%%}''
+      is healthy - can proceed with cluster operation\"\nelse\n  # In case this is
+      the first install, the peer won''t be healthy\n  echo \"etcd at endpoint: ''${PEER_ENDPOINT%%}''
+      is unhealthy - can not proceed with cluster operation\"\n  echo \"Will try standard
+      etcd boot\"\n  touch /var/mediakind/state/etcd/is-initialised/true\n  exit 1\nfi\n\n#step
+      2 - check if etcd instance is in the cluster\n# This is a one time check, if
+      this is a re-install then the cluster may exist on the ''other node'' so ne

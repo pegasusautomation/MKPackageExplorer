@@ -1,0 +1,50 @@
+data:
+  create_users.sh: "#!/bin/bash\n# Chart should be configured to already have a root\
+    \ user with admin role\ncreate_user() {\n    local databse=$1\n    local role=$2\n\
+    \    local user=$3\n    local pass=$4\n    local url=\"mongodb://127.0.0.1:27017/${databse}?authSource=admin\"\
+    \n    mongo ${url} -u root -p ${MONGODB_ROOT_PASSWORD} \\\n        --disableImplicitSessions\
+    \ \\\n        --eval \"db.createUser({user: '${user}', pwd: '${pass}', roles:\
+    \ [{role: '${role}', db: '${databse}'}]}, {w: 1, wtimeout: 5000})\" || true\n\
+    }\nif [[ \"${MONGODB_ADVERTISED_HOSTNAME}\" == \"${MONGODB_MK_PRIMARY_HOST}\"\
+    \ ]]; then\n  create_user admin               root      MediaKind Med/aK1nd\n\
+    \  create_user envivioCluster      readWrite MediaKind Med/aK1nd\n  create_user\
+    \ alarm               readWrite MediaKind Med/aK1nd\n  create_user mediakindMongolock\
+    \  readWrite MediaKind Med/aK1nd\n  create_user admin               read     \
+    \ keepalived keepalived\nfi\nexit\n"
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mk-deps
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T06:57:18Z'
+  labels:
+    app.kubernetes.io/component: mongodb
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: mongodb
+    helm.sh/chart: mongodb-10.23.2-replicasetconfigurationsettings2
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:create_users.sh: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T06:57:18Z'
+  name: mongodb-replicaset-controller1-init-scripts
+  namespace: mediakind
+  resourceVersion: '1085'
+  uid: 0863a39f-93d3-42d8-b279-356ba820769b

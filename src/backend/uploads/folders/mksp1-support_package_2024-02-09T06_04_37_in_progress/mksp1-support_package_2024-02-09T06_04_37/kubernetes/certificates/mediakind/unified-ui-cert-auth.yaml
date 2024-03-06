@@ -1,0 +1,95 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:18Z'
+  generation: 1
+  labels:
+    app.kubernetes.io/component: api-gateway
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: api-gateway
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.29.21
+    helm.sh/chart: api-gateway-1.29.21
+  managedFields:
+  - apiVersion: cert-manager.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:spec:
+        .: {}
+        f:commonName: {}
+        f:dnsNames: {}
+        f:issuerRef:
+          .: {}
+          f:kind: {}
+          f:name: {}
+        f:secretName: {}
+        f:subject:
+          .: {}
+          f:organizations: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  - apiVersion: cert-manager.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:revision: {}
+    manager: controller
+    operation: Update
+    time: '2023-12-14T10:09:18Z'
+  - apiVersion: cert-manager.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:conditions: {}
+        f:notAfter: {}
+        f:notBefore: {}
+        f:renewalTime: {}
+    manager: controller
+    operation: Update
+    time: '2023-12-14T10:09:18Z'
+  name: unified-ui-cert-auth
+  namespace: mediakind
+  resourceVersion: '19066'
+  uid: b340707d-65ca-4893-bba5-fffb070e123a
+spec:
+  commonName: example.com
+  dnsNames:
+  - example.com
+  issuerRef:
+    kind: Issuer
+    name: issuer
+  secretName: unified-ui-cert-auth
+  subject:
+    organizations:
+    - example
+status:
+  conditions:
+  - lastTransitionTime: '2023-12-14T10:09:18Z'
+    message: Certificate is up to date and has not expired
+    observedGeneration: 1
+    reason: Ready
+    status: 'True'
+    type: Ready
+  notAfter: '2024-03-13T10:09:18Z'
+  notBefore: '2023-12-14T10:09:18Z'
+  renewalTime: '2024-02-12T10:09:18Z'
+  revision: 1

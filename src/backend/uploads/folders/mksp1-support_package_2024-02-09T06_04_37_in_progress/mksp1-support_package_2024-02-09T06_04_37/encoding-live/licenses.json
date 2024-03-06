@@ -1,0 +1,194 @@
+[
+    {
+        "code": "FAT1023941/4",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "SRT_TX_RX",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "FAT1023975/1",
+        "count": 375,
+        "expiry": 1712188799,
+        "feature": "MFSms_Video_Processing",
+        "is_additive": "Aggregate",
+        "usage": 15
+    },
+    {
+        "code": "SWF1030001-1",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_SD_Channel",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-10",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_CVQ",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-12",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_UP_preset",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-13",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_UP_+_preset",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-15",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_1080p50/60_encoding",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-16",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_Multicast_guard_protocol",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-17",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_Direct_path",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-2",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_HD_Channel",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-20",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_Statmux",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-21",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_HEVC_encoding",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-4",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_SMPTE_ST2022-6_ingest",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-5",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_SMPTE_ST2110_ingest",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-6",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_Nielsen_support",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-7",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_Ad_Smart_support",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-8",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_Parental_control_(ID3)",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030001-9",
+        "count": 15,
+        "expiry": 1712188799,
+        "feature": "MFEL_Media_composing",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030003-4",
+        "count": 375,
+        "expiry": 1712188799,
+        "feature": "MUX_ProMPEG_FEC",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030003-5",
+        "count": 375,
+        "expiry": 1712188799,
+        "feature": "MUX_Dynamic_Input_Tracking",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030003-6",
+        "count": 375,
+        "expiry": 1712188799,
+        "feature": "MUX_CA",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030003-7",
+        "count": 375,
+        "expiry": 1712188799,
+        "feature": "MUX_BISS_2_Fixed_Key",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030003-8",
+        "count": 375,
+        "expiry": 1712188799,
+        "feature": "MUX_PSI/SI_Injection",
+        "is_additive": "Aggregate",
+        "usage": 0
+    },
+    {
+        "code": "SWF1030003-9",
+        "count": 375,
+        "expiry": 1712188799,
+        "feature": "MUX_Bandwidth_Policing",
+        "is_additive": "Aggregate",
+        "usage": 0
+    }
+]

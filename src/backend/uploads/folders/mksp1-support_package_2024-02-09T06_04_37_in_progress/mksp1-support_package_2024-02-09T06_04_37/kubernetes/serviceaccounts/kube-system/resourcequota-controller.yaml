@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:11Z'
+  name: resourcequota-controller
+  namespace: kube-system
+  resourceVersion: '240'
+  uid: 8b146fe7-74e0-4dfa-9984-eb283d7a38b7
+secrets:
+- name: resourcequota-controller-token-4cxr5

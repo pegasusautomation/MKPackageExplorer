@@ -1,0 +1,75 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.163
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: stream-processor-ui-connector-86df9cfbd7-w6bd9
+    namespace: mediakind
+    resourceVersion: '8614917'
+    uid: 5911834d-af80-48f2-9432-c73a04feab58
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:24Z'
+  creationTimestamp: '2023-12-14T10:42:08Z'
+  generateName: stream-processor-ui-connector-
+  generation: 16
+  labels:
+    app.kubernetes.io/component: stream-processor-ui-connector
+    app.kubernetes.io/instance: mksp
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: stream-processor-ui-connector
+    app.kubernetes.io/part-of: mksp
+    app.kubernetes.io/version: 20.0.3-29
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: stream-processor-ui-connector-20.0.3-29
+    kubernetes.io/service-name: stream-processor-ui-connector
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"7a086e36-4909-46ef-a6ef-bdc8206d3aea"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:42:18Z'
+  name: stream-processor-ui-connector-lcq87
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: stream-processor-ui-connector
+    uid: 7a086e36-4909-46ef-a6ef-bdc8206d3aea
+  resourceVersion: '8614919'
+  uid: 75dc9d86-b2c5-4d30-9d16-170a17299544
+ports:
+- name: http
+  port: 5050
+  protocol: TCP

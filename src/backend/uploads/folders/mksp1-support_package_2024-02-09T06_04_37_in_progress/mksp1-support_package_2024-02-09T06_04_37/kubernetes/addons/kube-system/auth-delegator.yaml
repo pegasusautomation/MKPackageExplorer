@@ -1,0 +1,31 @@
+apiVersion: k3s.cattle.io/v1
+kind: Addon
+metadata:
+  creationTimestamp: '2023-12-14T06:48:12Z'
+  generation: 2
+  managedFields:
+  - apiVersion: k3s.cattle.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:spec:
+        .: {}
+        f:checksum: {}
+        f:source: {}
+      f:status:
+        .: {}
+        f:gvks: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:12Z'
+  name: auth-delegator
+  namespace: kube-system
+  resourceVersion: '307'
+  uid: cffd6707-8fc1-4cdb-86c2-4431adbe1e2e
+spec:
+  checksum: f55fee16219349d1d803b7025f9fde2b6fca741e3900bfedcf64f34dc1c23786
+  source: /var/lib/rancher/k3s/server/manifests/metrics-server/auth-delegator.yaml
+status:
+  gvks:
+  - Group: rbac.authorization.k8s.io
+    Kind: ClusterRoleBinding
+    Version: v1

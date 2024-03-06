@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:12Z'
+  name: generic-garbage-collector
+  namespace: kube-system
+  resourceVersion: '253'
+  uid: b6b68d02-8a02-4152-80de-7d25755a81a3
+secrets:
+- name: generic-garbage-collector-token-rn8hz

@@ -1,0 +1,97 @@
+data:
+  esam-proxy.ini: '[server]
+
+    host=0.0.0.0
+
+    port=8010
+
+
+    [api]
+
+    interface_discovery_url=http://interface-discovery:8200/api/discoveries
+
+
+    [poll_intervals]
+
+    interface_discovery=10
+
+
+    [timeouts]
+
+    get_interfaces=10
+
+    post_to_worker=1
+
+
+    [messaging]
+
+    server_url=amqp://guest:guest@rabbitmq-ha:5672/?heartbeat=30
+
+    exchange=mfvp.interface_discoveries
+
+    routing_key=notif.interface_discoveries.updated
+
+    connection_retry=1
+
+    '
+  logging.json: "{\n    \"version\": 1,\n    \"disable_existing_loggers\": true,\n\
+    \    \"formatters\": {\n        \"standard\": {\n            \"()\": \"mediakind.common.logging.LogFormatter\"\
+    ,\n            \"fmt\": \"%(asctime)s [%(levelname)s] %(name)s: %(message)s\"\n\
+    \        },\n        \"cee\": {\n            \"()\": \"ericsson.loggers.formatters.CeeFormatter\"\
+    ,\n            \"preset\": \"mediakind\",\n            \"fields\": {\n       \
+    \         \"time\": \"asctime\",\n                \"msg\": \"msg\",\n        \
+    \        \"pid\": \"process\",\n                \"tid\": \"thread\",\n       \
+    \         \"pri\": \"levelname\",\n                \"tname\": \"threadName\",\n\
+    \                \"file.name\": \"filename\",\n                \"file.line\":\
+    \ \"lineno\",\n                \"mixin.field\": \"extra1\",\n                \"\
+    microservice\": \"esam-proxy\",\n                \"host\": \"host\"\n        \
+    \    },\n            \"exclude\": [ \"extra2\" ]\n        }\n    },\n    \"filters\"\
+    : {\n        \"probe\": {\n            \"()\": \"mediakind.common.logging.ProbeFilter\"\
+    \n        }\n    },\n    \"handlers\": {\n        \"console\": {\n           \
+    \ \"class\": \"logging.StreamHandler\",\n            \"formatter\": \"cee\",\n\
+    \            \"filters\": [\"probe\"],\n            \"stream\": \"ext://sys.stdout\"\
+    \n        }\n    },\n    \"loggers\": {\n        \"\": {\n            \"handlers\"\
+    : [ \"console\" ],\n            \"level\": \"INFO\"\n        },\n        \"ericsson\"\
+    : {\n            \"level\": \"INFO\"\n        }\n    }\n}\n"
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: esam-proxy
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: esam-proxy
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.68.2
+    helm.sh/chart: esam-proxy-0.68.2
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:esam-proxy.ini: {}
+        f:logging.json: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  name: esam-proxy-config
+  namespace: mediakind
+  resourceVersion: '18819'
+  uid: 68cd8167-2ba5-46ff-8a86-160c9a092f4c

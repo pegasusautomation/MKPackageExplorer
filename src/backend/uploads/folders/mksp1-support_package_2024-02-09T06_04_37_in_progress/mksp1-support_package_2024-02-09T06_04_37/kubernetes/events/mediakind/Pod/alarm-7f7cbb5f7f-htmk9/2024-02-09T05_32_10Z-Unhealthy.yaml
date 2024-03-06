@@ -1,0 +1,44 @@
+count: 1
+eventTime: null
+firstTimestamp: '2024-02-09T05:32:10Z'
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{alarm-api}
+  kind: Pod
+  name: alarm-7f7cbb5f7f-htmk9
+  namespace: mediakind
+  resourceVersion: '8581933'
+  uid: 7010820a-858d-4933-b400-667b6585017b
+lastTimestamp: '2024-02-09T05:32:10Z'
+message: 'Readiness probe failed: Get "http://10.42.0.157:8099/api/readiness": dial
+  tcp 10.42.0.157:8099: i/o timeout (Client.Timeout exceeded while awaiting headers)'
+metadata:
+  creationTimestamp: '2024-02-09T05:32:10Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+        f:host: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-09T05:32:10Z'
+  name: alarm-7f7cbb5f7f-htmk9.17b21ad9a1dbb60f
+  namespace: mediakind
+  resourceVersion: '9040066'
+  uid: b7baab65-987b-484f-bade-946c7e8c3155
+reason: Unhealthy
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: kubelet
+  host: mediakind-k3s
+type: Warning

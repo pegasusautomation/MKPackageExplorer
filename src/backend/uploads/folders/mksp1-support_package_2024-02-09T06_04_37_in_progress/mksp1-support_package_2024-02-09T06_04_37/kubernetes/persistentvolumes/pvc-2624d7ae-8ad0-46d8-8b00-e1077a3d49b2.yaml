@@ -1,0 +1,73 @@
+metadata:
+  annotations:
+    pv.kubernetes.io/provisioned-by: rancher.io/local-path
+  creationTimestamp: '2023-12-14T09:45:56Z'
+  finalizers:
+  - kubernetes.io/pv-protection
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:phase: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2023-12-14T09:45:56Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:pv.kubernetes.io/provisioned-by: {}
+      f:spec:
+        f:accessModes: {}
+        f:capacity:
+          .: {}
+          f:storage: {}
+        f:claimRef: {}
+        f:hostPath:
+          .: {}
+          f:path: {}
+          f:type: {}
+        f:nodeAffinity:
+          .: {}
+          f:required: {}
+        f:persistentVolumeReclaimPolicy: {}
+        f:storageClassName: {}
+        f:volumeMode: {}
+    manager: local-path-provisioner
+    operation: Update
+    time: '2023-12-14T09:45:56Z'
+  name: pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2
+  resourceVersion: '16557'
+  uid: 6a01b783-3205-49c8-aad2-2745c3f32b99
+spec:
+  accessModes:
+  - ReadWriteOnce
+  capacity:
+    storage: 1Gi
+  claimRef:
+    apiVersion: v1
+    kind: PersistentVolumeClaim
+    name: data-etcd-controller1-0
+    namespace: mediakind
+    resourceVersion: '16537'
+    uid: 2624d7ae-8ad0-46d8-8b00-e1077a3d49b2
+  hostPath:
+    path: /var/lib/rancher/k3s/storage/pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2_mediakind_data-etcd-controller1-0
+    type: DirectoryOrCreate
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+      - matchExpressions:
+        - key: kubernetes.io/hostname
+          operator: In
+          values:
+          - mediakind-k3s
+  persistentVolumeReclaimPolicy: Delete
+  storageClassName: local-path
+  volumeMode: Filesystem
+status:
+  phase: Bound

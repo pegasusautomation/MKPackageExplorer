@@ -1,0 +1,75 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.157
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: alarm-7f7cbb5f7f-htmk9
+    namespace: mediakind
+    resourceVersion: '8615217'
+    uid: 7010820a-858d-4933-b400-667b6585017b
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:29:09Z'
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generateName: alarm-
+  generation: 30
+  labels:
+    app.kubernetes.io/component: alarm
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: alarm
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.103.5
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: alarm-1.103.5
+    kubernetes.io/service-name: alarm
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"84e72b27-6ff4-404b-bd37-7ce4bcc13622"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T08:37:00Z'
+  name: alarm-wcnnm
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: alarm
+    uid: 84e72b27-6ff4-404b-bd37-7ce4bcc13622
+  resourceVersion: '8615219'
+  uid: 6ca25062-9cd1-4c0d-8014-4d445631a939
+ports:
+- name: restapi
+  port: 8099
+  protocol: TCP

@@ -1,0 +1,11 @@
+10:51:13,274 INF librepo: Librepo version: 1.14.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1k zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+10:51:13,284 INF librepo: Librepo version: 1.14.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1k zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+10:51:21,307 INF librepo: Librepo version: 1.14.0 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.61.1 OpenSSL/1.1.1k zlib/1.2.11 brotli/1.0.6 libidn2/2.2.0 libpsl/0.20.2 (+libidn2/2.2.0) libssh/0.9.4/openssl/zlib nghttp2/1.33.0)
+10:51:21,316 INF librepo: Downloading: file:///run/install/sources/mount-0001-hdd-iso/Minimal/repodata/repomd.xml
+10:51:21,614 INF librepo: Downloading: file:///run/install/sources/mount-0001-hdd-iso/Minimal/repodata/1cb61ea996355add02b1426ed4c1780ea75ce0c04c5d1107c025c3fbd7d8bcae-primary.xml.gz
+10:51:21,614 INF librepo: Downloading: file:///run/install/sources/mount-0001-hdd-iso/Minimal/repodata/95a4415d859d7120efb6b3cf964c07bebbff9a5275ca673e6e74a97bcbfb2a5f-filelists.xml.gz
+10:51:21,614 INF librepo: Downloading: file:///run/install/sources/mount-0001-hdd-iso/Minimal/repodata/2b13cd3f9d81647fd31aa16de1b16b582efd9566f8c4334e4561a030f3777c37-comps-Minimal.x86_64.xml
+10:51:21,663 INF librepo: Downloading: file:///run/install/sources/mount-0001-hdd-iso/BaseOS/repodata/repomd.xml
+10:51:21,717 INF librepo: Downloading: file:///run/install/sources/mount-0001-hdd-iso/BaseOS/repodata/82d4e129d6fe6494d0737c8c2af6735ee349c08421b23dafea74ecb6a9096a0c-primary.xml.gz
+10:51:21,717 INF librepo: Downloading: file:///run/install/sources/mount-0001-hdd-iso/BaseOS/repodata/ed9f583e394da215315421b975cca075e884468c47d6a62560ba35325baa0c98-filelists.xml.gz
+10:51:21,718 INF librepo: Downloading: file:///run/install/sources/mount-0001-hdd-iso/BaseOS/repodata/6237c2f7ea0a6a89fbe6c3d130715485c2aa5824c5427213f91a35c01053eb3d-groups.xml.gz

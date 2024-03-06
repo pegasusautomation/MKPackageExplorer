@@ -1,0 +1,180 @@
+10:51:00,324 INF program: Running... losetup --list
+10:51:00,403 INF program: Running... /sbin/auditd
+10:51:00,408 DBG program: Return code: 0
+10:51:00,409 INF program: Running... dbus-daemon --print-address --syslog --config-file=/usr/share/anaconda/dbus/anaconda-bus.conf
+10:51:05,643 INF program: Running... /bin/sh /tmp/ks-script-wj38r2ds
+10:51:05,655 INF program: 
+10:51:05,655 INF program: Installing MediaKind AlmaLinux 8.5 - installer version 1.2.4
+10:51:05,655 INF program: 
+10:51:05,655 INF program: Wed Dec 13 10:51:05 UTC 2023
+10:51:05,655 INF program: 
+10:51:05,655 DBG program: Return code: 0
+10:51:05,655 INF program: Running... /bin/sh /tmp/ks-script-hirfh22i
+10:51:10,773 INF program: ----------------------------------------------------------------------------
+10:51:10,774 INF program: Choosing partition sizes...
+10:51:10,774 INF program: ----------------------------------------------------------------------------
+10:51:10,774 INF program: Existing state of /dev/disk/by-path/pci-0000:00:17.0-ata-1 :
+10:51:10,774 INF program: Model: ATA LITEON CV1-8B128 (scsi)
+10:51:10,774 INF program: Disk /dev/sda: 128GB
+10:51:10,774 INF program: Sector size (logical/physical): 512B/512B
+10:51:10,774 INF program: Partition Table: gpt
+10:51:10,774 INF program: Disk Flags:
+10:51:10,774 INF program: 
+10:51:10,774 INF program: Number  Start   End     Size    File system  Name                  Flags
+10:51:10,774 INF program: 1      1049kB  538MB   537MB   fat32        EFI System Partition  boot, esp
+10:51:10,774 INF program: 2      538MB   1075MB  537MB   ext4
+10:51:10,774 INF program: 3      1075MB  102GB   101GB                                      lvm
+10:51:10,775 INF program: 4      104GB   128GB   24.4GB  ext4         primary
+10:51:10,775 INF program: 
+10:51:10,775 INF program: Intended partitioning of /dev/disk/by-path/pci-0000:00:17.0-ata-1 : 122104 MiB
+10:51:10,775 INF program: /boot[/efi] =      512 MiB each
+10:51:10,775 INF program: BACKUP      =    24420 MiB
+10:51:10,775 INF program: VOLUMES     =    96660 MiB total:
+10:51:10,775 INF program: /      =     9566 MiB      /var     =    28698 MiB
+10:51:10,775 INF program: /home  =     9566 MiB      /var/log =    28698 MiB
+10:51:10,775 INF program: SWAP   =        0 MiB      /tmp     =    19132 MiB
+10:51:10,775 INF program: Automated mode - accept default partitioning.
+10:51:10,775 INF program: UEFI boot - separate /boot/efi partition.
+10:51:10,775 INF program: 
+10:51:10,775 INF program: 
+10:51:10,775 INF program: 
+10:51:10,775 INF program: Partitions selected for UEFI boot:
+10:51:10,775 INF program: 
+10:51:10,776 INF program: 
+10:51:10,776 INF program: #System bootloader configuration
+10:51:10,776 INF program: bootloader --location=mbr --boot-drive=/dev/disk/by-path/pci-0000:00:17.0-ata-1 --driveorder=/dev/disk/by-path/pci-0000:00:17.0-ata-1 --append="crashkernel=auto rhgb quiet"
+10:51:10,776 INF program: 
+10:51:10,776 INF program: #Delete everything on disk
+10:51:10,776 INF program: clearpart --all --initlabel --disklabel=gpt --drives=/dev/disk/by-path/pci-0000:00:17.0-ata-1
+10:51:10,776 INF program: zerombr
+10:51:10,776 INF program: 
+10:51:10,776 INF program: # only use the first disk
+10:51:10,776 INF program: ignoredisk --only-use=/dev/disk/by-path/pci-0000:00:17.0-ata-1
+10:51:10,776 INF program: 
+10:51:10,776 INF program: part     /boot     --fstype=ext4   --size=512
+10:51:10,776 INF program: part     /boot/efi --fstype=vfat   --size=512
+10:51:10,776 INF program: part     pv.01 	   --grow          --size=1        --maxsize=96660
+10:51:10,776 INF program: volgroup vg_main   pv.01
+10:51:10,776 INF program: logvol /       --fstype=ext4   --name=lv_root  --vgname=vg_main --size=9566
+10:51:10,776 INF program: logvol /home   --fstype=ext4   --name=lv_home  --vgname=vg_main --size=9566
+10:51:10,777 INF program: logvol /var    --fstype=ext4   --name=lv_var   --vgname=vg_main --size=28698
+10:51:10,777 INF program: logvol /var/log       --fstype=ext4 --name=lv_var_log       --vgname=vg_main --size=28698
+10:51:10,777 INF program: logvol /tmp           --fstype=ext4 --name=lv_tmp     --vgname=vg_main --size=19132
+10:51:10,777 DBG program: Return code: 0
+10:51:14,339 INF program: Running... losetup --list
+10:51:14,352 INF program: Running... udevadm settle --timeout=300
+10:51:14,363 DBG program: Return code: 0
+10:51:14,392 INF program: Running [1] mkdosfs --help ...
+10:51:14,395 INF program: stdout[1]: mkfs.fat 4.1 (2017-01-24)
+
+10:51:14,395 INF program: stderr[1]: Usage: mkfs.fat [-a][-A][-c][-C][-v][-I][-l bad-block-file][-b backup-boot-sector]
+       [-m boot-msg-file][-n volume-name][-i volume-id]
+       [-s sectors-per-cluster][-S logical-sector-size][-f number-of-FATs]
+       [-h hidden-sectors][-F fat-size][-r root-dir-entries][-R reserved-sectors]
+       [-M FAT-media-byte][-D drive_number]
+       [--invariant]
+       [--help]
+       /dev/name [blocks]
+
+10:51:14,395 INF program: ...done [1] (exit code: 0)
+10:51:14,407 INF program: Running [2] lvm version ...
+10:51:14,411 INF program: stdout[2]:   LVM version:     2.03.12(2)-RHEL8 (2021-05-19)
+  Library version: 1.02.177-RHEL8 (2021-05-19)
+  Driver version:  4.43.0
+  Configuration:   ./configure --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --program-prefix= --disable-dependency-tracking --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --sysconfdir=/etc --datadir=/usr/share --includedir=/usr/include --libdir=/usr/lib64 --libexecdir=/usr/libexec --localstatedir=/var --sharedstatedir=/var/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-default-dm-run-dir=/run --with-default-run-dir=/run/lvm --with-default-pid-dir=/run --with-default-locking-dir=/run/lock/lvm --with-usrlibdir=/usr/lib64 --enable-fsadm --enable-write_install --with-user= --with-group= --with-device-uid=0 --with-device-gid=6 --with-device-mode=0660 --enable-pkgconfig --enable-cmdlib --enable-dmeventd --enable-blkid_wiping --with-cluster=internal --enable-cmirrord --with-udevdir=/usr/lib/udev/rules.d --enable-udev_sync --with-thin=internal --with-cache=internal --enable-lvmpolld --enable-lvmlockd-dlm --enable-lvmlockd-dlmcontrol --enable-lvmlockd-sanlock --enable-dbus-service --enable-notify-dbus --enable-dmfilemapd --with-writecache=internal --with-vdo=internal --with-vdo-format=/usr/bin/vdoformat --with-integrity=internal --disable-silent-rules
+
+10:51:14,411 INF program: stderr[2]: 
+10:51:14,411 INF program: ...done [2] (exit code: 0)
+10:51:14,432 INF program: Running... udevadm settle --timeout=300
+10:51:14,443 DBG program: Return code: 0
+10:51:14,466 INF program: Running... hwclock --hctosys --utc
+10:51:14,482 INF program: Running... systemctl start chronyd
+10:51:14,706 DBG program: Return code: 0
+10:51:15,000 DBG program: Return code: 0
+10:51:22,659 INF program: Running... df --output=target,avail
+10:51:22,669 INF program: Mounted on                                Avail
+10:51:22,670 INF program: /dev                                    8116028
+10:51:22,670 INF program: /dev/shm                                8158384
+10:51:22,670 INF program: /run                                    8132940
+10:51:22,670 INF program: /sys/fs/cgroup                          8158396
+10:51:22,670 INF program: /run/install/repo                             0
+10:51:22,670 INF program: /                                        818236
+10:51:22,670 INF program: /tmp                                    8154376
+10:51:22,670 INF program: /run/install/sources/mount-0001-hdd-iso       0
+10:51:22,670 DBG program: Return code: 0
+10:51:22,774 INF program: Running... hwclock --systohc --utc
+10:51:23,500 DBG program: Return code: 0
+10:51:43,615 INF program: Running... systemd-detect-virt
+10:51:43,691 INF program: none
+10:51:43,691 DBG program: Return code: 1
+10:51:43,977 INF program: Running... df --output=target,avail
+10:51:43,986 INF program: Mounted on                                 Avail
+10:51:43,987 INF program: /dev                                     8116028
+10:51:43,987 INF program: /dev/shm                                 8158384
+10:51:43,987 INF program: /run                                     8132932
+10:51:43,987 INF program: /sys/fs/cgroup                           8158396
+10:51:43,987 INF program: /run/install/repo                              0
+10:51:43,987 INF program: /                                         818124
+10:51:43,987 INF program: /tmp                                     8151692
+10:51:43,987 INF program: /run/install/sources/mount-0001-hdd-iso        0
+10:51:43,987 INF program: /mnt/sysroot                             9034892
+10:51:43,987 INF program: /mnt/sysroot/boot                         462176
+10:51:43,987 INF program: /mnt/sysroot/boot/efi                     523244
+10:51:43,987 INF program: /mnt/sysroot/dev/shm                     8158396
+10:51:43,987 INF program: /mnt/sysroot/home                        9034936
+10:51:43,987 INF program: /mnt/sysroot/tmp                        18111100
+10:51:43,987 INF program: /mnt/sysroot/var                        27264744
+10:51:43,988 INF program: /mnt/sysroot/var/log                    27264904
+10:51:43,988 DBG program: Return code: 0
+10:51:44,020 INF program: Running... df --output=target,avail
+10:51:44,024 INF program: Mounted on                                 Avail
+10:51:44,024 INF program: /dev                                     8116028
+10:51:44,025 INF program: /dev/shm                                 8158384
+10:51:44,025 INF program: /run                                     8132932
+10:51:44,025 INF program: /sys/fs/cgroup                           8158396
+10:51:44,025 INF program: /run/install/repo                              0
+10:51:44,025 INF program: /                                         818124
+10:51:44,025 INF program: /tmp                                     8151684
+10:51:44,025 INF program: /run/install/sources/mount-0001-hdd-iso        0
+10:51:44,025 INF program: /mnt/sysroot                             9034892
+10:51:44,025 INF program: /mnt/sysroot/boot                         462176
+10:51:44,025 INF program: /mnt/sysroot/boot/efi                     523244
+10:51:44,025 INF program: /mnt/sysroot/dev/shm                     8158396
+10:51:44,025 INF program: /mnt/sysroot/home                        9034936
+10:51:44,025 INF program: /mnt/sysroot/tmp                        18111100
+10:51:44,025 INF program: /mnt/sysroot/var                        27264744
+10:51:44,026 INF program: /mnt/sysroot/var/log                    27264904
+10:51:44,026 DBG program: Return code: 0
+10:58:28,930 INF program: Running in chroot '/mnt/sysroot'... systemctl enable kdump.service
+10:58:28,937 DBG program: Return code: 0
+10:58:29,055 INF program: Running in chroot '/mnt/sysroot'... depmod -a 4.18.0-348.el8.x86_64
+10:58:34,863 DBG program: Return code: 0
+10:58:34,863 INF program: Running in chroot '/mnt/sysroot'... dracut -f /boot/initramfs-4.18.0-348.el8.x86_64.img 4.18.0-348.el8.x86_64
+10:58:46,530 DBG program: Return code: 0
+10:58:46,567 INF program: Running... /bin/sh /tmp/ks-script-5ri1oitl
+10:58:47,359 INF program: Loading custom installation media
+10:58:47,359 DBG program: Return code: 0
+10:58:47,359 INF program: Running in chroot '/mnt/sysroot'... /bin/sh /tmp/ks-script-hfek_x1g
+10:58:48,038 INF program: Installing extra tools
+10:58:48,039 INF program: warning: /root/MediaKind/RPM/boost-date-time-1.66.0-10.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID c21ad6ea: NOKEY
+10:58:48,039 INF program: warning: /root/MediaKind/RPM/ntfs-3g-libs-2021.8.22-2.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 2f86d6a1: NOKEY
+10:58:48,039 INF program: Creating /var/log/journal to enable persistent logs
+10:58:48,039 INF program: Cleaning third-party yum repositories
+10:58:48,039 INF program: 0 files removed
+10:58:48,039 INF program: Disabling third-party yum repositories
+10:58:48,039 INF program: Enabling all network interfaces on boot
+10:58:48,039 DBG program: Return code: 0
+10:58:48,039 INF program: Running... /bin/sh /tmp/ks-script-uwxapfpt
+10:59:02,610 INF program: Configuring backup service - see 'system.backup --help'
+10:59:02,610 INF program: Setup restore boot...
+10:59:02,610 INF program: warning: /mnt/sysroot/root/MediaKind/RPM/partclone-0.3.18-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 2f86d6a1: NOKEY
+10:59:02,610 INF program: Backup will skip the following partitions:
+10:59:02,610 INF program: tmp
+10:59:02,610 INF program: var_log
+10:59:02,610 INF program: Backup menu will require removal of an old copy beyond the maximum of  1
+10:59:02,610 DBG program: Return code: 0
+10:59:02,611 INF program: Running in chroot '/mnt/sysroot'... /bin/sh /tmp/ks-script-85d5lbfo
+10:59:03,906 DBG program: Return code: 0
+10:59:03,906 INF program: Running... /bin/sh /tmp/ks-script-rztmbpbh
+10:59:03,910 DBG program: Return code: 0
+10:59:03,911 INF program: Running... /bin/sh /tmp/ks-script-445v3w9h

@@ -1,58 +1,33 @@
-import "./Table.css";
+// import "./Table.css";
+import "C:/MKPackageExplorer/src/pages/alarm.css";
 import React from "react";
-// import certTable from "./certdata.json";
-
+import licensedata from "C:/MKPackageExplorer/src/backend/uploads/folders/mksp1-support_package_2024-02-09T06_04_37_in_progress/mksp1-support_package_2024-02-09T06_04_37/database/envivioCluster/license_server.json"
 const Certtable = ({userData}) => {
-//   const handleClick = (e) => {
-//     e.Status === "Running"
-//       ? console.log("Running")
-//       : alert("Your server restarted successfully!");
-//   };
-    return <table className="hopmepage">
-    <b>Licence Details</b><br></br>
-    </table>;
+  return(
+    <div className="table-container">
+      <caption style={{fontSize:'30px',marginLeft:'50px'}}><b>Licence Data</b></caption>
+      <br></br>
+            <br></br>
+      <table className="alarm-table" style={{marginLeft:'70px'}}>
+        <thead>
+          <tr>
+            <th>Server ID</th>
+            <th>Locking Code</th>
+          </tr>
+        </thead>
+        <tbody>
+          {licensedata.map(license => (
+              <tr key={license._id.$oid}>
+                <td>{license.server_id}</td>
+                <td>{license.locking_code}</td>
+              </tr>
+        ))}
+        </tbody>
+</table>
+</div>
+);
 
-  //   userData.role==="manager"||userData.role==="admin"?
-  //   <div className="column">
-  //     {certTable ? (
-  //       <table className="table">
-  //         <caption className="caption">
-  //           <b>
-  //             <br></br>
-  //             <br></br>CERTIFICATE DETAILS
-  //           </b>
-  //           <br></br>
-  //           <br></br>
-  //         </caption>
-  //         <thead>
-  //           <tr>
-  //             {Object.keys(certTable[0]).map((key, index) => (
-  //               <th key={index}>{key}</th>
-  //             ))}
-  //             {/* <th>{Action}</th> */}
-  //           </tr>
-  //         </thead>
-  //         <tbody>
-  //           {certTable.map((row, rowIndex) => (
-  //             <tr key={rowIndex}>
-  //               {Object.values(row).map((cell, cellIndex) => (
-  //                 <td key={cellIndex}>{cell}</td>
-  //               ))}
-  //               {/* <td>
-  //                 <button onClick={() => handleClick(row)}>
-  //                   {row.Status === "Restart" ? "Running" : "Restart"}
-  //                 </button>
-  //               </td> */}
-  //             </tr>
-  //           ))}
-  //         </tbody>
-  //       </table>
-  //     ) : (
-  //       <p>Loading...</p>
-  //     )}
-  //   </div>
-  //   :<div>You are not Authorised to this page</div>
-  // );
+
 };
 
 export default Certtable;

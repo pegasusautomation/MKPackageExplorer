@@ -1,0 +1,40 @@
+count: 1
+eventTime: null
+firstTimestamp: '2024-02-09T05:07:00Z'
+involvedObject:
+  apiVersion: batch/v1
+  kind: Job
+  name: rabbit-operator-28457587
+  namespace: mediakind
+  resourceVersion: '9037276'
+  uid: 4716e3fb-8d0e-4e71-b172-0021c3fdf5a9
+lastTimestamp: '2024-02-09T05:07:00Z'
+message: 'Created pod: rabbit-operator-28457587-c7s5w'
+metadata:
+  creationTimestamp: '2024-02-09T05:07:00Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-09T05:07:00Z'
+  name: rabbit-operator-28457587.17b21979e9a1514f
+  namespace: mediakind
+  resourceVersion: '9037279'
+  uid: 8f27828a-529c-4f5a-8f18-3e6b15bfa0cf
+reason: SuccessfulCreate
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: job-controller
+type: Normal

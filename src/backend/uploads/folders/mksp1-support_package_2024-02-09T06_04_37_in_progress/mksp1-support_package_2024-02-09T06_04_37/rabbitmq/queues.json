@@ -1,0 +1,5948 @@
+ssic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 10000,
+            "x-message-ttl": 10000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 5,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": true,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 94
+        },
+        "head_message_timestamp": null,
+        "memory": 110576,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 6595822,
+            "deliver_get_details": {
+                "rate": 28.4
+            },
+            "deliver_no_ack": 6595822,
+            "deliver_no_ack_details": {
+                "rate": 28.4
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 6595778,
+            "publish_details": {
+                "rate": 28.2
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "amq.gen-xsWOzxDU8VDrwZNg2ECufA",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": [],
+        "reductions": 1692231503,
+        "reductions_details": {
+            "rate": 7321.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 10000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3883
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11392,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "celery@failover-api-7d57484775-88b45.celery.pidbox",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2618448,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 10000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3883
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11400,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "celery@unified-ui-55796949fc-wgqst.celery.pidbox",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2618447,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {},
+        "auto_delete": false,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": true,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 1940
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 14760,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "celery_failover",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": [],
+        "reductions": 2727765,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {},
+        "auto_delete": false,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0012642101952508326,
+            "avg_ack_ingress_rate": 0.0012642101952508326,
+            "avg_egress_rate": 0.0012642101952508326,
+            "avg_ingress_rate": 0.0012642101952508326,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 1,
+            "mode": "default",
+            "next_seq_id": 9694,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": true,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 17535
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:17",
+        "memory": 15464,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 9694,
+            "ack_details": {
+                "rate": 0.2
+            },
+            "deliver": 9694,
+            "deliver_details": {
+                "rate": 0.2
+            },
+            "deliver_get": 9694,
+            "deliver_get_details": {
+                "rate": 0.2
+            },
+            "deliver_no_ack": 0,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 9694,
+            "publish_details": {
+                "rate": 0.2
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "celery_mksp1",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": [],
+        "reductions": 18970879,
+        "reductions_details": {
+            "rate": 386.8
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 60000,
+            "x-message-ttl": 5000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 2,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+        [
+    {
+        "arguments": {},
+        "auto_delete": false,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.016787544055257807,
+            "avg_ingress_rate": 0.016787544055257807,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 0,
+            "mode": "default",
+            "next_seq_id": 3876,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 0,
+        "consumer_utilisation": 0,
+        "consumers": 0,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 15516
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 34752,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 3876,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 0,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 3876,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 3876,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "aliveness-test",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 11141226,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 10000,
+            "x-message-ttl": 10000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 1,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": true,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 77
+        },
+        "head_message_timestamp": null,
+        "memory": 110032,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 684365,
+            "deliver_get_details": {
+                "rate": 1.0
+            },
+            "deliver_no_ack": 684365,
+            "deliver_no_ack_details": {
+                "rate": 1.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 684364,
+            "publish_details": {
+                "rate": 1.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "amq.gen-0xSsa9vq0mzCo1Xb7b70_Q",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": [],
+        "reductions": 212535400,
+        "reductions_details": {
+            "rate": 459.6
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": true,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 1940
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 14888,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "amq.gen-ADFp8Li1u2y8A1N6e-Bxpg",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": [],
+        "reductions": 2739094,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {},
+        "auto_delete": false,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 14
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11128,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "amq.gen-H2hV_o6YlD3n9wmhBKHX2A",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 12460,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 1,
+            "mode": "default",
+            "next_seq_id": 8,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": true,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 1966
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 18208,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 8,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 8,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 8,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 0,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 8,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "amq.gen-IxcbyfB2drTXDe5C6nFh6w",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": [],
+        "reductions": 2843343,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "cla    "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 124
+        },
+        "head_message_timestamp": null,
+        "memory": 76592,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 232323,
+            "deliver_get_details": {
+                "rate": 1.2
+            },
+            "deliver_no_ack": 232323,
+            "deliver_no_ack_details": {
+                "rate": 1.2
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 232321,
+            "publish_details": {
+                "rate": 0.8
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "celeryev.e2231c9b-4adb-4745-88f9-daed24e20c15",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 98803139,
+        "reductions_details": {
+            "rate": 506.4
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 60000,
+            "x-message-ttl": 5000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 2,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 203
+        },
+        "head_message_timestamp": null,
+        "memory": 68736,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 232322,
+            "deliver_get_details": {
+                "rate": 1.2
+            },
+            "deliver_no_ack": 232322,
+            "deliver_no_ack_details": {
+                "rate": 1.2
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 232320,
+            "publish_details": {
+                "rate": 0.8
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "celeryev.f4ecd441-5f6f-4c9e-ae6e-2a6e165dc01c",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 98830763,
+        "reductions_details": {
+            "rate": 500.8
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3886
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11376,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-asi-mksp1-asi-ASI_QUEUE-3f89ba57dc9f4fdab61295350282aa8c",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2495783,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 1996
+        },
+        "head_message_timestamp": null,
+        "memory": 89376,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 46196,
+            "deliver_get_details": {
+                "rate": 0.2
+            },
+            "deliver_no_ack": 46196,
+            "deliver_no_ack_details": {
+                "rate": 0.2
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 46196,
+            "publish_details": {
+                "rate": 0.2
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-asi-mksp1-general-GENERAL_QUEUE-09ddf4e990ad43f09c070c25d3522e7e",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 56751868,
+        "reductions_details": {
+            "rate": 239.4
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3906
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11784,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 10,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 10,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 10,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-bissCa-mksp1-activeStandby-ACTIVE_STANDBY_QUEUE-362e909f975f4ba689867bc4657a4632",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2518777,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 1131
+        },
+        "head_message_timestamp": null,
+        "memory": 89376,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 46196,
+            "deliver_get_details": {
+                "rate": 0.2
+            },
+            "deliver_no_ack": 46196,
+            "deliver_no_ack_details": {
+                "rate": 0.2
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 46196,
+            "publish_details": {
+                "rate": 0.2
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-bissCa-mksp1-general-GENERAL_QUEUE-5c6e02823ee442ebb7d3c34d5ee58e9c",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 56751632,
+        "reductions_details": {
+            "rate": 239.4
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3923
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11744,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 25,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 25,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 25,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-bissCa-mksp1-mux-MUX_UPDATE_QUEUE-a6a4388d9dde48458616c6f9c63b4c14",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2549132,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3904
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11768,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 10,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 10,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 10,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-simulcrypt-mksp1-activeStandby-ACTIVE_STANDBY_QUEUE-582e49967d174ca68dfb2d5f97870427",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2521267,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 1875
+        },
+        "head_message_timestamp": null,
+        "memory": 89376,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 46196,
+            "deliver_get_details": {
+                "rate": 0.2
+            },
+            "deliver_no_ack": 46196,
+            "deliver_no_ack_details": {
+                "rate": 0.2
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 46196,
+            "publish_details": {
+                "rate": 0.2
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-simulcrypt-mksp1-general-GENERAL_QUEUE-4ddf145bced54f1a80fa53bfd63ff59b",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 56752287,
+        "reductions_details": {
+            "rate": 239.4
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3934
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11776,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 25,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 25,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 25,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-simulcrypt-mksp1-mux-MUX_UPDATE_QUEUE-f49f7dd9527446f7a6effd38e28c7835",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2550059,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3879
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11656,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 1,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 1,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 1,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-simulcrypt-mksp1-simulcrypt-SIMULCRYPT_CONFIG_QUEUE-f8919646c71a4e1ca4cf7ca7e20a7a96",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2520159,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3884
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11360,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-simulcrypt-mksp1-simulcrypt-SIMULCRYPT_UPDATE_QUEUE-ce9ecc331527446fa33d9ade0ddb2cb8",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2499020,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3904
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11768,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 10,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 10,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 10,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-smxMaster-mksp1-activeStandby-ACTIVE_STANDBY_QUEUE-ff84e60b2831446c999b9cabdb11a8ab",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2521267,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 1507
+        },
+        "head_message_timestamp": null,
+        "memory": 89376,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 46196,
+            "deliver_get_details": {
+                "rate": 0.2
+            },
+            "deliver_no_ack": 46196,
+            "deliver_no_ack_details": {
+                "rate": 0.2
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 46196,
+            "publish_details": {
+                "rate": 0.2
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-smxMaster-mksp1-general-GENERAL_QUEUE-0d5459996d91431496807baf5b8704ff",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 56753865,
+        "reductions_details": {
+            "rate": 239.4
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3906
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11752,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 10,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 10,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 10,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-spark-mksp1-activeStandby-ACTIVE_STANDBY_QUEUE-4dd0fa6663d24c4a8e0a806870d13c7d",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2516808,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 2,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3877
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11584,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-spark-mksp1-bissca-BISS_CA_UPDATE_QUEUE-af51fe563ee741c6a012362f7e2f1d82",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2505909,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 2551
+        },
+        "head_message_timestamp": null,
+        "memory": 89376,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 46196,
+            "deliver_get_details": {
+                "rate": 0.2
+            },
+            "deliver_no_ack": 46196,
+            "deliver_no_ack_details": {
+                "rate": 0.2
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 46196,
+            "publish_details": {
+                "rate": 0.2
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-spark-mksp1-general-GENERAL_QUEUE-362734850c164fa39bd50eb494367921",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 56752033,
+        "reductions_details": {
+            "rate": 239.4
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 1038
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11368,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-spark-mksp1-healthcheck-HEALTH_CHECK_RESPONSE_QUEUE-374cf7b3112d41448cb7d66dc999bd56",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 671891,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 1031
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11376,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-spark-mksp1-inputRedundancy-INPUT_REDUNDANCY_CONTROL_QUEUE-87cf8cbed3a8492ea6f253ed0eed4559",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 672075,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 71
+        },
+        "head_message_timestamp": null,
+        "memory": 89328,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 930244,
+            "deliver_get_details": {
+                "rate": 4.0
+            },
+            "deliver_no_ack": 930244,
+            "deliver_no_ack_details": {
+                "rate": 4.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 930237,
+            "publish_details": {
+                "rate": 4.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-spark-mksp1-mux-MUX_CLOCKS_QUEUE-b5ce1ed27bc2474d88d72fd52cee9aa4",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 262780497,
+        "reductions_details": {
+            "rate": 1122.8
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 1040
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11400,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-spark-mksp1-psi-PSI_EXTRACTION_QUEUE-dfdf0d66ba3643f89c1377ba216d7ccb",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 668656,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 2,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3923
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11992,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 25,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 25,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 25,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfsp.common-spark-mksp1-simulcrypt-SIMULCRYPT_UPDATE_QUEUE-beba5c8f614948d0ae1889aed3d037ea",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2562265,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-max-length": 50000,
+            "x-message-ttl": 60000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 1.0021606461285348,
+            "avg_ack_ingress_rate": 1.0021606461285348,
+            "avg_egress_rate": 1.0021606461285348,
+            "avg_ingress_rate": 1.0021606461285348,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 1,
+            "mode": "default",
+            "next_seq_id": 209301,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 323
+        },
+        "head_message_timestamp": null,
+        "memory": 109952,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 209306,
+            "ack_details": {
+                "rate": 1.0
+            },
+            "deliver": 209306,
+            "deliver_details": {
+                "rate": 1.0
+            },
+            "deliver_get": 209306,
+            "deliver_get_details": {
+                "rate": 1.0
+            },
+            "deliver_no_ack": 0,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 209304,
+            "publish_details": {
+                "rate": 1.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.alarm-legacy.alarm-collector",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 160115310,
+        "reductions_details": {
+            "rate": 789.8
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-max-length": 50000,
+            "x-message-ttl": 60000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0011397993366219828,
+            "avg_ack_ingress_rate": 0.0011397993366219828,
+            "avg_egress_rate": 0.0011397993366219828,
+            "avg_ingress_rate": 0.0011397993366219828,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 2,
+            "mode": "default",
+            "next_seq_id": 7481,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 18586
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:16",
+        "memory": 12336,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 7481,
+            "ack_details": {
+                "rate": 0.2
+            },
+            "deliver": 7481,
+            "deliver_details": {
+                "rate": 0.2
+            },
+            "deliver_get": 7481,
+            "deliver_get_details": {
+                "rate": 0.2
+            },
+            "deliver_no_ack": 0,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 7481,
+            "publish_details": {
+                "rate": 0.2
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.alarm.alarm-collector",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 15973393,
+        "reductions_details": {
+            "rate": 359.4
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 180000,
+            "x-max-length": 2,
+            "x-message-ttl": 60000
+        },
+        "auto_delete": false,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 1,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3885
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11992,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 1,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 1,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 1,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 0,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 1,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.esam-proxy.esam-proxy-5d7ccd8c4-knjpq.discoveries",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2550912,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 180000,
+            "x-max-length": 50000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3888
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11408,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.flow-api.status",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2617663,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 1800000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3884
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11320,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.service-monitor.server_status_changes",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2612634,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 209
+        },
+        "head_message_timestamp": null,
+        "memory": 102120,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 18587,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 18587,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 18587,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.services-asi-mksp1-services-SERVICE_NOTIF_QUEUE-67667437d75b46e994f35a59685c6c71",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 23900487,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 164
+        },
+        "head_message_timestamp": null,
+        "memory": 68632,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 18587,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 18587,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 18587,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.services-bissCa-mksp1-services-SERVICE_NOTIF_QUEUE-b8b34284e34649c2b4dc093057cd4dd1",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 23885813,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 676
+        },
+        "head_message_timestamp": null,
+        "memory": 102120,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 18587,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 18587,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 18587,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.services-simulcrypt-mksp1-services-SERVICE_NOTIF_QUEUE-e1638b749ae146049c899e5d5f0e8251",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 23904036,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 4000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 202
+        },
+        "head_message_timestamp": null,
+        "memory": 89376,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 18587,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 18587,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 18587,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.services-smxMaster-mksp1-services-SERVICE_NOTIF_QUEUE-b8e4fd9a152a49cca095c48fd8138239",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 23919490,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 1800000,
+            "x-max-length": 50000
+        },
+        "auto_delete": false,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 0,
+            "mode": "default",
+            "next_seq_id": 64,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 4025
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11904,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 64,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 64,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 64,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 0,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 64,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.snmp-notification.alarm_changes",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2775549,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 1800000,
+            "x-max-length": 5,
+            "x-message-ttl": 100000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3885
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11464,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mfvp.snmp-notification.snmp-notification-7b84848b49-dfkxj.config_changes",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2624262,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 67
+        },
+        "head_message_timestamp": null,
+        "memory": 55776,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 18587,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 18587,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 18587,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mksp_psi_mksp1_rx_notif.services.mux.*.*_ec941b99-da7b-41d5-b922-8dabfcba6fc0",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 23505782,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3905
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11720,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 10,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 10,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 10,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mksp_psi_mksp1_rx_ntf.mfsp.activeStandby.control_19cc93f3-6456-459b-87ca-03981faee8ba",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2518539,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 27684
+        },
+        "head_message_timestamp": null,
+        "memory": 176936,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 46196,
+            "deliver_get_details": {
+                "rate": 0.2
+            },
+            "deliver_no_ack": 46196,
+            "deliver_no_ack_details": {
+                "rate": 0.2
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 46196,
+            "publish_details": {
+                "rate": 0.2
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mksp_psi_mksp1_rx_ntf.mfsp.general.configuration.v2status_b288b3e6-e414-485f-a913-c0f949f018d0",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 55925311,
+        "reductions_details": {
+            "rate": 242.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3885
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11312,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mksp_psi_mksp1_rx_ntf.mfsp.general.externalPsi.#_fb936898-b984-4b71-a838-85064ec7045a",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2495756,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3885
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11312,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mksp_psi_mksp1_rx_ntf.mfsp.healthcheck.request.mux.#_ac04d3cf-b832-4918-8321-be78665c7d78",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2495761,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3885
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11312,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mksp_psi_mksp1_rx_ntf.mfsp.psi.ca.cmd_7f69342c-e78d-47a0-bb41-51ba13b72f62",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2495746,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3917
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:09",
+        "memory": 11824,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 24,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 24,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 24,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mksp_psi_mksp1_rx_ntf.mfsp.psi.extraction.#_274a7f9e-ce9d-49b3-ac8b-82153af86f0d",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2544705,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {
+            "x-expires": 300000,
+            "x-message-ttl": 300000
+        },
+        "auto_delete": true,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mode": "default",
+            "next_seq_id": 0,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": true,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 161
+        },
+        "head_message_timestamp": null,
+        "memory": 89248,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 0,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 0,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 46511,
+            "deliver_get_details": {
+                "rate": 0.2
+            },
+            "deliver_no_ack": 46511,
+            "deliver_no_ack_details": {
+                "rate": 0.2
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 46511,
+            "publish_details": {
+                "rate": 0.2
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "mksp_psi_mksp1_rx_ntf.mfsp.psi.heartbeat_c379ec56-894c-4277-87ad-8bac1c666d7b",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 33613544,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "state": "running",
+        "type": "classic",
+        "vhost": "/"
+    },
+    {
+        "arguments": {},
+        "auto_delete": false,
+        "backing_queue_status": {
+            "avg_ack_egress_rate": 0.0,
+            "avg_ack_ingress_rate": 0.0,
+            "avg_egress_rate": 0.0,
+            "avg_ingress_rate": 0.0,
+            "delta": [
+                "delta",
+                "undefined",
+                0,
+                0,
+                "undefined"
+            ],
+            "len": 0,
+            "mirror_seen": 0,
+            "mirror_senders": 0,
+            "mode": "default",
+            "next_seq_id": 30,
+            "q1": 0,
+            "q2": 0,
+            "q3": 0,
+            "q4": 0,
+            "target_ram_count": "infinity"
+        },
+        "consumer_capacity": 1.0,
+        "consumer_utilisation": 1.0,
+        "consumers": 1,
+        "durable": false,
+        "effective_policy_definition": {
+            "ha-mode": "all",
+            "ha-promote-on-failure": "always",
+            "ha-promote-on-shutdown": "when-synced",
+            "ha-sync-batch-size": 1,
+            "ha-sync-mode": "automatic",
+            "max-length": 50000
+        },
+        "exclusive": false,
+        "exclusive_consumer_tag": null,
+        "garbage_collection": {
+            "fullsweep_after": 65535,
+            "max_heap_size": 0,
+            "min_bin_vheap_size": 46422,
+            "min_heap_size": 233,
+            "minor_gcs": 3947
+        },
+        "head_message_timestamp": null,
+        "idle_since": "2024-02-09 6:05:10",
+        "memory": 11680,
+        "message_bytes": 0,
+        "message_bytes_paged_out": 0,
+        "message_bytes_persistent": 0,
+        "message_bytes_ram": 0,
+        "message_bytes_ready": 0,
+        "message_bytes_unacknowledged": 0,
+        "message_stats": {
+            "ack": 30,
+            "ack_details": {
+                "rate": 0.0
+            },
+            "deliver": 30,
+            "deliver_details": {
+                "rate": 0.0
+            },
+            "deliver_get": 30,
+            "deliver_get_details": {
+                "rate": 0.0
+            },
+            "deliver_no_ack": 0,
+            "deliver_no_ack_details": {
+                "rate": 0.0
+            },
+            "get": 0,
+            "get_details": {
+                "rate": 0.0
+            },
+            "get_empty": 0,
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0,
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "publish": 30,
+            "publish_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "redeliver_details": {
+                "rate": 0.0
+            }
+        },
+        "messages": 0,
+        "messages_details": {
+            "rate": 0.0
+        },
+        "messages_paged_out": 0,
+        "messages_persistent": 0,
+        "messages_ram": 0,
+        "messages_ready": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "messages_ready_ram": 0,
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "messages_unacknowledged_ram": 0,
+        "name": "ntf.alarms.override",
+        "node": "rabbitmq@rabbitmq-ha-controller1-0",
+        "operator_policy": null,
+        "policy": "ha-all",
+        "recoverable_slaves": null,
+        "reductions": 2676471,
+        "reductions_details": {
+            "rate": 0.0
+        },
+        "single_active_consumer_tag": null,
+        "slave_nodes": [],
+        "state": "running",
+        "synchronised_slave_nodes": [],
+        "type": "classic",
+        "vhost": "/"
+    }
+]

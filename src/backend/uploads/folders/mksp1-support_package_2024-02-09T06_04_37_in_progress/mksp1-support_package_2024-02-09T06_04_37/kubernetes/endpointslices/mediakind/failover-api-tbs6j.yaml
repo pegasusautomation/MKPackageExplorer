@@ -1,0 +1,75 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.155
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: failover-api-7d57484775-88b45
+    namespace: mediakind
+    resourceVersion: '8615312'
+    uid: f20c05f8-fd6d-4654-93c2-06374cac66fd
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:29:18Z'
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generateName: failover-api-
+  generation: 31
+  labels:
+    app.kubernetes.io/component: failover-api
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: failover-api
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.101.3
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: failover-api-0.101.3
+    kubernetes.io/service-name: failover-api
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"8438321e-a2f1-479d-9583-1b22dc08ff2e"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T08:37:02Z'
+  name: failover-api-tbs6j
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: failover-api
+    uid: 8438321e-a2f1-479d-9583-1b22dc08ff2e
+  resourceVersion: '8615314'
+  uid: 00b73e05-7c3f-46fa-bf9f-3be09005665e
+ports:
+- name: restapi
+  port: 8006
+  protocol: TCP

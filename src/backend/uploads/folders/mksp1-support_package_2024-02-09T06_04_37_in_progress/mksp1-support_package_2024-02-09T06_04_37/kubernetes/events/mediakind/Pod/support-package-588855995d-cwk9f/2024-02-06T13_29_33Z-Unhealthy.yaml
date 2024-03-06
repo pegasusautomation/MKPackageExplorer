@@ -1,0 +1,43 @@
+count: 23251
+eventTime: null
+firstTimestamp: '2024-02-06T13:29:06Z'
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{reboot-api}
+  kind: Pod
+  name: support-package-588855995d-cwk9f
+  namespace: mediakind
+  resourceVersion: '8581755'
+  uid: c767d6a6-02ae-4b23-a0cd-bd494bfa6387
+lastTimestamp: '2024-02-09T06:04:06Z'
+message: 'Liveness probe errored: strconv.Atoi: parsing "restapi": invalid syntax'
+metadata:
+  creationTimestamp: '2024-02-06T13:29:33Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+        f:host: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:29:33Z'
+  name: support-package-588855995d-cwk9f.17b149228d6cddcb
+  namespace: mediakind
+  resourceVersion: '9043595'
+  uid: ae950965-64a5-4027-beb2-0815664202b4
+reason: Unhealthy
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: kubelet
+  host: mediakind-k3s
+type: Warning

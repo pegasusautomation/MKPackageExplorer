@@ -1,0 +1,207 @@
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: '1'
+    objectset.rio.cattle.io/applied: H4sIAAAAAAAA/6xTT2vbThD9Kj/mLMl2nBgj+B1MkkJp45gGegmmjFejeOP9x+5YrTH67mUsOUlpnOTQk3Y1M2/fzHuzBwz6O8WkvYMSMIQ0aEaQwUa7Ckq4omD8zpJjyMASY4WMUO4BnfOMrL1LcvWrR1KciIuofaGQ2VCh/UALCGQn4/6no5g/NBsoYTNOLyLNKPvvi3bV/7Oq8u5dCIeWoATjFZo8sY/4QB8qSgGVVG62K8rTLjFZaDMwuCLzZmtrTGsoYTQd1+MLNbmo65UaDyfnk+G4Ph/Xo4vpsJqqyRTPKlxV5wL6B8mAvM5D9I2W4VOELn6CTwqkhE2kYLTCBOUog0SGFPsoAYus1l+fWGMIp19q2wyYbDDIdKh9Iaz5OMSRk/KOUTuKCcp7uVqL4p77050mxiiWynPlXa0fIIMBsRp0t/5TPCbvYJkBueaA3M9vcXv1Yz67ub5bzC6vIYMGzZY+RW+FTK3JVN+ofjovkEWnY4/F85Dbtl1moK1YpYSITq0pDl7nXDbDYlicjaEvWGyNWXij1Q5K+FzPPS8ipW5P3pO58WZr6cZvHXcTs3Lseb4cwzNW9yPvKqFdCvEQtY+ad5cGU5p3eZ1hcucrylXUrBUaGTfFRiuaKSUvzd/il/e5OXbJkAF7Q/G46/d72JA0fdnDH/Yz3Tqzk30LkimOhOtfOnGCNtsD1TUphhLm/k6tqdoa2c0O5kA1ekOFOD46YkqyXmKq6E0eDDr6p8gWEx90eAVyeVTnaGUZ+w0GcdPfsvbebU/L1Lbt7wAAAP//Zo7/lWMFAAA
+    objectset.rio.cattle.io/id: ''
+    objectset.rio.cattle.io/owner-gvk: k3s.cattle.io/v1, Kind=Addon
+    objectset.rio.cattle.io/owner-name: local-storage
+    objectset.rio.cattle.io/owner-namespace: kube-system
+  creationTimestamp: '2023-12-14T06:48:12Z'
+  generation: 1
+  labels:
+    objectset.rio.cattle.io/hash: 183f35c65ffbc3064603f43f1580d8c68a2dabd4
+  managedFields:
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:objectset.rio.cattle.io/applied: {}
+          f:objectset.rio.cattle.io/id: {}
+          f:objectset.rio.cattle.io/owner-gvk: {}
+          f:objectset.rio.cattle.io/owner-name: {}
+          f:objectset.rio.cattle.io/owner-namespace: {}
+        f:labels:
+          .: {}
+          f:objectset.rio.cattle.io/hash: {}
+      f:spec:
+        f:progressDeadlineSeconds: {}
+        f:replicas: {}
+        f:revisionHistoryLimit: {}
+        f:selector: {}
+        f:strategy:
+          f:rollingUpdate:
+            .: {}
+            f:maxSurge: {}
+            f:maxUnavailable: {}
+          f:type: {}
+        f:template:
+          f:metadata:
+            f:labels:
+              .: {}
+              f:app: {}
+          f:spec:
+            f:containers:
+              k:{"name":"local-path-provisioner"}:
+                .: {}
+                f:command: {}
+                f:env:
+                  .: {}
+                  k:{"name":"POD_NAMESPACE"}:
+                    .: {}
+                    f:name: {}
+                    f:valueFrom:
+                      .: {}
+                      f:fieldRef: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:name: {}
+                f:resources: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/etc/config/"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+            f:dnsPolicy: {}
+            f:priorityClassName: {}
+            f:restartPolicy: {}
+            f:schedulerName: {}
+            f:securityContext: {}
+            f:serviceAccount: {}
+            f:serviceAccountName: {}
+            f:terminationGracePeriodSeconds: {}
+            f:tolerations: {}
+            f:volumes:
+              .: {}
+              k:{"name":"config-volume"}:
+                .: {}
+                f:configMap:
+                  .: {}
+                  f:defaultMode: {}
+                  f:name: {}
+                f:name: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:12Z'
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          f:deployment.kubernetes.io/revision: {}
+      f:status:
+        f:availableReplicas: {}
+        f:conditions:
+          .: {}
+          k:{"type":"Available"}:
+            .: {}
+            f:lastTransitionTime: {}
+            f:lastUpdateTime: {}
+            f:message: {}
+            f:reason: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Progressing"}:
+            .: {}
+            f:lastTransitionTime: {}
+            f:lastUpdateTime: {}
+            f:message: {}
+            f:reason: {}
+            f:status: {}
+            f:type: {}
+        f:observedGeneration: {}
+        f:readyReplicas: {}
+        f:replicas: {}
+        f:updatedReplicas: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:28:35Z'
+  name: local-path-provisioner
+  namespace: kube-system
+  resourceVersion: '8614774'
+  uid: 0c42f5b4-a1b0-4003-a799-5aeed5ee4422
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: local-path-provisioner
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: local-path-provisioner
+    spec:
+      containers:
+      - command:
+        - local-path-provisioner
+        - start
+        - --config
+        - /etc/config/config.json
+        env:
+        - name: POD_NAMESPACE
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+        image: rancher/local-path-provisioner:v0.0.23
+        imagePullPolicy: IfNotPresent
+        name: local-path-provisioner
+        resources: {}
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /etc/config/
+          name: config-volume
+      dnsPolicy: ClusterFirst
+      priorityClassName: system-node-critical
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      serviceAccount: local-path-provisioner-service-account
+      serviceAccountName: local-path-provisioner-service-account
+      terminationGracePeriodSeconds: 30
+      tolerations:
+      - key: CriticalAddonsOnly
+        operator: Exists
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/control-plane
+        operator: Exists
+      - effect: NoSchedule
+        key: node-role.kubernetes.io/master
+        operator: Exists
+      volumes:
+      - configMap:
+          defaultMode: 420
+          name: local-path-config
+        name: config-volume
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: '2023-12-14T06:48:24Z'
+    lastUpdateTime: '2023-12-14T06:48:37Z'
+    message: ReplicaSet "local-path-provisioner-5f8bbd68f9" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: 'True'
+    type: Progressing
+  - lastTransitionTime: '2024-02-06T13:28:35Z'
+    lastUpdateTime: '2024-02-06T13:28:35Z'
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: 'True'
+    type: Available
+  observedGeneration: 1
+  readyReplicas: 1
+  replicas: 1
+  updatedReplicas: 1

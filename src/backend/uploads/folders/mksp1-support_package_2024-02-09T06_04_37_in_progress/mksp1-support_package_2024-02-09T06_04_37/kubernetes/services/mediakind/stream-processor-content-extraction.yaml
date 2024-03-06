@@ -1,0 +1,69 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mksp
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:42:08Z'
+  labels:
+    app.kubernetes.io/component: stream-processor-content-extraction
+    app.kubernetes.io/instance: mksp
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: stream-processor-content-extraction
+    app.kubernetes.io/part-of: mksp
+    app.kubernetes.io/version: 20.0.3-29
+    helm.sh/chart: stream-processor-content-extraction-20.0.3-29
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:spec:
+        f:internalTrafficPolicy: {}
+        f:ports:
+          .: {}
+          k:{"port":8083,"protocol":"TCP"}:
+            .: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+        f:selector: {}
+        f:sessionAffinity: {}
+        f:type: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:42:08Z'
+  name: stream-processor-content-extraction
+  namespace: mediakind
+  resourceVersion: '22987'
+  uid: f6a98810-0c30-444f-837d-633cb2e3209c
+spec:
+  clusterIP: 10.43.87.119
+  clusterIPs:
+  - 10.43.87.119
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - port: 8083
+    protocol: TCP
+    targetPort: 8083
+  selector:
+    app.kubernetes.io/instance: mksp
+    app.kubernetes.io/name: stream-processor-content-extraction
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

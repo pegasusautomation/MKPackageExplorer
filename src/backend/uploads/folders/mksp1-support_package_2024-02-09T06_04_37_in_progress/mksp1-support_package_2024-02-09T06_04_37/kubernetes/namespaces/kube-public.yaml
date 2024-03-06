@@ -1,0 +1,23 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:08Z'
+  labels:
+    kubernetes.io/metadata.name: kube-public
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:labels:
+          .: {}
+          f:kubernetes.io/metadata.name: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T06:48:08Z'
+  name: kube-public
+  resourceVersion: '52'
+  uid: 2989a983-0e63-4fdb-a2e9-d54c76cf13ca
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active

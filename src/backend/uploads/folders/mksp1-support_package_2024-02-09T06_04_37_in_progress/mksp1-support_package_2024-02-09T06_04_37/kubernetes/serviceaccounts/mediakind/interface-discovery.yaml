@@ -1,0 +1,49 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: interface-discovery
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: interface-discovery
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.87.7
+    helm.sh/chart: interface-discovery-0.87.7
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:secrets:
+        .: {}
+        k:{"name":"interface-discovery-token-6ttdn"}: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  name: interface-discovery
+  namespace: mediakind
+  resourceVersion: '18824'
+  uid: 6e35839c-0211-4c4a-b7d2-421fa191390e
+secrets:
+- name: interface-discovery-token-6ttdn

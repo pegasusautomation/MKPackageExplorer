@@ -1,0 +1,81 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.171
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  hostname: rabbitmq-ha-controller1-0
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: rabbitmq-ha-controller1-0
+    namespace: mediakind
+    resourceVersion: '8615160'
+    uid: 7c7052d0-00e9-4ef4-bac1-72b2caecc240
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:29:02Z'
+  creationTimestamp: '2023-12-14T06:57:18Z'
+  generateName: rabbitmq-ha-controller1-headless-
+  generation: 48
+  labels:
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: rabbitmq
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: rabbitmq-8.21.0
+    kubernetes.io/service-name: rabbitmq-ha-controller1-headless
+    service.kubernetes.io/headless: ''
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+          f:service.kubernetes.io/headless: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"fdcb78a3-5619-43c5-bbf1-648bcbb922ca"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:29:03Z'
+  name: rabbitmq-ha-controller1-headless-tl72q
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: rabbitmq-ha-controller1-headless
+    uid: fdcb78a3-5619-43c5-bbf1-648bcbb922ca
+  resourceVersion: '8615162'
+  uid: f5364d1e-4358-451b-a43d-2aaa1bcbd4fd
+ports:
+- name: epmd
+  port: 4369
+  protocol: TCP
+- name: amqp
+  port: 5672
+  protocol: TCP
+- name: dist
+  port: 25672
+  protocol: TCP
+- name: http-stats
+  port: 15672
+  protocol: TCP

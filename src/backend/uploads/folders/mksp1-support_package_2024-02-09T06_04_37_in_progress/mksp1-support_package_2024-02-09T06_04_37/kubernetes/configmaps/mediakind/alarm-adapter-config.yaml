@@ -1,0 +1,132 @@
+data:
+  alarm-adapter.ini: '[server]
+
+    # IP on which the web server listens
+
+    host = 0.0.0.0
+
+    # Port on which the web server listens
+
+    port = 8012
+
+
+    [alarms]
+
+    resync_interval = 60
+
+    publisher_id = alarm-adapter
+
+
+    [prometheus]
+
+    alert_manager_url = http://kps-alertmanager:9093/api/v1/alerts
+
+    alert_manager_timeout = 10
+
+    resync = false
+
+
+    [storage_lock]
+
+    url=mongodb://10.69.8.31:27017,10.69.8.32:27017/mediakindMongolock?replicaSet=repldb
+
+    username=MediaKind
+
+    password=Med/aK1nd
+
+
+    [messaging]
+
+    server_url=amqp://guest:guest@rabbitmq-ha:5672/?heartbeat=30
+
+
+    [alarm_adapter]
+
+    object_id_label_exclusions = prometheus,alertname,instance,severity
+
+
+    [severity_map]
+
+    critical = critical
+
+    major = major
+
+    warning = major
+
+    minor = minor
+
+    none = minor
+
+    notice = notice
+
+    '
+  logging.json: "{\n    \"version\": 1,\n    \"disable_existing_loggers\": true,\n\
+    \    \"formatters\": {\n        \"standard\": {\n            \"()\": \"mediakind.common.logging.LogFormatter\"\
+    ,\n            \"fmt\": \"%(asctime)s [%(levelname)s] %(name)s: %(message)s\"\n\
+    \        },\n        \"verbose\": {\n            \"()\": \"mediakind.common.logging.LogFormatter\"\
+    ,\n            \"fmt\": \"%(asctime)s [%(levelname)s] %(name)s %(module)s %(process)d\
+    \ %(thread)d %(message)s\"\n        },\n        \"cee\": {\n            \"()\"\
+    : \"ericsson.loggers.formatters.CeeFormatter\",\n            \"preset\": \"mediakind\"\
+    ,\n            \"fields\": {\n                \"time\": \"asctime\",\n       \
+    \         \"msg\": \"msg\",\n                \"pid\": \"process\",\n         \
+    \       \"tid\": \"thread\",\n                \"pri\": \"levelname\",\n      \
+    \          \"tname\": \"threadName\",\n                \"file.name\": \"filename\"\
+    ,\n                \"file.line\": \"lineno\",\n                \"microservice\"\
+    : \"alarm-adapter\",\n                \"host\": \"host\"\n            },\n   \
+    \         \"exclude\": [  ]\n        }\n    },\n    \"filters\": {\n        \"\
+    probe\": {\n            \"()\": \"mediakind.common.logging.ProbeFilter\"\n   \
+    \     }\n    },\n    \"handlers\": {\n        \"console\": {\n            \"level\"\
+    : \"INFO\",\n            \"class\": \"logging.StreamHandler\",\n            \"\
+    formatter\": \"cee\",\n            \"filters\": [\"probe\"],\n            \"stream\"\
+    : \"ext://sys.stdout\"\n        }\n    },\n    \"loggers\": {\n        \"\": {\n\
+    \            \"handlers\": [\"console\"],\n            \"level\": \"ERROR\"\n\
+    \        },\n        \"envivio\": {\n            \"handlers\": [\"console\"],\n\
+    \            \"level\": \"INFO\",\n            \"propagate\": false\n        },\n\
+    \        \"ericsson\": {\n            \"handlers\": [\"console\"],\n         \
+    \   \"level\": \"INFO\",\n            \"propagate\": false\n        },\n     \
+    \   \"aiohttp\": {\n            \"handlers\": [\"console\"],\n            \"level\"\
+    : \"INFO\",\n            \"propagate\": false\n        },\n        \"pika\": {\n\
+    \            \"handlers\": [\"console\"],\n            \"level\": \"INFO\",\n\
+    \            \"propagate\": false\n        }\n    }\n}\n"
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: alarm-adapter
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: alarm-adapter
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.60.3
+    helm.sh/chart: alarm-adapter-0.60.3
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:alarm-adapter.ini: {}
+        f:logging.json: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  name: alarm-adapter-config
+  namespace: mediakind
+  resourceVersion: '18803'
+  uid: bcc25167-e507-4f2c-a56b-bfcb92c1e4bc

@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:51:34Z'
+  name: default
+  namespace: mediakind
+  resourceVersion: '615'
+  uid: 1b07760e-435d-4198-b93d-929c69f126e7
+secrets:
+- name: default-token-98fng

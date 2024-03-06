@@ -1,0 +1,35 @@
+metadata:
+  creationTimestamp: '2024-02-06T13:27:47Z'
+  labels:
+    kube-aggregator.kubernetes.io/automanaged: 'true'
+  managedFields:
+  - apiVersion: apiregistration.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:labels:
+          .: {}
+          f:kube-aggregator.kubernetes.io/automanaged: {}
+      f:spec:
+        f:group: {}
+        f:groupPriorityMinimum: {}
+        f:version: {}
+        f:versionPriority: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:27:47Z'
+  name: v1.cert-manager.io
+  resourceVersion: '8614454'
+  uid: 6ef165e9-66d8-4383-ba16-1c3a4f04ae54
+spec:
+  group: cert-manager.io
+  groupPriorityMinimum: 1000
+  version: v1
+  versionPriority: 100
+status:
+  conditions:
+  - lastTransitionTime: '2024-02-06T13:27:47Z'
+    message: Local APIServices are always available
+    reason: Local
+    status: 'True'
+    type: Available

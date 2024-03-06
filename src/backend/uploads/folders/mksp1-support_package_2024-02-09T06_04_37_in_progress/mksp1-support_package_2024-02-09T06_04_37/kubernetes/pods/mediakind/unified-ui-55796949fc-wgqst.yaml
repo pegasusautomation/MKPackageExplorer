@@ -1,0 +1,806 @@
+t/ericsson/unified-ui/etc/unified-ui.ini
+    - name: STATICFILES_STORAGE
+      value: django.contrib.staticfiles.storage.StaticFilesStorage
+    - name: CELERY_APP
+      value: envivio.unified.ui
+    - name: CELERY_BIN
+      value: usr/local/bin/celery
+    - name: CELERYBEAT_LOG_LEVEL
+      value: INFO
+    - name: CELERYBEAT_LOG_FILE
+      value: /dev/stdout
+    image: packages.mediakind.com/mpd-docker/mediakind/unified-ui:1.189.17
+    imagePullPolicy: IfNotPresent
+    name: celerybeat
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: false
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /tmp
+      name: ui-tmp
+    - mountPath: /etc/pki/authentication/private/authentication.key
+      name: api-certificate
+      subPath: tls.key
+    - mountPath: /etc/pki/authentication/certs/authentication.crt
+      name: api-certificate
+      subPath: tls.crt
+    - mountPath: /opt/ericsson/unified-ui/etc/unified-ui.ini
+      name: ui-config
+      subPath: unified-ui.ini
+    - mountPath: /opt/ericsson/unified-ui/etc/secret_key
+      name: ui-config
+      subPath: secret_key
+    - mountPath: /src/envivio/unified/ui/settings/logging.json
+      name: ui-config
+      subPath: logging.json
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-c4trr
+      readOnly: true
+  - env:
+    - name: DJANGO_SETTINGS_MODULE
+      value: envivio.unified.ui.settings
+    - name: UNIFIED_UI_CONFIG
+      value: /opt/ericsson/unified-ui/etc/unified-ui.ini
+    - name: UWSGI_STATS
+      value: 'false'
+    - name: STATICFILES_STORAGE
+      value: django.contrib.staticfiles.storage.StaticFilesStorage
+    - name: LICENSEMANAGER_SERVER_PORT
+      value: '8097'
+    - name: GATEWAY
+      value: http://api-gateway:8080
+    image: packages.mediakind.com/mpd-docker/mediakind/unified-ui:1.189.17
+    imagePullPolicy: IfNotPresent
+    livenessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /api/liveness
+        port: ui
+        scheme: HTTP
+      initialDelaySeconds: 30
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 3
+    name: ui
+    ports:
+    - containerPort: 8888
+      name: ui
+      protocol: TCP
+    - containerPort: 8889
+      name: websocket
+      protocol: TCP
+    readinessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /api/readiness
+        port: ui
+        scheme: HTTP
+      initialDelaySeconds: 5
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 1
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: false
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /dev/shm
+      name: ui-dev-shm
+    - mountPath: /tmp
+      name: ui-tmp
+    - mountPath: /dumps
+      name: backup-dir
+    - mountPath: /etc/pki/ca-trust/extracted/pem/
+      name: ldap-root-ca
+    - mountPath: /etc/pki/authentication/private/authentication.key
+      name: api-certificate
+      subPath: tls.key
+    - mountPath: /etc/pki/authentication/certs/authentication.crt
+      name: api-certificate
+      subPath: tls.crt
+    - mountPath: /opt/ericsson/unified-ui/etc/unified-ui.ini
+      name: ui-config
+      subPath: unified-ui.ini
+    - mountPath: /opt/ericsson/unified-ui/etc/secret_key
+      name: ui-config
+      subPath: secret_key
+    - mountPath: /src/envivio/unified/ui/settings/logging.json
+      name: ui-config
+      subPath: logging.json
+    - mountPath: /opt/ericsson/unified-ui/etc/uwsgi.ini
+      name: ui-config
+      subPath: uwsgi.ini
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-c4trr
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: false
+  hostAliases:
+  - hostnames:
+    - ldaps.resolution.server
+    ip: 127.0.0.1
+  nodeName: mediakind-k3s
+  preemptionPolicy: Never
+  priority: 1000000
+  priorityClassName: controller-high-priority
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext:
+    fsGroup: 2
+    runAsUser: 2
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 0
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - emptyDir:
+      medium: Memory
+      sizeLimit: 128Mi
+    name: ui-dev-shm
+  - emptyDir:
+      medium: Memory
+      sizeLimit: 8Mi
+    name: ui-tmp
+  - hostPath:
+      path: /etc/pki/ca-trust/extracted/pem/
+      type: Directory
+    name: ldap-root-ca
+  - hostPath:
+      path: /var/opt/mediakind/unified-ui/dumps
+      type: Directory
+    name: backup-dir
+  - name: api-certificate
+    secret:
+      defaultMode: 420
+      secretName: unified-ui-cert-auth
+  - name: tls-certificate
+    secret:
+      defaultMode: 420
+      secretName: unified-ui-cert-tls
+  - configMap:
+      defaultMode: 420
+      name: unified-ui-config
+    name: ui-config
+  - emptyDir: {}
+    name: probe-volume
+  - name: kube-api-access-c4trr
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:09:22Z'
+    status: 'True'
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:29:52Z'
+    status: 'True'
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:29:52Z'
+    status: 'True'
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:09:22Z'
+    status: 'True'
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://c355341321414220ee6d5ad0a4610151efb249216d8ef8bc5a37c871dbc7717e
+    image: packages.mediakind.com/mpd-docker/mediakind/unified-ui:1.189.17
+    imageID: sha256:bb64e88702fee58df60414d26ff507fea1e3664ba02f8dfce2ea9eb5762b18a8
+    lastState:
+      terminated:
+        containerID: containerd://df53786b4033027696cbc57193924217bb39310d515d97790bca3eb16841d132
+        exitCode: 255
+        finishedAt: '2024-02-06T13:27:47Z'
+        reason: Unknown
+        startedAt: '2024-02-06T08:36:03Z'
+    name: celery
+    ready: true
+    restartCount: 9
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:28:24Z'
+  - containerID: containerd://e9ff757f01948fb96cf44da9a5b7d583e78406555e4916b36d0192c62e8c6da4
+    image: packages.mediakind.com/mpd-docker/mediakind/unified-ui:1.189.17
+    imageID: sha256:bb64e88702fee58df60414d26ff507fea1e3664ba02f8dfce2ea9eb5762b18a8
+    lastState:
+      terminated:
+        containerID: containerd://7409f8d08684ef4078ea9d149ef18c73df47780ddaee8a11a3479f8828ee1fce
+        exitCode: 1
+        finishedAt: '2024-02-06T13:29:08Z'
+        reason: Error
+        startedAt: '2024-02-06T13:28:59Z'
+    name: celerybeat
+    ready: true
+    restartCount: 811
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:29:36Z'
+  - containerID: containerd://12d2f257306cf6d5c7fe8b7b5586845c0519556ec6bbb86d339ba9ffb207789d
+    image: packages.mediakind.com/mpd-docker/mediakind/unified-ui:1.189.17
+    imageID: sha256:bb64e88702fee58df60414d26ff507fea1e3664ba02f8dfce2ea9eb5762b18a8
+    lastState:
+      terminated:
+        containerID: containerd://c2e2f41af899595dceaab0b4ed7c56f490146ca3af338631be765caa0828fa7a
+        exitCode: 255
+        finishedAt: '2024-02-06T13:27:47Z'
+        reason: Unknown
+        startedAt: '2024-02-06T08:36:06Z'
+    name: ui
+    ready: true
+    restartCount: 9
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:28:27Z'
+  hostIP: 192.168.255.1
+  phase: Running
+  podIP: 10.42.0.169
+  podIPs:
+  - ip: 10.42.0.169
+  qosClass: BestEffort
+  startTime: '2023-12-14T10:09:22Z'
+metadata:
+  creationTimestamp: '2023-12-14T10:09:22Z'
+  generateName: unified-ui-55796949fc-
+  labels:
+    app.kubernetes.io/component: unified-ui
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: unified-ui
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.189.17
+    helm.sh/chart: unified-ui-1.189.17
+    pod-template-hash: 55796949fc
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+          f:pod-template-hash: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"d11dcec5-6119-4c11-8c56-b850c4a0207c"}: {}
+      f:spec:
+        f:containers:
+          k:{"name":"celery"}:
+            .: {}
+            f:args: {}
+            f:command: {}
+            f:env:
+              .: {}
+              k:{"name":"CELERYD_LOG_FILE"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERYD_LOG_LEVEL"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERYD_MAX_TASKS_PER_CHILD"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERYD_NODES"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERYD_OPTS"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERYD_TASK_SOFT_TIME_LIMIT"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERYD_TASK_TIME_LIMIT"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERY_APP"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERY_BIN"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERY_RESULT_BACKEND"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"DJANGO_SETTINGS_MODULE"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"GATEWAY"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"STATICFILES_STORAGE"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"UNIFIED_UI_CONFIG"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:name: {}
+            f:resources: {}
+            f:securityContext:
+              .: {}
+              f:allowPrivilegeEscalation: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/dumps"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+              k:{"mountPath":"/etc/pki/authentication/certs/authentication.crt"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/etc/pki/authentication/private/authentication.key"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/opt/ericsson/unified-ui/etc/secret_key"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/opt/ericsson/unified-ui/etc/unified-ui.ini"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/src/envivio/unified/ui/settings/logging.json"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/tmp"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+          k:{"name":"celerybeat"}:
+            .: {}
+            f:args: {}
+            f:command: {}
+            f:env:
+              .: {}
+              k:{"name":"CELERYBEAT_LOG_FILE"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERYBEAT_LOG_LEVEL"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERY_APP"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"CELERY_BIN"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"DJANGO_SETTINGS_MODULE"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"STATICFILES_STORAGE"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"UNIFIED_UI_CONFIG"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:name: {}
+            f:resources: {}
+            f:securityContext:
+              .: {}
+              f:allowPrivilegeEscalation: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/etc/pki/authentication/certs/authentication.crt"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/etc/pki/authentication/private/authentication.key"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/opt/ericsson/unified-ui/etc/secret_key"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/opt/ericsson/unified-ui/etc/unified-ui.ini"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/src/envivio/unified/ui/settings/logging.json"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/tmp"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+          k:{"name":"ui"}:
+            .: {}
+            f:env:
+              .: {}
+              k:{"name":"DJANGO_SETTINGS_MODULE"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"GATEWAY"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"LICENSEMANAGER_SERVER_PORT"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"STATICFILES_STORAGE"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"UNIFIED_UI_CONFIG"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"UWSGI_STATS"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:livenessProbe:
+              .: {}
+              f:failureThreshold: {}
+              f:httpGet:
+                .: {}
+                f:path: {}
+                f:port: {}
+                f:scheme: {}
+              f:initialDelaySeconds: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:name: {}
+            f:ports:
+              .: {}
+              k:{"containerPort":8888,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:name: {}
+                f:protocol: {}
+              k:{"containerPort":8889,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:name: {}
+                f:protocol: {}
+            f:readinessProbe:
+              .: {}
+              f:failureThreshold: {}
+              f:httpGet:
+                .: {}
+                f:path: {}
+                f:port: {}
+                f:scheme: {}
+              f:initialDelaySeconds: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:resources: {}
+            f:securityContext:
+              .: {}
+              f:allowPrivilegeEscalation: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/dev/shm"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+              k:{"mountPath":"/dumps"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+              k:{"mountPath":"/etc/pki/authentication/certs/authentication.crt"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/etc/pki/authentication/private/authentication.key"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/etc/pki/ca-trust/extracted/pem/"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+              k:{"mountPath":"/opt/ericsson/unified-ui/etc/secret_key"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/opt/ericsson/unified-ui/etc/unified-ui.ini"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/opt/ericsson/unified-ui/etc/uwsgi.ini"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/src/envivio/unified/ui/settings/logging.json"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/tmp"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+        f:dnsPolicy: {}
+        f:enableServiceLinks: {}
+        f:hostAliases:
+          .: {}
+          k:{"ip":"127.0.0.1"}:
+            .: {}
+            f:hostnames: {}
+            f:ip: {}
+        f:priorityClassName: {}
+        f:restartPolicy: {}
+        f:schedulerName: {}
+        f:securityContext:
+          .: {}
+          f:fsGroup: {}
+          f:runAsUser: {}
+        f:terminationGracePeriodSeconds: {}
+        f:volumes:
+          .: {}
+          k:{"name":"api-certificate"}:
+            .: {}
+            f:name: {}
+            f:secret:
+              .: {}
+              f:defaultMode: {}
+              f:secretName: {}
+          k:{"name":"backup-dir"}:
+            .: {}
+            f:hostPath:
+              .: {}
+              f:path: {}
+              f:type: {}
+            f:name: {}
+          k:{"name":"ldap-root-ca"}:
+            .: {}
+            f:hostPath:
+              .: {}
+              f:path: {}
+              f:type: {}
+            f:name: {}
+          k:{"name":"probe-volume"}:
+            .: {}
+            f:emptyDir: {}
+            f:name: {}
+          k:{"name":"tls-certificate"}:
+            .: {}
+            f:name: {}
+            f:secret:
+              .: {}
+              f:defaultMode: {}
+              f:secretName: {}
+          k:{"name":"ui-config"}:
+            .: {}
+            f:configMap:
+              .: {}
+              f:defaultMode: {}
+              f:name: {}
+            f:name: {}
+          k:{"name":"ui-dev-shm"}:
+            .: {}
+            f:emptyDir:
+              .: {}
+              f:medium: {}
+              f:sizeLimit: {}
+            f:name: {}
+          k:{"name":"ui-tmp"}:
+            .: {}
+            f:emptyDir:
+              .: {}
+              f:medium: {}
+              f:sizeLimit: {}
+            f:name: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:09:22Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:conditions:
+          k:{"type":"ContainersReady"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Initialized"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Ready"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+        f:containerStatuses: {}
+        f:hostIP: {}
+        f:phase: {}
+        f:podIP: {}
+        f:podIPs:
+          .: {}
+          k:{"ip":"10.42.0.169"}:
+            .: {}
+            f:ip: {}
+        f:startTime: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:29:52Z'
+  name: unified-ui-55796949fc-wgqst
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: unified-ui-55796949fc
+    uid: d11dcec5-6119-4c11-8c56-b850c4a0207c
+  resourceVersion: '8615500'
+  uid: 3d3b9ef8-53dc-4c1b-9fb7-ae5a5bdf6c94
+spec:
+  containers:
+  - args:
+    - export SECRET_KEY=`cat /opt/ericsson/unified-ui/etc/secret_key`; exec ${CELERY_BIN}
+      -A $(CELERY_APP) worker --loglevel $(CELERYD_LOG_LEVEL) $(CELERYD_OPTS)
+    command:
+    - /bin/sh
+    - -c
+    env:
+    - name: DJANGO_SETTINGS_MODULE
+      value: envivio.unified.ui.settings
+    - name: UNIFIED_UI_CONFIG
+      value: /opt/ericsson/unified-ui/etc/unified-ui.ini
+    - name: STATICFILES_STORAGE
+      value: django.contrib.staticfiles.storage.StaticFilesStorage
+    - name: CELERY_APP
+      value: envivio.unified.ui
+    - name: CELERYD_NODES
+      value: ericssonuiworker1
+    - name: CELERYD_OPTS
+      value: -Ofair
+    - name: CELERY_BIN
+      value: /usr/local/bin/celery
+    - name: CELERYD_LOG_LEVEL
+      value: INFO
+    - name: CELERYD_LOG_FILE
+      value: /dev/stdout
+    - name: CELERYD_TASK_SOFT_TIME_LIMIT
+      value: '3300'
+    - name: CELERYD_TASK_TIME_LIMIT
+      value: '3600'
+    - name: CELERYD_MAX_TASKS_PER_CHILD
+      value: '1'
+    - name: CELERY_RESULT_BACKEND
+      value: rpc://
+    - name: GATEWAY
+      value: http://api-gateway:8080
+    image: packages.mediakind.com/mpd-docker/mediakind/unified-ui:1.189.17
+    imagePullPolicy: IfNotPresent
+    name: celery
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: false
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /tmp
+      name: ui-tmp
+    - mountPath: /dumps
+      name: backup-dir
+    - mountPath: /etc/pki/authentication/private/authentication.key
+      name: api-certificate
+      subPath: tls.key
+    - mountPath: /etc/pki/authentication/certs/authentication.crt
+      name: api-certificate
+      subPath: tls.crt
+    - mountPath: /opt/ericsson/unified-ui/etc/unified-ui.ini
+      name: ui-config
+      subPath: unified-ui.ini
+    - mountPath: /opt/ericsson/unified-ui/etc/secret_key
+      name: ui-config
+      subPath: secret_key
+    - mountPath: /src/envivio/unified/ui/settings/logging.json
+      name: ui-config
+      subPath: logging.json
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-c4trr
+      readOnly: true
+  - args:
+    - export SECRET_KEY=`cat /opt/ericsson/unified-ui/etc/secret_key`; exec ${CELERY_BIN}
+      -A $(CELERY_APP) beat --loglevel $(CELERYBEAT_LOG_LEVEL) --pidfile=
+    command:
+    - /bin/sh
+    - -c
+    env:
+    - name: DJANGO_SETTINGS_MODULE
+      value: envivio.unified.ui.settings
+    - name: UNIFIED_UI_CONFIG
+      value: /op

@@ -1,0 +1,438 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:51:35Z'
+  generateName: support-package-588855995d-
+  labels:
+    app.kubernetes.io/component: support-package
+    app.kubernetes.io/instance: support-package
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: support-package
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.31.9
+    helm.sh/chart: support-package-1.31.9
+    pod-template-hash: 588855995d
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+          f:pod-template-hash: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"76adc0a8-b5e9-4b65-abbb-35cd9241e361"}: {}
+      f:spec:
+        f:containers:
+          k:{"name":"reboot-api"}:
+            .: {}
+            f:args: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:livenessProbe:
+              .: {}
+              f:failureThreshold: {}
+              f:httpGet:
+                .: {}
+                f:path: {}
+                f:port: {}
+                f:scheme: {}
+              f:initialDelaySeconds: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:name: {}
+            f:ports:
+              .: {}
+              k:{"containerPort":8016,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:hostPort: {}
+                f:name: {}
+                f:protocol: {}
+            f:resources: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/run/mediakind"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+              k:{"mountPath":"/src/mediakind/support/config/config.ini"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/src/mediakind/support/config/logging.json"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+          k:{"name":"support"}:
+            .: {}
+            f:args: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:livenessProbe:
+              .: {}
+              f:failureThreshold: {}
+              f:httpGet:
+                .: {}
+                f:path: {}
+                f:port: {}
+                f:scheme: {}
+              f:initialDelaySeconds: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:name: {}
+            f:ports:
+              .: {}
+              k:{"containerPort":8062,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:name: {}
+                f:protocol: {}
+            f:readinessProbe:
+              .: {}
+              f:failureThreshold: {}
+              f:httpGet:
+                .: {}
+                f:path: {}
+                f:port: {}
+                f:scheme: {}
+              f:initialDelaySeconds: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:resources: {}
+            f:securityContext:
+              .: {}
+              f:allowPrivilegeEscalation: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/src/mediakind/support/config/config.ini"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/src/mediakind/support/config/logging.json"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/tmp"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+              k:{"mountPath":"/var/log"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+        f:dnsPolicy: {}
+        f:enableServiceLinks: {}
+        f:restartPolicy: {}
+        f:schedulerName: {}
+        f:securityContext:
+          .: {}
+          f:fsGroup: {}
+          f:runAsUser: {}
+        f:serviceAccount: {}
+        f:serviceAccountName: {}
+        f:terminationGracePeriodSeconds: {}
+        f:volumes:
+          .: {}
+          k:{"name":"config"}:
+            .: {}
+            f:configMap:
+              .: {}
+              f:defaultMode: {}
+              f:name: {}
+            f:name: {}
+          k:{"name":"logs"}:
+            .: {}
+            f:hostPath:
+              .: {}
+              f:path: {}
+              f:type: {}
+            f:name: {}
+          k:{"name":"reboot-directory"}:
+            .: {}
+            f:hostPath:
+              .: {}
+              f:path: {}
+              f:type: {}
+            f:name: {}
+          k:{"name":"tmp"}:
+            .: {}
+            f:emptyDir: {}
+            f:name: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T06:51:35Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:conditions:
+          k:{"type":"ContainersReady"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Initialized"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Ready"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+        f:containerStatuses: {}
+        f:hostIP: {}
+        f:phase: {}
+        f:podIP: {}
+        f:podIPs:
+          .: {}
+          k:{"ip":"10.42.0.180"}:
+            .: {}
+            f:ip: {}
+        f:startTime: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:28:57Z'
+  name: support-package-588855995d-cwk9f
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: support-package-588855995d
+    uid: 76adc0a8-b5e9-4b65-abbb-35cd9241e361
+  resourceVersion: '8615103'
+  uid: c767d6a6-02ae-4b23-a0cd-bd494bfa6387
+spec:
+  containers:
+  - args:
+    - /src/mediakind/support/app.py
+    - --conf
+    - /src/mediakind/support/config/config.ini
+    - --logging
+    - /src/mediakind/support/config/logging.json
+    image: packages.mediakind.com/mpd-docker/mediakind/support-package:1.31.9
+    imagePullPolicy: IfNotPresent
+    livenessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /api/liveness
+        port: restapi
+        scheme: HTTP
+      initialDelaySeconds: 30
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 1
+    name: support
+    ports:
+    - containerPort: 8062
+      name: restapi
+      protocol: TCP
+    readinessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /api/liveness
+        port: restapi
+        scheme: HTTP
+      initialDelaySeconds: 20
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 1
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: false
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /src/mediakind/support/config/config.ini
+      name: config
+      subPath: config.ini
+    - mountPath: /src/mediakind/support/config/logging.json
+      name: config
+      subPath: logging.json
+    - mountPath: /tmp
+      name: tmp
+    - mountPath: /var/log
+      name: logs
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-qx7vm
+      readOnly: true
+  - args:
+    - /src/mediakind/reboot/app.py
+    - --conf
+    - /src/mediakind/support/config/config.ini
+    - --logging
+    - /src/mediakind/support/config/logging.json
+    image: packages.mediakind.com/mpd-docker/mediakind/support-package:1.31.9
+    imagePullPolicy: IfNotPresent
+    livenessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /api/liveness
+        port: restapi
+        scheme: HTTP
+      initialDelaySeconds: 30
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 1
+    name: reboot-api
+    ports:
+    - containerPort: 8016
+      hostPort: 8016
+      name: reboot-api
+      protocol: TCP
+    resources: {}
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /src/mediakind/support/config/config.ini
+      name: config
+      subPath: config.ini
+    - mountPath: /src/mediakind/support/config/logging.json
+      name: config
+      subPath: logging.json
+    - mountPath: /run/mediakind
+      name: reboot-directory
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-qx7vm
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: false
+  nodeName: mediakind-k3s
+  preemptionPolicy: PreemptLowerPriority
+  priority: 0
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext:
+    fsGroup: 2
+    runAsUser: 2
+  serviceAccount: support-package
+  serviceAccountName: support-package
+  terminationGracePeriodSeconds: 0
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - configMap:
+      defaultMode: 420
+      name: support-package-config
+    name: config
+  - emptyDir: {}
+    name: tmp
+  - hostPath:
+      path: /var/log
+      type: Directory
+    name: logs
+  - hostPath:
+      path: /run/mediakind
+      type: Directory
+    name: reboot-directory
+  - name: kube-api-access-qx7vm
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T06:51:35Z'
+    status: 'True'
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:28:56Z'
+    status: 'True'
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:28:56Z'
+    status: 'True'
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T06:51:35Z'
+    status: 'True'
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://5762e69f28845f6077364449468a77a4f812c077a653599d157a5bdb4b82df64
+    image: packages.mediakind.com/mpd-docker/mediakind/support-package:1.31.9
+    imageID: sha256:eb716968aaf86ff0a2ab6e2130a6f365470140ee43c32fb83ac8f3c9710e9612
+    lastState:
+      terminated:
+        containerID: containerd://c19eb9cb2de0e22af8f5ee9c15e21c711ddde7377efeb5d7b96f55eca1a8b8b7
+        exitCode: 255
+        finishedAt: '2024-02-06T13:27:47Z'
+        reason: Unknown
+        startedAt: '2024-02-06T08:36:09Z'
+    name: reboot-api
+    ready: true
+    restartCount: 11
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:28:29Z'
+  - containerID: containerd://f4b7c0f800ed5ce616d8863bf2af53abe2778b2747859e920d3b40053290fa05
+    image: packages.mediakind.com/mpd-docker/mediakind/support-package:1.31.9
+    imageID: sha256:eb716968aaf86ff0a2ab6e2130a6f365470140ee43c32fb83ac8f3c9710e9612
+    lastState:
+      terminated:
+        containerID: containerd://c35abfb20e90a5db99139c75e7174d4d665d844955f903c7aa5ad14b034e0a0c
+        exitCode: 255
+        finishedAt: '2024-02-06T13:27:47Z'
+        reason: Unknown
+        startedAt: '2024-02-06T08:36:08Z'
+    name: support
+    ready: true
+    restartCount: 11
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:28:28Z'
+  hostIP: 192.168.255.1
+  phase: Running
+  podIP: 10.42.0.180
+  podIPs:
+  - ip: 10.42.0.180
+  qosClass: BestEffort
+  startTime: '2023-12-14T06:51:35Z'

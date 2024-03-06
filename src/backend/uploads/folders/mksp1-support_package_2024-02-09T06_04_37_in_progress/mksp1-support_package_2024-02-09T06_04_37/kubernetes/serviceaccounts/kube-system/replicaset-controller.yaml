@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:24Z'
+  name: replicaset-controller
+  namespace: kube-system
+  resourceVersion: '393'
+  uid: ad52c7ba-2eca-4f79-ae4c-30a1918b563a
+secrets:
+- name: replicaset-controller-token-x6r26

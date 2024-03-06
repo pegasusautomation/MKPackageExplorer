@@ -1,0 +1,68 @@
+metadata:
+  annotations:
+    objectset.rio.cattle.io/applied: H4sIAAAAAAAA/4SQQWvjMBCF/8oyZzkbx06cFexh2WMpBFp6KT2M5Umi2pGEZuJSgv97kZNCQpvmJKQ37833dAAM9okiW+9AQ5+Dgta6BjQ8UOytIVCwI8EGBUEfAJ3zgmK943T19SsZYZJJtH5iUKSjifW/bUoAdVX3b45itulb0NAWfKb0ufp1Z13z91/TeHczwuGOQCfEaA1nTLGnOB5H9ttuDmhSRLuvKeN3FtrBoKDDmrqxYxKiIyFORtPtWc5WaJC4T5sux05c9xdcP/BskbegAedNUZvFNDfLKqd8VqyxmNWzaj0v/9QLwqqa1mZdYiL8tjoc36+U4kAmVQo+CoN+PnyGbEUCgxoF0GVZKAjRize+Aw2P/1egQDBuSFbjxMkwvChg6siIj+NXLTnDEL5SDcPwEQAA//8Uey7TawIAAA
+    objectset.rio.cattle.io/id: ''
+    objectset.rio.cattle.io/owner-gvk: k3s.cattle.io/v1, Kind=Addon
+    objectset.rio.cattle.io/owner-name: metrics-server-service
+    objectset.rio.cattle.io/owner-namespace: kube-system
+  creationTimestamp: '2023-12-14T06:48:14Z'
+  labels:
+    kubernetes.io/cluster-service: 'true'
+    kubernetes.io/name: Metrics-server
+    objectset.rio.cattle.io/hash: a5d3bc601c871e123fa32b27f549b6ea770bcf4a
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:objectset.rio.cattle.io/applied: {}
+          f:objectset.rio.cattle.io/id: {}
+          f:objectset.rio.cattle.io/owner-gvk: {}
+          f:objectset.rio.cattle.io/owner-name: {}
+          f:objectset.rio.cattle.io/owner-namespace: {}
+        f:labels:
+          .: {}
+          f:kubernetes.io/cluster-service: {}
+          f:kubernetes.io/name: {}
+          f:objectset.rio.cattle.io/hash: {}
+      f:spec:
+        f:internalTrafficPolicy: {}
+        f:ports:
+          .: {}
+          k:{"port":443,"protocol":"TCP"}:
+            .: {}
+            f:name: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+        f:selector: {}
+        f:sessionAffinity: {}
+        f:type: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:14Z'
+  name: metrics-server
+  namespace: kube-system
+  resourceVersion: '351'
+  uid: cac4e778-54a9-4d40-9ee2-5a29ce127a76
+spec:
+  clusterIP: 10.43.200.215
+  clusterIPs:
+  - 10.43.200.215
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: https
+    port: 443
+    protocol: TCP
+    targetPort: https
+  selector:
+    k8s-app: metrics-server
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

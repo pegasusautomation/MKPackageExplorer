@@ -1,0 +1,70 @@
+data:
+  client-ca-file: '-----BEGIN CERTIFICATE-----
+
+    MIIBdzCCAR2gAwIBAgIBADAKBggqhkjOPQQDAjAjMSEwHwYDVQQDDBhrM3MtY2xp
+
+    ZW50LWNhQDE3MDI1MzY0ODYwHhcNMjMxMjE0MDY0ODA2WhcNMzMxMjExMDY0ODA2
+
+    WjAjMSEwHwYDVQQDDBhrM3MtY2xpZW50LWNhQDE3MDI1MzY0ODYwWTATBgcqhkjO
+
+    PQIBBggqhkjOPQMBBwNCAAQr84cbL/tq8VSn0h5MrVOwRndUnwIpeCUcGccPc1eJ
+
+    2C9I/Yl3Lz4JmNyQ8CFME+TCojql+lLlAHMmts9lUyToo0IwQDAOBgNVHQ8BAf8E
+
+    BAMCAqQwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUO07lqxPu50vT0bk7QAAS
+
+    k345g0QwCgYIKoZIzj0EAwIDSAAwRQIgKSYj5zCFZ3UgDsvVLJhf/SKno+2OR9OJ
+
+    8VO7DVs5qfECIQDM1wQ/WyJZ2Y8zgn+EHTbM4NPbTd/LD0BVmt2QFObwPQ==
+
+    -----END CERTIFICATE-----
+
+    '
+  requestheader-allowed-names: '["system:auth-proxy"]'
+  requestheader-client-ca-file: '-----BEGIN CERTIFICATE-----
+
+    MIIBiDCCAS2gAwIBAgIBADAKBggqhkjOPQQDAjArMSkwJwYDVQQDDCBrM3MtcmVx
+
+    dWVzdC1oZWFkZXItY2FAMTcwMjUzNjQ4NjAeFw0yMzEyMTQwNjQ4MDZaFw0zMzEy
+
+    MTEwNjQ4MDZaMCsxKTAnBgNVBAMMIGszcy1yZXF1ZXN0LWhlYWRlci1jYUAxNzAy
+
+    NTM2NDg2MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEH87jp+bza+LkPM40EXss
+
+    xDl0pdLBQTcmZd9MQQFO0gqg36RwV/EZ0i71RzuyCBvYU7W2bIK1VT+2EAnAENfA
+
+    ZaNCMEAwDgYDVR0PAQH/BAQDAgKkMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYE
+
+    FIF3s5IYPn9WzFzq9Vn/2OYolCbcMAoGCCqGSM49BAMCA0kAMEYCIQC0skhkvDfT
+
+    oi4cmqqSrqgY7QkA8CgjbGAVCaLbcTk6fQIhAKuqBoxm+ZWri2MLo3t4Le5WF3ee
+
+    1hlQSQxRKiUdvYXk
+
+    -----END CERTIFICATE-----
+
+    '
+  requestheader-extra-headers-prefix: '["X-Remote-Extra-"]'
+  requestheader-group-headers: '["X-Remote-Group"]'
+  requestheader-username-headers: '["X-Remote-User"]'
+metadata:
+  creationTimestamp: '2023-12-14T06:48:08Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:client-ca-file: {}
+        f:requestheader-allowed-names: {}
+        f:requestheader-client-ca-file: {}
+        f:requestheader-extra-headers-prefix: {}
+        f:requestheader-group-headers: {}
+        f:requestheader-username-headers: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T06:48:08Z'
+  name: extension-apiserver-authentication
+  namespace: kube-system
+  resourceVersion: '29'
+  uid: 6224ea60-771c-4a5b-8f57-ccddcdb1971b

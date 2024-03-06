@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:13Z'
+  name: ttl-controller
+  namespace: kube-system
+  resourceVersion: '342'
+  uid: 6d8f36a9-b4d7-4c39-a82e-d91624e104b0
+secrets:
+- name: ttl-controller-token-wzpxb

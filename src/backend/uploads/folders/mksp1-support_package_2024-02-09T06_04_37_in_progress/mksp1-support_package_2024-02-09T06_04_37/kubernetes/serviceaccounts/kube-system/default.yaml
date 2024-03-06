@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:24Z'
+  name: default
+  namespace: kube-system
+  resourceVersion: '410'
+  uid: 5ec3e0f6-303d-462f-8f96-f18def38587d
+secrets:
+- name: default-token-k2cb7

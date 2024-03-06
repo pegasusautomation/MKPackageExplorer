@@ -1,0 +1,25 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:56:52Z'
+  labels:
+    kubernetes.io/metadata.name: cert-manager
+    name: cert-manager
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:labels:
+          .: {}
+          f:kubernetes.io/metadata.name: {}
+          f:name: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T06:56:52Z'
+  name: cert-manager
+  resourceVersion: '816'
+  uid: 6df6d73e-1623-459d-8001-0c7db7f38c26
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active

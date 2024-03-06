@@ -1,0 +1,36 @@
+[
+    {
+        "_id": {
+            "$oid": "657ad466a2a0cdefd90acea8"
+        },
+        "can_be_deleted": true,
+        "can_be_rebooted": true,
+        "hide_server": false,
+        "server_id": "mksp1",
+        "support_package_url": "/ui/supportpkg/mksp1",
+        "supported_service_types": [
+            "controller",
+            "licensing",
+            "mux"
+        ],
+        "tags": [],
+        "timeout": 10
+    },
+    {
+        "_id": {
+            "$oid": "657ad8dc10a4fb284fbd0a16"
+        },
+        "can_be_deleted": true,
+        "can_be_rebooted": true,
+        "hide_server": false,
+        "server_id": "mksp2",
+        "support_package_url": "/ui/supportpkg/mksp2",
+        "supported_service_types": [
+            "controller",
+            "licensing",
+            "mux"
+        ],
+        "tags": [],
+        "timeout": 10
+    }
+]

@@ -1,0 +1,47 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: cert-manager
+    meta.helm.sh/release-namespace: cert-manager
+  creationTimestamp: '2023-12-14T06:56:52Z'
+  labels:
+    app: cert-manager
+    app.kubernetes.io/component: controller
+    app.kubernetes.io/instance: cert-manager
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: cert-manager
+    app.kubernetes.io/version: v1.5.3
+    helm.sh/chart: cert-manager-v1.5.3
+  managedFields:
+  - apiVersion: rbac.authorization.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:roleRef: {}
+      f:subjects: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T06:56:52Z'
+  name: cert-manager-controller-ingress-shim
+  resourceVersion: '868'
+  uid: 1f8f9d87-32ad-4c09-8c4b-edcb1bce436f
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cert-manager-controller-ingress-shim
+subjects:
+- kind: ServiceAccount
+  name: cert-manager
+  namespace: cert-manager

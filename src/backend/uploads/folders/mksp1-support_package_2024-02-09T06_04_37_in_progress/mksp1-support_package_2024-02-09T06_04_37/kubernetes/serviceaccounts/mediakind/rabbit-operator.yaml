@@ -1,0 +1,49 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: rabbit-operator
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: rabbit-operator
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.24.1
+    helm.sh/chart: rabbit-operator-0.24.1
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:secrets:
+        .: {}
+        k:{"name":"rabbit-operator-token-v9l4x"}: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  name: rabbit-operator
+  namespace: mediakind
+  resourceVersion: '18825'
+  uid: 91941de5-bc69-408c-b17a-8d3e97edcbd4
+secrets:
+- name: rabbit-operator-token-v9l4x

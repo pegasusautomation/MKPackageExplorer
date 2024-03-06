@@ -1,0 +1,79 @@
+apiVersion: cert-manager.io/v1
+kind: CertificateRequest
+metadata:
+  annotations:
+    cert-manager.io/certificate-name: unified-ui-cert-tls
+    cert-manager.io/certificate-revision: '1'
+    cert-manager.io/private-key-secret-name: unified-ui-cert-tls-vtstw
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:18Z'
+  generateName: unified-ui-cert-tls-
+  generation: 1
+  labels:
+    app.kubernetes.io/component: api-gateway
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: api-gateway
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.29.21
+    helm.sh/chart: api-gateway-1.29.21
+  managedFields:
+  - apiVersion: cert-manager.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status: {}
+    manager: controller
+    operation: Update
+    time: '2023-12-14T10:09:18Z'
+  - apiVersion: cert-manager.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:ca: {}
+        f:certificate: {}
+        f:conditions: {}
+    manager: controller
+    operation: Update
+    time: '2023-12-14T10:09:18Z'
+  name: unified-ui-cert-tls-dfcs6
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: cert-manager.io/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Certificate
+    name: unified-ui-cert-tls
+    uid: e614810d-4354-45bc-ad03-0cd74e93f9a1
+  resourceVersion: '19052'
+  uid: 91e303aa-72db-4086-9b9a-15124acfcf83
+spec:
+  extra:
+    authentication.kubernetes.io/pod-name:
+    - cert-manager-7cd4d77f86-srqgs
+    authentication.kubernetes.io/pod-uid:
+    - 4c208f0f-d59d-4b3d-94f6-21890b569538
+  groups:
+  - system:serviceaccounts
+  - system:serviceaccounts:cert-manager
+  - system:authenticated
+  issuerRef:
+    kind: Issuer
+    name: issuer
+  request: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURSBSRVFVRVNULS0tLS0KTUlJQ296Q0NBWXNDQVFBd0tERVFNQTRHQTFVRUNoTUhaWGhoYlhCc1pURVVNQklHQTFVRUF4TUxaWGhoYlhCcwpaUzVqYjIwd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUURDSVJGdUtYdmpwNUlaCnBGYW05bklvb09xWFBQbUlDd21GWnJzUGV1dXVOSi84dVVmeHhoWktUL2liMy9VeTdOaVd2cXhtTVV2UURLTmcKZzhrS0l5VVNKTTVjN2VYamRYQzMxMUdhdEg3cFN5NW5oSWFwZlI2cVQxZlg2U1ZqSVJzczhtS0J6aXg5MWNWcwpRSzdYeXA2NkJJUEdFUkg5MjgxOWozZmNoVlR4VjVRQWdUeXdyUzlDTnFzU3ExUnVKWlVMVkRzWUdNMTJmSXZxCnYxVnJ4UFdMYno2NXBNaUdtRkRWVmRJZ2pLOTNyQk1VNlNiQmdxRmNBV1BKWUF3TkR1d2h5L204MVJFZ1Y0eVIKb0d3Y2xFbHBJRzhoa0JGMVRxMWlOMmlWUlo0NU5aQkNiU0sxTXA4V1N2TjBNa1ErWDVVbEZpczhmQmtjT1JkLwoxMlFUeTM1eEFnTUJBQUdnTmpBMEJna3Foa2lHOXcwQkNRNHhKekFsTUJZR0ExVWRFUVFQTUEyQ0MyVjRZVzF3CmJHVXVZMjl0TUFzR0ExVWREd1FFQXdJRm9EQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFFOWRhbk1HdTJXamgKYjRJN0VWYUIzdnQvYlpqQTNBbnowSnI5YzJMUGVmajVlRFZxRXl1VHVkbmlKbzZDUm05Unl3SkdaMGtCWmYydAo2ek9BbWJwQm1ZM3A1cmdPTStEWlJVN1F0NWdYZ2xwczcwa213d3cvbkFPTzNLNTNjM3BXakx1TWxDMFhTTjhrCnhlSjJXOTRpdldDWGhzWGtTcVQ0Q2dGWWM3aENpTUpKb2d3UEVSSVNuSXc5M09uemhGcS9iaFBaNHE3SGxFS0sKV0ZYSUZNUzJhZGsrVUR4T1ZqaFoweTJGRjhrbzRlRzlYalhtTDhVVVo2TW9ROGdDQTNSMm10VkpJakFKS3FRNAp1YW9OZlgyVVNYaXovcXBtTGZaL1JzSDVBUWhkSzhPNWVqS3c2VkxBL3lPRFhoeldWaTRRaEpjS2JvWE1RVTRVCmlNTXBMc1RYTkE9PQotLS0tLUVORCBDRVJUSUZJQ0FURSBSRVFVRVNULS0tLS0K
+  uid: 1e987b7b-fa4b-4c9c-b818-e772b3119470
+  username: system:serviceaccount:cert-manager:cert-manager
+status:
+  ca: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUREekNDQWZlZ0F3SUJBZ0lVRE9uYnA5WEl1aTlEVWtqVU9iV3BBR0VRRC9Jd0RRWUpLb1pJaHZjTkFRRUwKQlFBd0Z6RVZNQk1HQTFVRUF3d01iV1ZrYVdGcmFXNWtMbWx2TUI0WERUSXpNVEl4TkRBMk5UWTFNVm9YRFRNegpNVEl4TVRBMk5UWTFNVm93RnpFVk1CTUdBMVVFQXd3TWJXVmthV0ZyYVc1a0xtbHZNSUlCSWpBTkJna3Foa2lHCjl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzREdDeUZHMGlHYXZmbHQ3dXhEcmNZWS9sNXF5OGFCdGVtbncKQ3llN1I0WW9zZlU2eVZOdjdlSGl3YTJnNkozUldtK1p6cEF2bENhQjBqME1aY2R4V1ZQVm5nZ1NnN0VTcm95TApDOTgwSFdFc3dQOVl0SW4vSHNDOHZWY2toT1JtcGlETmU0T0RYUFFxdGRWaEM3WXB1SmRVYkhnZ011YjFYUERZCllXTFFKS1VxRTlZbEdUb2RsdFJQUFBqOGdjL2o1RVVMNVVsSU9lZkI3NHFrVVdYY2VtU0t1d21McWVnbXV4ajIKU01TMXIzSGdoRitKNWJvTnpXU0puV0YzWGw5NXpkc09aajRDR01IVW5lVzkxaVBnbmVjaTZ3amY3ejZtcWdPZApnc2xhMEE5NGlCR05tb3lwdkVZRFBja2hjZ3ZuU2kvWmF5SmgyM1pJbFU0Qnd3Q2xJUUlEQVFBQm8xTXdVVEFkCkJnTlZIUTRFRmdRVTJrUkpvRVNMVmlheEJUeU9Ed1FhdkRkbURlUXdId1lEVlIwakJCZ3dGb0FVMmtSSm9FU0wKVmlheEJUeU9Ed1FhdkRkbURlUXdEd1lEVlIwVEFRSC9CQVV3QXdFQi96QU5CZ2txaGtpRzl3MEJBUXNGQUFPQwpBUUVBb1IvdGdFa0xMRWxoYzVZdFBtME1TV2EzRHN3R2gwT01QM01EVEdHRmtydkJUQzFmUkVuRFl5WVU1Mlg3CmlpVGJSNGIvMDRUSElrNHdCVGtrcklTZG9IZjQ2U3doTjBYK3ZvSytMUXNKMzRzS0JqN3lFNjVZUVVMUU1wQ3IKWWM4bFRqRHltV3AxejUyUTJuZ0Y5ZEVjOUVRbkZXd29XTWx5bTR1TGNkQ2U1UWxRWHJyZUxleG1FME9ndmpsRQo3YTZ6cEdKZmxDYmVocVd3eSttNXR5OFJDRGZjSHhjSkRJaUlZRzlhVlZYMkpSckZDRkRBWUJpTnV5NndOQU5uCk9KdTRGdURqN28zTVFHdVZ5S0VqdUxTeElSV01LVGI4MXZvYmViYnptK0ZjRGJaeTcxQTRhNnQzajFYVnZRNDcKZVN1RGgzWU1Wa3o3QlhMOVNMcFJxRWhDQ1E9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+  certificate: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURJekNDQWd1Z0F3SUJBZ0lSQU1lVE5NR0traU16QmI0NmFqWmJuRVF3RFFZSktvWklodmNOQVFFTEJRQXcKRnpFVk1CTUdBMVVFQXd3TWJXVmthV0ZyYVc1a0xtbHZNQjRYRFRJek1USXhOREV3TURreE9Gb1hEVEkwTURNeApNekV3TURreE9Gb3dLREVRTUE0R0ExVUVDaE1IWlhoaGJYQnNaVEVVTUJJR0ExVUVBeE1MWlhoaGJYQnNaUzVqCmIyMHdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFEQ0lSRnVLWHZqcDVJWnBGYW0KOW5Jb29PcVhQUG1JQ3dtRlpyc1BldXV1TkovOHVVZnh4aFpLVC9pYjMvVXk3TmlXdnF4bU1VdlFES05nZzhrSwpJeVVTSk01YzdlWGpkWEMzMTFHYXRIN3BTeTVuaElhcGZSNnFUMWZYNlNWaklSc3M4bUtCeml4OTFjVnNRSzdYCnlwNjZCSVBHRVJIOTI4MTlqM2ZjaFZUeFY1UUFnVHl3clM5Q05xc1NxMVJ1SlpVTFZEc1lHTTEyZkl2cXYxVnIKeFBXTGJ6NjVwTWlHbUZEVlZkSWdqSzkzckJNVTZTYkJncUZjQVdQSllBd05EdXdoeS9tODFSRWdWNHlSb0d3YwpsRWxwSUc4aGtCRjFUcTFpTjJpVlJaNDVOWkJDYlNLMU1wOFdTdk4wTWtRK1g1VWxGaXM4ZkJrY09SZC8xMlFUCnkzNXhBZ01CQUFHaldUQlhNQTRHQTFVZER3RUIvd1FFQXdJRm9EQU1CZ05WSFJNQkFmOEVBakFBTUI4R0ExVWQKSXdRWU1CYUFGTnBFU2FCRWkxWW1zUVU4amc4RUdydzNaZzNrTUJZR0ExVWRFUVFQTUEyQ0MyVjRZVzF3YkdVdQpZMjl0TUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFBZzNrWmxFV0FPbHVoVEpYSFFabkE2Y25HWEtMVGFnMitsCkovZm9nbGkwZTBaSXFkclhqcmhQWEFwUWtpeEMwb2hTOFhIanEzUSt3Z2pqYzZxbm5hMmxKeENSQXRObjdocEEKRGlvYjZRQmU5UzZyZFVXTXNYMEhtUWpNWS9ITENySHJjQXBLeVlFU2JJQ1dkMThKQkRmV25LQTZkanlmUEMxSgpZN0xkSFNRU3RDY21JWFpnaVd3NnZRU1NZdkJaYzZZVmJ0aWxCdWNSa2F6MVhXN09lK2FycCtNUFRNOXNTTFBmCkoxRGQ4R2FOVlRETmdubEtYVk9VaXpvaWIyWUtla21TK0RBbk1xY0hxYlhsdkUzYnNvVXlQRU9qOWdwR3BLSG0KT25JUkhudlYrazZhbXgrZHpPMkNmWnNNYXJVQnU2M2xwYS9oYk1YNzc4NTlaQ2YyNmZsTgotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+  conditions:
+  - lastTransitionTime: '2023-12-14T10:09:18Z'
+    message: Certificate request has been approved by cert-manager.io
+    reason: cert-manager.io
+    status: 'True'
+    type: Approved
+  - lastTransitionTime: '2023-12-14T10:09:18Z'
+    message: Certificate fetched from issuer successfully
+    reason: Issued
+    status: 'True'
+    type: Ready

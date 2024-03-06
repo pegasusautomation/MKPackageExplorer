@@ -1,0 +1,39 @@
+description: Priority class for MK Controller microservice pods required in order
+  to access other microservices
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mk-deps
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T06:57:18Z'
+  generation: 1
+  labels:
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: pod-priority-classes
+    helm.sh/chart: pod-priority-classes-0.0.2
+  managedFields:
+  - apiVersion: scheduling.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:description: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:helm.sh/chart: {}
+      f:preemptionPolicy: {}
+      f:value: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T06:57:18Z'
+  name: controller-high-priority
+  resourceVersion: '1149'
+  uid: f8e29bbf-b43e-4359-9346-7738c17427c2
+preemptionPolicy: Never
+value: 1000000

@@ -1,0 +1,624 @@
+dvancedSettings": {
+                                    "comp_forceNotScrambled": false
+                                },
+                                "componentContributesForHealth": false,
+                                "componentName": "Audio (102)",
+                                "includesPcr": false,
+                                "inputId": "/inputs/inp_2220184247",
+                                "missingPidAlarmEnabled": false,
+                                "missingPidRaiseTimeMs": 500,
+                                "outputPid": 102,
+                                "outputStreamType": 3,
+                                "psisi": {
+                                    "descriptorRegeneration": "Off",
+                                    "descriptors": [
+                                        {
+                                            "data": "02",
+                                            "id": "des_196438257",
+                                            "name": "StreamIdentifierDescriptor_0",
+                                            "regeneration": "add",
+                                            "tag": 82
+                                        },
+                                        {
+                                            "data": "656E6700",
+                                            "id": "des_1774262070",
+                                            "name": "ISO639LanguageDescriptor_1",
+                                            "regeneration": "add",
+                                            "tag": 10
+                                        },
+                                        {
+                                            "data": "67",
+                                            "id": "des_1113671637",
+                                            "name": "AudioStreamDescriptor_2",
+                                            "regeneration": "add",
+                                            "tag": 3
+                                        }
+                                    ],
+                                    "inputProgram": 1
+                                },
+                                "scgId": "",
+                                "selection": {
+                                    "inputPid": 102,
+                                    "mode": "pid"
+                                },
+                                "type": "audio"
+                            }
+                        },
+                        "destinations": [
+                            {
+                                "address": "239.30.1.1",
+                                "advancedSettings": {
+                                    "rtpSsrc": ""
+                                },
+                                "encapsulation": {
+                                    "fecInterleavingScheme": "",
+                                    "fecProtectionMode": "",
+                                    "mode": "rtp",
+                                    "numberOfColumnsFec": 1,
+                                    "numberOfRowsFec": 4
+                                },
+                                "id": "des_754563048",
+                                "interfaceType": "ip",
+                                "networkInterfaceName": "eth1",
+                                "outputName": "Output",
+                                "overrideSourceAddress": true,
+                                "port": 5000,
+                                "serverSelection": "",
+                                "sourceAddress": "10.69.14.33",
+                                "sourcePort": 0,
+                                "transmitClear": false,
+                                "ttl": 128
+                            },
+                            {
+                                "advancedSettings": {
+                                    "rtpSsrc": ""
+                                },
+                                "connectors": [
+                                    5
+                                ],
+                                "encapsulation": {
+                                    "fecInterleavingScheme": "",
+                                    "fecProtectionMode": "",
+                                    "mode": "udp",
+                                    "numberOfColumnsFec": 1,
+                                    "numberOfRowsFec": 4
+                                },
+                                "id": "des_3451238287",
+                                "interfaceType": "asi",
+                                "outputName": "Output",
+                                "overrideSourceAddress": false,
+                                "serverSelection": "",
+                                "transmitClear": false,
+                                "ttl": 64
+                            }
+                        ],
+                        "emms": [],
+                        "nullBitRate": 0,
+                        "psisi": {
+                            "bat": {
+                                "enabled": "Off",
+                                "repetitionRate": 100
+                            },
+                            "cat": {
+                                "enabled": "On",
+                                "repetitionRate": 100
+                            },
+                            "enabled": "On",
+                            "nit": {
+                                "descriptorRegeneration": "On",
+                                "descriptors": [
+                                    {
+                                        "id": "des_2745963289",
+                                        "regeneration": "add",
+                                        "settings": {
+                                            "name": "CP"
+                                        },
+                                        "tag": 64
+                                    }
+                                ],
+                                "enabled": "Off",
+                                "networkId": 1234,
+                                "repetitionRate": 8000,
+                                "transportStreams": [
+                                    {
+                                        "descriptors": [],
+                                        "id": "nts_1846175713",
+                                        "originalNetworkId": 1234,
+                                        "transportStreamId": 1
+                                    }
+                                ]
+                            },
+                            "nitOther": {
+                                "enabled": "Off",
+                                "repetitionRate": 100
+                            },
+                            "originalNetworkId": 1234,
+                            "pat": {
+                                "enabled": "On",
+                                "repetitionRate": 100
+                            },
+                            "pmt": {
+                                "enabled": "On",
+                                "repetitionRate": 100
+                            },
+                            "sdt": {
+                                "enabled": "On",
+                                "repetitionRate": 1000
+                            },
+                            "sdtOther": {
+                                "enabled": "Off",
+                                "repetitionRate": 100
+                            },
+                            "tdt": {
+                                "enabled": "On",
+                                "repetitionRate": 1000
+                            },
+                            "tot": {
+                                "descriptors": [],
+                                "enabled": "On",
+                                "repetitionRate": 1000
+                            },
+                            "transportStreamId": 1
+                        },
+                        "services": [
+                            {
+                                "componentIds": [
+                                    "/outputs/TS1/components/com_1905091193",
+                                    "/outputs/TS1/components/com_3791917556"
+                                ],
+                                "id": "ser_3074643753",
+                                "passthrough": {
+                                    "componentsContributeForHealth": true,
+                                    "enabled": "Off",
+                                    "inputId": "/inputs/inp_2220184247",
+                                    "inputProgram": 0,
+                                    "scgId": ""
+                                },
+                                "pcrComponentId": "/outputs/TS1/components/com_1905091193",
+                                "pcrMode": "Reference",
+                                "pmtPid": 100,
+                                "programNumber": 1,
+                                "psisi": {
+                                    "descriptorRegeneration": "Off",
+                                    "descriptors": [
+                                        {
+                                            "data": "80B48168",
+                                            "id": "des_3443119284",
+                                            "name": "MultiplexBufferUtilizationDescriptor_0",
+                                            "regeneration": "add",
+                                            "table": "pmt",
+                                            "tag": 12
+                                        },
+                                        {
+                                            "data": "01096D6B206370206C6162114D4B454C30312D20736572766963653031",
+                                            "id": "des_3274738844",
+                                            "name": "ServiceDescriptor_1",
+                                            "regeneration": "add",
+                                            "table": "sdt",
+                                            "tag": 72
+                                        },
+                                        {
+                                            "data": "C03215",
+                                            "id": "des_4266401038",
+                                            "name": "MaxBitrateDescriptor_2",
+                                            "regeneration": "add",
+                                            "table": "pmt",
+                                            "tag": 14
+                                        }
+                                    ],
+                                    "inputId": "/inputs/inp_2220184247",
+                                    "inputProgram": 0
+                                },
+                                "serviceName": "MKEL01- service01"
+                            }
+                        ],
+                        "totalBitRate": 15000000
+                    }
+                },
+                "preferredServerFilter": "mksp1",
+                "revision": "368f487ebd24433cb70a798687b7aa49",
+                "scgs": [],
+                "scrambleTSPacketsWithPESHeader": "On",
+                "sources": {
+                    "sou_1350577435": {
+                        "address": "239.21.1.2",
+                        "enableFec": false,
+                        "networkInterfaceName": "eth3",
+                        "noPcrInput": false,
+                        "port": 5000,
+                        "sourceAddress": "",
+                        "sourceName": "TS1",
+                        "type": "ip"
+                    }
+                },
+                "statmux": {
+                    "advancedSettings": {
+                        "m_smxMaxDecrease": 0.975,
+                        "m_smxStcPower": 0.5
+                    },
+                    "enabled": "On",
+                    "pools": [
+                        {
+                            "bitrate": 13000000,
+                            "id": "pool_1",
+                            "name": "statmux01",
+                            "networkInterfaceName": "eth3",
+                            "videoOnly": "Off"
+                        }
+                    ]
+                },
+                "vendors": {}
+            }
+        },
+        "meta": {
+            "last-modified": {
+                "$date": 1707396926534
+            },
+            "revision": "368f487ebd24433cb70a798687b7aa49",
+            "version": "14.7"
+        }
+    }
+][
+    {
+        "_id": "mux_1234_1234_1",
+        "config": {
+            "advancedSettings": {
+                "asi_enableActiveStandby": true,
+                "hideTs": false,
+                "mux_inputBufferLatency": 500,
+                "mux_scrambleLatency": 200,
+                "sdtPropagation": "To all networks"
+            },
+            "enableActiveStandby": "On",
+            "id": "mux_1234_1234_1",
+            "inputRedundancyMode": "manualNoMonitoring",
+            "inputs": {
+                "inp_2220184247": {
+                    "sourceIds": [
+                        "/sources/sou_1350577435"
+                    ]
+                }
+            },
+            "name": "TS01",
+            "outputs": {
+                "TS1": {
+                    "bpgs": [],
+                    "components": {
+                        "com_1905091193": {
+                            "componentName": "Video (101)",
+                            "includesPcr": true,
+                            "inputId": "/inputs/inp_2220184247",
+                            "missingPidAlarmEnabled": false,
+                            "outputPid": 101,
+                            "outputStreamType": 27,
+                            "psisi": {
+                                "descriptorRegeneration": "Off",
+                                "descriptors": [
+                                    {
+                                        "data": "01",
+                                        "id": "des_196438257",
+                                        "name": "StreamIdentifierDescriptor_0",
+                                        "regeneration": "add",
+                                        "tag": 82
+                                    },
+                                    {
+                                        "data": "02",
+                                        "id": "des_2351126295",
+                                        "name": "DataStreamAlignmentDescriptor_1",
+                                        "regeneration": "add",
+                                        "tag": 6
+                                    },
+                                    {
+                                        "data": "0000283F",
+                                        "id": "des_3472217464",
+                                        "name": "AVCVideoDescriptor_2",
+                                        "regeneration": "add",
+                                        "tag": 40
+                                    }
+                                ],
+                                "inputProgram": 1
+                            },
+                            "scgId": "",
+                            "selection": {
+                                "inputPid": 101,
+                                "mode": "pid"
+                            },
+                            "type": "video"
+                        },
+                        "com_3791917556": {
+                            "componentName": "Audio (102)",
+                            "includesPcr": false,
+                            "inputId": "/inputs/inp_2220184247",
+                            "missingPidAlarmEnabled": false,
+                            "outputPid": 102,
+                            "outputStreamType": 3,
+                            "psisi": {
+                                "descriptorRegeneration": "Off",
+                                "descriptors": [
+                                    {
+                                        "data": "02",
+                                        "id": "des_196438257",
+                                        "name": "StreamIdentifierDescriptor_0",
+                                        "regeneration": "add",
+                                        "tag": 82
+                                    },
+                                    {
+                                        "data": "656E6700",
+                                        "id": "des_1774262070",
+                                        "name": "ISO639LanguageDescriptor_1",
+                                        "regeneration": "add",
+                                        "tag": 10
+                                    },
+                                    {
+                                        "data": "67",
+                                        "id": "des_1113671637",
+                                        "name": "AudioStreamDescriptor_2",
+                                        "regeneration": "add",
+                                        "tag": 3
+                                    }
+                                ],
+                                "inputProgram": 1
+                            },
+                            "scgId": "",
+                            "selection": {
+                                "inputPid": 102,
+                                "mode": "pid"
+                            },
+                            "type": "audio"
+                        }
+                    },
+                    "destinations": [
+                        {
+                            "address": "239.30.1.1",
+                            "encapsulation": {
+                                "mode": "rtp"
+                            },
+                            "id": "des_754563048",
+                            "interfaceType": "ip",
+                            "networkInterfaceName": "eth1",
+                            "overrideSourceAddress": true,
+                            "port": 5000,
+                            "serverSelection": "",
+                            "sourceAddress": "10.69.14.33",
+                            "sourcePort": 0,
+                            "ttl": 128
+                        },
+                        {
+                            "connectors": [
+                                5
+                            ],
+                            "id": "des_3451238287",
+                            "interfaceType": "asi",
+                            "serverSelection": ""
+                        }
+                    ],
+                    "emms": [],
+                    "nullBitRate": 0,
+                    "psisi": {
+                        "bat": {
+                            "enabled": "Off"
+                        },
+                        "cat": {
+                            "enabled": "On",
+                            "repetitionRate": 100
+                        },
+                        "enabled": "On",
+                        "nit": {
+                            "descriptors": [
+                                {
+                                    "id": "des_2745963289",
+                                    "regeneration": "add",
+                                    "settings": {
+                                        "name": "CP"
+                                    },
+                                    "tag": 64
+                                }
+                            ],
+                            "enabled": "Off",
+                            "networkId": 1234,
+                            "transportStreams": [
+                                {
+                                    "descriptors": [],
+                                    "id": "nts_1846175713",
+                                    "originalNetworkId": 1234,
+                                    "transportStreamId": 1
+                                }
+                            ]
+                        },
+                        "nitOther": {
+                            "enabled": "Off"
+                        },
+                        "originalNetworkId": 1234,
+                        "pat": {
+                            "enabled": "On",
+                            "repetitionRate": 100
+                        },
+                        "pmt": {
+                            "enabled": "On",
+                            "repetitionRate": 100
+                        },
+                        "sdt": {
+                            "enabled": "On",
+                            "repetitionRate": 1000
+                        },
+                        "sdtOther": {
+                            "enabled": "Off"
+                        },
+                        "tdt": {
+                            "enabled": "On",
+                            "repetitionRate": 1000
+                        },
+                        "tot": {
+                            "descriptors": [],
+                            "enabled": "On",
+                            "repetitionRate": 1000
+                        },
+                        "transportStreamId": 1
+                    },
+                    "services": [
+                        {
+                            "componentIds": [
+                                "/outputs/TS1/components/com_1905091193",
+                                "/outputs/TS1/components/com_3791917556"
+                            ],
+                            "id": "ser_3074643753",
+                            "passthrough": {
+                                "componentsContributeForHealth": true,
+                                "enabled": "Off",
+                                "inputId": "/inputs/inp_2220184247",
+                                "inputProgram": 0,
+                                "scgId": ""
+                            },
+                            "pcrComponentId": "/outputs/TS1/components/com_1905091193",
+                            "pcrMode": "Reference",
+                            "pmtPid": 100,
+                            "programNumber": 1,
+                            "psisi": {
+                                "descriptorRegeneration": "Off",
+                                "descriptors": [
+                                    {
+                                        "data": "80B48168",
+                                        "id": "des_3443119284",
+                                        "name": "MultiplexBufferUtilizationDescriptor_0",
+                                        "regeneration": "add",
+                                        "table": "pmt",
+                                        "tag": 12
+                                    },
+                                    {
+                                        "data": "01096D6B206370206C6162114D4B454C30312D20736572766963653031",
+                                        "id": "des_3274738844",
+                                        "name": "ServiceDescriptor_1",
+                                        "regeneration": "add",
+                                        "table": "sdt",
+                                        "tag": 72
+                                    },
+                                    {
+                                        "data": "C03215",
+                                        "id": "des_4266401038",
+                                        "name": "MaxBitrateDescriptor_2",
+                                        "regeneration": "add",
+                                        "table": "pmt",
+                                        "tag": 14
+                                    }
+                                ],
+                                "inputId": "/inputs/inp_2220184247",
+                                "inputProgram": 0
+                            },
+                            "serviceName": "MKEL01- service01"
+                        }
+                    ],
+                    "totalBitRate": 15000000
+                }
+            },
+            "preferredServerFilter": "mksp1",
+            "revision": "368f487ebd24433cb70a798687b7aa49",
+            "scgs": [],
+            "scrambleTSPacketsWithPESHeader": "On",
+            "sources": {
+                "sou_1350577435": {
+                    "address": "239.21.1.2",
+                    "enableFec": false,
+                    "networkInterfaceName": "eth3",
+                    "noPcrInput": false,
+                    "port": 5000,
+                    "sourceAddress": "",
+                    "sourceName": "TS1",
+                    "type": "ip"
+                }
+            },
+            "statmux": {
+                "advancedSettings": {
+                    "m_smxMaxDecrease": 0.975,
+                    "m_smxStcPower": 0.5
+                },
+                "enabled": "On",
+                "pools": [
+                    {
+                        "bitrate": 13000000,
+                        "id": "pool_1",
+                        "name": "statmux01",
+                        "networkInterfaceName": "eth3",
+                        "videoOnly": "Off"
+                    }
+                ]
+            },
+            "vendors": {}
+        },
+        "converted_cache": {
+            "20_0": {
+                "advancedSettings": {
+                    "asi_enableActiveStandby": true,
+                    "hideTs": false,
+                    "mux_inputBufferLatency": 500,
+                    "mux_scrambleLatency": 200,
+                    "sdtPropagation": "To all networks"
+                },
+                "blended": false,
+                "eis": {
+                    "actionNoECM": "DropComponent",
+                    "csa": "CSA1",
+                    "enableEis": "Off"
+                },
+                "enableActiveStandby": "On",
+                "id": "mux_1234_1234_1",
+                "inputRedundancyMode": "manualNoMonitoring",
+                "inputs": {
+                    "inp_2220184247": {
+                        "sourceIds": [
+                            "/sources/sou_1350577435"
+                        ]
+                    }
+                },
+                "name": "TS01",
+                "outputs": {
+                    "TS1": {
+                        "bpgs": [],
+                        "components": {
+                            "com_1905091193": {
+                                "advancedSettings": {
+                                    "comp_forceNotScrambled": false
+                                },
+                                "componentContributesForHealth": false,
+                                "componentName": "Video (101)",
+                                "includesPcr": true,
+                                "inputId": "/inputs/inp_2220184247",
+                                "missingPidAlarmEnabled": false,
+                                "missingPidRaiseTimeMs": 500,
+                                "outputPid": 101,
+                                "outputStreamType": 27,
+                                "psisi": {
+                                    "descriptorRegeneration": "Off",
+                                    "descriptors": [
+                                        {
+                                            "data": "01",
+                                            "id": "des_196438257",
+                                            "name": "StreamIdentifierDescriptor_0",
+                                            "regeneration": "add",
+                                            "tag": 82
+                                        },
+                                        {
+                                            "data": "02",
+                                            "id": "des_2351126295",
+                                            "name": "DataStreamAlignmentDescriptor_1",
+                                            "regeneration": "add",
+                                            "tag": 6
+                                        },
+                                        {
+                                            "data": "0000283F",
+                                            "id": "des_3472217464",
+                                            "name": "AVCVideoDescriptor_2",
+                                            "regeneration": "add",
+                                            "tag": 40
+                                        }
+                                    ],
+                                    "inputProgram": 1
+                                },
+                                "scgId": "",
+                                "selection": {
+                                    "inputPid": 101,
+                                    "mode": "pid"
+                                },
+                                "type": "video"
+                            },
+                            "com_3791917556": {
+                                "a

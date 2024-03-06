@@ -1,0 +1,73 @@
+metadata:
+  annotations:
+    mediakind.io/discoverable-interfaces: uiconnector
+    meta.helm.sh/release-name: mksp
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:42:08Z'
+  labels:
+    app.kubernetes.io/component: stream-processor-ui-connector
+    app.kubernetes.io/instance: mksp
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: stream-processor-ui-connector
+    app.kubernetes.io/part-of: mksp
+    app.kubernetes.io/version: 20.0.3-29
+    helm.sh/chart: stream-processor-ui-connector-20.0.3-29
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:mediakind.io/discoverable-interfaces: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:spec:
+        f:internalTrafficPolicy: {}
+        f:ports:
+          .: {}
+          k:{"port":80,"protocol":"TCP"}:
+            .: {}
+            f:name: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+        f:selector: {}
+        f:sessionAffinity: {}
+        f:type: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:42:08Z'
+  name: stream-processor-ui-connector
+  namespace: mediakind
+  resourceVersion: '22978'
+  uid: 7a086e36-4909-46ef-a6ef-bdc8206d3aea
+spec:
+  clusterIP: 10.43.78.224
+  clusterIPs:
+  - 10.43.78.224
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 5050
+  selector:
+    app.kubernetes.io/instance: mksp
+    app.kubernetes.io/name: stream-processor-ui-connector
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

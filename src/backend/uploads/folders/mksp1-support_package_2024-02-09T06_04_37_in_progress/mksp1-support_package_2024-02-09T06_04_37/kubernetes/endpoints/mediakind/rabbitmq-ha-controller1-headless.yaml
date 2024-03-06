@@ -1,0 +1,57 @@
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:29:02Z'
+  creationTimestamp: '2023-12-14T06:57:18Z'
+  labels:
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: rabbitmq
+    helm.sh/chart: rabbitmq-8.21.0
+    service.kubernetes.io/headless: ''
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:helm.sh/chart: {}
+          f:service.kubernetes.io/headless: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:29:03Z'
+  name: rabbitmq-ha-controller1-headless
+  namespace: mediakind
+  resourceVersion: '8615166'
+  uid: 603eafe5-22c2-484f-8430-860dae759f56
+subsets:
+- addresses:
+  - hostname: rabbitmq-ha-controller1-0
+    ip: 10.42.0.171
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: rabbitmq-ha-controller1-0
+      namespace: mediakind
+      resourceVersion: '8615160'
+      uid: 7c7052d0-00e9-4ef4-bac1-72b2caecc240
+  ports:
+  - name: amqp
+    port: 5672
+    protocol: TCP
+  - name: http-stats
+    port: 15672
+    protocol: TCP
+  - name: epmd
+    port: 4369
+    protocol: TCP
+  - name: dist
+    port: 25672
+    protocol: TCP

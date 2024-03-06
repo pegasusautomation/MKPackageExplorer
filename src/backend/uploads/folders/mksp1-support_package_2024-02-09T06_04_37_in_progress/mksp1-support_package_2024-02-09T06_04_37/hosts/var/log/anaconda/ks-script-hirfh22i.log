@@ -1,0 +1,50 @@
+----------------------------------------------------------------------------
+Choosing partition sizes...
+----------------------------------------------------------------------------
+Existing state of /dev/disk/by-path/pci-0000:00:17.0-ata-1 : 
+Model: ATA LITEON CV1-8B128 (scsi)
+Disk /dev/sda: 128GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start   End     Size    File system  Name                  Flags
+ 1      1049kB  538MB   537MB   fat32        EFI System Partition  boot, esp
+ 2      538MB   1075MB  537MB   ext4
+ 3      1075MB  102GB   101GB                                      lvm
+ 4      104GB   128GB   24.4GB  ext4         primary
+
+Intended partitioning of /dev/disk/by-path/pci-0000:00:17.0-ata-1 : 122104 MiB
+/boot[/efi] =      512 MiB each
+BACKUP      =    24420 MiB
+VOLUMES     =    96660 MiB total:
+     /      =     9566 MiB      /var     =    28698 MiB
+     /home  =     9566 MiB      /var/log =    28698 MiB
+     SWAP   =        0 MiB      /tmp     =    19132 MiB
+Automated mode - accept default partitioning.
+UEFI boot - separate /boot/efi partition.
+
+
+
+Partitions selected for UEFI boot:
+
+
+#System bootloader configuration
+bootloader --location=mbr --boot-drive=/dev/disk/by-path/pci-0000:00:17.0-ata-1 --driveorder=/dev/disk/by-path/pci-0000:00:17.0-ata-1 --append="crashkernel=auto rhgb quiet"
+
+#Delete everything on disk
+clearpart --all --initlabel --disklabel=gpt --drives=/dev/disk/by-path/pci-0000:00:17.0-ata-1
+zerombr
+
+# only use the first disk 
+ignoredisk --only-use=/dev/disk/by-path/pci-0000:00:17.0-ata-1
+
+part     /boot     --fstype=ext4   --size=512
+part     /boot/efi --fstype=vfat   --size=512
+part     pv.01 	   --grow          --size=1        --maxsize=96660
+volgroup vg_main   pv.01
+logvol /       --fstype=ext4   --name=lv_root  --vgname=vg_main --size=9566
+logvol /home   --fstype=ext4   --name=lv_home  --vgname=vg_main --size=9566
+logvol /var    --fstype=ext4   --name=lv_var   --vgname=vg_main --size=28698
+logvol /var/log       --fstype=ext4 --name=lv_var_log       --vgname=vg_main --size=28698
+logvol /tmp           --fstype=ext4 --name=lv_tmp     --vgname=vg_main --size=19132

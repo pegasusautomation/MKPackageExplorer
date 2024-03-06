@@ -1,0 +1,7 @@
+# Kubernetes-managed hosts file (host network).
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+10.69.8.31 mksp1
+10.69.8.32 mksp2
+10.69.8.201 Arbiter
+192.168.255.1 mediakind-k3s

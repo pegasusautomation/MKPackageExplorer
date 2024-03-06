@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:24Z'
+  name: default
+  namespace: kube-public
+  resourceVersion: '416'
+  uid: 0a99fea1-9069-4c2f-8bf6-c6715c11d6cc
+secrets:
+- name: default-token-v7qnb

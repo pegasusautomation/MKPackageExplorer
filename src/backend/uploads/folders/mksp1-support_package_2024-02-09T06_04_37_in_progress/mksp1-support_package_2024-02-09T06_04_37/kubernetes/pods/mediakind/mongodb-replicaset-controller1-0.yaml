@@ -1,0 +1,427 @@
+metadata:
+  creationTimestamp: '2023-12-14T10:07:47Z'
+  generateName: mongodb-replicaset-controller1-
+  labels:
+    app.kubernetes.io/component: mongodb
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: mongodb
+    controller-revision-hash: mongodb-replicaset-controller1-5d69797997
+    helm.sh/chart: mongodb-10.23.2-replicasetconfigurationsettings2
+    statefulset.kubernetes.io/pod-name: mongodb-replicaset-controller1-0
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:controller-revision-hash: {}
+          f:helm.sh/chart: {}
+          f:statefulset.kubernetes.io/pod-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"7c1e2b68-d41c-40dc-8ca9-93eade537c34"}: {}
+      f:spec:
+        f:affinity:
+          .: {}
+          f:podAntiAffinity:
+            .: {}
+            f:preferredDuringSchedulingIgnoredDuringExecution: {}
+        f:containers:
+          k:{"name":"mongodb"}:
+            .: {}
+            f:args: {}
+            f:env:
+              .: {}
+              k:{"name":"ALLOW_EMPTY_PASSWORD"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"BITNAMI_DEBUG"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"MONGODB_DISABLE_JAVASCRIPT"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"MONGODB_DISABLE_SYSTEM_LOG"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"MONGODB_ENABLE_DIRECTORY_PER_DB"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"MONGODB_ENABLE_IPV6"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"MONGODB_ENABLE_JOURNAL"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"MONGODB_REPLICA_SET_NAME"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"MONGODB_ROOT_PASSWORD"}:
+                .: {}
+                f:name: {}
+                f:valueFrom:
+                  .: {}
+                  f:secretKeyRef: {}
+              k:{"name":"MONGODB_SYSTEM_LOG_VERBOSITY"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+            f:envFrom: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:livenessProbe:
+              .: {}
+              f:exec:
+                .: {}
+                f:command: {}
+              f:failureThreshold: {}
+              f:initialDelaySeconds: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:name: {}
+            f:ports:
+              .: {}
+              k:{"containerPort":27017,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:hostPort: {}
+                f:name: {}
+                f:protocol: {}
+            f:readinessProbe:
+              .: {}
+              f:exec:
+                .: {}
+                f:command: {}
+              f:failureThreshold: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:resources: {}
+            f:securityContext:
+              .: {}
+              f:runAsNonRoot: {}
+              f:runAsUser: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/bitnami/mongodb"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+              k:{"mountPath":"/docker-entrypoint-initdb.d"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+              k:{"mountPath":"/opt/mediakind/scripts/custom-init-script.sh"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+        f:dnsPolicy: {}
+        f:enableServiceLinks: {}
+        f:hostNetwork: {}
+        f:hostname: {}
+        f:priorityClassName: {}
+        f:restartPolicy: {}
+        f:schedulerName: {}
+        f:securityContext:
+          .: {}
+          f:fsGroup: {}
+        f:serviceAccount: {}
+        f:serviceAccountName: {}
+        f:subdomain: {}
+        f:terminationGracePeriodSeconds: {}
+        f:volumes:
+          .: {}
+          k:{"name":"custom-init-scripts"}:
+            .: {}
+            f:configMap:
+              .: {}
+              f:defaultMode: {}
+              f:name: {}
+            f:name: {}
+          k:{"name":"datadir"}:
+            .: {}
+            f:hostPath:
+              .: {}
+              f:path: {}
+              f:type: {}
+            f:name: {}
+          k:{"name":"init-scripts"}:
+            .: {}
+            f:configMap:
+              .: {}
+              f:defaultMode: {}
+              f:name: {}
+            f:name: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:07:47Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:conditions:
+          k:{"type":"ContainersReady"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Initialized"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Ready"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+        f:containerStatuses: {}
+        f:hostIP: {}
+        f:phase: {}
+        f:podIP: {}
+        f:podIPs:
+          .: {}
+          k:{"ip":"192.168.255.1"}:
+            .: {}
+            f:ip: {}
+        f:startTime: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:29:09Z'
+  name: mongodb-replicaset-controller1-0
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: StatefulSet
+    name: mongodb-replicaset-controller1
+    uid: 7c1e2b68-d41c-40dc-8ca9-93eade537c34
+  resourceVersion: '8615210'
+  uid: eef48a34-148c-42fc-864e-214b71b9008d
+spec:
+  affinity:
+    podAntiAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - podAffinityTerm:
+          labelSelector:
+            matchLabels:
+              app.kubernetes.io/component: mongodb
+              app.kubernetes.io/instance: mk-deps
+              app.kubernetes.io/name: mongodb
+          topologyKey: kubernetes.io/hostname
+        weight: 1
+  containers:
+  - args:
+    - /opt/mediakind/scripts/custom-init-script.sh
+    - --wiredTigerCacheSizeGB=0.25
+    env:
+    - name: BITNAMI_DEBUG
+      value: 'false'
+    - name: MONGODB_ROOT_PASSWORD
+      valueFrom:
+        secretKeyRef:
+          key: mongodb-root-password
+          name: mongodb-replicaset-controller1
+    - name: ALLOW_EMPTY_PASSWORD
+      value: 'no'
+    - name: MONGODB_SYSTEM_LOG_VERBOSITY
+      value: '0'
+    - name: MONGODB_DISABLE_SYSTEM_LOG
+      value: 'no'
+    - name: MONGODB_DISABLE_JAVASCRIPT
+      value: 'no'
+    - name: MONGODB_ENABLE_JOURNAL
+      value: 'yes'
+    - name: MONGODB_ENABLE_IPV6
+      value: 'no'
+    - name: MONGODB_ENABLE_DIRECTORY_PER_DB
+      value: 'no'
+    - name: MONGODB_REPLICA_SET_NAME
+      value: repldb
+    envFrom:
+    - configMapRef:
+        name: mongodb-env-vars
+    image: packages.mediakind.com/mpd-docker/bitnami/mongodb:4.4.9-debian-10-r3
+    imagePullPolicy: IfNotPresent
+    livenessProbe:
+      exec:
+        command:
+        - mongo
+        - --disableImplicitSessions
+        - --eval
+        - db.adminCommand('ping')
+      failureThreshold: 6
+      initialDelaySeconds: 30
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 5
+    name: mongodb
+    ports:
+    - containerPort: 27017
+      hostPort: 27017
+      name: mongodb
+      protocol: TCP
+    readinessProbe:
+      exec:
+        command:
+        - bash
+        - -ec
+        - "# Run the proper check depending on the version\n[[ $(mongo --version |\
+          \ grep \"MongoDB shell\") =~ ([0-9]+\\.[0-9]+\\.[0-9]+) ]] && VERSION=${BASH_REMATCH[1]}\n\
+          . /opt/bitnami/scripts/libversion.sh\nVERSION_MAJOR=\"$(get_sematic_version\
+          \ \"$VERSION\" 1)\"\nVERSION_MINOR=\"$(get_sematic_version \"$VERSION\"\
+          \ 2)\"\nVERSION_PATCH=\"$(get_sematic_version \"$VERSION\" 3)\"\nif [[ \"\
+          $VERSION_MAJOR\" -ge 4 ]] && [[ \"$VERSION_MINOR\" -ge 4 ]] && [[ \"$VERSION_PATCH\"\
+          \ -ge 2 ]]; then\n  if [[ \"${MONGODB_MK_ARBITER}\" == \"true\" ]]; then\n\
+          \    mongo --disableImplicitSessions $TLS_OPTIONS --eval 'db.hello().arbiterOnly'\
+          \ | grep -q 'true'\n  else\n    mongo --disableImplicitSessions $TLS_OPTIONS\
+          \ --eval 'db.hello().isWritablePrimary || db.hello().secondary' | grep -q\
+          \ 'true'\n  fi\nelse\n  if [[ \"${MONGODB_MK_ARBITER}\" == \"true\" ]];\
+          \ then\n    mongo --disableImplicitSessions $TLS_OPTIONS --eval 'db.isMaster().arbiterOnly'\
+          \ | grep -q 'true'\n  else\n    mongo --disableImplicitSessions $TLS_OPTIONS\
+          \ --eval 'db.isMaster().ismaster || db.isMaster().secondary' | grep -q 'true'\n\
+          \  fi\nfi\n"
+      failureThreshold: 3
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 1
+    resources: {}
+    securityContext:
+      runAsNonRoot: true
+      runAsUser: 1001
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /opt/mediakind/scripts/custom-init-script.sh
+      name: init-scripts
+      subPath: custom-init-script.sh
+    - mountPath: /bitnami/mongodb
+      name: datadir
+    - mountPath: /docker-entrypoint-initdb.d
+      name: custom-init-scripts
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-882qg
+      readOnly: true
+  dnsPolicy: ClusterFirstWithHostNet
+  enableServiceLinks: true
+  hostNetwork: true
+  hostname: mongodb-replicaset-controller1-0
+  nodeName: mediakind-k3s
+  preemptionPolicy: Never
+  priority: 2000000
+  priorityClassName: controller-highest-priority
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext:
+    fsGroup: 1001
+  serviceAccount: mongodb-replicaset-controller1
+  serviceAccountName: mongodb-replicaset-controller1
+  subdomain: mongodb-replicaset-controller1
+  terminationGracePeriodSeconds: 30
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - hostPath:
+      path: /var/lib/mongo
+      type: Directory
+    name: datadir
+  - configMap:
+      defaultMode: 511
+      name: mongodb-custom-init-scripts
+    name: init-scripts
+  - configMap:
+      defaultMode: 420
+      name: mongodb-replicaset-controller1-init-scripts
+    name: custom-init-scripts
+  - name: kube-api-access-882qg
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:07:47Z'
+    status: 'True'
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:29:09Z'
+    status: 'True'
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:29:09Z'
+    status: 'True'
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:07:47Z'
+    status: 'True'
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://9b6df56bd62a0eff9abde5fd613ecf511f61e7cba3799e5d1d52a8ee34214dab
+    image: packages.mediakind.com/mpd-docker/bitnami/mongodb:4.4.9-debian-10-r3
+    imageID: sha256:825e0d503054df1a8c28d95864a0970ba09336fad6989c4fb1560df1069ef130
+    lastState:
+      terminated:
+        containerID: containerd://dcfb69478f782818fb6393dfdc4173d4cb189ee7c516c6fe498ba56c430cb5d5
+        exitCode: 255
+        finishedAt: '2024-02-06T13:27:47Z'
+        reason: Unknown
+        startedAt: '2024-02-06T08:36:05Z'
+    name: mongodb
+    ready: true
+    restartCount: 9
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:28:19Z'
+  hostIP: 192.168.255.1
+  phase: Running
+  podIP: 192.168.255.1
+  podIPs:
+  - ip: 192.168.255.1
+  qosClass: BestEffort
+  startTime: '2023-12-14T10:07:47Z'

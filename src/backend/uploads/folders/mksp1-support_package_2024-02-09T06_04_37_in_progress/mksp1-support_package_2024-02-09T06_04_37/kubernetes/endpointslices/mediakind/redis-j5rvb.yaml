@@ -1,0 +1,71 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.165
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: redis-7599f5bc7f-g4lx6
+    namespace: mediakind
+    resourceVersion: '8614993'
+    uid: b89919af-8113-4f62-ae23-2a9b5b42e3ed
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:31Z'
+  creationTimestamp: '2023-12-14T06:57:18Z'
+  generateName: redis-
+  generation: 25
+  labels:
+    app: redis
+    app.kubernetes.io/managed-by: Helm
+    chart: redis-1.2.4
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    heritage: Helm
+    kubernetes.io/service-name: redis
+    release: mk-deps
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:chart: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:heritage: {}
+          f:kubernetes.io/service-name: {}
+          f:release: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"7b64c236-acc6-4c72-959c-49522e233231"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-01-25T13:22:29Z'
+  name: redis-j5rvb
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: redis
+    uid: 7b64c236-acc6-4c72-959c-49522e233231
+  resourceVersion: '8614995'
+  uid: 4c086656-b03b-443d-98f5-f4bb9ee6ef2c
+ports:
+- name: redis
+  port: 6379
+  protocol: TCP

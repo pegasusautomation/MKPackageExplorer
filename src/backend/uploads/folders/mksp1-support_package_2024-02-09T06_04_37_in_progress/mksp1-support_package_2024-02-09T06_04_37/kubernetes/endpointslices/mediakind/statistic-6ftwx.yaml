@@ -1,0 +1,75 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.161
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: statistic-6884bf6bf7-bpc7z
+    namespace: mediakind
+    resourceVersion: '8614882'
+    uid: b487fab7-dd10-4acc-aee8-5555ab4ab8f3
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:23Z'
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generateName: statistic-
+  generation: 14
+  labels:
+    app.kubernetes.io/component: statistic
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: statistic
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 2.54.0
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: statistic-2.54.0
+    kubernetes.io/service-name: statistic
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"64dddf71-e5fc-40bc-89ed-15b5babc08c7"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-01-25T13:22:41Z'
+  name: statistic-6ftwx
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: statistic
+    uid: 64dddf71-e5fc-40bc-89ed-15b5babc08c7
+  resourceVersion: '8614884'
+  uid: 3db2f0e5-a9b2-4b4f-8352-7947708417c9
+ports:
+- name: restapi
+  port: 8000
+  protocol: TCP

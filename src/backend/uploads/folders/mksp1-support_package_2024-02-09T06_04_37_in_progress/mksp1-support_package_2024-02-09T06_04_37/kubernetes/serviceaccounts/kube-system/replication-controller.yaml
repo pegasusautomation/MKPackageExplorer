@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:13Z'
+  name: replication-controller
+  namespace: kube-system
+  resourceVersion: '318'
+  uid: 6a9adbed-e31c-4821-9ace-3a23344997d8
+secrets:
+- name: replication-controller-token-r98zs

@@ -1,0 +1,6 @@
+apiVersion: helm.cattle.io/v1
+items: []
+kind: HelmChartList
+metadata:
+  continue: ''
+  resourceVersion: '9043738'

@@ -1,0 +1,95 @@
+metadata:
+  annotations:
+    objectset.rio.cattle.io/applied: H4sIAAAAAAAA/4yRwY7TMBCGXwXN2Qlx026zljig3QtCQistcEEcHGdKTRKP5ZkWoSrvjtxmRWEV2Fui+fzpn39OYKP/jIk9BTBw1KCg96EDA4+Yjt4hKBhRbGfFgjmBDYHEiqfA+Zfa7+iEUcrkqXRWZMDS02ufDaAW5/QjYCq+HXsw0Nd8NTlq9eq9D92bt11H4b+KYEcEA44SdoFfhHO0Lr/pDy0W/JMFR1AQE40oezxwpiMlAQO3elM/m7FLNmaBpAPCpGCwLQ7nOvqGCxvjk/ySKH+mgILn1244sGAqeK531vyNzXvdUcL7D4//2GtveQ8GWoerpl7dNo3W23Vtq7q5se1GV7vV7maLu+16ta7cZpvzzu6riEu1TAo4osurzbnfPYABXZXruqxKXeVyKAmD+XJ68l6UlwY39bk9IUcDGPh0/wCTuiYLcXGJ/nj3Bz2iJO9+u/NxnvNfFTAO6ITSwkWmafoVAAD//yO4Hor3AgAA
+    objectset.rio.cattle.io/id: ''
+    objectset.rio.cattle.io/owner-gvk: k3s.cattle.io/v1, Kind=Addon
+    objectset.rio.cattle.io/owner-name: coredns
+    objectset.rio.cattle.io/owner-namespace: kube-system
+    prometheus.io/port: '9153'
+    prometheus.io/scrape: 'true'
+  creationTimestamp: '2023-12-14T06:48:12Z'
+  labels:
+    k8s-app: kube-dns
+    kubernetes.io/cluster-service: 'true'
+    kubernetes.io/name: CoreDNS
+    objectset.rio.cattle.io/hash: bce283298811743a0386ab510f2f67ef74240c57
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:objectset.rio.cattle.io/applied: {}
+          f:objectset.rio.cattle.io/id: {}
+          f:objectset.rio.cattle.io/owner-gvk: {}
+          f:objectset.rio.cattle.io/owner-name: {}
+          f:objectset.rio.cattle.io/owner-namespace: {}
+          f:prometheus.io/port: {}
+          f:prometheus.io/scrape: {}
+        f:labels:
+          .: {}
+          f:k8s-app: {}
+          f:kubernetes.io/cluster-service: {}
+          f:kubernetes.io/name: {}
+          f:objectset.rio.cattle.io/hash: {}
+      f:spec:
+        f:clusterIP: {}
+        f:internalTrafficPolicy: {}
+        f:ports:
+          .: {}
+          k:{"port":53,"protocol":"TCP"}:
+            .: {}
+            f:name: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+          k:{"port":53,"protocol":"UDP"}:
+            .: {}
+            f:name: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+          k:{"port":9153,"protocol":"TCP"}:
+            .: {}
+            f:name: {}
+            f:port: {}
+            f:protocol: {}
+            f:targetPort: {}
+        f:selector: {}
+        f:sessionAffinity: {}
+        f:type: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:12Z'
+  name: kube-dns
+  namespace: kube-system
+  resourceVersion: '284'
+  uid: 4f2bca85-1dde-4c95-a1a5-fdb90346535f
+spec:
+  clusterIP: 10.43.0.10
+  clusterIPs:
+  - 10.43.0.10
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: dns
+    port: 53
+    protocol: UDP
+    targetPort: 53
+  - name: dns-tcp
+    port: 53
+    protocol: TCP
+    targetPort: 53
+  - name: metrics
+    port: 9153
+    protocol: TCP
+    targetPort: 9153
+  selector:
+    k8s-app: kube-dns
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

@@ -1,0 +1,44 @@
+count: 641
+eventTime: null
+firstTimestamp: '2024-02-06T13:28:18Z'
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{content-extraction}
+  kind: Pod
+  name: stream-processor-content-extraction-574f98f786-gdvmh
+  namespace: mediakind
+  resourceVersion: '8614009'
+  uid: db1d1e8f-31d2-4cec-835d-b57f38c21e4c
+lastTimestamp: '2024-02-09T05:18:40Z'
+message: Container image "packages.mediakind.com/mpd-docker/mediakind/stream-processor-content-extraction:20.0.3-29"
+  already present on machine
+metadata:
+  creationTimestamp: '2024-02-08T17:23:39Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+        f:host: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-08T17:23:39Z'
+  name: stream-processor-content-extraction-574f98f786-gdvmh.17b149177743aa02
+  namespace: mediakind
+  resourceVersion: '9038571'
+  uid: 8fa37d3b-246b-4825-8d1b-135c5df4653f
+reason: Pulled
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: kubelet
+  host: mediakind-k3s
+type: Normal

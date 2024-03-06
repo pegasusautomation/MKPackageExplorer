@@ -1,0 +1,37 @@
+metadata:
+  creationTimestamp: '2023-12-14T10:07:24Z'
+  labels:
+    app.kubernetes.io/managed-by: Helm
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/managed-by: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:28:52Z'
+  name: etcd
+  namespace: mediakind
+  resourceVersion: '8615040'
+  uid: 877fc7f9-b78f-4ffc-9477-6d205e48477e
+subsets:
+- notReadyAddresses:
+  - ip: 10.42.0.178
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: etcd-controller1-0
+      namespace: mediakind
+      resourceVersion: '8615037'
+      uid: e65ca258-63af-4723-9e0a-f2b05239ba04
+  ports:
+  - name: peer
+    port: 2380
+    protocol: TCP
+  - name: client
+    port: 2379
+    protocol: TCP

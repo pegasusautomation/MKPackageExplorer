@@ -1,0 +1,75 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.174
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: controller-metrics-exporter-7c8ffdf95-69rlt
+    namespace: mediakind
+    resourceVersion: '8615061'
+    uid: ed68017f-a05d-4561-9ff6-1c932cdb029b
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:26Z'
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generateName: controller-metrics-exporter-
+  generation: 16
+  labels:
+    app.kubernetes.io/component: controller-metrics-exporter
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: controller-metrics-exporter
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.5.2
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: controller-metrics-exporter-0.5.2
+    kubernetes.io/service-name: controller-metrics-exporter
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"76222d3d-ef73-4775-b7d1-e596f5e78371"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T08:36:30Z'
+  name: controller-metrics-exporter-q9z7h
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: controller-metrics-exporter
+    uid: 76222d3d-ef73-4775-b7d1-e596f5e78371
+  resourceVersion: '8615062'
+  uid: e0599ad1-9a34-4f18-8976-b956015d874b
+ports:
+- name: restapi
+  port: 8015
+  protocol: TCP

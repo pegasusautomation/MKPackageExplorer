@@ -1,0 +1,43 @@
+count: 8
+eventTime: null
+firstTimestamp: '2024-02-06T17:13:20Z'
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{config}
+  kind: Pod
+  name: stream-processor-config-55b87ff9b9-8bjnp
+  namespace: mediakind
+  resourceVersion: '8581972'
+  uid: 1c27599b-c2d0-474f-9655-5c9c30f470a1
+lastTimestamp: '2024-02-09T06:03:30Z'
+message: 'Readiness probe failed: dial tcp 10.42.0.160:8081: i/o timeout'
+metadata:
+  creationTimestamp: '2024-02-09T06:03:30Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+        f:host: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-09T06:03:30Z'
+  name: stream-processor-config-55b87ff9b9-8bjnp.17b1555f10bea762
+  namespace: mediakind
+  resourceVersion: '9043526'
+  uid: dac1df58-8a38-40bd-861d-1e9a04978a56
+reason: Unhealthy
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: kubelet
+  host: mediakind-k3s
+type: Warning

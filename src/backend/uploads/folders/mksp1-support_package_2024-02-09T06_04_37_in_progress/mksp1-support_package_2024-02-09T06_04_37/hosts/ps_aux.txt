@@ -1,0 +1,377 @@
+36 root      0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+ 1652 root      6h36 {k3s-server} /usr/local/bin/k3s server
+ 1997 root      1h25 containerd -c /var/lib/rancher/k3s/agent/etc/containerd/config.toml -a /run/k3s/containerd/containerd.sock --state /run/k3s/containerd --root /var/lib/rancher/k3s/agent/containerd
+ 3171 root      1:30 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 64e930b1f82dc16c74e08ad49e1838cacdbc60aecccb1577c5a220969528379e -address /run/k3s/containerd/containerd.sock
+ 3194 65535     0:00 /pause
+ 3225 root      0:00 {entry} /bin/sh /usr/bin/entry
+ 3371 root      2:42 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 9fe2e59c4bd3a0ca85a8a904ae0621bb69ecbef89a0e0ff56f947a3e304380d1 -address /run/k3s/containerd/containerd.sock
+ 3392 bin       0:00 /pause
+ 3428 bin       7:16 /bin/python3 /src/mediakind/legacy/alarm/collector/collector.py --conf /opt/ericsson/alarm/etc/alarm-api.ini --log /opt/ericsson/alarm/etc/alarm-collector-logging.json
+ 3452 root      6:37 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id b457cfd81bc57b48c18257e65024230258991d3df50e851bf38e3cc7217efdfb -address /run/k3s/containerd/containerd.sock
+ 3481 bin       0:00 /pause
+ 3498 bin       3:57 /bin/python3 /src/mediakind/legacy/alarm/daemon/app.py --conf /opt/ericsson/alarm/etc/alarm-api.ini --log /opt/ericsson/alarm/etc/alarm-daemon-logging.json
+ 3553 root      7:50 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 8a56842aa475f8936f6a3b6435653ffe7417124fe0955ec7a14f2cf2b7360377 -address /run/k3s/containerd/containerd.sock
+ 3574 65535     0:00 /pause
+ 3691 root      1:26 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id ccdabc15d1f87028a64b8d28e339bc8a8a051c7bbef7f7474be40d47e3676d01 -address /run/k3s/containerd/containerd.sock
+ 3714 65535     0:00 /pause
+ 3816 root      0:42 local-path-provisioner start --config /etc/config/config.json
+ 3880 root      1:24 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 502a4ec72e2f23433dd35724b93511904e9b63989e184e1c777aecf161f3585f -address /run/k3s/containerd/containerd.sock
+ 3906 bin       0:00 /pause
+ 4030 root      1:26 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 629a9cc8f517ec5fdf9c7de6bb02026818b8c8b42d835763517e6a20576e3e8b -address /run/k3s/containerd/containerd.sock
+ 4061 bin       0:01 /bin/python3 /src/envivio/command/api/app.py --conf /opt/ericsson/command/etc/command-api.cfg --log /opt/ericsson/command/etc/logging.json
+ 4062 65535     0:00 /pause
+ 4079 root      1:27 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 4264bb7c8fb584298605da994cf9464ef8e38af9466f294a16effabfa905afa8 -address /run/k3s/containerd/containerd.sock
+ 4107 65535     0:00 /pause
+ 4152 1000      1:54 /app/cmd/controller/controller --v=2 --cluster-resource-namespace=cert-manager --leader-election-namespace=kube-system
+ 4183 root      0:00 {init.sh} /usr/bin/bash /init.sh
+ 4227 root      0:03 tail /var/run/notify_log_pipe -f
+ 4228 root      0:00 /usr/sbin/keepalived -f /etc/keepalived/keepalived.conf --dont-fork --log-detail --log-console
+ 4251 root      1:41 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 40e331bffa8a704ce85ac0637bea19687e8cc0012bcdb028a134a215ae20b543 -address /run/k3s/containerd/containerd.sock
+ 4321 65535     0:00 /pause
+ 4328 root      0:44 /usr/sbin/keepalived -f /etc/keepalived/keepalived.conf --dont-fork --log-detail --log-console
+ 4370 root      1:28 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 0e7e8287d189a9dc64f55b5e30bbfbcee85608f5f202c7584f38ea1a61346881 -address /run/k3s/containerd/containerd.sock
+ 4412 65535     0:00 /pause
+ 4473 root      4:03 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 21a4ef5926d7acb35b08d9f845651b87a36ba473af0de557365e71f160d4c828 -address /run/k3s/containerd/containerd.sock
+ 4500 bin       0:00 /pause
+ 4517 root      1:43 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 44849ca17b5c044deb03dd3dabe9ea4239fd27d0c505b0816eea3c1886fb0422 -address /run/k3s/containerd/containerd.sock
+ 4565 bin      41:36 /opt/ericsson/stream-processing-biss-ca/bin/bissCa -dmp /var/log/ericsson/stream-processing-biss-ca/private
+ 4570 65535     0:00 /pause
+ 4607 1000     11:56 /metrics-server --cert-dir=/tmp --secure-port=10250 --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --kubelet-use-node-status-port --metric-resolution=15s
+ 4655 root      0:28 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 2073d804cd3b35fd33f0f74673c92395509209474a8636ed7b246782e181f13b -address /run/k3s/containerd/containerd.sock
+ 4676 65535     0:00 /pause
+ 4722 bin       2:16 /bin/python3 -m celery -A ericsson.failover worker --concurrency 8 --loglevel INFO
+ 4764 bin       1:30 {simulcrypt-cont} /opt/ericsson/stream-processing-simulcrypt-control/bin/python3 ./simulcrypt-control --conf /opt/ericsson/stream-processing-simulcrypt-control/etc/simulcryptControlIni.json --logging /opt/ericsson/stream-processing-simulcrypt-control/etc/logging.json
+ 4826 bin       4:39 /bin/python3 /src/ericsson/failover/api/app.py --conf /opt/ericsson/failover-api/etc/failover-api.ini --logging /opt/ericsson/failover-api/etc/logging_failover-api.json
+ 4849 root      1:38 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 79d300243817a15d0aff870de4801ec30c931d411a2e3481d575838152af3183 -address /run/k3s/containerd/containerd.sock
+ 4876 65535     0:00 /pause
+ 4892 root     18:49 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 2f5bb361546679efe6d8396d8637444ac4b33591d108d8fbb8bf89cf4437cb55 -address /run/k3s/containerd/containerd.sock
+ 4916 65535     0:00 /pause
+ 4985 bin       8:50 /bin/python3 /src/ericsson/failover/daemon/app.py --conf /opt/ericsson/failover-api/etc/failover-api.ini --logging /opt/ericsson/failover-api/etc/logging_failover-daemon.json
+ 5071 bin      41:30 /opt/ericsson/stream-processing-simulcrypt/bin/simulcrypt -dmp /var/log/ericsson/stream-processing-simulcrypt/private
+ 5092 root      1:27 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id af195dc4a88dab67c3834c29d24a410cda8e8b30e887aa3c43e06e22b9692e3a -address /run/k3s/containerd/containerd.sock
+ 5124 65535     0:00 /pause
+ 5126 1001      0:00 {custom-init-scr} /bin/bash /opt/mediakind/scripts/custom-init-script.sh --wiredTigerCacheSizeGB=0.25
+ 5379 root      4:08 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 2343396f9a74c5f36a6fe60711ef258d2b21f703a6ecb897ed2873b59550ecd1 -address /run/k3s/containerd/containerd.sock
+ 5425 bin       0:00 /pause
+ 5438 root      1:34 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 4f30f7def0ebe2069496c8b65008274efc943446de2ca1e60699ef7f9a1452e1 -address /run/k3s/containerd/containerd.sock
+ 5469 65535     0:00 /pause
+ 5486 root      1:51 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 6a3b0e9550047a9fd69f8eb4361b136af8d90db4c81405c22e6634346635e309 -address /run/k3s/containerd/containerd.sock
+ 5516 bin       0:00 /pause
+ 5549 root      1h15 /fluent-bit/bin/fluent-bit -c /fluent-bit/etc/fluent-bit.conf
+ 5598 bin       4:36 /bin/python3 /src/mediakind/alarm/api/app.py --conf /opt/ericsson/alarm/etc/alarm-api.ini --log /opt/ericsson/alarm/etc/alarm-api-logging.json
+ 5673 bin      39:10 /opt/ericsson/stream-processing-statmux/bin/smxMaster -dmp /var/log/ericsson/stream-processing-statmux/private
+ 5727 root      1:27 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 24d56d9dff12d913dbd67dcd4de1d2793dc0da08e47089c76bb21507f24489c8 -address /run/k3s/containerd/containerd.sPID   USER     TIME  COMMAND
+    1 root      2h29 /usr/lib/systemd/systemd --switched-root --system --deserialize 16
+    2 root      0:00 [kthreadd]
+    3 root      0:00 [rcu_gp]
+    4 root      0:00 [rcu_par_gp]
+    6 root      0:00 [kworker/0:0H-ev]
+    9 root      0:00 [mm_percpu_wq]
+   10 root      0:00 [rcu_tasks_rude_]
+   11 root      0:00 [rcu_tasks_trace]
+   12 root      0:17 [ksoftirqd/0]
+   13 root      5:25 [rcu_sched]
+   14 root      0:00 [migration/0]
+   15 root      0:00 [watchdog/0]
+   16 root      0:00 [cpuhp/0]
+   17 root      0:00 [cpuhp/1]
+   18 root      0:00 [watchdog/1]
+   19 root      0:00 [migration/1]
+   20 root      0:23 [ksoftirqd/1]
+   22 root      0:00 [kworker/1:0H-ev]
+   23 root      0:00 [cpuhp/2]
+   24 root      0:00 [watchdog/2]
+   25 root      0:00 [migration/2]
+   26 root      0:21 [ksoftirqd/2]
+   28 root      0:00 [kworker/2:0H-ev]
+   29 root      0:00 [cpuhp/3]
+   30 root      0:00 [watchdog/3]
+   31 root      0:00 [migration/3]
+   32 root      0:22 [ksoftirqd/3]
+   34 root      0:00 [kworker/3:0H-ev]
+   35 root      0:00 [cpuhp/4]
+   36 root      0:00 [watchdog/4]
+   37 root      0:00 [migration/4]
+   38 root      0:20 [ksoftirqd/4]
+   40 root      0:00 [kworker/4:0H-ev]
+   41 root      0:00 [cpuhp/5]
+   42 root      0:00 [watchdog/5]
+   43 root      0:00 [migration/5]
+   44 root      0:20 [ksoftirqd/5]
+   46 root      0:00 [kworker/5:0H-ev]
+   47 root      0:00 [cpuhp/6]
+   48 root      0:00 [watchdog/6]
+   49 root      0:00 [migration/6]
+   50 root      0:20 [ksoftirqd/6]
+   52 root      0:00 [kworker/6:0H-ev]
+   53 root      0:00 [cpuhp/7]
+   54 root      0:00 [watchdog/7]
+   55 root      0:00 [migration/7]
+   56 root      0:19 [ksoftirqd/7]
+   58 root      0:00 [kworker/7:0H-ev]
+   67 root      0:00 [kdevtmpfs]
+   68 root      0:00 [netns]
+   69 root      0:01 [kauditd]
+   71 root      0:00 [khungtaskd]
+   72 root      0:00 [oom_reaper]
+   73 root      0:00 [writeback]
+   74 root      0:00 [kcompactd0]
+   75 root      0:00 [ksmd]
+   76 root      0:02 [khugepaged]
+   77 root      0:00 [crypto]
+   78 root      0:00 [kintegrityd]
+   79 root      0:00 [kblockd]
+   80 root      0:00 [blkcg_punt_bio]
+   82 root      0:00 [tpm_dev_wq]
+   83 root      0:00 [md]
+   84 root      0:00 [edac-poller]
+   85 root      0:00 [watchdogd]
+   87 root      0:00 [kworker/1:1H-kb]
+  121 root      0:00 [kswapd0]
+  224 root      0:00 [kthrotld]
+  225 root      0:00 [irq/122-aerdrv]
+  226 root      0:00 [irq/123-aerdrv]
+  227 root      0:00 [irq/124-aerdrv]
+  228 root      0:00 [irq/125-aerdrv]
+  229 root      0:00 [irq/126-pciehp]
+  230 root      0:00 [irq/127-aerdrv]
+  231 root      0:00 [irq/128-aerdrv]
+  232 root      0:00 [acpi_thermal_pm]
+  233 root      0:00 [kmpath_rdacd]
+  234 root      0:00 [kaluad]
+  235 root      0:00 [kworker/3:1H-kb]
+  236 root      0:00 [ipv6_addrconf]
+  237 root      0:00 [kstrp]
+  353 root      0:03 [kworker/0:1H-kb]
+  357 root      0:00 [kworker/2:1H-kb]
+  360 root      0:00 [kworker/5:1H-kb]
+  363 root      0:00 [kworker/4:1H-kb]
+  364 root      0:00 [kworker/7:1H-kb]
+  365 root      0:00 [kworker/6:1H-kb]
+  379 root      0:00 [ipmi-msghandler]
+  539 root      0:00 [ata_sff]
+  547 root      0:00 [scsi_eh_0]
+  548 root      0:00 [scsi_tmf_0]
+  549 root      0:00 [scsi_eh_1]
+  550 root      0:00 [scsi_tmf_1]
+  551 root      0:00 [scsi_eh_2]
+  552 root      0:00 [scsi_tmf_2]
+  553 root      0:00 [scsi_eh_3]
+  554 root      0:00 [scsi_tmf_3]
+  555 root      0:00 [scsi_eh_4]
+  556 root      0:00 [scsi_tmf_4]
+  557 root      0:00 [scsi_eh_5]
+  558 root      0:00 [scsi_tmf_5]
+  559 root      0:00 [scsi_eh_6]
+  560 root      0:00 [scsi_tmf_6]
+  561 root      0:00 [scsi_eh_7]
+  562 root      0:00 [scsi_tmf_7]
+  648 root      0:00 [kdmflush/253:0]
+  673 root      0:00 [jbd2/dm-0-8]
+  674 root      0:00 [ext4-rsv-conver]
+  758 root      1:09 /usr/lib/systemd/systemd-journald
+  785 root      0:37 /usr/lib/systemd/systemd-udevd
+  799 root      0:00 [jbd2/sda2-8]
+  801 root      0:00 [ext4-rsv-conver]
+  835 root      0:00 [irq/177-mei_me]
+  846 root      0:00 [kdmflush/253:1]
+  848 root      0:00 [kdmflush/253:2]
+  849 root      0:00 [kdmflush/253:3]
+  850 root      0:00 [kdmflush/253:4]
+  889 root      0:00 [card0-crtc0]
+  890 root      0:00 [card0-crtc1]
+  891 root      0:00 [card0-crtc2]
+  893 root      0:00 [kworker/u17:0]
+  911 root      0:00 [jbd2/dm-4-8]
+  912 root      0:00 [ext4-rsv-conver]
+  941 root      0:17 [jbd2/dm-3-8]
+  942 root      0:00 [ext4-rsv-conver]
+  946 root      0:09 [jbd2/dm-2-8]
+  947 root      0:00 [ext4-rsv-conver]
+  963 root      0:02 [jbd2/dm-1-8]
+  964 root      0:00 [ext4-rsv-conver]
+  983 root      0:07 /sbin/auditd
+ 1005 root      0:12 /usr/sbin/irqbalance --foreground
+ 1006 998       0:08 /usr/lib/polkit-1/polkitd --no-debug
+ 1009 root      0:05 /usr/sbin/sssd -i --logger=files
+ 1015 root      0:00 /usr/sbin/smartd -n -q never
+ 1019 81        1:25 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 1042 996       0:00 /usr/sbin/chronyd
+ 1130 root      0:02 /usr/libexec/sssd/sssd_be --domain implicit_files --uid 0 --gid 0 --logger=files
+ 1138 root      0:01 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+ 1147 root      0:09 /usr/lib/systemd/systemd-logind
+ 1197 root      0:39 /usr/sbin/NetworkManager --no-daemon
+ 1203 root      0:00 /usr/sbin/sshd -D -oCiphers=aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc -oMACs=hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512 -oGSSAPIKexAlgorithms=gss-curve25519-sha256-,gss-nistp256-sha256-,gss-group14-sha256-,gss-group16-sha512-,gss-gex-sha1-,gss-group14-sha1- -oKexAlgorithms=curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1 -oHostKeyAlgorithms=ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oPubkeyAcceptedKeyTypes=ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oCASignatureAlgorithms=ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-ed25519,rsa-sha2-256,rsa-sha2-512,ssh-rsa
+ 1204 root      1h24 {tuned} /usr/libexec/platform-python -Es /usr/sbin/tuned -l -P
+ 1207 root      0:00 /usr/sbin/crond -n
+ 1529 root      0:58 /usr/sbin/rsyslogd -n
+ 15ock
+ 5750 bin      15:29 /bin/python3 /src/envivio/server/api/app.py --conf /opt/ericsson/server-api/etc/server-api.ini --logging /opt/ericsson/server-api/etc/logging.json
+ 5768 65535     0:00 /pause
+ 5858 root      1:25 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id ec01bfbc291263193ea3c0f4027506cc7b1dd685d1f17e13b9a412a0a465d172 -address /run/k3s/containerd/containerd.sock
+ 5871 bin       4:14 /bin/python3 /src/mediakind/alarm/collector/collector.py --conf /opt/ericsson/alarm/etc/alarm-api.ini --log /opt/ericsson/alarm/etc/alarm-collector-logging.json
+ 5919 65535     0:00 /pause
+ 5983 root      1:38 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id ce061cc17e9192fae63a72fe98a7aba453ec47950552111fe23f17a00a74e529 -address /run/k3s/containerd/containerd.sock
+ 6099 65535     0:00 /pause
+ 6122 1000      5:38 /app/cmd/cainjector/cainjector --v=2 --leader-election-namespace=kube-system
+ 6197 1001      1:11 ./ContentExtraction
+ 6211 root      1:27 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id db606a1d06855eb5e462c680a55b6bd4aada8d1dd5ba82faedf1377fd028a382 -address /run/k3s/containerd/containerd.sock
+ 6282 bin       4:36 /bin/python3 /src/mediakind/alarm/daemon/app.py --conf /opt/ericsson/alarm/etc/alarm-api.ini --log /opt/ericsson/alarm/etc/alarm-daemon-logging.json
+ 6307 bin       0:00 /pause
+ 6522 bin       0:00 /bin/bash -c while true; do /usr/local/bin/envoy -c /etc/envoy/envoy_config.yaml; done
+ 6578 root      1:42 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 21ae2719351694f397cb05c2fc0009202b94bc7a9cef1696c5ce4606354c0816 -address /run/k3s/containerd/containerd.sock
+ 6612 65535     0:00 /pause
+ 6636 root      1:32 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 9a353e567727d637ddbff7f66aee38e229f94ba5b0b2623010bfb24b395e4324 -address /run/k3s/containerd/containerd.sock
+ 6728 root      1:27 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id f2fde17d84d52f4d5b060d7a59e7413af783dfe960699bd438633ce9842af9ba -address /run/k3s/containerd/containerd.sock
+ 6762 bin       8:02 /usr/local/bin/envoy -c /etc/envoy/envoy_config.yaml
+ 6764 bin       6h49 {spark-config} /opt/ericsson/stream-processing-config/bin/python3 ./spark-config --conf /opt/ericsson/stream-processing-config/etc/stream-processing-config.cfg --logging /opt/ericsson/stream-processing-config/etc/logging.json
+ 6817 65535     0:00 /pause
+ 6827 65535     0:00 /pause
+ 6847 bin       0:01 /bin/python3 /src/envivio/statistics/api/app.py --conf /opt/ericsson/statistic/etc/statistic.cfg --logging /opt/ericsson/statistic/etc/logging.json
+ 7009 root      3:03 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 28880b2b1ced42467eb0a565bfd1d5051ad73fcb0034a363546d855bd483bf43 -address /run/k3s/containerd/containerd.sock
+ 7085 bin       0:00 /pause
+ 7136 root      6:15 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id b996512ba1cff73143aac674a12faf4d272bec01be41e74bf1e8aaeabb9fed08 -address /run/k3s/containerd/containerd.sock
+ 7209 1001      0:00 /pause
+ 7218 root     19:37 /coredns -conf /etc/coredns/Corefile
+ 7354 root      3:01 /bin/python3 /src/ericsson/license/api/app.py --conf /opt/ericsson/license-manager/etc/license-manager.ini --log /opt/ericsson/license-manager/etc/logging.json
+ 7392 root      1:27 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 8cb6993282de24b844a5ae06aa1533563c112179e73f4ef22a12a5f1c857cb1c -address /run/k3s/containerd/containerd.sock
+ 7444 bin       0:00 /pause
+ 7602 1000      5:34 /app/cmd/webhook/webhook --v=2 --secure-port=10250 --dynamic-serving-ca-secret-namespace=cert-manager --dynamic-serving-ca-secret-name=cert-manager-webhook-ca --dynamic-serving-dns-names=cert-manager-webhook,cert-manager-webhook.cert-manager,cert-manager-webhook.cert-manager.svc
+ 7643 root      4:03 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 1790555bd74f350982f47cbf566c988e05261be57b75906077314efe91ced60f -address /run/k3s/containerd/containerd.sock
+ 7652 bin       0:00 {run.sh} /bin/sh /run.sh
+ 7696 bin       0:00 /pause
+ 7749 root      1:31 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 666753eb79f2317f04b52509404ec7fd199c25a2ab49293e7e14eff4fe2ab768 -address /run/k3s/containerd/containerd.sock
+ 7828 bin       2:50 /bin/python3 /src/ericsson/alarm/proxy/app.py --conf /opt/ericsson/alarm-proxy/etc/alarm-proxy.ini --log /opt/ericsson/alarm-proxy/etc/logging.json
+ 7862 65535     0:00 /pause
+ 7874 root      2:42 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 24e290fb2c8b83548cf33899cc931e477ea0733e10324278bbd2ba30e54048ab -address /run/k3s/containerd/containerd.sock
+ 7876 root      0:00 {run_lserv.sh} /bin/sh /run_lserv.sh
+ 8033 bin       0:00 {stream-processi} /bin/sh /opt/ericsson/stream-processing-ui-connector/bin/stream-processing-ui-connector.sh start
+ 8041 bin       0:07 ./uwsgi --ini /opt/ericsson/stream-processing-ui-connector/etc/uwsgi.ini
+ 8081 root      1:31 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id d80e885e2d4e91d8484ab7f7929d984aac65a0ef67358c2e4b21785e8b144cd4 -address /run/k3s/containerd/containerd.sock
+ 8086 bin       0:00 /pause
+ 8097 1001      9:05 redis-server *:6379
+ 8160 root      4:59 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 975132b6c5086690e39ea2bfbd38c027f5380bfe2fda7e1a17a20d8577272a47 -address /run/k3s/containerd/containerd.sock
+ 8173 bin       1:09 /bin/python3 /src/ericsson/esam/proxy/app.py --conf /opt/ericsson/esam-proxy/etc/esam-proxy.ini --logging /opt/ericsson/esam-proxy/etc/logging.json
+ 8187 1001      0:00 /pause
+ 8226 root      1:29 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 7bbd7a412fa5317cc2b1a3a6bca4fca14745d3481e11e753f0b755d0ba2889e9 -address /run/k3s/containerd/containerd.sock
+ 8233 root      1:10 lserv -s /opt/ericsson/license-manager/licenses/nlservrc -e /opt/ericsson/license-manager/etc/lsreserv -port 5093 -z 500m -extended-log -l /dev/stdout
+ 8279 1001      0:00 /pause
+ 8420 bin       0:00 /pause
+ 8432 bin       6:44 {celery} /usr/bin/python3 /usr/local/bin/celery -A envivio.unified.ui worker --loglevel INFO -Ofair
+ 8460 root      1:30 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 82fef7743a61bff0aa68008fac312c1b5160fd4d0c62b5eff6a19e3cfef17af9 -address /run/k3s/containerd/containerd.sock
+ 8506 65535     0:00 /pause
+ 8520 root      3:04 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 72468ffe82c635e2283e2e8476891db6fd73346777f479f48a1032ec3f7ec3f0 -address /run/k3s/containerd/containerd.sock
+ 8595 bin      12:15 /opt/ericsson/stream-processing-asi/bin/asi -dmp /var/log/ericsson/stream-processing-asi/private
+ 8597 bin       0:00 /pause
+ 8616 1001      0:28 {run.sh} /bin/bash /usr/local/bin/scripts/run.sh --daemon
+ 8767 1001      0:00 {rabbitmq-server} /bin/sh /opt/bitnami/rabbitmq/sbin/rabbitmq-server
+ 8774 bin       6:50 /bin/python3 /src/mediakind/flow/api/app.py --conf /src/mediakind/flow/api/config/config.ini --logging /src/mediakind/flow/api/config/logging.json
+ 8811 bin       0:01 /bin/python3 /src/mediakind/controller/metrics/exporter/app.py --logging /src/logging.json --conf /src/config.ini
+ 8924 bin      12:30 /bin/python3 /src/ericsson/server/monitor/app.py --conf /opt/ericsson/server-monitor/etc/server-monitor.ini --logging /opt/ericsson/server-monitor/etc/logging.json
+ 9331 root      2:51 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id c428f82e820a2b944be007345809226eb8b5a9f4f57095212577abbe9b7b5c98 -address /run/k3s/containerd/containerd.sock
+ 9435 root      2:55 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 63039b61ab05c68f899db6a1909a9e41d3e0cdbbe9e8b3774a544966d6e81063 -address /run/k3s/containerd/containerd.sock
+ 9436 bin       0:00 /pause
+ 9474 root      1:29 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 9a0a8e097e0bfeb6139eb1fb970731afcf147db944fe78baf9f850da30018b62 -address /run/k3s/containerd/containerd.sock
+ 9526 65535     0:00 /pause
+ 9548 root      3:29 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id a07dee7c6389d7907dba0aaca3792ea190ccc1866cb45821066b5f468fed9c9c -address /run/k3s/containerd/containerd.sock
+ 9553 bin       0:00 /pause
+ 9589 65535     0:00 /pause
+ 9677 root      1:30 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 856e6a1ee9fd60e11785f03af41954a4b9646590d4253737bb4bbfdee901ef25 -address /run/k3s/containerd/containerd.sock
+ 9770 bin       0:05 /usr/local/bin/uwsgi --ini /opt/ericsson/unified-ui/etc/uwsgi.ini
+ 9991 bin       0:00 /pause
+10015 root      2:46 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id dd3ae2699e5dc6854537ada679840f3cc965197d0df5fb1b79c5e733dac96a18 -address /run/k3s/containerd/containerd.sock
+10047 bin       0:00 /pause
+10078 bin      15:15 {daphne} /usr/bin/python3 /usr/local/bin/daphne ericsson.websocket.asgi:channel_layer -b 0.0.0.0 -p 8889 --ws-protocol v11.stomp --root-path /usr/lib/python3.7/site-packages
+10079 bin       1h08 /usr/bin/python3.7 /src/envivio/unified/manage.py runworker --only-channels=websocket.*
+10090 root      1:28 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 5e916feb1713d8e02dec142bdfe5630fa3a02865238baf5578dad66d132ec175 -address /run/k3s/containerd/containerd.sock
+10151 bin       0:00 /pause
+10177 bin       3:00 /bin/python3 /src/ericsson/snmp/notification/app.py --conf /opt/ericsson/snmp-notification/etc/snmp-notification.ini --logging /opt/ericsson/snmp-notification/etc/logging.json
+10205 bin       0:00 {run.sh} /bin/sh /run.sh
+10225 bin       0:10 /usr/local/bin/uwsgi --ini /opt/ericsson/unified-ui/etc/uwsgi.ini
+10275 bin       8:26 /bin/python3 /src/envivio/service/api/app.py --conf /opt/ericsson/service-api/etc/service-api.ini --logging /opt/ericsson/service-api/etc/logging_service-api.json
+10366 bin      53:39 {spark-muxdaemon} /opt/ericsson/stream-processing-mux/bin/python3 /opt/ericsson/stream-processing-mux/bin/spark-muxdaemon /opt/ericsson/stream-processing-mux/etc/spark-mux.cfg --logging /opt/ericsson/stream-processing-mux/etc/logging.json
+10403 bin       9:26 /bin/python3 /src/ericsson/interfacediscovery/app.py --conf /opt/ericsson/interface-discovery/etc/interface-discovery.ini --watch /opt/ericsson/interface-discovery/etc/watch.yaml --logging /opt/ericsson/interface-discovery/etc/logging.json
+10407 bin       0:40 /bin/python3 /src/mediakind/support/app.py --conf /src/mediakind/support/config/config.ini --logging /src/mediakind/support/config/logging.json
+10515 bin       0:03 /usr/sbin/httpd -D FOREGROUND
+10519 bin       2:40 /bin/python3 /src/envivio/template/api/app.py --conf /opt/ericsson/template-api/etc/template-api.ini --logging /opt/ericsson/template-api/etc/logging.json
+10563 bin       0:00 {run.sh} /bin/sh /run.sh
+10590 bin       2:19 /bin/python3 /src/envivio/service/api/monitor.py --conf /opt/ericsson/service-api/etc/service-api.ini --logging /opt/ericsson/service-api/etc/logging_service-monitor.json
+10770 bin       7:56 dotnet /opt/ericsson/stream-processing-psi/lib/PsiEngineService.dll mksp1
+10803 bin       0:02 /bin/python3 /src/mediakind/reboot/app.py --conf /src/mediakind/support/config/config.ini --logging /src/mediakind/support/config/logging.json
+10826 bin       0:20 /usr/bin/python3 /etc/mediakind/mapserverid.py
+11087 bin       0:00 /usr/sbin/httpd -D FOREGROUND
+11089 bin       0:31 /usr/sbin/httpd -D FOREGROUND
+11090 bin       0:32 /usr/sbin/httpd -D FOREGROUND
+11091 bin       0:32 /usr/sbin/httpd -D FOREGROUND
+11370 1001      0:01 /opt/bitnami/erlang/lib/erlang/erts-12.0.4/bin/epmd -daemon
+11827 bin       0:00 ./uwsgi --ini /opt/ericsson/stream-processing-ui-connector/etc/uwsgi.ini
+11829 bin       0:00 ./uwsgi --ini /opt/ericsson/stream-processing-ui-connector/etc/uwsgi.ini
+13428 bin       5:56 {celery} /usr/bin/python3 /usr/local/bin/celery -A envivio.unified.ui worker --loglevel INFO -Ofair
+13479 bin       6:16 {celery} /usr/bin/python3 /usr/local/bin/celery -A envivio.unified.ui worker --loglevel INFO -Ofair
+15556 1001      1h01 /opt/bitnami/erlang/lib/erlang/erts-12.0.4/bin/beam.smp -W w -MBas ageffcbf -MHas ageffcbf -MBlmbcs 512 -MHlmbcs 512 -MMmcs 30 -P 1048576 -t 5000000 -stbt db -zdbbl 128000 -sbwt none -sbwtdcpu none -sbwtdio none -S 2:1 -B i -- -root /opt/bitnami/erlang/lib/erlang -progname erl -- -home /opt/bitnami/rabbitmq/.rabbitmq -- -pa  -noshell -noinput -s rabbit boot -boot start_sasl -syslog logger [] -syslog syslog_error_logger false
+15564 1001      0:03 erl_child_setup 1048576
+15929 1001      0:00 inet_gethost 4
+15930 1001      0:00 inet_gethost 4
+15993 1001      2h23 /opt/bitnami/mongodb/bin/mongod --config=/opt/bitnami/mongodb/conf/mongodb.conf --wiredTigerCacheSizeGB=0.25
+16488 bin       0:00 /bin/python3 -m celery -A ericsson.failover worker --concurrency 8 --loglevel INFO
+16489 bin       0:00 /bin/python3 -m celery -A ericsson.failover worker --concurrency 8 --loglevel INFO
+16490 bin       0:00 /bin/python3 -m celery -A ericsson.failover worker --concurrency 8 --loglevel INFO
+16491 bin       0:00 /bin/python3 -m celery -A ericsson.failover worker --concurrency 8 --loglevel INFO
+16492 bin       0:00 /bin/python3 -m celery -A ericsson.failover worker --concurrency 8 --loglevel INFO
+16493 bin       0:00 /bin/python3 -m celery -A ericsson.failover worker --concurrency 8 --loglevel INFO
+16494 bin       0:00 /bin/python3 -m celery -A ericsson.failover worker --concurrency 8 --loglevel INFO
+16495 bin       0:00 /bin/python3 -m celery -A ericsson.failover worker --concurrency 8 --loglevel INFO
+17125 root     12:12 /bin/python3 /src/envivio/server/daemon/app.py --logging /opt/ericsson/server-daemon/etc/logging.json --conf /opt/ericsson/server-daemon/etc/server-daemon.ini
+17321 bin      40:08 /opt/ericsson/stream-processing-mux/bin/python3 -c from circus import stats; stats.main() --endpoint ipc:///var/opt/ericsson/stream-processing-mux/circus.sock --pubsub ipc:///var/opt/ericsson/stream-processing-mux/circus-pubsub.sock --statspoint ipc:///var/opt/ericsson/stream-processing-mux/circus-stats.sock
+17525 bin      13h59 /opt/ericsson/stream-processing-mux/bin/spark -sid mksp1 -mux mux_1234_1234_1 -dmp /var/log/ericsson/stream-processing-mux/private
+17545 bin       1:05 /opt/ericsson/stream-processing-mux/bin/licensingContextWorker -serverId mksp1 -muxId mux_1234_1234_1 -ini sparkmuxIni.json -host 10.69.8.30 -port 5093 -licenseLostGracePeriodSeconds 2592000 -perChannelLicensing 1 -logDir stdout -syslogFacility 0 -threadedLogs true -legacyLogs false
+20797 bin      14:16 {celery} /usr/bin/python3 usr/local/bin/celery -A envivio.unified.ui beat --loglevel INFO --pidfile=
+73598 bin       1:17 /usr/local/bin/uwsgi --ini /opt/ericsson/unified-ui/etc/uwsgi.ini
+453459 bin       1:19 /usr/local/bin/uwsgi --ini /opt/ericsson/unified-ui/etc/uwsgi.ini
+641272 bin       0:32 /usr/local/bin/uwsgi --ini /opt/ericsson/unified-ui/etc/uwsgi.ini
+2138430 bin       0:59 /usr/local/bin/uwsgi --ini /opt/ericsson/unified-ui/etc/uwsgi.ini
+2256609 root      0:00 [kworker/7:3-eve]
+2277826 root      0:00 [kworker/u16:0-f]
+2302347 root      0:00 [kworker/2:0-eve]
+2306351 root      0:00 [kworker/7:0-eve]
+2311983 root      0:00 [kworker/u16:3-w]
+2312067 root      0:00 [kworker/4:3-eve]
+2319495 root      0:00 [kworker/5:2-cgr]
+2331437 root      0:00 [kworker/2:1-rcu]
+2338830 root      0:00 [kworker/6:2-eve]
+2355257 root      0:00 [kworker/0:2-eve]
+2358697 root      0:00 [kworker/7:1-cgr]
+2360547 root      0:00 [kworker/2:2-cgr]
+2375881 root      0:00 [kworker/3:0-eve]
+2384057 root      0:00 [kworker/5:0-eve]
+2390811 root      0:00 [kworker/4:0-eve]
+2395425 root      0:00 [kworker/1:1-eve]
+2396843 root      0:00 [kworker/u16:2-w]
+2397401 root      0:00 [kworker/1:2-rcu]
+2405292 root      0:00 [kworker/3:1-eve]
+2410093 root      0:00 [kworker/0:0-eve]
+2412825 root      0:00 [kworker/5:1-eve]
+2416462 root      0:00 [kworker/6:1-eve]
+2424877 root      0:00 [kworker/4:1-rcu]
+2430141 root      0:00 [kworker/5:3]
+2430602 root      0:00 [kworker/3:2-eve]
+2430997 root      0:00 [kworker/3:3-cgr]
+2431104 root      0:00 [kworker/u16:1-e]
+2431118 root      0:00 [kworker/u16:4]
+2433677 root      0:00 [kworker/1:0-cgr]
+2435266 root      0:00 [kworker/1:3]
+2443303 bin       0:05 /usr/bin/python3 /src/envivio/unified/manage.py permissions
+2445242 root      0:00 [kworker/0:1-eve]
+2445295 root      0:00 [kworker/6:0-rcu]
+2445296 root      0:00 [kworker/6:3]
+2448911 root      0:00 [kworker/3:4-eve]
+2449160 1001      0:00 sleep 10
+2449244 root      0:00 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id 3a91e4068f54ca39c152fd6b203a58d06ef97149e65aa898c52cfa68e9bd0364 -address /run/k3s/containerd/containerd.sock
+2449267 bin       0:00 /pause
+2449338 bin       0:01 /bin/python3 /src/mediakind/rabbit/operator/app.py
+2449840 root      0:00 /var/lib/rancher/k3s/data/defdbf336ba6d95025d10079eb09e272e93c4306400d428fafec9e7a24d3279b/bin/containerd-shim-runc-v2 -namespace k8s.io -id c3b467796840ca6a8b39f5bfa4b76eb1139075b06de40e7f6656f74a8e484979 -address /run/k3s/containerd/containerd.sock
+2449862 65535     0:00 /pause
+2449933 root      0:00 /bin/sh -c sleep 600
+2450037 root      0:00 ps aux
+2863948 bin       0:56 /usr/local/bin/uwsgi --ini /opt/ericsson/unified-ui/etc/uwsgi.ini
+3638489 bin       0:12 /usr/sbin/httpd -D FOREGROUND

@@ -1,0 +1,43 @@
+count: 26329
+eventTime: null
+firstTimestamp: '2024-02-06T13:29:16Z'
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{interface-discovery}
+  kind: Pod
+  name: interface-discovery-c89bbcdbd-sss29
+  namespace: mediakind
+  resourceVersion: '8581845'
+  uid: 85c2799d-2aa7-487c-bc27-901457d8b4d6
+lastTimestamp: '2024-02-09T06:04:06Z'
+message: 'Readiness probe failed: HTTP probe failed with statuscode: 500'
+metadata:
+  creationTimestamp: '2024-02-06T13:29:36Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+        f:host: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:29:36Z'
+  name: interface-discovery-c89bbcdbd-sss29.17b14924cc2f50b9
+  namespace: mediakind
+  resourceVersion: '9043594'
+  uid: e78f664a-1ab0-4ef2-a523-dfd32e7930a0
+reason: Unhealthy
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: kubelet
+  host: mediakind-k3s
+type: Warning

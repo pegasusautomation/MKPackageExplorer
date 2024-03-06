@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:24Z'
+  name: statefulset-controller
+  namespace: kube-system
+  resourceVersion: '397'
+  uid: a3abda4e-fabe-4721-930d-9f94acd31cc1
+secrets:
+- name: statefulset-controller-token-wqlzt

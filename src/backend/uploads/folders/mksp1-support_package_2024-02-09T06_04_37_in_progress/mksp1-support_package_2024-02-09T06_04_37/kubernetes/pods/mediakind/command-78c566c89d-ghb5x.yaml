@@ -1,0 +1,252 @@
+metadata:
+  creationTimestamp: '2023-12-14T10:09:18Z'
+  generateName: command-78c566c89d-
+  labels:
+    app.kubernetes.io/component: command
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: command
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.60.1
+    helm.sh/chart: command-1.60.1
+    pod-template-hash: 78c566c89d
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+          f:pod-template-hash: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"eee427b6-7ebd-4ca0-9176-1aa94ac8165b"}: {}
+      f:spec:
+        f:containers:
+          k:{"name":"command"}:
+            .: {}
+            f:args: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:name: {}
+            f:ports:
+              .: {}
+              k:{"containerPort":8003,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:name: {}
+                f:protocol: {}
+            f:resources: {}
+            f:securityContext:
+              .: {}
+              f:allowPrivilegeEscalation: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/opt/ericsson/command/etc/command-api.cfg"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+              k:{"mountPath":"/opt/ericsson/command/etc/logging.json"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:subPath: {}
+        f:dnsPolicy: {}
+        f:enableServiceLinks: {}
+        f:restartPolicy: {}
+        f:schedulerName: {}
+        f:securityContext:
+          .: {}
+          f:fsGroup: {}
+          f:runAsUser: {}
+        f:terminationGracePeriodSeconds: {}
+        f:volumes:
+          .: {}
+          k:{"name":"config"}:
+            .: {}
+            f:configMap:
+              .: {}
+              f:defaultMode: {}
+              f:name: {}
+            f:name: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:09:18Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:conditions:
+          k:{"type":"ContainersReady"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Initialized"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Ready"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+        f:containerStatuses: {}
+        f:hostIP: {}
+        f:phase: {}
+        f:podIP: {}
+        f:podIPs:
+          .: {}
+          k:{"ip":"10.42.0.152"}:
+            .: {}
+            f:ip: {}
+        f:startTime: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:28:34Z'
+  name: command-78c566c89d-ghb5x
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: command-78c566c89d
+    uid: eee427b6-7ebd-4ca0-9176-1aa94ac8165b
+  resourceVersion: '8614760'
+  uid: 1acdf117-f140-4e12-92c9-9ddc2966661c
+spec:
+  containers:
+  - args:
+    - /src/envivio/command/api/app.py
+    - --conf
+    - /opt/ericsson/command/etc/command-api.cfg
+    - --log
+    - /opt/ericsson/command/etc/logging.json
+    image: packages.mediakind.com/mpd-docker/mediakind/command:1.60.1
+    imagePullPolicy: IfNotPresent
+    name: command
+    ports:
+    - containerPort: 8003
+      name: restapi
+      protocol: TCP
+    resources: {}
+    securityContext:
+      allowPrivilegeEscalation: false
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /opt/ericsson/command/etc/command-api.cfg
+      name: config
+      subPath: command-api.cfg
+    - mountPath: /opt/ericsson/command/etc/logging.json
+      name: config
+      subPath: logging.json
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-h8f96
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: false
+  nodeName: mediakind-k3s
+  preemptionPolicy: Never
+  priority: 0
+  priorityClassName: default
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext:
+    fsGroup: 2
+    runAsUser: 2
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 0
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - configMap:
+      defaultMode: 420
+      name: command-config
+    name: config
+  - name: kube-api-access-h8f96
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:09:18Z'
+    status: 'True'
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:28:18Z'
+    status: 'True'
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:28:18Z'
+    status: 'True'
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:09:18Z'
+    status: 'True'
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://dea7d142ef5a66909e0fc3766c11878f1985edc1e943e9b31ee88ecb85809288
+    image: packages.mediakind.com/mpd-docker/mediakind/command:1.60.1
+    imageID: sha256:b8eb13023c1d1dccbe17d73c287ed353d32cc94956fe3887f62062cf4f1b750a
+    lastState:
+      terminated:
+        containerID: containerd://91daf74c3b180de1b5ccf9dcffc6bc47ddae6699c34ecaf33870e96ba126068b
+        exitCode: 255
+        finishedAt: '2024-02-06T13:27:47Z'
+        reason: Unknown
+        startedAt: '2024-02-06T08:36:09Z'
+    name: command
+    ready: true
+    restartCount: 9
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:28:17Z'
+  hostIP: 192.168.255.1
+  phase: Running
+  podIP: 10.42.0.152
+  podIPs:
+  - ip: 10.42.0.152
+  qosClass: BestEffort
+  startTime: '2023-12-14T10:09:18Z'

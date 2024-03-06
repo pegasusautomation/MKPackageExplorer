@@ -1,0 +1,61 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.178
+  conditions:
+    ready: false
+    serving: false
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: etcd-controller1-0
+    namespace: mediakind
+    resourceVersion: '8615037'
+    uid: e65ca258-63af-4723-9e0a-f2b05239ba04
+metadata:
+  creationTimestamp: '2023-12-14T10:07:24Z'
+  generateName: etcd-
+  generation: 24
+  labels:
+    app.kubernetes.io/managed-by: Helm
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    kubernetes.io/service-name: etcd
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"f03250d5-f428-4d87-84c8-c7a34c033b35"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2024-01-11T14:13:46Z'
+  name: etcd-s62xc
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: etcd
+    uid: f03250d5-f428-4d87-84c8-c7a34c033b35
+  resourceVersion: '8615041'
+  uid: e8463536-2a91-4dcc-aedc-703d4b4f65f2
+ports:
+- name: client
+  port: 2379
+  protocol: TCP
+- name: peer
+  port: 2380
+  protocol: TCP

@@ -1,0 +1,36 @@
+[
+    {
+        "_id": {
+            "$oid": "65ae56ed050af7aa26aecc81"
+        },
+        "allowed_variants": [],
+        "assigned_servers": [
+            {
+                "serverId": "mksp1",
+                "state": "stopped",
+                "status": {
+                    "lastModified": "2024-02-06T13:29:12.911241+00:00",
+                    "state": "started"
+                }
+            },
+            {
+                "serverId": "mksp2",
+                "state": "stopped",
+                "status": {
+                    "lastModified": {
+                        "$date": 1705924333648
+                    },
+                    "state": "stopped"
+                }
+            }
+        ],
+        "service_id": "mux_1234_1234_1",
+        "service_name": "TS01",
+        "service_type": "mux",
+        "state": "started",
+        "state_modified_at": {
+            "$date": 1707396926627
+        },
+        "template": {}
+    }
+]

@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:14Z'
+  name: ephemeral-volume-controller
+  namespace: kube-system
+  resourceVersion: '360'
+  uid: 3f3019ab-286f-426b-8abb-b9c77908a281
+secrets:
+- name: ephemeral-volume-controller-token-gwprj

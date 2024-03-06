@@ -1,0 +1,77 @@
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mk-deps
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T06:57:18Z'
+  generation: 1
+  labels:
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: rabbitmq
+    helm.sh/chart: rabbitmq-8.21.0
+  managedFields:
+  - apiVersion: policy/v1beta1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:helm.sh/chart: {}
+      f:spec:
+        f:minAvailable: {}
+        f:selector: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T06:57:18Z'
+  - apiVersion: policy/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:conditions:
+          .: {}
+          k:{"type":"DisruptionAllowed"}:
+            .: {}
+            f:lastTransitionTime: {}
+            f:message: {}
+            f:observedGeneration: {}
+            f:reason: {}
+            f:status: {}
+            f:type: {}
+        f:currentHealthy: {}
+        f:desiredHealthy: {}
+        f:expectedPods: {}
+        f:observedGeneration: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2023-12-14T06:59:12Z'
+  name: rabbitmq-ha-controller1
+  namespace: mediakind
+  resourceVersion: '8615163'
+  uid: ef38e2ab-f3dc-4f7a-a106-73bb56f66bd6
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: mk-deps
+      app.kubernetes.io/name: rabbitmq
+status:
+  conditions:
+  - lastTransitionTime: '2024-02-06T13:29:03Z'
+    message: ''
+    observedGeneration: 1
+    reason: InsufficientPods
+    status: 'False'
+    type: DisruptionAllowed
+  currentHealthy: 1
+  desiredHealthy: 1
+  disruptionsAllowed: 0
+  expectedPods: 1
+  observedGeneration: 1

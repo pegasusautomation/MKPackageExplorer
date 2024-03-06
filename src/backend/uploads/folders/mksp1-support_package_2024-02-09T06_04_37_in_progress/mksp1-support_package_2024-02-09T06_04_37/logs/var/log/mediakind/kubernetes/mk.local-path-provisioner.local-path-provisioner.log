@@ -1,0 +1,48 @@
+{"log_msg":"I1214 06:57:18.494466       1 controller.go:1202] provision \"mediakind/data-etcd-controller1-0\" class \"local-path\": started"}
+{"log_msg":"time=\"2023-12-14T06:57:18Z\" level=info msg=\"Creating volume pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36 at mediakind-k3s:/var/lib/rancher/k3s/storage/pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36_mediakind_data-etcd-controller1-0\" "}
+{"log_msg":"time=\"2023-12-14T06:57:18Z\" level=info msg=\"create the helper pod helper-pod-create-pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36 into kube-system\" "}
+{"log_msg":"I1214 06:57:18.508338       1 event.go:281] Event(v1.ObjectReference{Kind:\"PersistentVolumeClaim\", Namespace:\"mediakind\", Name:\"data-etcd-controller1-0\", UID:\"25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36\", APIVersion:\"v1\", ResourceVersion:\"1158\", FieldPath:\"\"}): type: 'Normal' reason: 'Provisioning' External provisioner is provisioning volume for claim \"mediakind/data-etcd-controller1-0\""}
+{"log_msg":"time=\"2023-12-14T06:57:22Z\" level=info msg=\"Volume pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36 has been created on mediakind-k3s:/var/lib/rancher/k3s/storage/pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36_mediakind_data-etcd-controller1-0\" "}
+{"log_msg":"I1214 06:57:22.550231       1 controller.go:1284] provision \"mediakind/data-etcd-controller1-0\" class \"local-path\": volume \"pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36\" provisioned"}
+{"log_msg":"I1214 06:57:22.550257       1 controller.go:1301] provision \"mediakind/data-etcd-controller1-0\" class \"local-path\": succeeded"}
+{"log_msg":"I1214 06:57:22.550263       1 volume_store.go:212] Trying to save persistentvolume \"pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36\""}
+{"log_msg":"I1214 06:57:22.556280       1 volume_store.go:219] persistentvolume \"pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36\" saved"}
+{"log_msg":"I1214 06:57:22.556373       1 event.go:281] Event(v1.ObjectReference{Kind:\"PersistentVolumeClaim\", Namespace:\"mediakind\", Name:\"data-etcd-controller1-0\", UID:\"25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36\", APIVersion:\"v1\", ResourceVersion:\"1158\", FieldPath:\"\"}): type: 'Normal' reason: 'ProvisioningSucceeded' Successfully provisioned volume pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36"}
+{"log_msg":"I1214 07:10:31.517868       1 controller.go:773] Starting provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_5ff74162-3706-4021-bcd9-3ffa9ba33700!"}
+{"log_msg":"I1214 07:10:31.618884       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_5ff74162-3706-4021-bcd9-3ffa9ba33700!"}
+{"log_msg":"I1214 09:45:25.759860       1 controller.go:1314] delete \"pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36\": started"}
+{"log_msg":"time=\"2023-12-14T09:45:25Z\" level=info msg=\"Deleting volume pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36 at mediakind-k3s:/var/lib/rancher/k3s/storage/pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36_mediakind_data-etcd-controller1-0\" "}
+{"log_msg":"time=\"2023-12-14T09:45:25Z\" level=info msg=\"create the helper pod helper-pod-delete-pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36 into kube-system\" "}
+{"log_msg":"time=\"2023-12-14T09:45:29Z\" level=info msg=\"Volume pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36 has been deleted on mediakind-k3s:/var/lib/rancher/k3s/storage/pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36_mediakind_data-etcd-controller1-0\" "}
+{"log_msg":"I1214 09:45:29.794525       1 controller.go:1342] delete \"pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36\": volume deleted"}
+{"log_msg":"I1214 09:45:29.797497       1 controller.go:1388] delete \"pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36\": persistentvolume deleted"}
+{"log_msg":"I1214 09:45:29.797510       1 controller.go:1390] delete \"pvc-25b05e65-f5f5-4bf7-94bf-13a0f8d7bf36\": succeeded"}
+{"log_msg":"I1214 09:45:53.474742       1 controller.go:1202] provision \"mediakind/data-etcd-controller1-0\" class \"local-path\": started"}
+{"log_msg":"time=\"2023-12-14T09:45:53Z\" level=info msg=\"Creating volume pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2 at mediakind-k3s:/var/lib/rancher/k3s/storage/pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2_mediakind_data-etcd-controller1-0\" "}
+{"log_msg":"time=\"2023-12-14T09:45:53Z\" level=info msg=\"create the helper pod helper-pod-create-pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2 into kube-system\" "}
+{"log_msg":"I1214 09:45:53.480999       1 event.go:281] Event(v1.ObjectReference{Kind:\"PersistentVolumeClaim\", Namespace:\"mediakind\", Name:\"data-etcd-controller1-0\", UID:\"2624d7ae-8ad0-46d8-8b00-e1077a3d49b2\", APIVersion:\"v1\", ResourceVersion:\"16537\", FieldPath:\"\"}): type: 'Normal' reason: 'Provisioning' External provisioner is provisioning volume for claim \"mediakind/data-etcd-controller1-0\""}
+{"log_msg":"time=\"2023-12-14T09:45:56Z\" level=info msg=\"Volume pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2 has been created on mediakind-k3s:/var/lib/rancher/k3s/storage/pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2_mediakind_data-etcd-controller1-0\" "}
+{"log_msg":"I1214 09:45:56.503791       1 controller.go:1284] provision \"mediakind/data-etcd-controller1-0\" class \"local-path\": volume \"pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2\" provisioned"}
+{"log_msg":"I1214 09:45:56.503814       1 controller.go:1301] provision \"mediakind/data-etcd-controller1-0\" class \"local-path\": succeeded"}
+{"log_msg":"I1214 09:45:56.503819       1 volume_store.go:212] Trying to save persistentvolume \"pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2\""}
+{"log_msg":"I1214 09:45:56.506960       1 volume_store.go:219] persistentvolume \"pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2\" saved"}
+{"log_msg":"I1214 09:45:56.507052       1 event.go:281] Event(v1.ObjectReference{Kind:\"PersistentVolumeClaim\", Namespace:\"mediakind\", Name:\"data-etcd-controller1-0\", UID:\"2624d7ae-8ad0-46d8-8b00-e1077a3d49b2\", APIVersion:\"v1\", ResourceVersion:\"16537\", FieldPath:\"\"}): type: 'Normal' reason: 'ProvisioningSucceeded' Successfully provisioned volume pvc-2624d7ae-8ad0-46d8-8b00-e1077a3d49b2"}
+{"log_msg":"time=\"2023-12-14T10:00:39Z\" level=info msg=\"Receive terminated to exit\" "}
+{"log_msg":"time=\"2023-12-14T10:00:39Z\" level=info msg=\"stop watching config file\" "}
+{"log_msg":"I1214 10:03:04.094804       1 controller.go:773] Starting provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_9fa804d3-3b56-4733-8c61-5e6279d0447d!"}
+{"log_msg":"I1214 10:03:04.195133       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_9fa804d3-3b56-4733-8c61-5e6279d0447d!"}
+{"log_msg":"I0102 08:59:09.068090       1 controller.go:773] Starting provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_a194f97e-b108-462b-9c43-44e99391517c!"}
+{"log_msg":"I0102 08:59:09.170195       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_a194f97e-b108-462b-9c43-44e99391517c!"}
+{"log_msg":"I0112 14:08:03.152265       1 controller.go:773] Starting provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_ee82b066-65e8-4acd-9d51-44cf85945af2!"}
+{"log_msg":"I0112 14:08:03.256269       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_ee82b066-65e8-4acd-9d51-44cf85945af2!"}
+{"log_msg":"I0123 04:28:54.947636       1 controller.go:773] Starting provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_6ef2c295-1732-43c3-a9f8-bbea458abb05!"}
+{"log_msg":"I0123 04:28:55.048512       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_6ef2c295-1732-43c3-a9f8-bbea458abb05!"}
+{"log_msg":"I0125 13:22:08.895921       1 controller.go:773] Starting provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_9d6599e7-fa28-406d-9401-58e665b5b2d8!"}
+{"log_msg":"I0125 13:22:09.002410       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_9d6599e7-fa28-406d-9401-58e665b5b2d8!"}
+{"msg":"65357       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_1fbd8454-43e4-41f1-b642-e01555e22f90!"}
+{"log_msg":"I0201 20:58:59.973263       1 controller.go:773] Starting provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_c1ea5a0d-630c-4eb8-a30b-c0f64d4c5316!"}
+{"log_msg":"I0201 20:59:00.075822       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_c1ea5a0d-630c-4eb8-a30b-c0f64d4c5316!"}
+{"log_msg":"I0206 08:36:06.304676       1 controller.go:773] Starting provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_d7910e45-a32e-4049-9752-14b978a7b266!"}
+{"log_msg":"I0206 08:36:06.405177       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_d7910e45-a32e-4049-9752-14b978a7b266!"}
+{"log_msg":"I0206 13:28:17.616389       1 controller.go:773] Starting provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_253b0b5b-3640-4a89-9571-75ac2227c9f2!"}
+{"log_msg":"I0206 13:28:17.716915       1 controller.go:822] Started provisioner controller rancher.io/local-path_local-path-provisioner-5f8bbd68f9-r4qjs_253b0b5b-3640-4a89-9571-75ac2227c9f2!"}

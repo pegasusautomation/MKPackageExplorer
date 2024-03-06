@@ -1,0 +1,51 @@
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:18Z'
+  creationTimestamp: '2023-12-14T06:56:52Z'
+  labels:
+    app: cert-manager
+    app.kubernetes.io/component: controller
+    app.kubernetes.io/instance: cert-manager
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: cert-manager
+    app.kubernetes.io/version: v1.5.3
+    helm.sh/chart: cert-manager-v1.5.3
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:labels:
+          .: {}
+          f:app: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T08:36:30Z'
+  name: cert-manager
+  namespace: cert-manager
+  resourceVersion: '8614870'
+  uid: c4431fc4-3ff4-44e5-a870-8c5e81fce5e0
+subsets:
+- addresses:
+  - ip: 10.42.0.153
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: cert-manager-7cd4d77f86-srqgs
+      namespace: cert-manager
+      resourceVersion: '8614868'
+      uid: 4c208f0f-d59d-4b3d-94f6-21890b569538
+  ports:
+  - name: tcp-prometheus-servicemonitor
+    port: 9402
+    protocol: TCP

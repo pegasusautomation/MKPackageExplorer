@@ -20,7 +20,7 @@ import {
     AiOutlineProfile,
 } from "react-icons/ai";
 // import { MdLogout } from "react-icons/md";
-import { BsCloudUpload, BsServer } from "react-icons/bs";
+import { BsAlarmFill, BsCloudUpload, BsServer } from "react-icons/bs";
 
 import { useLocation } from "react-router-dom";
 
@@ -104,6 +104,11 @@ const linksArray = [
         label: "Bitrate",
         icon: <BsServer />,
         to: "/Bitrates",
+    },
+    {
+        label: "Alarm",
+        icon: <BsAlarmFill />,
+        to: "/Alarm",
     },
     {
         label: "Licence",

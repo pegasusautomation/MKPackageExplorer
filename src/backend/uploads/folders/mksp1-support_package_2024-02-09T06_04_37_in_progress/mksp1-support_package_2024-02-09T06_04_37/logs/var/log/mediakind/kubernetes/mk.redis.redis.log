@@ -1,0 +1,103 @@
+{"log_msg":"1:C 14 Dec 2023 06:57:19.218 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 14 Dec 2023 06:57:19.218 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 14 Dec 2023 06:57:19.218 # Configuration loaded"}
+{"log_msg":"1:M 14 Dec 2023 06:57:19.218 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 14 Dec 2023 06:57:19.219 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 14 Dec 2023 06:57:19.219 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 14 Dec 2023 06:57:19.219 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 14 Dec 2023 06:57:19.219 # Server initialized"}
+{"log_msg":"1:M 14 Dec 2023 06:57:19.219 * Ready to accept connections"}
+{"log_msg":"1:signal-handler (1702537771) Received SIGTERM scheduling shutdown..."}
+{"log_msg":"1:C 14 Dec 2023 07:10:29.249 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 14 Dec 2023 07:10:29.249 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 14 Dec 2023 07:10:29.249 # Configuration loaded"}
+{"log_msg":"1:M 14 Dec 2023 07:10:29.249 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 14 Dec 2023 07:10:29.249 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 14 Dec 2023 07:10:29.249 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 14 Dec 2023 07:10:29.250 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 14 Dec 2023 07:10:29.250 # Server initialized"}
+{"log_msg":"1:M 14 Dec 2023 07:10:29.250 * Ready to accept connections"}
+{"log_msg":"1:signal-handler (1702548039) Received SIGTERM scheduling shutdown..."}
+{"log_msg":"1:M 14 Dec 2023 10:00:39.078 # User requested shutdown..."}
+{"log_msg":"1:M 14 Dec 2023 10:00:39.078 # Redis is now ready to exit, bye bye..."}
+{"log_msg":"1:C 14 Dec 2023 10:03:04.124 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 14 Dec 2023 10:03:04.124 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 14 Dec 2023 10:03:04.124 # Configuration loaded"}
+{"log_msg":"1:M 14 Dec 2023 10:03:04.125 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 14 Dec 2023 10:03:04.125 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 14 Dec 2023 10:03:04.125 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 14 Dec 2023 10:03:04.125 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 14 Dec 2023 10:03:04.125 # Server initialized"}
+{"log_msg":"1:M 14 Dec 2023 10:03:04.125 * Ready to accept connections"}
+{"log_msg":"1:C 02 Jan 2024 08:59:01.523 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 02 Jan 2024 08:59:01.523 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 02 Jan 2024 08:59:01.523 # Configuration loaded"}
+{"log_msg":"1:M 02 Jan 2024 08:59:01.524 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 02 Jan 2024 08:59:01.524 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 02 Jan 2024 08:59:01.524 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 02 Jan 2024 08:59:01.524 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 02 Jan 2024 08:59:01.524 # Server initialized"}
+{"log_msg":"1:M 02 Jan 2024 08:59:01.524 * Ready to accept connections"}
+{"log_msg":"1:C 11 Jan 2024 14:13:32.395 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 11 Jan 2024 14:13:32.395 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 11 Jan 2024 14:13:32.395 # Configuration loaded"}
+{"log_msg":"1:M 11 Jan 2024 14:13:32.396 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 11 Jan 2024 14:13:32.396 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 11 Jan 2024 14:13:32.397 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 11 Jan 2024 14:13:32.397 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 11 Jan 2024 14:13:32.397 # Server initialized"}
+{"log_msg":"1:M 11 Jan 2024 14:13:32.397 * Ready to accept connections"}
+{"log_msg":"1:C 12 Jan 2024 14:07:58.909 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 12 Jan 2024 14:07:58.909 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 12 Jan 2024 14:07:58.909 # Configuration loaded"}
+{"log_msg":"1:M 12 Jan 2024 14:07:58.909 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 12 Jan 2024 14:07:58.910 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 12 Jan 2024 14:07:58.910 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 12 Jan 2024 14:07:58.910 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 12 Jan 2024 14:07:58.910 # Server initialized"}
+{"log_msg":"1:M 12 Jan 2024 14:07:58.910 * Ready to accept connections"}
+{"log_msg":"1:C 23 Jan 2024 04:28:56.755 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 23 Jan 2024 04:28:56.755 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 23 Jan 2024 04:28:56.755 # Configuration loaded"}
+{"log_msg":"1:M 23 Jan 2024 04:28:56.755 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 23 Jan 2024 04:28:56.756 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 23 Jan 2024 04:28:56.756 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 23 Jan 2024 04:28:56.756 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 23 Jan 2024 04:28:56.756 # Server initialized"}
+{"log_msg":"1:M 23 Jan 2024 04:28:56.756 * Ready to accept connections"}
+{"log_msg":"1:C 30 Jan 2024 10:39:32.956 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 30 Jan 2024 10:39:32.956 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 30 Jan 2024 10:39:32.956 # Configuration loaded"}
+{"log_msg":"1:M 30 Jan 2024 10:39:32.957 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 30 Jan 2024 10:39:32.957 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 30 Jan 2024 10:39:32.957 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 30 Jan 2024 10:39:32.957 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 30 Jan 2024 10:39:32.957 # Server initialized"}
+{"log_msg":"1:M 30 Jan 2024 10:39:32.958 * Ready to accept connections"}
+{"log_msg":"1:C 01 Feb 2024 20:58:58.248 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 01 Feb 2024 20:58:58.248 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 01 Feb 2024 20:58:58.248 # Configuration loaded"}
+{"log_msg":"1:M 01 Feb 2024 20:58:58.248 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 01 Feb 2024 20:58:58.248 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 01 Feb 2024 20:58:58.248 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 01 Feb 2024 20:58:58.248 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 01 Feb 2024 20:58:58.248 # Server initialized"}
+{"log_msg":"1:M 01 Feb 2024 20:58:58.249 * Ready to accept connections"}
+{"log_msg":"1:C 06 Feb 2024 08:36:09.808 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 06 Feb 2024 08:36:09.808 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 06 Feb 2024 08:36:09.808 # Configuration loaded"}
+{"log_msg":"1:M 06 Feb 2024 08:36:09.809 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 06 Feb 2024 08:36:09.809 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 06 Feb 2024 08:36:09.809 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 06 Feb 2024 08:36:09.809 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 06 Feb 2024 08:36:09.809 # Server initialized"}
+{"log_msg":"1:M 06 Feb 2024 08:36:09.809 * Ready to accept connections"}
+{"log_msg":"1:C 06 Feb 2024 13:28:24.180 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo"}
+{"log_msg":"1:C 06 Feb 2024 13:28:24.180 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started"}
+{"log_msg":"1:C 06 Feb 2024 13:28:24.180 # Configuration loaded"}
+{"log_msg":"1:M 06 Feb 2024 13:28:24.180 * monotonic clock: POSIX clock_gettime"}
+{"log_msg":"1:M 06 Feb 2024 13:28:24.181 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list."}
+{"log_msg":"1:M 06 Feb 2024 13:28:24.181 * Running mode=standalone, port=6379."}
+{"log_msg":"1:M 06 Feb 2024 13:28:24.181 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128."}
+{"log_msg":"1:M 06 Feb 2024 13:28:24.181 # Server initialized"}
+{"log_msg":"1:M 06 Feb 2024 13:28:24.181 * Ready to accept connections"}

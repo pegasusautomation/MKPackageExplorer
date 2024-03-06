@@ -1,0 +1,27 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:09Z'
+  labels:
+    endpointslice.kubernetes.io/skip-mirror: 'true'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:labels:
+          .: {}
+          f:endpointslice.kubernetes.io/skip-mirror: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T06:48:09Z'
+  name: kubernetes
+  namespace: default
+  resourceVersion: '208'
+  uid: e81d50bc-0e1d-4395-aea1-213aabbba046
+subsets:
+- addresses:
+  - ip: 192.168.255.1
+  ports:
+  - name: https
+    port: 6443
+    protocol: TCP

@@ -1,0 +1,6 @@
+apiVersion: monitoring.coreos.com/v1
+items: []
+kind: PrometheusRuleList
+metadata:
+  continue: ''
+  resourceVersion: '9043740'

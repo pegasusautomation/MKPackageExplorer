@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:11Z'
+  name: certificate-controller
+  namespace: kube-system
+  resourceVersion: '238'
+  uid: 5899a49b-827d-4cb3-9371-643df5edd14b
+secrets:
+- name: certificate-controller-token-xsbvg

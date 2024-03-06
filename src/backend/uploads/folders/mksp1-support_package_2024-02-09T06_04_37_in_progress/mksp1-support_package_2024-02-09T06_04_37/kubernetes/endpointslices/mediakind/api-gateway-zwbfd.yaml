@@ -1,0 +1,78 @@
+addressType: IPv4
+endpoints:
+- addresses:
+  - 10.42.0.170
+  conditions:
+    ready: true
+    serving: true
+    terminating: false
+  nodeName: mediakind-k3s
+  targetRef:
+    kind: Pod
+    name: api-gateway-7957b5f6fb-bws97
+    namespace: mediakind
+    resourceVersion: '8614986'
+    uid: 954fc49a-c6e1-48c6-b68c-4e353e7587d8
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:29Z'
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generateName: api-gateway-
+  generation: 23
+  labels:
+    app.kubernetes.io/component: api-gateway
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: api-gateway
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.29.21
+    endpointslice.kubernetes.io/managed-by: endpointslice-controller.k8s.io
+    helm.sh/chart: api-gateway-1.29.21
+    kubernetes.io/service-name: api-gateway
+  managedFields:
+  - apiVersion: discovery.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:addressType: {}
+      f:endpoints: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:endpointslice.kubernetes.io/managed-by: {}
+          f:helm.sh/chart: {}
+          f:kubernetes.io/service-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"466ae53c-6bad-44f0-8cd0-49b779a804ef"}: {}
+      f:ports: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:42:07Z'
+  name: api-gateway-zwbfd
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: Service
+    name: api-gateway
+    uid: 466ae53c-6bad-44f0-8cd0-49b779a804ef
+  resourceVersion: '8614989'
+  uid: 888c80c4-ff36-49d7-8759-b36e36da1ca5
+ports:
+- name: http
+  port: 8080
+  protocol: TCP
+- name: https
+  port: 8443
+  protocol: TCP

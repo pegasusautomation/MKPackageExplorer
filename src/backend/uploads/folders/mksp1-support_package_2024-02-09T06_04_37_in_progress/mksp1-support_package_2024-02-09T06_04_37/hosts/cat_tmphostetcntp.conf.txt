@@ -1,0 +1,1 @@
+cat: can't open '/tmp/host/etc/ntp.conf': No such file or directory

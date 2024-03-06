@@ -1,0 +1,209 @@
+[
+    {
+        "_id": "mux_mux_1234_1234_1TS1",
+        "config": {
+            "issue": "fd9df692-354a-447c-8ddd-5278e6ae18bb",
+            "outputId": "TS1",
+            "pidmap": [
+                {
+                    "contributesForHealth": false,
+                    "customPidName": "",
+                    "in": 101,
+                    "inputId": "/inputs/inp_2220184247",
+                    "missingPidAlarmEnabled": false,
+                    "missingPidRaiseTimeMs": 500,
+                    "out": 101,
+                    "pcr": true,
+                    "services": [
+                        1
+                    ],
+                    "stream_type": 27,
+                    "uuid": "com_1905091193"
+                },
+                {
+                    "contributesForHealth": false,
+                    "customPidName": "",
+                    "in": 102,
+                    "inputId": "/inputs/inp_2220184247",
+                    "missingPidAlarmEnabled": false,
+                    "missingPidRaiseTimeMs": 500,
+                    "out": 102,
+                    "pcr": false,
+                    "services": [
+                        1
+                    ],
+                    "stream_type": 3,
+                    "uuid": "com_3791917556"
+                }
+            ],
+            "psisi": {
+                "playlists": [
+                    {
+                        "pid": 0,
+                        "segments": [
+                            {
+                                "min_pkt_gap": 0,
+                                "sections": [
+                                    "21e0f0b3-1ed8-40c8-a179-4b1cd892e760"
+                                ],
+                                "seg_end": 100
+                            }
+                        ],
+                        "services": []
+                    },
+                    {
+                        "pid": 1,
+                        "segments": [
+                            {
+                                "min_pkt_gap": 0,
+                                "sections": [
+                                    "1ee9fe9d-039b-487c-939a-dbe78fc56be6"
+                                ],
+                                "seg_end": 100
+                            }
+                        ],
+                        "services": []
+                    },
+                    {
+                        "pid": 17,
+                        "segments": [
+                            {
+                                "min_pkt_gap": 0,
+                                "sections": [
+                                    "c9eda552-f665-4107-bde9-4d847edf52c5"
+                                ],
+                                "seg_end": 1000
+                            }
+                        ],
+                        "services": []
+                    },
+                    {
+                        "pid": 20,
+                        "segments": [
+                            {
+                                "min_pkt_gap": 0,
+                                "sections": [
+                                    "63e5368a-776d-4889-9a0d-a5c3833c3af1"
+                                ],
+                                "seg_end": 990
+                            },
+                            {
+                                "min_pkt_gap": 0,
+                                "sections": [
+                                    "422f6e4c-898e-4db5-9000-ee5ea8ecf535"
+                                ],
+                                "seg_end": 10
+                            }
+                        ],
+                        "services": []
+                    },
+                    {
+                        "pid": 100,
+                        "segments": [
+                            {
+                                "min_pkt_gap": 5,
+                                "sections": [
+                                    "4e80e9ac-345d-46a5-8eb8-3d8afff04a08"
+                                ],
+                                "seg_end": 100
+                            }
+                        ],
+                        "services": [
+                            1
+                        ]
+                    }
+                ],
+                "tables": [
+                    {
+                        "pid": 0,
+                        "repetitionRate": 100,
+                        "sectionCount": 1,
+                        "sections": [
+                            {
+                                "data": "00B00D0001CD00000001E064CFE4E9FF",
+                                "sectionNumber": 0,
+                                "uuid": "21e0f0b3-1ed8-40c8-a179-4b1cd892e760"
+                            }
+                        ],
+                        "type": "PAT"
+                    },
+                    {
+                        "pid": 1,
+                        "repetitionRate": 100,
+                        "sectionCount": 1,
+                        "sections": [
+                            {
+                                "data": "01B009FFFFC10000D66DA242",
+                                "sectionNumber": 0,
+                                "uuid": "1ee9fe9d-039b-487c-939a-dbe78fc56be6"
+                            }
+                        ],
+                        "type": "CAT"
+                    },
+                    {
+                        "pid": 17,
+                        "repetitionRate": 1000,
+                        "sectionCount": 1,
+                        "sections": [
+                            {
+                                "data": "42F0300001CD000004D2FF0001FC801F481D01096D6B206370206C6162114D4B454C30312D20736572766963653031F363A22E",
+                                "sectionNumber": 0,
+                                "uuid": "c9eda552-f665-4107-bde9-4d847edf52c5"
+                            }
+                        ],
+                        "type": "SDTa"
+                    },
+                    {
+                        "pid": 20,
+                        "repetitionRate": 1000,
+                        "sectionCount": 1,
+                        "sections": [
+                            {
+                                "data": "73700BEBBC125526F000EE1DF207",
+                                "sectionNumber": 0,
+                                "uuid": "63e5368a-776d-4889-9a0d-a5c3833c3af1"
+                            }
+                        ],
+                        "type": "TOT"
+                    },
+                    {
+                        "pid": 20,
+                        "repetitionRate": 1000,
+                        "sectionCount": 1,
+                        "sections": [
+                            {
+                                "data": "707005EBBC125526",
+                                "sectionNumber": 0,
+                                "uuid": "422f6e4c-898e-4db5-9000-ee5ea8ecf535"
+                            }
+                        ],
+                        "type": "TDT"
+                    },
+                    {
+                        "pid": 100,
+                        "repetitionRate": 100,
+                        "sectionCount": 1,
+                        "sections": [
+                            {
+                                "data": "02B03A0001C10000E065F00B0C0480B481680E03C032151BE065F00C52010106010228040000283F03E066F00C5201020A04656E670003016759A3B7C9",
+                                "sectionNumber": 0,
+                                "uuid": "4e80e9ac-345d-46a5-8eb8-3d8afff04a08"
+                            }
+                        ],
+                        "type": "PMT"
+                    }
+                ]
+            },
+            "revision": "368f487ebd24433cb70a798687b7aa49",
+            "serviceId": "mux_1234_1234_1",
+            "unresolved": []
+        },
+        "meta": {
+            "last-modified": {
+                "$date": 1707396927000
+            },
+            "revision": "cff664a85de64d7ba91b8b1eab9c9e4c",
+            "version": "10.0"
+        }
+    }
+]

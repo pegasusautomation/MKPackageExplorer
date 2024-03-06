@@ -1,0 +1,185 @@
+data:
+  spec:
+    template:
+      $patch: replace
+      metadata:
+        creationTimestamp: null
+        labels:
+          app.kubernetes.io/component: mongodb
+          app.kubernetes.io/instance: mk-deps
+          app.kubernetes.io/managed-by: Helm
+          app.kubernetes.io/name: mongodb
+          helm.sh/chart: mongodb-10.23.2-replicasetconfigurationsettings2
+      spec:
+        affinity:
+          podAntiAffinity:
+            preferredDuringSchedulingIgnoredDuringExecution:
+            - podAffinityTerm:
+                labelSelector:
+                  matchLabels:
+                    app.kubernetes.io/component: mongodb
+                    app.kubernetes.io/instance: mk-deps
+                    app.kubernetes.io/name: mongodb
+                topologyKey: kubernetes.io/hostname
+              weight: 1
+        containers:
+        - args:
+          - /opt/mediakind/scripts/custom-init-script.sh
+          - --wiredTigerCacheSizeGB=0.25
+          env:
+          - name: BITNAMI_DEBUG
+            value: 'false'
+          - name: MONGODB_ROOT_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                key: mongodb-root-password
+                name: mongodb-replicaset-controller1
+          - name: ALLOW_EMPTY_PASSWORD
+            value: 'no'
+          - name: MONGODB_SYSTEM_LOG_VERBOSITY
+            value: '0'
+          - name: MONGODB_DISABLE_SYSTEM_LOG
+            value: 'no'
+          - name: MONGODB_DISABLE_JAVASCRIPT
+            value: 'no'
+          - name: MONGODB_ENABLE_JOURNAL
+            value: 'yes'
+          - name: MONGODB_ENABLE_IPV6
+            value: 'no'
+          - name: MONGODB_ENABLE_DIRECTORY_PER_DB
+            value: 'no'
+          - name: MONGODB_REPLICA_SET_NAME
+            value: repldb
+          envFrom:
+          - configMapRef:
+              name: mongodb-env-vars
+          image: packages.mediakind.com/mpd-docker/bitnami/mongodb:4.4.9-debian-10-r3
+          imagePullPolicy: IfNotPresent
+          livenessProbe:
+            exec:
+              command:
+              - mongo
+              - --disableImplicitSessions
+              - --eval
+              - db.adminCommand('ping')
+            failureThreshold: 6
+            initialDelaySeconds: 30
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 5
+          name: mongodb
+          ports:
+          - containerPort: 27017
+            hostPort: 27017
+            name: mongodb
+            protocol: TCP
+          readinessProbe:
+            exec:
+              command:
+              - bash
+              - -ec
+              - "# Run the proper check depending on the version\n[[ $(mongo --version\
+                \ | grep \"MongoDB shell\") =~ ([0-9]+\\.[0-9]+\\.[0-9]+) ]] && VERSION=${BASH_REMATCH[1]}\n\
+                . /opt/bitnami/scripts/libversion.sh\nVERSION_MAJOR=\"$(get_sematic_version\
+                \ \"$VERSION\" 1)\"\nVERSION_MINOR=\"$(get_sematic_version \"$VERSION\"\
+                \ 2)\"\nVERSION_PATCH=\"$(get_sematic_version \"$VERSION\" 3)\"\n\
+                if [[ \"$VERSION_MAJOR\" -ge 4 ]] && [[ \"$VERSION_MINOR\" -ge 4 ]]\
+                \ && [[ \"$VERSION_PATCH\" -ge 2 ]]; then\n  if [[ \"${MONGODB_MK_ARBITER}\"\
+                \ == \"true\" ]]; then\n    mongo --disableImplicitSessions $TLS_OPTIONS\
+                \ --eval 'db.hello().arbiterOnly' | grep -q 'true'\n  else\n    mongo\
+                \ --disableImplicitSessions $TLS_OPTIONS --eval 'db.hello().isWritablePrimary\
+                \ || db.hello().secondary' | grep -q 'true'\n  fi\nelse\n  if [[ \"\
+                ${MONGODB_MK_ARBITER}\" == \"true\" ]]; then\n    mongo --disableImplicitSessions\
+                \ $TLS_OPTIONS --eval 'db.isMaster().arbiterOnly' | grep -q 'true'\n\
+                \  else\n    mongo --disableImplicitSessions $TLS_OPTIONS --eval 'db.isMaster().ismaster\
+                \ || db.isMaster().secondary' | grep -q 'true'\n  fi\nfi\n"
+            failureThreshold: 3
+            periodSeconds: 10
+            successThreshold: 1
+            timeoutSeconds: 1
+          resources: {}
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 1001
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+          - mountPath: /opt/mediakind/scripts/custom-init-script.sh
+            name: init-scripts
+            subPath: custom-init-script.sh
+          - mountPath: /bitnami/mongodb
+            name: datadir
+          - mountPath: /docker-entrypoint-initdb.d
+            name: custom-init-scripts
+        dnsPolicy: ClusterFirstWithHostNet
+        hostNetwork: true
+        priorityClassName: controller-highest-priority
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext:
+          fsGroup: 1001
+        serviceAccount: mongodb-replicaset-controller1
+        serviceAccountName: mongodb-replicaset-controller1
+        terminationGracePeriodSeconds: 30
+        volumes:
+        - configMap:
+            defaultMode: 511
+            name: mongodb-custom-init-scripts
+          name: init-scripts
+        - hostPath:
+            path: /var/lib/mongo
+            type: Directory
+          name: datadir
+        - configMap:
+            defaultMode: 420
+            name: mongodb-replicaset-controller1-init-scripts
+          name: custom-init-scripts
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mk-deps
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T06:57:23Z'
+  labels:
+    app.kubernetes.io/component: mongodb
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: mongodb
+    controller.kubernetes.io/hash: 7449cf6c6f
+    helm.sh/chart: mongodb-10.23.2-replicasetconfigurationsettings2
+  managedFields:
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:controller.kubernetes.io/hash: {}
+          f:helm.sh/chart: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"7c1e2b68-d41c-40dc-8ca9-93eade537c34"}: {}
+      f:revision: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T06:57:23Z'
+  name: mongodb-replicaset-controller1-7449cf6c6f
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: StatefulSet
+    name: mongodb-replicaset-controller1
+    uid: 7c1e2b68-d41c-40dc-8ca9-93eade537c34
+  resourceVersion: '1279'
+  uid: 21424eba-ba46-4d71-82d6-2c6ace46d8eb
+revision: 5

@@ -1,0 +1,19 @@
+metadata:
+  annotations:
+    control-plane.alpha.kubernetes.io/leader: '{"holderIdentity":"cert-manager-7cd4d77f86-srqgs-external-cert-manager-controller","leaseDurationSeconds":60,"acquireTime":"2023-12-14T10:04:22Z","renewTime":"2024-02-09T06:04:55Z","leaderTransitions":1}'
+  creationTimestamp: '2023-12-14T06:56:53Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:control-plane.alpha.kubernetes.io/leader: {}
+    manager: controller
+    operation: Update
+    time: '2023-12-14T06:56:53Z'
+  name: cert-manager-controller
+  namespace: kube-system
+  resourceVersion: '9043712'
+  uid: 4c593edc-0ee1-48d1-82ba-61bd1d2cca5a

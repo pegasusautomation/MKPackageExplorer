@@ -1,0 +1,552 @@
+metadata:
+  annotations:
+    checksum/config: ff214fedac28236efa1a749a92fd354271236af9c6d54fb77a84e9e9319e8f25
+    checksum/secret: ed01d3809f5702b815553522a405379a2e00d68228a5cec40feced7a652f1082
+  creationTimestamp: '2023-12-14T10:07:24Z'
+  generateName: rabbitmq-ha-controller1-
+  labels:
+    app.kubernetes.io/instance: mk-deps
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: rabbitmq
+    controller-revision-hash: rabbitmq-ha-controller1-646fcb7d66
+    helm.sh/chart: rabbitmq-8.21.0
+    statefulset.kubernetes.io/pod-name: rabbitmq-ha-controller1-0
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:checksum/config: {}
+          f:checksum/secret: {}
+        f:generateName: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:controller-revision-hash: {}
+          f:helm.sh/chart: {}
+          f:statefulset.kubernetes.io/pod-name: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"019f9fbd-1bb9-4c52-8a80-c062339cb535"}: {}
+      f:spec:
+        f:affinity:
+          .: {}
+          f:podAntiAffinity:
+            .: {}
+            f:requiredDuringSchedulingIgnoredDuringExecution: {}
+        f:containers:
+          k:{"name":"rabbitmq"}:
+            .: {}
+            f:command: {}
+            f:env:
+              .: {}
+              k:{"name":"BITNAMI_DEBUG"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"K8S_ADDRESS_TYPE"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"K8S_HOSTNAME_SUFFIX"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"K8S_SERVICE_NAME"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"MY_POD_IP"}:
+                .: {}
+                f:name: {}
+                f:valueFrom:
+                  .: {}
+                  f:fieldRef: {}
+              k:{"name":"MY_POD_NAME"}:
+                .: {}
+                f:name: {}
+                f:valueFrom:
+                  .: {}
+                  f:fieldRef: {}
+              k:{"name":"MY_POD_NAMESPACE"}:
+                .: {}
+                f:name: {}
+                f:valueFrom:
+                  .: {}
+                  f:fieldRef: {}
+              k:{"name":"RABBITMQ_ERL_COOKIE"}:
+                .: {}
+                f:name: {}
+                f:valueFrom:
+                  .: {}
+                  f:secretKeyRef: {}
+              k:{"name":"RABBITMQ_FORCE_BOOT"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"RABBITMQ_LDAP_ENABLE"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"RABBITMQ_LOAD_DEFINITIONS"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"RABBITMQ_LOGS"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"RABBITMQ_MNESIA_DIR"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"RABBITMQ_NODE_NAME"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"RABBITMQ_PLUGINS"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"RABBITMQ_SECURE_PASSWORD"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+              k:{"name":"RABBITMQ_ULIMIT_NOFILES"}:
+                .: {}
+                f:name: {}
+              k:{"name":"RABBITMQ_USE_LONGNAME"}:
+                .: {}
+                f:name: {}
+                f:value: {}
+            f:image: {}
+            f:imagePullPolicy: {}
+            f:lifecycle:
+              .: {}
+              f:preStop:
+                .: {}
+                f:exec:
+                  .: {}
+                  f:command: {}
+            f:livenessProbe:
+              .: {}
+              f:exec:
+                .: {}
+                f:command: {}
+              f:failureThreshold: {}
+              f:initialDelaySeconds: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:name: {}
+            f:ports:
+              .: {}
+              k:{"containerPort":15672,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:hostPort: {}
+                f:name: {}
+                f:protocol: {}
+              k:{"containerPort":25672,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:hostPort: {}
+                f:name: {}
+                f:protocol: {}
+              k:{"containerPort":4369,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:hostPort: {}
+                f:name: {}
+                f:protocol: {}
+              k:{"containerPort":5672,"protocol":"TCP"}:
+                .: {}
+                f:containerPort: {}
+                f:hostPort: {}
+                f:name: {}
+                f:protocol: {}
+            f:readinessProbe:
+              .: {}
+              f:exec:
+                .: {}
+                f:command: {}
+              f:failureThreshold: {}
+              f:initialDelaySeconds: {}
+              f:periodSeconds: {}
+              f:successThreshold: {}
+              f:timeoutSeconds: {}
+            f:resources:
+              .: {}
+              f:limits:
+                .: {}
+                f:cpu: {}
+                f:memory: {}
+              f:requests:
+                .: {}
+                f:cpu: {}
+                f:memory: {}
+            f:terminationMessagePath: {}
+            f:terminationMessagePolicy: {}
+            f:volumeMounts:
+              .: {}
+              k:{"mountPath":"/app"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+                f:readOnly: {}
+              k:{"mountPath":"/bitnami/rabbitmq/conf"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+              k:{"mountPath":"/bitnami/rabbitmq/mnesia"}:
+                .: {}
+                f:mountPath: {}
+                f:name: {}
+        f:dnsPolicy: {}
+        f:enableServiceLinks: {}
+        f:hostname: {}
+        f:priorityClassName: {}
+        f:restartPolicy: {}
+        f:schedulerName: {}
+        f:securityContext:
+          .: {}
+          f:fsGroup: {}
+          f:runAsUser: {}
+        f:serviceAccount: {}
+        f:serviceAccountName: {}
+        f:subdomain: {}
+        f:terminationGracePeriodSeconds: {}
+        f:volumes:
+          .: {}
+          k:{"name":"configuration"}:
+            .: {}
+            f:configMap:
+              .: {}
+              f:defaultMode: {}
+              f:items: {}
+              f:name: {}
+            f:name: {}
+          k:{"name":"data"}:
+            .: {}
+            f:emptyDir: {}
+            f:name: {}
+          k:{"name":"load-definition-volume"}:
+            .: {}
+            f:name: {}
+            f:secret:
+              .: {}
+              f:defaultMode: {}
+              f:secretName: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:07:24Z'
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        f:conditions:
+          k:{"type":"ContainersReady"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Initialized"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Ready"}:
+            .: {}
+            f:lastProbeTime: {}
+            f:lastTransitionTime: {}
+            f:status: {}
+            f:type: {}
+        f:containerStatuses: {}
+        f:hostIP: {}
+        f:phase: {}
+        f:podIP: {}
+        f:podIPs:
+          .: {}
+          k:{"ip":"10.42.0.171"}:
+            .: {}
+            f:ip: {}
+        f:startTime: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:29:02Z'
+  name: rabbitmq-ha-controller1-0
+  namespace: mediakind
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: StatefulSet
+    name: rabbitmq-ha-controller1
+    uid: 019f9fbd-1bb9-4c52-8a80-c062339cb535
+  resourceVersion: '8615160'
+  uid: 7c7052d0-00e9-4ef4-bac1-72b2caecc240
+spec:
+  affinity:
+    podAntiAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+      - labelSelector:
+          matchLabels:
+            app.kubernetes.io/instance: rabbitmq-ha
+        topologyKey: kubernetes.io/hostname
+  containers:
+  - command:
+    - /bin/bash
+    - -c
+    - 'shopt -s dotglob
+
+      rm -fR /opt/bitnami/rabbitmq/.rabbitmq/*
+
+      rm -fR /opt/bitnami/rabbitmq/var/lib/rabbitmq/*
+
+      rm -fR /bitnami/rabbitmq/mnesia/*
+
+      echo "${RABBITMQ_ERL_COOKIE}" > /opt/bitnami/rabbitmq/.rabbitmq/.erlang.cookie
+
+      chmod 600 /opt/bitnami/rabbitmq/.rabbitmq/.erlang.cookie
+
+      exec /opt/bitnami/scripts/rabbitmq/entrypoint.sh /opt/bitnami/scripts/rabbitmq/run.sh
+
+      '
+    env:
+    - name: BITNAMI_DEBUG
+      value: 'false'
+    - name: MY_POD_IP
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: status.podIP
+    - name: MY_POD_NAME
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: metadata.name
+    - name: MY_POD_NAMESPACE
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: metadata.namespace
+    - name: K8S_SERVICE_NAME
+      value: rabbitmq-ha-controller1-headless
+    - name: K8S_ADDRESS_TYPE
+      value: hostname
+    - name: RABBITMQ_FORCE_BOOT
+      value: 'no'
+    - name: RABBITMQ_NODE_NAME
+      value: rabbitmq
+    - name: K8S_HOSTNAME_SUFFIX
+      value: .$(K8S_SERVICE_NAME).$(MY_POD_NAMESPACE).svc.cluster.local
+    - name: RABBITMQ_MNESIA_DIR
+      value: /bitnami/rabbitmq/mnesia/$(RABBITMQ_NODE_NAME)
+    - name: RABBITMQ_LDAP_ENABLE
+      value: 'no'
+    - name: RABBITMQ_LOGS
+      value: '-'
+    - name: RABBITMQ_ULIMIT_NOFILES
+    - name: RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS
+      value: +S 2:1
+    - name: RABBITMQ_USE_LONGNAME
+      value: 'false'
+    - name: RABBITMQ_ERL_COOKIE
+      valueFrom:
+        secretKeyRef:
+          key: rabbitmq-erlang-cookie
+          name: rabbitmq-ha-controller1
+    - name: RABBITMQ_LOAD_DEFINITIONS
+      value: 'yes'
+    - name: RABBITMQ_SECURE_PASSWORD
+      value: 'no'
+    - name: RABBITMQ_PLUGINS
+      value: rabbitmq_management, rabbitmq_peer_discovery_k8s, rabbitmq_auth_backend_ldap
+    image: packages.mediakind.com/mpd-docker/bitnami/rabbitmq:3.9.5-debian-10-r12
+    imagePullPolicy: IfNotPresent
+    lifecycle:
+      preStop:
+        exec:
+          command:
+          - /bin/bash
+          - -ec
+          - "if [[ -f /opt/bitnami/scripts/rabbitmq/nodeshutdown.sh ]]; then\n   \
+            \ /opt/bitnami/scripts/rabbitmq/nodeshutdown.sh -t \"120\" -d  \"false\"\
+            \nelse\n    rabbitmqctl stop_app\nfi\n"
+    livenessProbe:
+      exec:
+        command:
+        - /usr/bin/curl
+        - -i
+        - -m 2
+        - -u guest:guest
+        - -H "content-type:application/json" -XGET -d'{"type":"direct","durable":true}'
+        - http://localhost:15672/api/aliveness-test/%2F
+      failureThreshold: 6
+      initialDelaySeconds: 120
+      periodSeconds: 30
+      successThreshold: 1
+      timeoutSeconds: 5
+    name: rabbitmq
+    ports:
+    - containerPort: 5672
+      hostPort: 5672
+      name: amqp
+      protocol: TCP
+    - containerPort: 25672
+      hostPort: 25672
+      name: dist
+      protocol: TCP
+    - containerPort: 15672
+      hostPort: 15672
+      name: stats
+      protocol: TCP
+    - containerPort: 4369
+      hostPort: 4369
+      name: epmd
+      protocol: TCP
+    readinessProbe:
+      exec:
+        command:
+        - /usr/bin/curl
+        - -i
+        - -m 2
+        - -u guest:guest
+        - -H "content-type:application/json" -XGET -d'{"type":"direct","durable":true}'
+        - http://localhost:15672/api/aliveness-test/%2F
+      failureThreshold: 6
+      initialDelaySeconds: 10
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 5
+    resources:
+      limits:
+        cpu: '1'
+        memory: 1Gi
+      requests:
+        cpu: '1'
+        memory: 1Gi
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /bitnami/rabbitmq/conf
+      name: configuration
+    - mountPath: /bitnami/rabbitmq/mnesia
+      name: data
+    - mountPath: /app
+      name: load-definition-volume
+      readOnly: true
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-pgw6j
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  hostname: rabbitmq-ha-controller1-0
+  nodeName: mediakind-k3s
+  preemptionPolicy: Never
+  priority: 2000000
+  priorityClassName: controller-highest-priority
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext:
+    fsGroup: 1001
+    runAsUser: 1001
+  serviceAccount: rabbitmq-ha-controller1
+  serviceAccountName: rabbitmq-ha-controller1
+  subdomain: rabbitmq-ha-controller1-headless
+  terminationGracePeriodSeconds: 120
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - configMap:
+      defaultMode: 420
+      items:
+      - key: rabbitmq.conf
+        path: rabbitmq.conf
+      name: rabbitmq-ha-controller1-config
+    name: configuration
+  - name: load-definition-volume
+    secret:
+      defaultMode: 420
+      secretName: load-definition
+  - emptyDir: {}
+    name: data
+  - name: kube-api-access-pgw6j
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:07:24Z'
+    status: 'True'
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:29:02Z'
+    status: 'True'
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: '2024-02-06T13:29:02Z'
+    status: 'True'
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: '2023-12-14T10:07:24Z'
+    status: 'True'
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://75a279c393fcda69fe508453350f5348fed5dc45b740631a8a2fde0a10d504ed
+    image: packages.mediakind.com/mpd-docker/bitnami/rabbitmq:3.9.5-debian-10-r12
+    imageID: sha256:fc4f45e114a8e11ac16f4bcfe7d4c2134d11955faa9cfc32f918b2142017ef53
+    lastState:
+      terminated:
+        containerID: containerd://76a6ac6b1caa7752f401002eab743821f4bcc1d1fb28d71b0eb2fb087ddd738e
+        exitCode: 255
+        finishedAt: '2024-02-06T13:27:47Z'
+        reason: Unknown
+        startedAt: '2024-02-06T08:36:00Z'
+    name: rabbitmq
+    ready: true
+    restartCount: 9
+    started: true
+    state:
+      running:
+        startedAt: '2024-02-06T13:28:25Z'
+  hostIP: 192.168.255.1
+  phase: Running
+  podIP: 10.42.0.171
+  podIPs:
+  - ip: 10.42.0.171
+  qosClass: Guaranteed
+  startTime: '2023-12-14T10:07:24Z'

@@ -1,0 +1,40 @@
+count: 1
+eventTime: null
+firstTimestamp: '2024-02-09T05:33:21Z'
+involvedObject:
+  apiVersion: batch/v1
+  kind: Job
+  name: rabbit-operator-28457613
+  namespace: mediakind
+  resourceVersion: '9040190'
+  uid: fe166130-86e5-4733-a86b-edad6d4506dd
+lastTimestamp: '2024-02-09T05:33:21Z'
+message: Job completed
+metadata:
+  creationTimestamp: '2024-02-09T05:33:21Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-09T05:33:21Z'
+  name: rabbit-operator-28457613.17b21aea01946a99
+  namespace: mediakind
+  resourceVersion: '9040192'
+  uid: fac83c9c-5931-4a28-8156-e58c02c1a6f8
+reason: Completed
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: job-controller
+type: Normal

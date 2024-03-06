@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:48:11Z'
+  name: persistent-volume-binder
+  namespace: kube-system
+  resourceVersion: '239'
+  uid: e323cef8-b006-4511-a1f9-70ab53d5aa6c
+secrets:
+- name: persistent-volume-binder-token-wfcpx

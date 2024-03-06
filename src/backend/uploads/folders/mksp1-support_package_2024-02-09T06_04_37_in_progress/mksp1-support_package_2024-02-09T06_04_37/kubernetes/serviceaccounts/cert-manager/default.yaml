@@ -1,0 +1,8 @@
+metadata:
+  creationTimestamp: '2023-12-14T06:56:52Z'
+  name: default
+  namespace: cert-manager
+  resourceVersion: '820'
+  uid: afccd20a-0301-4185-94b4-4d7d7de32c23
+secrets:
+- name: default-token-7j2fs

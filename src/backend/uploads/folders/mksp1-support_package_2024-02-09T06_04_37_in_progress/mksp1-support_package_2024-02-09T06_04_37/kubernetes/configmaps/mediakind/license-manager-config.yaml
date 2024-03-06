@@ -1,0 +1,173 @@
+data:
+  cds_template.yaml: "resources:\n- \"@type\": type.googleapis.com/envoy.config.cluster.v3.Cluster\n\
+    \  name: license_server\n  connect_timeout: 1s\n  type: strict_dns\n  load_assignment:\n\
+    \    cluster_name: license_server\n    endpoints:\n    - lb_endpoints:\n     \
+    \ - endpoint:\n          address:\n            socket_address:\n             \
+    \ address: localhost\n              port_value: 5093\n"
+  envoy_config.yaml: "admin:\n  access_log_path: /dev/null\n  address:\n    socket_address:\n\
+    \      address: 0.0.0.0\n      port_value: 9901\n\nnode:\n  id: id_1\n  cluster:\
+    \ license_manager\n\ndynamic_resources:\n  cds_config:\n    path: /etc/envoy/runtime-config/cds_active.yaml\n\
+    \  lds_config:\n    path: /etc/envoy/runtime-config/lds_active.yaml\n"
+  lds_template.yaml: "resources:\n- \"@type\": type.googleapis.com/envoy.config.listener.v3.Listener\n\
+    \  name: license_requests\n  reuse_port: true\n  address:\n    socket_address:\n\
+    \      protocol: UDP\n      address: 0.0.0.0\n      port_value: 5092\n  listener_filters:\n\
+    \    name: envoy.filters.udp.udp_proxy\n    typed_config:\n      '@type': type.googleapis.com/envoy.extensions.filters.udp.udp_proxy.v3.UdpProxyConfig\n\
+    \      stat_prefix: lm_service\n      cluster: license_server\n"
+  license-manager.ini: '[general]
+
+    identifier=mksp1
+
+    service=license-manager
+
+    ha_backup_reload_via_proxy=true
+
+    disable_internal_master_election=true
+
+
+    [server]
+
+    host=0.0.0.0
+
+    port=8097
+
+
+    [storage]
+
+    name=envivioCluster
+
+    username=MediaKind
+
+    password=Med/aK1nd
+
+    url=mongodb://10.69.8.31:27017,10.69.8.32:27017/envivioCluster?replicaSet=repldb
+
+
+    [storage_lock]
+
+    name=mediakindMongolock
+
+    alias=mediakindMongolock
+
+    username=MediaKind
+
+    password=Med/aK1nd
+
+    url=mongodb://10.69.8.31:27017,10.69.8.32:27017/mediakindMongolock?replicaSet=repldb
+
+
+    [mongolock]
+
+    expire=30
+
+    db=mediakindMongolock
+
+
+    [license_server]
+
+    name=127.0.0.1
+
+    port=5093
+
+    config=/opt/ericsson/license-manager/etc/lsreserv
+
+    license_file=/opt/ericsson/license-manager/licenses/nlservrc
+
+    startup_monitoring_timeout=30
+
+    lock_code_confidence_threshold=5
+
+    liveness_check=False
+
+    lock_code_criteria=0x2010
+
+    selected_interface=eth4
+
+    perpetual_licensing=false
+
+
+    [license_api]
+
+    active=True
+
+
+    [proxy]
+
+    config=/opt/ericsson/license-manager/etc/envoy-config
+
+    template_path=/opt/ericsson/license-manager/etc/envoy-template
+
+    cds_template=cds_template.yaml
+
+    lds_template=lds_template.yaml
+
+    '
+  logging.json: "{\n    \"version\": 1,\n    \"disable_existing_loggers\": true,\n\
+    \    \"formatters\": {\n        \"standard\": {\n            \"()\": \"mediakind.common.logging.LogFormatter\"\
+    ,\n            \"fmt\": \"%(asctime)s [%(levelname)s] %(name)s: %(message)s\"\n\
+    \        },\n        \"cee\": {\n            \"()\": \"ericsson.loggers.formatters.CeeFormatter\"\
+    ,\n            \"preset\": \"mediakind\",\n            \"fields\": {\n       \
+    \         \"time\": \"asctime\",\n                \"msg\": \"msg\",\n        \
+    \        \"pid\": \"process\",\n                \"tid\": \"thread\",\n       \
+    \         \"pri\": \"levelname\",\n                \"tname\": \"threadName\",\n\
+    \                \"file.name\": \"filename\",\n                \"file.line\":\
+    \ \"lineno\",\n                \"w3c.c-ip\": \"remote_address\",\n           \
+    \     \"w3c.sc-status\": \"response_status\",\n                \"w3c.time-taken\"\
+    : \"request_time_frac\",\n                \"w3c.first-line\": \"first_request_line\"\
+    ,\n                \"microservice\": \"license-manager\",\n                \"\
+    host\": \"host\"\n            },\n            \"exclude\": [ ]\n        }\n  \
+    \  },\n    \"filters\": {\n        \"probe\": {\n            \"()\": \"mediakind.common.logging.ProbeFilter\"\
+    \n        }\n    },\n    \"handlers\": {\n        \"console\": {\n           \
+    \ \"class\": \"logging.StreamHandler\",\n            \"formatter\": \"cee\",\n\
+    \            \"filters\": [\"probe\"],\n            \"stream\": \"ext://sys.stdout\"\
+    \n        }\n    },\n    \"loggers\": {\n        \"\": {\n            \"handlers\"\
+    : [ \"console\" ],\n            \"level\": \"INFO\"\n        },\n        \"ericsson\"\
+    : {\n            \"level\": \"INFO\"\n        },\n        \"enviviocontrib\":\
+    \ {\n            \"level\": \"INFO\"\n        },\n        \"aiohttp\": {\n   \
+    \         \"level\": \"WARNING\"\n        },\n        \"aiohttp.access\": {\n\
+    \            \"level\": \"INFO\"\n        },\n        \"safenet\": {\n       \
+    \     \"level\": \"INFO\"\n        }\n    }\n}\n"
+metadata:
+  annotations:
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: license-manager
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: license-manager
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.94.2
+    helm.sh/chart: license-manager-0.94.2
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:cds_template.yaml: {}
+        f:envoy_config.yaml: {}
+        f:lds_template.yaml: {}
+        f:license-manager.ini: {}
+        f:logging.json: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  name: license-manager-config
+  namespace: mediakind
+  resourceVersion: '18823'
+  uid: 3394baba-f3fc-4731-9336-f081ca5b772a

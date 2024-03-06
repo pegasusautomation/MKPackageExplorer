@@ -1,0 +1,22 @@
+[
+    {
+        "_id": {
+            "$oid": "6c6461702d64656661756c74"
+        },
+        "bind_dn": "",
+        "bind_pwd": "",
+        "ca_certificate_file": "",
+        "cipher_suite": "kEECDH+aECDSA+AES:kEECDH+AES+aRSA:kEDH+aRSA+AES:aRSA+AES:-SSLv2:-SSLv3:-TLSv1:-TLSv1.1",
+        "default_group": "",
+        "firstname_field": "",
+        "group_search": "",
+        "group_type": "",
+        "lastname_field": "",
+        "mappings": [],
+        "required_group": "",
+        "search_dn": "",
+        "server_uri": "",
+        "start_tls": false,
+        "username_field": ""
+    }
+]

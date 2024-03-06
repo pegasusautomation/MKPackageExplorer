@@ -1,0 +1,19 @@
+metadata:
+  annotations:
+    control-plane.alpha.kubernetes.io/leader: '{"holderIdentity":"cert-manager-cainjector-c4c8bbc-9j8d5_263e2c44-6fd6-4ec6-ba53-eb608cfe7a1d","leaseDurationSeconds":15,"acquireTime":"2024-02-06T13:28:40Z","renewTime":"2024-02-09T06:05:00Z","leaderTransitions":11}'
+  creationTimestamp: '2023-12-14T06:56:54Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:control-plane.alpha.kubernetes.io/leader: {}
+    manager: cainjector
+    operation: Update
+    time: '2023-12-14T06:56:54Z'
+  name: cert-manager-cainjector-leader-election
+  namespace: kube-system
+  resourceVersion: '9043732'
+  uid: 926ccc82-bef6-4728-b55a-0d328fcf9aa9

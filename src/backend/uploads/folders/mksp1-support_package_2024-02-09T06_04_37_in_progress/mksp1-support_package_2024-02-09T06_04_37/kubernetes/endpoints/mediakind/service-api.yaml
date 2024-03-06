@@ -1,0 +1,51 @@
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:29:15Z'
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  labels:
+    app.kubernetes.io/component: service-api
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: service-api
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 0.122.8
+    helm.sh/chart: service-api-0.122.8
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:29:15Z'
+  name: service-api
+  namespace: mediakind
+  resourceVersion: '8615270'
+  uid: dbe49fb0-8583-41de-962a-02e6a4f33f37
+subsets:
+- addresses:
+  - ip: 10.42.0.176
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: service-api-65d748c78f-6zrbc
+      namespace: mediakind
+      resourceVersion: '8615268'
+      uid: 975249e6-85c8-4c9d-ae68-04635e893bb3
+  ports:
+  - name: restapi
+    port: 8002
+    protocol: TCP

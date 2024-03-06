@@ -1,0 +1,43 @@
+count: 1
+eventTime: null
+firstTimestamp: '2024-02-09T05:56:00Z'
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{rabbit-operator}
+  kind: Pod
+  name: rabbit-operator-28457636-fhdch
+  namespace: mediakind
+  resourceVersion: '9042690'
+  uid: a22cb65d-1974-491a-b0d8-09da516adbf6
+lastTimestamp: '2024-02-09T05:56:00Z'
+message: Created container rabbit-operator
+metadata:
+  creationTimestamp: '2024-02-09T05:56:00Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+        f:host: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-09T05:56:00Z'
+  name: rabbit-operator-28457636-fhdch.17b21c2690885e5d
+  namespace: mediakind
+  resourceVersion: '9042698'
+  uid: f1b1138b-fd16-46dc-8e0a-d7d133c17db6
+reason: Created
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: kubelet
+  host: mediakind-k3s
+type: Normal

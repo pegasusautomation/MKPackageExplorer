@@ -1,0 +1,43 @@
+count: 7808
+eventTime: null
+firstTimestamp: '2024-02-06T13:49:29Z'
+involvedObject:
+  apiVersion: v1
+  fieldPath: spec.containers{etcd}
+  kind: Pod
+  name: etcd-controller1-0
+  namespace: mediakind
+  resourceVersion: '8614379'
+  uid: e65ca258-63af-4723-9e0a-f2b05239ba04
+lastTimestamp: '2024-02-09T05:54:16Z'
+message: Back-off restarting failed container
+metadata:
+  creationTimestamp: '2024-02-06T13:54:07Z'
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:count: {}
+      f:firstTimestamp: {}
+      f:involvedObject: {}
+      f:lastTimestamp: {}
+      f:message: {}
+      f:reason: {}
+      f:source:
+        f:component: {}
+        f:host: {}
+      f:type: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T13:54:07Z'
+  name: etcd-controller1-0.17b14a3f51557c8f
+  namespace: mediakind
+  resourceVersion: '9042503'
+  uid: 4ceaa8e6-b6c7-4287-bbd2-afea11dfe06f
+reason: BackOff
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: kubelet
+  host: mediakind-k3s
+type: Warning

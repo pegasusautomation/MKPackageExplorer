@@ -1,0 +1,50 @@
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-01-11T14:13:12Z'
+  creationTimestamp: '2023-12-14T10:42:08Z'
+  labels:
+    app.kubernetes.io/component: stream-processor-content-extraction
+    app.kubernetes.io/instance: mksp
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: stream-processor-content-extraction
+    app.kubernetes.io/part-of: mksp
+    app.kubernetes.io/version: 20.0.3-29
+    helm.sh/chart: stream-processor-content-extraction-20.0.3-29
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2023-12-14T10:42:10Z'
+  name: stream-processor-content-extraction
+  namespace: mediakind
+  resourceVersion: '4452704'
+  uid: 1b4bd77b-e5c4-45a4-9d2b-eb1191d32533
+subsets:
+- notReadyAddresses:
+  - ip: 192.168.255.1
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: stream-processor-content-extraction-574f98f786-gdvmh
+      namespace: mediakind
+      resourceVersion: '4452703'
+      uid: db1d1e8f-31d2-4cec-835d-b57f38c21e4c
+  ports:
+  - port: 8083
+    protocol: TCP

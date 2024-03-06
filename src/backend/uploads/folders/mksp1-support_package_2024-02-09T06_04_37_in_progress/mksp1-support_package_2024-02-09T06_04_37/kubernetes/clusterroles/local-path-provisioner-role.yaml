@@ -1,0 +1,66 @@
+metadata:
+  annotations:
+    objectset.rio.cattle.io/applied: H4sIAAAAAAAA/4ySMY/bMAyF/0rBsZDdpE4Cw0CHokOHbh26FBloiY5Vy6Ig0j60h/z3QkaGO7R3l0mgHt5HUk+PgMn/oCyeI3SQe7Q1Ljpy9n9QPcd6aqX2/GHdg4HJRwcdfAmLKOXvHAgMzKToUBG6R8AYWTeflJL7X2RVSOvsubaoGqjAfKGAeVHnh0i5uqwTdDA18kRZ9+bdNx/dp8/OcXwTEXEm6CCwxVCJcsYL3WWShLY4p6WnSn6L0gxXAwF7Cq+uNqKM0MG+bYbmaE/HYehtszsdTrtmODTD/tjuXGtPLX502LtDgT4bMqGOVcq8+hIJ5SqXV74ayEsgge7nltjXzEsqFcDZQCbhJdtNhsiOBAykEqooRV05LDPZgH4uguU4+MuMSYp3pdxvvgspGAheyvGAakc4X81b3Si6xD7q/zpud+yet3l/F3Wlgnzqs5lQS3bphdFu6d7+6z/Im2wDitAdm5+vfwMAAP//OqHYBhsDAAA
+    objectset.rio.cattle.io/id: ''
+    objectset.rio.cattle.io/owner-gvk: k3s.cattle.io/v1, Kind=Addon
+    objectset.rio.cattle.io/owner-name: local-storage
+    objectset.rio.cattle.io/owner-namespace: kube-system
+  creationTimestamp: '2023-12-14T06:48:12Z'
+  labels:
+    objectset.rio.cattle.io/hash: 183f35c65ffbc3064603f43f1580d8c68a2dabd4
+  managedFields:
+  - apiVersion: rbac.authorization.k8s.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:objectset.rio.cattle.io/applied: {}
+          f:objectset.rio.cattle.io/id: {}
+          f:objectset.rio.cattle.io/owner-gvk: {}
+          f:objectset.rio.cattle.io/owner-name: {}
+          f:objectset.rio.cattle.io/owner-namespace: {}
+        f:labels:
+          .: {}
+          f:objectset.rio.cattle.io/hash: {}
+      f:rules: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:12Z'
+  name: local-path-provisioner-role
+  resourceVersion: '290'
+  uid: 9a4d6608-e368-42c8-a065-8bab42538db0
+rules:
+- apiGroups:
+  - ''
+  resources:
+  - nodes
+  - persistentvolumeclaims
+  - configmaps
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - ''
+  resources:
+  - endpoints
+  - persistentvolumes
+  - pods
+  verbs:
+  - '*'
+- apiGroups:
+  - ''
+  resources:
+  - events
+  verbs:
+  - create
+  - patch
+- apiGroups:
+  - storage.k8s.io
+  resources:
+  - storageclasses
+  verbs:
+  - get
+  - list
+  - watch

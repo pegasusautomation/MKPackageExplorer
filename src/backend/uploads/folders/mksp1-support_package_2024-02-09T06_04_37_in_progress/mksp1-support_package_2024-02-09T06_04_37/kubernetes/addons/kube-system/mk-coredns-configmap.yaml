@@ -1,0 +1,31 @@
+apiVersion: k3s.cattle.io/v1
+kind: Addon
+metadata:
+  creationTimestamp: '2023-12-14T06:48:30Z'
+  generation: 2
+  managedFields:
+  - apiVersion: k3s.cattle.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:spec:
+        .: {}
+        f:checksum: {}
+        f:source: {}
+      f:status:
+        .: {}
+        f:gvks: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:30Z'
+  name: mk-coredns-configmap
+  namespace: kube-system
+  resourceVersion: '485'
+  uid: 4c0b7c12-513b-45ca-886f-4d7b99e89f78
+spec:
+  checksum: 3c73dc4a894fe4dce0a258bcf3da7c72c29676c036f6b611b20140dccf9cb345
+  source: /var/lib/rancher/k3s/server/manifests/mk-coredns-configmap.yaml
+status:
+  gvks:
+  - Group: ''
+    Kind: ConfigMap
+    Version: v1

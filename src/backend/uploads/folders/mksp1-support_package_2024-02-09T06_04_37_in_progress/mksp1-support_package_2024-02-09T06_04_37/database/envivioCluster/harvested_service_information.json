@@ -1,0 +1,11 @@
+[
+    {
+        "_id": {
+            "$oid": "65818d1d053625cb031d8185"
+        },
+        "alarm": "",
+        "connector": {},
+        "service_id": "mux_1234_1234_1",
+        "service_type": "mux"
+    }
+]

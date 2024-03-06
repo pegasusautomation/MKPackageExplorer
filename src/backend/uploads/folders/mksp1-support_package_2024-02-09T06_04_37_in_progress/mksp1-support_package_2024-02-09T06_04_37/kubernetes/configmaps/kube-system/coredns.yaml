@@ -1,0 +1,45 @@
+data:
+  Corefile: ".:53 {\n    errors\n    health\n    ready\n    kubernetes cluster.local\
+    \ in-addr.arpa ip6.arpa {\n      pods insecure\n      fallthrough in-addr.arpa\
+    \ ip6.arpa\n    }\n    hosts /etc/coredns/NodeHosts {\n      ttl 60\n      reload\
+    \ 15s\n      fallthrough\n    }\n    prometheus :9153\n    cache 30\n    loop\n\
+    \    reload\n    loadbalance\n}\n"
+  NodeHosts: '192.168.255.1 mediakind-k3s
+
+    '
+metadata:
+  annotations:
+    objectset.rio.cattle.io/applied: H4sIAAAAAAAA/4SQwW7iMBCGX8Wac5ING1iDpT2sOK567amXiT0QN84Msg0VQrx7ZUKlHtpy++2RP3/zXwAP/pli8sJg4LSAChxmBHOBrUTa+UBgoDGrTl1eWCmlKEaJac4DYcjDnCOhO89xPPYUmTIlZcMxZYpNELhWMHp2YGArvPP7JzxABRNl/PgRmSVj9sKpHKV/JZsT5SZ6aSzmHKjx8ssXBlTfzuWNKdb70wgGxi59mpwWlfrv2f3955zwQwTjVLafxtpKJMeptjfz6Wb++G06oC2A0kedzinTVFoI2FP4ccMB0wAGtP69xHaz0pu+bXGte+sW62XX4h+rN9Q57Va91mtdoHfXuyjMF18KXN8DAAD//4cY5mL1AQAA
+    objectset.rio.cattle.io/id: ''
+    objectset.rio.cattle.io/owner-gvk: k3s.cattle.io/v1, Kind=Addon
+    objectset.rio.cattle.io/owner-name: mk-coredns-configmap
+    objectset.rio.cattle.io/owner-namespace: kube-system
+  creationTimestamp: '2023-12-14T06:48:12Z'
+  labels:
+    objectset.rio.cattle.io/hash: 7724a09579b00a87bcd18430a6c79e3d7d5b7787
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:Corefile: {}
+        f:NodeHosts: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:objectset.rio.cattle.io/applied: {}
+          f:objectset.rio.cattle.io/id: {}
+          f:objectset.rio.cattle.io/owner-gvk: {}
+          f:objectset.rio.cattle.io/owner-name: {}
+          f:objectset.rio.cattle.io/owner-namespace: {}
+        f:labels:
+          .: {}
+          f:objectset.rio.cattle.io/hash: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:24Z'
+  name: coredns
+  namespace: kube-system
+  resourceVersion: '8614473'
+  uid: 26eebb90-a931-49e3-9e88-0a847db59fce

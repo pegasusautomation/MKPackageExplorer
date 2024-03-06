@@ -1,0 +1,43 @@
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: '2024-02-06T13:28:36Z'
+  creationTimestamp: '2023-12-14T06:48:24Z'
+  labels:
+    kubernetes.io/cluster-service: 'true'
+    kubernetes.io/name: Metrics-server
+    objectset.rio.cattle.io/hash: a5d3bc601c871e123fa32b27f549b6ea770bcf4a
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:endpoints.kubernetes.io/last-change-trigger-time: {}
+        f:labels:
+          .: {}
+          f:kubernetes.io/cluster-service: {}
+          f:kubernetes.io/name: {}
+          f:objectset.rio.cattle.io/hash: {}
+      f:subsets: {}
+    manager: k3s
+    operation: Update
+    time: '2024-02-06T08:36:40Z'
+  name: metrics-server
+  namespace: kube-system
+  resourceVersion: '8615029'
+  uid: b8686889-77e8-4274-81ea-63f951f548b4
+subsets:
+- addresses:
+  - ip: 10.42.0.154
+    nodeName: mediakind-k3s
+    targetRef:
+      kind: Pod
+      name: metrics-server-d8ccb79c9-77f2j
+      namespace: kube-system
+      resourceVersion: '8615027'
+      uid: 1b06eed4-142e-414d-93b7-7f09a61d3de9
+  ports:
+  - name: https
+    port: 10250
+    protocol: TCP

@@ -1,0 +1,245 @@
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: '1'
+    meta.helm.sh/release-name: mkc
+    meta.helm.sh/release-namespace: mediakind
+  creationTimestamp: '2023-12-14T10:09:17Z'
+  generation: 1
+  labels:
+    app.kubernetes.io/component: alarm-proxy
+    app.kubernetes.io/instance: mkc
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: alarm-proxy
+    app.kubernetes.io/part-of: mkc
+    app.kubernetes.io/version: 1.65.0
+    helm.sh/chart: alarm-proxy-1.65.0
+  managedFields:
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:meta.helm.sh/release-name: {}
+          f:meta.helm.sh/release-namespace: {}
+        f:labels:
+          .: {}
+          f:app.kubernetes.io/component: {}
+          f:app.kubernetes.io/instance: {}
+          f:app.kubernetes.io/managed-by: {}
+          f:app.kubernetes.io/name: {}
+          f:app.kubernetes.io/part-of: {}
+          f:app.kubernetes.io/version: {}
+          f:helm.sh/chart: {}
+      f:spec:
+        f:progressDeadlineSeconds: {}
+        f:replicas: {}
+        f:revisionHistoryLimit: {}
+        f:selector: {}
+        f:strategy:
+          f:type: {}
+        f:template:
+          f:metadata:
+            f:labels:
+              .: {}
+              f:app.kubernetes.io/component: {}
+              f:app.kubernetes.io/instance: {}
+              f:app.kubernetes.io/managed-by: {}
+              f:app.kubernetes.io/name: {}
+              f:app.kubernetes.io/part-of: {}
+              f:app.kubernetes.io/version: {}
+              f:helm.sh/chart: {}
+          f:spec:
+            f:containers:
+              k:{"name":"alarm-proxy"}:
+                .: {}
+                f:args: {}
+                f:image: {}
+                f:imagePullPolicy: {}
+                f:name: {}
+                f:readinessProbe:
+                  .: {}
+                  f:exec:
+                    .: {}
+                    f:command: {}
+                  f:failureThreshold: {}
+                  f:initialDelaySeconds: {}
+                  f:periodSeconds: {}
+                  f:successThreshold: {}
+                  f:timeoutSeconds: {}
+                f:resources: {}
+                f:securityContext:
+                  .: {}
+                  f:allowPrivilegeEscalation: {}
+                f:terminationMessagePath: {}
+                f:terminationMessagePolicy: {}
+                f:volumeMounts:
+                  .: {}
+                  k:{"mountPath":"/opt/ericsson/alarm-proxy/etc/alarm-proxy.ini"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/opt/ericsson/alarm-proxy/etc/logging.json"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+                    f:subPath: {}
+                  k:{"mountPath":"/var/run/ericsson/alarm-proxy"}:
+                    .: {}
+                    f:mountPath: {}
+                    f:name: {}
+            f:dnsPolicy: {}
+            f:enableServiceLinks: {}
+            f:restartPolicy: {}
+            f:schedulerName: {}
+            f:securityContext:
+              .: {}
+              f:fsGroup: {}
+              f:runAsUser: {}
+            f:terminationGracePeriodSeconds: {}
+            f:volumes:
+              .: {}
+              k:{"name":"config"}:
+                .: {}
+                f:configMap:
+                  .: {}
+                  f:defaultMode: {}
+                  f:name: {}
+                f:name: {}
+              k:{"name":"probe-volume"}:
+                .: {}
+                f:emptyDir: {}
+                f:name: {}
+    manager: helm
+    operation: Update
+    time: '2023-12-14T10:09:17Z'
+  - apiVersion: apps/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          f:deployment.kubernetes.io/revision: {}
+      f:status:
+        f:availableReplicas: {}
+        f:conditions:
+          .: {}
+          k:{"type":"Available"}:
+            .: {}
+            f:lastTransitionTime: {}
+            f:lastUpdateTime: {}
+            f:message: {}
+            f:reason: {}
+            f:status: {}
+            f:type: {}
+          k:{"type":"Progressing"}:
+            .: {}
+            f:lastTransitionTime: {}
+            f:lastUpdateTime: {}
+            f:message: {}
+            f:reason: {}
+            f:status: {}
+            f:type: {}
+        f:observedGeneration: {}
+        f:readyReplicas: {}
+        f:replicas: {}
+        f:updatedReplicas: {}
+    manager: k3s
+    operation: Update
+    subresource: status
+    time: '2024-02-06T13:28:51Z'
+  name: alarm-proxy
+  namespace: mediakind
+  resourceVersion: '8615020'
+  uid: 4e6e71b1-edc7-4b40-bc26-5d4ff4011395
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: mkc
+      app.kubernetes.io/name: alarm-proxy
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app.kubernetes.io/component: alarm-proxy
+        app.kubernetes.io/instance: mkc
+        app.kubernetes.io/managed-by: Helm
+        app.kubernetes.io/name: alarm-proxy
+        app.kubernetes.io/part-of: mkc
+        app.kubernetes.io/version: 1.65.0
+        helm.sh/chart: alarm-proxy-1.65.0
+    spec:
+      containers:
+      - args:
+        - /src/ericsson/alarm/proxy/app.py
+        - --conf
+        - /opt/ericsson/alarm-proxy/etc/alarm-proxy.ini
+        - --log
+        - /opt/ericsson/alarm-proxy/etc/logging.json
+        image: packages.mediakind.com/mpd-docker/mediakind/alarm-proxy:1.65.0
+        imagePullPolicy: IfNotPresent
+        name: alarm-proxy
+        readinessProbe:
+          exec:
+            command:
+            - test
+            - -f
+            - /var/run/ericsson/alarm-proxy/ready
+          failureThreshold: 3
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 1
+        resources: {}
+        securityContext:
+          allowPrivilegeEscalation: false
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /var/run/ericsson/alarm-proxy
+          name: probe-volume
+        - mountPath: /opt/ericsson/alarm-proxy/etc/alarm-proxy.ini
+          name: config
+          subPath: alarm-proxy.ini
+        - mountPath: /opt/ericsson/alarm-proxy/etc/logging.json
+          name: config
+          subPath: logging.json
+      dnsPolicy: ClusterFirst
+      enableServiceLinks: false
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext:
+        fsGroup: 2
+        runAsUser: 2
+      terminationGracePeriodSeconds: 0
+      volumes:
+      - emptyDir: {}
+        name: probe-volume
+      - configMap:
+          defaultMode: 420
+          name: alarm-proxy-config
+        name: config
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: '2023-12-14T10:09:17Z'
+    lastUpdateTime: '2023-12-14T10:09:40Z'
+    message: ReplicaSet "alarm-proxy-6888785644" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: 'True'
+    type: Progressing
+  - lastTransitionTime: '2024-02-06T13:28:51Z'
+    lastUpdateTime: '2024-02-06T13:28:51Z'
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: 'True'
+    type: Available
+  observedGeneration: 1
+  readyReplicas: 1
+  replicas: 1
+  updatedReplicas: 1

@@ -1,0 +1,46 @@
+apiVersion: k3s.cattle.io/v1
+kind: Addon
+metadata:
+  creationTimestamp: '2023-12-14T06:48:12Z'
+  generation: 2
+  managedFields:
+  - apiVersion: k3s.cattle.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:spec:
+        .: {}
+        f:checksum: {}
+        f:source: {}
+      f:status:
+        .: {}
+        f:gvks: {}
+    manager: deploy@mediakind-k3s
+    operation: Update
+    time: '2023-12-14T06:48:12Z'
+  name: local-storage
+  namespace: kube-system
+  resourceVersion: '298'
+  uid: 03eb7612-c3de-4bfb-8ab6-493b3d5d4843
+spec:
+  checksum: 0b63a467a893d043689488e2f290a14b6347513eb1c2dc719bef0edb894587b5
+  source: /var/lib/rancher/k3s/server/manifests/local-storage.yaml
+status:
+  gvks:
+  - Group: ''
+    Kind: ServiceAccount
+    Version: v1
+  - Group: rbac.authorization.k8s.io
+    Kind: ClusterRole
+    Version: v1
+  - Group: rbac.authorization.k8s.io
+    Kind: ClusterRoleBinding
+    Version: v1
+  - Group: apps
+    Kind: Deployment
+    Version: v1
+  - Group: storage.k8s.io
+    Kind: StorageClass
+    Version: v1
+  - Group: ''
+    Kind: ConfigMap
+    Version: v1
