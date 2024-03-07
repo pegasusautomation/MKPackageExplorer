@@ -3,7 +3,7 @@
 import React from 'react';
 import Plot from 'react-plotly.js';
 import userData from './userData.json';
-import "C:/MKPackageExplorer/src/pages/alarm.css"
+import "./alarm.css"
 
 const Graph = () => {
     const dates = userData.map(entry => entry.date);
