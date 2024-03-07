@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Plot from 'react-plotly.js';
-import userData from 'C:/MKPackageExplorer/src/userData.json';
+import userData from './userData.json';
 import "C:/MKPackageExplorer/src/pages/alarm.css"
 
 const Graph = () => {
