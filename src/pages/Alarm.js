@@ -1,4 +1,4 @@
-import "C:/MKPackageExplorer/src/pages/alarm.css";
+import "./alarm.css";
 import React from "react";
 import alarmdata from "../../src/backend/uploads/folders/mksp1-support_package_2024-02-09T06_04_37_in_progress/mksp1-support_package_2024-02-09T06_04_37/database/alarm/registry.json"
 

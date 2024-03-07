@@ -8,7 +8,7 @@ import { BrowserRouter as  Route, Switch } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import HomePage from "./pages/HomePage";
 import Packageuploader from "./pages/Packageuploader.js";
-import Certtable from "./certtable.js";
+import Certtable from "./pages/certtable.js";
 import Alarm from "./pages/Alarm.js";
 import "./Table.css";
 import "./App.css";
@@ -18,6 +18,7 @@ import ManagerProfile from "./pages/ManagerProfile.js";
 import AdminProfile from "./pages/AdminProfile.js";
 import TopbarPage from "./pages/TopbarPage.js";
 import AuthService from "./AuthService.js";
+import Graph from "./pages/graph.js";
 
 export const ThemeContext = React.createContext(null);
 const App = () => {
@@ -88,6 +89,9 @@ const App = () => {
             {/* <Route path="/login" component={LoginPage} />  */}
             <Route exact path="/Bitrates" className="bitrate">
                 <Servertable userData={userData}/>
+             </Route>
+             <Route exact path="/graph" className="bitrate">
+                <Graph userData={userData}/>
              </Route>
              <Route exact path="/Alarm">
                <Alarm userData={userData}/>

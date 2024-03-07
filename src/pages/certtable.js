@@ -1,5 +1,5 @@
 // import "./Table.css";
-import "C:/MKPackageExplorer/src/pages/alarm.css";
+import "./alarm.css";
 import React from "react";
 import licensedata from "C:/MKPackageExplorer/src/backend/uploads/folders/mksp1-support_package_2024-02-09T06_04_37_in_progress/mksp1-support_package_2024-02-09T06_04_37/database/envivioCluster/license_server.json"
 const Certtable = ({userData}) => {
