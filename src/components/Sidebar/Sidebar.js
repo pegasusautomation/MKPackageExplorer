@@ -15,7 +15,7 @@ import {
 
 import {
     AiFillSafetyCertificate,
-    AiOutlineHome,
+    AiOutlineFieldTime,
     AiOutlineLeft,
     AiOutlineProfile,
 } from "react-icons/ai";
@@ -91,11 +91,6 @@ const linksArray = [
     // )}
         },
     {
-        label: "Home",
-        icon: <AiOutlineHome />,
-        to: "/home",
-    },
-    {
         label: "Package Uploader",
         icon: <BsCloudUpload />,
         to: "/pkgupload",
@@ -119,6 +114,11 @@ const linksArray = [
         label: "Licence",
         icon: <AiFillSafetyCertificate />,
         to: "/Licences",
+    },
+    {
+        label: "Uptime",
+        icon: <AiOutlineFieldTime/>,
+        to: "/uptime",
     },
 ];
 //     const secondaryLinksArray = [

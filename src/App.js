@@ -6,7 +6,7 @@ import { darkTheme, lightTheme } from "./styles/theme";
 import React ,{useState}from 'react';
 import { BrowserRouter as  Route, Switch } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
-import HomePage from "./pages/HomePage";
+import Uptime from "./pages/Uptime.js";
 import Packageuploader from "./pages/Packageuploader.js";
 import Certtable from "./pages/certtable.js";
 import Alarm from "./pages/Alarm.js";
@@ -80,9 +80,6 @@ const App = () => {
           <Switch>
             {/* <div className="content"> */}
           {/* <Route path="/home" component={HomePage} />  */}
-          <Route exact path="/home">
-               <HomePage/>
-            </Route>
             <Route exact path="/pkgupload">
                <Packageuploader/>
             </Route>
@@ -98,6 +95,9 @@ const App = () => {
             </Route>
             <Route exact path="/Licences">
                <Certtable userData={userData}/>
+            </Route>
+            <Route exact path="/uptime">
+               <Uptime/>
             </Route>
             <Route path="/profile">
                   {userData.role === 'user' && <UserProfile userData={userData}/>}

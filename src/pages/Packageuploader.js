@@ -105,7 +105,7 @@ const Packageuploader = () => {
   return (
     <div {...getRootProps()}>
       <input {...getInputProps()} />
-      <p>Drag 'n' drop a folder here, or click to select a folder</p>
+      <p>Drag 'n' drop a Package here, or click to select a folder</p>
     </div>
   );
 };

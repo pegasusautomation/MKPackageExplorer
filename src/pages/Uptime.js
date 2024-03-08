@@ -1,9 +1,9 @@
 import React from "react";
 
-const HomePage = () => {
+const Uptime = () => {
     return <table className="hopmepage">
-    <b>Home Page</b><br></br>
+    <b>Uptime details</b><br></br>
     </table>;
 };
 
-export default HomePage;
+export default Uptime;
