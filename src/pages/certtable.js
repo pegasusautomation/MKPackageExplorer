@@ -5,7 +5,7 @@ import licensedata from ".././backend/uploads/folders/mksp1-support_package_2024
 const Certtable = ({userData}) => {
   return(
     <div className="table-container">
-      <caption style={{fontSize:'30px',marginLeft:'50px'}}><b>Licence Data</b></caption>
+      <caption style={{fontSize:'30px',marginLeft:'50px'}}><b>Locking Data</b></caption>
       <br></br>
             <br></br>
       <table className="alarm-table" style={{marginLeft:'70px'}}>

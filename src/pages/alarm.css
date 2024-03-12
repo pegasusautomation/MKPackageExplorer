@@ -7,11 +7,12 @@
 }
 
 .alarm-table {
-    width: 80%; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
     /* border-collapse: collapse;
     margin-left: 70px; */
     /* border: 1px solid black */
     margin-left: 70px;
+
 }
 
 .alarm-table th,
@@ -26,9 +27,9 @@
 }
 
 /* To make all columns have the same width */
-.alarm-table th,
+/* .alarm-table th,
 .alarm-table td {
-    width: 26%; 
+    width: 36%; 
     /* margin-left: 70px; */
     /* Equal width for each column */
-}
+/* } */ 

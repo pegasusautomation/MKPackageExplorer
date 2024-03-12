@@ -79,6 +79,7 @@
 import React, { useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import axios from 'axios'; // Import axios for making HTTP requests
+// import "./Packageuploader.css"
 
 const Packageuploader = () => {
   const onDrop = useCallback((acceptedFiles) => {
@@ -102,10 +103,33 @@ const Packageuploader = () => {
 
   const {getRootProps, getInputProps} = useDropzone({ onDrop, multiple: false, directory: true });
 
-  return (
-    <div {...getRootProps()}>
-      <input {...getInputProps()} />
-      <p>Drag 'n' drop a Package here, or click to select a folder</p>
+  return ( 
+  <div style={{ display: 'flex', alignItems: 'center',flexDirection:'column' }}>
+    {/* <caption>Packageuploader</caption> */}
+      <button {...getRootProps()} style={{
+      border: '2px solid #cccccc',
+      borderRadius: '8px',
+      padding: '40px 200px',
+      fontsize: '16px',
+      cursor: 'pointer',
+      margin:'140px',
+      marginLeft:'260px',
+      alignContent:'center',
+      justifyContent:'center',
+      textAlign: 'center',
+      position: 'relative',
+      background:'green'
+    }}> {/* Apply CSS class */}
+        <input {...getInputProps()}/>
+        <p style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            fontSize:'20px'
+          }}>Upload Your Package</p>
+      </button>
+      <p style={{margin:'-120px',marginLeft:'20px'}}><b>Instructions: </b>"Zip" the Package before Uploading</p>
     </div>
   );
 };

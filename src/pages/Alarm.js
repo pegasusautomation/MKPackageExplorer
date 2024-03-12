@@ -15,8 +15,12 @@ const Alarm = () => {
                 <thead>
                     <tr>
                         <th>Alarm Id</th>
+                        <th>Alarm Code</th>
+                        <th>Label</th>
                         <th>State</th>
-                        <th>Is_Active</th>
+                        <th>Server_Id</th>
+                        <th>Service_Id</th>
+                        <th>Severity</th>
                         <th>Info</th>
                     </tr>
                 </thead>
@@ -24,8 +28,12 @@ const Alarm = () => {
                     {raisedAlarms.map(alarm => (
                         <tr key={alarm._id.$oid}>
                             <td>{alarm.alarm_id}</td>
+                            <td>{alarm.alarm_code}</td>
+                            <td>{alarm.label}</td>
                             <td>{alarm.state}</td>
-                            <td>{alarm.is_active.toString()}</td>
+                            <td>{alarm.server_id}</td>
+                            <td>{alarm.service_id}</td>
+                            <td>{alarm.severity}</td>
                             <td>{alarm.info}</td>
                         </tr>
                     ))}

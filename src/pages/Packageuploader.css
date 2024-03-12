@@ -1,0 +1,22 @@
+/* FolderUpload.css */
+.dropzone-button {
+    /* display: flex; Use inline-block display */
+    border: 2px dashed #cccccc;
+    border-radius: 8px;
+    padding: 200px;
+    font-size: 16px;
+    cursor: pointer;
+    margin:150px;
+    margin-Left:290px;
+    align-items: center; /* Align items horizontally */
+    justify-content: center; /* Center text horizontally */
+
+    
+  }
+  
+  .dropzone-button > * {
+    display: inline-block; /* Use inline-block for children */
+    vertical-align: middle; /* Align children vertically */
+    color: white;
+  }
+  
