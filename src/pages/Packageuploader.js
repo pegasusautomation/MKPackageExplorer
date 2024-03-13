@@ -109,9 +109,9 @@ const Packageuploader = () => {
       <button {...getRootProps()} style={{
       border: '2px solid #cccccc',
       borderRadius: '8px',
-      padding: '40px',
-      width:'350px',
-      fontsize: '16px',
+      padding: '20px',
+      width:'268px',
+      fontSize:'20px',
       cursor: 'pointer',
       margin:'140px',
       marginLeft:'260px',
@@ -119,7 +119,7 @@ const Packageuploader = () => {
       justifyContent:'center',
       textAlign: 'center',
       position: 'relative',
-      background:'green'
+      background:'rgb(105, 88, 154)'
     }}> {/* Apply CSS class */}
         <input {...getInputProps()}/>
         <p style={{
@@ -131,7 +131,8 @@ const Packageuploader = () => {
             fontSize:'20px'
           }}>Upload Your Package</p>
       </button>
-      <p style={{margin:'-120px',marginLeft:'10px'}}><b>Instructions: </b>"Zip" the Package before Uploading</p>
+      <p style={{margin:'-120px',marginLeft:'10px'}}><b>Instructions: </b>"Zip" the Package before Uploading<br></br><i><u>example</u></i>:
+mksp1-support_package_2024-02-09T06_04_37.zip</p>
     </div>
   );
 };
