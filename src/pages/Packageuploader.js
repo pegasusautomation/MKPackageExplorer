@@ -109,7 +109,8 @@ const Packageuploader = () => {
       <button {...getRootProps()} style={{
       border: '2px solid #cccccc',
       borderRadius: '8px',
-      padding: '40px 200px',
+      padding: '40px',
+      width:'350px',
       fontsize: '16px',
       cursor: 'pointer',
       margin:'140px',
@@ -122,14 +123,15 @@ const Packageuploader = () => {
     }}> {/* Apply CSS class */}
         <input {...getInputProps()}/>
         <p style={{
-            position: 'absolute',
+            position: 'relative',
             top: '50%',
             left: '50%',
+            right:'20%',
             transform: 'translate(-50%, -50%)',
             fontSize:'20px'
           }}>Upload Your Package</p>
       </button>
-      <p style={{margin:'-120px',marginLeft:'20px'}}><b>Instructions: </b>"Zip" the Package before Uploading</p>
+      <p style={{margin:'-120px',marginLeft:'10px'}}><b>Instructions: </b>"Zip" the Package before Uploading</p>
     </div>
   );
 };
