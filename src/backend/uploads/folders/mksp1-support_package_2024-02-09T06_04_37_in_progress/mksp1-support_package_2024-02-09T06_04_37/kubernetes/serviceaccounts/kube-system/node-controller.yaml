@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:14Z'
-  name: node-controller
-  namespace: kube-system
-  resourceVersion: '365'
-  uid: 28300101-6693-4534-9184-692f125a12bd
-secrets:
-- name: node-controller-token-s2zf9

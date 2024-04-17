@@ -1,15 +1,15 @@
 import "./alarm.css";
 import React from "react";
-import alarmdata from "../../src/backend/uploads/folders/mksp1-support_package_2024-02-09T06_04_37_in_progress/mksp1-support_package_2024-02-09T06_04_37/database/alarm/registry.json"
+// import alarmdata from "../../src/backend/uploads/folders/mksp1-support_package_2024-02-09T06_04_37_in_progress/mksp1-support_package_2024-02-09T06_04_37/database/alarm/registry.json"
 
 const Alarm = () => {
-    const raisedAlarms = alarmdata.filter(alarm => alarm.state === 'raised');
+    // const raisedAlarms = alarmdata.filter(alarm => alarm.state === 'raised');
 
     return (
         
         <div className="table-container" > {/* Apply a class for centering */}
             <caption style={{fontSize:'30px',marginLeft:'30px'}}><b>Active Alarms</b></caption>
-            <br></br>
+            {/* <br></br>
             <br></br>
             <table className="alarm-table"> 
                 <thead>
@@ -38,7 +38,7 @@ const Alarm = () => {
                         </tr>
                     ))}
                 </tbody>
-            </table>
+            </table> */}
         </div>
     );
 };

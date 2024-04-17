@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:12Z'
-  name: ttl-after-finished-controller
-  namespace: kube-system
-  resourceVersion: '262'
-  uid: 21f420bc-d114-4b96-95a0-149ee7d595b4
-secrets:
-- name: ttl-after-finished-controller-token-m2cfp

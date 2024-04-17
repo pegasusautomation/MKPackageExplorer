@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:15Z'
-  name: svclb
-  namespace: kube-system
-  resourceVersion: '380'
-  uid: 59039822-51cb-4ce2-b21b-4404b96c43a8
-secrets:
-- name: svclb-token-n6nzl

@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:12Z'
-  name: job-controller
-  namespace: kube-system
-  resourceVersion: '256'
-  uid: f085ea5c-76c0-4469-8244-44fa661ebde5
-secrets:
-- name: job-controller-token-6w2ml

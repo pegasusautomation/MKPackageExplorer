@@ -1,7 +1,0 @@
-conditions:
-- message: ok
-  status: 'True'
-  type: Healthy
-metadata:
-  creationTimestamp: null
-  name: scheduler

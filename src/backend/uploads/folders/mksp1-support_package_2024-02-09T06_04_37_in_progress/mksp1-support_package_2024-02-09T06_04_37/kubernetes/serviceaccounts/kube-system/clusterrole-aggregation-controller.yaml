@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:13Z'
-  name: clusterrole-aggregation-controller
-  namespace: kube-system
-  resourceVersion: '333'
-  uid: b8bfbde8-81e4-4173-8581-7147322eff08
-secrets:
-- name: clusterrole-aggregation-controller-token-bcvbm

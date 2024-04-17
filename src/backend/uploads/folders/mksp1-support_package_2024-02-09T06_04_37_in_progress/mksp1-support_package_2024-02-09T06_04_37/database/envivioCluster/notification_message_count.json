@@ -1,9 +1,0 @@
-[
-    {
-        "_id": {
-            "$oid": "657adc02053625cb03edbfb6"
-        },
-        "message_count": 434,
-        "name": "notif_message_count"
-    }
-]

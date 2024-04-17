@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:11Z'
-  name: pv-protection-controller
-  namespace: kube-system
-  resourceVersion: '250'
-  uid: b1100ccf-531b-48c1-b329-74871dedb07e
-secrets:
-- name: pv-protection-controller-token-84nzn

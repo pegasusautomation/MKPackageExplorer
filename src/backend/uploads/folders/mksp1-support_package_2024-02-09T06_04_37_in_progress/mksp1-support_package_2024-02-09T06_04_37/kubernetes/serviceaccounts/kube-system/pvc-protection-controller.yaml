@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:24Z'
-  name: pvc-protection-controller
-  namespace: kube-system
-  resourceVersion: '385'
-  uid: 7400ad13-ae9b-48a6-b010-522a3e530925
-secrets:
-- name: pvc-protection-controller-token-gzn2b

@@ -95,6 +95,7 @@ const Packageuploader = () => {
     }).then(response => {
       // Handle response from the backend if needed
       console.log(response.data);
+      alert("Pakage Uploaded successfully");
     }).catch(error => {
       // Handle error if request fails
       console.error('Error uploading folder:', error);
@@ -172,23 +173,23 @@ Support package ended: 2024-02-09T06:05:19.224497`;
         </div>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-        <p style={{ marginRight: '130px'}}><b>Support Package Creation Time</b></p>
-        <div style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '-5px',width:'273px' }}>
+        <p style={{ marginRight: '132px'}}><b>Support Package Creation Time</b></p>
+        <div style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '-5px',width:'272px' }}>
           {packageInfo ? packageInfo.endDate : "Loading package info..."}
         </div>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-        <p style={{ marginRight: '230px' }}><b>Reported Issue</b></p>
-        <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white',marginLeft:'30px',width:'273px' }}>
+        <p style={{ marginRight: '226px' }}><b>Reported Issue</b></p>
+        <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white',marginLeft:'30px',width:'272px' }}>
         </input></div>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-        <p style={{ marginRight: '115px' }}><b>Reported Issue Date and Time</b></p>
-        <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white',marginLeft:'24px' ,width:'273px'}}>
+        <p style={{ marginRight: '116px' }}><b>Reported Issue Date and Time</b></p>
+        <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white',marginLeft:'24px' ,width:'272px'}}>
         </input></div>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-        <p style={{ marginRight: '40px' }}><b>Reported Issue Date and Time threshold</b></p>
+        <p style={{ marginRight: '45px' }}><b>Reported Issue Date and Time threshold</b></p>
         <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white' ,marginLeft:'16px',width:'273px'}}>
         </input></div>
       </div>

@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:13Z'
-  name: daemon-set-controller
-  namespace: kube-system
-  resourceVersion: '328'
-  uid: 4e72ae77-3738-4f75-9d3b-1c4bdc68722d
-secrets:
-- name: daemon-set-controller-token-z2xd9

@@ -1,6 +1,0 @@
-apiVersion: monitoring.coreos.com/v1
-items: []
-kind: ProbeList
-metadata:
-  continue: ''
-  resourceVersion: '9043740'

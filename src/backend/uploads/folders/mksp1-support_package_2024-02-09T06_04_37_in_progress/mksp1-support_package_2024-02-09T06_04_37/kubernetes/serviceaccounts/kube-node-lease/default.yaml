@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:24Z'
-  name: default
-  namespace: kube-node-lease
-  resourceVersion: '417'
-  uid: 2166aa17-c627-4f45-9115-4d187e025f4d
-secrets:
-- name: default-token-z9kg2

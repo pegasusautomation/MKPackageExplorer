@@ -1,5 +1,0 @@
-10.42.0.0/24 dev cni0 scope link  src 10.42.0.1 
-10.69.8.0/24 dev eth4 scope link  src 10.69.8.31  metric 100 
-10.69.12.0/24 dev eth3 scope link  src 10.69.12.31  metric 102 
-10.69.14.0/24 dev eth1 scope link  src 10.69.14.31  metric 101 
-192.168.255.0/24 dev internalk3s0 scope link  src 192.168.255.1  metric 550 

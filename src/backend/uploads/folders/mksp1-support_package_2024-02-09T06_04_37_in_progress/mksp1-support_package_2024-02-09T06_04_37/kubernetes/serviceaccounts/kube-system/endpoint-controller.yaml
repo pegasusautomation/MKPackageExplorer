@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:24Z'
-  name: endpoint-controller
-  namespace: kube-system
-  resourceVersion: '388'
-  uid: 18dd9836-3cbc-4754-b722-40348316842d
-secrets:
-- name: endpoint-controller-token-c96rq

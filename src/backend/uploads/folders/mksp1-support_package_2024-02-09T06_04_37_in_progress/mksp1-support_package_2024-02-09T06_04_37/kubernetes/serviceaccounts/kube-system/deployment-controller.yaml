@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:11Z'
-  name: deployment-controller
-  namespace: kube-system
-  resourceVersion: '245'
-  uid: e9ba66c4-52e5-4fa0-b08a-03fe4c157983
-secrets:
-- name: deployment-controller-token-7kblh

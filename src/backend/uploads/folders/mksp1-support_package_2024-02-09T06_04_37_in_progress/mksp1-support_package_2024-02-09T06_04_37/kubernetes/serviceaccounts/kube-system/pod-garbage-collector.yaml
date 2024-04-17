@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:13Z'
-  name: pod-garbage-collector
-  namespace: kube-system
-  resourceVersion: '325'
-  uid: 4928eadd-548c-4665-a992-e3eb4d820d7d
-secrets:
-- name: pod-garbage-collector-token-nkv9g

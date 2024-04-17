@@ -1,7 +1,0 @@
-Configuring backup service - see 'system.backup --help'
-Setup restore boot...
-warning: /mnt/sysroot/root/MediaKind/RPM/partclone-0.3.18-1.el8.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 2f86d6a1: NOKEY
-Backup will skip the following partitions:
-tmp
-var_log
-Backup menu will require removal of an old copy beyond the maximum of  1

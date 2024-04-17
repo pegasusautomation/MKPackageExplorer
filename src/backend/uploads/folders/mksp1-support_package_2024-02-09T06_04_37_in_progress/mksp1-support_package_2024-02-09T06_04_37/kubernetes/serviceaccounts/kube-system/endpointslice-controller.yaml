@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:12Z'
-  name: endpointslice-controller
-  namespace: kube-system
-  resourceVersion: '265'
-  uid: 4765b9b9-69a7-4560-b598-ac1617b90cc9
-secrets:
-- name: endpointslice-controller-token-8476p

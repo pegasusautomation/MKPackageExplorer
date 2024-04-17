@@ -1,6 +1,0 @@
-apiVersion: cert-manager.io/v1
-items: []
-kind: ClusterIssuerList
-metadata:
-  continue: ''
-  resourceVersion: '9043738'

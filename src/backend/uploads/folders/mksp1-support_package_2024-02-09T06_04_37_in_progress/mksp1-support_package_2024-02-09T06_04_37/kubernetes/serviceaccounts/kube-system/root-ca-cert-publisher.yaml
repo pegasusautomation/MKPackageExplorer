@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:11Z'
-  name: root-ca-cert-publisher
-  namespace: kube-system
-  resourceVersion: '247'
-  uid: 321b3698-f72d-465c-9b0e-dd2f887ae9c7
-secrets:
-- name: root-ca-cert-publisher-token-z42rj

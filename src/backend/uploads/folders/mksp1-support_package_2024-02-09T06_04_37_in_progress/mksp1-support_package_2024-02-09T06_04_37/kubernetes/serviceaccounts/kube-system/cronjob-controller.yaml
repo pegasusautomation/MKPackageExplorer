@@ -1,8 +1,0 @@
-metadata:
-  creationTimestamp: '2023-12-14T06:48:12Z'
-  name: cronjob-controller
-  namespace: kube-system
-  resourceVersion: '259'
-  uid: 2e7da374-76d9-42f8-9b94-153da56e7d10
-secrets:
-- name: cronjob-controller-token-hndpp
