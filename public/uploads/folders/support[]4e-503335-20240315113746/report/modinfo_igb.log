@@ -1,0 +1,51 @@
+filename:       /lib/modules/3.10.0-1160.90.1.el7.x86_64/kernel/drivers/net/ethernet/intel/igb/igb.ko.xz
+version:        5.6.0-k
+license:        GPL v2
+description:    Intel(R) Gigabit Ethernet Network Driver
+author:         Intel Corporation, <e1000-devel@lists.sourceforge.net>
+retpoline:      Y
+rhelversion:    7.9
+srcversion:     23F5AAA92CA304EDEB94393
+alias:          pci:v00008086d000010D6sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010A9sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010A7sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010E8sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001526sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000150Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d000010E7sv*sd*bc*sc*i*
+alias:          pci:v00008086d000010E6sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001518sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000150Asv*sd*bc*sc*i*
+alias:          pci:v00008086d000010C9sv*sd*bc*sc*i*
+alias:          pci:v00008086d00000440sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000043Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000043Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00000438sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001516sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001511sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001510sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001527sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000150Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000150Esv*sd*bc*sc*i*
+alias:          pci:v00008086d00001524sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001523sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001522sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001521sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000157Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000157Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d00001538sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001537sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001536sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001533sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001539sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001F45sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001F41sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001F40sv*sd*bc*sc*i*
+depends:        ptp,dca,i2c-algo-bit
+intree:         Y
+vermagic:       3.10.0-1160.90.1.el7.x86_64 SMP mod_unload modversions 
+signer:         CentOS Linux kernel signing key
+sig_key:        D5:78:48:C9:4E:43:76:66:27:63:C4:E2:FA:A0:09:A4:1C:5C:53:B3
+sig_hashalgo:   sha256
+parm:           max_vfs:Maximum number of virtual functions to allocate per physical function (uint)
+parm:           debug:Debug level (0=none,...,16=all) (int)

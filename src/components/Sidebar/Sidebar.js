@@ -20,7 +20,7 @@ import {
     AiOutlineProfile,
 } from "react-icons/ai";
 // import { MdLogout } from "react-icons/md";
-import { BsAlarmFill, BsCloudUpload, BsGraphUp, BsServer } from "react-icons/bs";
+import { BsAlarmFill, BsCloudUpload, BsGraphUp, BsServer, BsTicketDetailed } from "react-icons/bs";
 
 import { useLocation } from "react-router-dom";
 
@@ -119,6 +119,11 @@ const linksArray = [
         label: "Uptime",
         icon: <AiOutlineFieldTime/>,
         to: "/uptime",
+    },
+    {
+        label: "SP Details",
+        icon: <BsTicketDetailed/>,
+        to: "/spdetails",
     },
 ];
 //     const secondaryLinksArray = [

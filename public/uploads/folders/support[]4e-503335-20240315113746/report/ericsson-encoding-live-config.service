@@ -1,0 +1,20 @@
+#!/bin/bash
+[Unit]
+Description=ericsson-encoding-live-config
+After=network-online.target
+Wants=network-online.target rsyslog.service
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+PermissionsStartOnly=true
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/encoding-live-config/public /var/log/ericsson/encoding-live-config/private /var/log/ericsson/encoding-live-config/setup
+ExecStartPre=/usr/bin/chown -R ericsson: /var/log/ericsson/encoding-live-config/public /var/log/ericsson/encoding-live-config/private /var/log/ericsson/encoding-live-config/setup
+ExecStartPre=/usr/sbin/restorecon -R /var/log/ericsson/encoding-live-config
+ExecStart=/bin/bash -c "/opt/ericsson/encoding-live-config/bin/liveencoder-config --conf /opt/ericsson/encoding-live-config/etc/encoding-live-config.ini --logging /opt/ericsson/encoding-live-config/etc/logging.json "
+ExecStop=/bin/kill -s HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

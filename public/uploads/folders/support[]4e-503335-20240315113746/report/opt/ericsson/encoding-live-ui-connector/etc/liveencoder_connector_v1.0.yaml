@@ -1,0 +1,4 @@
+kind: mediakind.io/interface-discovery-registration@v1
+location: 127.0.0.1:9499
+annotations:
+    mediakind.io/discoverable-interfaces: uiconnector

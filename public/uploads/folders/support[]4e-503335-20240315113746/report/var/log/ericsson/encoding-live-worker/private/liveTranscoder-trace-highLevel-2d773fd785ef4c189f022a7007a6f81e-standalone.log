@@ -1,0 +1,1893 @@
+g output stream 1, type:AUDIO
+Aug  8 23:10:44.557749 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Aug  8 23:10:44.557773 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Aug  8 23:10:44.559440 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Aug  8 23:10:44.559642 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Aug  8 23:10:44.562146 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Aug  8 23:10:44.633492 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 23:10:44.638530 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Aug  8 23:10:44.673067 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Aug  8 23:10:45.362151 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Aug  8 23:10:45.362955 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Aug  8 23:10:45.363014 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Aug  8 23:10:45.363039 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Aug  8 23:10:45.363067 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 23:10:45.363077 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Aug  8 23:10:45.363086 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Aug  8 23:10:45.363095 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Aug  8 23:10:45.363105 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 23:10:45.363167 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Aug  8 23:10:45.363196 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 23:10:45.363209 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Aug  8 23:10:45.363218 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 23:10:45.363243 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Aug  8 23:10:45.363455 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Aug  8 23:10:45.401386 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Aug  8 23:10:45.401726 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Aug  8 23:10:45.401752 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Aug  8 23:10:45.401776 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Aug  8 23:10:45.401808 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Aug  8 23:10:45.401821 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Aug  8 23:10:45.401831 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Aug  8 23:10:45.401842 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Aug  8 23:10:45.401853 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 23:10:45.401879 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Aug  8 23:10:45.401893 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 23:10:45.401909 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Aug  8 23:10:45.401920 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Aug  8 23:10:45.401943 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Aug  8 23:10:45.402053 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Sep 14 02:31:04.601810 CS24_TS16_SBS FIL  [GENERAL] The process is ending
+Sep 14 02:31:04.684790 noServiceName  **********************************************************
+Sep 14 02:31:04.684804 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Sep 14 02:31:04.684810 noServiceName  [GENERAL] Log system is syslog
+Sep 14 02:31:04.684991 noServiceName  [GENERAL] The process is starting
+Sep 14 02:31:05.148809 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9113
+Sep 14 02:31:05.148886 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Sep 14 02:31:05.152975 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:31:05.156955 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:31:05.165032 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:31:05.170289 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:31:05.556623 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Sep 14 02:31:05.556636 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:31:05.556644 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:31:05.556650 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 14 02:31:05.556690 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Sep 14 02:31:05.556799 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Sep 14 02:31:05.556815 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:31:05.556822 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:31:05.556828 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Sep 14 02:31:05.556853 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Sep 14 02:31:05.556931 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Sep 14 02:31:05.556938 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:31:05.556945 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:31:05.556950 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Sep 14 02:31:05.556975 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Sep 14 02:31:05.557042 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Sep 14 02:31:05.557049 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:31:05.557056 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:31:05.557061 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Sep 14 02:31:05.557085 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Sep 14 02:31:05.558496 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Sep 14 02:31:05.558615 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Sep 14 02:31:05.560426 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Sep 14 02:31:05.622775 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:31:05.638261 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:31:05.691223 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Sep 14 02:31:06.242474 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Sep 14 02:31:06.243099 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Sep 14 02:31:06.243135 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Sep 14 02:31:06.243160 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Sep 14 02:31:06.243191 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Sep 14 02:31:06.243200 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Sep 14 02:31:06.243210 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Sep 14 02:31:06.243219 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Sep 14 02:31:06.243229 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:31:06.243290 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Sep 14 02:31:06.243312 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:31:06.243327 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Sep 14 02:31:06.243336 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 14 02:31:06.243363 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Sep 14 02:31:06.243530 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Sep 14 02:31:06.333352 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Sep 14 02:31:06.333591 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Sep 14 02:31:06.333607 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Sep 14 02:31:06.333622 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Sep 14 02:31:06.333641 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Sep 14 02:31:06.333648 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Sep 14 02:31:06.333655 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Sep 14 02:31:06.333661 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Sep 14 02:31:06.333668 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:31:06.333684 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Sep 14 02:31:06.333693 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:31:06.333702 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Sep 14 02:31:06.333709 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Sep 14 02:31:06.333731 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Sep 14 02:31:06.333839 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Sep 14 02:39:02.240244 CS24_TS16_SBS FIL  [GENERAL] The process is ending
+Sep 14 02:39:44.565082 noServiceName  **********************************************************
+Sep 14 02:39:44.565103 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Sep 14 02:39:44.565108 noServiceName  [GENERAL] Log system is syslog
+Sep 14 02:39:44.565320 noServiceName  [GENERAL] The process is starting
+Sep 14 02:39:45.050764 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9113
+Sep 14 02:39:45.050829 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Sep 14 02:39:45.054805 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:39:45.058213 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:39:45.067022 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:39:45.072467 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:39:45.482600 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Sep 14 02:39:45.482614 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:39:45.482622 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:39:45.482628 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 14 02:39:45.482671 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Sep 14 02:39:45.482777 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Sep 14 02:39:45.482790 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:39:45.482807 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:39:45.482813 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Sep 14 02:39:45.482838 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Sep 14 02:39:45.482898 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Sep 14 02:39:45.482905 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:39:45.482913 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:39:45.482919 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Sep 14 02:39:45.482944 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Sep 14 02:39:45.483006 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Sep 14 02:39:45.483013 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:39:45.483019 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:39:45.483025 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Sep 14 02:39:45.483048 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Sep 14 02:39:45.484501 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Sep 14 02:39:45.484659 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Sep 14 02:39:45.487362 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Sep 14 02:39:45.548148 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:39:45.563739 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:39:45.604566 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Sep 14 02:39:46.148965 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Sep 14 02:39:46.149471 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Sep 14 02:39:46.149498 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Sep 14 02:39:46.149515 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Sep 14 02:39:46.149536 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Sep 14 02:39:46.149543 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Sep 14 02:39:46.149550 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Sep 14 02:39:46.149556 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Sep 14 02:39:46.149564 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:39:46.149612 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Sep 14 02:39:46.149627 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:39:46.149637 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Sep 14 02:39:46.149644 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Sep 14 02:39:46.149674 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Sep 14 02:39:46.149828 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Sep 14 02:39:46.339258 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Sep 14 02:39:46.339495 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Sep 14 02:39:46.339519 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Sep 14 02:39:46.339539 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Sep 14 02:39:46.339568 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Sep 14 02:39:46.339578 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Sep 14 02:39:46.339588 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO,Aug  8 00:52:24.486678 noServiceName  **********************************************************
+Aug  8 00:52:24.486692 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Aug  8 00:52:24.486698 noServiceName  [GENERAL] Log system is syslog
+Aug  8 00:52:24.486881 noServiceName  [GENERAL] The process is starting
+Aug  8 00:52:24.954614 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9106
+Aug  8 00:52:24.954678 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Aug  8 00:52:24.958765 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:52:24.962701 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:52:24.970850 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:52:24.976017 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:52:25.371795 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 00:52:25.371807 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:52:25.371814 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:52:25.371821 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 00:52:25.371861 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Aug  8 00:52:25.371950 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Aug  8 00:52:25.371961 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:52:25.371968 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:52:25.371974 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Aug  8 00:52:25.371999 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Aug  8 00:52:25.372074 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Aug  8 00:52:25.372081 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:52:25.372088 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:52:25.372093 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Aug  8 00:52:25.372118 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Aug  8 00:52:25.372179 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Aug  8 00:52:25.372190 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:52:25.372196 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:52:25.372202 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Aug  8 00:52:25.372226 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Aug  8 00:52:25.373534 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Aug  8 00:52:25.373670 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Aug  8 00:52:25.375337 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Aug  8 00:52:25.526661 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Aug  8 00:52:25.554855 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:52:25.559977 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:52:25.980652 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Aug  8 00:52:25.981178 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Aug  8 00:52:25.981200 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Aug  8 00:52:25.981221 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Aug  8 00:52:25.981241 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Aug  8 00:52:25.981248 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Aug  8 00:52:25.981255 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Aug  8 00:52:25.981261 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Aug  8 00:52:25.981270 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:52:25.981322 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Aug  8 00:52:25.981336 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:52:25.981349 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Aug  8 00:52:25.981357 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Aug  8 00:52:25.981376 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Aug  8 00:52:25.981478 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Aug  8 00:52:26.089732 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Aug  8 00:52:26.089884 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Aug  8 00:52:26.089900 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Aug  8 00:52:26.089915 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Aug  8 00:52:26.089934 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 00:52:26.089941 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Aug  8 00:52:26.089947 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Aug  8 00:52:26.089954 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Aug  8 00:52:26.089961 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:52:26.089973 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Aug  8 00:52:26.089989 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:52:26.089999 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Aug  8 00:52:26.090006 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 00:52:26.090020 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Aug  8 00:52:26.090124 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Aug  8 00:59:34.229986 noServiceName  **********************************************************
+Aug  8 00:59:34.229999 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Aug  8 00:59:34.230004 noServiceName  [GENERAL] Log system is syslog
+Aug  8 00:59:34.230170 noServiceName  [GENERAL] The process is starting
+Aug  8 00:59:35.269757 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9100
+Aug  8 00:59:35.269821 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Aug  8 00:59:35.278415 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:59:35.282175 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:59:35.289708 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:59:35.294584 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:59:35.766581 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 00:59:35.766593 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:59:35.766603 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:59:35.766610 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 00:59:35.766653 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Aug  8 00:59:35.766758 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Aug  8 00:59:35.766766 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:59:35.766773 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:59:35.766786 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Aug  8 00:59:35.766817 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Aug  8 00:59:35.766884 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Aug  8 00:59:35.766897 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:59:35.766905 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:59:35.766913 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Aug  8 00:59:35.766941 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Aug  8 00:59:35.767020 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Aug  8 00:59:35.767029 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:59:35.767037 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:59:35.767044 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Aug  8 00:59:35.767074 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Aug  8 00:59:35.770369 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Aug  8 00:59:35.770434 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Aug  8 00:59:35.772096 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Aug  8 00:59:35.866828 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Aug  8 00:59:36.454049 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:59:36.458612 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:59:37.288590 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Aug  8 00:59:37.289115 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Aug  8 00:59:37.289135 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Aug  8 00:59:37.289152 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Aug  8 00:59:37.289171 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 00:59:37.289178 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Aug  8 00:59:37.289184 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Aug  8 00:59:37.289190 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Aug  8 00:59:37.289197 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:59:37.289228 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Aug  8 00:59:37.289240 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:59:37.289249 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Aug  8 00:59:37.289256 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 00:59:37.289271 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Aug  8 00:59:37.289361 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Aug  8 00:59:37.304625 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Aug  8 00:59:37.304784 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Aug  8 00:59:37.304800 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Aug  8 00:59:37.304815 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Aug  8 00:59:37.304834 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Aug  8 00:59:37.304841 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Aug  8 00:59:37.304847 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Aug  8 00:59:37.304854 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Aug  8 00:59:37.304861 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:59:37.304874 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Aug  8 00:59:37.304882 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:59:37.304892 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Aug  8 00:59:37.304898 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Aug  8 00:59:37.304912 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Aug  8 00:59:37.305001 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Aug  8 23:10:14.876622 CS24_TS16_SBS FIL  [GENERAL] The process is ending
+Aug  8 23:10:43.587224 noServiceName  **********************************************************
+Aug  8 23:10:43.587238 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Aug  8 23:10:43.587243 noServiceName  [GENERAL] Log system is syslog
+Aug  8 23:10:43.587427 noServiceName  [GENERAL] The process is starting
+Aug  8 23:10:44.121930 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9113
+Aug  8 23:10:44.122009 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Aug  8 23:10:44.126396 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 23:10:44.130099 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Aug  8 23:10:44.138272 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 23:10:44.143829 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Aug  8 23:10:44.557291 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 23:10:44.557304 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 23:10:44.557312 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 23:10:44.557318 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 23:10:44.557362 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Aug  8 23:10:44.557465 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Aug  8 23:10:44.557474 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 23:10:44.557480 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 23:10:44.557486 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Aug  8 23:10:44.557510 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Aug  8 23:10:44.557572 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Aug  8 23:10:44.557579 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 23:10:44.557591 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 23:10:44.557597 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Aug  8 23:10:44.557625 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Aug  8 23:10:44.557695 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Aug  8 23:10:44.557702 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 23:10:44.557741 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routin PID 0xe16
+Sep 14 02:39:46.339598 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Sep 14 02:39:46.339608 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:39:46.339635 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Sep 14 02:39:46.339647 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:39:46.339661 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Sep 14 02:39:46.339670 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 14 02:39:46.339690 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Sep 14 02:39:46.339812 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Sep 25 16:34:29.551143 CS24_TS16_SBS FIL  [GENERAL] The process is ending
+Sep 25 16:35:35.647628 noServiceName  **********************************************************
+Sep 25 16:35:35.647648 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Sep 25 16:35:35.647656 noServiceName  [GENERAL] Log system is syslog
+Sep 25 16:35:35.647932 noServiceName  [GENERAL] The process is starting
+Sep 25 16:35:36.207053 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9113
+Sep 25 16:35:36.207115 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Sep 25 16:35:36.211739 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 25 16:35:36.215607 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Sep 25 16:35:36.226319 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Sep 25 16:35:36.232353 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Sep 25 16:35:36.624324 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Sep 25 16:35:36.624337 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 25 16:35:36.624345 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 25 16:35:36.624351 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 25 16:35:36.624397 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Sep 25 16:35:36.624536 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Sep 25 16:35:36.624546 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 25 16:35:36.624553 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 25 16:35:36.624559 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Sep 25 16:35:36.624585 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Sep 25 16:35:36.624648 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Sep 25 16:35:36.624658 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 25 16:35:36.624665 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 25 16:35:36.624671 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Sep 25 16:35:36.624695 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Sep 25 16:35:36.624806 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Sep 25 16:35:36.624813 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 25 16:35:36.624820 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 25 16:35:36.624826 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Sep 25 16:35:36.624850 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Sep 25 16:35:36.626456 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Sep 25 16:35:36.626624 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Sep 25 16:35:36.628809 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Sep 25 16:35:36.710559 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 25 16:35:36.715285 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Sep 25 16:35:36.753709 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Sep 25 16:35:37.292950 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Sep 25 16:35:37.293624 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Sep 25 16:35:37.293661 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Sep 25 16:35:37.293688 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Sep 25 16:35:37.293726 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Sep 25 16:35:37.293736 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Sep 25 16:35:37.293745 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Sep 25 16:35:37.293754 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Sep 25 16:35:37.293766 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 25 16:35:37.293826 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Sep 25 16:35:37.293847 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 25 16:35:37.293862 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Sep 25 16:35:37.293872 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 25 16:35:37.293900 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Sep 25 16:35:37.294102 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Sep 25 16:35:37.421447 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Sep 25 16:35:37.421640 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Sep 25 16:35:37.421657 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Sep 25 16:35:37.421672 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Sep 25 16:35:37.421693 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Sep 25 16:35:37.421701 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Sep 25 16:35:37.421707 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Sep 25 16:35:37.421714 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Sep 25 16:35:37.421731 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 25 16:35:37.421749 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Sep 25 16:35:37.421758 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 25 16:35:37.421767 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Sep 25 16:35:37.421774 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Sep 25 16:35:37.421789 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Sep 25 16:35:37.421871 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Oct 25 03:27:33.858010 noServiceName  **********************************************************
+Oct 25 03:27:33.858022 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Oct 25 03:27:33.858028 noServiceName  [GENERAL] Log system is syslog
+Oct 25 03:27:33.858189 noServiceName  [GENERAL] The process is starting
+Oct 25 03:27:36.108806 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9111
+Oct 25 03:27:36.108871 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Oct 25 03:27:36.116915 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Oct 25 03:27:36.121186 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Oct 25 03:27:36.128727 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Oct 25 03:27:36.133824 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Oct 25 03:27:36.617879 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Oct 25 03:27:36.617891 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Oct 25 03:27:36.617899 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Oct 25 03:27:36.617906 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Oct 25 03:27:36.619684 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Oct 25 03:27:36.619825 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Oct 25 03:27:36.619834 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Oct 25 03:27:36.619843 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Oct 25 03:27:36.619850 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Oct 25 03:27:36.619879 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Oct 25 03:27:36.620495 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Oct 25 03:27:36.620503 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Oct 25 03:27:36.620511 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Oct 25 03:27:36.620517 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Oct 25 03:27:36.620547 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Oct 25 03:27:36.620656 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Oct 25 03:27:36.620663 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Oct 25 03:27:36.620671 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Oct 25 03:27:36.620677 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Oct 25 03:27:36.620704 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Oct 25 03:27:36.622225 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Oct 25 03:27:36.622338 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Oct 25 03:27:36.624068 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Oct 25 03:27:36.969314 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Oct 25 03:27:37.029590 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Oct 25 03:27:37.033704 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Oct 25 03:27:37.379679 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Oct 25 03:27:37.380121 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Oct 25 03:27:37.380147 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Oct 25 03:27:37.380165 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Oct 25 03:27:37.380184 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Oct 25 03:27:37.380191 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Oct 25 03:27:37.380198 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Oct 25 03:27:37.380204 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Oct 25 03:27:37.380211 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Oct 25 03:27:37.380253 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Oct 25 03:27:37.380268 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Oct 25 03:27:37.380277 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Oct 25 03:27:37.380285 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Oct 25 03:27:37.380302 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Oct 25 03:27:37.380426 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Oct 25 03:27:37.620685 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Oct 25 03:27:37.620830 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Oct 25 03:27:37.620845 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Oct 25 03:27:37.620860 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Oct 25 03:27:37.620878 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Oct 25 03:27:37.620885 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Oct 25 03:27:37.620891 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Oct 25 03:27:37.620898 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Oct 25 03:27:37.620905 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Oct 25 03:27:37.620917 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Oct 25 03:27:37.620925 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Oct 25 03:27:37.620942 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Oct 25 03:27:37.620952 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Oct 25 03:27:37.620966 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Oct 25 03:27:37.621049 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Nov 16 16:46:51.438516 CS24_TS16_SBS FIL  [GENERAL] The process is ending
+Nov 16 16:47:35.459917 noServiceName  **********************************************************
+Nov 16 16:47:35.459944 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Nov 16 16:47:35.459952 noServiceName  [GENERAL] Log system is syslog
+Nov 16 16:47:35.460222 noServiceName  [GENERAL] The process is starting
+Nov 16 16:47:35.964197 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9113
+Nov 16 16:47:35.964261 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Nov 16 16:47:35.968264 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 16 16:47:35.971507 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Nov 16 16:47:35.978973 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Nov 16 16:47:35.983921 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Nov 16 16:47:36.399333 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Nov 16 16:47:36.399346 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 16 16:47:36.399353 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 16 16:47:36.399360 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 16 16:47:36.399410 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Nov 16 16:47:36.399513 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Nov 16 16:47:36.399520 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 16 16:47:36.399527 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 16 16:47:36.399532 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Nov 16 16:47:36.399556 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Nov 16 16:47:36.399617 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Nov 16 16:47:36.399624 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 16 16:47:36.399637 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 16 16:47:36.399645 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Nov 16 16:47:36.399669 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Nov 16 16:47:36.399731 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Nov 16 16:47:36.399743 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 16 16:47:36.399749 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 16 16:47:36.399755 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Nov 16 16:47:36.399778 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Nov 16 16:47:36.401602 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Nov 16 16:47:36.401784 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Nov 16 16:47:36.403885 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Nov 16 16:47:36.473288 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 16 16:47:36.477464 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Nov 16 16:47:36.507271 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Nov 16 16:47:37.586939 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Nov 16 16:47:37.587473 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 16 16:47:37.587499 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 16 16:47:37.587517 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 16 16:47:37.587537 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Nov 16 16:47:37.587544 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Nov 16 16:47:37.587551 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Nov 16 16:47:37.587557 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Nov 16 16:47:37.587565 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 16 16:47:37.587606 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Nov 16 16:47:37.587621 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 16 16:47:37.587631 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Nov 16 16:47:37.587638 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Nov 16 16:47:37.587655 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Nov 16 16:47:37.587849 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Nov 16 16:47:37.616807 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Nov 16 16:47:37.617049 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 16 16:47:37.617074 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 16 16:47:37.617097 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 16 16:47:37.617126 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Nov 16 16:47:37.617137 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Nov 16 16:47:37.617146 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Nov 16 16:47:37.617156 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Nov 16 16:47:37.617167 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 16 16:47:37.617189 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Nov 16 16:47:37.617203 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 16 16:47:37.617217 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Nov 16 16:47:37.617227 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 16 16:47:37.617248 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Nov 16 16:47:37.617359 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Nov 23 10:21:11.890313 CS24_TS16_SBS FIL  [GENERAL] The process is ending
+Nov 23 10:21:37.785297 noServiceName  **********************************************************
+Nov 23 10:21:37.785311 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Nov 23 10:21:37.785316 noServiceName  [GENERAL] Log system is syslog
+Nov 23 10:21:37.785486 noServiceName  [GENERAL] The process is starting
+Nov 23 10:21:38.301524 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9113
+Nov 23 10:21:38.301606 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Nov 23 10:21:38.305449 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 23 10:21:38.309327 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Nov 23 10:21:38.317009 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Nov 23 10:21:38.322630 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Nov 23 10:21:38.729498 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Nov 23 10:21:38.729512 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 23 10:21:38.729520 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 23 10:21:38.729526 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 23 10:21:38.729571 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Nov 23 10:21:38.729671 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Nov 23 10:21:38.729679 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 23 10:21:38.729685 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 23 10:21:38.729710 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Nov 23 10:21:38.729735 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Nov 23 10:21:38.729801 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Nov 23 10:21:38.729808 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 23 10:21:38.729815 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 23 10:21:38.729822 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Nov 23 10:21:38.729846 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Nov 23 10:21:38.729913 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Nov 23 10:21:38.729920 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 23 10:21:38.729926 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 23 10:21:38.729940 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Nov 23 10:21:38.729964 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Nov 23 10:21:38.731990 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Nov 23 10:21:38.732269 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Nov 23 10:21:38.734946 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Nov 23 10:21:38.804273 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 23 10:21:38.808956 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Nov 23 10:21:38.837261 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Nov 23 10:21:39.527324 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Nov 23 10:21:39.527952 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 23 10:21:39.527979 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 23 10:21:39.527997 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 23 10:21:39.528028 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Nov 23 10:21:39.528036 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Nov 23 10:21:39.528049 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Nov 23 10:21:39.528056 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Nov 23 10:21:39.528063 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 23 10:21:39.528110 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Nov 23 10:21:39.528125 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 23 10:21:39.528135 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Nov 23 10:21:39.528142 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 23 10:21:39.528161 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Nov 23 10:21:39.528293 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Nov 23 10:21:39.570279 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Nov 23 10:21:39.570523 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 23 10:21:39.570548 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 23 10:21:39.570571 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 23 10:21:39.570603 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Nov 23 10:21:39.570614 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Nov 23 10:21:39.570624 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Nov 23 10:21:39.570634 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Nov 23 10:21:39.570645 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 23 10:21:39.570686 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Nov 23 10:21:39.570700 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 23 10:21:39.570716 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Nov 23 10:21:39.570728 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Nov 23 10:21:39.570751 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Nov 23 10:21:39.570862 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Nov 28 14:33:32.293857 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:33:32.299145 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:33:32.351094 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Nov 28 14:33:32.351330 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 28 14:33:32.351358 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 28 14:33:32.351381 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 28 14:33:32.351404 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Nov 28 14:33:32.351411 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 3, type:VIDEO, PID 0xe15
+Nov 28 14:33:32.351418 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 4, type:AUDIO, PID 0xe16
+Nov 28 14:33:32.351425 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 5, type:METADATA, PID 0xc8
+Nov 28 14:33:32.351433 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:33:32.351451 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 3, type:VIDEO, PID 0xe15
+Nov 28 14:33:32.351461 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:33:32.351471 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 4, type:AUDIO, PID 0xe16
+Nov 28 14:33:32.351478 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Nov 28 14:33:32.351493 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Nov 28 14:33:32.351548 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Nov 28 14:33:32.441047 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Nov 28 14:33:32.441225 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 28 14:33:32.441252 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 28 14:33:32.441277 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 28 14:33:32.441307 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Nov 28 14:33:32.441315 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 3, type:VIDEO, PID 0xe15
+Nov 28 14:33:32.441322 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 4, type:AUDIO, PID 0xe16
+Nov 28 14:33:32.441329 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 5, type:METADATA, PID 0xc8
+Nov 28 14:33:32.441337 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:33:32.441356 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 3, type:VIDEO, PID 0xe15
+Nov 28 14:33:32.441365 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:33:32.441375 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 4, type:AUDIO, PID 0xe16
+Nov 28 14:33:32.441383 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 28 14:33:32.441399 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Nov 28 14:33:32.441458 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Nov 28 14:33:49.909329 CS24_TS16_SBS FIL  [GENERAL] The process is ending
+Nov 28 14:34:13.446233 noServiceName  **********************************************************
+Nov 28 14:34:13.446246 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Nov 28 14:34:13.446251 noServiceName  [GENERAL] Log system is syslog
+Nov 28 14:34:13.446439 noServiceName  [GENERAL] The process is starting
+Nov 28 14:34:13.943516 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9113
+Nov 28 14:34:13.943589 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Nov 28 14:34:13.947692 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:34:13.951527 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:34:13.959664 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:34:13.964789 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:34:14.377239 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Nov 28 14:34:14.377252 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:34:14.377259 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:34:14.377265 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 28 14:34:14.377308 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Nov 28 14:34:14.377402 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Nov 28 14:34:14.377410 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:34:14.377419 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:34:14.377425 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Nov 28 14:34:14.377450 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Nov 28 14:34:14.377508 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Nov 28 14:34:14.377523 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:34:14.377537 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:34:14.377549 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Nov 28 14:34:14.377573 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Nov 28 14:34:14.377636 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Nov 28 14:34:14.377648 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:34:14.377654 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:34:14.377660 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Nov 28 14:34:14.377684 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Nov 28 14:34:14.379206 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Nov 28 14:34:14.379342 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Nov 28 14:34:14.381256 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Nov 28 14:34:14.457442 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:34:14.461747 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:34:14.498599 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Nov 28 14:34:15.393219 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Nov 28 14:34:15.393749 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 28 14:34:15.393776 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 28 14:34:15.393795 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 28 14:34:15.393815 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Nov 28 14:34:15.393823 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Nov 28 14:34:15.393829 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Nov 28 14:34:15.393839 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Nov 28 14:34:15.393847 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:34:15.393891 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Nov 28 14:34:15.393906 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:34:15.393916 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Nov 28 14:34:15.393923 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Nov 28 14:34:15.393968 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Nov 28 14:34:15.394113 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Nov 28 14:34:15.487450 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Nov 28 14:34:15.487611 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 28 14:34:15.487628 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 28 14:34:15.487643 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 28 14:34:15.487663 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Nov 28 14:34:15.487675 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Nov 28 14:34:15.487682 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Nov 28 14:34:15.487688 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Nov 28 14:34:15.487695 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:34:15.487711 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Nov 28 14:34:15.487720 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:34:15.487729 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Nov 28 14:34:15.487736 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 28 14:34:15.487750 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Nov 28 14:34:15.487827 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Nov 29 10:39:27.972126 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 29 10:39:27.976863 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Nov 29 10:39:28.112752 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Nov 29 10:39:28.112953 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 29 10:39:28.112972 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 29 10:39:28.112988 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 29 10:39:28.113012 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Nov 29 10:39:28.113019 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 3, type:VIDEO, PID 0xe15
+Nov 29 10:39:28.113026 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 4, type:AUDIO, PID 0xe16
+Nov 29 10:39:28.113033 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 5, type:METADATA, PID 0xc8
+Nov 29 10:39:28.113040 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 29 10:39:28.113058 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 3, type:VIDEO, PID 0xe15
+Nov 29 10:39:28.113067 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 29 10:39:28.113077 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 4, type:AUDIO, PID 0xe16
+Nov 29 10:39:28.113084 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 29 10:39:28.113099 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Nov 29 10:39:28.113154 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Nov 29 10:39:28.250528 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Nov 29 10:39:28.250749 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 29 10:39:28.250766 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 29 10:39:28.250783 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 29 10:39:28.250805 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Nov 29 10:39:28.250812 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 3, type:VIDEO, PID 0xe15
+Nov 29 10:39:28.250819 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 4, type:AUDIO, PID 0xe16
+Nov 29 10:39:28.250826 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 5, type:METADATA, PID 0xc8
+Nov 29 10:39:28.250834 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 29 10:39:28.250851 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 3, type:VIDEO, PID 0xe15
+Nov 29 10:39:28.250860 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 29 10:39:28.250874 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 4, type:AUDIO, PID 0xe16
+Nov 29 10:39:28.250881 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Nov 29 10:39:28.250896 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Nov 29 10:39:28.250965 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Nov 29 10:39:46.661508 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 29 10:39:46.664884 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Nov 29 10:39:46.842676 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Nov 29 10:39:46.842852 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 29 10:39:46.842869 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 29 10:39:46.842884 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 29 10:39:46.842913 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Nov 29 10:39:46.842920 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 6, type:VIDEO, PID 0xe15
+Nov 29 10:39:46.842927 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 7, type:AUDIO, PID 0xe16
+Nov 29 10:39:46.842943 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 8, type:METADATA, PID 0xc8
+Nov 29 10:39:46.842951 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 29 10:39:46.842970 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 6, type:VIDEO, PID 0xe15
+Nov 29 10:39:46.842979 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 29 10:39:46.842988 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 7, type:AUDIO, PID 0xe16
+Nov 29 10:39:46.842996 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 29 10:39:46.843011 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Nov 29 10:39:46.843069 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Nov 29 10:39:46.911672 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Nov 29 10:39:46.911826 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Nov 29 10:39:46.911860 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Nov 29 10:39:46.911884 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Nov 29 10:39:46.911916 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Nov 29 10:39:46.911927 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 6, type:VIDEO, PID 0xe15
+Nov 29 10:39:46.911951 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 7, type:AUDIO, PID 0xe16
+Nov 29 10:39:46.911957 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 8, type:METADATA, PID 0xc8
+Nov 29 10:39:46.911965 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 29 10:39:46.911983 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 6, type:VIDEO, PID 0xe15
+Nov 29 10:39:46.911993 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 29 10:39:46.912002 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 7, type:AUDIO, PID 0xe16
+Nov 29 10:39:46.912009 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Nov 29 10:39:46.912024 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Nov 29 10:39:46.912077 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 13 10:45:56.496212 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 13 10:45:56.500767 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 13 10:45:56.613089 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 13 10:45:56.613241 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 13 10:45:56.613266 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 13 10:45:56.613290 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 13 10:45:56.613321 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 13 10:45:56.613331 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 9, type:VIDEO, PID 0xe15
+Dec 13 10:45:56.613342 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 10, type:AUDIO, PID 0xe16
+Dec 13 10:45:56.613349 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 11, type:METADATA, PID 0xc8
+Dec 13 10:45:56.613356 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 10:45:56.613373 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 9, type:VIDEO, PID 0xe15
+Dec 13 10:45:56.613382 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 10:45:56.613391 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 10, type:AUDIO, PID 0xe16
+Dec 13 10:45:56.613398 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 13 10:45:56.613412 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 13 10:45:56.613466 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 13 10:45:56.776555 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 13 10:45:56.776792 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 13 10:45:56.776817 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 13 10:45:56.776841 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 13 10:45:56.776871 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 13 10:45:56.776882 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 9, type:VIDEO, PID 0xe15
+Dec 13 10:45:56.776906 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 10, type:AUDIO, PID 0xe16
+Dec 13 10:45:56.776917 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 11, type:METADATA, PID 0xc8
+Dec 13 10:45:56.776928 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 10:45:56.776965 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 9, type:VIDEO, PID 0xe15
+Dec 13 10:45:56.776979 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 10:45:56.776995 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 10, type:AUDIO, PID 0xe16
+Dec 13 10:45:56.777006 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 13 10:45:56.777029 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 13 10:45:56.777111 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 13 10:47:29.723275 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 13 10:47:29.729330 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 13 10:47:29.783620 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 13 10:47:29.783766 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 13 10:47:29.783783 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 13 10:47:29.783799 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 13 10:47:29.783819 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 13 10:47:29.783827 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 12, type:VIDEO, PID 0xe15
+Dec 13 10:47:29.783834 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 13, type:AUDIO, PID 0xe16
+Dec 13 10:47:29.783841 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 14, type:METADATA, PID 0xc8
+Dec 13 10:47:29.783848 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 10:47:29.783865 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 12, type:VIDEO, PID 0xe15
+Dec 13 10:47:29.783874 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 10:47:29.783883 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 13, type:AUDIO, PID 0xe16
+Dec 13 10:47:29.783890 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 13 10:47:29.783905 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 13 10:47:29.783969 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 13 10:47:29.893751 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 13 10:47:29.893906 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 13 10:47:29.893922 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 13 10:47:29.893944 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 13 10:47:29.893965 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 13 10:47:29.893972 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 12, type:VIDEO, PID 0xe15
+Dec 13 10:47:29.893979 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 13, type:AUDIO, PID 0xe16
+Dec 13 10:47:29.893985 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 14, type:METADATA, PID 0xc8
+Dec 13 10:47:29.893993 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 10:47:29.894009 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 12, type:VIDEO, PID 0xe15
+Dec 13 10:47:29.894018 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 10:47:29.894027 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 13, type:AUDIO, PID 0xe16
+Dec 13 10:47:29.894034 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 13 10:47:29.894049 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 13 10:47:29.894102 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 13 16:44:48.820339 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 13 16:44:48.824078 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 13 16:44:48.969904 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 13 16:44:48.970097 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 13 16:44:48.970121 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 13 16:44:48.970143 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 13 16:44:48.970168 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 13 16:44:48.970178 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 15, type:VIDEO, PID 0xe15
+Dec 13 16:44:48.970187 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 16, type:AUDIO, PID 0xe16
+Dec 13 16:44:48.970197 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 17, type:METADATA, PID 0xc8
+Dec 13 16:44:48.970208 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 16:44:48.970236 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 15, type:VIDEO, PID 0xe15
+Dec 13 16:44:48.970249 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 16:44:48.970261 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 16, type:AUDIO, PID 0xe16
+Dec 13 16:44:48.970269 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 13 16:44:48.970300 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 13 16:44:48.970376 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 13 16:44:48.972165 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 13 16:44:48.972400 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 13 16:44:48.972429 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 13 16:44:48.972457 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 13 16:44:48.972491 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 13 16:44:48.972505 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 15, type:VIDEO, PID 0xe15
+Dec 13 16:44:48.972516 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 16, type:AUDIO, PID 0xe16
+Dec 13 16:44:48.972529 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 17, type:METADATA, PID 0xc8
+Dec 13 16:44:48.972542 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 16:44:48.972569 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 15, type:VIDEO, PID 0xe15
+Dec 13 16:44:48.972584 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 16:44:48.972600 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 16, type:AUDIO, PID 0xe16
+Dec 13 16:44:48.972610 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 13 16:44:48.972628 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 13 16:44:48.972722 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 13 16:47:08.064038 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 13 16:47:08.068440 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 13 16:47:08.268819 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 13 16:47:08.269001 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 13 16:47:08.269019 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 13 16:47:08.269036 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 13 16:47:08.269057 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 13 16:47:08.269065 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 18, type:VIDEO, PID 0xe15
+Dec 13 16:47:08.269072 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 19, type:AUDIO, PID 0xe16
+Dec 13 16:47:08.269079 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 20, type:METADATA, PID 0xc8
+Dec 13 16:47:08.269087 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 16:47:08.269104 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 18, type:VIDEO, PID 0xe15
+Dec 13 16:47:08.269114 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 16:47:08.269124 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 19, type:AUDIO, PID 0xe16
+Dec 13 16:47:08.269132 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 13 16:47:08.269147 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 13 16:47:08.269203 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 13 16:47:08.332039 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 13 16:47:08.332261 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 13 16:47:08.332287 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 13 16:47:08.332313 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 13 16:47:08.332345 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 13 16:47:08.332354 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 18, type:VIDEO, PID 0xe15
+Dec 13 16:47:08.332361 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 19, type:AUDIO, PID 0xe16
+Dec 13 16:47:08.332369 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 20, type:METADATA, PID 0xc8
+Dec 13 16:47:08.332382 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 16:47:08.332408 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 18, type:VIDEO, PID 0xe15
+Dec 13 16:47:08.332423 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 16:47:08.332440 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 19, type:AUDIO, PID 0xe16
+Dec 13 16:47:08.332451 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 13 16:47:08.332478 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 13 16:47:08.332570 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 13 16:48:55.481992 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 13 16:48:55.486280 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 13 16:48:55.719515 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 13 16:48:55.719788 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 13 16:48:55.719819 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 13 16:48:55.719859 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 13 16:48:55.719894 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 13 16:48:55.719907 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 21, type:VIDEO, PID 0xe15
+Dec 13 16:48:55.719918 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 22, type:AUDIO, PID 0xe16
+Dec 13 16:48:55.719940 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 23, type:METADATA, PID 0xc8
+Dec 13 16:48:55.719966 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 16:48:55.719993 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 21, type:VIDEO, PID 0xe15
+Dec 13 16:48:55.720008 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 16:48:55.720025 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 22, type:AUDIO, PID 0xe16
+Dec 13 16:48:55.720050 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 13 16:48:55.720075 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 13 16:48:55.720170 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 13 16:48:55.787040 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 13 16:48:55.787321 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 13 16:48:55.787346 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 13 16:48:55.787369 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 13 16:48:55.787400 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 13 16:48:55.787411 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 21, type:VIDEO, PID 0xe15
+Dec 13 16:48:55.787421 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 22, type:AUDIO, PID 0xe16
+Dec 13 16:48:55.787431 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 23, type:METADATA, PID 0xc8
+Dec 13 16:48:55.787442 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 16:48:55.787465 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 21, type:VIDEO, PID 0xe15
+Dec 13 16:48:55.787478 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 16:48:55.787492 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 22, type:AUDIO, PID 0xe16
+Dec 13 16:48:55.787502 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 13 16:48:55.787526 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 13 16:48:55.787616 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 18 14:02:47.107970 noServiceName  **********************************************************
+Dec 18 14:02:47.107988 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Dec 18 14:02:47.107993 noServiceName  [GENERAL] Log system is syslog
+Dec 18 14:02:47.108171 noServiceName  [GENERAL] The process is starting
+Dec 18 14:02:49.607113 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9100
+Dec 18 14:02:49.607175 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Dec 18 14:02:49.615089 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 18 14:02:49.618840 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 18 14:02:49.626592 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Dec 18 14:02:49.631972 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Dec 18 14:02:50.015984 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 18 14:02:50.015998 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 18 14:02:50.016005 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 18 14:02:50.016012 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 18 14:02:50.016054 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Dec 18 14:02:50.016143 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 18 14:02:50.016155 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 18 14:02:50.016162 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 18 14:02:50.016168 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 18 14:02:50.016192 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Dec 18 14:02:50.016255 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Dec 18 14:02:50.016263 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 18 14:02:50.016269 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 18 14:02:50.016277 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Dec 18 14:02:50.016301 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Dec 18 14:02:50.016363 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Dec 18 14:02:50.016373 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 18 14:02:50.016380 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 18 14:02:50.016385 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Dec 18 14:02:50.016409 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Dec 18 14:02:50.019311 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Dec 18 14:02:50.019373 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Dec 18 14:02:50.022121 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Dec 18 14:02:50.128886 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Dec 18 14:02:50.845825 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 18 14:02:50.849761 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 18 14:02:51.491084 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 18 14:02:51.491459 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 18 14:02:51.491480 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 18 14:02:51.491497 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 18 14:02:51.491521 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 18 14:02:51.491528 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Dec 18 14:02:51.491535 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Dec 18 14:02:51.491541 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Dec 18 14:02:51.491548 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 18 14:02:51.491581 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Dec 18 14:02:51.491592 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 18 14:02:51.491602 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Dec 18 14:02:51.491609 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 18 14:02:51.491624 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Dec 18 14:02:51.491735 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Dec 18 14:02:51.531733 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 18 14:02:51.531881 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 18 14:02:51.531897 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 18 14:02:51.531912 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 18 14:02:51.531962 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 18 14:02:51.531970 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Dec 18 14:02:51.531977 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Dec 18 14:02:51.531984 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Dec 18 14:02:51.531991 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 18 14:02:51.532005 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Dec 18 14:02:51.532013 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 18 14:02:51.532022 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Dec 18 14:02:51.532029 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 18 14:02:51.532043 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Dec 18 14:02:51.532131 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Dec 19 13:18:04.718444 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 19 13:18:04.721882 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 19 13:18:04.824780 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 19 13:18:04.824955 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 19 13:18:04.824971 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 19 13:18:04.824986 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 19 13:18:04.825006 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 19 13:18:04.825013 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 3, type:VIDEO, PID 0xe15
+Dec 19 13:18:04.825019 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 4, type:AUDIO, PID 0xe16
+Dec 19 13:18:04.825026 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 5, type:METADATA, PID 0xc8
+Dec 19 13:18:04.825033 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 13:18:04.825050 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 3, type:VIDEO, PID 0xe15
+Dec 19 13:18:04.825058 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 13:18:04.825067 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 4, type:AUDIO, PID 0xe16
+Dec 19 13:18:04.825074 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 19 13:18:04.825088 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 19 13:18:04.825141 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 19 13:18:04.844420 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 19 13:18:04.844590 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 19 13:18:04.844608 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 19 13:18:04.844624 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 19 13:18:04.844646 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 19 13:18:04.844653 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 3, type:VIDEO, PID 0xe15
+Dec 19 13:18:04.844660 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 4, type:AUDIO, PID 0xe16
+Dec 19 13:18:04.844667 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 5, type:METADATA, PID 0xc8
+Dec 19 13:18:04.844675 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 13:18:04.844694 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 3, type:VIDEO, PID 0xe15
+Dec 19 13:18:04.844704 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 13:18:04.844714 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 4, type:AUDIO, PID 0xe16
+Dec 19 13:18:04.844721 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 19 13:18:04.844736 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 19 13:18:04.844789 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 19 13:29:58.505633 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 19 13:29:58.510026 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 19 13:29:58.670096 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 19 13:29:58.670242 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 19 13:29:58.670258 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 19 13:29:58.670274 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 19 13:29:58.670310 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 19 13:29:58.670325 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 6, type:VIDEO, PID 0xe15
+Dec 19 13:29:58.670340 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 7, type:AUDIO, PID 0xe16
+Dec 19 13:29:58.670347 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 8, type:METADATA, PID 0xc8
+Dec 19 13:29:58.670354 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 13:29:58.670370 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 6, type:VIDEO, PID 0xe15
+Dec 19 13:29:58.670379 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 13:29:58.670388 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 7, type:AUDIO, PID 0xe16
+Dec 19 13:29:58.670395 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 19 13:29:58.670409 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 19 13:29:58.670461 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 19 13:29:58.781651 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 19 13:29:58.781873 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 19 13:29:58.781898 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 19 13:29:58.781944 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 19 13:29:58.781975 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 19 13:29:58.781985 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 6, type:VIDEO, PID 0xe15
+Dec 19 13:29:58.781995 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 7, type:AUDIO, PID 0xe16
+Dec 19 13:29:58.782004 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 8, type:METADATA, PID 0xc8
+Dec 19 13:29:58.782016 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 13:29:58.782038 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 6, type:VIDEO, PID 0xe15
+Dec 19 13:29:58.782083 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 13:29:58.782093 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 7, type:AUDIO, PID 0xe16
+Dec 19 13:29:58.782100 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 19 13:29:58.782116 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 19 13:29:58.782223 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 19 13:30:24.492277 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 19 13:30:24.495706 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 19 13:30:24.667733 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 19 13:30:24.667936 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 19 13:30:24.667963 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 19 13:30:24.667990 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 19 13:30:24.668024 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 19 13:30:24.668036 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 9, type:VIDEO, PID 0xe15
+Dec 19 13:30:24.668048 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 10, type:AUDIO, PID 0xe16
+Dec 19 13:30:24.668058 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 11, type:METADATA, PID 0xc8
+Dec 19 13:30:24.668066 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 13:30:24.668085 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 9, type:VIDEO, PID 0xe15
+Dec 19 13:30:24.668095 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 13:30:24.668105 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 10, type:AUDIO, PID 0xe16
+Dec 19 13:30:24.668113 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 19 13:30:24.668130 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 19 13:30:24.668189 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 19 13:30:24.745957 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 19 13:30:24.746140 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 19 13:30:24.746159 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 19 13:30:24.746175 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 19 13:30:24.746196 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 19 13:30:24.746203 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 9, type:VIDEO, PID 0xe15
+Dec 19 13:30:24.746210 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 10, type:AUDIO, PID 0xe16
+Dec 19 13:30:24.746217 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 11, type:METADATA, PID 0xc8
+Dec 19 13:30:24.746225 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 13:30:24.746241 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 9, type:VIDEO, PID 0xe15
+Dec 19 13:30:24.746250 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 13:30:24.746260 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 10, type:AUDIO, PID 0xe16
+Dec 19 13:30:24.746267 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 19 13:30:24.746283 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 19 13:30:24.746379 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 19 14:29:23.271633 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 19 14:29:23.275902 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 19 14:29:23.420858 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 19 14:29:23.420992 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 19 14:29:23.421008 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 19 14:29:23.421023 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 19 14:29:23.421042 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 19 14:29:23.421053 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 12, type:VIDEO, PID 0xe15
+Dec 19 14:29:23.421063 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 13, type:AUDIO, PID 0xe16
+Dec 19 14:29:23.421073 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 14, type:METADATA, PID 0xc8
+Dec 19 14:29:23.421080 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 14:29:23.421095 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 12, type:VIDEO, PID 0xe15
+Dec 19 14:29:23.421103 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 14:29:23.421112 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 13, type:AUDIO, PID 0xe16
+Dec 19 14:29:23.421119 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 19 14:29:23.421132 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 19 14:29:23.421181 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 19 14:29:23.450687 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 19 14:29:23.450930 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 19 14:29:23.450955 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 19 14:29:23.450981 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 19 14:29:23.451013 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 19 14:29:23.451025 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 12, type:VIDEO, PID 0xe15
+Dec 19 14:29:23.451036 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 13, type:AUDIO, PID 0xe16
+Dec 19 14:29:23.451047 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 14, type:METADATA, PID 0xc8
+Dec 19 14:29:23.451059 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 14:29:23.451082 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 12, type:VIDEO, PID 0xe15
+Dec 19 14:29:23.451097 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 14:29:23.451113 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 13, type:AUDIO, PID 0xe16
+Dec 19 14:29:23.451124 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 19 14:29:23.451147 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 19 14:29:23.451229 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 20 14:37:55.961161 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 20 14:37:55.965158 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 20 14:37:56.009364 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 20 14:37:56.009601 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 20 14:37:56.009617 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 20 14:37:56.009632 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 20 14:37:56.009652 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 20 14:37:56.009659 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 15, type:VIDEO, PID 0xe15
+Dec 20 14:37:56.009666 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 16, type:AUDIO, PID 0xe16
+Dec 20 14:37:56.009672 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 17, type:METADATA, PID 0xc8
+Dec 20 14:37:56.009679 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 20 14:37:56.009697 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 15, type:VIDEO, PID 0xe15
+Dec 20 14:37:56.009705 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 20 14:37:56.009714 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 16, type:AUDIO, PID 0xe16
+Dec 20 14:37:56.009720 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 20 14:37:56.009735 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 20 14:37:56.009794 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 20 14:37:56.118463 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 20 14:37:56.118623 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 20 14:37:56.118639 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 20 14:37:56.118654 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 20 14:37:56.118673 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 20 14:37:56.118681 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 15, type:VIDEO, PID 0xe15
+Dec 20 14:37:56.118687 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 16, type:AUDIO, PID 0xe16
+Dec 20 14:37:56.118693 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 17, type:METADATA, PID 0xc8
+Dec 20 14:37:56.118701 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 20 14:37:56.118716 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 15, type:VIDEO, PID 0xe15
+Dec 20 14:37:56.118725 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 20 14:37:56.118733 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 16, type:AUDIO, PID 0xe16
+Dec 20 14:37:56.118740 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 20 14:37:56.118755 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 20 14:37:56.118804 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 28 09:49:09.693291 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 28 09:49:09.695788 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 28 09:49:09.840001 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 28 09:49:09.840171 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 28 09:49:09.840190 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 28 09:49:09.840217 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 28 09:49:09.840255 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 28 09:49:09.840267 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 18, type:VIDEO, PID 0xe15
+Dec 28 09:49:09.840279 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 19, type:AUDIO, PID 0xe16
+Dec 28 09:49:09.840286 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 20, type:METADATA, PID 0xc8
+Dec 28 09:49:09.840295 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 28 09:49:09.840312 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 18, type:VIDEO, PID 0xe15
+Dec 28 09:49:09.840358 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 28 09:49:09.840373 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 19, type:AUDIO, PID 0xe16
+Dec 28 09:49:09.840382 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 28 09:49:09.840399 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 28 09:49:09.840464 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 28 09:49:09.926784 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 28 09:49:09.926966 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 28 09:49:09.926984 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 28 09:49:09.927002 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 28 09:49:09.927026 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 28 09:49:09.927035 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 18, type:VIDEO, PID 0xe15
+Dec 28 09:49:09.927042 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 19, type:AUDIO, PID 0xe16
+Dec 28 09:49:09.927050 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 20, type:METADATA, PID 0xc8
+Dec 28 09:49:09.927059 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 28 09:49:09.927075 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 18, type:VIDEO, PID 0xe15
+Dec 28 09:49:09.927085 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 28 09:49:09.927096 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 19, type:AUDIO, PID 0xe16
+Dec 28 09:49:09.927107 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 28 09:49:09.927131 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 28 09:49:09.927217 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 28 14:40:09.308099 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 28 14:40:09.311141 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 28 14:40:09.373113 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 28 14:40:09.373306 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 28 14:40:09.373322 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 28 14:40:09.373338 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 28 14:40:09.373359 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 28 14:40:09.373366 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 21, type:VIDEO, PID 0xe15
+Dec 28 14:40:09.373373 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 22, type:AUDIO, PID 0xe16
+Dec 28 14:40:09.373379 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 23, type:METADATA, PID 0xc8
+Dec 28 14:40:09.373386 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 28 14:40:09.373404 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 21, type:VIDEO, PID 0xe15
+Dec 28 14:40:09.373412 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 28 14:40:09.373421 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 22, type:AUDIO, PID 0xe16
+Dec 28 14:40:09.373428 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 28 14:40:09.373443 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 28 14:40:09.373492 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 28 14:40:09.417759 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 28 14:40:09.417919 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 28 14:40:09.417935 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 28 14:40:09.417950 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 28 14:40:09.417969 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 28 14:40:09.417976 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 21, type:VIDEO, PID 0xe15
+Dec 28 14:40:09.417982 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 22, type:AUDIO, PID 0xe16
+Dec 28 14:40:09.417988 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 23, type:METADATA, PID 0xc8
+Dec 28 14:40:09.417995 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 28 14:40:09.418011 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 21, type:VIDEO, PID 0xe15
+Dec 28 14:40:09.418020 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 28 14:40:09.418029 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 22, type:AUDIO, PID 0xe16
+Dec 28 14:40:09.418036 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 28 14:40:09.418049 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 28 14:40:09.418098 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 28 14:59:17.371671 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 28 14:59:17.376017 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 28 14:59:17.593432 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 28 14:59:17.593586 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 28 14:59:17.593603 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 28 14:59:17.593619 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 28 14:59:17.593640 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 28 14:59:17.593647 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 24, type:VIDEO, PID 0xe15
+Dec 28 14:59:17.593654 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 25, type:AUDIO, PID 0xe16
+Dec 28 14:59:17.593661 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 26, type:METADATA, PID 0xc8
+Dec 28 14:59:17.593669 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 28 14:59:17.593685 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 24, type:VIDEO, PID 0xe15
+Dec 28 14:59:17.593694 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 28 14:59:17.593703 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 25, type:AUDIO, PID 0xe16
+Dec 28 14:59:17.593710 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 28 14:59:17.593725 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 28 14:59:17.593777 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 28 14:59:17.664186 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 28 14:59:17.664348 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 28 14:59:17.664365 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 28 14:59:17.664382 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 28 14:59:17.664403 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 28 14:59:17.664411 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 24, type:VIDEO, PID 0xe15
+Dec 28 14:59:17.664418 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 25, type:AUDIO, PID 0xe16
+Dec 28 14:59:17.664425 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 26, type:METADATA, PID 0xc8
+Dec 28 14:59:17.664433 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 28 14:59:17.664452 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 24, type:VIDEO, PID 0xe15
+Dec 28 14:59:17.664460 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 28 14:59:17.664470 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 25, type:AUDIO, PID 0xe16
+Dec 28 14:59:17.664477 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 28 14:59:17.664492 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 28 14:59:17.664559 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 29 10:37:02.147287 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 29 10:37:02.151670 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 29 10:37:02.280657 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 29 10:37:02.280876 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 29 10:37:02.280901 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 29 10:37:02.280925 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 29 10:37:02.280956 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 29 10:37:02.280967 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 27, type:VIDEO, PID 0xe15
+Dec 29 10:37:02.280978 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 28, type:AUDIO, PID 0xe16
+Dec 29 10:37:02.280989 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 29, type:METADATA, PID 0xc8
+Dec 29 10:37:02.281001 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 29 10:37:02.281024 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 27, type:VIDEO, PID 0xe15
+Dec 29 10:37:02.281038 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 29 10:37:02.281053 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 28, type:AUDIO, PID 0xe16
+Dec 29 10:37:02.281064 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 29 10:37:02.281086 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 29 10:37:02.281217 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 29 10:37:02.432341 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 29 10:37:02.432510 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 29 10:37:02.432525 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 29 10:37:02.432540 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 29 10:37:02.432559 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 29 10:37:02.432566 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 27, type:VIDEO, PID 0xe15
+Dec 29 10:37:02.432572 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 28, type:AUDIO, PID 0xe16
+Dec 29 10:37:02.432578 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 29, type:METADATA, PID 0xc8
+Dec 29 10:37:02.432585 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 29 10:37:02.432600 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 27, type:VIDEO, PID 0xe15
+Dec 29 10:37:02.432609 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 29 10:37:02.432618 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 28, type:AUDIO, PID 0xe16
+Dec 29 10:37:02.432625 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 29 10:37:02.432639 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 29 10:37:02.432692 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 29 13:40:41.860188 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 29 13:40:41.863930 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 29 13:40:41.964038 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 29 13:40:41.964326 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 29 13:40:41.964353 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 29 13:40:41.964382 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 29 13:40:41.964415 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 29 13:40:41.964427 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 30, type:VIDEO, PID 0xe15
+Dec 29 13:40:41.964438 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 31, type:AUDIO, PID 0xe16
+Dec 29 13:40:41.964449 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 32, type:METADATA, PID 0xc8
+Dec 29 13:40:41.964462 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 29 13:40:41.964490 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 30, type:VIDEO, PID 0xe15
+Dec 29 13:40:41.964524 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 29 13:40:41.964540 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 31, type:AUDIO, PID 0xe16
+Dec 29 13:40:41.964548 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 29 13:40:41.964566 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 29 13:40:41.964631 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 29 13:40:41.992007 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 29 13:40:41.992174 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 29 13:40:41.992189 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 29 13:40:41.992205 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 29 13:40:41.992225 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 29 13:40:41.992232 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 30, type:VIDEO, PID 0xe15
+Dec 29 13:40:41.992239 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 31, type:AUDIO, PID 0xe16
+Dec 29 13:40:41.992246 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 32, type:METADATA, PID 0xc8
+Dec 29 13:40:41.992254 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 29 13:40:41.992271 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 30, type:VIDEO, PID 0xe15
+Dec 29 13:40:41.992279 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 29 13:40:41.992289 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 31, type:AUDIO, PID 0xe16
+Dec 29 13:40:41.992295 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 29 13:40:41.992310 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 29 13:40:41.992379 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 29 13:41:58.658896 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 29 13:41:58.663033 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Dec 29 13:41:58.717386 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Dec 29 13:41:58.717548 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 29 13:41:58.717565 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 29 13:41:58.717580 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 29 13:41:58.717600 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Dec 29 13:41:58.717607 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 33, type:VIDEO, PID 0xe15
+Dec 29 13:41:58.717614 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 34, type:AUDIO, PID 0xe16
+Dec 29 13:41:58.717621 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 35, type:METADATA, PID 0xc8
+Dec 29 13:41:58.717628 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 29 13:41:58.717655 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 33, type:VIDEO, PID 0xe15
+Dec 29 13:41:58.717664 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 29 13:41:58.717674 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 34, type:AUDIO, PID 0xe16
+Dec 29 13:41:58.717680 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Dec 29 13:41:58.717695 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 29 13:41:58.717748 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Dec 29 13:41:58.816255 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Dec 29 13:41:58.816414 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Dec 29 13:41:58.816433 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Dec 29 13:41:58.816449 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Dec 29 13:41:58.816470 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Dec 29 13:41:58.816478 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 33, type:VIDEO, PID 0xe15
+Dec 29 13:41:58.816485 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 34, type:AUDIO, PID 0xe16
+Dec 29 13:41:58.816510 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 35, type:METADATA, PID 0xc8
+Dec 29 13:41:58.816522 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 29 13:41:58.816541 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 33, type:VIDEO, PID 0xe15
+Dec 29 13:41:58.816550 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 29 13:41:58.816559 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 34, type:AUDIO, PID 0xe16
+Dec 29 13:41:58.816566 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 29 13:41:58.816582 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Dec 29 13:41:58.816637 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Jan 24 13:28:58.695617 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:28:58.698564 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:28:58.921515 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Jan 24 13:28:58.921656 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Jan 24 13:28:58.921672 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Jan 24 13:28:58.921687 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Jan 24 13:28:58.921706 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Jan 24 13:28:58.921713 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 36, type:VIDEO, PID 0xe15
+Jan 24 13:28:58.921720 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 37, type:AUDIO, PID 0xe16
+Jan 24 13:28:58.921726 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 38, type:METADATA, PID 0xc8
+Jan 24 13:28:58.921734 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:28:58.921749 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 36, type:VIDEO, PID 0xe15
+Jan 24 13:28:58.921757 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:28:58.921766 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 37, type:AUDIO, PID 0xe16
+Jan 24 13:28:58.921772 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Jan 24 13:28:58.921786 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Jan 24 13:28:58.921837 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Jan 24 13:28:58.941954 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Jan 24 13:28:58.942095 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Jan 24 13:28:58.942110 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Jan 24 13:28:58.942125 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Jan 24 13:28:58.942145 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Jan 24 13:28:58.942151 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 36, type:VIDEO, PID 0xe15
+Jan 24 13:28:58.942158 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 37, type:AUDIO, PID 0xe16
+Jan 24 13:28:58.942164 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 38, type:METADATA, PID 0xc8
+Jan 24 13:28:58.942171 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:28:58.942186 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 36, type:VIDEO, PID 0xe15
+Jan 24 13:28:58.942194 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:28:58.942204 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 37, type:AUDIO, PID 0xe16
+Jan 24 13:28:58.942210 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Jan 24 13:28:58.942223 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Jan 24 13:28:58.942272 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Jan 24 13:29:24.378177 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:29:24.381335 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:29:24.495582 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Jan 24 13:29:24.495736 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Jan 24 13:29:24.495752 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Jan 24 13:29:24.495768 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Jan 24 13:29:24.495787 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Jan 24 13:29:24.495794 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 39, type:VIDEO, PID 0xe15
+Jan 24 13:29:24.495801 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 40, type:AUDIO, PID 0xe16
+Jan 24 13:29:24.495807 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 41, type:METADATA, PID 0xc8
+Jan 24 13:29:24.495815 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:29:24.495831 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 39, type:VIDEO, PID 0xe15
+Jan 24 13:29:24.495839 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:29:24.495849 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 40, type:AUDIO, PID 0xe16
+Jan 24 13:29:24.495856 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Jan 24 13:29:24.495870 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Jan 24 13:29:24.495921 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Jan 24 13:29:24.506479 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Jan 24 13:29:24.506640 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Jan 24 13:29:24.506656 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Jan 24 13:29:24.506671 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Jan 24 13:29:24.506690 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Jan 24 13:29:24.506697 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 39, type:VIDEO, PID 0xe15
+Jan 24 13:29:24.506704 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 40, type:AUDIO, PID 0xe16
+Jan 24 13:29:24.506710 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 41, type:METADATA, PID 0xc8
+Jan 24 13:29:24.506718 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:29:24.506731 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 39, type:VIDEO, PID 0xe15
+Jan 24 13:29:24.506740 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:29:24.506749 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 40, type:AUDIO, PID 0xe16
+Jan 24 13:29:24.506756 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Jan 24 13:29:24.506770 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Jan 24 13:29:24.506819 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Jan 24 13:29:42.876466 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:29:42.878983 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:29:43.050505 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Jan 24 13:29:43.050672 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Jan 24 13:29:43.050690 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Jan 24 13:29:43.050706 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Jan 24 13:29:43.050728 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Jan 24 13:29:43.050735 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 42, type:VIDEO, PID 0xe15
+Jan 24 13:29:43.050742 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 43, type:AUDIO, PID 0xe16
+Jan 24 13:29:43.050748 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 44, type:METADATA, PID 0xc8
+Jan 24 13:29:43.050756 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:29:43.050772 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 42, type:VIDEO, PID 0xe15
+Jan 24 13:29:43.050782 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:29:43.050791 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 43, type:AUDIO, PID 0xe16
+Jan 24 13:29:43.050798 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Jan 24 13:29:43.050813 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Jan 24 13:29:43.050868 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Jan 24 13:29:43.167618 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Jan 24 13:29:43.167772 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Jan 24 13:29:43.167793 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Jan 24 13:29:43.167809 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Jan 24 13:29:43.167830 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Jan 24 13:29:43.167837 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 42, type:VIDEO, PID 0xe15
+Jan 24 13:29:43.167844 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 43, type:AUDIO, PID 0xe16
+Jan 24 13:29:43.167851 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 44, type:METADATA, PID 0xc8
+Jan 24 13:29:43.167859 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:29:43.167879 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 42, type:VIDEO, PID 0xe15
+Jan 24 13:29:43.167888 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:29:43.167898 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 43, type:AUDIO, PID 0xe16
+Jan 24 13:29:43.167905 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Jan 24 13:29:43.167920 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Jan 24 13:29:43.167975 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Jan 24 13:31:21.248758 CS24_TS16_SBS FIL  [GENERAL] The process is ending
+Jan 24 13:31:46.377114 noServiceName  **********************************************************
+Jan 24 13:31:46.377134 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Jan 24 13:31:46.377174 noServiceName  [GENERAL] Log system is syslog
+Jan 24 13:31:46.377377 noServiceName  [GENERAL] The process is starting
+Jan 24 13:31:46.928807 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9113
+Jan 24 13:31:46.928889 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Jan 24 13:31:46.934288 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:31:46.938932 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:31:46.949294 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:31:46.955297 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:31:47.364251 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Jan 24 13:31:47.364266 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:31:47.364274 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:31:47.364280 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Jan 24 13:31:47.364332 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Jan 24 13:31:47.364430 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Jan 24 13:31:47.364439 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:31:47.364462 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:31:47.364471 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Jan 24 13:31:47.364507 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Jan 24 13:31:47.364575 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Jan 24 13:31:47.364584 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:31:47.364591 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:31:47.364597 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Jan 24 13:31:47.364621 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Jan 24 13:31:47.364684 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Jan 24 13:31:47.364690 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:31:47.364697 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:31:47.364702 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Jan 24 13:31:47.364726 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Jan 24 13:31:47.366220 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Jan 24 13:31:47.366352 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Jan 24 13:31:47.368184 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Jan 24 13:31:47.457339 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:31:47.462207 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:31:47.469901 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Jan 24 13:31:48.381661 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Jan 24 13:31:48.382253 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Jan 24 13:31:48.382300 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Jan 24 13:31:48.382321 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Jan 24 13:31:48.382344 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Jan 24 13:31:48.382353 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Jan 24 13:31:48.382360 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Jan 24 13:31:48.382368 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Jan 24 13:31:48.382376 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:31:48.382426 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Jan 24 13:31:48.382443 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:31:48.382454 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Jan 24 13:31:48.382461 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Jan 24 13:31:48.382482 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Jan 24 13:31:48.382618 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Jan 24 13:31:48.517071 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Jan 24 13:31:48.517329 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Jan 24 13:31:48.517356 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Jan 24 13:31:48.517382 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Jan 24 13:31:48.517417 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Jan 24 13:31:48.517429 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Jan 24 13:31:48.517441 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Jan 24 13:31:48.517453 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Jan 24 13:31:48.517465 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:31:48.517492 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Jan 24 13:31:48.517517 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:31:48.517534 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Jan 24 13:31:48.517546 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Jan 24 13:31:48.517571 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Jan 24 13:31:48.517674 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Feb 19 10:31:37.368703 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 19 10:31:37.375470 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 19 10:31:37.408519 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Feb 19 10:31:37.408787 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 19 10:31:37.408816 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 19 10:31:37.408841 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 19 10:31:37.408877 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 19 10:31:37.408889 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 3, type:VIDEO, PID 0xe15
+Feb 19 10:31:37.408900 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 4, type:AUDIO, PID 0xe16
+Feb 19 10:31:37.408911 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 5, type:METADATA, PID 0xc8
+Feb 19 10:31:37.408923 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 10:31:37.408949 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 3, type:VIDEO, PID 0xe15
+Feb 19 10:31:37.408963 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 10:31:37.408978 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 4, type:AUDIO, PID 0xe16
+Feb 19 10:31:37.408990 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 19 10:31:37.409013 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 19 10:31:37.409123 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 19 10:31:37.644264 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Feb 19 10:31:37.644429 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 19 10:31:37.644446 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 19 10:31:37.644462 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 19 10:31:37.644483 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 19 10:31:37.644524 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 3, type:VIDEO, PID 0xe15
+Feb 19 10:31:37.644532 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 4, type:AUDIO, PID 0xe16
+Feb 19 10:31:37.644539 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 5, type:METADATA, PID 0xc8
+Feb 19 10:31:37.644547 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 10:31:37.644564 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 3, type:VIDEO, PID 0xe15
+Feb 19 10:31:37.644573 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 10:31:37.644583 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 4, type:AUDIO, PID 0xe16
+Feb 19 10:31:37.644590 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 19 10:31:37.644606 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 19 10:31:37.644660 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 19 10:57:21.901816 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 19 10:57:21.905828 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 19 10:57:22.018629 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Feb 19 10:57:22.018782 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 19 10:57:22.018799 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 19 10:57:22.018815 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 19 10:57:22.018849 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 19 10:57:22.018857 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 6, type:VIDEO, PID 0xe15
+Feb 19 10:57:22.018864 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 7, type:AUDIO, PID 0xe16
+Feb 19 10:57:22.018871 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 8, type:METADATA, PID 0xc8
+Feb 19 10:57:22.018878 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 10:57:22.018896 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 6, type:VIDEO, PID 0xe15
+Feb 19 10:57:22.018904 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 10:57:22.018914 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 7, type:AUDIO, PID 0xe16
+Feb 19 10:57:22.018921 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 19 10:57:22.018935 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 19 10:57:22.018995 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 19 10:57:22.108972 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Feb 19 10:57:22.109118 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 19 10:57:22.109134 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 19 10:57:22.109149 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 19 10:57:22.109170 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 19 10:57:22.109176 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 6, type:VIDEO, PID 0xe15
+Feb 19 10:57:22.109183 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 7, type:AUDIO, PID 0xe16
+Feb 19 10:57:22.109189 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 8, type:METADATA, PID 0xc8
+Feb 19 10:57:22.109197 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 10:57:22.109211 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 6, type:VIDEO, PID 0xe15
+Feb 19 10:57:22.109219 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 10:57:22.109228 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 7, type:AUDIO, PID 0xe16
+Feb 19 10:57:22.109235 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 19 10:57:22.109249 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 19 10:57:22.109300 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 19 11:03:59.246366 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 19 11:03:59.249901 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 19 11:03:59.420667 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Feb 19 11:03:59.420929 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 19 11:03:59.420952 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 19 11:03:59.420975 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 19 11:03:59.421015 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 19 11:03:59.421026 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 9, type:VIDEO, PID 0xe15
+Feb 19 11:03:59.421036 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 10, type:AUDIO, PID 0xe16
+Feb 19 11:03:59.421045 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 11, type:METADATA, PID 0xc8
+Feb 19 11:03:59.421056 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 11:03:59.421077 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 9, type:VIDEO, PID 0xe15
+Feb 19 11:03:59.421091 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 11:03:59.421106 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 10, type:AUDIO, PID 0xe16
+Feb 19 11:03:59.421116 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 19 11:03:59.421139 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 19 11:03:59.421218 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 19 11:03:59.443247 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Feb 19 11:03:59.443404 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 19 11:03:59.443421 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 19 11:03:59.443437 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 19 11:03:59.443462 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 19 11:03:59.443470 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 9, type:VIDEO, PID 0xe15
+Feb 19 11:03:59.443476 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 10, type:AUDIO, PID 0xe16
+Feb 19 11:03:59.443483 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 11, type:METADATA, PID 0xc8
+Feb 19 11:03:59.443491 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 11:03:59.443522 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 9, type:VIDEO, PID 0xe15
+Feb 19 11:03:59.443543 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 11:03:59.443553 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 10, type:AUDIO, PID 0xe16
+Feb 19 11:03:59.443560 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 19 11:03:59.443573 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 19 11:03:59.443622 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 19 11:11:40.240138 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 19 11:11:40.243280 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 19 11:11:40.405309 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Feb 19 11:11:40.405466 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 19 11:11:40.405483 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 19 11:11:40.405507 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 19 11:11:40.405538 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 19 11:11:40.405546 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 12, type:VIDEO, PID 0xe15
+Feb 19 11:11:40.405553 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 13, type:AUDIO, PID 0xe16
+Feb 19 11:11:40.405560 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 14, type:METADATA, PID 0xc8
+Feb 19 11:11:40.405567 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 11:11:40.405583 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 12, type:VIDEO, PID 0xe15
+Feb 19 11:11:40.405592 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 11:11:40.405602 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 13, type:AUDIO, PID 0xe16
+Feb 19 11:11:40.405610 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 19 11:11:40.405628 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 19 11:11:40.405683 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 19 11:11:40.543672 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Feb 19 11:11:40.543815 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 19 11:11:40.543831 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 19 11:11:40.543846 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 19 11:11:40.543865 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 19 11:11:40.543872 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 12, type:VIDEO, PID 0xe15
+Feb 19 11:11:40.543879 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 13, type:AUDIO, PID 0xe16
+Feb 19 11:11:40.543885 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 14, type:METADATA, PID 0xc8
+Feb 19 11:11:40.543893 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 11:11:40.543907 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 12, type:VIDEO, PID 0xe15
+Feb 19 11:11:40.543915 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 11:11:40.543924 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 13, type:AUDIO, PID 0xe16
+Feb 19 11:11:40.543942 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 19 11:11:40.543956 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 19 11:11:40.544005 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 21 16:49:38.602058 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 21 16:49:38.606204 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 21 16:49:38.756722 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Feb 21 16:49:38.756873 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 21 16:49:38.756889 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 21 16:49:38.756905 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 21 16:49:38.756925 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 21 16:49:38.756933 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 15, type:VIDEO, PID 0xe15
+Feb 21 16:49:38.756939 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 16, type:AUDIO, PID 0xe16
+Feb 21 16:49:38.756946 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 17, type:METADATA, PID 0xc8
+Feb 21 16:49:38.756953 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 21 16:49:38.756968 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 15, type:VIDEO, PID 0xe15
+Feb 21 16:49:38.756977 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 21 16:49:38.756986 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 16, type:AUDIO, PID 0xe16
+Feb 21 16:49:38.756993 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 21 16:49:38.757008 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 21 16:49:38.757068 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 21 16:49:38.767303 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Feb 21 16:49:38.767506 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 21 16:49:38.767523 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 21 16:49:38.767540 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 21 16:49:38.767563 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 21 16:49:38.767571 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 15, type:VIDEO, PID 0xe15
+Feb 21 16:49:38.767578 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 16, type:AUDIO, PID 0xe16
+Feb 21 16:49:38.767586 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 17, type:METADATA, PID 0xc8
+Feb 21 16:49:38.767594 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 21 16:49:38.767610 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 15, type:VIDEO, PID 0xe15
+Feb 21 16:49:38.767619 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 21 16:49:38.767629 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 16, type:AUDIO, PID 0xe16
+Feb 21 16:49:38.767637 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 21 16:49:38.767653 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 21 16:49:38.767723 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 23 17:14:48.995854 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 23 17:14:48.999008 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 23 17:14:49.086377 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Feb 23 17:14:49.086541 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 23 17:14:49.086557 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 23 17:14:49.086573 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 23 17:14:49.086594 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 23 17:14:49.086602 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 18, type:VIDEO, PID 0xe15
+Feb 23 17:14:49.086608 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 19, type:AUDIO, PID 0xe16
+Feb 23 17:14:49.086615 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 20, type:METADATA, PID 0xc8
+Feb 23 17:14:49.086622 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 23 17:14:49.086638 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 18, type:VIDEO, PID 0xe15
+Feb 23 17:14:49.086647 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 23 17:14:49.086657 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 19, type:AUDIO, PID 0xe16
+Feb 23 17:14:49.086664 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 23 17:14:49.086679 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 23 17:14:49.086730 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 23 17:14:49.265372 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Feb 23 17:14:49.265527 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 23 17:14:49.265543 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 23 17:14:49.265558 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 23 17:14:49.265579 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 23 17:14:49.265586 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 18, type:VIDEO, PID 0xe15
+Feb 23 17:14:49.265593 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 19, type:AUDIO, PID 0xe16
+Feb 23 17:14:49.265600 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 20, type:METADATA, PID 0xc8
+Feb 23 17:14:49.265607 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 23 17:14:49.265622 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 18, type:VIDEO, PID 0xe15
+Feb 23 17:14:49.265630 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 23 17:14:49.265639 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 19, type:AUDIO, PID 0xe16
+Feb 23 17:14:49.265646 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 23 17:14:49.265661 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 23 17:14:49.265712 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 23 17:15:56.845470 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 23 17:15:56.849231 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 23 17:15:56.995617 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Feb 23 17:15:56.995780 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 23 17:15:56.995797 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 23 17:15:56.995814 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 23 17:15:56.995835 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 23 17:15:56.995843 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 21, type:VIDEO, PID 0xe15
+Feb 23 17:15:56.995850 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 22, type:AUDIO, PID 0xe16
+Feb 23 17:15:56.995857 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 23, type:METADATA, PID 0xc8
+Feb 23 17:15:56.995865 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 23 17:15:56.995882 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 21, type:VIDEO, PID 0xe15
+Feb 23 17:15:56.995891 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 23 17:15:56.995901 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 22, type:AUDIO, PID 0xe16
+Feb 23 17:15:56.995908 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 23 17:15:56.995924 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 23 17:15:56.995978 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 23 17:15:57.110889 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Feb 23 17:15:57.111083 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 23 17:15:57.111104 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 23 17:15:57.111127 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 23 17:15:57.111147 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 23 17:15:57.111153 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 21, type:VIDEO, PID 0xe15
+Feb 23 17:15:57.111161 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 22, type:AUDIO, PID 0xe16
+Feb 23 17:15:57.111170 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 23, type:METADATA, PID 0xc8
+Feb 23 17:15:57.111180 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 23 17:15:57.111201 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 21, type:VIDEO, PID 0xe15
+Feb 23 17:15:57.111213 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 23 17:15:57.111228 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 22, type:AUDIO, PID 0xe16
+Feb 23 17:15:57.111239 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 23 17:15:57.111259 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Feb 23 17:15:57.111350 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Feb 27 10:06:24.225773 noServiceName  **********************************************************
+Feb 27 10:06:24.225785 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Feb 27 10:06:24.225790 noServiceName  [GENERAL] Log system is syslog
+Feb 27 10:06:24.225944 noServiceName  [GENERAL] The process is starting
+Feb 27 10:06:26.455668 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9108
+Feb 27 10:06:26.455732 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Feb 27 10:06:26.464059 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:06:26.468994 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:06:26.476183 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:06:26.481179 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:06:27.075545 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 27 10:06:27.075559 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:06:27.075570 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:06:27.075579 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 27 10:06:27.075651 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Feb 27 10:06:27.075753 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 27 10:06:27.075761 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:06:27.075768 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:06:27.075775 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 27 10:06:27.075803 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Feb 27 10:06:27.075873 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Feb 27 10:06:27.075881 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:06:27.075889 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:06:27.075896 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Feb 27 10:06:27.075925 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Feb 27 10:06:27.075997 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Feb 27 10:06:27.076005 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:06:27.076012 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:06:27.076020 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Feb 27 10:06:27.076047 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Feb 27 10:06:27.221950 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Feb 27 10:06:27.222041 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Feb 27 10:06:27.224510 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Feb 27 10:06:27.306011 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:06:27.318319 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:06:27.335532 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Feb 27 10:06:27.936823 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Feb 27 10:06:27.937214 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 27 10:06:27.937237 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 27 10:06:27.937254 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 27 10:06:27.937272 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 27 10:06:27.937279 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Feb 27 10:06:27.937285 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Feb 27 10:06:27.937292 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Feb 27 10:06:27.937299 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:06:27.937334 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Feb 27 10:06:27.937347 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:06:27.937356 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Feb 27 10:06:27.937363 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 27 10:06:27.937379 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Feb 27 10:06:27.937491 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Feb 27 10:06:27.967761 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Feb 27 10:06:27.967906 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 27 10:06:27.967922 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 27 10:06:27.967937 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 27 10:06:27.967955 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 27 10:06:27.967961 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Feb 27 10:06:27.967968 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Feb 27 10:06:27.967974 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Feb 27 10:06:27.967981 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:06:27.967993 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Feb 27 10:06:27.968001 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:06:27.968010 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Feb 27 10:06:27.968016 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 27 10:06:27.968030 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Feb 27 10:06:27.968100 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Feb 27 10:08:17.194684 CS24_TS16_SBS FIL  [GENERAL] The process is ending
+Feb 27 10:09:00.327133 noServiceName  **********************************************************
+Feb 27 10:09:00.327150 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Feb 27 10:09:00.327156 noServiceName  [GENERAL] Log system is syslog
+Feb 27 10:09:00.327369 noServiceName  [GENERAL] The process is starting
+Feb 27 10:09:00.861015 CS24_TS16_SBS FIL  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9113
+Feb 27 10:09:00.861076 CS24_TS16_SBS FIL  [GENERAL] Service id=2d773fd785ef4c189f022a7007a6f81e - Server id=standalone
+Feb 27 10:09:00.864946 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:09:00.868813 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:09:00.876401 CS24_TS16_SBS FIL  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:09:00.881379 CS24_TS16_SBS FIL  [SOURCE 2_1] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:09:01.325389 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 27 10:09:01.325410 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:09:01.325424 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:09:01.325435 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 27 10:09:01.325502 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Feb 27 10:09:01.325702 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 27 10:09:01.325715 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:09:01.325728 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:09:01.325738 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 27 10:09:01.325828 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] inputStream with same type not found
+Feb 27 10:09:01.325980 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Start routing
+Feb 27 10:09:01.325992 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:09:01.326006 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:09:01.326016 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] Finished routing
+Feb 27 10:09:01.326061 CS24_TS16_SBS FIL  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Feb 27 10:09:01.326215 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Start routing
+Feb 27 10:09:01.326227 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:09:01.326239 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:09:01.326250 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] Finished routing
+Feb 27 10:09:01.326294 CS24_TS16_SBS FIL  [SOURCE 2_1] [ROUTING] inputStream with same type not found
+Feb 27 10:09:01.328167 CS24_TS16_SBS FIL  [CONFIG] Configuration parsed with success
+Feb 27 10:09:01.328344 CS24_TS16_SBS FIL  [GENERAL] License status=wait for license
+Feb 27 10:09:01.330530 CS24_TS16_SBS FIL  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'CS24_16'
+Feb 27 10:09:01.398325 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:09:01.413989 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:09:01.431661 CS24_TS16_SBS FIL  [GENERAL] License status=started
+Feb 27 10:09:01.779464 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Feb 27 10:09:01.780234 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 27 10:09:01.780273 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 27 10:09:01.780300 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 27 10:09:01.780331 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Feb 27 10:09:01.780341 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Feb 27 10:09:01.780351 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Feb 27 10:09:01.780362 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Feb 27 10:09:01.780374 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:09:01.780447 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Feb 27 10:09:01.780470 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:09:01.780484 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Feb 27 10:09:01.780498 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Feb 27 10:09:01.780527 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Feb 27 10:09:01.780716 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Feb 27 10:09:01.822246 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Feb 27 10:09:01.822440 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Feb 27 10:09:01.822457 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Feb 27 10:09:01.822473 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Feb 27 10:09:01.822493 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Feb 27 10:09:01.822501 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xe15
+Feb 27 10:09:01.822507 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xe16
+Feb 27 10:09:01.822514 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 2, type:METADATA, PID 0xc8
+Feb 27 10:09:01.822521 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:09:01.822556 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xe15
+Feb 27 10:09:01.822566 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:09:01.822577 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xe16
+Feb 27 10:09:01.822584 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 27 10:09:01.822599 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=32 (0x20)
+Feb 27 10:09:01.822745 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=33 (0x21)
+Mar 13 10:36:42.641887 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Mar 13 10:36:42.647623 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Select program by PMT (use default program number)
+Mar 13 10:36:42.739936 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected program 360
+Mar 13 10:36:42.740122 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Mar 13 10:36:42.740138 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Mar 13 10:36:42.740153 CS24_TS16_SBS FIL  [SOURCE 1_0] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Mar 13 10:36:42.740173 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Start routing
+Mar 13 10:36:42.740180 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 3, type:VIDEO, PID 0xe15
+Mar 13 10:36:42.740187 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 4, type:AUDIO, PID 0xe16
+Mar 13 10:36:42.740193 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Input stream 5, type:METADATA, PID 0xc8
+Mar 13 10:36:42.740201 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Mar 13 10:36:42.740219 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 3, type:VIDEO, PID 0xe15
+Mar 13 10:36:42.740228 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Mar 13 10:36:42.740237 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Matched input stream 4, type:AUDIO, PID 0xe16
+Mar 13 10:36:42.740244 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Finished routing
+Mar 13 10:36:42.740259 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Mar 13 10:36:42.740313 CS24_TS16_SBS FIL  [SOURCE 1_0] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)
+Mar 13 10:36:42.935183 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected program 360
+Mar 13 10:36:42.935325 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Video: PID=3605 (0xe15) codec=h264
+Mar 13 10:36:42.935341 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Audio: PID=3606 (0xe16) codec=ac3, language=kor
+Mar 13 10:36:42.935356 CS24_TS16_SBS FIL  [SOURCE 1_1] [INPUT] Detected Metadata: PID=200 (0xc8) type=scte35
+Mar 13 10:36:42.935375 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Start routing
+Mar 13 10:36:42.935383 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 3, type:VIDEO, PID 0xe15
+Mar 13 10:36:42.935389 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 4, type:AUDIO, PID 0xe16
+Mar 13 10:36:42.935396 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Input stream 5, type:METADATA, PID 0xc8
+Mar 13 10:36:42.935403 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 0, type:VIDEO
+Mar 13 10:36:42.935418 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 3, type:VIDEO, PID 0xe15
+Mar 13 10:36:42.935426 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing output stream 1, type:AUDIO
+Mar 13 10:36:42.935435 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Matched input stream 4, type:AUDIO, PID 0xe16
+Mar 13 10:36:42.935442 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Finished routing
+Mar 13 10:36:42.935456 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3605 (0xe15) on PID=3605 (0xe15)
+Mar 13 10:36:42.935507 CS24_TS16_SBS FIL  [SOURCE 1_1] [ROUTING] Routing for input PID=3606 (0xe16) on PID=3606 (0xe16)

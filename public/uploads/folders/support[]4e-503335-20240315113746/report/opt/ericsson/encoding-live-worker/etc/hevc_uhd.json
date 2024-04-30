@@ -1,0 +1,168 @@
+"subPelEarlyTerminateStrength" : 3,
+      "ME_typeP" : 4,
+      "ME_typeBRef" : 4,
+      "ME_typeB" : 4,
+      "useTileSliceMotionBias" : 1,
+      "nbReferenceFramesP" : 1,
+      "nbReferenceFramesBL0" : 1,
+      "nbReferenceFramesBL1" : 1,
+      "nbReferenceFieldsBL0" : 1,
+      "nbReferenceFieldsBL1" : 1,
+      "nbReferenceFieldsP" : 1,
+      "useIntraSearchB" : 0,
+      "useIntraSearchBr" : 0,
+      "useIntraSearchP" : 1,
+      "predIntraDecisionI" : 1,
+      "predIntraDecisionP" : 0,
+      "predIntraDecisionB" : 0,
+      "predIntraDecisionBr" : 0,
+      "predSkipMergeDecision" : 0,
+      "useRingingDetection" : 1,
+      "mergeModeMeBias" : 0,
+      "enable4x4TransformSplit" : 0,
+      "splitBiasRiskOfRinging" : 0,
+      "useFullIntraModeSearch" : 0,
+      "partModeDecisionI" : 1,
+      "partModeDecisionP" : 0,
+      "partModeDecisionB" : 0,
+      "partModeDecisionBr" : 0,
+      "useQpAdaptiveLambdas" : 0,
+      "useAdaptiveLambdaScaling" : 1,
+      "LCUSize" : 32,
+      "maxDepth" : 2,
+      "useTransformNxN" : 1,
+      "useIntraNxN" : 4,
+      "codingDepth.minCuSizeBr" : 16,
+      "codingDepth.minCuSizeB" : 16,
+      "codingDepth.adaptiveCodingDepth" : 0,
+      "disableMe8x8" : 2,
+      "disableMe32x32" : 2,
+      "disableIntra8x8" : 2,
+      "disableIntra32x32" : 1,
+      "disableIntra64x64" : 0,
+      "useLQR" : 0,
+      "LQRMode" : 0,
+      "LQRMinOffset" : 0,
+      "LQRMaxOffset" : 0,
+      "weightedPrediction" : 0,
+      "reencodeIntraFrame": 1,
+      "reencodeInterFrame": 2,
+      "rdstqLambdaRescale": 1,
+      "dequantType" : 9,
+      "rdstqMode": 2,
+      "rdstqRateCstr": 2,
+      "minQuantizer": 6,
+      "maxQuantizer": 51,
+	  "hmeNbLevels" : 6
+    },
+    {
+      "id": 1,
+      "pixelPrecisionP" : 2,
+      "pixelPrecisionBr" : 2
+    },	
+    {
+      "id": 2,
+      "pixelPrecisionB" : 2
+    },
+    {
+      "id": 3,
+      "pixelPrecisionP" : 4,
+      "multirefShortcut" : 0
+    },
+    {
+      "id": 4,
+      "pixelPrecisionBr" : 4,
+      "pixelPrecisionB" : 4,
+      "partModeDecisionP" : 1
+    },
+    {
+      "id": 5,
+      "intraQpDelta": 8,
+      "globalMeCalc": 1,
+      "useMeAlternateLineSAD": 0,	  
+      "predIntraDecisionP": 1,		  
+      "subPelEarlyTerminateStrength": 2,
+      "useRingingDetection": 2,
+      "splitBiasRiskOfRinging": 1,
+      "codingDepth.minCuSizeBr": 0,
+      "codingDepth.adaptiveCodingDepth": 3,
+      "disableMe8x8": 1,
+      "disableMe32x32": 0,
+      "disableIntra8x8": 0,
+      "disableIntra32x32": 2,
+      "disableIntra64x64": 1,
+      "dequantType": 9,
+      "rdstqMode": 0,
+      "rdstqRateCstr": 0
+    },
+    {
+      "id": 6,
+      "useTemporalMvp": 1
+    },
+    {
+      "id": 7,
+      "subPelEarlyTerminateStrength": 3,
+      "codingDepth.adaptiveCodingDepth": 2
+    },
+    {
+      "id": 8,
+      "subPelEarlyTerminateStrength": 1,
+      "codingDepth.adaptiveCodingDepth": 1
+    },
+    {
+      "id": 9,
+      "subPelEarlyTerminateStrength": 0
+    },
+    {
+      "id": 10,
+      "numBFrames": 7,
+      "useDynamicB": 1
+    },
+    {
+      "id": 11,
+      "subPelEarlyTerminateStrength": 1,
+      "codingDepth.minCuSizeB": 0
+    },
+    {
+      "id": 12,
+      "subPelEarlyTerminateStrength": 0
+    },
+    {
+      "id": 13,
+      "intraQpDelta": 0,
+      "globalMeCalc": 0,	  
+      "partModeDecisionI": 3,
+      "partModeDecisionP": 3,
+      "codingDepth.minCuSizeB": 16
+    },
+    {
+      "id": 14,
+      "subPelEarlyTerminateStrength": 1,
+      "codingDepth.minCuSizeB": 0
+    },
+    {
+      "id": 15,
+      "subPelEarlyTerminateStrength": 0
+    }
+  ],
+  "checksum" : {}
+}
+{
+  "presets" : [
+    {
+      "id" : 0,
+      "motionEstimationInLA" : 1,
+      "numBFrames" : 5,
+      "useDynamicB" : 0,
+      "useGPB" : 0,
+      "pixelPrecisionP" : 1,
+      "pixelPrecisionBr" : 1,
+      "pixelPrecisionB" : 1,
+      "fastSubPelMode" : 1,
+      "intraQpDelta" : 0,
+      "globalMeCalc" : 0,
+      "useMeAlternateLineSAD" : 1,
+      "useDcCompensatedSAD" : 1,
+      "useTemporalMvp" : 0,
+      "multirefShortcut" : 1,
+      

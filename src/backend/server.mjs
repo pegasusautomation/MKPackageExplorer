@@ -162,69 +162,74 @@
 
 
 
-import express from 'express';
-import multer from 'multer';
-import fs from 'fs';
-import unzipper from 'unzipper';
-import { promisify } from 'util';
-import yauzl from 'yauzl';
-import path from 'path';
-import tar from 'tar-stream';
-// import zlib from 'zlib';
+// import express from 'express';
+// import multer from 'multer';
+// import fs from 'fs';
+// import unzipper from 'unzipper';
+// import { promisify } from 'util';
+// import yauzl from 'yauzl';
+// import { fileURLToPath } from 'url';
+// import path from 'path';
+// import tar from 'tar-stream';
+// // import zlib from 'zlib';
 
-const app = express();
-const PORT = 8000;
+// const app = express();
+// const PORT = 8000;
+// // // Get the current file's path
+// // const __filename = fileURLToPath(import.meta.url);
+// // // Get the directory path of the current file
+// // const __dirname = path.dirname(__filename);
 
-const upload = multer({ dest: 'uploads/' }); // Temporary destination for uploaded zip files
+// const upload = multer({ dest: 'uploads/' }); // Temporary destination for uploaded zip files
 
-// Function to extract nested zip files
-const openZip = promisify(yauzl.open);
+// // Function to extract nested zip files
+// const openZip = promisify(yauzl.open);
 
-async function extractNestedZip(source, destination) {
-  const zipFile = await openZip(source, { lazyEntries: true });
+// async function extractNestedZip(source, destination) {
+//   const zipFile = await openZip(source, { lazyEntries: true });
 
-  zipFile.readEntry();
-  zipFile.on('entry', function (entry) {
-    if (/\/$/.test(entry.fileName)) {
-      // Directory file names end with '/'
-      fs.mkdirSync(path.join(destination, entry.fileName), { recursive: true });
-      zipFile.readEntry();
-    } else if (entry.fileName.endsWith('.zip')) {
-      // If entry is a nested zip file, recursively extract it
-      zipFile.openReadStream(entry, function (err, readStream) {
-        if (err) throw err;
-        readStream.pipe(unzipper.Extract({ path: path.join(destination, path.dirname(entry.fileName)) }));
-        readStream.on('end', function () {
-          zipFile.readEntry();
-        });
-      });
-    } else {
-      zipFile.openReadStream(entry, function (err, readStream) {
-        if (err) throw err;
+//   zipFile.readEntry();
+//   zipFile.on('entry', function (entry) {
+//     if (/\/$/.test(entry.fileName)) {
+//       // Directory file names end with '/'
+//       fs.mkdirSync(path.join(destination, entry.fileName), { recursive: true });
+//       zipFile.readEntry();
+//     } else if (entry.fileName.endsWith('.zip')) {
+//       // If entry is a nested zip file, recursively extract it
+//       zipFile.openReadStream(entry, function (err, readStream) {
+//         if (err) throw err;
+//         readStream.pipe(unzipper.Extract({ path: path.join(destination, path.dirname(entry.fileName)) }));
+//         readStream.on('end', function () {
+//           zipFile.readEntry();
+//         });
+//       });
+//     } else {
+//       zipFile.openReadStream(entry, function (err, readStream) {
+//         if (err) throw err;
 
-        // Ensure parent directory exists
-        fs.mkdirSync(path.join(destination, path.dirname(entry.fileName)), { recursive: true });
+//         // Ensure parent directory exists
+//         fs.mkdirSync(path.join(destination, path.dirname(entry.fileName)), { recursive: true });
 
-        readStream.on('end', function () {
-          zipFile.readEntry();
-        });
+//         readStream.on('end', function () {
+//           zipFile.readEntry();
+//         });
 
-        readStream.pipe(fs.createWriteStream(path.join(destination, entry.fileName)));
-      });
-    }
-  });
+//         readStream.pipe(fs.createWriteStream(path.join(destination, entry.fileName)));
+//       });
+//     }
+//   });
 
-  return new Promise((resolve, reject) => {
-    zipFile.on('end', () => {
-      zipFile.close();
-      resolve();
-    });
+//   return new Promise((resolve, reject) => {
+//     zipFile.on('end', () => {
+//       zipFile.close();
+//       resolve();
+//     });
 
-    zipFile.on('error', (err) => {
-      reject(err);
-    });
-  });
-}
+//     zipFile.on('error', (err) => {
+//       reject(err);
+//     });
+//   });
+// }
 
 // const openZip = promisify(yauzl.open);
 
@@ -293,9 +298,79 @@ async function extractNestedZip(source, destination) {
 //   });
 // }
 // Route to handle folder upload
+import express from 'express';
+import multer from 'multer';
+import fs from 'fs';
+import unzipper from 'unzipper';
+import { promisify } from 'util';
+import yauzl from 'yauzl';
+import { fileURLToPath } from 'url';
+import path from 'path';
+import tar from 'tar-stream';
+
+const app = express();
+const PORT = 8000;
+
+// Define __dirname globally
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const upload = multer({ dest: 'uploads/' }); // Temporary destination for uploaded zip files
+
+// Function to extract nested zip files
+const openZip = promisify(yauzl.open);
+
+async function extractNestedZip(source, destination) {
+  const zipFile = await openZip(source, { lazyEntries: true });
+
+  zipFile.readEntry();
+  zipFile.on('entry', function (entry) {
+    if (/\/$/.test(entry.fileName)) {
+      // Directory file names end with '/'
+      fs.mkdirSync(path.join(destination, entry.fileName), { recursive: true });
+      zipFile.readEntry();
+    } else if (entry.fileName.endsWith('.zip')) {
+      // If entry is a nested zip file, recursively extract it
+      zipFile.openReadStream(entry, function (err, readStream) {
+        if (err) throw err;
+        readStream.pipe(unzipper.Extract({ path: path.join(destination, path.dirname(entry.fileName)) }));
+        readStream.on('end', function () {
+          zipFile.readEntry();
+        });
+      });
+    } else {
+      zipFile.openReadStream(entry, function (err, readStream) {
+        if (err) throw err;
+
+        // Ensure parent directory exists
+        fs.mkdirSync(path.join(destination, path.dirname(entry.fileName)), { recursive: true });
+
+        readStream.on('end', function () {
+          zipFile.readEntry();
+        });
+
+        readStream.pipe(fs.createWriteStream(path.join(destination, entry.fileName)));
+      });
+    }
+  });
+
+  return new Promise((resolve, reject) => {
+    zipFile.on('end', () => {
+      zipFile.close();
+      resolve();
+    });
+
+    zipFile.on('error', (err) => {
+      reject(err);
+    });
+  });
+}
+
 app.post('/upload', upload.single('folder'), async (req, res) => {
   const { path: zipFilePath } = req.file;
-  const destinationFolder = 'uploads/folders';
+
+  // Construct the destination folder path
+  const destinationFolder = path.join(__dirname, '../../public/uploads/folders');
 
   // Remove previous folder if exists
   if (fs.existsSync(destinationFolder)) {
@@ -309,7 +384,7 @@ app.post('/upload', upload.single('folder'), async (req, res) => {
     }
   }
 
-  fs.mkdirSync(destinationFolder); // Recreate folder to avoid errors if it's deleted
+  fs.mkdirSync(destinationFolder, { recursive: true }); // Recreate folder to avoid errors if it's deleted
 
   try {
     await extractNestedZip(zipFilePath, destinationFolder);

@@ -1,0 +1,2169 @@
+onitorix-3.11.0-1.el7.src.rpm
+Build Date  : Fri 15 Mar 2019 12:44:48 AM KST
+Build Host  : buildvm-10.phx2.fedoraproject.org
+Relocations : (not relocatable)
+Packager    : Fedora Project
+Vendor      : Fedora Project
+URL         : http://www.monitorix.org
+Bug URL     : https://bugz.fedoraproject.org/monitorix
+Summary     : A free, open source, lightweight system monitoring tool
+Description :
+Monitorix is a free, open source, lightweight system monitoring tool designed
+to monitor as many services and system resources as possible. It has been
+created to be used under production Linux/UNIX servers, but due to its
+simplicity and small size may also be used on embedded devices as well.
+warning: /etc/monitorix/monitorix.conf saved as /etc/monitorix/monitorix.conf.rpmsave
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package monitorix.noarch 0:3.11.0-1.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package        Arch        Version              Repository                Size
+================================================================================
+Installing:
+ monitorix      noarch      3.11.0-1.el7         local-ericsson-repo      225 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 225 k
+Installed size: 1.8 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+Warning: RPMDB altered outside of yum.
+  Installing : monitorix-3.11.0-1.el7.noarch                                1/1 
+  Verifying  : monitorix-3.11.0-1.el7.noarch                                1/1 
+
+Installed:
+  monitorix.noarch 0:3.11.0-1.el7                                               
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package linuxptp.x86_64 0:3.1-1.el7 will be installed
+---> Package mkptpconfig.x86_64 0:1.1-2.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package           Arch         Version         Repository                 Size
+================================================================================
+Installing:
+ linuxptp          x86_64       3.1-1.el7       local-ericsson-repo       217 k
+ mkptpconfig       x86_64       1.1-2.el7       local-ericsson-repo       5.5 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 222 k
+Installed size: 737 k
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              142 MB/s | 222 kB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : linuxptp-3.1-1.el7.x86_64                                    1/2 
+  Installing : mkptpconfig-1.1-2.el7.x86_64                                 2/2 
+  Verifying  : linuxptp-3.1-1.el7.x86_64                                    1/2 
+  Verifying  : mkptpconfig-1.1-2.el7.x86_64                                 2/2 
+
+Installed:
+  linuxptp.x86_64 0:3.1-1.el7           mkptpconfig.x86_64 0:1.1-2.el7          
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package deltacast-hd.x86_64 0:6.10-13.el7 will be installed
+---> Package deltacast-x300.x86_64 0:6.10-13.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch       Version            Repository               Size
+================================================================================
+Installing:
+ deltacast-hd       x86_64     6.10-13.el7        local-ericsson-repo     2.6 M
+ deltacast-x300     x86_64     6.10-13.el7        local-ericsson-repo      69 M
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 72 M
+Installed size: 230 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              449 MB/s |  72 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : deltacast-hd-6.10-13.el7.x86_64                              1/2 
+  Installing : deltacast-x300-6.10-13.el7.x86_64                            2/2 
+  Verifying  : deltacast-x300-6.10-13.el7.x86_64                            1/2 
+  Verifying  : deltacast-hd-6.10-13.el7.x86_64                              2/2 
+
+Installed:
+  deltacast-hd.x86_64 0:6.10-13.el7     deltacast-x300.x86_64 0:6.10-13.el7    
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package mediakind-gcrypt.x86_64 0:1.7.6-2.el7 will be installed
+---> Package mediakind-gpg-error.x86_64 0:1.36.0-2.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                Arch      Version          Repository              Size
+================================================================================
+Installing:
+ mediakind-gcrypt       x86_64    1.7.6-2.el7      local-ericsson-repo    944 k
+ mediakind-gpg-error    x86_64    1.36.0-2.el7     local-ericsson-repo    200 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 1.1 M
+Installed size: 4.9 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              314 MB/s | 1.1 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : mediakind-gpg-error-1.36.0-2.el7.x86_64                      1/2 
+  Installing : mediakind-gcrypt-1.7.6-2.el7.x86_64                          2/2 
+  Verifying  : mediakind-gcrypt-1.7.6-2.el7.x86_64                          1/2 
+  Verifying  : mediakind-gpg-error-1.36.0-2.el7.x86_64                      2/2 
+
+Installed:
+  mediakind-gcrypt.x86_64 0:1.7.6-2.el7                                         
+  mediakind-gpg-error.x86_64 0:1.36.0-2.el7                                     
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package libuv.x86_64 1:1.34.0-1.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package     Arch         Version               Repository                 Size
+================================================================================
+Installing:
+ libuv       x86_64       1:1.34.0-1.el7        local-ericsson-repo       144 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 144 k
+Installed size: 361 k
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : 1:libuv-1.34.0-1.el7.x86_64                                  1/1 
+  Verifying  : 1:libuv-1.34.0-1.el7.x86_64                                  1/1 
+
+Installed:
+  libuv.x86_64 1:1.34.0-1.el7                                                   
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package avahi.x86_64 0:0.6.31-20.el7 will be installed
+---> Package nss-mdns.x86_64 0:0.14.1-1.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package     Arch      Version           Repository                        Size
+================================================================================
+Installing:
+ avahi       x86_64    0.6.31-20.el7     mediakind-centos-updates-repo    264 k
+ nss-mdns    x86_64    0.14.1-1.el7      local-ericsson-repo               41 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 305 k
+Installed size: 1.1 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                               42 MB/s | 305 kB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : avahi-0.6.31-20.el7.x86_64                                   1/2 
+  Installing : nss-mdns-0.14.1-1.el7.x86_64                                 2/2 
+  Verifying  : avahi-0.6.31-20.el7.x86_64                                   1/2 
+  Verifying  : nss-mdns-0.14.1-1.el7.x86_64                                 2/2 
+
+Installed:
+  avahi.x86_64 0:0.6.31-20.el7          nss-mdns.x86_64 0:0.14.1-1.el7         
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+No package json-cpp available.
+Resolving Dependencies
+--> Running transaction check
+---> Package mediakind-jsoncpp.x86_64 0:1.9.4-1.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package               Arch       Version         Repository               Size
+================================================================================
+Installing:
+ mediakind-jsoncpp     x86_64     1.9.4-1.el7     local-ericsson-repo      73 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 73 k
+Installed size: 218 k
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : mediakind-jsoncpp-1.9.4-1.el7.x86_64                         1/1 
+  Verifying  : mediakind-jsoncpp-1.9.4-1.el7.x86_64                         1/1 
+
+Installed:
+  mediakind-jsoncpp.x86_64 0:1.9.4-1.el7                                        
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package mediakind-libresample.x86_64 0:0.1.3-1.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                  Arch      Version        Repository              Size
+================================================================================
+Installing:
+ mediakind-libresample    x86_64    0.1.3-1.el7    local-ericsson-repo    9.9 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 9.9 k
+Installed size: 21 k
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : mediakind-libresample-0.1.3-1.el7.x86_64                     1/1 
+  Verifying  : mediakind-libresample-0.1.3-1.el7.x86_64                     1/1 
+
+Installed:
+  mediakind-libresample.x86_64 0:0.1.3-1.el7                                    
+
+Complete!
+[INFO] Removing previously installed Mellanox mlnx-en and Rivermax packages
+[INFO] - no packages to remove
+[INFO] Installing Mellanox mlnx-en kernel space packages
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package mlnx-ofa_kernel.x86_64 0:5.2-OFED.5.2.1.0.4.1.rhel7u9 will be installed
+--> Processing Dependency: lsof for package: mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.rhel7u9.x86_64
+--> Running transaction check
+---> Package lsof.x86_64 0:4.87-6.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package         Arch   Version                       Repository           Size
+================================================================================
+Installing:
+ mlnx-ofa_kernel x86_64 5.2-OFED.5.2.1.0.4.1.rhel7u9  local-ericsson-repo 105 k
+Installing for dependencies:
+ lsof            x86_64 4.87-6.el7                    local-ericsson-repo 331 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+1 Dependent package)
+
+Total download size: 436 k
+Installed size: 1.3 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              215 MB/s | 436 kB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : lsof-4.87-6.el7.x86_64                                       1/2 
+  Installing : mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.rhel7u9.x86_64          2/2 
+Configured /etc/security/limits.conf
+  Verifying  : mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.rhel7u9.x86_64          1/2 
+  Verifying  : lsof-4.87-6.el7.x86_64                                       2/2 
+
+Installed:
+  mlnx-ofa_kernel.x86_64 0:5.2-OFED.5.2.1.0.4.1.rhel7u9                         
+
+Dependency Installed:
+  lsof.x86_64 0:4.87-6.el7                                                      
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package kmod-mlnx-ofa_kernel.x86_64 0:5.2-OFED.5.2.1.0.4.1.202102051230.rhel7u9 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package
+     Arch   Version                                   Repository           Size
+================================================================================
+Installing:
+ kmod-mlnx-ofa_kernel
+     x86_64 5.2-OFED.5.2.1.0.4.1.202102051230.rhel7u9 local-ericsson-repo 1.0 M
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 1.0 M
+Installed size: 4.1 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : kmod-mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.202102051230.rhe   1/1 
+  Verifying  : kmod-mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.202102051230.rhe   1/1 
+
+Installed:
+  kmod-mlnx-ofa_kernel.x86_64 0:5.2-OFED.5.2.1.0.4.1.202102051230.rhel7u9       
+
+Complete!
+[INFO] Installing Mellanox mlnx-en user space packages
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package dpcp.x86_64 0:1.1.0-1.52104 will be installed
+---> Package libibverbs.x86_64 0:52mlnx1-1.52104 will be installed
+---> Package librdmacm.x86_64 0:52mlnx1-1.52104 will be installed
+---> Package libvma.x86_64 0:9.2.2-1 will be installed
+---> Package mlnx-fw-updater.x86_64 0:5.2-1.0.4.0 will be installed
+---> Package rdma-core.x86_64 0:52mlnx1-1.52104 will be installed
+---> Package rivermax.x86_64 0:11.2-8.10.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch      Version              Repository              Size
+================================================================================
+Installing:
+ dpcp               x86_64    1.1.0-1.52104        local-e
+________________________________________________________________________________
+Thu May 12 15:32:07 KST 2022 ericsson-encoding-liveinstallation logs
+________________________________________________________________________________
+
+[INFO] Check os compatibility: CentOS Linux release 7.9.2009 (Core) officially supported
+package ericsson-encoding-live-controller is not installed
+package mfvp-encoding-live-controller is not installed
+package ericsson-encoding-live-server is not installed
+package mfvp-encoding-live-server is not installed
+[INFO] Customer specifically ask for one kind of install
+[INFO] Deleting envivio-proxy-control and envivio-guru-controller-core if existing
+package envivio-proxy is not installed
+package envivio-proxy-control is not installed
+package envivio-guru-controller-core is not installed
+package mfvp-encoding-live-server is not installed
+[INFO] Installing ericsson-encoding-live
+package vbi_zvbi is not installed
+Name        : biat
+Version     : 4.0.0
+Release     : 000
+Architecture: x86_64
+Install Date: Mon 20 Sep 2021 07:48:19 PM KST
+Group       : Applications
+Size        : 8516075
+License     : Proprietary Software
+Signature   : (none)
+Source RPM  : biat-4.0.0-000.src.rpm
+Build Date  : Thu 24 Dec 2020 12:36:11 AM KST
+Build Host  : CentOS-76.home
+Relocations : (not relocatable)
+URL         : http://www.envivio.com/
+Summary     : Envivio Burn In Automatic Test
+Description :
+Burn In Automatic Test
+warning: file /opt/envivio/BIAT/lshw.gz: remove failed: No such file or directory
+warning: file /opt/envivio/BIAT/dmidecode.gz: remove failed: No such file or directory
+Redirecting to /bin/systemctl restart httpd.service
+package intel-linux-media is not installed
+Loaded plugins: fastestmirror, versionlock
+Determining fastest mirrors
+Package 1:openssl-1.0.2k-22.el7_9.x86_64 already installed and latest version
+Package librabbitmq-0.8.0-3.el7.x86_64 already installed and latest version
+Nothing to do
+Name        : monitorix
+Version     : 3.11.0
+Release     : 1.el7
+Architecture: noarch
+Install Date: Mon 20 Sep 2021 07:35:25 PM KST
+Group       : Unspecified
+Size        : 1911146
+License     : GPLv2+
+Signature   : RSA/SHA256, Fri 15 Mar 2019 12:49:40 AM KST, Key ID 6a2faea2352c64e5
+Source RPM  : mricsson-repo     53 k
+ libibverbs         x86_64    52mlnx1-1.52104      local-ericsson-repo    178 k
+ librdmacm          x86_64    52mlnx1-1.52104      local-ericsson-repo     62 k
+ libvma             x86_64    9.2.2-1              local-ericsson-repo    575 k
+ mlnx-fw-updater    x86_64    5.2-1.0.4.0          local-ericsson-repo     94 M
+ rdma-core          x86_64    52mlnx1-1.52104      local-ericsson-repo     41 k
+ rivermax           x86_64    11.2-8.10.el7        local-ericsson-repo    1.0 M
+
+Transaction Summary
+================================================================================
+Install  7 Packages
+
+Total download size: 96 M
+Installed size: 110 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              434 MB/s |  96 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : rdma-core-52mlnx1-1.52104.x86_64                             1/7 
+  Installing : libibverbs-52mlnx1-1.52104.x86_64                            2/7 
+  Installing : dpcp-1.1.0-1.52104.x86_64                                    3/7 
+  Installing : librdmacm-52mlnx1-1.52104.x86_64                             4/7 
+  Installing : rivermax-11.2-8.10.el7.x86_64                                5/7 
+  Installing : libvma-9.2.2-1.x86_64                                        6/7 
+  Installing : mlnx-fw-updater-5.2-1.0.4.0.x86_64                           7/7 
+
+Added 'RUN_FW_UPDATER_ONBOOT=no to /etc/infiniband/openib.conf
+
+Initializing...
+Attempting to perform Firmware update...
+No devices found!
+
+  Verifying  : rivermax-11.2-8.10.el7.x86_64                                1/7 
+  Verifying  : mlnx-fw-updater-5.2-1.0.4.0.x86_64                           2/7 
+  Verifying  : dpcp-1.1.0-1.52104.x86_64                                    3/7 
+  Verifying  : libvma-9.2.2-1.x86_64                                        4/7 
+  Verifying  : rdma-core-52mlnx1-1.52104.x86_64                             5/7 
+  Verifying  : libibverbs-52mlnx1-1.52104.x86_64                            6/7 
+  Verifying  : librdmacm-52mlnx1-1.52104.x86_64                             7/7 
+
+Installed:
+  dpcp.x86_64 0:1.1.0-1.52104             libibverbs.x86_64 0:52mlnx1-1.52104   
+  librdmacm.x86_64 0:52mlnx1-1.52104      libvma.x86_64 0:9.2.2-1               
+  mlnx-fw-updater.x86_64 0:5.2-1.0.4.0    rdma-core.x86_64 0:52mlnx1-1.52104    
+  rivermax.x86_64 0:11.2-8.10.el7        
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package pciutils-3.5.1-3.el7.x86_64 already installed and latest version
+Nothing to do
+[INFO] Install driver for Kernel
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package intel-compute-runtime.x86_64 0:21.07.19042.mk1-20.el7 will be installed
+--> Processing Dependency: level-zero for package: intel-compute-runtime-21.07.19042.mk1-20.el7.x86_64
+---> Package intel-gmmlib.x86_64 0:21.3.2-20.el7 will be installed
+---> Package intel-gpu-tools.x86_64 0:1.22-8.el7 will be installed
+--> Processing Dependency: libunwind.so.8()(64bit) for package: intel-gpu-tools-1.22-8.el7.x86_64
+---> Package intel-igc-core.x86_64 0:1.0.6087-19.el7 will be installed
+---> Package intel-igc-opencl.x86_64 0:1.0.6087-19.el7 will be installed
+---> Package intel-media-driver.x86_64 0:21.3.5.mk1-36.el7 will be installed
+---> Package intel-mediasdk.x86_64 0:21.3.5.mk2-26.el7 will be installed
+---> Package libva.x86_64 0:2.13.0-24.el7 will be installed
+---> Package libva-utils.x86_64 0:2.8.0-14.el7 will be installed
+---> Package ocl-icd.x86_64 0:2.2.12-1.el7 will be installed
+--> Running transaction check
+---> Package level-zero.x86_64 0:1.1.0-6.el7 will be installed
+---> Package libunwind.x86_64 2:1.2-2.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package               Arch   Version                 Repository           Size
+================================================================================
+Installing:
+ intel-compute-runtime x86_64 21.07.19042.mk1-20.el7  local-ericsson-repo 3.0 M
+ intel-gmmlib          x86_64 21.3.2-20.el7           local-ericsson-repo 124 k
+ intel-gpu-tools       x86_64 1.22-8.el7              local-ericsson-repo 1.3 M
+ intel-igc-core        x86_64 1.0.6087-19.el7         local-ericsson-repo  15 M
+ intel-igc-opencl      x86_64 1.0.6087-19.el7         local-ericsson-repo  33 M
+ intel-media-driver    x86_64 21.3.5.mk1-36.el7       local-ericsson-repo 6.1 M
+ intel-mediasdk        x86_64 21.3.5.mk2-26.el7       local-ericsson-repo 3.1 M
+ libva                 x86_64 2.13.0-24.el7           local-ericsson-repo  69 k
+ libva-utils           x86_64 2.8.0-14.el7            local-ericsson-repo 482 k
+ ocl-icd               x86_64 2.2.12-1.el7            local-ericsson-repo  43 k
+Installing for dependencies:
+ level-zero            x86_64 1.1.0-6.el7             local-ericsson-repo 107 k
+ libunwind             x86_64 2:1.2-2.el7             local-ericsson-repo  57 k
+
+Transaction Summary
+================================================================================
+Install  10 Packages (+2 Dependent packages)
+
+Total download size: 63 M
+Installed size: 235 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              437 MB/s |  63 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : libva-2.13.0-24.el7.x86_64                                  1/12 
+  Installing : intel-gmmlib-21.3.2-20.el7.x86_64                           2/12 
+  Installing : intel-media-driver-21.3.5.mk1-36.el7.x86_64                 3/12 
+  Installing : ocl-icd-2.2.12-1.el7.x86_64                                 4/12 
+  Installing : 2:libunwind-1.2-2.el7.x86_64                                5/12 
+  Installing : level-zero-1.1.0-6.el7.x86_64                               6/12 
+  Installing : intel-igc-core-1.0.6087-19.el7.x86_64                       7/12 
+  Installing : intel-igc-opencl-1.0.6087-19.el7.x86_64                     8/12 
+  Installing : intel-compute-runtime-21.07.19042.mk1-20.el7.x86_64         9/12 
+  Installing : intel-gpu-tools-1.22-8.el7.x86_64                          10/12 
+  Installing : intel-mediasdk-21.3.5.mk2-26.el7.x86_64                    11/12 
+  Installing : libva-utils-2.8.0-14.el7.x86_64                            12/12 
+  Verifying  : intel-igc-core-1.0.6087-19.el7.x86_64                       1/12 
+  Verifying  : intel-mediasdk-21.3.5.mk2-26.el7.x86_64                     2/12 
+  Verifying  : intel-compute-runtime-21.07.19042.mk1-20.el7.x86_64         3/12 
+  Verifying  : intel-gmmlib-21.3.2-20.el7.x86_64                           4/12 
+  Verifying  : level-zero-1.1.0-6.el7.x86_64                               5/12 
+  Verifying  : intel-gpu-tools-1.22-8.el7.x86_64                           6/12 
+  Verifying  : intel-media-driver-21.3.5.mk1-36.el7.x86_64                 7/12 
+  Verifying  : libva-2.13.0-24.el7.x86_64                                  8/12 
+  Verifying  : 2:libunwind-1.2-2.el7.x86_64                                9/12 
+  Verifying  : ocl-icd-2.2.12-1.el7.x86_64                                10/12 
+  Verifying  : intel-igc-opencl-1.0.6087-19.el7.x86_64                    11/12 
+  Verifying  : libva-utils-2.8.0-14.el7.x86_64                            12/12 
+
+Installed:
+  intel-compute-runtime.x86_64 0:21.07.19042.mk1-20.el7                         
+  intel-gmmlib.x86_64 0:21.3.2-20.el7                                           
+  intel-gpu-tools.x86_64 0:1.22-8.el7                                           
+  intel-igc-core.x86_64 0:1.0.6087-19.el7                                       
+  intel-igc-opencl.x86_64 0:1.0.6087-19.el7                                     
+  intel-media-driver.x86_64 0:21.3.5.mk1-36.el7                                 
+  intel-mediasdk.x86_64 0:21.3.5.mk2-26.el7                                     
+  libva.x86_64 0:2.13.0-24.el7                                                  
+  libva-utils.x86_64 0:2.8.0-14.el7                                             
+  ocl-icd.x86_64 0:2.2.12-1.el7                                                 
+
+Dependency Installed:
+  level-zero.x86_64 0:1.1.0-6.el7          libunwind.x86_64 2:1.2-2.el7         
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package tuned-2.11.0-11.el7_9.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+No Match for argument: ericsson-encoding-live*
+No Packages marked for removal
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package ericsson-encoding-live-standalone.x86_64 0:14.0.5-35.el7 will be installed
+--> Processing Dependency: ericsson-encoding-live-server >= 14.0.5-35.el7 for package: ericsson-encoding-live-standalone-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-encoding-live-controller >= 14.0.5-35.el7 for package: ericsson-encoding-live-standalone-14.0.5-35.el7.x86_64
+--> Running transaction check
+---> Package ericsson-encoding-live-controller.x86_64 0:14.0.5-35.el7 will be installed
+--> Processing Dependency: mediakind-live-sources-config >= 0.15.0-0.el7 for package: ericsson-encoding-live-controller-14.0.5-35.el7.x86_64
+--> Processing Dependency: mediakind-internal-pois-resiliency >= 0.9.0-0.el7 for package: ericsson-encoding-live-controller-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-python39 >= 3.9.9-0.0.el7 for package: ericsson-encoding-live-controller-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-encoding-live-ui-connector >= 2.67.1-0.el7 for package: ericsson-encoding-live-controller-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-encoding-live-config >= 1.100.0-0.el7 for package: ericsson-encoding-live-controller-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-automation-proxy >= 1.2.48-0.el7 for package: ericsson-encoding-live-controller-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-automation-config >= 2.3.23-1.el7 for package: ericsson-encoding-live-controller-14.0.5-35.el7.x86_64
+---> Package ericsson-encoding-live-server.x86_64 0:14.0.5-35.el7 will be installed
+--> Processing Dependency: vmaf >= 2.1.1-el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: videomasterhd >= 6.10-9.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: vbi_zvbi >= 0.2.33-3.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: rtmp >= 2.0.5-3.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: rsyslog-mmjsonparse >= 8.26.1-1.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: rsyslog >= 8.26.1-1.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: rsyslog >= 8.26.1 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: mediakind-rtmp >= 2.4.3-8 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: mediakind-dektec-firmware >= 1.0.3-12.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: isomediafile >= 0.1-26.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-tuned-performance >= 3.0.4-0.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-statistic >= 2.8.0-0.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-snmp >= 1.4.0-18.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-nmos >= 0.33.0-0.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-encoding-live-worker >= 26.17.70-0.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-command >= 1.11.1-0.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: ericsson-automation-scheduler >= 2.00.15-002.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: devil >= 1.6.8-2.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: dektec-driver-DtPcie >= 2020.11.0-1 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: dektec >= 2020.11.0-2 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: avs2Decoder >= 1.2.1410-3.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: aribb24 >= 1.0.3-9.andrelcm_20201023git61a8b40.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: amqpcpp >= 4.1.4-8.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: advantech-vega-331x-sdk-samples >= 1.3.1-12729 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: advantech-vega-331x-sdk >= 1.3.1-12729 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: advantech-vega-331x-firmware >= 1.3.1-12730.mk1 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: advantech-vega-331x-driver >= 1.3.1-12729 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Processing Dependency: FFmpeg-MK >= 4.3.41-1.el7 for package: ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+--> Running transaction check
+---> Package FFmpeg-MK.x86_64 0:4.3.41-1.el7 will be installed
+---> Package advantech-vega-331x-driver.x86_64 0:1.3.1-12729 will be installed
+---> Package advantech-vega-331x-firmware.x86_64 0:1.3.1-12730.mk1 will be installed
+---> Package advantech-vega-331x-sdk.x86_64 0:1.3.1-12729 will be installed
+---> Package advantech-vega-331x-sdk-samples.x86_64 0:1.3.1-12729 will be installed
+---> Package amqpcpp.x86_64 0:4.1.4-8.el7 will be installed
+---> Package aribb24.x86_64 0:1.0.3-9.andrelcm_20201023git61a8b40.el7 will be installed
+---> Package avs2Decoder.x86_64 0:1.2.1410-3.el7 will be installed
+---> Package dektec.x86_64 0:2020.11.0-2 will be installed
+---> Package dektec-driver-DtPcie.x86_64 0:2020.11.0-1 will be installed
+---> Package devil.x86_64 0:1.6.8-2.el7 will be installed
+---> Package ericsson-automation-config.x86_64 0:2.3.23-1.el7 will be installed
+--> Processing Dependency: libev for package: ericsson-automation-config-2.3.23-1.el7.x86_64
+---> Package ericsson-automation-proxy.x86_64 0:1.2.48-0.el7 will be installed
+---> Package ericsson-automation-scheduler.x86_64 0:2.00.15-002.el7 will be installed
+---> Package ericsson-command.x86_64 0:1.11.1-0.el7 will be installed
+---> Package ericsson-encoding-live-config.x86_64 0:1.100.0-0.el7 will be installed
+---> Package ericsson-encoding-live-ui-connector.x86_64 0:2.67.1-0.el7 will be installed
+---> Package ericsson-encoding-live-worker.x86_64 0:26.17.70-0.el7 will be installed
+--> Processing Dependency: flash-plugin < 12 for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+--> Processing Dependency: xorg-x11-server-Xvfb >= 1.17 for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+--> Processing Dependency: gtk2 >= 2.24 for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+--> Processing Dependency: flash-plugin >= 11.2 for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+--> Processing Dependency: chrpath for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+--> Processing Dependency: libhttp_parser.so.2()(64bit) for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+--> Processing Dependency: libgtk-x11-2.0.so.0()(64bit) for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+--> Processing Dependency: libgnutls.so.28()(64bit) for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+--> Processing Dependency: libgdk_pixbuf-2.0.so.0()(64bit) for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+--> Processing Dependency: libgdk-x11-2.0.so.0()(64bit) for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+--> Processing Dependency: libatk-1.0.so.0()(64bit) for package: ericsson-encoding-live-worker-26.17.70-0.el7.x86_64
+---> Package ericsson-nmos.x86_64 0:0.33.0-0.el7 will be installed
+--> Processing Dependency: avahi-compat-libdns_sd for package: ericsson-nmos-0.33.0-0.el7.x86_64
+--> Processing Dependency: libdns_sd.so.1()(64bit) for package: ericsson-nmos-0.33.0-0.el7.x86_64
+---> Package ericsson-python39.x86_64 0:3.9.9-0.0.el7 will be installed
+---> Package ericsson-snmp.x86_64 0:1.4.0-18.el7 will be installed
+---> Package ericsson-statistic.x86_64 0:2.8.0-0.el7 will be installed
+---> Package ericsson-tuned-performance.x86_64 0:3.0.4-0.el7 will be installed
+---> Package isomediafile.x86_64 0:0.1-26.el7 will be installed
+---> Package mediakind-dektec-firmware.x86_64 0:1.0.3-12.el7 will be installed
+---> Package mediakind-internal-pois-resiliency.x86_64 0:0.9.0-0.el7 will be installed
+---> Package mediakind-live-sources-config.x86_64 0:0.15.0-0.el7 will be installed
+---> Package mediakind-rtmp.x86_64 0:2.4.3-8.el7 will be installed
+---> Package rsyslog.x86_64 0:8.24.0-57.el7_9.1 will be updated
+---> Package rsyslog.x86_64 0:8.26.1-1.el7 will be an update
+--> Processing Dependency: libgt for package: rsyslog-8.26.1-1.el7.x86_64
+--> Processing Dependency: libgthttp.so.0()(64bit) for package: rsyslog-8.26.1-1.el7.x86_64
+--> Processing Dependency: libgtbase.so.0()(64bit) for package: rsyslog-8.26.1-1.el7.x86_64
+---> Package rsyslog-mmjsonparse.x86_64 0:8.24.0-57.el7_9.1 will be updated
+---> Package rsyslog-mmjsonparse.x86_64 0:8.26.1-1.el7 will be an update
+---> Package rtmp.x86_64 0:2.0.5-3.el7 will be installed
+---> Package vbi_zvbi.x86_64 0:0.2.33-3.el7 will be installed
+---> Package videomasterhd.x86_64 0:6.10-9.el7 will be installed
+---> Package vmaf.x86_64 0:2.1.1-el7 will be installed
+--> Running transaction check
+---> Package atk.x86_64 0:2.28.1-2.el7 will be installed
+---> Package avahi-compat-libdns_sd.x86_64 0:0.6.31-20.el7 will be installed
+---> Package chrpath.x86_64 0:0.16-0.el7 will be installed
+---> Package flash-plugin.x86_64 0:11.2.202.644-release will be installed
+---> Package gdk-pixbuf2.x86_64 0:2.36.12-3.el7 will be installed
+--> Processing Dependency: libjasper.so.1()(64bit) for package: gdk-pixbuf2-2.36.12-3.el7.x86_64
+---> Package gnutls.x86_64 0:3.3.29-9.el7_6 will be installed
+--> Processing Dependency: trousers >= 0.3.11.2 for package: gnutls-3.3.29-9.el7_6.x86_64
+--> Processing Dependency: libnettle.so.4()(64bit) for package: gnutls-3.3.29-9.el7_6.x86_64
+--> Processing Dependency: libhogweed.so.2()(64bit) for package: gnutls-3.3.29-9.el7_6.x86_64
+---> Package gtk2.x86_64 0:2.24.31-1.el7 will be installed
+--> Processing Dependency: libXrandr >= 1.2.99.4-2 for package: gtk2-2.24.31-1.el7.x86_64
+--> Processing Dependency: hicolor-icon-theme for package: gtk2-2.24.31-1.el7.x86_64
+--> Processing Dependency: gtk-update-icon-cache for package: gtk2-2.24.31-1.el7.x86_64
+--> Processing Dependency: libXrandr.so.2()(64bit) for package: gtk2-2.24.31-1.el7.x86_64
+--> Processing Dependency: libXinerama.so.1()(64bit) for package: gtk2-2.24.31-1.el7.x86_64
+--> Processing Dependency: libXi.so.6()(64bit) for package: gtk2-2.24.31-1.el7.x86_64
+--> Processing Dependency: libXcursor.so.1()(64bit) for package: gtk2-2.24.31-1.el7.x86_64
+--> Processing Dependency: libXcomposite.so.1()(64bit) for package: gtk2-2.24.31-1.el7.x86_64
+---> Package http-parser.x86_64 0:2.7.1-9.el7 will be installed
+---> Package libev.x86_64 0:4.15-7.el7 will be installed
+---> Package libgt.x86_64 0:0.3.11-1.el7 will be installed
+---> Package xorg-x11-server-Xvfb.x86_64 0:1.20.4-16.el7_9 will be installed
+--> Processing Dependency: xorg-x11-server-common >= 1.20.4-16.el7_9 for package: xorg-x11-server-Xvfb-1.20.4-16.el7_9.x86_64
+--> Processing Dependency: xorg-x11-xauth for package: xorg-x11-server-Xvfb-1.20.4-16.el7_9.x86_64
+--> Processing Dependency: libXfont2.so.2()(64bit) for package: xorg-x11-server-Xvfb-1.20.4-16.el7_9.x86_64
+--> Processing Dependency: libXdmcp.so.6()(64bit) for package: xorg-x11-server-Xvfb-1.20.4-16.el7_9.x86_64
+--> Running transaction check
+---> Package gtk-update-icon-cache.x86_64 0:3.22.30-6.el7 will be installed
+---> Package hicolor-icon-theme.noarch 0:0.12-7.el7 will be installed
+---> Package jasper-libs.x86_64 0:1.900.1-33.el7 will be installed
+---> Package libXcomposite.x86_64 0:0.4.4-4.1.el7 will be installed
+---> Package libXcursor.x86_64 0:1.1.15-1.el7 will be installed
+---> Package libXdmcp.x86_64 0:1.1.2-6.el7 will be installed
+---> Package libXfont2.x86_64 0:2.0.3-1.el7 will be installed
+--> Processing Dependency: libfontenc.so.1()(64bit) for package: libXfont2-2.0.3-1.el7.x86_64
+---> Package libXi.x86_64 0:1.7.9-1.el7 will be installed
+---> Package libXinerama.x86_64 0:1.1.3-2.1.el7 will be installed
+---> Package libXrandr.x86_64 0:1.5.1-2.el7 will be installed
+---> Package nettle.x86_64 0:2.7.1-9.el7_9 will be installed
+---> Package trousers.x86_64 0:0.3.14-2.el7 will be installed
+---> Package xorg-x11-server-common.x86_64 0:1.20.4-16.el7_9 will be installed
+--> Processing Dependency: xkeyboard-config for package: xorg-x11-server-common-1.20.4-16.el7_9.x86_64
+--> Processing Dependency: xkbcomp for package: xorg-x11-server-common-1.20.4-16.el7_9.x86_64
+---> Package xorg-x11-xauth.x86_64 1:1.0.9-1.el7 will be installed
+--> Processing Dependency: libXmuu.so.1()(64bit) for package: 1:xorg-x11-xauth-1.0.9-1.el7.x86_64
+--> Running transaction check
+---> Package libXmu.x86_64 0:1.1.2-2.el7 will be installed
+--> Processing Dependency: libXt.so.6()(64bit) for package: libXmu-1.1.2-2.el7.x86_64
+---> Package libfontenc.x86_64 0:1.1.3-3.el7 will be installed
+---> Package xkeyboard-config.noarch 0:2.24-1.el7 will be installed
+---> Package xorg-x11-xkb-utils.x86_64 0:7.7-14.el7 will be installed
+--> Processing Dependency: libxkbfile.so.1()(64bit) for package: xorg-x11-xkb-utils-7.7-14.el7.x86_64
+--> Running transaction check
+---> Package libXt.x86_64 0:1.1.5-3.el7 will be installed
+--> Processing Dependency: libSM.so.6()(64bit) for package: libXt-1.1.5-3.el7.x86_64
+--> Processing Dependency: libICE.so.6()(64bit) for package: libXt-1.1.5-3.el7.x86_64
+---> Package libxkbfile.x86_64 0:1.0.9-3.el7 will be installed
+--> Running transaction check
+---> Package libICE.x86_64 0:1.0.9-9.el7 will be installed
+---> Package libSM.x86_64 0:1.2.2-2.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                       Arch   Version         Repository           Size
+================================================================================
+Installing:
+ ericsson-encoding-live-standalone
+                               x86_64 14.0.5-35.el7   local-ericsson-repo 8.8 k
+Installing for dependencies:
+ FFmpeg-MK                     x86_64 4.3.41-1.el7    local-ericsson-repo  23 M
+ advantech-vega-331x-driver    x86_64 1.3.1-12729     local-ericsson-repo 764 k
+ advantech-vega-331x-firmware  x86_64 1.3.1-12730.mk1 local-ericsson-repo  12 M
+ advantech-vega-331x-sdk       x86_64 1.3.1-12729     local-ericsson-repo 154 k
+ advantech-vega-331x-sdk-samples
+                               x86_64 1.3.1-12729     local-ericsson-repo  45 k
+ amqpcpp                       x86_64 4.1.4-8.el7     local-ericsson-repo 117 k
+ aribb24                       x86_64 1.0.3-9.andrelcm_20201023git61a8b40.el7
+                                                      local-ericsson-repo  29 k
+ atk                           x86_64 2.28.1-2.el7    mediakind-centos-updates-repo
+                                                                          263 k
+ avahi-compat-libdns_sd        x86_64 0.6.31-20.el7   mediakind-centos-updates-repo
+                                                                           34 k
+ avs2Decoder                   x86_64 1.2.1410-3.el7  local-ericsson-repo 477 k
+ chrpath                       x86_64 0.16-0.el7      local-ericsson-repo  26 k
+ dektec                        x86_64 2020.11.0-2     local-ericsson-repo 3.1 M
+ dektec-driver-DtPcie          x86_64 2020.11.0-1     local-ericsson-repo 4.1 M
+ devil                         x86_64 1.6.8-2.el7     local-ericsson-repo 222 k
+ ericsson-automation-config    x86_64 2.3.23-1.el7    local-ericsson-repo 2.5 M
+ ericsson-automation-proxy     x86_64 1.2.48-0.el7    local-ericsson-repo 5.7 M
+ ericsson-automation-scheduler x86_64 2.00.15-002.el7 local-ericsson-repo 7.0 M
+ ericsson-command              x86_64 1.11.1-0.el7    local-ericsson-repo 1.6 M
+ ericsson-encoding-live-config x86_64 1.100.0-0.el7   local-ericsson-repo 4.7 M
+ ericsson-encoding-live-controller
+                               x86_64 14.0.5-35.el7   local-ericsson-repo  19 k
+ ericsson-encoding-live-server x86_64 14.0.5-35.el7   local-ericsson-repo  38 k
+ ericsson-encoding-live-ui-connector
+                               x86_64 2.67.1-0.el7    local-ericsson-repo  31 M
+ ericsson-encoding-live-worker x86_64 26.17.70-0.el7  local-ericsson-repo  68 M
+ ericsson-nmos                 x86_64 0.33.0-0.el7    local-ericsson-repo 2.6 M
+ ericsson-python39             x86_64 3.9.9-0.0.el7   local-ericsson-repo  25 M
+ ericsson-snmp                 x86_64 1.4.0-18.el7    local-ericsson-repo 3.3 M
+ ericsson-statistic            x86_64 2.8.0-0.el7     local-ericsson-repo 1.4 M
+ ericsson-tuned-performance    x86_64 3.0.4-0.el7     local-ericsson-repo  14 k
+ flash-plugin                  x86_64 11.2.202.644-release
+                                                      local-ericsson-repo 6.9 M
+ gdk-pixbuf2                   x86_64 2.36.12-3.el7   local-ericsson-repo 570 k
+ gnutls                        x86_64 3.3.29-9.el7_6  local-ericsson-repo 680 k
+ gtk-update-icon-cache         x86_64 3.22.30-6.el7   mediakind-centos-updates-repo
+                                                                           27 k
+ gtk2                          x86_64 2.24.31-1.el7   local-ericsson-repo 3.4 M
+ hicolor-icon-theme            noarch 0.12-7.el7      local-ericsson-repo  42 k
+ http-parser                   x86_64 2.7.1-9.el7     mediakind-centos-updates-repo
+                                                                           29 k
+ isomediafile                  x86_64 0.1-26.el7      local-ericsson-repo 125 k
+ jasper-libs                   x86_64 1.900.1-33.el7  local-ericsson-repo 150 k
+ libICE                        x86_64 1.0.9-9.el7     local-ericsson-repo  66 k
+ libSM                         x86_64 1.2.2-2.el7     local-ericsson-repo  39 k
+ libXcomposite                 x86_64 0.4.4-4.1.el7   local-ericsson-repo  22 k
+ libXcursor                    x86_64 1.1.15-1.el7    local-ericsson-repo  30 k
+ libXdmcp                      x86_64 1.1.2-6.el7     local-ericsson-repo  34 k
+ libXfont2                     x86_64 2.0.3-1.el7     local-ericsson-repo 143 k
+ libXi                         x86_64 1.7.9-1.el7     local-ericsson-repo  40 k
+ libXinerama                   x86_64 1.1.3-2.1.el7   local-ericsson-repo  14 k
+ libXmu                        x86_64 1.1.2-2.el7     local-ericsson-repo  71 k
+ libXrandr                     x86_64 1.5.1-2.el7     local-ericsson-repo  27 k
+ libXt                         x86_64 1.1.5-3.el7     local-ericsson-repo 173 k
+ libev                         x86_64 4.15-7.el7      local-ericsson-repo  44 k
+ libfontenc                    x86_64 1.1.3-3.el7     local-ericsson-repo  31 k
+ libgt                         x86_64 0.3.11-1.el7    local-ericsson-repo  58 k
+ libxkbfile                    x86_64 1.0.9-3.el7     local-ericsson-repo  83 k
+ mediakind-dektec-firmware     x86_64 1.0.3-12.el7    local-ericsson-repo  29 M
+ mediakind-internal-pois-resiliency
+                               x86_64 0.9.0-0.el7     local-ericsson-repo 8.4 M
+ mediakind-live-sources-config x86_64 0.15.0-0.el7    local-ericsson-repo 4.6 M
+ mediakind-rtmp                x86_64 2.4.3-8.el7     local-ericsson-repo  57 k
+ nettle                        x86_64 2.7.1-9.el7_9   mediakind-centos-updates-repo
+                                                                          328 k
+ rtmp                          x86_64 2.0.5-3.el7     local-ericsson-repo 752 k
+ trousers                      x86_64 0.3.14-2.el7    local-ericsson-repo 289 k
+ vbi_zvbi                      x86_64 0.2.33-3.el7    local-ericsson-repo  92 k
+ videomasterhd                 x86_64 6.10-9.el7      local-ericsson-repo 987 k
+ vmaf                          x86_64 2.1.1-el7       local-ericsson-repo 267 k
+ xkeyboard-config              noarch 2.24-1.el7      local-ericsson-repo 834 k
+ xorg-x11-server-Xvfb          x86_64 1.20.4-16.el7_9 mediakind-centos-updates-repo
+                                                                          856 k
+ xorg-x11-server-common        x86_64 1.20.4-16.el7_9 mediakind-centos-updates-repo
+                                                                           56 k
+ xorg-x11-xauth                x86_64 1:1.0.9-1.el7   local-ericsson-repo  30 k
+ xorg-x11-xkb-utils            x86_64 7.7-14.el7      local-ericsson-repo 103 k
+Updating for dependencies:
+ rsyslog                       x86_64 8.26.1-1.el7    local-ericsson-repo 649 k
+ rsyslog-mmjsonparse           x86_64 8.26.1-1.el7    local-ericsson-repo  14 k
+
+Transaction Summary
+================================================================================
+Install  1 Package  (+67 Dependent packages)
+Upgrade             (  2 Dependent packages)
+
+Total download size: 258 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              416 MB/s | 258 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : ericsson-python39-3.9.9-0.0.el7.x86_64                      1/72 
+  Installing : advantech-vega-331x-sdk-1.3.1-12729.x86_64                  2/72 
+  Installing : advantech-vega-331x-sdk-samples-1.3.1-12729.x86_64          3/72 
+  Installing : atk-2.28.1-2.el7.x86_64                                     4/72 
+  Installing : devil-1.6.8-2.el7.x86_64                                    5/72 
+  Installing : FFmpeg-MK-4.3.41-1.el7.x86_64                               6/72 
+  Installing : rtmp-2.0.5-3.el7.x86_64                                     7/72 
+  Installing : videomasterhd-6.10-9.el7.x86_64                             8/72 
+  Installing : dektec-2020.11.0-2.x86_64                                   9/72 
+  Installing : advantech-vega-331x-driver-1.3.1-12729.x86_64              10/72 
+  Installing : aribb24-1.0.3-9.andrelcm_20201023git61a8b40.el7.x86_64     11/72 
+  Installing : avs2Decoder-1.2.1410-3.el7.x86_64                          12/72 
+  Installing : amqpcpp-4.1.4-8.el7.x86_64                                 13/72 
+  Installing : vbi_zvbi-0.2.33-3.el7.x86_64                               14/72 
+  Installing : libICE-1.0.9-9.el7.x86_64                                  15/72 
+  Installing : libSM-1.2.2-2.el7.x86_64                                   16/72 
+  Installing : libXt-1.1.5-3.el7.x86_64                                   17/72 
+  Installing : libXmu-1.1.2-2.el7.x86_64                                  18/72 
+  Installing : 1:xorg-x11-xauth-1.0.9-1.el7.x86_64                        19/72 
+  Installing : advantech-vega-331x-firmware-1.3.1-12730.mk1.x86_64        20/72 
+  No device found. Nothing to do.. (run '/usr/share/vega-331x-firmware/02_tools/flash_write_all.sh' to manually install firmware)
+  Installing : ericsson-encoding-live-ui-connector-2.67.1-0.el7.x86_64    21/72 
+  Installing : ericsson-command-1.11.1-0.el7.x86_64                       22/72 
+  Installing : xkeyboard-config-2.24-1.el7.noarch                         23/72 
+  Installing : libfontenc-1.1.3-3.el7.x86_64                              24/72 
+  Installing : libXfont2-2.0.3-1.el7.x86_64                               25/72 
+  Installing : dektec-driver-DtPcie-2020.11.0-1.x86_64                    26/72 
+  Installing : libXdmcp-1.1.2-6.el7.x86_64                                27/72 
+  Installing : libev-4.15-7.el7.x86_64                                    28/72 
+  Installing : ericsson-automation-config-2.3.23-1.el7.x86_64             29/72 
+  Installing : jasper-libs-1.900.1-33.el7.x86_64                          30/72 
+  Installing : gdk-pixbuf2-2.36.12-3.el7.x86_64                           31/72 
+  Installing : gtk-update-icon-cache-3.22.30-6.el7.x86_64                 32/72 
+  Installing : libxkbfile-1.0.9-3.el7.x86_64                              33/72 
+  Installing : xorg-x11-xkb-utils-7.7-14.el7.x86_64                       34/72 
+  Installing : xorg-x11-server-common-1.20.4-16.el7_9.x86_64              35/72 
+  Installing : xorg-x11-server-Xvfb-1.20.4-16.el7_9.x86_64                36/72 
+  Installing : http-parser-2.7.1-9.el7.x86_64                             37/72 
+  Installing : chrpath-0.16-0.el7.x86_64                                  38/72 
+  Installing : vmaf-2.1.1-el7.x86_64                                      39/72 
+  Installing : libXrandr-1.5.1-2.el7.x86_64                               40/72 
+  Installing : nettle-2.7.1-9.el7_9.x86_64                                41/72 
+  Installing : ericsson-tuned-performance-3.0.4-0.el7.x86_64              42/72 
+  Installing : hicolor-icon-theme-0.12-7.el7.noarch                       43/72 
+  Installing : avahi-compat-libdns_sd-0.6.31-20.el7.x86_64                44/72 
+  Installing : ericsson-nmos-0.33.0-0.el7.x86_64                          45/72 
+  Installing : libgt-0.3.11-1.el7.x86_64                                  46/72 
+  Updating   : rsyslog-8.26.1-1.el7.x86_64                                47/72 
+warning: /etc/logrotate.d/syslog created as /etc/logrotate.d/syslog.rpmnew
+  Updating   : rsyslog-mmjsonparse-8.26.1-1.el7.x86_64                    48/72 
+  Installing : ericsson-encoding-live-config-1.100.0-0.el7.x86_64         49/72 
+  Installing : mediakind-internal-pois-resiliency-0.9.0-0.el7.x86_64      50/72 
+  Installing : mediakind-live-sources-config-0.15.0-0.el7.x86_64          51/72 
+  Installing : libXcomposite-0.4.4-4.1.el7.x86_64                         52/72 
+  Installing : flash-plugin-11.2.202.644-release.x86_64                   53/72 
+  Installing : isomediafile-0.1-26.el7.x86_64                             54/72 
+  Installing : ericsson-statistic-2.8.0-0.el7.x86_64                      55/72 
+  Installing : libXcursor-1.1.15-1.el7.x86_64                             56/72 
+  Installing : libXinerama-1.1.3-2.1.el7.x86_64                           57/72 
+Failed to stop firmware-upgrade.service: Unit firmware-upgrade.service not loaded.
+Failed to stop firmware-on-shutdown.service: Unit firmware-on-shutdown.service not loaded.
+  Installing : mediakind-dektec-firmware-1.0.3-12.el7.x86_64              58/72 
+Created symlink from /etc/systemd/system/multi-user.target.wants/firmware-upgrade.service to /usr/lib/systemd/system/firmware-upgrade.service.
+Created symlink from /etc/systemd/system/multi-user.target.wants/firmware-on-shutdown.service to /usr/lib/systemd/system/firmware-on-shutdown.service.
+  Installing : libXi-1.7.9-1.el7.x86_64                                   59/72 
+  Installing : gtk2-2.24.31-1.el7.x86_64                                  60/72 
+  Installing : trousers-0.3.14-2.el7.x86_64                               61/72 
+  Installing : gnutls-3.3.29-9.el7_6.x86_64                               62/72 
+  Installing : mediakind-rtmp-2.4.3-8.el7.x86_64                          63/72 
+  Installing : ericsson-encoding-live-worker-26.17.70-0.el7.x86_64        64/72 
+  Installing : ericsson-snmp-1.4.0-18.el7.x86_64                          65/72 
+1000
+  Installing : ericsson-automation-scheduler-2.00.15-002.el7.x86_64       66/72 
+  Installing : ericsson-encoding-live-server-14.0.5-35.el7.x86_64         67/72 
+  Installing : ericsson-automation-proxy-1.2.48-0.el7.x86_64              68/72 
+  Installing : ericsson-encoding-live-controller-14.0.5-35.el7.x86_64     69/72 
+  Installing : ericsson-encoding-live-standalone-14.0.5-35.el7.x86_64     70/72 
+  Cleanup    : rsyslog-mmjsonparse-8.24.0-57.el7_9.1.x86_64               71/72 
+  Cleanup    : rsyslog-8.24.0-57.el7_9.1.x86_64                           72/72 
+ericsson-controller-14.0.4-657.el7.x86_64
+  Verifying  : trousers-0.3.14-2.el7.x86_64                                1/72 
+  Verifying  : libXi-1.7.9-1.el7.x86_64                                    2/72 
+  Verifying  : mediakind-dektec-firmware-1.0.3-12.el7.x86_64               3/72 
+  Verifying  : libICE-1.0.9-9.el7.x86_64                                   4/72 
+  Verifying  : gdk-pixbuf2-2.36.12-3.el7.x86_64                            5/72 
+  Verifying  : libXinerama-1.1.3-2.1.el7.x86_64                            6/72 
+  Verifying  : xorg-x11-server-common-1.20.4-16.el7_9.x86_64               7/72 
+  Verifying  : libXt-1.1.5-3.el7.x86_64                                    8/72 
+  Verifying  : ericsson-python39-3.9.9-0.0.el7.x86_64                      9/72 
+  Verifying  : vbi_zvbi-0.2.33-3.el7.x86_64                               10/72 
+  Verifying  : ericsson-encoding-live-standalone-14.0.5-35.el7.x86_64     11/72 
+  Verifying  : libXcursor-1.1.15-1.el7.x86_64                             12/72 
+  Verifying  : amqpcpp-4.1.4-8.el7.x86_64                                 13/72 
+  Verifying  : ericsson-statistic-2.8.0-0.el7.x86_64                      14/72 
+  Verifying  : advantech-vega-331x-sdk-1.3.1-12729.x86_64                 15/72 
+  Verifying  : xorg-x11-xkb-utils-7.7-14.el7.x86_64                       16/72 
+  Verifying  : gtk2-2.24.31-1.el7.x86_64                                  17/72 
+  Verifying  : ericsson-encoding-live-worker-26.17.70-0.el7.x86_64        18/72 
+  Verifying  : ericsson-encoding-live-controller-14.0.5-35.el7.x86_64     19/72 
+  Verifying  : isomediafile-0.1-26.el7.x86_64                             20/72 
+  Verifying  : advantech-vega-331x-firmware-1.3.1-12730.mk1.x86_64        21/72 
+  Verifying  : xorg-x11-server-Xvfb-1.20.4-16.el7_9.x86_64                22/72 
+  Verifying  : ericsson-snmp-1.4.0-18.el7.x86_64                          23/72 
+  Verifying  : ericsson-automation-scheduler-2.00.15-002.el7.x86_64       24/72 
+  Verifying  : flash-plugin-11.2.202.644-release.x86_64                   25/72 
+  Verifying  : libXcomposite-0.4.4-4.1.el7.x86_64                         26/72 
+  Verifying  : avs2Decoder-1.2.1410-3.el7.x86_64                          27/72 
+  Verifying  : ericsson-automation-proxy-1.2.48-0.el7.x86_64              28/72 
+  Verifying  : rsyslog-8.26.1-1.el7.x86_64                                29/72 
+  Verifying  : gtk-update-icon-cache-3.22.30-6.el7.x86_64                 30/72 
+  Verifying  : gnutls-3.3.29-9.el7_6.x86_64                               31/72 
+  Verifying  : libgt-0.3.11-1.el7.x86_64                                  32/72 
+  Verifying  : avahi-compat-libdns_sd-0.6.31-20.el7.x86_64                33/72 
+  Verifying  : hicolor-icon-theme-0.12-7.el7.noarch                       34/72 
+  Verifying  : mediakind-rtmp-2.4.3-8.el7.x86_64                          35/72 
+  Verifying  : aribb24-1.0.3-9.andrelcm_20201023git61a8b40.el7.x86_64     36/72 
+  Verifying  : advantech-vega-331x-driver-1.3.1-12729.x86_64              37/72 
+  Verifying  : ericsson-tuned-performance-3.0.4-0.el7.x86_64              38/72 
+  Verifying  : ericsson-encoding-live-ui-connector-2.67.1-0.el7.x86_64    39/72 
+  Verifying  : nettle-2.7.1-9.el7_9.x86_64                                40/72 
+  Verifying  : libXfont2-2.0.3-1.el7.x86_64                               41/72 
+  Verifying  : dektec-2020.11.0-2.x86_64                                  42/72 
+  Verifying  : ericsson-encoding-live-config-1.100.0-0.el7.x86_64         43/72 
+  Verifying  : libXrandr-1.5.1-2.el7.x86_64                               44/72 
+  Verifying  : videomasterhd-6.10-9.el7.x86_64                            45/72 
+  Verifying  : ericsson-nmos-0.33.0-0.el7.x86_64                          46/72 
+  Verifying  : rtmp-2.0.5-3.el7.x86_64                                    47/72 
+  Verifying  : vmaf-2.1.1-el7.x86_64                                      48/72 
+  Verifying  : 1:xorg-x11-xauth-1.0.9-1.el7.x86_64                        49/72 
+  Verifying  : FFmpeg-MK-4.3.41-1.el7.x86_64                              50/72 
+  Verifying  : devil-1.6.8-2.el7.x86_64                                   51/72 
+  Verifying  : chrpath-0.16-0.el7.x86_64                                  52/72 
+  Verifying  : ericsson-encoding-live-server-14.0.5-35.el7.x86_64         53/72 
+  Verifying  : mediakind-internal-pois-resiliency-0.9.0-0.el7.x86_64      54/72 
+  Verifying  : http-parser-2.7.1-9.el7.x86_64                             55/72 
+  Verifying  : libxkbfile-1.0.9-3.el7.x86_64                              56/72 
+  Verifying  : rsyslog-mmjsonparse-8.26.1-1.el7.x86_64                    57/72 
+  Verifying  : libSM-1.2.2-2.el7.x86_64                                   58/72 
+  Verifying  : advantech-vega-331x-sdk-samples-1.3.1-12729.x86_64         59/72 
+  Verifying  : jasper-libs-1.900.1-33.el7.x86_64                          60/72 
+  Verifying  : libev-4.15-7.el7.x86_64                                    61/72 
+  Verifying  : libXdmcp-1.1.2-6.el7.x86_64                                62/72 
+  Verifying  : dektec-driver-DtPcie-2020.11.0-1.x86_64                    63/72 
+  Verifying  : mediakind-live-sources-config-0.15.0-0.el7.x86_64          64/72 
+  Verifying  : libfontenc-1.1.3-3.el7.x86_64                              65/72 
+  Verifying  : xkeyboard-config-2.24-1.el7.noarch                         66/72 
+  Verifying  : atk-2.28.1-2.el7.x86_64                                    67/72 
+  Verifying  : ericsson-automation-config-2.3.23-1.el7.x86_64             68/72 
+  Verifying  : ericsson-command-1.11.1-0.el7.x86_64                       69/72 
+  Verifying  : libXmu-1.1.2-2.el7.x86_64                                  70/72 
+  Verifying  : rsyslog-mmjsonparse-8.24.0-57.el7_9.1.x86_64               71/72 
+  Verifying  : rsyslog-8.24.0-57.el7_9.1.x86_64                           72/72 
+
+Installed:
+  ericsson-encoding-live-standalone.x86_64 0:14.0.5-35.el7                      
+
+Dependency Installed:
+  FFmpeg-MK.x86_64 0:4.3.41-1.el7                                               
+  advantech-vega-331x-driver.x86_64 0:1.3.1-12729                               
+  advantech-vega-331x-firmware.x86_64 0:1.3.1-12730.mk1                         
+  advantech-vega-331x-sdk.x86_64 0:1.3.1-12729                                  
+  advantech-vega-331x-sdk-samples.x86_64 0:1.3.1-12729                          
+  amqpcpp.x86_64 0:4.1.4-8.el7                                                  
+  aribb24.x86_64 0:1.0.3-9.andrelcm_20201023git61a8b40.el7                      
+  atk.x86_64 0:2.28.1-2.el7                                                     
+  avahi-compat-libdns_sd.x86_64 0:0.6.31-20.el7                                 
+  avs2Decoder.x86_64 0:1.2.1410-3.el7                                           
+  chrpath.x86_64 0:0.16-0.el7                                                   
+  dektec.x86_64 0:2020.11.0-2                                                   
+  dektec-driver-DtPcie.x86_64 0:2020.11.0-1                                     
+  devil.x86_64 0:1.6.8-2.el7                                                    
+  ericsson-automation-config.x86_64 0:2.3.23-1.el7                              
+  ericsson-automation-proxy.x86_64 0:1.2.48-0.el7                               
+  ericsson-automation-scheduler.x86_64 0:2.00.15-002.el7                        
+  ericsson-command.x86_64 0:1.11.1-0.el7                                        
+  ericsson-encoding-live-config.x86_64 0:1.100.0-0.el7                          
+  ericsson-encoding-live-controller.x86_64 0:14.0.5-35.el7                      
+  ericsson-encoding-live-server.x86_64 0:14.0.5-35.el7                          
+  ericsson-encoding-live-ui-connector.x86_64 0:2.67.1-0.el7                     
+  ericsson-encoding-live-worker.x86_64 0:26.17.70-0.el7                         
+  ericsson-nmos.x86_64 0:0.33.0-0.el7                                           
+  ericsson-python39.x86_64 0:3.9.9-0.0.el7                                      
+  ericsson-snmp.x86_64 0:1.4.0-18.el7                                           
+  ericsson-statistic.x86_64 0:2.8.0-0.el7                                       
+  ericsson-tuned-performance.x86_64 0:3.0.4-0.el7                               
+  flash-plugin.x86_64 0:11.2.202.644-release                                    
+  gdk-pixbuf2.x86_64 0:2.36.12-3.el7                                            
+  gnutls.x86_64 0:3.3.29-9.el7_6                                                
+  gtk-update-icon-cache.x86_64 0:3.22.30-6.el7                                  
+  gtk2.x86_64 0:2.24.31-1.el7                                                   
+  hicolor-icon-theme.noarch 0:0.12-7.el7                                        
+  http-parser.x86_64 0:2.7.1-9.el7                                              
+  isomediafile.x86_64 0:0.1-26.el7                                              
+  jasper-libs.x86_64 0:1.900.1-33.el7                                           
+  libICE.x86_64 0:1.0.9-9.el7                                                   
+  libSM.x86_64 0:1.2.2-2.el7                                                    
+  libXcomposite.x86_64 0:0.4.4-4.1.el7                                          
+  libXcursor.x86_64 0:1.1.15-1.el7                                              
+  libXdmcp.x86_64 0:1.1.2-6.el7                                                 
+  libXfont2.x86_64 0:2.0.3-1.el7                                                
+  libXi.x86_64 0:1.7.9-1.el7                                                    
+  libXinerama.x86_64 0:1.1.3-2.1.el7                                            
+  libXmu.x86_64 0:1.1.2-2.el7                                                   
+  libXrandr.x86_64 0:1.5.1-2.el7                                                
+  libXt.x86_64 0:1.1.5-3.el7                                                    
+  libev.x86_64 0:4.15-7.el7                                                     
+  libfontenc.x86_64 0:1.1.3-3.el7                                               
+  libgt.x86_64 0:0.3.11-1.el7                                                   
+  libxkbfile.x86_64 0:1.0.9-3.el7                                               
+  mediakind-dektec-firmware.x86_64 0:1.0.3-12.el7                               
+  mediakind-internal-pois-resiliency.x86_64 0:0.9.0-0.el7                       
+  mediakind-live-sources-config.x86_64 0:0.15.0-0.el7                           
+  mediakind-rtmp.x86_64 0:2.4.3-8.el7                                           
+  nettle.x86_64 0:2.7.1-9.el7_9                                                 
+  rtmp.x86_64 0:2.0.5-3.el7                                                     
+  trousers.x86_64 0:0.3.14-2.el7                                                
+  vbi_zvbi.x86_64 0:0.2.33-3.el7                                                
+  videomasterhd.x86_64 0:6.10-9.el7                                             
+  vmaf.x86_64 0:2.1.1-el7                                                       
+  xkeyboard-config.noarch 0:2.24-1.el7                                          
+  xorg-x11-server-Xvfb.x86_64 0:1.20.4-16.el7_9                                 
+  xorg-x11-server-common.x86_64 0:1.20.4-16.el7_9                               
+  xorg-x11-xauth.x86_64 1:1.0.9-1.el7                                           
+  xorg-x11-xkb-utils.x86_64 0:7.7-14.el7                                        
+
+Dependency Updated:
+  rsyslog.x86_64 0:8.26.1-1.el7    rsyslog-mmjsonparse.x86_64 0:8.26.1-1.el7   
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-automation-config-2.3.23-1.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-automation-proxy-1.2.48-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-encoding-live-config-1.100.0-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-encoding-live-ui-connector-2.67.1-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-python34-3.4.6-0.0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-python37-3.7.9-0.0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-python39-3.9.9-0.0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package matching ericsson-alarm-proxy-1.40.0-0.el7.x86_64 already installed. Checking for update.
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-automation-scheduler-2.00.15-002.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-command-1.11.1-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-encoding-live-worker-26.17.70-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-nmos-0.33.0-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package matching ericsson-nmos-sidecar-0.4.0-0.el7.x86_64 already installed. Checking for update.
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-python37-3.7.9-0.0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-python39-3.9.9-0.0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package matching ericsson-server-daemon-0.56.3-0.el7.x86_64 already installed. Checking for update.
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-snmp-1.4.0-18.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-statistic-2.8.0-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-support-0.4.15-0.el7.centos.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-tuned-performance-3.0.4-0.el7.x86_64 already installed and latest version
+Nothing to do
+Installation successful
+[INFO] /var/opt/ericsson/network.json exists, config will be reapplied
+EE\      EE\ EE\   EE\       EEEEEEEE\                                     EE\ EE\                           EE\       EE\                      
+EEE\    EEE |EE | EE  |      EE  _____|                                    EE |\__|                          EE |      \__|                     
+EEEE\  EEEE |EE |EE  /       EE |      EEEEEEE\   EEEEEEE\  EEEEEE\   EEEEEEE |EE\ EEEEEEE\   EEEEEE\        EE |      EE\ EE\    EE\  EEEEEE\  
+EE\EE\EE EE |EEEEE  /        EEEEE\    EE  __EE\ EE  _____|EE  __EE\ EE  __EE |EE |EE  __EE\ EE  __EE\       EE |      EE |\EE\  EE  |EE  __EE\ 
+EE \EEE  EE |EE  EE<         EE  __|   EE |  EE |EE /      EE /  EE |EE /  EE |EE |EE |  EE |EE /  EE |      EE |      EE | \EE\EE  / EEEEEEEE |
+EE |\E  /EE |EE |\EE\        EE |      EE |  EE |EE |      EE |  EE |EE |  EE |EE |EE |  EE |EE |  EE |      EE |      EE |  \EEE  /  EE   ____|
+EE | \_/ EE |EE | \EE\       EEEEEEEE\ EE |  EE |\EEEEEEE\ \EEEEEE  |\EEEEEEE |EE |EE |  EE |\EEEEEEE |      EEEEEEEE\ EE |   \E  /   \EEEEEEE\ 
+\__|     \__|\__|  \__|      \________|\__|  \__| \_______| \______/  \_______|\__|\__|  \__| \____EE |      \________|\__|    \_/     \_______|
+                                                                                             EE\   EE |                                         
+                                                                                             \EEEEEE  |                                         
+                                                                                              \______/                                         
+[INFO] Standalone mode detected
+[INFO] Configuring el config
+[INFO] Configuring el connector
+[INFO] Configuring internal pois resiliency
+[INFO] Configuring live sources config
+[INFO] Configuring automation config
+[INFO] Configuring Connector in server daemon
+[INFO] Configuring interface discovery
+[INFO] Enable Feature in controller
+[INFO] Deleting liveencoder rabbitmq queues
+[INFO] Deleting alarm-collector rabbitmq queues
+[WARNING] Fail to remove queue: alarm-collector
+[INFO] Restarting EL services
+[INFO] Configuring system
+[INFO] Service postfix restart
+[INFO] Patch firewalld
+MFVPEL controller app: configuration successful
+EE\      EE\ EE\   EE\       EEEEEEEE\                                     EE\ EE\                           EE\       EE\                      
+EEE\    EEE |EE | EE  |      EE  _____|                                    EE |\__|                          EE |      \__|                     
+EEEE\  EEEE |EE |EE  /       EE |      EEEEEEE\   EEEEEEE\  EEEEEE\   EEEEEEE |EE\ EEEEEEE\   EEEEEE\        EE |      EE\ EE\    EE\  EEEEEE\  
+EE\EE\EE EE |EEEEE  /        EEEEE\    EE  __EE\ EE  _____|EE  __EE\ EE  __EE |EE |EE  __EE\ EE  __EE\       EE |      EE |\EE\  EE  |EE  __EE\ 
+EE \EEE  EE |EE  EE<         EE  __|   EE |  EE |EE /      EE /  EE |EE /  EE |EE |EE |  EE |EE /  EE |      EE |      EE | \EE\EE  / EEEEEEEE |
+EE |\E  /EE |EE |\EE\        EE |      EE |  EE |EE |      EE |  EE |EE |  EE |EE |EE |  EE |EE |  EE |      EE |      EE |  \EEE  /  EE   ____|
+EE | \_/ EE |EE | \EE\       EEEEEEEE\ EE |  EE |\EEEEEEE\ \EEEEEE  |\EEEEEEE |EE |EE |  EE |\EEEEEEE |      EEEEEEEE\ EE |   \E  /   \EEEEEEE\ 
+\__|     \__|\__|  \__|      \________|\__|  \__| \_______| \______/  \_______|\__|\__|  \__| \____EE |      \________|\__|    \_/     \_______|
+                                                                                             EE\   EE |                                         
+                                                                                             \EEEEEE  |                                         
+                                                                                              \______/                                         
+[INFO] Standalone mode detected
+[INFO] No deltacast board detected
+[INFO] No VGA compatible controller Intel Corporation detected
+[INFO] Executing: /opt/ericsson/encoding-live-worker/setup/setup_system_conf.sh 
+Configuring ericsson-encoding-live-worker.conf
+Configuring ntp
+Configuring firewalld
+success
+success
+Service firewalld restart
+[INFO] Executing: /opt/ericsson/command/setup/setup_system_conf.sh
+Configuring selinux for command
+[INFO] Executing: /opt/ericsson/statistic/setup/setup_system_conf.sh
+Configuring selinux for statistic
+[INFO] Executing: /opt/ericsson/snmp/setup/setup_snmp_conf.sh
+system configuration for snmp
+Configuring firewall for snmp
+[INFO] Configuring support package for encoding-live-server services
+[INFO] Service postfix restart
+[INFO] Enable and Start monitorix
+[INFO] Detecting Replicaset
+		[WARNING] Try 1 failed
+		[WARNING] Try 2 failed
+	[INFO] No replicaset detected on 192.168.21.52:27017
+[INFO] Configuring server api
+[INFO] Registering serverID : standalone
+Server standalone already exists...
+b'{"serverId": "standalone", "supportedServiceTypes": ["controller", "licensing", "live_encoding"], "supportPackageUrl": "", "canBeDeleted": true, "canBeRebooted": false, "hideServer": false, "timeout": 10, "tags": []}': Server standalone successfully modified!
+	[INFO] Checking if standalone exists on controller 192.168.21.52
+	[INFO] Getting server list from controller 192.168.21.52
+	[INFO] Server standalone declared on controller 192.168.21.52
+[INFO] Configuring server daemon
+[INFO] Configuring daemon
+Configuring encoding-live-worker
+Configuring rsyslog
+Service ericsson-encoding-live-worker condrestart
+[INFO] Configuring command api
+Configuring command
+Service ericsson-command-api restart
+Service ericsson-command-redis restart
+[INFO] Configuring statistic api
+Configuring statistic
+Service ericsson-statistic-api restart
+Service ericsson-statistic-redis restart
+[INFO] Configuring snmp
+[INFO] Configuring automation scheduler
+[INFO] Configuring nmos: enable=false
+success
+Warning: NOT_ENABLED: 3212:tcp
+Removed symlink /etc/systemd/system/multi-user.target.wants/avahi-daemon.service.
+Removed symlink /etc/systemd/system/dbus-org.freedesktop.Avahi.service.
+Removed symlink /etc/systemd/system/sockets.target.wants/avahi-daemon.socket.
+Warning: NOT_ENABLED: 5353:udp
+success
+[INFO] Patch default syslog config
+[INFO] Configuring tuned-adm
+Removed symlink /etc/systemd/system/multi-user.target.wants/irqbalance.service.
+Disabling ntp tinker panic
+Configuring tuned-adm
+[INFO] Restarting EL services
+[INFO] Stopping ptp4l
+[INFO] Stopping phc2sys
+[INFO] Restarting ntpd
+[INFO] Patch firewalld
+[INFO] Updating weak modules
+	[INFO] Checking if standalone exists on controller 192.168.21.52
+	[INFO] Getting server list from controller 192.168.21.52
+	[INFO] Server standalone declared on controller 192.168.21.52
+[INFO] Remove Ghost serverId
+MFVPEL server app: configuration successful
+
+________________________________________________________________________________
+Tue Aug  8 00:45:02 KST 2023 ericsson-encoding-liveinstallation logs
+________________________________________________________________________________
+
+[INFO] Check os compatibility: CentOS Linux release 7.9.2009 (Core) officially supported
+ericsson-encoding-live-controller-14.0.5-35.el7.x86_64
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64
+[INFO] Customer specifically ask for one kind of install
+[INFO] Deleting envivio-proxy-control and envivio-guru-controller-core if existing
+package envivio-proxy is not installed
+package envivio-proxy-control is not installed
+package envivio-guru-controller-core is not installed
+package mfvp-encoding-live-server is not installed
+[INFO] Installing ericsson-encoding-live
+Name        : vbi_zvbi
+Version     : 0.2.33
+Release     : 3.el7
+Architecture: x86_64
+Install Date: Thu 12 May 2022 03:38:02 PM KST
+Group       : unknown
+Size        : 249736
+License     : LGPL 2.0
+Signature   : (none)
+Source RPM  : vbi_zvbi-0.2.33-3.el7.src.rpm
+Build Date  : Fri 25 Feb 2022 07:34:52 PM KST
+Build Host  : c0ebbe248c86
+Relocations : /usr 
+Vendor      : MediaKind
+Summary     : vbi_zvbi
+Description :
+Library that provides functions needed by VBI applications
+package biat is not installed
+package intel-linux-media is not installed
+Loaded plugins: fastestmirror, versionlock
+Determining fastest mirrors
+Package 1:openssl-1.0.2k-26.el7_9.x86_64 already installed and latest version
+Package librabbitmq-0.8.0-3.el7.x86_64 already installed and latest version
+Nothing to do
+Name        : monitorix
+Version     : 3.11.0
+Release     : 1.el7
+Architecture: noarch
+Install Date: Thu 12 May 2022 03:32:10 PM KST
+Group       : Unspecified
+Size        : 1911146
+License     : GPLv2+
+Signature   : RSA/SHA256, Fri 15 Mar 2019 12:49:40 AM KST, Key ID 6a2faea2352c64e5
+Source RPM  : monitorix-3.11.0-1.el7.src.rpm
+Build Date  : Fri 15 Mar 2019 12:44:48 AM KST
+Build Host  : buildvm-10.phx2.fedoraproject.org
+Relocations : (not relocatable)
+Packager    : Fedora Project
+Vendor      : Fedora Project
+URL         : http://www.monitorix.org
+Bug URL     : https://bugz.fedoraproject.org/monitorix
+Summary     : A free, open source, lightweight system monitoring tool
+Description :
+Monitorix is a free, open source, lightweight system monitoring tool designed
+to monitor as many services and system resources as possible. It has been
+created to be used under production Linux/UNIX servers, but due to its
+simplicity and small size may also be used on embedded devices as well.
+warning: /etc/monitorix/monitorix.conf saved as /etc/monitorix/monitorix.conf.rpmsave
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package monitorix.noarch 0:3.11.0-1.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package        Arch        Version              Repository                Size
+================================================================================
+Installing:
+ monitorix      noarch      3.11.0-1.el7         local-ericsson-repo      225 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 225 k
+Installed size: 1.8 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+Warning: RPMDB altered outside of yum.
+** Found 3 pre-existing rpmdb problem(s), 'yum check' output follows:
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of vbi_zvbi >= ('0', '0.2.33', '3.el7')
+ericsson-encoding-live-worker-26.17.70-0.el7.x86_64 has missing requires of libvbi_zvbi.so()(64bit)
+ericsson-encoding-live-worker-26.17.70-0.el7.x86_64 has missing requires of vbi_zvbi >= ('0', '0.2.33', '1')
+  Installing : monitorix-3.11.0-1.el7.noarch                                1/1 
+  Verifying  : monitorix-3.11.0-1.el7.noarch                                1/1 
+
+Installed:
+  monitorix.noarch 0:3.11.0-1.el7                                               
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package linuxptp-3.1-1.el7.x86_64 already installed and latest version
+Package mkptpconfig-1.1-2.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package deltacast-x300-6.10-13.el7.x86_64 already installed and latest version
+Package deltacast-hd-6.10-13.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package mediakind-gcrypt-1.7.6-2.el7.x86_64 already installed and latest version
+Package mediakind-gpg-error-1.36.0-2.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package 1:libuv-1.34.0-1.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package nss-mdns-0.14.1-1.el7.x86_64 already installed and latest version
+Package avahi-0.6.31-20.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package mediakind-jsoncpp-1.9.4-1.el7.x86_64 already installed and latest version
+No package json-cpp available.
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package mediakind-libresample-0.1.3-1.el7.x86_64 already installed and latest version
+Nothing to do
+[INFO] Removing previously installed Mellanox mlnx-en and Rivermax packages
+[INFO] - removing dpcp libibverbs librdmacm libvma mlnx-fw-updater rdma-core rivermax mlnx-ofa_kernel kmod-mlnx-ofa_kernel
+warning: /etc/infiniband/openib.conf saved as /etc/infiniband/openib.conf.rpmsave
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package mediakind-mellanox-driver-deployment.x86_64 0:5.2-1.0.4.0.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                       Arch   Version         Repository           Size
+================================================================================
+Installing:
+ mediakind-mellanox-driver-deployment
+                               x86_64 5.2-1.0.4.0.el7 local-ericsson-repo 5.2 M
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 5.2 M
+Installed size: 5.5 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+Warning: RPMDB altered outside of yum.
+** Found 11 pre-existing rpmdb problem(s), 'yum check' output follows:
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of dpcp >= ('0', '1.1.0', '1.52104')
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of libibverbs >= ('0', '52mlnx1', '1.52104')
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of librdmacm >= ('0', '52mlnx1', '1.52104')
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of libvma >= ('0', '9.2.2', '1')
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of mlnx-fw-updater >= ('0', '5.2', '1.0.4.0')
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of rdma-core >= ('0', '52mlnx1', '1.52104')
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of rivermax >= ('0', '11.2', '8.10.el7')
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of vbi_zvbi >= ('0', '0.2.33', '3.el7')
+ericsson-encoding-live-worker-26.17.70-0.el7.x86_64 has missing requires of librivermax.so.0()(64bit)
+ericsson-encoding-live-worker-26.17.70-0.el7.x86_64 has missing requires of libvbi_zvbi.so()(64bit)
+ericsson-encoding-live-worker-26.17.70-0.el7.x86_64 has missing requires of vbi_zvbi >= ('0', '0.2.33', '1')
+  Installing : mediakind-mellanox-driver-deployment-5.2-1.0.4.0.el7.x86_6   1/1 
+  Verifying  : mediakind-mellanox-driver-deployment-5.2-1.0.4.0.el7.x86_6   1/1 
+
+Installed:
+  mediakind-mellanox-driver-deployment.x86_64 0:5.2-1.0.4.0.el7                 
+
+Complete!
+[INFO] Removing the existing mellanox mlnx-en kernel space packages
+[INFO] Installing Mellanox mlnx-en kernel space packages
+Loaded plugins: fastestmirror, versionlock
+Examining ./mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.rhel7u9.x86_64.rpm: mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.rhel7u9.x86_64
+Marking ./mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.rhel7u9.x86_64.rpm to be installed
+Resolving Dependencies
+--> Running transaction check
+---> Package mlnx-ofa_kernel.x86_64 0:5.2-OFED.5.2.1.0.4.1.rhel7u9 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package
+       Arch   Version
+                     Repository                                            Size
+================================================================================
+Installing:
+ mlnx-ofa_kernel
+       x86_64 5.2-OFED.5.2.1.0.4.1.rhel7u9
+                     /mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.rhel7u9.x86_64 420 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total size: 420 k
+Installed size: 420 k
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.rhel7u9.x86_64          1/1 
+  Verifying  : mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.rhel7u9.x86_64          1/1 
+
+Installed:
+  mlnx-ofa_kernel.x86_64 0:5.2-OFED.5.2.1.0.4.1.rhel7u9                         
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Examining ./kmod-mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.202206210918.rhel7u9.x86_64.rpm: kmod-mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.202206210918.rhel7u9.x86_64
+Marking ./kmod-mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.202206210918.rhel7u9.x86_64.rpm to be installed
+Resolving Dependencies
+--> Running transaction check
+---> Package kmod-mlnx-ofa_kernel.x86_64 0:5.2-OFED.5.2.1.0.4.1.202206210918.rhel7u9 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package              Arch   Version                                   Repository
+                                                                           Size
+================================================================================
+Installing:
+ kmod-mlnx-ofa_kernel x86_64 5.2-OFED.5.2.1.0.4.1.202206210918.rhel7u9 /kmod-mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.202206210918.rhel7u9.x86_64
+                                                                          4.1 M
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total size: 4.1 M
+Installed size: 4.1 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : kmod-mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.202206210918.rhe   1/1 
+  Verifying  : kmod-mlnx-ofa_kernel-5.2-OFED.5.2.1.0.4.1.202206210918.rhe   1/1 
+
+Installed:
+  kmod-mlnx-ofa_kernel.x86_64 0:5.2-OFED.5.2.1.0.4.1.202206210918.rhel7u9       
+
+Complete!
+[INFO] Installing Mellanox mlnx-en user space packages
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package dpcp.x86_64 0:1.1.0-1.52104 will be installed
+---> Package libibverbs.x86_64 0:52mlnx1-1.52104 will be installed
+---> Package librdmacm.x86_64 0:52mlnx1-1.52104 will be installed
+---> Package libvma.x86_64 0:9.2.2-1 will be installed
+---> Package mlnx-fw-updater.x86_64 0:5.2-1.0.4.0 will be installed
+---> Package rdma-core.x86_64 0:52mlnx1-1.52104 will be installed
+---> Package rivermax.x86_64 0:11.2-8.10.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch      Version              Repository              Size
+================================================================================
+Installing:
+ dpcp               x86_64    1.1.0-1.52104        local-ericsson-repo     53 k
+ libibverbs         x86_64    52mlnx1-1.52104      local-ericsson-repo    178 k
+ librdmacm          x86_64    52mlnx1-1.52104      local-ericsson-repo     62 k
+ libvma             x86_64    9.2.2-1              local-ericsson-repo    575 k
+ mlnx-fw-updater    x86_64    5.2-1.0.4.0          local-ericsson-repo     94 M
+ rdma-core          x86_64    52mlnx1-1.52104      local-ericsson-repo     41 k
+ rivermax           x86_64    11.2-8.10.el7        local-ericsson-repo    1.0 M
+
+Transaction Summary
+================================================================================
+Install  7 Packages
+
+Total download size: 96 M
+Installed size: 110 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              291 MB/s |  96 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : rdma-core-52mlnx1-1.52104.x86_64                             1/7 
+  Installing : libibverbs-52mlnx1-1.52104.x86_64                            2/7 
+  Installing : dpcp-1.1.0-1.52104.x86_64                                    3/7 
+  Installing : librdmacm-52mlnx1-1.52104.x86_64                             4/7 
+  Installing : rivermax-11.2-8.10.el7.x86_64                                5/7 
+  Installing : libvma-9.2.2-1.x86_64                                        6/7 
+  Installing : mlnx-fw-updater-5.2-1.0.4.0.x86_64                           7/7 
+
+Added 'RUN_FW_UPDATER_ONBOOT=no to /etc/infiniband/openib.conf
+
+Initializing...
+Attempting to perform Firmware update...
+No devices found!
+
+  Verifying  : rivermax-11.2-8.10.el7.x86_64                                1/7 
+  Verifying  : mlnx-fw-updater-5.2-1.0.4.0.x86_64                           2/7 
+  Verifying  : dpcp-1.1.0-1.52104.x86_64                                    3/7 
+  Verifying  : libvma-9.2.2-1.x86_64                                        4/7 
+  Verifying  : rdma-core-52mlnx1-1.52104.x86_64                             5/7 
+  Verifying  : libibverbs-52mlnx1-1.52104.x86_64                            6/7 
+  Verifying  : librdmacm-52mlnx1-1.52104.x86_64                             7/7 
+
+Installed:
+  dpcp.x86_64 0:1.1.0-1.52104             libibverbs.x86_64 0:52mlnx1-1.52104   
+  librdmacm.x86_64 0:52mlnx1-1.52104      libvma.x86_64 0:9.2.2-1               
+  mlnx-fw-updater.x86_64 0:5.2-1.0.4.0    rdma-core.x86_64 0:52mlnx1-1.52104    
+  rivermax.x86_64 0:11.2-8.10.el7        
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package pciutils-3.5.1-3.el7.x86_64 already installed and latest version
+Nothing to do
+[INFO] Install driver for Kernel
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ocl-icd-2.2.12-1.el7.x86_64 already installed and latest version
+Resolving Dependencies
+--> Running transaction check
+---> Package intel-compute-runtime.x86_64 0:21.07.19042.mk1-20.el7 will be updated
+---> Package intel-compute-runtime.x86_64 0:22.22.23355.mk1-1.el7 will be an update
+---> Package intel-gmmlib.x86_64 0:21.3.2-20.el7 will be updated
+---> Package intel-gmmlib.x86_64 0:22.1.3-0.el7 will be an update
+---> Package intel-gpu-tools.x86_64 0:1.22-8.el7 will be installed
+---> Package intel-igc-core.x86_64 0:1.0.11378-0.el7 will be installed
+---> Package intel-igc-opencl.x86_64 0:1.0.11378-0.el7 will be installed
+---> Package intel-media-driver.x86_64 0:21.3.5.mk1-36.el7 will be updated
+---> Package intel-media-driver.x86_64 0:22.4.3-41.el7 will be an update
+---> Package intel-mediasdk.x86_64 0:21.3.5.mk2-26.el7 will be updated
+---> Package intel-mediasdk.x86_64 0:22.4.3.mk1-28.el7 will be an update
+---> Package libva.x86_64 0:2.13.0-24.el7 will be updated
+---> Package libva.x86_64 0:2.14.0-0.el7 will be an update
+---> Package libva-utils.x86_64 0:2.8.0-14.el7 will be updated
+---> Package libva-utils.x86_64 0:2.14.0-0.el7 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package               Arch   Version                 Repository           Size
+================================================================================
+Installing:
+ intel-gpu-tools       x86_64 1.22-8.el7              local-ericsson-repo 1.3 M
+ intel-igc-core        x86_64 1.0.11378-0.el7         local-ericsson-repo  21 M
+ intel-igc-opencl      x86_64 1.0.11378-0.el7         local-ericsson-repo  35 M
+Updating:
+ intel-compute-runtime x86_64 22.22.23355.mk1-1.el7   local-ericsson-repo 4.2 M
+ intel-gmmlib          x86_64 22.1.3-0.el7            local-ericsson-repo 120 k
+ intel-media-driver    x86_64 22.4.3-41.el7           local-ericsson-repo 6.4 M
+ intel-mediasdk        x86_64 22.4.3.mk1-28.el7       local-ericsson-repo 3.1 M
+ libva                 x86_64 2.14.0-0.el7            local-ericsson-repo  71 k
+ libva-utils           x86_64 2.14.0-0.el7            local-ericsson-repo 498 k
+
+Transaction Summary
+================================================================================
+Install  3 Packages
+Upgrade  6 Packages
+
+Total download size: 71 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              249 MB/s |  71 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+Warning: RPMDB altered outside of yum.
+** Found 6 pre-existing rpmdb problem(s), 'yum check' output follows:
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of intel-gpu-tools >= ('0', '1.22', '8.el7')
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of intel-igc-core >= ('0', '1.0.6087', '19.el7')
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of intel-igc-opencl >= ('0', '1.0.6087', '19.el7')
+ericsson-encoding-live-server-14.0.5-35.el7.x86_64 has missing requires of vbi_zvbi >= ('0', '0.2.33', '3.el7')
+ericsson-encoding-live-worker-26.17.70-0.el7.x86_64 has missing requires of libvbi_zvbi.so()(64bit)
+ericsson-encoding-live-worker-26.17.70-0.el7.x86_64 has missing requires of vbi_zvbi >= ('0', '0.2.33', '1')
+  Updating   : libva-2.14.0-0.el7.x86_64                                   1/15 
+  Updating   : intel-gmmlib-22.1.3-0.el7.x86_64                            2/15 
+  Updating   : intel-media-driver-22.4.3-41.el7.x86_64                     3/15 
+  Installing : intel-igc-core-1.0.11378-0.el7.x86_64                       4/15 
+  Installing : intel-igc-opencl-1.0.11378-0.el7.x86_64                     5/15 
+  Updating   : intel-compute-runtime-22.22.23355.mk1-1.el7.x86_64          6/15 
+  Updating   : intel-mediasdk-22.4.3.mk1-28.el7.x86_64                     7/15 
+  Updating   : libva-utils-2.14.0-0.el7.x86_64                             8/15 
+  Installing : intel-gpu-tools-1.22-8.el7.x86_64                           9/15 
+  Cleanup    : intel-mediasdk-21.3.5.mk2-26.el7.x86_64                    10/15 
+  Cleanup    : intel-media-driver-21.3.5.mk1-36.el7.x86_64                11/15 
+  Cleanup    : libva-utils-2.8.0-14.el7.x86_64                            12/15 
+  Cleanup    : intel-compute-runtime-21.07.19042.mk1-20.el7.x86_64        13/15 
+  Cleanup    : intel-gmmlib-21.3.2-20.el7.x86_64                          14/15 
+  Cleanup    : libva-2.13.0-24.el7.x86_64                                 15/15 
+  Verifying  : intel-mediasdk-22.4.3.mk1-28.el7.x86_64                     1/15 
+  Verifying  : intel-gmmlib-22.1.3-0.el7.x86_64                            2/15 
+  Verifying  : intel-compute-runtime-22.22.23355.mk1-1.el7.x86_64          3/15 
+  Verifying  : intel-gpu-tools-1.22-8.el7.x86_64                           4/15 
+  Verifying  : intel-igc-core-1.0.11378-0.el7.x86_64                       5/15 
+  Verifying  : intel-media-driver-22.4.3-41.el7.x86_64                     6/15 
+  Verifying  : libva-2.14.0-0.el7.x86_64                                   7/15 
+  Verifying  : intel-igc-opencl-1.0.11378-0.el7.x86_64                     8/15 
+  Verifying  : libva-utils-2.14.0-0.el7.x86_64                             9/15 
+  Verifying  : intel-mediasdk-21.3.5.mk2-26.el7.x86_64                    10/15 
+  Verifying  : intel-compute-runtime-21.07.19042.mk1-20.el7.x86_64        11/15 
+  Verifying  : intel-gmmlib-21.3.2-20.el7.x86_64                          12/15 
+  Verifying  : intel-media-driver-21.3.5.mk1-36.el7.x86_64                13/15 
+  Verifying  : libva-utils-2.8.0-14.el7.x86_64                            14/15 
+  Verifying  : libva-2.13.0-24.el7.x86_64                                 15/15 
+
+Installed:
+  intel-gpu-tools.x86_64 0:1.22-8.el7                                           
+  intel-igc-core.x86_64 0:1.0.11378-0.el7                                       
+  intel-igc-opencl.x86_64 0:1.0.11378-0.el7                                     
+
+Updated:
+  intel-compute-runtime.x86_64 0:22.22.23355.mk1-1.el7                          
+  intel-gmmlib.x86_64 0:22.1.3-0.el7                                            
+  intel-media-driver.x86_64 0:22.4.3-41.el7                                     
+  intel-mediasdk.x86_64 0:22.4.3.mk1-28.el7                                     
+  libva.x86_64 0:2.14.0-0.el7                                                   
+  libva-utils.x86_64 0:2.14.0-0.el7                                             
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package tuned-2.11.0-12.el7_9.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Resolving Dependencies
+--> Running transaction check
+---> Package ericsson-encoding-live-config.x86_64 0:1.100.0-0.el7 will be erased
+---> Package ericsson-encoding-live-controller.x86_64 0:14.0.5-35.el7 will be erased
+---> Package ericsson-encoding-live-server.x86_64 0:14.0.5-35.el7 will be erased
+---> Package ericsson-encoding-live-standalone.x86_64 0:14.0.5-35.el7 will be erased
+---> Package ericsson-encoding-live-ui-connector.x86_64 0:2.67.1-0.el7 will be erased
+---> Package ericsson-encoding-live-worker.x86_64 0:26.17.70-0.el7 will be erased
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                       Arch   Version        Repository            Size
+================================================================================
+Removing:
+ ericsson-encoding-live-config x86_64 1.100.0-0.el7  @local-ericsson-repo  25 M
+ ericsson-encoding-live-controller
+                               x86_64 14.0.5-35.el7  @local-ericsson-repo  60 k
+ ericsson-encoding-live-server x86_64 14.0.5-35.el7  @local-ericsson-repo 124 k
+ ericsson-encoding-live-standalone
+                               x86_64 14.0.5-35.el7  @local-ericsson-repo  21 k
+ ericsson-encoding-live-ui-connector
+                               x86_64 2.67.1-0.el7   @local-ericsson-repo 114 M
+ ericsson-encoding-live-worker x86_64 26.17.70-0.el7 @local-ericsson-repo 433 M
+
+Transaction Summary
+================================================================================
+Remove  6 Packages
+
+Installed size: 572 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Erasing    : ericsson-encoding-live-standalone-14.0.5-35.el7.x86_64       1/6 
+  Erasing    : ericsson-encoding-live-controller-14.0.5-35.el7.x86_64       2/6 
+  Erasing    : ericsson-encoding-live-server-14.0.5-35.el7.x86_64           3/6 
+  Erasing    : ericsson-encoding-live-ui-connector-2.67.1-0.el7.x86_64      4/6 
+  Erasing    : ericsson-encoding-live-worker-26.17.70-0.el7.x86_64          5/6 
+Removed symlink /etc/systemd/system/multi-user.target.wants/ericsson-encoding-live-config.service.
+  Erasing    : ericsson-encoding-live-config-1.100.0-0.el7.x86_64           6/6 
+warning: /opt/ericsson/encoding-live-config/etc/liveencoder_config_manager_v1.0.yaml saved as /opt/ericsson/encoding-live-config/etc/liveencoder_config_manager_v1.0.yaml.rpmsave
+warning: /opt/ericsson/encoding-live-config/etc/encoding-live-config.ini saved as /opt/ericsson/encoding-live-config/etc/encoding-live-config.ini.rpmsave
+  Verifying  : ericsson-encoding-live-worker-26.17.70-0.el7.x86_64          1/6 
+  Verifying  : ericsson-encoding-live-server-14.0.5-35.el7.x86_64           2/6 
+  Verifying  : ericsson-encoding-live-controller-14.0.5-35.el7.x86_64       3/6 
+  Verifying  : ericsson-encoding-live-ui-connector-2.67.1-0.el7.x86_64      4/6 
+  Verifying  : ericsson-encoding-live-standalone-14.0.5-35.el7.x86_64       5/6 
+  Verifying  : ericsson-encoding-live-config-1.100.0-0.el7.x86_64           6/6 
+
+Removed:
+  ericsson-encoding-live-config.x86_64 0:1.100.0-0.el7                          
+  ericsson-encoding-live-controller.x86_64 0:14.0.5-35.el7                      
+  ericsson-encoding-live-server.x86_64 0:14.0.5-35.el7                          
+  ericsson-encoding-live-standalone.x86_64 0:14.0.5-35.el7                      
+  ericsson-encoding-live-ui-connector.x86_64 0:2.67.1-0.el7                     
+  ericsson-encoding-live-worker.x86_64 0:26.17.70-0.el7                         
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package ericsson-encoding-live-standalone.x86_64 0:14.0.8-250.el7 will be installed
+--> Processing Dependency: ericsson-encoding-live-server >= 14.0.8-250.el7 for package: ericsson-encoding-live-standalone-14.0.8-250.el7.x86_64
+--> Processing Dependency: ericsson-encoding-live-controller >= 14.0.8-250.el7 for package: ericsson-encoding-live-standalone-14.0.8-250.el7.x86_64
+--> Running transaction check
+---> Package ericsson-encoding-live-controller.x86_64 0:14.0.8-250.el7 will be installed
+--> Processing Dependency: mediakind-live-sources-config >= 0.15.1-1.el7 for package: ericsson-encoding-live-controller-14.0.8-250.el7.x86_64
+--> Processing Dependency: mediakind-internal-pois-resiliency >= 0.9.1-0.el7 for package: ericsson-encoding-live-controller-14.0.8-250.el7.x86_64
+--> Processing Dependency: ericsson-encoding-live-ui-connector >= 2.71.3-0.el7 for package: ericsson-encoding-live-controller-14.0.8-250.el7.x86_64
+--> Processing Dependency: ericsson-encoding-live-config >= 1.101.2-1.el7 for package: ericsson-encoding-live-controller-14.0.8-250.el7.x86_64
+--> Processing Dependency: ericsson-automation-proxy >= 1.3.338-0.el7 for package: ericsson-encoding-live-controller-14.0.8-250.el7.x86_64
+---> Package ericsson-encoding-live-server.x86_64 0:14.0.8-250.el7 will be installed
+--> Processing Dependency: videomasterhd >= 6.10-10.el7 for package: ericsson-encoding-live-server-14.0.8-250.el7.x86_64
+--> Processing Dependency: vbi_zvbi >= 0.2.33-3.el7 for package: ericsson-encoding-live-server-14.0.8-250.el7.x86_64
+--> Processing Dependency: mediakind-libcurl >= 7.87.0-4.el7 for package: ericsson-encoding-live-server-14.0.8-250.el7.x86_64
+--> Processing Dependency: level-zero >= 1.8.1-0.el7 for package: ericsson-encoding-live-server-14.0.8-250.el7.x86_64
+--> Processing Dependency: fmtswatermarksdk-static >= 4.6.6-1.el7 for package: ericsson-encoding-live-server-14.0.8-250.el7.x86_64
+--> Processing Dependency: ericsson-tuned-performance >= 3.0.10-0.el7 for package: ericsson-encoding-live-server-14.0.8-250.el7.x86_64
+--> Processing Dependency: ericsson-encoding-live-worker >= 26.19.345-0.el7 for package: ericsson-encoding-live-server-14.0.8-250.el7.x86_64
+--> Running transaction check
+---> Package ericsson-automation-proxy.x86_64 0:1.2.48-0.el7 will be updated
+---> Package ericsson-automation-proxy.x86_64 0:1.3.338-0.el7 will be an update
+---> Package ericsson-encoding-live-config.x86_64 0:1.101.2-1.el7 will be installed
+---> Package ericsson-encoding-live-ui-connector.x86_64 0:2.71.3-0.el7 will be installed
+---> Package ericsson-encoding-live-worker.x86_64 0:26.19.345-0.el7 will be installed
+---> Package ericsson-tuned-performance.x86_64 0:3.0.4-0.el7 will be updated
+---> Package ericsson-tuned-performance.x86_64 0:3.0.10-0.el7 will be an update
+---> Package fmtswatermarksdk-static.x86_64 0:4.6.6-1.el7 will be installed
+---> Package level-zero.x86_64 0:1.1.0-6.el7 will be updated
+---> Package level-zero.x86_64 0:1.8.1-0.el7 will be an update
+---> Package mediakind-internal-pois-resiliency.x86_64 0:0.9.0-0.el7 will be updated
+---> Package mediakind-internal-pois-resiliency.x86_64 0:0.9.1-0.el7 will be an update
+---> Package mediakind-libcurl.x86_64 0:7.87.0-4.el7 will be installed
+--> Processing Dependency: libcares.so.2()(64bit) for package: mediakind-libcurl-7.87.0-4.el7.x86_64
+---> Package mediakind-live-sources-config.x86_64 0:0.15.0-0.el7 will be updated
+---> Package mediakind-live-sources-config.x86_64 0:0.15.1-1.el7 will be an update
+---> Package vbi_zvbi.x86_64 0:0.2.33-3.el7 will be installed
+---> Package videomasterhd.x86_64 0:6.10-9.el7 will be updated
+---> Package videomasterhd.x86_64 0:6.10-10.el7 will be an update
+--> Running transaction check
+---> Package c-ares.x86_64 0:1.10.0-3.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                       Arch   Version         Repository           Size
+================================================================================
+Installing:
+ ericsson-encoding-live-standalone
+                               x86_64 14.0.8-250.el7  local-ericsson-repo 8.9 k
+Installing for dependencies:
+ c-ares                        x86_64 1.10.0-3.el7    local-ericsson-repo  78 k
+ ericsson-encoding-live-config x86_64 1.101.2-1.el7   local-ericsson-repo 4.7 M
+ ericsson-encoding-live-controller
+                               x86_64 14.0.8-250.el7  local-ericsson-repo  19 k
+ ericsson-encoding-live-server x86_64 14.0.8-250.el7  local-ericsson-repo  38 k
+ ericsson-encoding-live-ui-connector
+                               x86_64 2.71.3-0.el7    local-ericsson-repo  31 M
+ ericsson-encoding-live-worker x86_64 26.19.345-0.el7 local-ericsson-repo  69 M
+ fmtswatermarksdk-static       x86_64 4.6.6-1.el7     local-ericsson-repo  70 k
+ mediakind-libcurl             x86_64 7.87.0-4.el7    local-ericsson-repo 325 k
+ vbi_zvbi                      x86_64 0.2.33-3.el7    local-ericsson-repo  92 k
+Updating for dependencies:
+ ericsson-automation-proxy     x86_64 1.3.338-0.el7   local-ericsson-repo 5.7 M
+ ericsson-tuned-performance    x86_64 3.0.10-0.el7    local-ericsson-repo  14 k
+ level-zero                    x86_64 1.8.1-0.el7     local-ericsson-repo 128 k
+ mediakind-internal-pois-resiliency
+                               x86_64 0.9.1-0.el7     local-ericsson-repo 8.4 M
+ mediakind-live-sources-config x86_64 0.15.1-1.el7    local-ericsson-repo 4.6 M
+ videomasterhd                 x86_64 6.10-10.el7     local-ericsson-repo 964 k
+
+Transaction Summary
+================================================================================
+Install  1 Package  (+9 Dependent packages)
+Upgrade             ( 6 Dependent packages)
+
+Total download size: 125 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              358 MB/s | 125 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : videomasterhd-6.10-10.el7.x86_64                            1/22 
+  Installing : vbi_zvbi-0.2.33-3.el7.x86_64                                2/22 
+  Updating   : ericsson-tuned-performance-3.0.10-0.el7.x86_64              3/22 
+  Installing : ericsson-encoding-live-ui-connector-2.71.3-0.el7.x86_64     4/22 
+  Updating   : level-zero-1.8.1-0.el7.x86_64                               5/22 
+  Installing : c-ares-1.10.0-3.el7.x86_64                                  6/22 
+  Installing : mediakind-libcurl-7.87.0-4.el7.x86_64                       7/22 
+  Updating   : ericsson-automation-proxy-1.3.338-0.el7.x86_64              8/22 
+  Installing : ericsson-encoding-live-worker-26.19.345-0.el7.x86_64        9/22 
+  Updating   : mediakind-live-sources-config-0.15.1-1.el7.x86_64          10/22 
+  Updating   : mediakind-internal-pois-resiliency-0.9.1-0.el7.x86_64      11/22 
+  Installing : fmtswatermarksdk-static-4.6.6-1.el7.x86_64                 12/22 
+  Installing : ericsson-encoding-live-server-14.0.8-250.el7.x86_64        13/22 
+  Installing : ericsson-encoding-live-config-1.101.2-1.el7.x86_64         14/22 
+  Installing : ericsson-encoding-live-controller-14.0.8-250.el7.x86_64    15/22 
+  Installing : ericsson-encoding-live-standalone-14.0.8-250.el7.x86_64    16/22 
+  Cleanup    : ericsson-tuned-performance-3.0.4-0.el7.x86_64              17/22 
+  Cleanup    : videomasterhd-6.10-9.el7.x86_64                            18/22 
+  Cleanup    : ericsson-automation-proxy-1.2.48-0.el7.x86_64              19/22 
+  Cleanup    : level-zero-1.1.0-6.el7.x86_64                              20/22 
+  Cleanup    : mediakind-live-sources-config-0.15.0-0.el7.x86_64          21/22 
+  Cleanup    : mediakind-internal-pois-resiliency-0.9.0-0.el7.x86_64      22/22 
+ericsson-controller-14.0.10-753.el7.x86_64
+  Verifying  : ericsson-encoding-live-config-1.101.2-1.el7.x86_64          1/22 
+  Verifying  : vbi_zvbi-0.2.33-3.el7.x86_64                                2/22 
+  Verifying  : fmtswatermarksdk-static-4.6.6-1.el7.x86_64                  3/22 
+  Verifying  : mediakind-internal-pois-resiliency-0.9.1-0.el7.x86_64       4/22 
+  Verifying  : mediakind-live-sources-config-0.15.1-1.el7.x86_64           5/22 
+  Verifying  : c-ares-1.10.0-3.el7.x86_64                                  6/22 
+  Verifying  : ericsson-encoding-live-server-14.0.8-250.el7.x86_64         7/22 
+  Verifying  : ericsson-encoding-live-controller-14.0.8-250.el7.x86_64     8/22 
+  Verifying  : level-zero-1.8.1-0.el7.x86_64                               9/22 
+  Verifying  : ericsson-automation-proxy-1.3.338-0.el7.x86_64             10/22 
+  Verifying  : mediakind-libcurl-7.87.0-4.el7.x86_64                      11/22 
+  Verifying  : ericsson-encoding-live-ui-connector-2.71.3-0.el7.x86_64    12/22 
+  Verifying  : videomasterhd-6.10-10.el7.x86_64                           13/22 
+  Verifying  : ericsson-tuned-performance-3.0.10-0.el7.x86_64             14/22 
+  Verifying  : ericsson-encoding-live-standalone-14.0.8-250.el7.x86_64    15/22 
+  Verifying  : ericsson-encoding-live-worker-26.19.345-0.el7.x86_64       16/22 
+  Verifying  : level-zero-1.1.0-6.el7.x86_64                              17/22 
+  Verifying  : ericsson-automation-proxy-1.2.48-0.el7.x86_64              18/22 
+  Verifying  : ericsson-tuned-performance-3.0.4-0.el7.x86_64              19/22 
+  Verifying  : mediakind-internal-pois-resiliency-0.9.0-0.el7.x86_64      20/22 
+  Verifying  : videomasterhd-6.10-9.el7.x86_64                            21/22 
+  Verifying  : mediakind-live-sources-config-0.15.0-0.el7.x86_64          22/22 
+
+Installed:
+  ericsson-encoding-live-standalone.x86_64 0:14.0.8-250.el7                     
+
+Dependency Installed:
+  c-ares.x86_64 0:1.10.0-3.el7                                                  
+  ericsson-encoding-live-config.x86_64 0:1.101.2-1.el7                          
+  ericsson-encoding-live-controller.x86_64 0:14.0.8-250.el7                     
+  ericsson-encoding-live-server.x86_64 0:14.0.8-250.el7                         
+  ericsson-encoding-live-ui-connector.x86_64 0:2.71.3-0.el7                     
+  ericsson-encoding-live-worker.x86_64 0:26.19.345-0.el7                        
+  fmtswatermarksdk-static.x86_64 0:4.6.6-1.el7                                  
+  mediakind-libcurl.x86_64 0:7.87.0-4.el7                                       
+  vbi_zvbi.x86_64 0:0.2.33-3.el7                                                
+
+Dependency Updated:
+  ericsson-automation-proxy.x86_64 0:1.3.338-0.el7                              
+  ericsson-tuned-performance.x86_64 0:3.0.10-0.el7                              
+  level-zero.x86_64 0:1.8.1-0.el7                                               
+  mediakind-internal-pois-resiliency.x86_64 0:0.9.1-0.el7                       
+  mediakind-live-sources-config.x86_64 0:0.15.1-1.el7                           
+  videomasterhd.x86_64 0:6.10-10.el7                                            
+
+Complete!
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-automation-config-2.3.23-1.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-automation-proxy-1.3.338-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-encoding-live-config-1.101.2-1.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-encoding-live-ui-connector-2.71.3-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-python34-3.4.6-0.0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-python37-3.7.9-0.0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-python39-3.9.9-0.0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package matching ericsson-alarm-proxy-1.40.0-0.el7.x86_64 already installed. Checking for update.
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-automation-scheduler-2.00.15-002.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-command-1.11.1-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-encoding-live-worker-26.19.345-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-nmos-0.33.0-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package matching ericsson-nmos-sidecar-0.4.0-0.el7.x86_64 already installed. Checking for update.
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-python37-3.7.9-0.0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-python39-3.9.9-0.0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-server-daemon-0.58.4-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-snmp-1.4.0-18.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-statistic-2.8.0-0.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-support-0.4.15-0.el7.centos.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Package ericsson-tuned-performance-3.0.10-0.el7.x86_64 already installed and latest version
+Nothing to do
+Installation successful
+[INFO] /var/opt/ericsson/network.json exists, config will be reapplied
+EE\      EE\ EE\   EE\       EEEEEEEE\                                     EE\ EE\                           EE\       EE\                      
+EEE\    EEE |EE | EE  |      EE  _____|                                    EE |\__|                          EE |      \__|                     
+EEEE\  EEEE |EE |EE  /       EE |      EEEEEEE\   EEEEEEE\  EEEEEE\   EEEEEEE |EE\ EEEEEEE\   EEEEEE\        EE |      EE\ EE\    EE\  EEEEEE\  
+EE\EE\EE EE |EEEEE  /        EEEEE\    EE  __EE\ EE  _____|EE  __EE\ EE  __EE |EE |EE  __EE\ EE  __EE\       EE |      EE |\EE\  EE  |EE  __EE\ 
+EE \EEE  EE |EE  EE<         EE  __|   EE |  EE |EE /      EE /  EE |EE /  EE |EE |EE |  EE |EE /  EE |      EE |      EE | \EE\EE  / EEEEEEEE |
+EE |\E  /EE |EE |\EE\        EE |      EE |  EE |EE |      EE |  EE |EE |  EE |EE |EE |  EE |EE |  EE |      EE |      EE |  \EEE  /  EE   ____|
+EE | \_/ EE |EE | \EE\       EEEEEEEE\ EE |  EE |\EEEEEEE\ \EEEEEE  |\EEEEEEE |EE |EE |  EE |\EEEEEEE |      EEEEEEEE\ EE |   \E  /   \EEEEEEE\ 
+\__|     \__|\__|  \__|      \________|\__|  \__| \_______| \______/  \_______|\__|\__|  \__| \____EE |      \________|\__|    \_/     \_______|
+                                                                                             EE\   EE |                                         
+                                                                                             \EEEEEE  |                                         
+                                                                                              \______/                                         
+[INFO] Standalone mode detected
+[INFO] Configuring el config
+[INFO] Configuring el connector
+[INFO] Configuring internal pois resiliency
+[INFO] Configuring live sources config
+[INFO] Configuring automation config
+[INFO] Configuring Connector in server daemon
+[INFO] Configuring interface discovery
+[INFO] Enable Feature in controller
+[INFO] Deleting liveencoder rabbitmq queues
+[INFO] Deleting alarm-collector rabbitmq queues
+[WARNING] Fail to remove queue: alarm-collector
+[INFO] Restarting EL services
+[INFO] Configuring system
+[INFO] Service postfix restart
+[INFO] Patch firewalld
+MFVPEL controller app: configuration successful
+EE\      EE\ EE\   EE\       EEEEEEEE\                                     EE\ EE\                           EE\       EE\                      
+EEE\    EEE |EE | EE  |      EE  _____|                                    EE |\__|                          EE |      \__|                     
+EEEE\  EEEE |EE |EE  /       EE |      EEEEEEE\   EEEEEEE\  EEEEEE\   EEEEEEE |EE\ EEEEEEE\   EEEEEE\        EE |      EE\ EE\    EE\  EEEEEE\  
+EE\EE\EE EE |EEEEE  /        EEEEE\    EE  __EE\ EE  _____|EE  __EE\ EE  __EE |EE |EE  __EE\ EE  __EE\       EE |      EE |\EE\  EE  |EE  __EE\ 
+EE \EEE  EE |EE  EE<         EE  __|   EE |  EE |EE /      EE /  EE |EE /  EE |EE |EE |  EE |EE /  EE |      EE |      EE | \EE\EE  / EEEEEEEE |
+EE |\E  /EE |EE |\EE\        EE |      EE |  EE |EE |      EE |  EE |EE |  EE |EE |EE |  EE |EE |  EE |      EE |      EE |  \EEE  /  EE   ____|
+EE | \_/ EE |EE | \EE\       EEEEEEEE\ EE |  EE |\EEEEEEE\ \EEEEEE  |\EEEEEEE |EE |EE |  EE |\EEEEEEE |      EEEEEEEE\ EE |   \E  /   \EEEEEEE\ 
+\__|     \__|\__|  \__|      \________|\__|  \__| \_______| \______/  \_______|\__|\__|  \__| \____EE |      \________|\__|    \_/     \_______|
+                                                                                             EE\   EE |                                         
+                                                                                             \EEEEEE  |                                         
+                                                                                              \______/                                         
+[INFO] Standalone mode detected
+[INFO] No deltacast board detected
+[INFO] No VGA compatible controller Intel Corporation detected
+[INFO] No mellanox board detected
+[INFO] Executing: /opt/ericsson/encoding-live-worker/setup/setup_system_conf.sh 
+Configuring ericsson-encoding-live-worker.conf
+Configuring ntp
+Configuring firewalld
+Service firewalld restart
+[INFO] Executing: /opt/ericsson/command/setup/setup_system_conf.sh
+Configuring selinux for command
+[INFO] Executing: /opt/ericsson/statistic/setup/setup_system_conf.sh
+Configuring selinux for statistic
+[INFO] Executing: /opt/ericsson/snmp/setup/setup_snmp_conf.sh
+system configuration for snmp
+Configuring firewall for snmp
+[INFO] Configuring support package for encoding-live-server services
+[INFO] Service postfix restart
+[INFO] Enable and Start monitorix
+[INFO] Detecting Replicaset
+		[WARNING] Try 1 failed
+		[WARNING] Try 2 failed
+	[INFO] No replicaset detected on 192.168.21.51:27017
+[INFO] Configuring server api
+[INFO] Registering serverID : standalone
+Server standalone already exists...
+Server standalone already supports live_encoding type! or support package url
+	[INFO] Checking if standalone exists on controller 192.168.21.51
+	[INFO] Getting server list from controller 192.168.21.51
+	[INFO] Server standalone declared on controller 192.168.21.51
+[INFO] Configuring server daemon
+2023-08-08 00:51:54,497 | cfg_soft | INFO     | live_encoding: update name ericsson-encoding-live -> ericsson-encoding-live
+2023-08-08 00:51:54,497 | cfg_soft | INFO     | live_encoding : update version 14.0.5.35 -> 14.0.8.250
+[INFO] Configuring daemon
+Configuring encoding-live-worker
+Configuring rsyslog
+Service ericsson-encoding-live-worker condrestart
+[INFO] Configuring command api
+Configuring command
+Service ericsson-command-api restart
+Service ericsson-command-redis restart
+[INFO] Configuring statistic api
+Configuring statistic
+Service ericsson-statistic-api restart
+Service ericsson-statistic-redis restart
+[INFO] Configuring snmp
+[INFO] Configuring automation scheduler
+[INFO] Configuring nmos: enable=false
+Keep existing 820-seed.json
+Warning: NOT_ENABLED: 3212:tcp
+success
+Warning: NOT_ENABLED: 5353:udp
+success
+[INFO] Patch default syslog config
+[INFO] Configuring tuned-adm
+Disabling ntp tinker panic
+Configuring tuned-adm
+Cannot talk to Tuned daemon via DBus. Is Tuned daemon running?
+[INFO] Restarting EL services
+[INFO] Stopping ptp4l
+[INFO] Stopping phc2sys
+[INFO] Restarting ntpd
+[INFO] Patch firewalld
+[INFO] Updating weak modules
+[WARNING] New weak modules created: reboot required
+	[INFO] Checking if standalone exists on controller 192.168.21.51
+	[INFO] Getting server list from controller 192.168.21.51
+	[INFO] Server standalone declared on controller 192.168.21.51
+[INFO] Remove Ghost serverId
+MFVPEL server app: configuration successful

@@ -1,0 +1,65 @@
+Aug  8 00:52:25.014191 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:25.032876 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:25.036334 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:52:25.074188 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:52:25.705433 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 00:59:35.286209 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.303151 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.306766 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:59:35.341965 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:59:36.366589 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 23:10:22.826155 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:22.842345 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:22.845711 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 23:10:22.879521 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 23:10:23.273661 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:39:15.919154 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:15.936056 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:15.939462 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:39:15.974307 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:39:16.388067 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Sep 25 16:35:14.656764 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:14.673599 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:14.677089 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Sep 25 16:35:14.711901 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 25 16:35:15.116797 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Oct 25 03:27:36.126791 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.143496 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.146706 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Oct 25 03:27:36.181102 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Oct 25 03:27:36.900895 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Nov 16 16:47:08.565781 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:08.584962 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:08.588320 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Nov 16 16:47:08.622724 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 16 16:47:09.053964 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Nov 23 10:21:20.520769 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:20.537287 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:20.540676 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Nov 23 10:21:20.575789 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 23 10:21:20.983071 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Nov 28 14:33:56.870095 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:33:56.886132 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:33:56.889543 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Nov 28 14:33:56.923912 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 28 14:33:57.325040 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Dec 18 14:02:49.623175 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:49.639708 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:49.643297 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Dec 18 14:02:49.680738 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 18 14:02:51.089865 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Jan 24 13:31:30.804782 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:30.821084 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:30.824903 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Jan 24 13:31:30.860050 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Jan 24 13:31:31.258765 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:06:26.473789 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.490243 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.493474 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:06:26.528037 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:06:27.104003 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:08:28.050857 BS18_TS04_TEST_01  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:28.066602 BS18_TS04_TEST_01  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:28.069854 BS18_TS04_TEST_01  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:08:28.103027 BS18_TS04_TEST_01  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:08:28.508280 BS18_TS04_TEST_01  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS04 on AlternateDynamicLive1 (Master__input_1)

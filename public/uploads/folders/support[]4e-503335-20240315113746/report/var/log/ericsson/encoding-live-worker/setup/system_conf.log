@@ -1,0 +1,990 @@
+lD1.service to /usr/lib/systemd/system/firewalld.service.
+Created symlink from /etc/systemd/system/multi-user.target.wants/firewalld.service to /usr/lib/systemd/system/firewalld.service.
+*******************************************
+*******************************************
+** Thu May 12 15:51:46 KST 2022 
+** Entering in /opt/ericsson/encoding-live-worker/setup/setup_system_conf.sh for system conf
+Remote execution: stdout/stderr will not be logged
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 3
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 3
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_congestion_control = htcp
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /usr/lib/sysctl.d/00-system.conf ...
+* Applying /usr/lib/sysctl.d/10-default-yama-scope.conf ...
+kernel.yama.ptrace_scope = 0
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+kernel.sysrq = 16
+kernel.core_uses_pid = 1
+kernel.kptr_restrict = 1
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.all.promote_secondaries = 1
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+* Applying /etc/sysctl.d/ericsson-encoding-live-worker.conf ...
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 3
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 3
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_congestion_control = htcp
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /etc/sysctl.conf ...
+Service ntpd restart
+firewalld-0.6.3-13.el7_9.noarch
+Removed symlink /etc/systemd/system/multi-user.target.wants/firewalld.service.
+Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
+Service firewalld stop
+ipv4 filter INPUT 0 -i lo -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p igmp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 21 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 22 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 443 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 53 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p udp --dport 53 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p udp --dport 5555:5655 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -o lo -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p igmp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 162 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 21 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 443 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 53 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 123 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 53 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 5555:5655 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 9100:9200 -j ACCEPT: already defined
+Created symlink from /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service to /usr/lib/systemd/system/firewalld.service.
+Created symlink from /etc/systemd/system/multi-user.target.wants/firewalld.service to /usr/lib/systemd/system/firewalld.service.
+*******************************************
+*******************************************
+** Thu May 12 16:07:45 KST 2022 
+** Entering in /opt/ericsson/encoding-live-worker/setup/setup_system_conf.sh for system conf
+Remote execution: stdout/stderr will not be logged
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 2
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 2
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_congestion_control = htcp
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /usr/lib/sysctl.d/00-system.conf ...
+* Applying /usr/lib/sysctl.d/10-default-yama-scope.conf ...
+kernel.yama.ptrace_scope = 0
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+kernel.sysrq = 16
+kernel.core_uses_pid = 1
+kernel.kptr_restrict = 1
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.all.promote_secondaries = 1
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+* Applying /etc/sysctl.d/ericsson-encoding-live-worker.conf ...
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 2
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 2
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_congestion_control = htcp
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /etc/sysctl.conf ...
+Service ntpd restart
+firewalld-0.6.3-13.el7_9.noarch
+Removed symlink /etc/systemd/system/multi-user.target.wants/firewalld.service.
+Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
+Service firewalld stop
+ipv4 filter INPUT 0 -i lo -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p igmp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 21 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 22 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 443 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 53 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p udp --dport 53 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p udp --dport 5555:5655 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -o lo -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p igmp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 162 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 21 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 443 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 53 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 123 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 53 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 5555:5655 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 9100:9200 -j ACCEPT: already defined
+Created symlink from /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service to /usr/lib/systemd/system/firewalld.service.
+Created symlink from /etc/systemd/system/multi-user.target.wants/firewalld.service to /usr/lib/systemd/system/firewalld.service.
+*******************************************
+*******************************************
+** Tue Jul 12 19:41:31 KST 2022 
+** Entering in /opt/ericsson/encoding-live-worker/setup/setup_system_conf.sh for system conf
+Remote execution: stdout/stderr will not be logged
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 2
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 2
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_congestion_control = htcp
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 6553*******************************************
+** Thu May 12 15:42:08 KST 2022 
+** Entering in /opt/ericsson/encoding-live-worker/setup/setup_system_conf.sh for system conf
+Remote execution: stdout/stderr will not be logged
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 3
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 3
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_congestion_control = htcp
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /usr/lib/sysctl.d/00-system.conf ...
+* Applying /usr/lib/sysctl.d/10-default-yama-scope.conf ...
+kernel.yama.ptrace_scope = 0
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+kernel.sysrq = 16
+kernel.core_uses_pid = 1
+kernel.kptr_restrict = 1
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.all.promote_secondaries = 1
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+* Applying /etc/sysctl.d/ericsson-encoding-live-worker.conf ...
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 3
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 3
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_congestion_control = htcp
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /etc/sysctl.conf ...
+Service ntpd restart
+firewalld-0.6.3-13.el7_9.noarch
+Removed symlink /etc/systemd/system/multi-user.target.wants/firewalld.service.
+Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
+Service firewalld stop
+ipv4 filter INPUT 0 -i lo -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -p igmp -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -p tcp --dport 21 -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -p tcp --dport 22 -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -p tcp --dport 443 -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -p tcp --dport 53 -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -p udp --dport 53 -j ACCEPT: will be applied
+success
+ipv4 filter INPUT 0 -p udp --dport 5555:5655 -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -o lo -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p igmp -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p tcp --dport 162 -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p tcp --dport 21 -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p tcp --dport 443 -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p tcp --dport 53 -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p udp --dport 123 -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p udp --dport 53 -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p udp --dport 5555:5655 -j ACCEPT: will be applied
+success
+ipv4 filter OUTPUT 0 -p tcp --dport 9100:9200 -j ACCEPT: will be applied
+success
+Created symlink from /etc/systemd/system/dbus-org.fedoraproject.Firewal6
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /usr/lib/sysctl.d/00-system.conf ...
+* Applying /usr/lib/sysctl.d/10-default-yama-scope.conf ...
+kernel.yama.ptrace_scope = 0
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+kernel.sysrq = 16
+kernel.core_uses_pid = 1
+kernel.kptr_restrict = 1
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.all.promote_secondaries = 1
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+* Applying /etc/sysctl.d/ericsson-encoding-live-worker.conf ...
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 2
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 2
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_congestion_control = htcp
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /etc/sysctl.conf ...
+Service ntpd restart
+firewalld-0.6.3-13.el7_9.noarch
+Removed symlink /etc/systemd/system/multi-user.target.wants/firewalld.service.
+Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
+Service firewalld stop
+ipv4 filter INPUT 0 -i lo -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p igmp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 21 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 22 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 443 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 53 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p udp --dport 53 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p udp --dport 5555:5655 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -o lo -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p igmp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 162 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 21 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 443 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 53 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 123 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 53 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 5555:5655 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 9100:9200 -j ACCEPT: already defined
+Created symlink from /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service to /usr/lib/systemd/system/firewalld.service.
+Created symlink from /etc/systemd/system/multi-user.target.wants/firewalld.service to /usr/lib/systemd/system/firewalld.service.
+*******************************************
+*******************************************
+** Tue Jul 12 19:47:55 KST 2022 
+** Entering in /opt/ericsson/encoding-live-worker/setup/setup_system_conf.sh for system conf
+Remote execution: stdout/stderr will not be logged
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 2
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 2
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_congestion_control = htcp
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /usr/lib/sysctl.d/00-system.conf ...
+* Applying /usr/lib/sysctl.d/10-default-yama-scope.conf ...
+kernel.yama.ptrace_scope = 0
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+kernel.sysrq = 16
+kernel.core_uses_pid = 1
+kernel.kptr_restrict = 1
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.all.promote_secondaries = 1
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+* Applying /etc/sysctl.d/ericsson-encoding-live-worker.conf ...
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 2
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 2
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_recycle = 1
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_congestion_control = htcp
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /etc/sysctl.conf ...
+Service ntpd restart
+firewalld-0.6.3-13.el7_9.noarch
+Removed symlink /etc/systemd/system/multi-user.target.wants/firewalld.service.
+Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
+Service firewalld stop
+ipv4 filter INPUT 0 -i lo -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p igmp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 21 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 22 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 443 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 53 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p udp --dport 53 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p udp --dport 5555:5655 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -o lo -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p igmp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 162 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 21 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 443 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 53 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 123 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 53 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 5555:5655 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 9100:9200 -j ACCEPT: already defined
+Created symlink from /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service to /usr/lib/systemd/system/firewalld.service.
+Created symlink from /etc/systemd/system/multi-user.target.wants/firewalld.service to /usr/lib/systemd/system/firewalld.service.
+*******************************************
+*******************************************
+** Tue Aug  8 00:50:43 KST 2023 
+** Entering in /opt/ericsson/encoding-live-worker/setup/setup_system_conf.sh for system conf
+Remote execution: stdout/stderr will not be logged
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 0
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 3
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 0
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 3
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /usr/lib/sysctl.d/00-system.conf ...
+* Applying /usr/lib/sysctl.d/10-default-yama-scope.conf ...
+kernel.yama.ptrace_scope = 0
+* Applying /usr/lib/sysctl.d/50-default.conf ...
+kernel.sysrq = 16
+kernel.core_uses_pid = 1
+kernel.kptr_restrict = 1
+net.ipv4.conf.default.rp_filter = 1
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.all.promote_secondaries = 1
+fs.protected_hardlinks = 1
+fs.protected_symlinks = 1
+* Applying /etc/sysctl.d/99-sysctl.conf ...
+* Applying /etc/sysctl.d/ericsson-encoding-live-worker.conf ...
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.rp_filter = 0
+net.ipv4.conf.all.arp_ignore = 1
+net.ipv4.conf.all.arp_announce = 2
+net.ipv4.conf.all.force_igmp_version = 3
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.rp_filter = 0
+net.ipv4.conf.default.arp_ignore = 1
+net.ipv4.conf.default.arp_announce = 2
+net.ipv4.conf.default.force_igmp_version = 3
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.core.busy_read = 50
+net.core.busy_poll = 50
+net.core.rmem_default = 268435456
+net.core.rmem_max = 2147483647
+net.core.wmem_default = 268435456
+net.core.wmem_max = 2147483647
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 300000
+net.ipv4.ip_local_port_range = 30000 65535
+net.core.optmem_max = 268435456
+net.ipv4.tcp_mem = 4096   87380   2147483647
+net.ipv4.udp_mem = 4096   87380   2147483647
+net.ipv4.tcp_rmem = 4096   87380   2147483647
+net.ipv4.udp_rmem_min = 16384
+net.ipv4.tcp_wmem = 4096   87380   2147483647
+net.ipv4.udp_wmem_min = 16384
+net.ipv4.tcp_max_tw_buckets = 2000000
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_max_syn_backlog = 300000
+net.ipv4.tcp_fin_timeout = 15
+net.ipv4.tcp_slow_start_after_idle = 0
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_no_metrics_save = 1
+net.ipv4.tcp_low_latency = 1
+net.ipv4.tcp_mtu_probing = 1
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 95
+kernel.sched_migration_cost_ns = 1
+kernel.sched_nr_migrate = 4096
+fs.inotify.max_user_watches = 65536
+net.core.default_qdisc = fq
+net.ipv4.ipfrag_high_thresh = 8388608
+* Applying /etc/sysctl.conf ...
+Service ntpd restart
+firewalld-0.6.3-13.el7_9.noarch
+Removed symlink /etc/systemd/system/multi-user.target.wants/firewalld.service.
+Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
+Service firewalld stop
+ipv4 filter INPUT 0 -i lo -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p igmp -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 21 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 22 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 443 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p tcp --dport 53 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p udp --dport 53 -j ACCEPT: already defined
+ipv4 filter INPUT 0 -p udp --dport 5555:5655 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -o lo -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m addrtype --dst-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m addrtype --src-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type broadcast -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type multicast -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m pkttype --pkt-type unicast -p udp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -m state --state RELATED,ESTABLISHED -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-reply -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p icmp --icmp-type echo-request -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p igmp -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 162 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 21 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 443 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 53 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 123 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 53 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p udp --dport 5555:5655 -j ACCEPT: already defined
+ipv4 filter OUTPUT 0 -p tcp --dport 9100:9200 -j ACCEPT: already defined
+Created symlink from /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service to /usr/lib/systemd/system/firewalld.service.
+Created symlink from /etc/systemd/system/multi-user.target.wants/firewalld.service to /usr/lib/systemd/system/firewalld.service.
+*******************************************

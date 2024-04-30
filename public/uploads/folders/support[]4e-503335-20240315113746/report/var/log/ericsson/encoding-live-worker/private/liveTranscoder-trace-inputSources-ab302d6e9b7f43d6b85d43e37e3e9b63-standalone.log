@@ -1,0 +1,1093 @@
+US_OK
+Aug  8 00:59:40.490792 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:40.496233 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 05:10:46.185115 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Stop -----------
+Aug  8 05:10:46.185127 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Stop -----------
+Aug  8 05:10:46.185566 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Stop -----------
+Aug  8 05:10:46.185591 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Stop -----------
+Aug  8 05:10:47.377668 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 05:10:47.396111 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 05:10:47.851693 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Aug  8 05:10:47.851732 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Aug  8 05:10:47.857846 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 05:10:47.857863 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 05:10:47.859893 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 05:10:47.859906 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 05:10:47.941000 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Aug  8 05:10:47.946072 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Aug  8 05:10:48.261524 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 05:10:48.261608 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Aug  8 05:10:48.352517 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 05:10:48.352562 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 05:10:52.288509 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 05:10:52.295356 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:10.656224 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Stop -----------
+Aug  8 23:10:10.656237 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Stop -----------
+Aug  8 23:10:10.656634 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Stop -----------
+Aug  8 23:10:10.656650 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Stop -----------
+Aug  8 23:10:30.815060 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:30.831466 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:31.219106 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Aug  8 23:10:31.219125 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Aug  8 23:10:31.224568 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 23:10:31.224584 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 23:10:31.226478 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 23:10:31.226490 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 23:10:31.280224 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Aug  8 23:10:31.293170 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Aug  8 23:10:32.499912 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 23:10:32.499997 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Aug  8 23:10:32.564092 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:32.564137 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 23:10:32.582008 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:32.582046 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 23:10:35.625600 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:35.631119 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 22 03:11:31.942200 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 22 03:11:33.177300 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  3 02:09:40.676136 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  3 02:09:41.912513 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:31:01.909107 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:31:01.909130 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:31:01.909611 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:31:01.909628 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:31:02.707541 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:02.727050 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:03.128998 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:31:03.129019 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:31:03.134021 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:31:03.134038 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:31:03.135794 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:31:03.135808 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:31:03.202520 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Sep 14 02:31:03.207046 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Sep 14 02:31:04.408801 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:31:04.408889 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Sep 14 02:31:04.472896 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:31:04.472952 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:31:07.619956 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:31:07.626611 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:38:58.559292 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:38:58.559304 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:38:58.559729 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:38:58.559747 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:39:27.891535 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:27.911109 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:28.323305 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:39:28.323327 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:39:28.328276 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:39:28.328292 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:39:28.330133 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:39:28.330145 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:39:28.390487 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Sep 14 02:39:28.406546 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Sep 14 02:39:29.302467 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:39:29.302548 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Sep 14 02:39:29.366661 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:29.366714 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:39:32.803725 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:32.810492 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:34:25.908931 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Stop -----------
+Sep 25 16:34:25.908941 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Stop -----------
+Sep 25 16:34:25.909301 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Stop -----------
+Sep 25 16:34:25.909326 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Stop -----------
+Sep 25 16:35:23.288840 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:23.306269 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:23.694548 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Sep 25 16:35:23.694567 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Sep 25 16:35:23.699111 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Sep 25 16:35:23.699127 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Sep 25 16:35:23.700901 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Sep 25 16:35:23.700912 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Sep 25 16:35:23.754449 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Sep 25 16:35:23.759857 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Sep 25 16:35:24.270561 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 25 16:35:24.270644 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Sep 25 16:35:24.334713 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:35:24.334784 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 25 16:35:28.100180 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:35:28.105926 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:02.426884 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:02.594901 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:02.594922 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:02.594936 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Sep 28 01:14:02.595114 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 5
+Sep 28 01:14:02.842953 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:03.726376 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:03.879315 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:03.879552 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:04.020114 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:04.020269 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:04.132024 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:04.132410 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:04.347156 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:04.347337 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:04.352393 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:04.352567 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:04.606407 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:04.606735 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:04.672862 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:04.673029 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:04.860390 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:04.860761 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:05.001203 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:05.001447 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:05.080168 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:05.080566 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:05.294011 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LAug  8 00:52:25.208369 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:25.226823 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:25.629756 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:52:25.629776 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:52:25.634314 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:52:25.634329 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:52:25.636071 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:52:25.636083 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:52:27.219126 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Aug  8 00:52:27.223974 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Aug  8 00:52:28.054722 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:52:28.144813 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Aug  8 00:52:30.120313 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:52:30.126397 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:35.680649 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:35.696557 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:36.072607 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:59:36.072626 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:59:36.076942 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:59:36.076956 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:59:36.078695 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:59:36.078706 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:59:36.672295 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Aug  8 00:59:36.676316 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Aug  8 00:59:37.408700 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:59:37.408788 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Aug  8 00:59:37.472709 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:37.472773 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATOSS
+Sep 28 01:14:05.294204 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:05.332862 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:05.333271 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:05.553273 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:05.553508 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:05.621088 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:05.621348 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:05.807312 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:05.807917 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:05.948113 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:05.948497 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:06.059943 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:06.060335 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:06.275113 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:06.275461 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:06.280368 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:06.280735 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:06.592345 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:06.592728 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:06.636361 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:10.567395 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:10.575711 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:15.400621 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:15.400643 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:15.424773 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:15.424810 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:15.464887 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:15.464907 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:22.385236 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:23.806345 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:23.806412 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:23.828074 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:23.828176 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:24.106393 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:25.891820 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:26.144254 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:26.144732 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:26.211983 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:26.212218 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:26.364026 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:26.364789 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:26.504889 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:26.505108 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:26.617981 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:26.618160 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:26.831835 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:26.832110 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:26.838408 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:26.838859 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:27.091121 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:27.091768 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:27.158895 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:27.159216 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:27.345085 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:27.345632 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:27.485934 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:27.486240 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:27.706316 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:27.707221 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:27.833993 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:31.862378 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:31.866855 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:36.539111 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:38.923549 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:39.027868 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:39.027900 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:39.084063 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:39.084087 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:39.300833 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:39.300855 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:39.357041 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:39.357064 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:39.557800 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:39.557823 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:39.678163 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:39.678188 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:39.814643 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:39.814669 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:40.007333 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:40.007370 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:40.031439 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:40.031466 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:40.208025 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:40.208048 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:40.480996 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:42.062613 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:46.036635 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:46.036659 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:46.060690 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:46.060710 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:46.751115 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:46.903667 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:48.340757 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:48.340793 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:48.356778 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:48.356804 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:48.404922 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:48.404942 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:14:49.039200 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:14:49.167640 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 28 01:15:20.036419 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 28 01:15:20.108672 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 25 03:27:36.123524 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.141255 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.617802 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Oct 25 03:27:36.618370 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Oct 25 03:27:36.623328 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Oct 25 03:27:36.623349 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Oct 25 03:27:36.625124 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Oct 25 03:27:36.625143 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Oct 25 03:27:37.177475 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Oct 25 03:27:37.182683 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Oct 25 03:27:37.644496 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Oct 25 03:27:37.644557 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Oct 25 03:27:41.034565 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:41.040903 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov  9 02:04:53.688155 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov  9 02:04:54.966123 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 12 08:43:17.984997 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 12 08:43:18.113182 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 12 08:43:21.493095 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 12 08:43:21.493216 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 12 08:43:22.135343 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 12 08:43:22.416331 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 12 08:43:28.237030 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 12 08:43:28.237201 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 12 08:43:28.839052 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 12 08:43:28.855019 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 12 08:43:40.223017 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 12 08:43:40.223128 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 12 09:24:32.158915 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 12 09:24:32.174983 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 12 09:52:15.017937 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 12 09:52:15.018037 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 12 09:52:15.018065 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 12 09:52:15.018197 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:30.958357 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:30.958392 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:30.980602 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:30.980636 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:31.091348 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:31.091428 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:31.091511 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:31.091615 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:31.171710 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:31.171852 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:31.258330 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:31.388420 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:32.095272 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:32.095289 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 14 13:38:32.095533 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -47
+Nov 14 13:38:32.287810 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:32.316337 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:32.316576 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:32.383460 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:32.383725 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:32.504332 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:32.504354 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:32.552556 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:32.552591 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:32.569663 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:32.570312 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:32.710463 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:32.710848 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:32.761303 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:32.761339 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:32.822314 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:32.822498 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:32.841585 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:32.841620 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.018145 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.018167 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.037555 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.037789 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.043451 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.043797 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.170723 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.170761 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.234962 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.234998 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.296196 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.296734 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.364642 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.365186 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.491809 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.491832 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.499806 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.499828 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.516523 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.516681 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.657365 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.657583 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.708580 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.708613 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.770522 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.770752 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.820999 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.821021 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.965474 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.965500 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:33.984361 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:33.984517 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.023176 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.023456 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.152193 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.152224 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.214343 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.214367 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.243726 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.244247 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.311433 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.311650 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.440301 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.440337 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.447236 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.447275 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.497626 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.498092 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.638433 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.638661 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.688096 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.688129 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.717414 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.717664 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.768327 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.768359 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.912844 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.912874 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.931221 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.931439 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:34.937177 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:34.937655 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:35.090456 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:35.090564 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:35.097478 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:35.097501 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:35.150373 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:35.161706 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:35.161733 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:35.161755 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 1 to 0
+Nov 14 13:38:35.161873 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 0
+Nov 14 13:38:35.418626 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:35.419113 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:35.426633 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:35.426859 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:35.635436 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:35.635948 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:35.755882 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:35.756128 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:35.892294 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:35.892731 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:36.044844 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:36.045164 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:36.109116 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:36.109533 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:36.366069 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:36.366858 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:36.374088 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:36.374399 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:36.622841 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:36.623131 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:36.703138 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:36.703425 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:36.839846 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:36.840085 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:37.024253 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:37.024427 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:37.088566 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:37.088953 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:37.313317 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:37.313506 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:37.353520 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:37.354196 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:37.562193 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:37.562869 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:37.650512 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:37.651019 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:37.819056 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:37.819275 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:37.971652 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:37.971907 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:38.035953 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:38.036322 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:38.292964 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:38.293516 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:38.300791 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:38.300972 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:38.509505 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:38.509662 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:38.629944 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:38.630152 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:38.766448 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:38.766702 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:38.951135 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:38.951682 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:39.119644 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:39.120277 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:39.272175 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:40.173761 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:40.173790 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 14 13:38:40.173884 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -47
+Nov 14 13:38:41.728951 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:43.607498 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:43.607528 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:43.647616 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:43.647652 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 13:38:44.539232 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 13:38:44.539267 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 14 22:33:54.831578 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 14 22:33:56.710291 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 15 09:49:03.365485 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 15 09:49:03.365522 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 15 09:49:03.365611 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 15 09:49:03.365642 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 15 10:22:36.065587 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 15 10:22:36.065620 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 15 10:22:36.097610 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 15 10:22:36.097630 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 16 16:46:48.016851 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Stop -----------
+Nov 16 16:46:48.016862 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Stop -----------
+Nov 16 16:46:48.017226 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Stop -----------
+Nov 16 16:46:48.017239 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Stop -----------
+Nov 16 16:47:18.478658 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:18.495948 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:18.880037 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Nov 16 16:47:18.880058 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Nov 16 16:47:18.885242 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Nov 16 16:47:18.885259 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Nov 16 16:47:18.887045 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Nov 16 16:47:18.887057 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Nov 16 16:47:18.940298 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Nov 16 16:47:18.952217 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Nov 16 16:47:19.615546 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 16 16:47:19.719896 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Nov 16 16:47:23.289586 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:23.295569 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:30.188702 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:30.349296 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 23 10:21:08.221041 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Stop -----------
+Nov 23 10:21:08.221052 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Stop -----------
+Nov 23 10:21:08.221389 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Stop -----------
+Nov 23 10:21:08.221411 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Stop -----------
+Nov 23 10:21:25.791644 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:25.808957 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:26.197821 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Nov 23 10:21:26.197840 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Nov 23 10:21:26.202757 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Nov 23 10:21:26.202773 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Nov 23 10:21:26.204559 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Nov 23 10:21:26.204570 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Nov 23 10:21:26.277595 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Nov 23 10:21:26.281835 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Nov 23 10:21:26.720094 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 23 10:21:26.720175 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Nov 23 10:21:30.608663 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:30.702518 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:34.249822 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Nov 28 14:33:34.253984 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Nov 28 14:33:34.347091 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:33:34.347210 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:34.347306 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:34.390427 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:34.390486 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:34.443114 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:34.443147 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:34.526361 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:34.526558 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:34.550373 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:34.550432 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:34.551195 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:34.551295 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:34.897092 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:34.897108 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 28 14:33:34.897260 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 2
+Nov 28 14:33:35.321193 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:46.507619 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Stop -----------
+Nov 28 14:33:46.507631 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Stop -----------
+Nov 28 14:33:46.508012 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Stop -----------
+Nov 28 14:33:46.508025 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Stop -----------
+Nov 28 14:34:03.661370 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:03.678242 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:04.070948 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Nov 28 14:34:04.070967 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Nov 28 14:34:04.076178 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Nov 28 14:34:04.076194 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Nov 28 14:34:04.078009 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Nov 28 14:34:04.078021 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Nov 28 14:34:04.137791 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Nov 28 14:34:04.142210 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Nov 28 14:34:04.632025 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:34:04.632114 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Nov 28 14:34:04.789595 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:04.789632 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:34:08.477921 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:08.572155 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:15.227655 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:15.356129 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:27.857346 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Nov 29 10:39:27.861706 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Nov 29 10:39:27.933300 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 29 10:39:27.935348 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:27.935387 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:27.969455 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:27.969477 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.006980 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.007004 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.033308 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.033332 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.055003 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.055024 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.134229 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.134402 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.150271 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.151209 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.157511 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.158305 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.712347 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.822296 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.684181 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Nov 29 10:39:46.687978 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Nov 29 10:39:46.819405 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 29 10:39:46.819474 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.819498 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.848345 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.848368 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.918043 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.918077 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.984663 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.985125 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.340517 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.340532 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 29 10:39:47.340788 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 2
+Nov 29 10:39:47.402201 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:57.987390 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 13 10:45:57.991029 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 13 10:45:58.071743 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 10:45:58.071870 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -3
+Dec 13 10:45:58.071900 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:58.072091 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:58.119861 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:58.120040 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:58.168038 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:58.168167 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:58.288502 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:58.288663 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:58.497222 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:59.146188 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:29.894695 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 13 10:47:29.898185 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 13 10:47:30.090160 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 10:47:30.090226 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.090246 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.119792 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.119813 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.180245 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.180338 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.184257 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.184281 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.190177 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.190200 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.195450 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.196287 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.862731 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.971307 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.330733 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 13 16:44:48.337661 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 13 16:44:48.527803 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 16:44:48.527871 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.528016 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.535814 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.535838 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.567961 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.568207 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.598343 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.598364 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.632227 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.632748 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.632810 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.632832 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.935289 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.935313 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:44:48.935392 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 1
+Dec 13 16:44:49.354742 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:10.297063 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 13 16:47:10.302874 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 13 16:47:10.411894 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:47:10.411976 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -3
+Dec 13 16:47:10.411994 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:10.412113 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:10.451947 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:10.452158 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:10.486476 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:10.486513 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:10.516212 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:10.516378 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:10.524674 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:10.524713 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:10.596375 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:10.597581 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:10.829336 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:10.943197 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.531624 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 13 16:48:53.535148 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 13 16:48:53.623422 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 16:48:53.623489 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.623571 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.623633 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.623767 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.654252 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.654291 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.687650 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.687717 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.718040 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.718062 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.719770 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.719887 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.724648 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.724681 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.832182 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.832520 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.080666 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.080690 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:48:54.080798 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 1
+Dec 13 16:48:54.105134 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 18 14:02:50.288395 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:50.304485 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:50.680531 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Dec 18 14:02:50.680549 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Dec 18 14:02:50.686451 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Dec 18 14:02:50.686471 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Dec 18 14:02:50.688479 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Dec 18 14:02:50.688491 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Dec 18 14:02:51.150435 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 18 14:02:51.154881 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 18 14:02:51.352740 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 18 14:02:51.417081 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:02:51.417112 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 18 14:02:51.643195 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Dec 18 14:02:55.098671 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:02:55.104157 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:03:02.176282 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:03:02.425231 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.608673 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 19 13:18:04.612245 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 19 13:18:04.749974 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:18:04.750066 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.750095 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.786799 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.786824 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.908556 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.910251 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:05.287644 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:05.369857 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:56.044027 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 19 13:29:56.048308 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 19 13:29:56.232973 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:29:56.233071 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:56.233203 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:56.273022 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:56.273347 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:56.337353 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:56.337969 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:56.344866 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:56.345310 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:56.939562 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:56.947689 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.360215 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 19 13:30:24.364906 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 19 13:30:24.428356 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:30:24.444354 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.444495 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.500541 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.500646 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.511366 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.511396 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.516599 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.516722 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.589654 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.589676 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.612021 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.612044 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.660767 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.661252 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:25.231101 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:25.343156 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.091637 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 19 14:29:25.094714 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 19 14:29:25.135827 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 14:29:25.189763 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.189796 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.321218 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.321367 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.361313 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.361628 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.393036 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.393406 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.835147 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.949173 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:55.902932 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 20 14:37:55.905205 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 20 14:37:56.007320 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 20 14:37:56.007386 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.007407 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.037603 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.037642 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.107974 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.107997 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.197087 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.197371 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.197437 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.198188 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.204071 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.205020 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.710875 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.827262 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.613110 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 28 09:49:09.616783 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 28 09:49:09.695666 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 28 09:49:09.698938 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.698960 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.770014 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.770034 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.795663 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.795682 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.914149 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.914200 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:10.331786 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:10.440690 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.272282 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 28 14:40:09.275452 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 28 14:40:09.324761 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 28 14:40:09.364900 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.365048 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.517654 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.517685 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.540059 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.540085 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.572949 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.573623 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.910959 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:10.027012 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:16.290855 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 28 14:59:16.294562 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 28 14:59:16.398819 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 28 14:59:16.452857 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:16.452887 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:16.462690 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:16.462783 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:16.559504 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:16.560089 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:16.591669 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:16.591721 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:16.592622 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:16.592688 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:17.193751 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:17.306935 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.361601 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 29 10:37:02.364817 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 29 10:37:02.458093 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 29 10:37:02.458169 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.458191 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.491601 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.491623 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.529777 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.529799 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.655818 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.656188 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.662698 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.663793 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:03.033223 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:03.147112 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.253719 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 29 13:40:39.256701 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 29 13:40:39.555450 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 29 13:40:39.555529 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.555877 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.555925 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.587540 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:40.446737 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:40.792909 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.866605 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Dec 29 13:41:59.870139 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Dec 29 13:41:59.934909 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 29 13:41:59.966914 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.967264 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:42:00.006927 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:42:00.007006 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:42:00.039068 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:42:00.039171 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:42:00.162047 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:42:00.162073 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:42:00.167534 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:42:00.167916 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:42:00.528844 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:42:00.639246 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 16 19:10:01.818844 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 16 19:10:03.186853 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:59.819681 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Jan 24 13:28:59.822781 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Jan 24 13:29:00.080106 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:29:00.080171 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:00.080192 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:00.109716 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:00.109741 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:00.119561 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:00.121389 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:00.755808 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:00.869091 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.554473 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Jan 24 13:29:24.557457 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Jan 24 13:29:24.685476 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:29:24.749972 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.749994 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.754596 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.754619 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.784269 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.784448 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.800370 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.801023 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.854595 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.856552 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.127009 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.127025 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Jan 24 13:29:25.127177 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Jan 24 13:29:25.145628 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.594148 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Jan 24 13:29:42.597480 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Jan 24 13:29:42.733898 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Jan 24 13:29:42.733984 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:29:42.734001 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.734023 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.755613 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.755637 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.767693 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.767898 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.799802 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.800296 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.895092 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.896240 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:43.474239 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:43.578841 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:17.533557 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Stop -----------
+Jan 24 13:31:17.533573 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Stop -----------
+Jan 24 13:31:17.534052 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Stop -----------
+Jan 24 13:31:17.534069 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Stop -----------
+Jan 24 13:31:38.044448 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:38.063522 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:38.448777 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Jan 24 13:31:38.448797 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Jan 24 13:31:38.453355 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Jan 24 13:31:38.453371 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Jan 24 13:31:38.455132 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Jan 24 13:31:38.455143 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Jan 24 13:31:38.525130 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Jan 24 13:31:38.529887 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Jan 24 13:31:39.469929 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:31:39.503247 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Jan 24 13:31:39.533698 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:39.533746 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:39.567432 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:39.567483 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:42.857490 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:42.863154 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.115874 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Feb 19 10:31:36.122867 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Feb 19 10:31:36.374437 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 10:31:36.398578 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.398711 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.414604 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.417184 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.675900 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.675926 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 10:31:36.676128 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Feb 19 10:31:36.735816 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:19.971579 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Feb 19 10:57:19.975909 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Feb 19 10:57:20.183078 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 19 10:57:20.183194 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -1
+Feb 19 10:57:20.185713 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.185747 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.247548 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.247570 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.271233 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.271885 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.672746 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.785884 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.104998 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Feb 19 11:03:59.108433 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Feb 19 11:03:59.187738 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 11:03:59.198301 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.198546 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.224574 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.224596 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.261269 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.261492 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.262068 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.262092 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.289052 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.289074 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.309509 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.309942 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.405873 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.406174 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:04:00.007966 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:04:00.118187 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.274578 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Feb 19 11:11:40.278413 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Feb 19 11:11:40.334432 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 11:11:40.373778 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.373803 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.374254 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.374602 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.408634 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.408657 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.438525 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.438589 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.446187 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.446218 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.574932 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.575112 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.844977 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.844993 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 11:11:40.845064 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 2
+Feb 19 11:11:40.864026 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.652964 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Feb 21 16:49:38.656882 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Feb 21 16:49:38.886770 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 21 16:49:38.886860 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 0
+Feb 21 16:49:38.886878 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.886899 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.932165 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.932189 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.953876 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.963470 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:39.613195 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:39.721826 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:48.929185 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Feb 23 17:14:48.932480 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Feb 23 17:14:48.990000 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 23 17:14:49.022098 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.022291 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.078256 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.078393 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.094351 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.094431 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.120810 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.120833 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.126042 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.126074 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.230023 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.230805 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.857201 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.965758 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:57.804583 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Feb 23 17:15:57.809069 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Feb 23 17:15:57.993230 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 23 17:15:57.993317 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:57.993480 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:58.025251 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:58.025555 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:58.050716 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:58.050736 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:58.097526 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:58.098317 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:58.105540 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:58.105974 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:58.500862 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:58.500891 CS14_TS15_MBC_Andong  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 23 17:15:58.500997 CS14_TS15_MBC_Andong  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 7
+Feb 23 17:15:58.523072 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:06:26.471037 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:26.487719 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:27.221882 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:06:27.221915 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:06:27.227286 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:06:27.227307 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:06:27.229105 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:06:27.229129 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:06:27.957690 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Feb 27 10:06:27.957700 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Feb 27 10:06:29.018194 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:06:29.048355 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Feb 27 10:06:31.681635 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:31.687306 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:08:13.071438 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Stop -----------
+Feb 27 10:08:13.071450 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Stop -----------
+Feb 27 10:08:13.071969 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Stop -----------
+Feb 27 10:08:13.071990 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Stop -----------
+Feb 27 10:08:37.469753 CS14_TS15_MBC_Andong  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:08:37.486161 CS14_TS15_MBC_Andong  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:08:37.864659 CS14_TS15_MBC_Andong  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:08:37.864676 CS14_TS15_MBC_Andong  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:08:37.869097 CS14_TS15_MBC_Andong  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:08:37.869113 CS14_TS15_MBC_Andong  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:08:37.870883 CS14_TS15_MBC_Andong  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:08:37.870894 CS14_TS15_MBC_Andong  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:08:37.932081 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Feb 27 10:08:37.935979 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Feb 27 10:08:38.905047 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:08:38.968830 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:08:38.968873 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:08:38.998408 CS14_TS15_MBC_Andong  [SWITCHER 1]  First sample received
+Feb 27 10:08:42.280135 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:08:42.285822 CS14_TS15_MBC_Andong  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:08:49.525325 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:08:49.726126 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:13:09.037974 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:13:09.037996 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:13:09.582226 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:13:09.861908 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:13:31.974834 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:13:31.975001 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:13:32.512752 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:13:32.705524 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:44.747487 CS14_TS15_MBC_Andong  [CAPTURE 1_0] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.51 
+Mar 13 10:36:44.751215 CS14_TS15_MBC_Andong  [CAPTURE 1_1] Connect to url udp://239.10.21.20:5000 using interface 172.16.12.141 
+Mar 13 10:36:44.815937 CS14_TS15_MBC_Andong  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Mar 13 10:36:44.831041 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:44.831067 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:44.881040 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:44.881063 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:44.902818 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:44.902855 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:45.048225 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:45.048677 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:45.048971 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:45.049030 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:45.634799 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:45.739889 CS14_TS15_MBC_Andong  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK

@@ -1,0 +1,939 @@
+stener - Error when connecting to server
+2022-05-13 02:39:17,655 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:18,657 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:19,662 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:20,663 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:21,667 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:22,671 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:23,672 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:24,675 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:25,677 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:26,679 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:27,681 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:28,683 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:29,685 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:30,687 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:31,691 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:32,694 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:33,696 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:34,699 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:35,701 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:36,702 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:37,704 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:38,706 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:39,708 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:40,712 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:41,714 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:42,715 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:43,718 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:44,719 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:45,721 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:46,724 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:47,726 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:48,729 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:49,733 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:50,735 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:51,737 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:52,740 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:53,742 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:54,746 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:55,748 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:56,750 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:57,752 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:58,754 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:59,756 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:00,758 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:01,760 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:02,762 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:03,763 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:04,766 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:05,769 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:06,786 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:07,788 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:08,790 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:09,792 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:10,793 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:11,795 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:12,797 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:13,801 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:14,802 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:15,804 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:16,805 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:17,810 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:18,811 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:19,813 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:20,814 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:21,816 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:22,819 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:23,821 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:24,822 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:25,824 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:26,826 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:27,828 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:28,830 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:29,831 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:30,833 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:31,834 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:32,836 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:33,838 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:34,840 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:35,842 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:36,843 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:37,845 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:38,847 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:39,849 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:40,851 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:41,855 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:42,858 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:43,859 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:44,861 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:45,864 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:46,865 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:47,869 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:48,872 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:49,876 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:50,877 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:51,879 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:52,880 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:53,884 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:54,885 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:55,888 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:56,890 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:57,892 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:58,896 - ERROR - listener - Error when connecting to server
+2022-05-13 02:40:59,898 - ERROR - listener - Error when connecting to server
+2022-05-13 02:41:00,900 - ERROR - listener - Error when connecting to server
+2022-05-13 02:41:01,903 - ERROR - listener - Error when connecting to server
+2022-05-13 02:41:02,905 - ERROR - listener - Error when connecting to server
+2022-05-13 02:41:03,909 - ERROR - listener - Error when connecting to server
+2022-05-13 02:41:04,914 - ERROR - listener - Error when connecting to server
+2022-05-13 02:41:05,918 - INFO - listener - Connection opened
+2022-05-13 02:41:30,773 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-05-13 02:41:30,774 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-05-13 02:41:31,869 - INFO - listener - Connection opened
+2022-05-13 02:41:31,876 - INFO - runworker - Using single-threaded worker.
+2022-05-13 02:41:31,876 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-05-13 02:41:31,876 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-05-13 02:50:49,629 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-05-13 02:53:32,736 - ERROR - listener - Error when connecting to server
+2022-05-13 02:53:32,746 - INFO - runworker - Using single-threaded worker.
+2022-05-13 02:53:32,746 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-05-13 02:53:32,746 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-05-13 02:53:33,740 - ERROR - listener - Error when connecting to server
+2022-05-13 02:53:34,742 - ERROR - listener - Error when connecting to server
+2022-05-13 02:53:35,746 - INFO - listener - Connection opened
+2022-05-13 06:08:01,180 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-06-07 06:45:41,495 - ERROR - listener - Error when connecting to server
+2022-06-07 06:45:41,507 - INFO - runworker - Using single-threaded worker.
+2022-06-07 06:45:41,507 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-06-07 06:45:41,508 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-06-07 06:45:42,501 - ERROR - listener - Error when connecting to server
+2022-06-07 06:45:43,504 - ERROR - listener - Error when connecting to server
+2022-06-07 06:45:44,508 - INFO - listener - Connection opened
+2022-07-12 09:56:38,541 - WARNING - listener - Channel 1 was closed: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2022-07-12 09:56:38,542 - ERROR - listener - Connection closed, reopening in 1 seconds: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2022-07-12 09:56:39,544 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:40,546 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:41,549 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:42,552 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:43,554 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:44,556 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:45,558 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:46,560 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:47,562 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:48,564 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:49,568 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:50,570 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:51,572 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:52,575 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:53,577 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:54,579 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:55,581 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:56,583 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:57,585 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:58,587 - ERROR - listener - Error when connecting to server
+2022-07-12 09:56:59,589 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:00,592 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:01,593 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:02,595 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:03,598 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:04,601 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:05,602 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:06,604 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:07,607 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:08,609 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:09,613 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:10,615 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:11,617 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:12,620 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:13,622 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:14,624 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:15,626 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:16,629 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:17,631 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:18,632 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:19,634 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:20,638 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:21,640 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:22,644 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:23,646 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:24,650 - ERROR - listener - Error when connecting to server
+2022-07-12 09:57:25,655 - INFO - listener - Connection opened
+2022-07-12 09:57:54,468 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-07-12 09:57:54,468 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-07-12 09:57:56,098 - INFO - listener - Connection opened
+2022-07-12 09:57:56,105 - INFO - runworker - Using single-threaded worker.
+2022-07-12 09:57:56,105 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-07-12 09:57:56,105 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-07-12 10:08:13,202 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-07-12 10:15:30,805 - ERROR - listener - Error when connecting to server
+2022-07-12 10:15:30,813 - INFO - runworker - Using single-threaded worker.
+2022-07-12 10:15:30,813 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-07-12 10:15:30,814 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-07-12 10:15:31,809 - ERROR - listener - Error when connecting to server
+2022-07-12 10:15:32,812 - ERROR - listener - Error when connecting to server
+2022-07-12 10:15:33,815 - INFO - listener - Connection opened
+2022-07-12 10:34:22,093 - WARNING - listener - Channel 1 was closed: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2022-07-12 10:34:22,094 - ERROR - listener - Connection closed, reopening in 1 seconds: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2022-07-12 10:34:23,096 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:24,098 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:25,100 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:26,104 - ERROR - listener - Error whe2022-05-12 06:30:52,796 - INFO - runworker - Using single-threaded worker.
+2022-05-12 06:30:52,796 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-05-12 06:30:52,797 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-05-12 06:30:52,802 - INFO - listener - Connection opened
+2022-05-12 06:43:07,864 - WARNING - listener - Channel 1 was closed: (320) No activity or too many missed heartbeats in the last 30 seconds
+2022-05-12 06:43:07,866 - ERROR - listener - Connection closed, reopening in 1 seconds: (320) No activity or too many missed heartbeats in the last 30 seconds
+2022-05-12 06:44:11,987 - INFO - listener - Connection opened
+2022-05-12 07:01:42,832 - WARNING - listener - Channel 1 was closed: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2022-05-12 07:01:42,833 - ERROR - listener - Connection closed, reopening in 1 seconds: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2022-05-12 07:02:46,989 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:47,991 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:48,992 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:49,994 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:50,997 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:52,000 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:53,004 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:54,008 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:55,010 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:56,012 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:57,014 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:58,016 - ERROR - listener - Error when connecting to server
+2022-05-12 07:02:59,019 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:00,020 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:01,022 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:02,025 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:03,026 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:04,029 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:05,031 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:06,033 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:07,035 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:08,037 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:09,039 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:10,042 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:11,043 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:12,045 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:13,046 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:14,049 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:15,050 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:16,051 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:17,053 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:18,057 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:19,058 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:20,060 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:21,061 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:22,064 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:23,066 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:24,070 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:25,072 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:26,073 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:27,074 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:28,076 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:29,077 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:30,080 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:31,082 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:32,084 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:33,086 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:34,089 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:35,091 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:36,094 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:37,096 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:38,098 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:39,100 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:40,101 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:41,105 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:42,106 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:43,108 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:44,110 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:45,111 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:46,114 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:47,117 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:48,120 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:49,121 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:50,123 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:51,125 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:52,128 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:53,130 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:54,132 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:55,134 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:56,136 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:57,139 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:58,141 - ERROR - listener - Error when connecting to server
+2022-05-12 07:03:59,143 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:00,144 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:01,148 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:02,158 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:03,160 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:04,163 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:05,164 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:06,166 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:07,168 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:08,170 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:09,172 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:10,174 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:11,175 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:12,177 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:13,179 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:14,180 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:15,182 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:16,184 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:17,185 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:18,187 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:19,189 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:20,191 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:21,192 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:22,196 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:23,197 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:24,201 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:25,203 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:26,207 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:27,209 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:28,211 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:29,212 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:30,215 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:31,216 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:32,218 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:33,221 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:34,223 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:35,225 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:36,227 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:37,228 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:38,230 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:39,231 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:40,234 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:41,237 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:42,239 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:43,243 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:44,247 - ERROR - listener - Error when connecting to server
+2022-05-12 07:04:45,251 - INFO - listener - Connection opened
+2022-05-12 07:05:09,686 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-05-12 07:05:09,686 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-05-12 07:05:10,754 - INFO - listener - Connection opened
+2022-05-12 07:05:10,761 - INFO - runworker - Using single-threaded worker.
+2022-05-12 07:05:10,761 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-05-12 07:05:10,761 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-05-12 07:22:03,856 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-05-12 07:22:03,919 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-05-12 08:47:03,030 - ERROR - listener - Error when connecting to server
+2022-05-12 08:47:03,039 - INFO - runworker - Using single-threaded worker.
+2022-05-12 08:47:03,039 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-05-12 08:47:03,039 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-05-12 08:47:04,033 - ERROR - listener - Error when connecting to server
+2022-05-12 08:47:05,035 - ERROR - listener - Error when connecting to server
+2022-05-12 08:47:06,037 - ERROR - listener - Error when connecting to server
+2022-05-12 08:47:07,043 - INFO - listener - Connection opened
+2022-05-13 02:32:22,847 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-05-13 02:35:03,848 - ERROR - listener - Error when connecting to server
+2022-05-13 02:35:03,858 - INFO - runworker - Using single-threaded worker.
+2022-05-13 02:35:03,858 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-05-13 02:35:03,858 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-05-13 02:35:04,851 - ERROR - listener - Error when connecting to server
+2022-05-13 02:35:05,853 - ERROR - listener - Error when connecting to server
+2022-05-13 02:35:06,856 - INFO - listener - Connection opened
+2022-05-13 02:38:27,707 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-05-13 02:38:27,708 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-05-13 02:38:28,750 - INFO - listener - Connection opened
+2022-05-13 02:38:28,757 - INFO - runworker - Using single-threaded worker.
+2022-05-13 02:38:28,757 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-05-13 02:38:28,757 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-05-13 02:39:05,628 - WARNING - listener - Channel 1 was closed: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2022-05-13 02:39:05,630 - ERROR - listener - Connection closed, reopening in 1 seconds: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2022-05-13 02:39:06,633 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:07,635 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:08,637 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:09,639 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:10,641 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:11,643 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:12,644 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:13,646 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:14,648 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:15,650 - ERROR - listener - Error when connecting to server
+2022-05-13 02:39:16,653 - ERROR - lin connecting to server
+2022-07-12 10:34:27,106 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:28,108 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:29,110 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:30,112 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:31,114 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:32,117 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:33,119 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:34,121 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:35,122 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:36,124 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:37,128 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:38,131 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:39,133 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:40,137 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:41,139 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:42,140 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:43,142 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:44,144 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:45,146 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:46,148 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:47,150 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:48,152 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:49,154 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:50,156 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:51,158 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:52,160 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:53,162 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:54,164 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:55,166 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:56,168 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:57,169 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:58,172 - ERROR - listener - Error when connecting to server
+2022-07-12 10:34:59,173 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:00,176 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:01,178 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:02,180 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:03,182 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:04,184 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:05,186 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:06,188 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:07,192 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:08,195 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:09,199 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:10,200 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:11,202 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:12,204 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:13,206 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:14,208 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:15,210 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:16,212 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:17,214 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:18,215 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:19,217 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:20,219 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:21,237 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:22,239 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:23,241 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:24,244 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:25,246 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:26,248 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:27,252 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:28,254 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:29,256 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:30,259 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:31,261 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:32,263 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:33,265 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:34,267 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:35,269 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:36,271 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:37,273 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:38,275 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:39,277 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:40,279 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:41,281 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:42,283 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:43,284 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:44,286 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:45,288 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:46,291 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:47,292 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:48,295 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:49,296 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:50,298 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:51,301 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:52,302 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:53,304 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:54,306 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:55,310 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:56,312 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:57,314 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:58,316 - ERROR - listener - Error when connecting to server
+2022-07-12 10:35:59,317 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:00,319 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:01,321 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:02,323 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:03,325 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:04,327 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:05,330 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:06,333 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:07,336 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:08,339 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:09,343 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:10,347 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:11,352 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:12,354 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:13,356 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:14,357 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:15,359 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:16,361 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:17,363 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:18,366 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:19,368 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:20,370 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:21,371 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:22,373 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:23,375 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:24,378 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:25,380 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:26,382 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:27,385 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:28,388 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:29,389 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:30,393 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:31,395 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:32,397 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:33,399 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:34,401 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:35,403 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:36,407 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:37,409 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:38,412 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:39,414 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:40,416 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:41,418 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:42,420 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:43,422 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:44,428 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:45,432 - ERROR - listener - Error when connecting to server
+2022-07-12 10:36:46,435 - INFO - listener - Connection opened
+2022-07-12 10:37:12,025 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-07-12 10:37:12,025 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-07-12 10:37:13,182 - INFO - listener - Connection opened
+2022-07-12 10:37:13,185 - INFO - runworker - Using single-threaded worker.
+2022-07-12 10:37:13,185 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-07-12 10:37:13,185 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-07-12 11:05:20,736 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-07-13 01:14:47,105 - ERROR - listener - Error when connecting to server
+2022-07-13 01:14:47,120 - INFO - runworker - Using single-threaded worker.
+2022-07-13 01:14:47,120 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-07-13 01:14:47,120 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-07-13 01:14:48,110 - ERROR - listener - Error when connecting to server
+2022-07-13 01:14:49,112 - ERROR - listener - Error when connecting to server
+2022-07-13 01:14:50,117 - INFO - listener - Connection opened
+2022-08-09 05:40:56,111 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-08-09 05:40:56,197 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-08-09 05:43:40,376 - ERROR - listener - Error when connecting to server
+2022-08-09 05:43:40,386 - INFO - runworker - Using single-threaded worker.
+2022-08-09 05:43:40,386 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-08-09 05:43:40,386 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-08-09 05:43:41,381 - ERROR - listener - Error when connecting to server
+2022-08-09 05:43:42,383 - ERROR - listener - Error when connecting to server
+2022-08-09 05:43:43,386 - INFO - listener - Connection opened
+2022-08-09 06:52:09,055 - ERROR - listener - Error when connecting to server
+2022-08-09 06:52:09,065 - INFO - runworker - Using single-threaded worker.
+2022-08-09 06:52:09,066 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-08-09 06:52:09,066 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-08-09 06:52:10,092 - ERROR - listener - Error when connecting to server
+2022-08-09 06:52:11,094 - ERROR - listener - Error when connecting to server
+2022-08-09 06:52:12,098 - INFO - listener - Connection opened
+2022-08-19 09:10:25,786 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-08-19 09:10:25,813 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-08-19 09:10:26,413 - WARNING - listener - Channel 1 was closed: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2022-08-19 09:10:26,414 - ERROR - listener - Connection closed, reopening in 1 seconds: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2022-08-19 09:10:27,416 - ERROR - listener - Error when connecting to server
+2022-08-19 09:10:27,831 - ERROR - worker - Error processing message with consumer channels.generic.base.GenericConsumer:
+Traceback (most recent call last):
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 202, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1515, in _retryable_read
+    read_pref, session, address=address)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1346, in _select_server
+    server = topology.select_server(server_selector)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/topology.py", line 246, in select_server
+    address))
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/topology.py", line 203, in select_servers
+    selector, server_timeout, address)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 127.0.0.1:27017: [Errno 111] Connection refused, Timeout: 2.0s, Topology Description: <TopologyDescription id: 62f3783519986d0a5bbc86a1, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 111] Connection refused')>]>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/worker.py", line 119, in run
+    consumer(message, **kwargs)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/generic/base.py", line 32, in __init__
+    self.dispatch(message, **kwargs)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/generic/base.py", line 70, in dispatch
+    return self.get_handler(message, **kwargs)(message, **kwargs)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/sessions.py", line 68, in inner
+    session = session_for_reply_channel(message.reply_channel.name)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/sessions.py", line 29, in session_for_reply_channel
+    instance._session.keys()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/django_mongoengine/sessions.py", line 60, in load
+    expire_date__gt=datetime_now)[0]
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/mongoengine/queryset/base.py", line 200, in __getitem__
+    queryset._cursor[key],
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/cursor.py", line 692, in __getitem__
+    for doc in clone:
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/cursor.py", line 1155, in _refresh
+    self.__send_message(q)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/cursor.py", line 1045, in __send_message
+    operation, self._unpack_response, address=self.__address)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1426, in _run_operation
+    address=address, retryable=isinstance(operation, message._Query))
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1531, in _retryable_read
+    raise last_error
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1525, in _retryable_read
+    return func(session, server, sock_info, secondary_ok)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1422, in _cmd
+    unpack_res)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/server.py", line 130, in run_operation
+    _check_command_response(first, sock_info.max_wire_version)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/helpers.py", line 154, in _check_command_response
+    raise NotPrimaryError(errmsg, response)
+pymongo.errors.NotPrimaryError: interrupted at shutdown, full error: {'ok': 0.0, 'errmsg': 'interrupted at shutdown', 'code': 11600, 'codeName': 'InterruptedAtShutdown'}
+2022-08-19 09:13:40,990 - ERROR - listener - Error when connecting to server
+2022-08-19 09:13:40,998 - INFO - runworker - Using single-threaded worker.
+2022-08-19 09:13:40,998 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-08-19 09:13:40,999 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-08-19 09:13:41,995 - ERROR - listener - Error when connecting to server
+2022-08-19 09:13:42,997 - ERROR - listener - Error when connecting to server
+2022-08-19 09:13:44,000 - INFO - listener - Connection opened
+2022-08-26 07:58:02,539 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-08-26 07:58:02,628 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-08-26 08:01:12,010 - ERROR - listener - Error when connecting to server
+2022-08-26 08:01:12,017 - INFO - runworker - Using single-threaded worker.
+2022-08-26 08:01:12,017 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-08-26 08:01:12,017 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-08-26 08:01:13,013 - ERROR - listener - Error when connecting to server
+2022-08-26 08:01:14,015 - ERROR - listener - Error when connecting to server
+2022-08-26 08:01:15,019 - INFO - listener - Connection opened
+2022-09-27 06:42:18,896 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-09-27 06:42:18,960 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2022-09-27 06:45:02,475 - ERROR - listener - Error when connecting to server
+2022-09-27 06:45:02,482 - INFO - runworker - Using single-threaded worker.
+2022-09-27 06:45:02,482 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2022-09-27 06:45:02,483 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2022-09-27 06:45:03,481 - ERROR - listener - Error when connecting to server
+2022-09-27 06:45:04,483 - ERROR - listener - Error when connecting to server
+2022-09-27 06:45:05,488 - INFO - listener - Connection opened
+2023-04-24 06:14:20,215 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-04-24 06:14:20,262 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-04-24 06:14:21,189 - WARNING - listener - Channel 1 was closed: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2023-04-24 06:14:21,190 - ERROR - listener - Connection closed, reopening in 1 seconds: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2023-04-24 06:14:22,194 - ERROR - listener - Error when connecting to server
+2023-04-24 06:14:22,285 - ERROR - worker - Error processing message with consumer channels.generic.base.GenericConsumer:
+Traceback (most recent call last):
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 202, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/worker.py", line 119, in run
+    consumer(message, **kwargs)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/generic/base.py", line 32, in __init__
+    self.dispatch(message, **kwargs)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/generic/base.py", line 70, in dispatch
+    return self.get_handler(message, **kwargs)(message, **kwargs)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/sessions.py", line 68, in inner
+    session = session_for_reply_channel(message.reply_channel.name)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/sessions.py", line 29, in session_for_reply_channel
+    instance._session.keys()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/django_mongoengine/sessions.py", line 60, in load
+    expire_date__gt=datetime_now)[0]
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/mongoengine/queryset/base.py", line 200, in __getitem__
+    queryset._cursor[key],
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/cursor.py", line 692, in __getitem__
+    for doc in clone:
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/cursor.py", line 1130, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 127.0.0.1:27017: [Errno 111] Connection refused, Timeout: 2.0s, Topology Description: <TopologyDescription id: 6332b28452ea2a9a0b73a88d, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 111] Connection refused')>]>
+2023-04-24 06:17:16,655 - ERROR - listener - Error when connecting to server
+2023-04-24 06:17:16,665 - INFO - runworker - Using single-threaded worker.
+2023-04-24 06:17:16,665 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2023-04-24 06:17:16,665 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2023-04-24 06:17:17,736 - ERROR - listener - Error when connecting to server
+2023-04-24 06:17:18,755 - ERROR - listener - Error when connecting to server
+2023-04-24 06:17:19,759 - INFO - listener - Connection opened
+2023-05-30 02:18:29,449 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-05-30 02:18:29,526 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-05-30 02:21:16,214 - ERROR - listener - Error when connecting to server
+2023-05-30 02:21:16,220 - INFO - runworker - Using single-threaded worker.
+2023-05-30 02:21:16,220 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2023-05-30 02:21:16,220 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2023-05-30 02:21:17,243 - ERROR - listener - Error when connecting to server
+2023-05-30 02:21:18,245 - ERROR - listener - Error when connecting to server
+2023-05-30 02:21:19,249 - INFO - listener - Connection opened
+2023-08-07 15:10:36,668 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-08-07 15:10:36,741 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-08-07 15:10:37,483 - WARNING - listener - Channel 1 was closed: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2023-08-07 15:10:37,483 - ERROR - listener - Connection closed, reopening in 1 seconds: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2023-08-07 15:10:38,486 - ERROR - listener - Error when connecting to server
+2023-08-07 15:10:38,946 - ERROR - worker - Error processing message with consumer channels.generic.base.GenericConsumer:
+Traceback (most recent call last):
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 202, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/worker.py", line 119, in run
+    consumer(message, **kwargs)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/generic/base.py", line 32, in __init__
+    self.dispatch(message, **kwargs)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/generic/base.py", line 70, in dispatch
+    return self.get_handler(message, **kwargs)(message, **kwargs)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/sessions.py", line 68, in inner
+    session = session_for_reply_channel(message.reply_channel.name)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/channels/sessions.py", line 29, in session_for_reply_channel
+    instance._session.keys()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/django_mongoengine/sessions.py", line 60, in load
+    expire_date__gt=datetime_now)[0]
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/mongoengine/queryset/base.py", line 200, in __getitem__
+    queryset._cursor[key],
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/cursor.py", line 692, in __getitem__
+    for doc in clone:
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/cursor.py", line 1238, in next
+    if len(self.__data) or self._refresh():
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/cursor.py", line 1130, in _refresh
+    self.__session = self.__collection.database.client._ensure_session()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1935, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1883, in __start_session
+    server_session = self._get_server_session()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1921, in _get_server_session
+    return self._topology.get_server_session()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/topology.py", line 520, in get_server_session
+    session_timeout = self._check_session_support()
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/topology.py", line 502, in _check_session_support
+    None)
+  File "/opt/ericsson/unified-ui/lib/python3.7/site-packages/pymongo/topology.py", line 220, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: 127.0.0.1:27017: [Errno 111] Connection refused, Timeout: 2.0s, Topology Description: <TopologyDescription id: 64755d9c0e28b78ccabc24a0, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('127.0.0.1:27017: [Errno 111] Connection refused')>]>
+2023-08-07 15:13:33,624 - ERROR - listener - Error when connecting to server
+2023-08-07 15:13:33,634 - INFO - runworker - Using single-threaded worker.
+2023-08-07 15:13:33,634 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2023-08-07 15:13:33,634 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2023-08-07 15:13:34,628 - ERROR - listener - Error when connecting to server
+2023-08-07 15:13:35,630 - ERROR - listener - Error when connecting to server
+2023-08-07 15:13:36,633 - INFO - listener - Connection opened
+2023-08-07 15:25:21,058 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-08-07 15:25:21,058 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-08-07 15:25:33,117 - INFO - runworker - Using single-threaded worker.
+2023-08-07 15:25:33,117 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2023-08-07 15:25:33,118 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2023-08-07 15:25:33,121 - INFO - listener - Connection opened
+2023-08-07 15:29:42,081 - WARNING - listener - Channel 1 was closed: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2023-08-07 15:29:42,081 - WARNING - listener - Connection already closed or closing
+2023-08-07 15:29:42,083 - ERROR - listener - Connection closed, reopening in 1 seconds: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2023-08-07 15:29:43,087 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:44,091 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:45,095 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:46,100 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:47,105 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:48,113 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:49,119 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:50,126 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:51,133 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:52,141 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:53,150 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:54,156 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:55,161 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:56,167 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:57,174 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:58,178 - ERROR - listener - Error when connecting to server
+2023-08-07 15:29:59,183 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:00,187 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:01,190 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:02,195 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:03,199 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:04,203 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:05,211 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:06,218 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:07,224 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:08,230 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:09,237 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:10,245 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:11,251 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:12,257 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:13,263 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:14,268 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:15,274 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:16,278 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:17,281 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:18,285 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:19,290 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:20,293 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:21,297 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:22,301 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:23,307 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:24,315 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:25,321 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:26,328 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:27,334 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:28,342 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:29,349 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:30,354 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:31,360 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:32,368 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:33,374 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:34,380 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:35,384 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:36,387 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:37,392 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:38,396 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:39,401 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:40,405 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:41,413 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:42,421 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:43,427 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:44,434 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:45,441 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:46,448 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:47,455 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:48,462 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:49,484 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:50,488 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:51,493 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:52,496 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:53,500 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:54,504 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:55,511 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:56,519 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:57,525 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:58,532 - ERROR - listener - Error when connecting to server
+2023-08-07 15:30:59,538 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:00,546 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:01,552 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:02,559 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:03,565 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:04,569 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:05,576 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:06,580 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:07,585 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:08,590 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:09,594 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:10,598 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:11,603 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:12,610 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:13,617 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:14,623 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:15,631 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:16,637 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:17,644 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:18,650 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:19,656 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:20,662 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:21,668 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:22,672 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:23,679 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:24,683 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:25,687 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:26,692 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:27,695 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:28,699 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:29,703 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:30,709 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:31,717 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:32,725 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:33,732 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:34,738 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:35,744 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:36,750 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:37,756 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:38,762 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:39,769 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:40,773 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:41,778 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:42,783 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:43,787 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:44,792 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:45,797 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:46,801 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:47,805 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:48,812 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:49,819 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:50,825 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:51,832 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:52,838 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:53,848 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:54,855 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:55,869 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:56,883 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:57,890 - ERROR - listener - Error when connecting to server
+2023-08-07 15:31:58,895 - INFO - listener - Connection opened
+2023-08-07 15:32:33,655 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-08-07 15:32:33,655 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-08-07 15:32:45,500 - INFO - listener - Connection opened
+2023-08-07 15:32:45,502 - INFO - runworker - Using single-threaded worker.
+2023-08-07 15:32:45,502 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2023-08-07 15:32:45,502 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2023-08-07 15:57:59,474 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+                                                                                                            2023-08-07 15:59:27,627 - ERROR - listener - Error when connecting to server
+2023-08-07 15:59:27,630 - INFO - runworker - Using single-threaded worker.
+2023-08-07 15:59:27,630 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2023-08-07 15:59:27,631 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2023-08-07 15:59:28,633 - ERROR - listener - Error when connecting to server
+2023-08-07 15:59:29,637 - ERROR - listener - Error when connecting to server
+2023-08-07 15:59:30,643 - INFO - listener - Connection opened
+2023-10-24 18:24:34,000 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-10-24 18:24:34,085 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2023-10-24 18:27:28,164 - ERROR - listener - Error when connecting to server
+2023-10-24 18:27:28,171 - INFO - runworker - Using single-threaded worker.
+2023-10-24 18:27:28,171 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2023-10-24 18:27:28,171 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2023-10-24 18:27:29,171 - ERROR - listener - Error when connecting to server
+2023-10-24 18:27:30,174 - ERROR - listener - Error when connecting to server
+2023-10-24 18:27:31,179 - INFO - listener - Connection opened
+2023-12-18 04:59:53,185 - INFO - worker - Shutdown signal received while idle, terminating immediately
+2023-12-18 04:59:53,288 - INFO - worker - Shutdown signal received while idle, terminating immediately
+2023-12-18 05:02:41,134 - ERROR - listener - Error when connecting to server
+2023-12-18 05:02:41,139 - INFO - runworker - Using single-threaded worker.
+2023-12-18 05:02:41,140 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2023-12-18 05:02:41,140 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2023-12-18 05:02:42,139 - ERROR - listener - Error when connecting to server
+2023-12-18 05:02:43,142 - ERROR - listener - Error when connecting to server
+2023-12-18 05:02:44,149 - INFO - listener - Connection opened
+2024-02-27 01:03:21,277 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2024-02-27 01:03:21,367 - INFO - worker - Shutdown signal received while busy, waiting for loop termination
+2024-02-27 01:06:18,710 - ERROR - listener - Error when connecting to server
+2024-02-27 01:06:18,715 - INFO - runworker - Using single-threaded worker.
+2024-02-27 01:06:18,715 - INFO - runworker - Running worker against channel layer default (ericsson.websocket.backend.StompChannelLayer)
+2024-02-27 01:06:18,716 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2024-02-27 01:06:19,715 - ERROR - listener - Error when connecting to server
+2024-02-27 01:06:20,719 - ERROR - listener - Error when connecting to server
+2024-02-27 01:06:21,724 - INFO - listener - Connection opened

@@ -1,0 +1,18 @@
+[Unit]
+Description=Redis persistent key-value database
+After=network.target
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+PermissionsStartOnly=true
+ExecStartPre=/bin/mkdir -p /var/log/ericsson/alarm-proxy/public /var/log/ericsson/alarm-proxy/private /var/log/ericsson/alarm-proxy/setup
+ExecStartPre=/bin/chown ericsson: /var/log/ericsson/alarm-proxy/public /var/log/ericsson/alarm-proxy/private /var/log/ericsson/alarm-proxy/setup
+ExecStartPre=/sbin/restorecon -R /var/log/ericsson/alarm-proxy
+ExecStart=/bin/redis-server /opt/ericsson/alarm-proxy/etc/alarm-proxy-redis.conf --daemonize no
+ExecStop=/bin/kill -s HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

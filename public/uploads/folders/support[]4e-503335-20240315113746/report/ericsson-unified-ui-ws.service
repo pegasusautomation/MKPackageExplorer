@@ -1,0 +1,21 @@
+[Unit]
+Description=ericsson-unified-ui-ws
+After=network.target
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+EnvironmentFile=-/opt/ericsson/unified-ui/etc/unified-ui.ini
+EnvironmentFile=-/opt/ericsson/unified-ui/etc/ws.conf
+# BEGINNING OF BZ47235
+PermissionsStartOnly=true
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/unified-ui/private
+ExecStartPre=/usr/bin/chown ericsson: /var/log/ericsson/unified-ui/private
+# END OF BZ47235
+Environment=PYTHONDONTWRITEBYTECODE="True"
+ExecStart=/bin/bash -c     "cd /opt/ericsson/unified-ui/bin;source activate;./python /opt/ericsson/unified-ui/lib/python3.7/site-packages/envivio/unified/manage.py runworker --only-channels=websocket.* >> /var/log/ericsson/unified-ui/private/worker-ws.log 2>&1"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

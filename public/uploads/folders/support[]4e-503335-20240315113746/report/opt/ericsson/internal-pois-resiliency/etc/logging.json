@@ -1,0 +1,60 @@
+{
+    "version": 1,
+    "incremental": true,
+    "handlers": {
+        "stream": {
+            "class": "logging.StreamHandler",
+            "stream": "ext://sys.stdout"
+        },
+        "file": {
+            "filename": "/var/log/ericsson/internal-pois-resiliency/private/pois_resiliency.log",
+            "maxBytes": 5242880,
+            "backupCount": 10,
+            "encoding": "utf8"
+        },
+        "syslog": {
+            "facility": "local0",
+            "address": "/dev/log"
+        },
+        "file_access": {
+            "filename": "/var/log/ericsson/internal-pois-resiliency/private/access.log"
+        },
+        "file_error": {
+            "filename": "/var/log/ericsson/internal-pois-resiliency/private/error.log"
+        }
+    },
+    "root": {
+        "handlers": [
+            "stream",
+            "file",
+            "syslog"
+        ],
+        "level": "ERROR"
+    },
+    "loggers": {
+        "application": {
+            "level": "INFO",
+            "handlers": [
+                "stream",
+                "file",
+                "syslog"
+            ]
+        },
+        "access": {
+            "level": "INFO",
+            "handlers": [
+                "stream",
+                "file",
+                "syslog"
+            ]
+        },
+        "error": {
+            "level": "INFO",
+            "handlers": [
+                "stream",
+                "file",
+                "syslog"
+            ]
+        }
+    }
+}

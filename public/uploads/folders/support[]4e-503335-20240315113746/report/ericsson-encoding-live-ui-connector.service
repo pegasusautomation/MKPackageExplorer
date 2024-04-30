@@ -1,0 +1,19 @@
+[Unit]
+Description=ericsson-encoding-live-ui-connector
+After=network-online.target
+Wants=network-online.target rsyslog.service
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/encoding-live-ui-connector/public /var/log/ericsson/encoding-live-ui-connector/private /var/log/ericsson/encoding-live-ui-connector/setup
+ExecStartPre=/usr/bin/chown -R ericsson: /var/log/ericsson/encoding-live-ui-connector/public /var/log/ericsson/encoding-live-ui-connector/private /var/log/ericsson/encoding-live-ui-connector/setup
+ExecStartPre=/usr/sbin/restorecon -R /var/log/ericsson/encoding-live-ui-connector
+ExecStart=/bin/bash -c  "cd /opt/ericsson/encoding-live-ui-connector/bin ; source activate; ./uwsgi --ini /opt/ericsson/encoding-live-ui-connector/etc/uwsgi.ini >> /var/log/ericsson/encoding-live-ui-connector/private/console.log 2>&1"
+ExecStop=/bin/bash -c  "/bin/kill -9 $(ps -ax | grep /opt/ericsson/encoding-live-ui-connector/etc/uwsgi | awk '{print $1}') || :"
+#ExecStop=/bin/kill -s HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

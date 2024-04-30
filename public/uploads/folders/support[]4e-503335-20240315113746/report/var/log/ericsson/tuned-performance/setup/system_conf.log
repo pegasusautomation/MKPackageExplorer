@@ -1,0 +1,10 @@
+*******************************************
+** Tue Aug  8 00:52:01 KST 2023 
+** Entering in /opt/ericsson/tuned-performance/setup/setup-ericsson-tuned-performance.sh for system conf
+Include throughput-performance Profile
+Cannot talk to Tuned daemon via DBus. Is Tuned daemon running?
+Trying to (re)start tuned...
+Tuned (re)started, changes applied.
+Service tuned restart
+Current active profile: ericsson-tuned-performance
+*******************************************

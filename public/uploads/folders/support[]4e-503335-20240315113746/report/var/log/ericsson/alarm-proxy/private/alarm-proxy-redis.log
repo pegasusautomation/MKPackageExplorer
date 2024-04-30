@@ -1,0 +1,370 @@
+id=20479, just started
+20479:C 13 May 2022 11:41:26.630 # Configuration loaded
+20479:M 13 May 2022 11:41:26.631 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+20479:M 13 May 2022 11:41:26.631 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+20479:M 13 May 2022 11:41:26.631 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+20479:M 13 May 2022 11:41:26.631 * monotonic clock: POSIX clock_gettime
+20479:M 13 May 2022 11:41:26.632 * Running mode=standalone, port=6380.
+20479:M 13 May 2022 11:41:26.632 # Server initialized
+20479:M 13 May 2022 11:41:26.633 * Ready to accept connections
+20479:M 13 May 2022 11:41:26.633 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+20479:signal-handler (1652410249) Received SIGTERM scheduling shutdown...
+20479:M 13 May 2022 11:50:49.691 # User requested shutdown...
+20479:M 13 May 2022 11:50:49.691 * Removing the unix socket file.
+20479:M 13 May 2022 11:50:49.692 # Redis is now ready to exit, bye bye...
+3126:C 13 May 2022 11:53:30.781 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3126:C 13 May 2022 11:53:30.783 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3126, just started
+3126:C 13 May 2022 11:53:30.783 # Configuration loaded
+3126:M 13 May 2022 11:53:30.785 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3126:M 13 May 2022 11:53:30.785 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3126:M 13 May 2022 11:53:30.785 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3126:M 13 May 2022 11:53:30.785 * monotonic clock: POSIX clock_gettime
+3126:M 13 May 2022 11:53:30.789 * Running mode=standalone, port=6380.
+3126:M 13 May 2022 11:53:30.789 # Server initialized
+3126:M 13 May 2022 11:53:30.792 * Ready to accept connections
+3126:M 13 May 2022 11:53:30.793 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3126:signal-handler (1652422081) Received SIGTERM scheduling shutdown...
+3126:M 13 May 2022 15:08:01.318 # User requested shutdown...
+3126:M 13 May 2022 15:08:01.318 * Removing the unix socket file.
+3126:M 13 May 2022 15:08:01.318 # Redis is now ready to exit, bye bye...
+3202:C 07 Jun 2022 15:45:39.560 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3202:C 07 Jun 2022 15:45:39.564 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3202, just started
+3202:C 07 Jun 2022 15:45:39.564 # Configuration loaded
+3202:M 07 Jun 2022 15:45:39.566 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3202:M 07 Jun 2022 15:45:39.567 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3202:M 07 Jun 2022 15:45:39.567 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3202:M 07 Jun 2022 15:45:39.567 * monotonic clock: POSIX clock_gettime
+3202:M 07 Jun 2022 15:45:39.569 * Running mode=standalone, port=6380.
+3202:M 07 Jun 2022 15:45:39.569 # Server initialized
+3202:M 07 Jun 2022 15:45:39.570 * Ready to accept connections
+3202:M 07 Jun 2022 15:45:39.570 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3202:signal-handler (1657619869) Received SIGTERM scheduling shutdown...
+3202:M 12 Jul 2022 18:57:49.656 # User requested shutdown...
+3202:M 12 Jul 2022 18:57:49.656 * Removing the unix socket file.
+3202:M 12 Jul 2022 18:57:49.656 # Redis is now ready to exit, bye bye...
+132983:C 12 Jul 2022 18:57:49.693 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+132983:C 12 Jul 2022 18:57:49.693 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=132983, just started
+132983:C 12 Jul 2022 18:57:49.693 # Configuration loaded
+132983:M 12 Jul 2022 18:57:49.693 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+132983:M 12 Jul 2022 18:57:49.693 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+132983:M 12 Jul 2022 18:57:49.693 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+132983:M 12 Jul 2022 18:57:49.693 * monotonic clock: POSIX clock_gettime
+132983:M 12 Jul 2022 18:57:49.694 * Running mode=standalone, port=6380.
+132983:M 12 Jul 2022 18:57:49.694 # Server initialized
+132983:M 12 Jul 2022 18:57:49.695 * Ready to accept connections
+132983:M 12 Jul 2022 18:57:49.695 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+132983:signal-handler (1657620493) Received SIGTERM scheduling shutdown...
+132983:M 12 Jul 2022 19:08:13.497 # User requested shutdown...
+132983:M 12 Jul 2022 19:08:13.497 * Removing the unix socket file.
+132983:M 12 Jul 2022 19:08:13.497 # Redis is now ready to exit, bye bye...
+3141:C 12 Jul 2022 19:15:28.913 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3141:C 12 Jul 2022 19:15:28.915 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3141, just started
+3141:C 12 Jul 2022 19:15:28.918 # Configuration loaded
+3141:M 12 Jul 2022 19:15:28.920 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3141:M 12 Jul 2022 19:15:28.920 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3141:M 12 Jul 2022 19:15:28.921 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3141:M 12 Jul 2022 19:15:28.921 * monotonic clock: POSIX clock_gettime
+3141:M 12 Jul 2022 19:15:28.923 * Running mode=standalone, port=6380.
+3141:M 12 Jul 2022 19:15:28.923 # Server initialized
+3141:M 12 Jul 2022 19:15:28.924 * Ready to accept connections
+3141:M 12 Jul 2022 19:15:28.924 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3141:signal-handler (1657622227) Received SIGTERM scheduling shutdown...
+3141:M 12 Jul 2022 19:37:07.563 # User requested shutdown...
+3141:M 12 Jul 2022 19:37:07.563 * Removing the unix socket file.
+3141:M 12 Jul 2022 19:37:07.563 # Redis is now ready to exit, bye bye...
+23575:C 12 Jul 2022 19:37:07.592 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+23575:C 12 Jul 2022 19:37:07.592 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=23575, just started
+23575:C 12 Jul 2022 19:37:07.592 # Configuration loaded
+23575:M 12 Jul 2022 19:37:07.592 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+23575:M 12 Jul 2022 19:37:07.592 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+23575:M 12 Jul 2022 19:37:07.592 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+23575:M 12 Jul 2022 19:37:07.592 * monotonic clock: POSIX clock_gettime
+23575:M 12 Jul 2022 19:37:07.593 * Running mode=standalone, port=6380.
+23575:M 12 Jul 2022 19:37:07.593 # Server initialized
+23575:M 12 Jul 2022 19:37:07.594 * Ready to accept connections
+23575:M 12 Jul 2022 19:37:07.594 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+23575:signal-handler (1657623920) Received SIGTERM scheduling shutdown...
+23575:M 12 Jul 2022 20:05:20.882 # User requested shutdown...
+23575:M 12 Jul 2022 20:05:20.882 * Removing the unix socket file.
+23575:M 12 Jul 2022 20:05:20.882 # Redis is now ready to exit, bye bye...
+3334:C 13 Jul 2022 10:14:45.196 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3334:C 13 Jul 2022 10:14:45.197 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3334, just started
+3334:C 13 Jul 2022 10:14:45.198 # Configuration loaded
+3334:M 13 Jul 2022 10:14:45.199 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3334:M 13 Jul 2022 10:14:45.199 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3334:M 13 Jul 2022 10:14:45.199 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3334:M 13 Jul 2022 10:14:45.199 * monotonic clock: POSIX clock_gettime
+3334:M 13 Jul 2022 10:14:45.204 * Running mode=standalone, port=6380.
+3334:M 13 Jul 2022 10:14:45.204 # Server initialized
+3334:M 13 Jul 2022 10:14:45.206 * Ready to accept connections
+3334:M 13 Jul 2022 10:14:45.207 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3334:signal-handler (1660023656) Received SIGTERM scheduling shutdown...
+3334:M 09 Aug 2022 14:40:56.237 # User requested shutdown...
+3334:M 09 Aug 2022 14:40:56.238 * Removing the unix socket file.
+3334:M 09 Aug 2022 14:40:56.238 # Redis is now ready to exit, bye bye...
+3111:C 09 Aug 2022 14:43:38.595 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3111:C 09 Aug 2022 14:43:38.598 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3111, just started
+3111:C 09 Aug 2022 14:43:38.598 # Configuration loaded
+3111:M 09 Aug 2022 14:43:38.599 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3111:M 09 Aug 2022 14:43:38.599 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3111:M 09 Aug 2022 14:43:38.599 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3111:M 09 Aug 2022 14:43:38.599 * monotonic clock: POSIX clock_gettime
+3111:M 09 Aug 2022 14:43:38.605 * Running mode=standalone, port=6380.
+3111:M 09 Aug 2022 14:43:38.605 # Server initialized
+3111:M 09 Aug 2022 14:43:38.607 * Ready to accept connections
+3111:M 09 Aug 2022 14:43:38.607 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3142:C 09 Aug 2022 15:52:07.264 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3142:C 09 Aug 2022 15:52:07.266 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3142, just started
+3142:C 09 Aug 2022 15:52:07.266 # Configuration loaded
+3142:M 09 Aug 2022 15:52:07.267 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3142:M 09 Aug 2022 15:52:07.270 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3142:M 09 Aug 2022 15:52:07.270 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3142:M 09 Aug 2022 15:52:07.270 * monotonic clock: POSIX clock_gettime
+3142:M 09 Aug 2022 15:52:07.274 * Running mode=standalone, port=6380.
+3142:M 09 Aug 2022 15:52:07.274 # Server initialized
+3142:M 09 Aug 2022 15:52:07.276 * Ready to accept connections
+3142:M 09 Aug 2022 15:52:07.276 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3142:signal-handler (1660900225) Received SIGTERM scheduling shutdown...
+3142:M 19 Aug 2022 18:10:25.934 # User requested shutdown...
+3142:M 19 Aug 2022 18:10:25.934 * Removing the unix socket file.
+3142:M 19 Aug 2022 18:10:25.934 # Redis is now ready to exit, bye bye...
+3084:C 19 Aug 2022 18:13:39.198 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3084:C 19 Aug 2022 18:13:39.199 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3084, just started
+3084:C 19 Aug 2022 18:13:39.199 # Configuration loaded
+3084:M 19 Aug 2022 18:13:39.201 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3084:M 19 Aug 2022 18:13:39.201 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3084:M 19 Aug 2022 18:13:39.201 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3084:M 19 Aug 2022 18:13:39.201 * monotonic clock: POSIX clock_gettime
+3084:M 19 Aug 2022 18:13:39.203 * Running mode=standalone, port=6380.
+3084:M 19 Aug 2022 18:13:39.203 # Server initialized
+3084:M 19 Aug 2022 18:13:39.204 * Ready to accept connections
+3084:M 19 Aug 2022 18:13:39.204 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3084:signal-handler (1661500682) Received SIGTERM scheduling shutdown...
+3084:M 26 Aug 2022 16:58:02.650 # User requested shutdown...
+3084:M 26 Aug 2022 16:58:02.650 * Removing the unix socket file.
+3084:M 26 Aug 2022 16:58:02.650 # Redis is now ready to exit, bye bye...
+3221:C 26 Aug 2022 17:01:10.272 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3221:C 26 Aug 2022 17:01:10.277 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3221, just started
+3221:C 26 Aug 2022 17:01:10.277 # Configuration loaded
+3221:M 26 Aug 2022 17:01:10.279 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3221:M 26 Aug 2022 17:01:10.279 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3221:M 26 Aug 2022 17:01:10.279 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3221:M 26 Aug 2022 17:01:10.279 * monotonic clock: POSIX clock_gettime
+3221:M 26 Aug 2022 17:01:10.284 * Running mode=standalone, port=6380.
+3221:M 26 Aug 2022 17:01:10.284 # Server initialized
+3221:M 26 Aug 2022 17:01:10.286 * Ready to accept connections
+3221:M 26 Aug 2022 17:01:10.286 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3221:signal-handler (1664260938) Received SIGTERM scheduling shutdown...
+3221:M 27 Sep 2022 15:42:19.021 # User requested shutdown...
+3221:M 27 Sep 2022 15:42:19.021 * Removing the unix socket file.
+3221:M 27 Sep 2022 15:42:19.022 # Redis is now ready to exit, bye bye...
+3026:C 27 Sep 2022 15:45:00.720 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3026:C 27 Sep 2022 15:45:00.722 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3026, just started
+3026:C 27 Sep 2022 15:45:00.723 # Configuration loaded
+3026:M 27 Sep 2022 15:45:00.724 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3026:M 27 Sep 2022 15:45:00.724 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3026:M 27 Sep 2022 15:45:00.724 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3026:M 27 Sep 2022 15:45:00.724 * monotonic clock: POSIX clock_gettime
+3026:M 27 Sep 2022 15:45:00.727 * Running mode=standalone, port=6380.
+3026:M 27 Sep 2022 15:45:00.727 # Server initialized
+3026:M 27 Sep 2022 15:45:00.729 * Ready to accept connections
+3026:M 27 Sep 2022 15:45:00.729 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3026:signal-handler (1682316860) Received SIGTERM scheduling shutdown...
+3026:M 24 Apr 2023 15:14:20.377 # User requested shutdown...
+3026:M 24 Apr 2023 15:14:20.377 * Removing the unix socket file.
+3026:M 24 Apr 2023 15:14:20.377 # Redis is now ready to exit, bye bye...
+3114:C 24 Apr 2023 15:17:14.991 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3114:C 24 Apr 2023 15:17:14.995 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3114, just started
+3114:C 24 Apr 2023 15:17:14.995 # Configuration loaded
+3114:M 24 Apr 2023 15:17:14.998 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3114:M 24 Apr 2023 15:17:14.998 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3114:M 24 Apr 2023 15:17:14.998 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for l16846:C 12 May 2022 15:30:50.058 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+16846:C 12 May 2022 15:30:50.058 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=16846, just started
+16846:C 12 May 2022 15:30:50.058 # Configuration loaded
+16846:M 12 May 2022 15:30:50.060 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+16846:M 12 May 2022 15:30:50.060 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+16846:M 12 May 2022 15:30:50.060 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+16846:M 12 May 2022 15:30:50.060 * monotonic clock: POSIX clock_gettime
+16846:M 12 May 2022 15:30:50.061 * Running mode=standalone, port=6380.
+16846:M 12 May 2022 15:30:50.061 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+16846:M 12 May 2022 15:30:50.061 # Server initialized
+16846:M 12 May 2022 15:30:50.062 * Ready to accept connections
+16846:M 12 May 2022 15:30:50.062 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+16846:signal-handler (1652339105) Received SIGTERM scheduling shutdown...
+16846:M 12 May 2022 16:05:05.667 # User requested shutdown...
+16846:M 12 May 2022 16:05:05.667 * Removing the unix socket file.
+16846:M 12 May 2022 16:05:05.667 # Redis is now ready to exit, bye bye...
+38369:C 12 May 2022 16:05:05.693 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+38369:C 12 May 2022 16:05:05.693 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=38369, just started
+38369:C 12 May 2022 16:05:05.693 # Configuration loaded
+38369:M 12 May 2022 16:05:05.694 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+38369:M 12 May 2022 16:05:05.694 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+38369:M 12 May 2022 16:05:05.694 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+38369:M 12 May 2022 16:05:05.694 * monotonic clock: POSIX clock_gettime
+38369:M 12 May 2022 16:05:05.694 * Running mode=standalone, port=6380.
+38369:M 12 May 2022 16:05:05.694 # Server initialized
+38369:M 12 May 2022 16:05:05.695 * Ready to accept connections
+38369:M 12 May 2022 16:05:05.695 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+38369:signal-handler (1652340123) Received SIGTERM scheduling shutdown...
+38369:M 12 May 2022 16:22:04.013 # User requested shutdown...
+38369:M 12 May 2022 16:22:04.013 * Removing the unix socket file.
+38369:M 12 May 2022 16:22:04.013 # Redis is now ready to exit, bye bye...
+3259:C 12 May 2022 17:47:01.066 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3259:C 12 May 2022 17:47:01.068 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3259, just started
+3259:C 12 May 2022 17:47:01.068 # Configuration loaded
+3259:M 12 May 2022 17:47:01.070 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3259:M 12 May 2022 17:47:01.070 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3259:M 12 May 2022 17:47:01.070 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3259:M 12 May 2022 17:47:01.070 * monotonic clock: POSIX clock_gettime
+3259:M 12 May 2022 17:47:01.073 * Running mode=standalone, port=6380.
+3259:M 12 May 2022 17:47:01.073 # Server initialized
+3259:M 12 May 2022 17:47:01.074 * Ready to accept connections
+3259:M 12 May 2022 17:47:01.074 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3259:signal-handler (1652409142) Received SIGTERM scheduling shutdown...
+3259:M 13 May 2022 11:32:22.968 # User requested shutdown...
+3259:M 13 May 2022 11:32:22.968 * Removing the unix socket file.
+3259:M 13 May 2022 11:32:22.968 # Redis is now ready to exit, bye bye...
+3235:C 13 May 2022 11:35:01.915 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3235:C 13 May 2022 11:35:01.916 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3235, just started
+3235:C 13 May 2022 11:35:01.918 # Configuration loaded
+3235:M 13 May 2022 11:35:01.919 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3235:M 13 May 2022 11:35:01.919 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3235:M 13 May 2022 11:35:01.919 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3235:M 13 May 2022 11:35:01.919 * monotonic clock: POSIX clock_gettime
+3235:M 13 May 2022 11:35:01.923 * Running mode=standalone, port=6380.
+3235:M 13 May 2022 11:35:01.923 # Server initialized
+3235:M 13 May 2022 11:35:01.924 * Ready to accept connections
+3235:M 13 May 2022 11:35:01.924 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3235:signal-handler (1652409686) Received SIGTERM scheduling shutdown...
+3235:M 13 May 2022 11:41:26.603 # User requested shutdown...
+3235:M 13 May 2022 11:41:26.603 * Removing the unix socket file.
+3235:M 13 May 2022 11:41:26.603 # Redis is now ready to exit, bye bye...
+20479:C 13 May 2022 11:41:26.630 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+20479:C 13 May 2022 11:41:26.630 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pow ulimit. If you need higher maxclients increase 'ulimit -n'.
+3114:M 24 Apr 2023 15:17:14.998 * monotonic clock: POSIX clock_gettime
+3114:M 24 Apr 2023 15:17:15.002 * Running mode=standalone, port=6380.
+3114:M 24 Apr 2023 15:17:15.003 # Server initialized
+3114:M 24 Apr 2023 15:17:15.005 * Ready to accept connections
+3114:M 24 Apr 2023 15:17:15.005 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3114:signal-handler (1685413109) Received SIGTERM scheduling shutdown...
+3114:M 30 May 2023 11:18:29.586 # User requested shutdown...
+3114:M 30 May 2023 11:18:29.586 * Removing the unix socket file.
+3114:M 30 May 2023 11:18:29.586 # Redis is now ready to exit, bye bye...
+3120:C 30 May 2023 11:21:14.519 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3120:C 30 May 2023 11:21:14.521 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3120, just started
+3120:C 30 May 2023 11:21:14.522 # Configuration loaded
+3120:M 30 May 2023 11:21:14.522 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3120:M 30 May 2023 11:21:14.522 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3120:M 30 May 2023 11:21:14.522 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3120:M 30 May 2023 11:21:14.523 * monotonic clock: POSIX clock_gettime
+3120:M 30 May 2023 11:21:14.527 * Running mode=standalone, port=6380.
+3120:M 30 May 2023 11:21:14.527 # Server initialized
+3120:M 30 May 2023 11:21:14.528 * Ready to accept connections
+3120:M 30 May 2023 11:21:14.530 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3120:signal-handler (1691421036) Received SIGTERM scheduling shutdown...
+3120:M 08 Aug 2023 00:10:36.804 # User requested shutdown...
+3120:M 08 Aug 2023 00:10:36.804 * Removing the unix socket file.
+3120:M 08 Aug 2023 00:10:36.804 # Redis is now ready to exit, bye bye...
+3213:C 08 Aug 2023 00:13:31.845 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3213:C 08 Aug 2023 00:13:31.850 # Redis version=6.2.6, bits=64, commit=00000000, modified=0, pid=3213, just started
+3213:C 08 Aug 2023 00:13:31.852 # Configuration loaded
+3213:M 08 Aug 2023 00:13:31.854 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3213:M 08 Aug 2023 00:13:31.854 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3213:M 08 Aug 2023 00:13:31.854 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3213:M 08 Aug 2023 00:13:31.854 * monotonic clock: POSIX clock_gettime
+3213:M 08 Aug 2023 00:13:31.856 * Running mode=standalone, port=6380.
+3213:M 08 Aug 2023 00:13:31.856 # Server initialized
+3213:M 08 Aug 2023 00:13:31.857 * Ready to accept connections
+3213:M 08 Aug 2023 00:13:31.857 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3213:signal-handler (1691421909) Received SIGTERM scheduling shutdown...
+3213:M 08 Aug 2023 00:25:09.566 # User requested shutdown...
+3213:M 08 Aug 2023 00:25:09.566 * Removing the unix socket file.
+3213:M 08 Aug 2023 00:25:09.567 # Redis is now ready to exit, bye bye...
+21821:C 08 Aug 2023 00:25:09.626 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+21821:C 08 Aug 2023 00:25:09.626 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=21821, just started
+21821:C 08 Aug 2023 00:25:09.626 # Configuration loaded
+21821:M 08 Aug 2023 00:25:09.627 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+21821:M 08 Aug 2023 00:25:09.627 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+21821:M 08 Aug 2023 00:25:09.627 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+21821:M 08 Aug 2023 00:25:09.627 * monotonic clock: POSIX clock_gettime
+21821:M 08 Aug 2023 00:25:09.628 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+21821:M 08 Aug 2023 00:25:09.629 * Running mode=standalone, port=6380.
+21821:M 08 Aug 2023 00:25:09.629 # Server initialized
+21821:M 08 Aug 2023 00:25:09.632 * Ready to accept connections
+21821:M 08 Aug 2023 00:25:09.632 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+21821:signal-handler (1691422347) Received SIGTERM scheduling shutdown...
+21821:M 08 Aug 2023 00:32:27.418 # User requested shutdown...
+21821:M 08 Aug 2023 00:32:27.418 * Removing the unix socket file.
+21821:M 08 Aug 2023 00:32:27.418 # Redis is now ready to exit, bye bye...
+33637:C 08 Aug 2023 00:32:27.482 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+33637:C 08 Aug 2023 00:32:27.482 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=33637, just started
+33637:C 08 Aug 2023 00:32:27.482 # Configuration loaded
+33637:M 08 Aug 2023 00:32:27.484 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+33637:M 08 Aug 2023 00:32:27.484 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+33637:M 08 Aug 2023 00:32:27.484 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+33637:M 08 Aug 2023 00:32:27.484 * monotonic clock: POSIX clock_gettime
+33637:M 08 Aug 2023 00:32:27.484 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+33637:M 08 Aug 2023 00:32:27.485 * Running mode=standalone, port=6380.
+33637:M 08 Aug 2023 00:32:27.485 # Server initialized
+33637:M 08 Aug 2023 00:32:27.486 * Ready to accept connections
+33637:M 08 Aug 2023 00:32:27.486 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+                                                                                                                                                                                                                                                                                    3076:C 08 Aug 2023 00:59:25.205 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3076:C 08 Aug 2023 00:59:25.207 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=3076, just started
+3076:C 08 Aug 2023 00:59:25.207 # Configuration loaded
+3076:M 08 Aug 2023 00:59:25.208 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3076:M 08 Aug 2023 00:59:25.208 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3076:M 08 Aug 2023 00:59:25.208 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3076:M 08 Aug 2023 00:59:25.208 * monotonic clock: POSIX clock_gettime
+3076:M 08 Aug 2023 00:59:25.211 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+3076:M 08 Aug 2023 00:59:25.211 * Running mode=standalone, port=6380.
+3076:M 08 Aug 2023 00:59:25.211 # Server initialized
+3076:M 08 Aug 2023 00:59:25.212 * Ready to accept connections
+3076:M 08 Aug 2023 00:59:25.212 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3076:signal-handler (1698171874) Received SIGTERM scheduling shutdown...
+3076:M 25 Oct 2023 03:24:34.171 # User requested shutdown...
+3076:M 25 Oct 2023 03:24:34.171 * Removing the unix socket file.
+3076:M 25 Oct 2023 03:24:34.171 # Redis is now ready to exit, bye bye...
+3164:C 25 Oct 2023 03:27:26.307 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3164:C 25 Oct 2023 03:27:26.312 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=3164, just started
+3164:C 25 Oct 2023 03:27:26.313 # Configuration loaded
+3164:M 25 Oct 2023 03:27:26.314 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3164:M 25 Oct 2023 03:27:26.314 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3164:M 25 Oct 2023 03:27:26.314 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3164:M 25 Oct 2023 03:27:26.314 * monotonic clock: POSIX clock_gettime
+3164:M 25 Oct 2023 03:27:26.317 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+3164:M 25 Oct 2023 03:27:26.318 * Running mode=standalone, port=6380.
+3164:M 25 Oct 2023 03:27:26.318 # Server initialized
+3164:M 25 Oct 2023 03:27:26.320 * Ready to accept connections
+3164:M 25 Oct 2023 03:27:26.320 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3164:signal-handler (1702875593) Received SIGTERM scheduling shutdown...
+3164:M 18 Dec 2023 13:59:53.518 # User requested shutdown...
+3164:M 18 Dec 2023 13:59:53.518 * Removing the unix socket file.
+3164:M 18 Dec 2023 13:59:53.518 # Redis is now ready to exit, bye bye...
+3367:C 18 Dec 2023 14:02:39.392 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3367:C 18 Dec 2023 14:02:39.398 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=3367, just started
+3367:C 18 Dec 2023 14:02:39.398 # Configuration loaded
+3367:M 18 Dec 2023 14:02:39.399 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3367:M 18 Dec 2023 14:02:39.399 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3367:M 18 Dec 2023 14:02:39.399 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3367:M 18 Dec 2023 14:02:39.399 * monotonic clock: POSIX clock_gettime
+3367:M 18 Dec 2023 14:02:39.402 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+3367:M 18 Dec 2023 14:02:39.402 * Running mode=standalone, port=6380.
+3367:M 18 Dec 2023 14:02:39.402 # Server initialized
+3367:M 18 Dec 2023 14:02:39.404 * Ready to accept connections
+3367:M 18 Dec 2023 14:02:39.404 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock
+3367:signal-handler (1708995801) Received SIGTERM scheduling shutdown...
+3367:M 27 Feb 2024 10:03:21.434 # User requested shutdown...
+3367:M 27 Feb 2024 10:03:21.434 * Removing the unix socket file.
+3367:M 27 Feb 2024 10:03:21.435 # Redis is now ready to exit, bye bye...
+3169:C 27 Feb 2024 10:06:16.895 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3169:C 27 Feb 2024 10:06:16.899 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=3169, just started
+3169:C 27 Feb 2024 10:06:16.900 # Configuration loaded
+3169:M 27 Feb 2024 10:06:16.901 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3169:M 27 Feb 2024 10:06:16.901 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3169:M 27 Feb 2024 10:06:16.901 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3169:M 27 Feb 2024 10:06:16.901 * monotonic clock: POSIX clock_gettime
+3169:M 27 Feb 2024 10:06:16.903 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+3169:M 27 Feb 2024 10:06:16.904 * Running mode=standalone, port=6380.
+3169:M 27 Feb 2024 10:06:16.904 # Server initialized
+3169:M 27 Feb 2024 10:06:16.905 * Ready to accept connections
+3169:M 27 Feb 2024 10:06:16.905 * The server is now ready to accept connections at /var/opt/ericsson/alarm-proxy/ericsson-alarm-proxy.sock

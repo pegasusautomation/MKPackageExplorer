@@ -1,0 +1,70 @@
+4:07:21.680132 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Dec 18 14:07:21.680153 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 32 samples
+Dec 19 13:18:56.780919 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 28 14:42:17.285881 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 29 10:37:22.281170 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 29 13:43:11.499253 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Jan 24 13:31:48.035720 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Jan 24 13:32:18.627583 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Jan 24 13:32:18.627606 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 35 samples
+Jan 24 13:32:18.627618 CS24_TS17_MBC Deagu  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 1 samples
+Feb 19 10:35:06.326043 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Feb 19 11:00:12.221159 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Feb 19 11:05:13.462171 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Feb 19 11:15:15.959075 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Feb 21 16:53:21.734514 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Feb 23 17:20:03.888407 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Feb 27 10:06:26.456133 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Feb 27 10:09:03.711211 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Feb 27 10:11:04.704738 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Feb 27 10:11:04.704786 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 39 samples
+Feb 27 10:11:04.704798 CS24_TS17_MBC Deagu  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 1 samples
+Mar 13 10:39:50.639154 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Aug  8 00:52:25.110689 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Aug  8 00:52:55.666899 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 47 samples late
+Aug  8 00:52:55.666923 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 11 samples
+Aug  8 00:52:55.666937 CS24_TS17_MBC Deagu  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 4 samples
+Aug  8 00:52:55.666949 CS24_TS17_MBC Deagu  [standalone] SampleQueue splicer.out.Master__Audio_2_decoded : skipped 4 samples
+Aug  8 00:59:35.695713 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Aug  8 01:04:21.745462 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 01:04:21.745496 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 29 samples
+Aug  8 05:10:50.266095 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Aug  8 05:11:20.786583 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 05:11:20.786598 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 45 samples
+Aug  8 05:11:20.786606 CS24_TS17_MBC Deagu  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 4 samples
+Aug  8 05:11:20.786613 CS24_TS17_MBC Deagu  [standalone] SampleQueue splicer.out.Master__Audio_2_decoded : skipped 4 samples
+Aug  8 23:10:46.356215 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Aug  8 23:11:16.910692 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 23:11:16.910714 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 50 samples
+Sep 14 02:31:05.680187 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Sep 14 02:31:36.197888 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 14 02:31:36.197912 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 23 samples
+Sep 14 02:39:47.998510 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Sep 14 02:40:18.524663 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 14 02:40:18.524682 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 32 samples
+Sep 14 02:40:18.524692 CS24_TS17_MBC Deagu  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 6 samples
+Sep 14 02:40:18.524701 CS24_TS17_MBC Deagu  [standalone] SampleQueue splicer.out.Master__Audio_2_decoded : skipped 1 samples
+Sep 25 16:35:38.264619 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Sep 25 16:36:08.838447 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 25 16:36:08.838474 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 41 samples
+Sep 25 16:36:08.838486 CS24_TS17_MBC Deagu  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 6 samples
+Sep 25 16:36:08.838496 CS24_TS17_MBC Deagu  [standalone] SampleQueue splicer.out.Master__Audio_2_decoded : skipped 5 samples
+Oct 13 02:01:07.251631 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Oct 25 03:27:36.108624 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Oct 25 03:32:22.397408 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Oct 25 03:32:22.397448 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 32 samples
+Nov 16 16:47:39.595722 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Nov 16 16:48:10.157333 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 16 16:48:10.157348 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 50 samples
+Nov 23 10:21:40.024591 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Nov 23 10:22:10.596862 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 23 10:22:10.596886 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 38 samples
+Nov 28 14:34:15.867880 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Nov 28 14:34:46.384319 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 28 14:34:46.384338 CS24_TS17_MBC Deagu  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 34 samples
+Nov 29 10:44:22.014387 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 13 10:47:25.088764 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 13 10:52:26.306654 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 13 16:48:50.082604 CS24_TS17_MBC Deagu  [standalone] Encoder 392f304b1c4f4afaaafe617a6bd93368.Processings_0.Video_01_enc_1 : encoded 2 samples late
+Dec 18 14:02:50.280457 CS24_TS17_MBC Deagu  [standalone] Start monitoring (inputSourceId: 392f304b1c4f4afaaafe617a6bd93368)
+Dec 18 1

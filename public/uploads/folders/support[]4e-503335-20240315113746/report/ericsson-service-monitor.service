@@ -1,0 +1,26 @@
+[Unit]
+Description=envivio-service-monitor
+After=network.target
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+# BEGINNING OF BZ47235
+PermissionsStartOnly=true
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/service-api/private
+ExecStartPre=/usr/bin/chown ericsson: /var/log/ericsson/service-api/private
+ExecStartPre=/usr/sbin/restorecon -R /var/log/ericsson/service-api
+# END OF BZ47235
+Environment=PYTHONDONTWRITEBYTECODE="True"
+ExecStart=/bin/bash -c     "cd /opt/ericsson/service-api/bin;source activate;./envivio-service-monitor --logging /opt/ericsson/service-api/etc/logging_service-monitor.json --conf /opt/ericsson/service-api/etc/service-api.ini >> /var/log/ericsson/service-api/private/console-monitor.log 2>&1"
+ExecStartPost=/bin/bash -c "ps aux|egrep -e './envivio-service-monitor'|grep -v grep|awk '{print $2}'>/var/opt/ericsson/service-api/envivio-service-monitor.pid"
+ExecReload=/bin/bash -c    "/bin/pkill -15 -F /var/opt/ericsson/service-api/envivio-service-monitor.pid; sleep 1"
+ExecReload=/bin/bash -c    "cd /opt/ericsson/service-api/bin;source activate;./envivio-service-monitor --logging /opt/ericsson/service-api/etc/logging_service-monitor.json --conf /opt/ericsson/service-api/etc/service-api.ini >> /var/log/ericsson/service-api/private/console-monitor.log 2>&1;"
+ExecReload=/bin/bash -c    "ps aux|egrep -e './envivio-service-monitor'|grep -v grep|awk '{print $2}'>/var/opt/ericsson/service-api/envivio-service-monitor.pid"
+ExecStop=/bin/bash -c      "/bin/pkill -15 -F /var/opt/ericsson/service-api/envivio-service-monitor.pid; sleep 1"
+ExecStopPost=/bin/bash -c  "rm -f /var/opt/ericsson/service-api/envivio-service-monitor.pid"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

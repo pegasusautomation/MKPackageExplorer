@@ -1,0 +1,72 @@
+51ff840)
+Dec 13 16:24:37.668702 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 58 samples
+Dec 13 16:24:37.668717 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 72 samples late
+Dec 14 15:49:59.140090 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 1 samples late
+Dec 18 14:02:49.607050 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Dec 18 14:07:36.137441 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 7 samples
+Dec 18 14:07:36.137467 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 54 samples late
+Dec 19 10:42:39.050272 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 1 samples late
+Jan 24 13:29:51.730080 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Jan 24 13:30:21.982714 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 37 samples
+Jan 24 13:30:21.982729 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 78 samples late
+Jan 24 13:31:26.803762 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Jan 24 13:31:57.076586 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 38 samples
+Jan 24 13:31:57.076610 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 62 samples late
+Feb 23 17:15:44.798415 BS18_TS02_KBS1_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 462 samples
+Feb 23 17:20:21.193461 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Feb 23 17:20:51.450067 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 28 samples
+Feb 23 17:20:51.450087 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 55 samples late
+Feb 23 19:36:21.217489 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 2 samples late
+Feb 23 19:36:21.217527 BS18_TS02_KBS1_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 1 samples
+Feb 23 19:41:22.316295 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 1428 samples late
+Feb 23 19:41:22.316315 BS18_TS02_KBS1_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 286 samples
+Feb 27 10:06:26.456095 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Feb 27 10:06:31.858524 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Feb 27 10:08:23.962873 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Feb 27 10:11:09.848646 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 34 samples
+Feb 27 10:11:09.848675 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 56 samples late
+Aug  8 00:52:24.840608 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Aug  8 00:52:55.110433 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 22 samples
+Aug  8 00:52:55.110457 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 55 samples late
+Aug  8 00:59:35.270962 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Aug  8 01:04:21.582603 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 38 samples late
+Aug  8 01:04:21.582645 BS18_TS02_KBS1_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 4 samples
+Aug  8 23:10:18.558133 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Aug  8 23:10:48.806482 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 29 samples
+Aug  8 23:10:48.806496 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 62 samples late
+Sep 14 02:31:00.798580 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Sep 14 02:31:31.023967 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 34 samples
+Sep 14 02:31:31.023992 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 63 samples late
+Sep 14 02:39:11.488882 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Sep 14 02:39:41.742307 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 28 samples
+Sep 14 02:39:41.742321 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 57 samples late
+Sep 25 16:35:09.729403 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Sep 25 16:35:39.995567 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 34 samples
+Sep 25 16:35:39.995582 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 62 samples late
+Oct 25 03:27:36.108603 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Oct 25 03:32:21.920587 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 11 samples
+Oct 25 03:32:21.920611 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 51 samples late
+Oct 25 03:32:21.920620 BS18_TS02_KBS1_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 4 samples
+Nov 16 16:47:03.792290 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Nov 16 16:47:34.051715 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 22 samples
+Nov 16 16:47:34.051730 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 57 samples late
+Nov 16 16:47:34.051738 BS18_TS02_KBS1_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 5 samples
+Nov 23 10:21:17.207587 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Nov 23 10:21:47.481192 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 22 samples
+Nov 23 10:21:47.481214 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 51 samples late
+Nov 27 11:27:31.196430 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Nov 27 11:28:01.468375 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 21 samples
+Nov 27 11:28:01.468394 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 52 samples late
+Nov 28 14:33:53.667747 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Nov 28 14:34:23.933647 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 34 samples
+Nov 28 14:34:23.933669 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 51 samples late
+Nov 29 10:39:53.186666 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Nov 29 10:40:23.428685 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 44 samples
+Nov 29 10:40:23.428708 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 72 samples late
+Dec 13 10:49:33.164509 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Dec 13 10:50:03.423938 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 40 samples
+Dec 13 10:50:03.423959 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 65 samples late
+Dec 13 14:01:11.160626 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d951ff840)
+Dec 13 14:01:41.424801 BS18_TS02_KBS1_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 54 samples
+Dec 13 14:01:41.424816 BS18_TS02_KBS1_TEST  [standalone] Encoder main.processings.processing_0.Video_01_enc_1.h264_encoder_Video_01_enc_1 : encoded 67 samples late
+Dec 13 16:24:07.398002 BS18_TS02_KBS1_TEST  [standalone] Start monitoring (inputSourceId: 3522ab0eb856477eaf22a77d9

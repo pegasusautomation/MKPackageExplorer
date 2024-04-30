@@ -1,0 +1,70 @@
+Aug  8 00:52:24.945594 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:24.960063 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:24.962606 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:52:24.991939 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:52:25.527320 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 00:59:35.285149 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.298217 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.300399 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:59:35.334292 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:59:36.389336 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 23:10:42.213148 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:42.227590 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:42.229904 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 23:10:42.261646 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 23:10:42.682506 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:31:04.832788 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:04.846289 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:04.848075 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:31:04.877738 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:31:05.292849 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:39:42.182183 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:42.196292 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:42.198264 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:39:42.225522 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:39:42.657481 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Sep 25 16:35:33.772441 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:33.789476 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:33.791618 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Sep 25 16:35:33.820084 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 25 16:35:34.251428 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Oct 25 03:27:36.125319 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.138814 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.140490 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Oct 25 03:27:36.167315 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Oct 25 03:27:36.955558 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Nov 16 16:47:33.353876 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:33.371359 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:33.373481 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Nov 16 16:47:33.402204 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 16 16:47:33.839120 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Nov 23 10:21:36.658160 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:36.671492 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:36.673526 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Nov 23 10:21:36.701109 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 23 10:21:37.159250 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Nov 28 14:34:12.008489 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:34:12.024596 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:34:12.027309 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Nov 28 14:34:12.056521 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 28 14:34:12.491259 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Dec 18 14:02:49.622945 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:49.636537 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:49.638743 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Dec 18 14:02:49.673514 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 18 14:02:50.959952 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Jan 24 13:31:45.595950 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:45.609306 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:45.611393 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Jan 24 13:31:45.640659 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Jan 24 13:31:46.073251 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:06:26.472617 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.486214 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.487904 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:06:26.514250 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:06:27.362097 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:08:58.319135 CS24_TS15_Shopping and T  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:58.333306 CS24_TS15_Shopping and T  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:58.335407 CS24_TS15_Shopping and T  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:08:58.369122 CS24_TS15_Shopping and T  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:08:58.834858 CS24_TS15_Shopping and T  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS08 on AlternateDynamicLive1 (Master__input_1)

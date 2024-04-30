@@ -1,0 +1,57 @@
+CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Aug  8 00:52:55.743640 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 25 samples late
+Aug  8 00:52:55.743660 CS14_TS15_MBC_Andong  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 1 samples
+Aug  8 00:52:55.743670 CS14_TS15_MBC_Andong  [standalone] SampleQueue splicer.out.Master__Audio_2_decoded : skipped 2 samples
+Aug  8 00:59:35.671790 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Aug  8 01:04:22.172606 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 01:04:22.172626 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 20 samples
+Aug  8 05:10:47.368568 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Aug  8 05:11:17.908346 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 05:11:17.908369 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 45 samples
+Aug  8 05:11:17.908381 CS14_TS15_MBC_Andong  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 4 samples
+Aug  8 05:11:17.908391 CS14_TS15_MBC_Andong  [standalone] SampleQueue splicer.out.Master__Audio_2_decoded : skipped 1 samples
+Aug  8 23:10:30.806200 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Aug  8 23:11:01.258837 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 23:11:01.258861 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 16 samples
+Aug  8 23:11:01.258874 CS14_TS15_MBC_Andong  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 6 samples
+Aug  8 23:11:01.258884 CS14_TS15_MBC_Andong  [standalone] SampleQueue splicer.out.Master__Audio_2_decoded : skipped 6 samples
+Sep  3 02:12:20.588344 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 6 samples late
+Sep 14 02:31:02.697858 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Sep 14 02:31:33.184699 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 14 02:31:33.184714 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 27 samples
+Sep 14 02:39:27.881981 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Sep 14 02:39:58.353140 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 14 02:39:58.353166 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 32 samples
+Sep 14 02:39:58.353178 CS14_TS15_MBC_Andong  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 1 samples
+Sep 25 16:35:23.279651 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Sep 25 16:35:53.760982 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 25 16:35:53.761000 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 46 samples
+Sep 28 01:18:59.342946 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 4 samples late
+Sep 28 01:18:59.342962 CS14_TS15_MBC_Andong  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 15 samples
+Sep 28 01:18:59.342970 CS14_TS15_MBC_Andong  [standalone] SampleQueue splicer.out.Master__Audio_2_decoded : skipped 6 samples
+Oct 25 03:27:36.108449 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Oct 25 03:32:22.301014 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Oct 25 03:32:22.301036 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 33 samples
+Nov 14 13:39:06.830739 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Nov 16 16:47:18.469398 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Nov 16 16:47:48.910464 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 16 16:47:48.910482 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 39 samples
+Nov 23 10:21:25.782712 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Nov 23 10:21:56.251195 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 23 10:21:56.251216 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 51 samples
+Nov 28 14:34:03.652127 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Nov 28 14:34:34.110578 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 28 14:34:34.110600 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 49 samples
+Nov 29 10:44:10.762373 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 18 14:02:50.279257 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Dec 18 14:07:21.770439 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Dec 18 14:07:21.771196 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 33 samples
+Jan 24 13:31:38.033100 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Jan 24 13:32:08.508983 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Jan 24 13:32:08.508998 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 39 samples
+Feb 27 10:06:26.455837 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Feb 27 10:08:37.460842 CS14_TS15_MBC_Andong  [standalone] Start monitoring (inputSourceId: ab302d6e9b7f43d6b85d43e37e3e9b63)
+Feb 27 10:11:08.577134 CS14_TS15_MBC_Andong  [standalone] Encoder ab302d6e9b7f43d6b85d43e37e3e9b63.Processings_0.Video_01_enc_1 : encoded 52 samples late
+Feb 27 10:11:08.577159 CS14_TS15_MBC_Andong  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 30 samples
+Feb 27 10:11:08.577171 CS14_TS15_MBC_Andong  [standalone] SampleQueue splicer.out.Master__Audio_2_decoded : skipped 1 samples
+Aug  8 00:52:25.194716 

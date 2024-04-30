@@ -1,0 +1,22 @@
+[Unit]
+Description=ericsson-unified-ui
+After=network.target
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+# BEGINNING OF BZ47235
+PermissionsStartOnly=true
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/unified-ui/public /var/log/ericsson/unified-ui/private
+ExecStartPre=/usr/bin/chown ericsson: /var/log/ericsson/unified-ui/public /var/log/ericsson/unified-ui/private
+ExecStartPre=/usr/sbin/restorecon -R /var/log/ericsson/unified-ui
+# END OF BZ47235
+Environment=PYTHONDONTWRITEBYTECODE="True"
+ExecStart=/bin/bash -c "/opt/ericsson/unified-ui/bin/unified-ui.sh start"
+ExecReload=/bin/bash -c "/opt/ericsson/unified-ui/bin/unified-ui.sh reload"
+ExecStop=/bin/bash -c "/opt/ericsson/unified-ui/bin/unified-ui.sh stop || /bin/kill -s HUP $MAINPID"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,822 @@
+9.244257 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 23:10:29.245989 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 23:10:29.246000 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 23:10:29.302148 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Aug  8 23:10:29.314574 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Aug  8 23:10:30.222390 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 23:10:30.350571 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Aug  8 23:10:33.650818 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:33.656172 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 22 03:11:31.933354 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 22 03:11:33.118444 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  3 02:10:06.622437 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  3 02:10:07.717446 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  3 02:11:45.812968 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  3 02:11:46.078574 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  3 02:11:46.126160 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  3 02:11:46.126279 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  5 01:06:07.066875 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  5 01:06:07.066980 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  5 01:18:25.476896 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  5 01:18:25.476987 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  5 01:18:25.485016 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  5 01:18:25.485156 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  5 08:34:05.778863 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  5 08:34:05.779020 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  5 08:34:05.802746 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  5 08:34:05.802881 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  5 08:36:59.848131 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  5 08:36:59.848254 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep  5 08:36:59.856252 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep  5 08:36:59.856410 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:31:01.838278 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:31:01.838290 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:31:01.838681 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:31:01.838706 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:31:02.827552 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:02.847487 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:03.270475 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:31:03.270496 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:31:03.275377 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:31:03.275396 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:31:03.277167 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:31:03.277179 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:31:03.345116 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Sep 14 02:31:03.349232 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Sep 14 02:31:04.327545 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:31:04.327663 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Sep 14 02:31:07.740040 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:31:07.746697 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:38:57.797578 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:38:57.797589 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:38:57.798142 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:38:57.798156 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:39:24.743786 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:24.761462 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:25.145481 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:39:25.145500 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:39:25.150140 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:39:25.150157 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:39:25.151899 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:39:25.151909 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:39:25.213310 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Sep 14 02:39:25.217761 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Sep 14 02:39:26.224278 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:39:26.535564 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Sep 14 02:39:29.555344 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:29.561082 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:34:25.615222 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Stop -----------
+Sep 25 16:34:25.615233 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Stop -----------
+Sep 25 16:34:25.615626 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Stop -----------
+Sep 25 16:34:25.615639 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Stop -----------
+Sep 25 16:35:21.152874 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:21.169507 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:21.569898 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Sep 25 16:35:21.569923 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Sep 25 16:35:21.575028 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Sep 25 16:35:21.575045 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Sep 25 16:35:21.576820 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Sep 25 16:35:21.576831 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Sep 25 16:35:21.630818 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Sep 25 16:35:21.634914 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Sep 25 16:35:22.319507 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 25 16:35:22.504827 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Sep 25 16:35:26.063689 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:35:26.069161 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:36.123548 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.140484 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.616702 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Oct 25 03:27:36.616730 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Oct 25 03:27:36.621346 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Oct 25 03:27:36.621368 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Oct 25 03:27:36.623165 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Oct 25 03:27:36.623194 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Oct 25 03:27:37.131875 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Oct 25 03:27:37.136611 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Oct 25 03:27:37.548111 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Oct 25 03:27:37.548168 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Oct 25 03:27:37.604091 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:37.604138 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 25 03:27:41.034320 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:41.040090 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:48.370146 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:48.602925 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 16 16:46:46.788908 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Stop -----------
+Nov 16 16:46:46.788919 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Stop -----------
+Nov 16 16:46:46.789310 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Stop -----------
+Nov 16 16:46:46.789328 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Stop -----------
+Nov 16 16:47:15.605007 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:15.621509 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:16.006502 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Nov 16 16:47:16.006521 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Nov 16 16:47:16.010908 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Nov 16 16:47:16.010924 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Nov 16 16:47:16.012667 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Nov 16 16:47:16.012677 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Nov 16 16:47:16.079881 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Nov 16 16:47:16.084395 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Nov 16 16:47:16.623243 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 16 16:47:16.752999 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Nov 16 16:47:16.808594 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:16.808639 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 16 16:47:20.415531 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:20.421170 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:27.389856 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:27.438069 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 23 10:21:07.556378 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Stop -----------
+Nov 23 10:21:07.556390 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Stop -----------
+Nov 23 10:21:07.556787 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Stop -----------
+Nov 23 10:21:07.556827 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Stop -----------
+Nov 23 10:21:24.597060 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:24.613323 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:25.001871 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Nov 23 10:21:25.001892 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Nov 23 10:21:25.007010 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Nov 23 10:21:25.007028 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Nov 23 10:21:25.008797 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Nov 23 10:21:25.008810 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Nov 23 10:21:25.066786 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Nov 23 10:21:25.071349 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Nov 23 10:21:25.703998 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 23 10:21:25.704079 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Nov 23 10:21:29.413032 BS20_TS13_MBC_Dajeon  [SWITCHERAug  8 00:52:25.084735 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:25.102841 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:25.510704 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:52:25.510723 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:52:25.515727 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:52:25.515744 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:52:25.517494 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:52:25.517505 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:52:25.818161 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Aug  8 00:52:25.823072 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Aug  8 00:52:26.063201 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:52:26.106279 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Aug  8 00:52:29.995782 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:52:30.002304 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:35.731814 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:35.747910 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:36.129882 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:59:36.129901 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:59:36.134047 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:59:36.134063 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:59:36.135813 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:59:36.135823 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:59:36.624145 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Aug  8 00:59:36.628054 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Aug  8 00:59:37.423244 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:59:37.482965 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Aug  8 00:59:40.542079 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:40.547554 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 01:03:03.753853 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 01:03:03.754163 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 01:03:03.785969 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 01:03:03.786168 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 23:10:10.151880 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Stop -----------
+Aug  8 23:10:10.151893 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Stop -----------
+Aug  8 23:10:10.152263 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Stop -----------
+Aug  8 23:10:10.152277 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Stop -----------
+Aug  8 23:10:28.840141 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:28.856515 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:29.239060 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Aug  8 23:10:29.239080 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Aug  8 23:10:29.244241 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 23:10:2 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:29.507421 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 24 03:01:57.499025 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 24 03:01:58.762490 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:35.244928 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Nov 28 14:33:35.252814 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Nov 28 14:33:35.414341 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:33:35.414425 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:35.414538 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:35.430300 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:35.430475 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:35.454367 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:35.454402 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:35.503002 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:35.503025 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:35.518617 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:35.519284 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:35.542769 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:35.545128 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:35.873561 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:35.873582 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 28 14:33:35.873762 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Nov 28 14:33:35.984317 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:46.062466 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Stop -----------
+Nov 28 14:33:46.062478 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Stop -----------
+Nov 28 14:33:46.062938 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Stop -----------
+Nov 28 14:33:46.062967 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Stop -----------
+Nov 28 14:34:01.991230 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:02.007532 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:02.387606 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Nov 28 14:34:02.387626 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Nov 28 14:34:02.392781 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Nov 28 14:34:02.392797 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Nov 28 14:34:02.394543 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Nov 28 14:34:02.394555 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Nov 28 14:34:02.461688 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Nov 28 14:34:02.480019 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Nov 28 14:34:02.829858 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:34:02.829950 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Nov 28 14:34:06.801726 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:06.807194 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.064892 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Nov 29 10:39:28.070287 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Nov 29 10:39:28.221107 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 29 10:39:28.260192 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.260480 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.271105 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.271143 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.305983 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.306007 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.316349 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.316986 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.364610 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.366537 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.687658 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.687673 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 29 10:39:28.687767 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Nov 29 10:39:28.789702 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.713326 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Nov 29 10:39:46.716827 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Nov 29 10:39:46.830098 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Nov 29 10:39:46.830174 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 0
+Nov 29 10:39:46.830191 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.830222 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.831375 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.831393 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.838289 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.838415 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.893702 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.893860 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.929440 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.929462 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.941884 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.942314 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.014234 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.014310 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.272338 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.272354 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 29 10:39:47.272420 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Nov 29 10:39:47.279108 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.290807 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 13 10:45:56.294262 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 13 10:45:56.488324 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 10:45:56.488402 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -2
+Dec 13 10:45:56.488418 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.488632 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.543415 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.544196 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.560559 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.560581 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.579006 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.579031 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.587376 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.591507 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:57.201570 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:57.201598 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 10:45:57.201735 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Dec 13 10:45:57.306168 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:29.868509 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 13 10:47:29.872963 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 13 10:47:30.065792 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 10:47:30.065879 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -2
+Dec 13 10:47:30.121994 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.122382 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.127280 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.127315 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.146060 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.146976 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.169331 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.170135 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.627356 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.627372 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 10:47:30.627441 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Dec 13 10:47:30.740225 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.270850 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 13 16:44:48.274986 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 13 16:44:48.467647 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:44:48.467750 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -5
+Dec 13 16:44:48.515708 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.515984 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.523745 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.524550 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.528400 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.528422 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.562608 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.562633 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.572083 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.572560 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:49.111433 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:49.111449 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:44:49.111511 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Dec 13 16:44:49.214282 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:07.956247 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 13 16:47:07.962277 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 13 16:47:08.026265 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:47:08.026358 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -5
+Dec 13 16:47:08.050720 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.050756 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.061187 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.061213 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.098003 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.098032 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.112474 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.112505 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.248272 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.248469 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.256180 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.257232 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.450070 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.450088 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:47:08.450158 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Dec 13 16:47:09.091170 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.382392 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 13 16:48:54.387291 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 13 16:48:54.444275 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:48:54.444388 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -5
+Dec 13 16:48:54.523577 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.524158 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.539608 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.539729 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.543045 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.543078 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.562199 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.562239 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.683217 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.684111 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.796498 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.822050 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 18 14:02:50.287969 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:50.304465 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:50.680595 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Dec 18 14:02:50.680611 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Dec 18 14:02:50.685208 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Dec 18 14:02:50.685222 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Dec 18 14:02:50.686956 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Dec 18 14:02:50.686967 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Dec 18 14:02:51.185083 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 18 14:02:51.189439 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 18 14:02:51.603189 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 18 14:02:51.603254 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Dec 18 14:02:51.651187 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:02:51.651224 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 18 14:02:51.662633 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:02:51.662662 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 18 14:02:55.098276 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:02:55.104128 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.667488 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 19 13:18:04.672097 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 19 13:18:04.765445 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:18:04.792009 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.792140 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.808014 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.808172 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.816695 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.816716 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.835172 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.835211 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.896333 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.896518 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.968046 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.968705 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:05.268829 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:05.268845 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:18:05.268996 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Dec 19 13:18:05.370053 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:57.454471 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 19 13:29:57.458685 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 19 13:29:57.584814 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 13:29:57.584907 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1
+Dec 19 13:29:57.584926 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:57.584951 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:57.592943 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:57.593039 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:57.634878 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:57.634919 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:57.641104 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:57.641291 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:57.697275 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:57.697615 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:57.753492 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:57.754601 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:57.980945 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:57.980962 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:29:57.981041 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Dec 19 13:29:58.090676 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.285440 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 19 13:30:24.289035 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 19 13:30:24.559092 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 13:30:24.559174 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1
+Dec 19 13:30:24.559192 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.559214 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.584398 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.586007 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:25.207824 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:25.207839 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:30:25.207909 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Dec 19 13:30:25.314444 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.137930 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 19 14:29:23.143336 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 19 14:29:23.358236 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 14:29:23.358315 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2
+Dec 19 14:29:23.358332 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.358352 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.408969 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.408995 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.413628 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.413757 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.437597 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.439248 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.782750 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:24.211144 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:55.720956 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 20 14:37:55.724170 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 20 14:37:55.805729 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 20 14:37:55.857065 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:55.857089 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:55.859113 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:55.859147 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:55.917985 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:55.918196 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:55.966191 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:55.967037 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.021574 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.022363 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.636264 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.636289 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 20 14:37:56.636417 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 1
+Dec 20 14:37:56.744995 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.491190 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 28 09:49:09.493475 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 28 09:49:09.689019 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 09:49:09.689130 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 0
+Dec 28 09:49:09.689160 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.689314 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.704993 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.705203 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.711932 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.711956 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.779045 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.779070 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.791547 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.793296 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.793596 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.793685 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:10.370011 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:10.370026 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 09:49:10.370098 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 1
+Dec 28 09:49:10.475859 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.014391 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 28 14:40:09.017868 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 28 14:40:09.156909 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 14:40:09.157010 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2
+Dec 28 14:40:09.157030 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.157168 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.228009 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.228165 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.232122 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.232146 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.249929 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.250022 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.268162 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.268837 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.315016 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.316381 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.944204 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.944222 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 14:40:09.944307 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 1
+Dec 28 14:40:10.055044 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.099730 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 28 14:59:15.104218 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 28 14:59:15.165264 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 14:59:15.165349 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2
+Dec 28 14:59:15.192966 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.193093 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.200959 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.201060 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.214620 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.214649 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.250133 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.250158 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.257187 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.257289 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.400847 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.401779 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.621965 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.621982 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 14:59:15.622057 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 1
+Dec 28 14:59:15.722882 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.191537 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 29 10:37:02.194485 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 29 10:37:02.237606 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 29 10:37:02.237717 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 5
+Dec 29 10:37:02.290873 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.290911 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.292894 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.292978 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.293208 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.293356 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.349135 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.349245 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.405271 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.405463 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.492180 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.493601 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.685697 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.685713 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 29 10:37:02.685782 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 1
+Dec 29 10:37:02.694327 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:41.797570 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 29 13:40:41.800776 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 29 13:40:41.885176 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 29 13:40:41.885301 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2
+Dec 29 13:40:41.891103 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:41.891135 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:41.935864 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:41.935900 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:41.947378 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:41.947641 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:41.987207 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:41.987232 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:41.995528 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:41.995813 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:42.051745 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:42.052085 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:42.099038 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:42.099863 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:42.328124 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:42.328247 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 29 13:40:42.328335 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 1
+Dec 29 13:40:42.340813 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.844033 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Dec 29 13:41:58.847873 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Dec 29 13:41:58.974768 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 29 13:41:58.974861 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2
+Dec 29 13:41:58.974880 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.974903 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.991855 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.991879 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.033539 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.033712 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.074757 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.074781 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.105724 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.105867 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.129841 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.130257 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.145201 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.145833 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.539298 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.971744 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 16 19:10:01.819072 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 16 19:10:03.147052 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.679416 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Jan 24 13:28:58.681981 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Jan 24 13:28:58.831831 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:28:58.831909 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.831934 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.883165 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.883190 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.938165 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.938283 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.978278 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.979894 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:59.347810 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:59.347826 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Jan 24 13:28:59.347911 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -3
+Jan 24 13:28:59.452107 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.343713 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Jan 24 13:29:24.347816 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Jan 24 13:29:24.436219 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Jan 24 13:29:24.436378 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2
+Jan 24 13:29:24.484004 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.484098 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.524182 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.524838 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.606429 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.606451 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.623550 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.623573 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.644605 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.644689 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.040126 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.040154 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Jan 24 13:29:25.040276 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -3
+Jan 24 13:29:25.045996 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.614796 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Jan 24 13:29:42.618185 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Jan 24 13:29:42.734623 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Jan 24 13:29:42.734721 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2
+Jan 24 13:29:42.788762 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.788927 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.812868 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.813169 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.894957 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.894978 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.916018 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.917255 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:43.230367 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:43.657686 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:16.348319 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Stop -----------
+Jan 24 13:31:16.348338 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Stop -----------
+Jan 24 13:31:16.348993 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Stop -----------
+Jan 24 13:31:16.349017 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Stop -----------
+Jan 24 13:31:36.401810 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:36.418586 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:36.809303 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Jan 24 13:31:36.809323 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Jan 24 13:31:36.814004 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Jan 24 13:31:36.814021 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Jan 24 13:31:36.815828 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Jan 24 13:31:36.815839 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Jan 24 13:31:36.873250 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Jan 24 13:31:36.877621 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Jan 24 13:31:37.423506 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:31:37.423586 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Jan 24 13:31:37.479445 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:37.479506 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:41.218252 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:41.312432 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 14 09:56:22.747894 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 14 09:56:22.771918 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 14 09:56:23.992216 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 14 09:56:23.992241 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 14 09:56:23.992584 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Feb 14 09:56:24.096717 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.307072 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Feb 19 10:31:36.313336 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Feb 19 10:31:36.396098 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 19 10:31:36.396178 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 4
+Feb 19 10:31:36.452228 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.452387 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.476337 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.476734 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.524644 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.524674 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.558823 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.558850 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.604735 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.608122 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.709210 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:37.135313 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.098320 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Feb 19 10:57:20.102545 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Feb 19 10:57:20.193225 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 10:57:20.193280 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.193397 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.264866 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.264984 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.283629 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.283659 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.305018 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.305267 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.332915 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.332938 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.382958 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.382994 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.398006 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.400037 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.658341 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:21.077872 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.226523 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Feb 19 11:03:59.230294 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Feb 19 11:03:59.286493 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 11:03:59.310855 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.310903 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.406917 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.406938 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.509899 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.510018 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.525844 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.527957 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.876176 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.876204 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 11:03:59.876305 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Feb 19 11:03:59.983639 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.437346 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Feb 19 11:11:40.442168 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Feb 19 11:11:40.625419 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 19 11:11:40.625570 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 4
+Feb 19 11:11:40.673572 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.673870 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.683182 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.683211 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.697619 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.698329 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.737909 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.739069 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:41.137207 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:41.137223 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 11:11:41.137325 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Feb 19 11:11:41.243571 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.678777 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Feb 21 16:49:38.682359 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Feb 21 16:49:38.768730 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 21 16:49:38.768812 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 4
+Feb 21 16:49:38.768831 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.768852 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.820049 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.820072 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.827871 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.828045 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.828120 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.828222 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.932223 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.932665 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.979971 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.980476 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:39.359666 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:39.359693 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 21 16:49:39.359795 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Feb 21 16:49:39.470260 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.075795 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Feb 23 17:14:49.079204 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Feb 23 17:14:49.216639 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 23 17:14:49.216748 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1
+Feb 23 17:14:49.216772 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.217010 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.288820 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.289348 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.327066 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.327089 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.360643 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.360673 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.377097 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.377208 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:50.029887 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:50.029904 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 23 17:14:50.029976 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Feb 23 17:14:50.099841 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.104182 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Feb 23 17:15:56.108493 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Feb 23 17:15:56.238696 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 23 17:15:56.238772 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1
+Feb 23 17:15:56.238789 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.238810 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.240002 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.240023 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.338708 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.338731 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.405175 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.405333 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.761895 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.761913 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 23 17:15:56.761980 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Feb 23 17:15:56.871114 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:06:26.470859 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:26.487827 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:27.221978 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:06:27.222003 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:06:27.226978 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:06:27.227001 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:06:27.228835 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:06:27.228863 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:06:27.777511 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Feb 27 10:06:27.778146 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Feb 27 10:06:28.796192 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:06:28.796266 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Feb 27 10:06:31.681761 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:31.687397 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:08:12.637552 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Stop -----------
+Feb 27 10:08:12.637564 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Stop -----------
+Feb 27 10:08:12.638156 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Stop -----------
+Feb 27 10:08:12.638171 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Stop -----------
+Feb 27 10:08:34.779631 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:08:34.798764 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:08:35.182160 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:08:35.182185 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:08:35.187758 BS20_TS13_MBC_Dajeon  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:08:35.187774 BS20_TS13_MBC_Dajeon  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:08:35.189676 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:08:35.189688 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:08:35.252363 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Feb 27 10:08:35.255816 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Feb 27 10:08:35.936747 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:08:36.046769 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  First sample received
+Feb 27 10:08:39.591636 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:08:39.598323 BS20_TS13_MBC_Dajeon  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:12:48.124874 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:12:48.125349 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:13:06.593797 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:13:06.594225 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:37:54.159072 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:37:54.159224 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 11:10:39.486454 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 11:10:39.703086 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.753784 BS20_TS13_MBC_Dajeon  [CAPTURE 1_0] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.51 
+Mar 13 10:36:42.759259 BS20_TS13_MBC_Dajeon  [CAPTURE 1_1] Connect to url udp://239.10.21.24:5000 using interface 172.16.12.141 
+Mar 13 10:36:42.901222 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Mar 13 10:36:42.901280 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.901402 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.956725 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.956879 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.012838 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.013170 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.053031 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.055020 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.726349 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.726366 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  Switch active source from 0 to 1
+Mar 13 10:36:43.726527 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Mar 13 10:36:43.839905 BS20_TS13_MBC_Dajeon  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK

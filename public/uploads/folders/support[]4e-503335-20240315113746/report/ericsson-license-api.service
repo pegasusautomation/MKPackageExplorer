@@ -1,0 +1,26 @@
+[Unit]
+Description=ericsson-license-api
+After=network.target ericsson-license-server.service
+
+[Service]
+Type=simple
+User=root
+Group=root
+# BEGINNING OF BZ47235
+PermissionsStartOnly=true
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/license-manager/public /var/log/ericsson/license-manager/private
+ExecStartPre=/usr/bin/chown root: /var/log/ericsson/license-manager/public /var/log/ericsson/license-manager/private
+ExecStartPre=/usr/sbin/restorecon -R /var/log/ericsson/license-manager
+# END OF BZ47235
+Environment=PYTHONDONTWRITEBYTECODE="True"
+ExecStart=/bin/bash -c     "cd /opt/ericsson/license-manager/bin;source activate;./ericsson-license-api --logging /opt/ericsson/license-manager/etc/logging.json --conf /opt/ericsson/license-manager/etc/license-manager.ini >> /dev/null"
+ExecStartPost=/bin/bash -c "ps aux|egrep -e './ericsson-license-api'|grep -v grep|awk '{print $2}'>/var/opt/ericsson/license-manager/ericsson-license-api.pid"
+ExecReload=/bin/bash -c    "/bin/pkill -15 -F /var/opt/ericsson/license-manager/ericsson-license-api.pid; sleep 1"
+ExecReload=/bin/bash -c    "cd /opt/ericsson/license-manager/bin;source activate;./ericsson-license-api --logging /opt/ericsson/license-manager/etc/logging.json --conf /opt/ericsson/license-manager/etc/license-manager.ini >> /dev/null"
+ExecReload=/bin/bash -c    "ps aux|egrep -e './ericsson-license-api'|grep -v grep|awk '{print $2}'>/var/opt/ericsson/license-manager/ericsson-license-api.pid"
+ExecStop=/bin/bash -c      "/bin/pkill -15 -F /var/opt/ericsson/license-manager/ericsson-license-api.pid; sleep 1"
+ExecStopPost=/bin/bash -c  "rm -f /var/opt/ericsson/license-manager/ericsson-license-api.pid"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

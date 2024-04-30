@@ -1,0 +1,215 @@
+ector: RabbitMQ publisher connected
+2023-08-08T00:24:56.414950+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ forwarder initialized
+2023-08-08T00:24:56.415155+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.change.# created
+2023-08-08T00:24:56.415334+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.sync created
+2023-08-08T00:24:56.463796+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:24:56.480423+09:00 [INFO] mediakind.alarm.collector.collector: Start consumer from one queue multi binding
+2023-08-08T00:24:56.484300+09:00 [INFO] ericsson.messaging.consumers: Connection opened, server properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'controller@MKEL_HD16_B', 'copyright': 'Copyright (c) 2007-2020 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 22.3.4.12', 'product': 'RabbitMQ', 'version': '3.8.8'}
+2023-08-08T00:24:56.484570+09:00 [INFO] ericsson.messaging.consumers: Creating a new channel
+2023-08-08T00:24:56.485562+09:00 [INFO] ericsson.messaging.consumers: Channel opened
+2023-08-08T00:24:56.486236+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-08-08T00:24:56.486689+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-08-08T00:24:56.487302+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-08-08T00:24:56.487896+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-08-08T00:24:56.488627+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-08-08T00:24:56.489136+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-08-08T00:24:56.489277+09:00 [INFO] ericsson.messaging.consumers: Issuing consumer related RPC commands
+2023-08-08T00:29:42.074385+09:00 [WARNING] ericsson.messaging.consumers: Channel 1 was closed: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2023-08-08T00:29:42.075015+09:00 [WARNING] ericsson.messaging.consumers: Connection closed, reopening in 5 seconds: (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2023-08-08T00:29:47.079717+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:29:47.080142+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:29:47.081146+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:29:52.085725+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:29:52.086154+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:29:52.087170+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:29:57.091731+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:29:57.092203+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:29:57.093171+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:02.096904+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:02.097307+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:02.098252+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:07.102458+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:07.102877+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:07.103943+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:12.108909+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:12.109804+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:12.111686+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:17.116830+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:17.117579+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:17.119375+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:22.124763+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:22.125469+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:22.127196+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:27.131800+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:27.132418+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:27.134056+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:32.138780+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:32.139394+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:32.140919+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:37.145775+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:37.146424+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:37.148229+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:42.153792+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:42.154425+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:42.155995+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:47.160788+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:47.161506+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:47.163158+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:52.167818+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:52.168505+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:52.170246+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:30:57.175741+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:30:57.176212+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:30:57.177213+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:02.182532+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:02.182954+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:02.183873+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:07.188753+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:07.189313+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:07.190650+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:12.195716+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:12.196111+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:12.197001+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:17.201714+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:17.202152+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:17.203114+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:22.207943+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:22.208739+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:22.210561+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:27.216001+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:27.216659+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:27.218340+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:32.223820+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:32.224423+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:32.225907+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:37.231223+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:37.231905+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:37.233916+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:42.238812+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:42.239475+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:42.241109+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:47.245825+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:47.246473+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:47.247839+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:52.252787+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:52.253406+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:52.254980+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:31:57.259781+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:31:57.260469+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:31:57.271580+09:00 [ERROR] ericsson.messaging.consumers: Connection error, reconnecting in 5 seconds
+2023-08-08T00:32:02.276741+09:00 [INFO] ericsson.messaging.consumers: Reconnecting
+2023-08-08T00:32:02.277270+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:32:02.281528+09:00 [INFO] ericsson.messaging.consumers: Connection opened, server properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'controller@MKEL_HD16_B', 'copyright': 'Copyright (c) 2007-2020 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 22.3.4.12', 'product': 'RabbitMQ', 'version': '3.8.8'}
+2023-08-08T00:32:02.281794+09:00 [INFO] ericsson.messaging.consumers: Creating a new channel
+2023-08-08T00:32:02.283113+09:00 [INFO] ericsson.messaging.consumers: Channel opened
+2023-08-08T00:32:02.284051+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-08-08T00:32:02.284641+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-08-08T00:32:02.286305+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-08-08T00:32:02.286906+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-08-08T00:32:02.288084+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-08-08T00:32:02.289165+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-08-08T00:32:02.289303+09:00 [INFO] ericsson.messaging.consumers: Issuing consumer related RPC commands
+2023-08-08T00:32:29.945415+09:00 [INFO] mediakind.alarm.collector.collector: Configuration: {'forward.retries': '36', 'forward.retry_interval': '10', 'collector.maxAlarmAge': 168, 'collector.resyncDeferral': '5', 'messaging.server_url': 'amqp://admin:admin@localhost:5672/?heartbeat=30', 'messaging.config': '/opt/ericsson/alarm/lib/python3.7/site-packages/mediakind/alarm/collector/../data/override_message_types.json', 'storage_overrider.alias': 'envivio_cluster_db_alias', 'storage_overrider.name': 'envivioCluster', 'storage_overrider.host': 'mongodb://127.0.0.1:27017/envivioCluster', 'storage_overrider.port': '27017', 'storage.alias': 'alarm_db_alias', 'storage.name': 'alarm', 'storage.host': 'mongodb://127.0.0.1:27017/alarm', 'storage.port': '27017', 'api.request_timeout': '5', 'api.service_url': 'http://localhost:8002/api/services', 'daemon.autoExpiryAlarmThreshold': '70', 'daemon.maxAlarmAge': '168', 'daemon.polling_timeout': '10', 'server.ip': '127.0.0.1', 'server.port': '8099'}
+2023-08-08T00:32:29.955718+09:00 [INFO] mediakind.alarm.collector.collector: Connected to Alarm mongodb
+2023-08-08T00:32:29.965699+09:00 [INFO] mediakind.alarm.collector.collector: Connected to envivioCluster mongodb
+2023-08-08T00:32:29.968307+09:00 [INFO] ericsson.messaging.connection: Connecting to AMQP hosts: ['amqp://admin:**@localhost:5672/']
+2023-08-08T00:32:29.994182+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ publisher connected
+2023-08-08T00:32:29.994807+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ forwarder initialized
+2023-08-08T00:32:29.994992+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.change.# created
+2023-08-08T00:32:29.995110+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.sync created
+2023-08-08T00:32:30.037464+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:32:30.054315+09:00 [INFO] mediakind.alarm.collector.collector: Start consumer from one queue multi binding
+2023-08-08T00:32:30.064549+09:00 [INFO] ericsson.messaging.consumers: Connection opened, server properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'controller@MKEL_HD16_B', 'copyright': 'Copyright (c) 2007-2020 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 22.3.4.12', 'product': 'RabbitMQ', 'version': '3.8.8'}
+2023-08-08T00:32:30.065095+09:00 [INFO] ericsson.messaging.consumers: Creating a new channel
+2023-08-08T00:32:30.067631+09:00 [INFO] ericsson.messaging.consumers: Channel opened
+2023-08-08T00:32:30.070515+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-08-08T00:32:30.071795+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-08-08T00:32:30.073274+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-08-08T00:32:30.074276+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-08-08T00:32:30.075647+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-08-08T00:32:30.077110+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-08-08T00:32:30.077354+09:00 [INFO] ericsson.messaging.consumers: Issuing consumer related RPC commands
+2023-08-08T00:59:27.230018+09:00 [INFO] mediakind.alarm.collector.collector: Configuration: {'forward.retries': '36', 'forward.retry_interval': '10', 'collector.maxA2023-08-08T00:24:56.385355+09:00 [INFO] mediakind.alarm.collector.collector: Configuration: {'forward.retries': '36', 'forward.retry_interval': '10', 'collector.maxAlarmAge': 168, 'collector.resyncDeferral': '5', 'messaging.server_url': 'amqp://admin:admin@localhost:5672/?heartbeat=30', 'messaging.config': '/opt/ericsson/alarm/lib/python3.7/site-packages/mediakind/alarm/collector/../data/override_message_types.json', 'storage_overrider.alias': 'envivio_cluster_db_alias', 'storage_overrider.name': 'envivioCluster', 'storage_overrider.host': 'mongodb://127.0.0.1:27017/envivioCluster', 'storage_overrider.port': '27017', 'storage.alias': 'alarm_db_alias', 'storage.name': 'alarm', 'storage.host': 'mongodb://127.0.0.1:27017/alarm', 'storage.port': '27017', 'api.request_timeout': '5', 'api.service_url': 'http://localhost:8002/api/services', 'daemon.autoExpiryAlarmThreshold': '70', 'daemon.maxAlarmAge': '168', 'daemon.polling_timeout': '10', 'server.ip': '127.0.0.1', 'server.port': '8099'}
+2023-08-08T00:24:56.392571+09:00 [INFO] mediakind.alarm.collector.collector: Connected to Alarm mongodb
+2023-08-08T00:24:56.395781+09:00 [INFO] mediakind.alarm.collector.collector: Connected to envivioCluster mongodb
+2023-08-08T00:24:56.396779+09:00 [INFO] ericsson.messaging.connection: Connecting to AMQP hosts: ['amqp://admin:**@localhost:5672/']
+2023-08-08T00:24:56.414373+09:00 [INFO] mediakind.alarm.collector.colllarmAge': 168, 'collector.resyncDeferral': '5', 'messaging.server_url': 'amqp://admin:admin@localhost:5672/?heartbeat=30', 'messaging.config': '/opt/ericsson/alarm/lib/python3.7/site-packages/mediakind/alarm/collector/../data/override_message_types.json', 'storage_overrider.alias': 'envivio_cluster_db_alias', 'storage_overrider.name': 'envivioCluster', 'storage_overrider.host': 'mongodb://127.0.0.1:27017/envivioCluster', 'storage_overrider.port': '27017', 'storage.alias': 'alarm_db_alias', 'storage.name': 'alarm', 'storage.host': 'mongodb://127.0.0.1:27017/alarm', 'storage.port': '27017', 'api.request_timeout': '5', 'api.service_url': 'http://localhost:8002/api/services', 'daemon.autoExpiryAlarmThreshold': '70', 'daemon.maxAlarmAge': '168', 'daemon.polling_timeout': '10', 'server.ip': '127.0.0.1', 'server.port': '8099'}
+2023-08-08T00:59:27.240357+09:00 [INFO] mediakind.alarm.collector.collector: Connected to Alarm mongodb
+2023-08-08T00:59:27.245311+09:00 [INFO] mediakind.alarm.collector.collector: Connected to envivioCluster mongodb
+2023-08-08T00:59:27.247590+09:00 [INFO] ericsson.messaging.connection: Connecting to AMQP hosts: ['amqp://admin:**@localhost:5672/']
+2023-08-08T00:59:33.277775+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ publisher connected
+2023-08-08T00:59:33.278098+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ forwarder initialized
+2023-08-08T00:59:33.278213+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.change.# created
+2023-08-08T00:59:33.278312+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.sync created
+2023-08-08T00:59:33.298252+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-08-08T00:59:33.307054+09:00 [INFO] mediakind.alarm.collector.collector: Start consumer from one queue multi binding
+2023-08-08T00:59:33.310550+09:00 [INFO] ericsson.messaging.consumers: Connection opened, server properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'controller@MKEL_HD16_B', 'copyright': 'Copyright (c) 2007-2020 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 22.3.4.12', 'product': 'RabbitMQ', 'version': '3.8.8'}
+2023-08-08T00:59:33.310749+09:00 [INFO] ericsson.messaging.consumers: Creating a new channel
+2023-08-08T00:59:33.311596+09:00 [INFO] ericsson.messaging.consumers: Channel opened
+2023-08-08T00:59:33.312156+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-08-08T00:59:33.312557+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-08-08T00:59:33.313789+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-08-08T00:59:33.314243+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-08-08T00:59:33.315163+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-08-08T00:59:33.315891+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-08-08T00:59:33.316010+09:00 [INFO] ericsson.messaging.consumers: Issuing consumer related RPC commands
+2023-10-25T03:27:27.603879+09:00 [INFO] mediakind.alarm.collector.collector: Configuration: {'forward.retries': '36', 'forward.retry_interval': '10', 'collector.maxAlarmAge': 168, 'collector.resyncDeferral': '5', 'messaging.server_url': 'amqp://admin:admin@localhost:5672/?heartbeat=30', 'messaging.config': '/opt/ericsson/alarm/lib/python3.7/site-packages/mediakind/alarm/collector/../data/override_message_types.json', 'storage_overrider.alias': 'envivio_cluster_db_alias', 'storage_overrider.name': 'envivioCluster', 'storage_overrider.host': 'mongodb://127.0.0.1:27017/envivioCluster', 'storage_overrider.port': '27017', 'storage.alias': 'alarm_db_alias', 'storage.name': 'alarm', 'storage.host': 'mongodb://127.0.0.1:27017/alarm', 'storage.port': '27017', 'api.request_timeout': '5', 'api.service_url': 'http://localhost:8002/api/services', 'daemon.autoExpiryAlarmThreshold': '70', 'daemon.maxAlarmAge': '168', 'daemon.polling_timeout': '10', 'server.ip': '127.0.0.1', 'server.port': '8099'}
+2023-10-25T03:27:28.111923+09:00 [INFO] mediakind.alarm.collector.collector: Connected to Alarm mongodb
+2023-10-25T03:27:28.116193+09:00 [INFO] mediakind.alarm.collector.collector: Connected to envivioCluster mongodb
+2023-10-25T03:27:28.117251+09:00 [INFO] ericsson.messaging.connection: Connecting to AMQP hosts: ['amqp://admin:**@localhost:5672/']
+2023-10-25T03:27:34.149468+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ publisher connected
+2023-10-25T03:27:34.149815+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ forwarder initialized
+2023-10-25T03:27:34.149951+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.change.# created
+2023-10-25T03:27:34.150052+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.sync created
+2023-10-25T03:27:34.170340+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-10-25T03:27:34.179369+09:00 [INFO] mediakind.alarm.collector.collector: Start consumer from one queue multi binding
+2023-10-25T03:27:34.182170+09:00 [INFO] ericsson.messaging.consumers: Connection opened, server properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'controller@MKEL_HD16_B', 'copyright': 'Copyright (c) 2007-2020 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 22.3.4.12', 'product': 'RabbitMQ', 'version': '3.8.8'}
+2023-10-25T03:27:34.182400+09:00 [INFO] ericsson.messaging.consumers: Creating a new channel
+2023-10-25T03:27:34.183306+09:00 [INFO] ericsson.messaging.consumers: Channel opened
+2023-10-25T03:27:34.183844+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-10-25T03:27:34.184261+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-10-25T03:27:34.185549+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-10-25T03:27:34.185992+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-10-25T03:27:34.187036+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-10-25T03:27:34.187732+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-10-25T03:27:34.187857+09:00 [INFO] ericsson.messaging.consumers: Issuing consumer related RPC commands
+2023-12-18T14:02:40.939837+09:00 [INFO] mediakind.alarm.collector.collector: Configuration: {'forward.retries': '36', 'forward.retry_interval': '10', 'collector.maxAlarmAge': 168, 'collector.resyncDeferral': '5', 'messaging.server_url': 'amqp://admin:admin@localhost:5672/?heartbeat=30', 'messaging.config': '/opt/ericsson/alarm/lib/python3.7/site-packages/mediakind/alarm/collector/../data/override_message_types.json', 'storage_overrider.alias': 'envivio_cluster_db_alias', 'storage_overrider.name': 'envivioCluster', 'storage_overrider.host': 'mongodb://127.0.0.1:27017/envivioCluster', 'storage_overrider.port': '27017', 'storage.alias': 'alarm_db_alias', 'storage.name': 'alarm', 'storage.host': 'mongodb://127.0.0.1:27017/alarm', 'storage.port': '27017', 'api.request_timeout': '5', 'api.service_url': 'http://localhost:8002/api/services', 'daemon.autoExpiryAlarmThreshold': '70', 'daemon.maxAlarmAge': '168', 'daemon.polling_timeout': '10', 'server.ip': '127.0.0.1', 'server.port': '8099'}
+2023-12-18T14:02:40.953123+09:00 [INFO] mediakind.alarm.collector.collector: Connected to Alarm mongodb
+2023-12-18T14:02:40.957417+09:00 [INFO] mediakind.alarm.collector.collector: Connected to envivioCluster mongodb
+2023-12-18T14:02:40.958744+09:00 [INFO] ericsson.messaging.connection: Connecting to AMQP hosts: ['amqp://admin:**@localhost:5672/']
+2023-12-18T14:02:47.051448+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ publisher connected
+2023-12-18T14:02:47.051889+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ forwarder initialized
+2023-12-18T14:02:47.052020+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.change.# created
+2023-12-18T14:02:47.052121+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.sync created
+2023-12-18T14:02:47.073411+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2023-12-18T14:02:47.082908+09:00 [INFO] mediakind.alarm.collector.collector: Start consumer from one queue multi binding
+2023-12-18T14:02:47.177606+09:00 [INFO] ericsson.messaging.consumers: Connection opened, server properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'controller@MKEL_HD16_B', 'copyright': 'Copyright (c) 2007-2020 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 22.3.4.12', 'product': 'RabbitMQ', 'version': '3.8.8'}
+2023-12-18T14:02:47.177838+09:00 [INFO] ericsson.messaging.consumers: Creating a new channel
+2023-12-18T14:02:47.178704+09:00 [INFO] ericsson.messaging.consumers: Channel opened
+2023-12-18T14:02:47.179235+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-12-18T14:02:47.179636+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2023-12-18T14:02:47.181222+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-12-18T14:02:47.181664+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2023-12-18T14:02:47.182907+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-12-18T14:02:47.183624+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2023-12-18T14:02:47.183745+09:00 [INFO] ericsson.messaging.consumers: Issuing consumer related RPC commands
+2024-02-27T10:06:18.131661+09:00 [INFO] mediakind.alarm.collector.collector: Configuration: {'forward.retries': '36', 'forward.retry_interval': '10', 'collector.maxAlarmAge': 168, 'collector.resyncDeferral': '5', 'messaging.server_url': 'amqp://admin:admin@localhost:5672/?heartbeat=30', 'messaging.config': '/opt/ericsson/alarm/lib/python3.7/site-packages/mediakind/alarm/collector/../data/override_message_types.json', 'storage_overrider.alias': 'envivio_cluster_db_alias', 'storage_overrider.name': 'envivioCluster', 'storage_overrider.host': 'mongodb://127.0.0.1:27017/envivioCluster', 'storage_overrider.port': '27017', 'storage.alias': 'alarm_db_alias', 'storage.name': 'alarm', 'storage.host': 'mongodb://127.0.0.1:27017/alarm', 'storage.port': '27017', 'api.request_timeout': '5', 'api.service_url': 'http://localhost:8002/api/services', 'daemon.autoExpiryAlarmThreshold': '70', 'daemon.maxAlarmAge': '168', 'daemon.polling_timeout': '10', 'server.ip': '127.0.0.1', 'server.port': '8099'}
+2024-02-27T10:06:18.638093+09:00 [INFO] mediakind.alarm.collector.collector: Connected to Alarm mongodb
+2024-02-27T10:06:18.642351+09:00 [INFO] mediakind.alarm.collector.collector: Connected to envivioCluster mongodb
+2024-02-27T10:06:18.643466+09:00 [INFO] ericsson.messaging.connection: Connecting to AMQP hosts: ['amqp://admin:**@localhost:5672/']
+2024-02-27T10:06:24.673398+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ publisher connected
+2024-02-27T10:06:24.673728+09:00 [INFO] mediakind.alarm.collector.collector: RabbitMQ forwarder initialized
+2024-02-27T10:06:24.673857+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.change.# created
+2024-02-27T10:06:24.673955+09:00 [INFO] mediakind.alarm.collector.collector: Router for alarms.sync created
+2024-02-27T10:06:24.694447+09:00 [INFO] ericsson.messaging.consumers: Connecting to amqp://admin:**@localhost:5672/
+2024-02-27T10:06:24.703052+09:00 [INFO] mediakind.alarm.collector.collector: Start consumer from one queue multi binding
+2024-02-27T10:06:24.706401+09:00 [INFO] ericsson.messaging.consumers: Connection opened, server properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'direct_reply_to': True}, 'cluster_name': 'controller@MKEL_HD16_B', 'copyright': 'Copyright (c) 2007-2020 VMware, Inc. or its affiliates.', 'information': 'Licensed under the MPL 2.0. Website: https://rabbitmq.com', 'platform': 'Erlang/OTP 22.3.4.12', 'product': 'RabbitMQ', 'version': '3.8.8'}
+2024-02-27T10:06:24.706632+09:00 [INFO] ericsson.messaging.consumers: Creating a new channel
+2024-02-27T10:06:24.707420+09:00 [INFO] ericsson.messaging.consumers: Channel opened
+2024-02-27T10:06:24.707977+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2024-02-27T10:06:24.708368+09:00 [INFO] ericsson.messaging.consumers: Exchange declared
+2024-02-27T10:06:24.709682+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2024-02-27T10:06:24.710153+09:00 [INFO] ericsson.messaging.consumers: Queue "alarm-collector" declared
+2024-02-27T10:06:24.711198+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2024-02-27T10:06:24.712078+09:00 [INFO] ericsson.messaging.consumers: Queue bound, mfvp.alarms
+2024-02-27T10:06:24.712201+09:00 [INFO] ericsson.messaging.consumers: Issuing consumer related RPC commands

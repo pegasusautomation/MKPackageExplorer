@@ -10,6 +10,7 @@ import Uptime from "./pages/Uptime.js";
 import Packageuploader from "./pages/Packageuploader.js";
 import Certtable from "./pages/certtable.js";
 import Alarm from "./pages/Alarm.js";
+import Spdetails from "./pages/Spdetails.js";
 import "./Table.css";
 import "./App.css";
 import Servertable from "./manageserver/servertable.js";
@@ -98,6 +99,9 @@ const App = () => {
             </Route>
             <Route exact path="/uptime">
                <Uptime/>
+            </Route>
+            <Route exact path="/spdetails">
+               <Spdetails/>
             </Route>
             <Route path="/profile">
                   {userData.role === 'user' && <UserProfile userData={userData}/>}

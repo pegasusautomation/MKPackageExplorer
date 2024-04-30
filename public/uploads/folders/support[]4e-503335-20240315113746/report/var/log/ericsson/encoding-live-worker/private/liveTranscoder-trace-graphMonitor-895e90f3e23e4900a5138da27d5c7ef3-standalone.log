@@ -1,0 +1,135 @@
+amples late
+Dec 29 12:57:21.072671 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 13:02:22.269579 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 13:07:23.458018 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 13:12:24.656727 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 13:17:25.880663 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 13:22:27.095744 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 13:27:28.363123 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 13:32:29.606456 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 13:37:30.876185 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 13:42:32.140790 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 3 samples late
+Jan 24 13:29:52.953798 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Jan 24 13:30:23.286922 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Jan 24 13:30:23.286942 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 31 samples
+Jan 24 13:31:28.689690 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Jan 24 13:31:58.935736 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Jan 24 13:31:58.935758 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 54 samples
+Feb 19 11:13:59.579972 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Feb 19 14:19:43.810300 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 177 samples late
+Feb 19 14:19:43.810320 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 33 samples
+Feb 23 11:46:38.044149 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 642 samples late
+Feb 23 11:46:38.044171 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 130 samples
+Feb 23 17:38:03.755259 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 2258 samples late
+Feb 23 17:38:03.755276 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 924 samples
+Feb 23 17:43:04.934397 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 4788 samples late
+Feb 23 17:43:04.934411 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 722 samples
+Feb 23 17:48:06.093612 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 2 samples
+Feb 27 10:06:26.456193 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Feb 27 10:08:26.184762 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Feb 27 10:11:12.127883 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Feb 27 10:11:12.127926 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 44 samples
+Mar 13 10:40:25.215400 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 3 samples late
+Mar 13 10:40:25.215418 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 12 samples
+Mar 13 10:41:24.463227 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Mar 13 10:41:54.838857 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 29 samples late
+Mar 13 10:41:54.838869 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 42 samples
+Mar 13 10:42:36.220755 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Mar 13 10:43:06.566378 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Mar 13 10:43:06.566426 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 15 samples
+Mar 13 10:43:06.566436 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 31 samples
+Aug  8 00:52:25.144149 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Aug  8 00:52:55.469765 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 00:52:55.469787 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 54 samples
+Aug  8 00:59:35.671378 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Aug  8 01:04:21.970827 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 01:04:21.970851 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 27 samples
+Aug  8 23:10:20.604193 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Aug  8 23:10:50.918888 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 23:10:50.918904 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 55 samples
+Aug 21 07:36:53.957052 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 2 samples late
+Sep 11 09:03:19.750463 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 4 samples late
+Sep 12 02:22:04.550142 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Sep 12 02:47:09.134587 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Sep 12 09:18:28.097223 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 3 samples late
+Sep 14 02:31:01.283987 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Sep 14 02:31:31.596455 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 14 02:31:31.596470 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 46 samples
+Sep 14 02:39:13.746192 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Sep 14 02:39:44.061252 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 14 02:39:44.061266 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 60 samples
+Sep 24 11:40:17.515512 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Sep 25 16:35:12.204515 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Sep 25 16:35:42.522916 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 25 16:35:42.522933 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 33 samples
+Sep 27 08:34:08.371972 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 2 samples late
+Oct 25 03:27:36.108400 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Oct 25 03:32:21.980108 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Oct 25 03:32:21.980134 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 40 samples
+Nov 12 07:39:16.625484 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Nov 16 16:47:06.215835 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Nov 16 16:47:36.527491 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 16 16:47:36.527506 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 35 samples
+Nov 23 10:21:18.712833 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Nov 23 10:21:49.040738 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 23 10:21:49.040760 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 47 samples
+Nov 28 14:33:55.089459 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Nov 28 14:34:25.409875 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 28 14:34:25.409912 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 17 samples
+Nov 28 14:34:25.409924 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 6 samples
+Nov 28 14:44:50.473223 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Nov 28 14:45:20.773364 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 52 samples late
+Nov 28 14:45:20.773378 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 46 samples
+Nov 28 14:45:20.773385 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 4 samples
+Nov 28 14:47:25.795339 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Nov 28 14:47:56.130313 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 52 samples late
+Nov 28 14:47:56.130328 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 45 samples
+Nov 28 14:47:56.130337 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 3 samples
+Nov 29 10:42:09.785454 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 13 10:49:21.076609 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 2 samples late
+Dec 13 16:45:40.693779 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 13 16:50:41.841093 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 18 14:02:50.279682 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Dec 18 14:07:36.650217 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Dec 18 14:07:36.650248 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 23 samples
+Dec 18 14:07:36.650261 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 6 samples
+Dec 19 13:33:49.482859 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 19 14:34:06.713681 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 28 11:11:35.886926 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Dec 28 11:12:06.228753 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 31 samples late
+Dec 28 11:12:06.228770 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 32 samples
+Dec 28 14:28:18.613025 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Dec 28 14:28:48.962212 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Dec 28 14:28:48.962235 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 18 samples
+Dec 28 14:28:48.962248 BS18_TS03_TEST  [standalone] SampleQueue splicer.out.Master__Audio_1_decoded : skipped 18 samples
+Dec 29 02:01:48.599344 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Dec 29 10:38:57.029650 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 2 samples late
+Dec 29 10:43:58.246107 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 4 samples late
+Dec 29 10:46:17.492851 BS18_TS03_TEST  [standalone] Start monitoring (inputSourceId: 895e90f3e23e4900a5138da27d5c7ef3)
+Dec 29 10:46:47.827799 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Dec 29 10:46:47.827819 BS18_TS03_TEST  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 32 samples
+Dec 29 10:51:49.119313 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 10:56:50.441144 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:01:51.738923 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:06:53.067555 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:11:54.424795 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:16:55.779313 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 6 samples late
+Dec 29 11:21:57.171455 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:26:58.506015 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:31:59.821488 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:37:01.140653 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:42:02.454744 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:47:03.741639 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:52:05.059254 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 11:57:06.306054 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:02:07.580234 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:07:08.853132 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:12:10.144600 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:17:11.361809 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:22:12.629886 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:27:13.871297 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:32:15.111095 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:37:16.265360 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:42:17.473205 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:47:18.685262 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 samples late
+Dec 29 12:52:19.884040 BS18_TS03_TEST  [standalone] Encoder 895e90f3e23e4900a5138da27d5c7ef3.Processings_0.Video_01_enc_1 : encoded 5 s

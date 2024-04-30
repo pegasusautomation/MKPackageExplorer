@@ -1,0 +1,85 @@
+[
+    {
+        "send_oct": 1885737696,
+        "metadata": {
+            "tags": [],
+            "description": "Default virtual host"
+        },
+        "tracing": false,
+        "messages_ready": 0,
+        "messages": 0,
+        "messages_ready_details": {
+            "rate": 0.0
+        },
+        "recv_oct_details": {
+            "rate": 570.4
+        },
+        "name": "/",
+        "messages_unacknowledged": 0,
+        "messages_unacknowledged_details": {
+            "rate": 0.0
+        },
+        "send_oct_details": {
+            "rate": 1110.6
+        },
+        "message_stats": {
+            "publish_details": {
+                "rate": 2.2
+            },
+            "deliver_details": {
+                "rate": 0.4
+            },
+            "get_empty": 0,
+            "deliver_get": 4615032,
+            "get_details": {
+                "rate": 0.0
+            },
+            "redeliver": 0,
+            "confirm": 162172,
+            "ack_details": {
+                "rate": 0.4
+            },
+            "get_empty_details": {
+                "rate": 0.0
+            },
+            "deliver": 1669377,
+            "deliver_no_ack": 2945655,
+            "confirm_details": {
+                "rate": 0.2
+            },
+            "drop_unroutable": 0,
+            "return_unroutable": 161047,
+            "deliver_get_details": {
+                "rate": 2.0
+            },
+            "publish": 3545212,
+            "get": 0,
+            "ack": 1668344,
+            "deliver_no_ack_details": {
+                "rate": 1.6
+            },
+            "get_no_ack_details": {
+                "rate": 0.0
+            },
+            "return_unroutable_details": {
+                "rate": 0.2
+            },
+            "redeliver_details": {
+                "rate": 0.0
+            },
+            "drop_unroutable_details": {
+                "rate": 0.0
+            },
+            "get_no_ack": 0
+        },
+        "messages_details": {
+            "rate": 0.0
+        },
+        "cluster_state": {
+            "controller@192.168.21.51": "running"
+        },
+        "tags": [],
+        "description": "Default virtual host",
+        "recv_oct": 1222319994
+    }
+]

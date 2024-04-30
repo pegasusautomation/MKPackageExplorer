@@ -1,0 +1,23 @@
+[Unit]
+Description=ericsson-encoding-live-worker
+After=network-online.target
+Wants=network-online.target rsyslog.service
+
+[Service]
+LimitMEMLOCK=infinity
+Environment="LIBVA_DRIVERS_PATH=/usr/lib64/dri"
+Environment="LIBVA_DRIVER_NAME=iHD"
+Environment="LD_LIBRARY_PATH=/opt/mediakind/mfvpp-lib/lib64:/opt/ericsson/encoding-live-worker/lib:/opt/intel/lib/intel64:/opt/intel/mediasdk/lib64/"
+Type=simple
+User=ericsson
+Group=ericsson
+PermissionsStartOnly=true 
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/encoding-live-worker/public /var/log/ericsson/encoding-live-worker/private /var/log/ericsson/encoding-live-worker/setup 
+ExecStartPre=/usr/bin/chown -R ericsson: /var/log/ericsson/encoding-live-worker/public /var/log/ericsson/encoding-live-worker/private /var/log/ericsson/encoding-live-worker/setup
+ExecStart=/opt/ericsson/encoding-live-worker/bin/liveencoder-daemon --conf /opt/ericsson/encoding-live-worker/etc/encoding-live-worker.ini --logging /opt/ericsson/encoding-live-worker/etc/encoding-live-worker-logging.json
+ExecStop=/bin/kill -s HUP $MAINPID
+Restart=always
+TimeoutStopSec=15
+
+[Install]
+WantedBy=multi-user.target

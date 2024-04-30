@@ -1,0 +1,168 @@
+-----------iptables (sudo iptables -L) ---------------------------
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere             ctstate RELATED,ESTABLISHED
+ACCEPT     all  --  anywhere             anywhere            
+INPUT_direct  all  --  anywhere             anywhere            
+INPUT_ZONES_SOURCE  all  --  anywhere             anywhere            
+INPUT_ZONES  all  --  anywhere             anywhere            
+DROP       all  --  anywhere             anywhere             ctstate INVALID
+REJECT     all  --  anywhere             anywhere             reject-with icmp-host-prohibited
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere             ctstate RELATED,ESTABLISHED
+ACCEPT     all  --  anywhere             anywhere            
+FORWARD_direct  all  --  anywhere             anywhere            
+FORWARD_IN_ZONES_SOURCE  all  --  anywhere             anywhere            
+FORWARD_IN_ZONES  all  --  anywhere             anywhere            
+FORWARD_OUT_ZONES_SOURCE  all  --  anywhere             anywhere            
+FORWARD_OUT_ZONES  all  --  anywhere             anywhere            
+DROP       all  --  anywhere             anywhere             ctstate INVALID
+REJECT     all  --  anywhere             anywhere             reject-with icmp-host-prohibited
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere            
+OUTPUT_direct  all  --  anywhere             anywhere            
+
+Chain FORWARD_IN_ZONES (1 references)
+target     prot opt source               destination         
+FWDI_public  all  --  anywhere             anywhere            [goto] 
+FWDI_public  all  --  anywhere             anywhere            [goto] 
+FWDI_public  all  --  anywhere             anywhere            [goto] 
+FWDI_public  all  --  anywhere             anywhere            [goto] 
+FWDI_public  all  --  anywhere             anywhere            [goto] 
+
+Chain FORWARD_IN_ZONES_SOURCE (1 references)
+target     prot opt source               destination         
+
+Chain FORWARD_OUT_ZONES (1 references)
+target     prot opt source               destination         
+FWDO_public  all  --  anywhere             anywhere            [goto] 
+FWDO_public  all  --  anywhere             anywhere            [goto] 
+FWDO_public  all  --  anywhere             anywhere            [goto] 
+FWDO_public  all  --  anywhere             anywhere            [goto] 
+FWDO_public  all  --  anywhere             anywhere            [goto] 
+
+Chain FORWARD_OUT_ZONES_SOURCE (1 references)
+target     prot opt source               destination         
+
+Chain FORWARD_direct (1 references)
+target     prot opt source               destination         
+
+Chain FWDI_public (5 references)
+target     prot opt source               destination         
+FWDI_public_log  all  --  anywhere             anywhere            
+FWDI_public_deny  all  --  anywhere             anywhere            
+FWDI_public_allow  all  --  anywhere             anywhere            
+ACCEPT     icmp --  anywhere             anywhere            
+
+Chain FWDI_public_allow (1 references)
+target     prot opt source               destination         
+
+Chain FWDI_public_deny (1 references)
+target     prot opt source               destination         
+
+Chain FWDI_public_log (1 references)
+target     prot opt source               destination         
+
+Chain FWDO_public (5 references)
+target     prot opt source               destination         
+FWDO_public_log  all  --  anywhere             anywhere            
+FWDO_public_deny  all  --  anywhere             anywhere            
+FWDO_public_allow  all  --  anywhere             anywhere            
+
+Chain FWDO_public_allow (1 references)
+target     prot opt source               destination         
+
+Chain FWDO_public_deny (1 references)
+target     prot opt source               destination         
+
+Chain FWDO_public_log (1 references)
+target     prot opt source               destination         
+
+Chain INPUT_ZONES (1 references)
+target     prot opt source               destination         
+IN_public  all  --  anywhere             anywhere            [goto] 
+IN_public  all  --  anywhere             anywhere            [goto] 
+IN_public  all  --  anywhere             anywhere            [goto] 
+IN_public  all  --  anywhere             anywhere            [goto] 
+IN_public  all  --  anywhere             anywhere            [goto] 
+
+Chain INPUT_ZONES_SOURCE (1 references)
+target     prot opt source               destination         
+
+Chain INPUT_direct (1 references)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere            
+ACCEPT     udp  --  anywhere             anywhere             ADDRTYPE match dst-type UNICAST
+ACCEPT     udp  --  anywhere             anywhere             ADDRTYPE match src-type UNICAST
+ACCEPT     all  --  anywhere             anywhere             PKTTYPE = broadcast
+ACCEPT     all  --  anywhere             anywhere             PKTTYPE = multicast
+ACCEPT     udp  --  anywhere             anywhere             PKTTYPE = unicast
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED
+ACCEPT     icmp --  anywhere             anywhere             icmp echo-reply
+ACCEPT     icmp --  anywhere             anywhere             icmp echo-request
+ACCEPT     igmp --  anywhere             anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:ftp
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:ssh
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:https
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:domain
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:domain
+ACCEPT     udp  --  anywhere             anywhere             udp dpts:personal-agent:5655
+
+Chain IN_public (5 references)
+target     prot opt source               destination         
+IN_public_log  all  --  anywhere             anywhere            
+IN_public_deny  all  --  anywhere             anywhere            
+IN_public_allow  all  --  anywhere             anywhere            
+ACCEPT     icmp --  anywhere             anywhere            
+
+Chain IN_public_allow (1 references)
+target     prot opt source               destination         
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:ssh ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:http ctstate NEW,UNTRACKED
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:ntp ctstate NEW,UNTRACKED
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:snmp ctstate NEW,UNTRACKED
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:snmptrap ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:pcsync-https ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:webcache ctstate NEW,UNTRACKED
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:sentinel-lm ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:amqp ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:25672 ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:epmd ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:27017 ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:2379 ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:2380 ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:trivnet1 ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpts:scte104:5700 ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpts:ndmp:itap-ddtp ctstate NEW,UNTRACKED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpts:jetdirect:vrace ctstate NEW,UNTRACKED
+
+Chain IN_public_deny (1 references)
+target     prot opt source               destination         
+
+Chain IN_public_log (1 references)
+target     prot opt source               destination         
+
+Chain OUTPUT_direct (1 references)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere            
+ACCEPT     udp  --  anywhere             anywhere             ADDRTYPE match dst-type UNICAST
+ACCEPT     udp  --  anywhere             anywhere             ADDRTYPE match src-type UNICAST
+ACCEPT     all  --  anywhere             anywhere             PKTTYPE = broadcast
+ACCEPT     all  --  anywhere             anywhere             PKTTYPE = multicast
+ACCEPT     udp  --  anywhere             anywhere             PKTTYPE = unicast
+ACCEPT     all  --  anywhere             anywhere             state RELATED,ESTABLISHED
+ACCEPT     icmp --  anywhere             anywhere             icmp echo-reply
+ACCEPT     icmp --  anywhere             anywhere             icmp echo-request
+ACCEPT     igmp --  anywhere             anywhere            
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:snmptrap
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:ftp
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:https
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:domain
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:ntp
+ACCEPT     udp  --  anywhere             anywhere             udp dpt:domain
+ACCEPT     udp  --  anywhere             anywhere             udp dpts:personal-agent:5655
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpts:jetdirect:wap-wsp

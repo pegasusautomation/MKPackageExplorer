@@ -1,0 +1,14 @@
+[Unit]
+Description=Redis persistent key-value database
+After=network.target
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+ExecStart=/usr/bin/redis-server /opt/ericsson/statistic/etc/ericsson-statistic-redis.conf --daemonize no
+ExecStop=/bin/kill -s HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

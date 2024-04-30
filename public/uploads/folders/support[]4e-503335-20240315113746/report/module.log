@@ -1,0 +1,112 @@
+tcp_diag 12591 0 - Live 0x0000000000000000
+inet_diag 18949 1 tcp_diag, Live 0x0000000000000000
+binfmt_misc 17468 1 - Live 0x0000000000000000
+sch_fq 17156 1 - Live 0x0000000000000000
+xt_pkttype 12504 6 - Live 0x0000000000000000
+xt_addrtype 12676 4 - Live 0x0000000000000000
+ip6t_rpfilter 12595 1 - Live 0x0000000000000000
+ip6t_REJECT 12625 2 - Live 0x0000000000000000
+nf_reject_ipv6 13717 1 ip6t_REJECT, Live 0x0000000000000000
+ipt_REJECT 12541 2 - Live 0x0000000000000000
+nf_reject_ipv4 13373 1 ipt_REJECT, Live 0x0000000000000000
+xt_conntrack 12760 47 - Live 0x0000000000000000
+rdma_ucm 27023 0 - Live 0x0000000000000000 (OE)
+ebtable_nat 12807 1 - Live 0x0000000000000000
+rdma_cm 64595 1 rdma_ucm, Live 0x0000000000000000 (OE)
+iw_cm 43918 1 rdma_cm, Live 0x0000000000000000 (OE)
+ebtable_broute 12731 1 - Live 0x0000000000000000
+bridge 155432 1 ebtable_broute, Live 0x0000000000000000
+stp 12976 1 bridge, Live 0x0000000000000000
+llc 14552 2 bridge,stp, Live 0x0000000000000000
+ip6table_nat 12864 1 - Live 0x0000000000000000
+nf_conntrack_ipv6 18935 24 - Live 0x0000000000000000
+nf_defrag_ipv6 35104 1 nf_conntrack_ipv6, Live 0x0000000000000000
+nf_nat_ipv6 14131 1 ip6table_nat, Live 0x0000000000000000
+ib_ipoib 124872 0 - Live 0x0000000000000000 (OE)
+ib_cm 53085 2 rdma_cm,ib_ipoib, Live 0x0000000000000000 (OE)
+ip6table_mangle 12700 1 - Live 0x0000000000000000
+ip6table_security 12710 1 - Live 0x0000000000000000
+ip6table_raw 12683 1 - Live 0x0000000000000000
+ib_umad 27744 0 - Live 0x0000000000000000 (OE)
+iptable_nat 12875 1 - Live 0x0000000000000000
+nf_conntrack_ipv4 19149 25 - Live 0x0000000000000000
+nf_defrag_ipv4 12729 1 nf_conntrack_ipv4, Live 0x0000000000000000
+nf_nat_ipv4 14115 1 iptable_nat, Live 0x0000000000000000
+nf_nat 26583 2 nf_nat_ipv6,nf_nat_ipv4, Live 0x0000000000000000
+iptable_mangle 12695 1 - Live 0x0000000000000000
+iptable_security 12705 1 - Live 0x0000000000000000
+iptable_raw 12678 1 - Live 0x0000000000000000
+nf_conntrack 143360 6 xt_conntrack,nf_conntrack_ipv6,nf_nat_ipv6,nf_conntrack_ipv4,nf_nat_ipv4,nf_nat, Live 0x0000000000000000
+libcrc32c 12644 2 nf_nat,nf_conntrack, Live 0x0000000000000000
+mlx5_ib 371350 0 - Live 0x0000000000000000 (OE)
+ib_uverbs 132961 2 rdma_ucm,mlx5_ib, Live 0x0000000000000000 (OE)
+mlx5_core 1322327 1 mlx5_ib, Live 0x0000000000000000 (OE)
+ib_core 357701 8 rdma_ucm,rdma_cm,iw_cm,ib_ipoib,ib_cm,ib_umad,mlx5_ib,ib_uverbs, Live 0x0000000000000000 (OE)
+mlx_compat 55063 10 rdma_ucm,rdma_cm,iw_cm,ib_ipoib,ib_cm,ib_umad,mlx5_ib,ib_uverbs,mlx5_core,ib_core, Live 0x0000000000000000 (OE)
+mlxfw 22321 1 mlx5_core, Live 0x0000000000000000 (OE)
+psample 13526 1 mlx5_core, Live 0x0000000000000000
+devlink 60067 1 mlx5_core, Live 0x0000000000000000
+ip_set 45799 0 - Live 0x0000000000000000
+ebtable_filter 12827 1 - Live 0x0000000000000000
+ebtables 35009 3 ebtable_nat,ebtable_broute,ebtable_filter, Live 0x0000000000000000
+ip6table_filter 12815 1 - Live 0x0000000000000000
+ip6_tables 26912 5 ip6table_nat,ip6table_mangle,ip6table_security,ip6table_raw,ip6table_filter, Live 0x0000000000000000
+iptable_filter 12810 1 - Live 0x0000000000000000
+acpi_ipmi 13066 0 - Live 0x0000000000000000
+iTCO_wdt 13572 0 - Live 0x0000000000000000
+iTCO_vendor_support 13242 1 iTCO_wdt, Live 0x0000000000000000
+skx_edac 18293 0 - Live 0x0000000000000000
+intel_powerclamp 14451 0 - Live 0x0000000000000000
+coretemp 13444 0 - Live 0x0000000000000000
+intel_rapl 19451 0 - Live 0x0000000000000000
+iosf_mbi 15582 1 intel_rapl, Live 0x0000000000000000
+kvm 653928 0 - Live 0x0000000000000000
+irqbypass 13503 1 kvm, Live 0x0000000000000000
+crc32_pclmul 13133 0 - Live 0x0000000000000000
+ghash_clmulni_intel 13273 0 - Live 0x0000000000000000
+aesni_intel 189456 1 - Live 0x0000000000000000
+lrw 13286 1 aesni_intel, Live 0x0000000000000000
+gf128mul 15139 1 lrw, Live 0x0000000000000000
+glue_helper 13990 1 aesni_intel, Live 0x0000000000000000
+ablk_helper 13597 1 aesni_intel, Live 0x0000000000000000
+cryptd 21190 3 ghash_clmulni_intel,aesni_intel,ablk_helper, Live 0x0000000000000000
+pcspkr 12718 0 - Live 0x0000000000000000
+sg 40719 0 - Live 0x0000000000000000
+i2c_i801 22736 0 - Live 0x0000000000000000
+mei_me 32848 0 - Live 0x0000000000000000
+joydev 17389 0 - Live 0x0000000000000000
+mei 95246 1 mei_me, Live 0x0000000000000000
+lpc_ich 21086 0 - Live 0x0000000000000000
+wmi 21636 0 - Live 0x0000000000000000
+acpi_power_meter 18104 0 - Live 0x0000000000000000
+acpi_pad 116316 0 - Live 0x0000000000000000
+ip_tables 27126 5 iptable_nat,iptable_mangle,iptable_security,iptable_raw,iptable_filter, Live 0x0000000000000000
+ext4 592325 4 - Live 0x0000000000000000
+mbcache 14958 1 ext4, Live 0x0000000000000000
+jbd2 107486 1 ext4, Live 0x0000000000000000
+sd_mod 46281 3 - Live 0x0000000000000000
+crc_t10dif 12912 1 sd_mod, Live 0x0000000000000000
+crct10dif_generic 12647 0 - Live 0x0000000000000000
+crct10dif_pclmul 14307 1 - Live 0x0000000000000000
+i40e 373429 0 - Live 0x0000000000000000
+crct10dif_common 12595 3 crc_t10dif,crct10dif_generic,crct10dif_pclmul, Live 0x0000000000000000
+igb 223919 0 - Live 0x0000000000000000
+crc32c_intel 22094 1 - Live 0x0000000000000000
+ahci 34056 2 - Live 0x0000000000000000
+dca 15130 1 igb, Live 0x0000000000000000
+libahci 31992 1 ahci, Live 0x0000000000000000
+i2c_algo_bit 13413 1 igb, Live 0x0000000000000000
+ptp 23551 3 mlx5_core,i40e,igb, Live 0x0000000000000000
+libata 247190 2 ahci,libahci, Live 0x0000000000000000
+pps_core 19057 1 ptp, Live 0x0000000000000000
+nfit 59735 1 skx_edac, Live 0x0000000000000000
+libnvdimm 163620 1 nfit, Live 0x0000000000000000
+dm_mirror 22326 0 - Live 0x0000000000000000
+dm_region_hash 20813 1 dm_mirror, Live 0x0000000000000000
+dm_log 18411 2 dm_mirror,dm_region_hash, Live 0x0000000000000000
+dm_mod 128595 11 dm_mirror,dm_log, Live 0x0000000000000000
+ipmi_si 59965 1 - Live 0x0000000000000000
+ipmi_devintf 17459 0 - Live 0x0000000000000000
+ipmi_msghandler 56728 3 acpi_ipmi,ipmi_si,ipmi_devintf, Live 0x0000000000000000
+i2c_smbus 13356 0 - Live 0x0000000000000000
+i2c_dev 13985 0 - Live 0x0000000000000000
