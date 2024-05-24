@@ -17,14 +17,14 @@ import {
     AiFillSafetyCertificate,
     AiOutlineFieldTime,
     AiOutlineLeft,
-    AiOutlineProfile,
+    AiOutlineLoading3Quarters,
 } from "react-icons/ai";
 // import { MdLogout } from "react-icons/md";
 import { BsAlarmFill, BsCloudUpload, BsGraphUp, BsServer, BsTicketDetailed } from "react-icons/bs";
 
 import { useLocation } from "react-router-dom";
 
-const Sidebar = ({userData}) => {
+const Sidebar = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const { pathname } = useLocation();
 
@@ -83,13 +83,13 @@ const Sidebar = ({userData}) => {
 };
 
 const linksArray = [
-  {
-    // {userData && (
-            label: "Profile",
-            icon: <AiOutlineProfile />,
-            to: "/Profile",
-    // )}
-        },
+//   {
+//     // {userData && (
+//             label: "Profile",
+//             icon: <AiOutlineProfile />,
+//             to: "/Profile",
+//     // )}
+//         },
     {
         label: "Package Uploader",
         icon: <BsCloudUpload />,
@@ -124,6 +124,11 @@ const linksArray = [
         label: "SP Details",
         icon: <BsTicketDetailed/>,
         to: "/spdetails",
+    },
+    {
+        label: "Log Analysis",
+        icon: <AiOutlineLoading3Quarters/>,
+        to: "/loganalysis",
     },
 ];
 //     const secondaryLinksArray = [

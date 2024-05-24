@@ -3,25 +3,25 @@ import React from "react";
 // import HomePage from "./HomePage";
 // import Servertable from "C:/Mediaroom/src/manageserver/servertable.js";
 // import LoginPage from "./LoginPage";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import "./topbar.css"
 
-const Topbar = ({ userData, onLogout, props }) => {
-  const history = useHistory();
-  const handleSubmit = () => {
-    history.push("/LoginPage");
-    window.location.reload();
-  };
+const Topbar = () => {
+  // const history = useHistory();
+  // const handleSubmit = () => {
+  //   history.push("/LoginPage");
+  //   window.location.reload();
+  // };
 
   return (
     <div className="topbar">
       <span>
-        Welcome, <strong>{userData.name}</strong>
+        Welcome
       </span>
 
-      <button type="submit" onClick={handleSubmit}>
+      {/* <button type="submit" onClick={handleSubmit}>
         Log out
-      </button>
+      </button> */}
       {/* <Link to="/login">Logout</Link> */}
     </div>
   );

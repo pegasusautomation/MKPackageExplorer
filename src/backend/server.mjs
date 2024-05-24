@@ -399,6 +399,107 @@ app.post('/upload', upload.single('folder'), async (req, res) => {
   }
 });
 
+// Route to list files for dropdown menu
+app.get('/list-files', (req, res) => {
+  const destinationFolder = path.join(__dirname, '../../public/uploads/folders');
+
+  // Function to list files recursively
+  function listFiles(directory) {
+    let files = [];
+
+    fs.readdirSync(directory).forEach(file => {
+      const filePath = path.join(directory, file);
+      const stat = fs.statSync(filePath);
+      if (stat.isDirectory()) {
+        files = files.concat(listFiles(filePath));
+      } else {
+        files.push(file);
+      }
+    });
+
+    return files;
+  }
+
+  // Get list of files and send as response
+  const files = listFiles(destinationFolder);
+  res.json({ files });
+});
+
+// Route to handle file search
+app.get('/search', (req, res) => {
+  const { query } = req.query;
+  const destinationFolder = path.join(__dirname, '../../public/uploads/folders');
+
+  // Function to list files recursively
+  function listFiles(directory) {
+    let files = [];
+
+    fs.readdirSync(directory).forEach(file => {
+      const filePath = path.join(directory, file);
+      const stat = fs.statSync(filePath);
+      if (stat.isDirectory()) {
+        files = files.concat(listFiles(filePath));
+      } else {
+        files.push(path.relative(destinationFolder, filePath));
+      }
+    });
+
+    return files;
+  }
+
+  // Search for files matching the query
+  const files = listFiles(destinationFolder).filter(file => file.includes(query));
+
+  res.json({ files });
+});
+
+// Define the base directory
+const baseDirectory = path.resolve(__dirname, '../../public/uploads/folders');
+
+app.get('/file-data', (req, res) => {
+  const { file } = req.query;
+
+  if (!file) {
+    console.error('No file specified');
+    return res.status(400).send('No file specified');
+  }
+
+  // Construct the full file path
+  const filePath = path.join(baseDirectory, file);
+
+  // Log the file path to debug
+  console.log('Requested File Path:', filePath);
+
+  // Check if the path is a directory
+  fs.stat(filePath, (err, stats) => {
+    if (err) {
+      console.error('Error checking file stats:', err);
+      return res.status(500).send('Error checking file stats');
+    }
+
+    if (stats.isDirectory()) {
+      console.error('Error: Path is a directory, not a file:', filePath);
+      return res.status(400).send('Path is a directory, not a file');
+    }
+
+    // Read data from the selected file
+    fs.readFile(filePath, 'utf8', (err, data) => {
+      if (err) {
+        console.error('Error reading file:', err);
+        return res.status(500).send('Error reading file');
+      } else {
+        try {
+          const jsonData = JSON.parse(data);
+          res.json(jsonData);
+        } catch (jsonErr) {
+          // If not JSON, send as plain text
+          res.send(data);
+        }
+      }
+    });
+  });
+});
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

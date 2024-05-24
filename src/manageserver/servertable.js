@@ -5,7 +5,7 @@ import servertable from "./bitrate_hist_mksp1_active.json";
 
 
 const ITEMS_PER_PAGE = 10;
-const Servertable = ({userData}) => {
+const Servertable = () => {
   // role=userData.role
   // const handleClick = (e) => {
   //   e.Status === "Running"
@@ -67,7 +67,6 @@ const Servertable = ({userData}) => {
     setCurrentPage(currentPage < totalPages ? currentPage + 1 : totalPages);
   };
   return (
-    userData.role==="admin" ?
     // CURRENT_USER_TYPE===<div>{userData.role}</div> ?
     <div className="column">
       {/* {servertable ? ( */}
@@ -132,7 +131,6 @@ const Servertable = ({userData}) => {
         <button onClick={handleNextPage} disabled={currentPage === totalPages || filteredData.length === 0} style={{ color: currentPage === totalPages || filteredData.length === 0 ? 'gray' : 'black' , cursor: currentPage === totalPages || filteredData.length === 0 ? 'default' : 'pointer'  }}>{'>'}</button>
       </div>
     </div>
-    :<div>You are not Authorised</div>
   );
 };
 

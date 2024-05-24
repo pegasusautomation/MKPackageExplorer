@@ -75,8 +75,7 @@
 // }
 
 // export default Packageuploader
-
-import React, { useState, useEffect,useCallback } from 'react';
+import React, {  useCallback,useEffect,useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import axios from 'axios'; // Import axios for making HTTP requests
 // import "./Packageuploader.css"
@@ -95,14 +94,20 @@ const Packageuploader = () => {
     }).then(response => {
       // Handle response from the backend if needed
       console.log(response.data);
-      alert("Pakage Uploaded successfully");
+      alert("Package Uploaded successfully");
     }).catch(error => {
       // Handle error if request fails
       console.error('Error uploading folder:', error);
     });
   }, []);
 
-  const {getRootProps, getInputProps} = useDropzone({ onDrop, multiple: false, directory: true });
+  const { getRootProps, getInputProps } = useDropzone({
+    onDrop,
+    multiple: false,
+    directory: true,
+    // noClick: true ,// Prevent opening file dialog on click
+    preventDefault: true
+  });
   const [packageInfo, setPackageInfo] = useState(null);
 
   useEffect(() => {
@@ -134,69 +139,70 @@ Support package ended: 2024-02-09T06:05:19.224497`;
       setPackageInfo({ startDate, endDate });
     }
   }, []);
-
-
+  // const preventDefaultAndStopPropagation = (event) => {
+  //   event.preventDefault();
+  //   event.stopPropagation();
+  // };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-      <div style={{marginLeft:'90px'}}>
-      {/* added now */}
-      <div style={{ display: 'flex', alignItems: 'center', marginBottom: '-5px' }}>
-        <p style={{ marginRight: '100px',marginBottom:'-85px' }}><b>Upload Support Package</b></p>
-        <div><button {...getRootProps()} style={{
-          border: '2px solid #cccccc',
-          borderRadius: '8px',
-          padding: '20px',
-          width: '275px',
-          fontSize: '20px',
-          cursor: 'pointer',
-          margin: '100px',
-          marginLeft: '80px',
-          alignContent: 'center',
-          justifyContent: 'center',
-          textAlign: 'center',
-          position: 'relative',
-          background: 'rgb(105, 88, 154)',
-          marginBottom:'20px'
-        }}>
-          {/* Apply CSS class */}
-          <input {...getInputProps()} />
-          <p style={{
-            position: 'relative',
-            top: '50%',
-            left: '50%',
-            right: '20%',
-            transform: 'translate(-50%, -50%)',
-            fontSize: '20px'
-          }}>Upload Your Package</p>
-        </button>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ marginLeft: '90px' }}>
+        {/* added now */}
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '-5px' }}>
+          <p style={{ marginRight: '100px', marginBottom: '-85px' }}><b>Upload Support Package</b></p>
+          <div>
+            <button {...getRootProps()}  style={{
+              border: '2px solid #cccccc',
+              borderRadius: '8px',
+              padding: '20px',
+              width: '275px',
+              fontSize: '20px',
+              cursor: 'pointer',
+              margin: '100px',
+              marginLeft: '80px',
+              alignContent: 'center',
+              justifyContent: 'center',
+              textAlign: 'center',
+              position: 'relative',
+              background: 'rgb(105, 88, 154)',
+              marginBottom: '20px'
+            }}>
+              {/* Apply CSS class */}
+              <input {...getInputProps()} />
+              <p style={{
+                position: 'relative',
+                top: '50%',
+                left: '50%',
+                right: '20%',
+                transform: 'translate(-50%, -50%)',
+                fontSize: '20px'
+              }}>Upload Your Package</p>
+            </button>
+          </div>
         </div>
-      </div>
-      <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-        <p style={{ marginRight: '132px'}}><b>Support Package Creation Time</b></p>
-        <div style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '-5px',width:'272px' }}>
-          {packageInfo ? packageInfo.endDate : "Loading package info..."}
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+          <p style={{ marginRight: '132px' }}><b>Support Package Creation Time</b></p>
+          <div style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '-5px', width: '272px' }}>
+            {packageInfo ? packageInfo.endDate : "Loading package info..."}
+          </div>
         </div>
-      </div>
-      <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-        <p style={{ marginRight: '226px' }}><b>Reported Issue</b></p>
-        <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white',marginLeft:'30px',width:'272px' }}>
-        </input></div>
-      </div>
-      <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-        <p style={{ marginRight: '116px' }}><b>Reported Issue Date and Time</b></p>
-        <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white',marginLeft:'24px' ,width:'272px'}}>
-        </input></div>
-      </div>
-      <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
-        <p style={{ marginRight: '45px' }}><b>Reported Issue Date and Time threshold</b></p>
-        <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white' ,marginLeft:'16px',width:'273px'}}>
-        </input></div>
-      </div>
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+          <p style={{ marginRight: '226px' }}><b>Reported Issue</b></p>
+          <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '30px', width: '272px' }}>
+          </input></div>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+          <p style={{ marginRight: '116px' }}><b>Reported Issue Date and Time</b></p>
+          <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '24px', width: '272px' }}>
+          </input></div>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+          <p style={{ marginRight: '45px' }}><b>Reported Issue Date and Time threshold</b></p>
+          <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '16px', width: '273px' }}>
+          </input></div>
+        </div>
       </div>
     </div>
   );
-        };  
+};
 export default Packageuploader;
-
-

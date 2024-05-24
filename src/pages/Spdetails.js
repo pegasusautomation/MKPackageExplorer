@@ -6,7 +6,7 @@ const Spdetails = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('uploads/folders/support[]4e-503335-20240315113746/report/README.txt');
+        const response = await fetch('/uploads/folders/support[]4e-503335-20240315113746/report/README.txt');
         const data = await response.text();
         const extractedData = extractData(data);
         setExtractedData(extractedData);
