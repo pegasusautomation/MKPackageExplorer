@@ -6,24 +6,28 @@ const Loganalysis = () => {
     const [searchResults, setSearchResults] = useState([]);
     const [selectedFile, setSelectedFile] = useState('');
     const [fileData, setFileData] = useState('');
-    const [filteredData, setFilteredData] = useState(''); // State for filtered data
-    const [keyword, setKeyword] = useState(''); // State for the keyword search
+    const [filteredData, setFilteredData] = useState('');
+    const [keyword, setKeyword] = useState('');
     const [isSubmitted, setIsSubmitted] = useState(false);
-    const [isJsonFile, setIsJsonFile] = useState(false); // State to check if the selected file is a JSON file
-    const [showTableView, setShowTableView] = useState(false); // State to toggle table view
-    const [showKeywordModal, setShowKeywordModal] = useState(false); // State to toggle keyword modal
-    const [selectedKeywords, setSelectedKeywords] = useState([]); // State to keep track of selected keywords
-    const [allKeywords, setAllKeywords] = useState([]); // State to store all unique keywords
-    const [suggestedKeywords, setSuggestedKeywords] = useState([]); // State for suggested keywords
+    const [isJsonFile, setIsJsonFile] = useState(false);
+    const [showTableView, setShowTableView] = useState(false);
+    const [showKeywordModal, setShowKeywordModal] = useState(false);
+    const [selectedKeywords, setSelectedKeywords] = useState([]);
+    const [allKeywords, setAllKeywords] = useState([]);
+    const [suggestedKeywords, setSuggestedKeywords] = useState([]);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState('');
 
     useEffect(() => {
-        // Fetch the initial list of files
         const fetchInitialFiles = async () => {
             try {
+                setLoading(true);
                 const response = await axios.get('/list-files');
                 setSearchResults(response.data.files);
+                setLoading(false);
             } catch (error) {
-                console.error('Error fetching files:', error);
+                setLoading(false);
+                setError('Error fetching files');
             }
         };
         fetchInitialFiles();
@@ -31,10 +35,13 @@ const Loganalysis = () => {
 
     const fetchFiles = async (query) => {
         try {
+            setLoading(true);
             const response = await axios.get(`/search?query=${query}`);
             setSearchResults(response.data.files);
+            setLoading(false);
         } catch (error) {
-            console.error('Error fetching files:', error);
+            setLoading(false);
+            setError('Error fetching files');
         }
     };
 
@@ -56,25 +63,27 @@ const Loganalysis = () => {
                 return;
             }
             console.log('Submitting file:', selectedFile);
+            setLoading(true);
             const response = await axios.get(`/file-data?file=${encodeURIComponent(selectedFile)}`);
             
             let fileContent = response.data;
             
-            // Check if the content is an object (which would be the case for JSON files)
             if (typeof fileContent === 'object') {
-                fileContent = JSON.stringify(fileContent, null, 2); // Beautify JSON content
-                setIsJsonFile(true); // Set the state to true if the file is JSON
+                fileContent = JSON.stringify(fileContent, null, 2);
+                setIsJsonFile(true);
             } else {
-                setIsJsonFile(false); // Set the state to false if the file is not JSON
+                setIsJsonFile(false);
             }
 
             setFileData(fileContent);
-            setFilteredData(fileContent); // Initialize filtered data
-            extractKeywords(fileContent); // Extract keywords from the file content
+            setFilteredData(fileContent);
+            extractKeywords(fileContent);
             setIsSubmitted(true);
-            setShowKeywordModal(true); // Show keyword modal upon submission
+            setShowKeywordModal(true);
+            setLoading(false);
         } catch (error) {
-            console.error('Error fetching file data:', error);
+            setLoading(false);
+            setError('Error fetching file data');
         }
     };
 
@@ -102,8 +111,8 @@ const Loganalysis = () => {
     const addKeyword = (keyword) => {
         if (keyword && !selectedKeywords.includes(keyword)) {
             setSelectedKeywords([...selectedKeywords, keyword]);
-            setKeyword(''); // Clear the input field
-            setSuggestedKeywords([]); // Clear suggestions after adding
+            setKeyword('');
+            setSuggestedKeywords([]);
         }
     };
 
@@ -118,7 +127,7 @@ const Loganalysis = () => {
 
     const filterDataByKeywords = (keywords) => {
         if (!keywords.length) {
-            setFilteredData(fileData); // Reset to original file data if no keywords
+            setFilteredData(fileData);
         } else {
             const filteredLines = fileData
                 .split('\n')
@@ -131,14 +140,12 @@ const Loganalysis = () => {
         try {
             let jsonData = JSON.parse(data);
     
-            // Flatten nested objects
             const flattenObject = (obj, prefix = '') => {
                 return Object.keys(obj).reduce((acc, key) => {
                     const pre = prefix.length ? prefix + '.' : '';
                     if (typeof obj[key] === 'object' && obj[key] !== null) {
                         Object.assign(acc, flattenObject(obj[key], pre + key));
                     } else {
-                        // Explicitly convert boolean values to strings
                         acc[pre + key] = typeof obj[key] === 'boolean' ? obj[key].toString() : obj[key];
                     }
                     return acc;
@@ -174,16 +181,15 @@ const Loganalysis = () => {
 
     return (
         <div>
-            <h1 style={{ marginLeft: '500px', fontSize: '25px' }}>Log Analysis</h1>
-            <br />
-            <div style={{ marginLeft: '100px' }}>
+            <h1 style={{ textAlign: 'center', fontSize: '25px' }}>Log Analysis</h1>
+            <div style={{ margin: '20px 100px' }}>
                 <input
                     type="text"
                     value={searchQuery}
                     onChange={(e) => handleSearch(e.target.value)}
                     placeholder="Search for a file..."
                     list="file-suggestions"
-                    style={{ width: '400px' }}
+                    style={{ width: '400px', padding: '5px' }}
                     onBlur={handleFileSelect}
                 />
                 <datalist id="file-suggestions">
@@ -191,7 +197,7 @@ const Loganalysis = () => {
                         <option key={index} value={file} />
                     ))}
                 </datalist>
-                <button onClick={handleSubmit}>Submit</button>
+                <button onClick={handleSubmit} style={{ marginLeft: '10px', padding: '5px' }}>Submit</button>
                 {isSubmitted && (
                     <>
                         <input
@@ -199,20 +205,20 @@ const Loganalysis = () => {
                             value={keyword}
                             onChange={handleKeywordChange}
                             placeholder="Search within file..."
-                            style={{ marginLeft: '10px' }}
+                            style={{ marginLeft: '10px', padding: '5px' }}
                         />
                         {isJsonFile && (
-                            <button onClick={() => setShowTableView(!showTableView)} style={{ marginLeft: '10px' }}>
+                            <button onClick={() => setShowTableView(!showTableView)} style={{ marginLeft: '10px', padding: '5px' }}>
                                 {showTableView ? "Hide Table View" : "Table View"}
                             </button>
                         )}
                     </>
                 )}
             </div>
-            <br />
+            {loading && <p style={{ textAlign: 'center' }}>Loading...</p>}
+            {error && <p style={{ textAlign: 'center', color: 'red' }}>{error}</p>}
             <h2 style={{ marginLeft: '50px' }}>File Data</h2>
-            <br />
-            <div style={{ marginLeft: '50px', height: '410px', width: '1000px', overflow: 'auto', border: '1px solid black' }}>
+            <div style={{ marginLeft: '50px', height: '410px', width: '1000px', overflow: 'auto', border: '1px solid black', padding: '10px' }}>
                 {!showTableView && <pre>{filteredData}</pre>}
                 {showTableView && renderTable(filteredData)}
             </div>
@@ -233,21 +239,18 @@ const Loganalysis = () => {
                         />
                         <ul>
                             {suggestedKeywords.map((kw, index) => (
-                                <li key={index} onClick={() => addKeyword(kw)}>{kw}</li>
+                                <li key={index} onClick={() => addKeyword(kw)} style={{ cursor: 'pointer' }}>{kw}</li>
                             ))}
-                        </ul>
-                        <button onClick={() => addKeyword(keyword)}>Add Keyword</button>
-                        <ul>
                             {selectedKeywords.map((kw, index) => (
-                                <li key={index}>
+                                <li key={index} style={{ marginTop: '10px' }}>
                                     {kw}
-                                    <button onClick={() => handleRemoveKeyword(kw)} style={{ marginLeft: '10px' }}>Remove</button>
+                                    <button onClick={() => handleRemoveKeyword(kw)} style={{ marginLeft: '10px', padding: '5px' }}>Remove</button>
                                 </li>
                             ))}
                         </ul>
                         <div style={{ textAlign: 'right' }}>
-                            <button onClick={() => setShowKeywordModal(false)} style={{ marginRight: '10px' }}>Cancel</button>
-                            <button onClick={handleApplyKeywords}>OK</button>
+                            <button onClick={() => setShowKeywordModal(false)} style={{ marginRight: '10px', padding: '5px' }}>Cancel</button>
+                            <button onClick={handleApplyKeywords} style={{ padding: '5px' }}>OK</button>
                         </div>
                     </div>
                 </div>
