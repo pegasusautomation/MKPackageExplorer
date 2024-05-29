@@ -136,46 +136,71 @@ const Loganalysis = () => {
         }
     };
 
-    const renderTable = (data) => {
-        try {
-            let jsonData = JSON.parse(data);
-    
-            const flattenObject = (obj, prefix = '') => {
-                return Object.keys(obj).reduce((acc, key) => {
-                    const pre = prefix.length ? prefix + '.' : '';
-                    if (typeof obj[key] === 'object' && obj[key] !== null) {
-                        Object.assign(acc, flattenObject(obj[key], pre + key));
-                    } else {
-                        acc[pre + key] = typeof obj[key] === 'boolean' ? obj[key].toString() : obj[key];
-                    }
-                    return acc;
-                }, {});
-            };
-    
-            const flattenedData = flattenObject(jsonData);
-    
-            const columns = Object.keys(flattenedData);
-            return (
-                <table border="1">
-                    <thead>
-                        <tr>
-                            {columns.map((column, index) => (
-                                <th key={index}>{column}</th>
-                            ))}
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            {columns.map((column, index) => (
-                                <td key={index}>{flattenedData[column]}</td>
-                            ))}
-                        </tr>
-                    </tbody>
-                </table>
-            );
-        } catch (error) {
-            console.error("Error rendering table:", error);
-            return <p>Error rendering table: {error.message}</p>;
+    const renderContentWithKeywords = (content) => {
+        // Split the content into words
+        const words = content.split(/\b/);
+        
+        // Map over each word and apply highlighting if it matches any selected keyword
+        return words.map((word, index) => {
+            // Convert both word and keywords to lowercase for case-insensitive matching
+            const lowerCaseWord = word.toLowerCase();
+            const isKeyword = selectedKeywords.some(keyword => lowerCaseWord.includes(keyword.toLowerCase()));
+            if (isKeyword) {
+                if (word === "connector" || word === "connector" ) {
+                    return <span key={index} style={{ color: 'red' }}>{word}</span>;
+                } else {
+                    return <span key={index} style={{ backgroundColor: 'yellow' }}>{word}</span>;
+                }
+            } else {
+                return word;
+            }
+        });
+    };
+
+    const renderHighlightedContent = () => {
+        if (showTableView) {
+            try {
+                let jsonData = JSON.parse(filteredData);
+                const flattenObject = (obj, prefix = '') => {
+                    return Object.keys(obj).reduce((acc, key) => {
+                        const pre = prefix.length ? prefix + '.' : '';
+                        if (typeof obj[key] === 'object' && obj[key] !== null) {
+                            Object.assign(acc, flattenObject(obj[key], pre + key));
+                        } else {
+                            acc[pre + key] = typeof obj[key] === 'boolean' ? obj[key].toString() : obj[key];
+                        }
+                        return acc;
+                    }, {});
+                };
+                const flattenedData = flattenObject(jsonData);
+                const columns = Object.keys(flattenedData);
+                return (
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                {columns.map((column, index) => (
+                                    <th key={index}>{column}</th>
+                                ))}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                {columns.map((column, index) => (
+                                    <td key={index}>
+                                        {renderContentWithKeywords(flattenedData[column])}
+                                    </td>
+                                ))}
+                            </tr>
+                        </tbody>
+                    </table>
+                );
+            } catch (error) {
+                console.error("Error rendering table:", error);
+                return <p>Error rendering table: {error.message}</p>;
+            }
+        } else {
+            // For plain text view
+            return <pre>{renderContentWithKeywords(filteredData)}</pre>;
         }
     };
 
@@ -219,8 +244,7 @@ const Loganalysis = () => {
             {error && <p style={{ textAlign: 'center', color: 'red' }}>{error}</p>}
             <h2 style={{ marginLeft: '50px' }}>File Data</h2>
             <div style={{ marginLeft: '50px', height: '410px', width: '1000px', overflow: 'auto', border: '1px solid black', padding: '10px' }}>
-                {!showTableView && <pre>{filteredData}</pre>}
-                {showTableView && renderTable(filteredData)}
+                {renderHighlightedContent()}
             </div>
 
             {showKeywordModal && (
