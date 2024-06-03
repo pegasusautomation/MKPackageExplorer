@@ -17,6 +17,9 @@ const Loganalysis = () => {
     const [suggestedKeywords, setSuggestedKeywords] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
+    const [showLineSearchPopup, setShowLineSearchPopup] = useState(false); // New state for line search popup
+    const [lineSearchQuery, setLineSearchQuery] = useState(''); // State for line search query
+    const [lineSearchResults, setLineSearchResults] = useState([]); // State for line search results
 
     useEffect(() => {
         const fetchInitialFiles = async () => {
@@ -204,6 +207,24 @@ const Loganalysis = () => {
         }
     };
 
+    const handleLineSearchSubmit = async () => {
+        try {
+            setLoading(true);
+            const response = await axios.get(`/search-by-line?query=${encodeURIComponent(lineSearchQuery)}`);
+            setLineSearchResults(response.data.files);
+            setLoading(false);
+        } catch (error) {
+            setLoading(false);
+            setError('Error fetching line search results');
+        }
+    };
+
+    const handleLineSearchSelect = (file) => {
+        setSelectedFile(file);
+        setShowLineSearchPopup(false);
+        handleSubmit();
+    };
+
     return (
         <div>
             <h1 style={{ textAlign: 'center', fontSize: '25px' }}>Log Analysis</h1>
@@ -239,6 +260,9 @@ const Loganalysis = () => {
                         )}
                     </>
                 )}
+                <button onClick={() => setShowLineSearchPopup(true)} style={{ marginLeft: '10px', padding: '5px' }}>
+                    Search by Line
+                </button>
             </div>
             {loading && <p style={{ textAlign: 'center' }}>Loading...</p>}
             {error && <p style={{ textAlign: 'center', color: 'red' }}>{error}</p>}
@@ -276,6 +300,34 @@ const Loganalysis = () => {
                             <button onClick={() => setShowKeywordModal(false)} style={{ marginRight: '10px', padding: '5px' }}>Cancel</button>
                             <button onClick={handleApplyKeywords} style={{ padding: '5px' }}>OK</button>
                         </div>
+                    </div>
+                </div>
+            )}
+
+            {showLineSearchPopup && (
+                <div style={{
+                    position: 'fixed', top: 0, left: 0, width: '100%', height: '100%',
+                    backgroundColor: 'rgba(0,0,0,0.5)', display: 'flex', justifyContent: 'center', alignItems: 'center'
+                }}>
+                    <div style={{ backgroundColor: 'white', padding: '20px', borderRadius: '5px', width: '500px' }}>
+                        <h2>Search by Line</h2>
+                        <textarea
+                            value={lineSearchQuery}
+                            onChange={(e) => setLineSearchQuery(e.target.value)}
+                            placeholder="Enter a line to search for..."
+                            style={{ width: '100%', marginBottom: '10px' }}
+                        />
+                        <div style={{ textAlign: 'right' }}>
+                            <button onClick={() => setShowLineSearchPopup(false)} style={{ marginRight: '10px', padding: '5px' }}>Cancel</button>
+                            <button onClick={handleLineSearchSubmit} style={{ padding: '5px' }}>Search</button>
+                        </div>
+                        <ul>
+                            {lineSearchResults.map((file, index) => (
+                                <li key={index} onClick={() => handleLineSearchSelect(file)} style={{ cursor: 'pointer' }}>
+                                    {file}
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 </div>
             )}

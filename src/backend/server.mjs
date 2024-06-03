@@ -500,6 +500,40 @@ app.get('/file-data', (req, res) => {
   });
 });
 
+app.get('/search-by-line', (req, res) => {
+  const { query } = req.query;
+  const destinationFolder = path.join(__dirname, '../../public/uploads/folders');
+
+  if (!query) {
+    return res.status(400).send('No search query provided');
+  }
+
+  // Function to list files recursively
+  function listFiles(directory) {
+    let files = [];
+
+    fs.readdirSync(directory).forEach(file => {
+      const filePath = path.join(directory, file);
+      const stat = fs.statSync(filePath);
+      if (stat.isDirectory()) {
+        files = files.concat(listFiles(filePath));
+      } else {
+        files.push(filePath);
+      }
+    });
+
+    return files;
+  }
+
+  // Search for files containing the exact query line
+  const files = listFiles(destinationFolder).filter(file => {
+    const fileContent = fs.readFileSync(file, 'utf8');
+    return fileContent.includes(query);
+  }).map(file => path.relative(destinationFolder, file));
+
+  res.json({ files });
+});
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
