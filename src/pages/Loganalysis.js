@@ -292,7 +292,7 @@ const Loganalysis = () => {
         >
           Submit
         </button>
-        {isSubmitted && (
+        {/* {isSubmitted && (
           <>
             <input
               type="text"
@@ -310,7 +310,7 @@ const Loganalysis = () => {
               </button>
             )}
           </>
-        )}
+        )} */}
         <button
           onClick={() => setShowLineSearchPopup(true)}
           style={{ marginLeft: "10px", padding: "5px" }}
