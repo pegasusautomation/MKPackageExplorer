@@ -24,6 +24,7 @@ const Loganalysis = () => {
   const [lineSearchResults, setLineSearchResults] = useState([]);
   const [fromDate, setFromDate] = useState(null);
   const [toDate, setToDate] = useState(null);
+  const [hoveredFile, setHoveredFile] = useState(null); // New state for hovered file
 
   useEffect(() => {
     const fetchInitialFiles = async () => {
@@ -247,7 +248,7 @@ const Loganalysis = () => {
         {lines.map((line, index) => (
           <div
             key={index}
-            style={{ color: /Error|error/.test(line) ? "red" : "inherit" }}
+            style={{ color: /ERROR|Error|error/.test(line) ? "red" : "inherit" }}
           >
             {renderContentWithKeywords(line, selectedKeywords)}
           </div>
@@ -450,7 +451,7 @@ const Loganalysis = () => {
               backgroundColor: "white",
               padding: "20px",
               borderRadius: "5px",
-              width: "500px",
+              width: "600px",
             }}
           >
             <h2>Search by Line</h2>
@@ -476,13 +477,18 @@ const Loganalysis = () => {
             </div>
             <ul>
               {lineSearchResults.map((file, index) => (
-                <li
+                <u style={{color:'darkblue'}}><li
                   key={index}
                   onClick={() => handleLineSearchSelect(file)}
-                  style={{ cursor: "pointer" }}
+                  onMouseEnter={() => setHoveredFile(file)} // Set hovered file on mouse enter
+                  onMouseLeave={() => setHoveredFile(null)} // Unset hovered file on mouse leave
+                  style={{
+                    cursor: "pointer",
+                    backgroundColor: hoveredFile === file ? "Darkgray" : "transparent", // Change background color on hover
+                  }}
                 >
                   {file}
-                </li>
+                </li></u>
               ))}
             </ul>
           </div>
