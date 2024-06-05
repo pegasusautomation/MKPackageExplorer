@@ -278,14 +278,14 @@ const Loganalysis = () => {
   const handleLineSearchSelect = async (file) => {
     setSelectedFile(file);
     setShowLineSearchPopup(false);
-    handleSubmit();
+    await handleSubmit();
   };
 
   return (
     <div>
       <h1 style={{ textAlign: "center", fontSize: "25px" }}>Log Analysis</h1>
-      <div style={{ margin: "20px 100px" }}>
-      <span style={{ marginRight: "40px" }}>File List: </span>
+      <div style={{ margin: "20px 100px", height: "55px" }}>
+        <span style={{ marginRight: "40px" }}>File List: </span>
         <input
           type="text"
           value={searchQuery}
@@ -295,7 +295,7 @@ const Loganalysis = () => {
           style={{ width: "400px", padding: "5px" }}
           onBlur={handleFileSelect}
         />
-        <datalist id="file-suggestions">        
+        <datalist id="file-suggestions">
           {searchResults.map((file, index) => (
             <option key={index} value={file} />
           ))}
@@ -306,25 +306,6 @@ const Loganalysis = () => {
         >
           Submit
         </button>
-        {/* {isSubmitted && (
-          <>
-            <input
-              type="text"
-              value={keyword}
-              onChange={handleKeywordChange}
-              placeholder="Search within file..."
-              style={{ marginLeft: "10px", padding: "5px" }}
-            />
-            {isJsonFile && (
-              <button
-                onClick={() => setShowTableView(!showTableView)}
-                style={{ marginLeft: "10px", padding: "5px" }}
-              >
-                {showTableView ? "Hide Table View" : "Table View"}
-              </button>
-            )}
-          </>
-        )} */}
         <button
           onClick={() => setShowLineSearchPopup(true)}
           style={{ marginLeft: "10px", padding: "5px" }}
@@ -333,22 +314,27 @@ const Loganalysis = () => {
         </button>
       </div>
       {/* Date pickers */}
-      <div style={{ marginRight: "10px" }}>
+      <div style={{ marginRight: "50px", position: "relative" }}>
         <span>From: </span>
         <DatePicker
           selected={fromDate}
           onChange={handleFromDateChange}
+          showTimeSelect
+          timeIntervals={10} // Set time intervals to 15 minutes
+          dateFormat="Pp"
           selectsStart
           startDate={fromDate}
           endDate={toDate}
+          style={{ marginRight: "20px" }}
         />
-      </div>
-      <br></br>
-      <div>
-        <span style={{ marginRight: "20px" }}>To: </span>
+
+        <span style={{ marginLeft: "20px" }}>To: </span>
         <DatePicker
           selected={toDate}
           onChange={handleToDateChange}
+          showTimeSelect
+          timeIntervals={10} // Set time intervals to 15 minutes
+          dateFormat="Pp"
           selectsEnd
           startDate={fromDate}
           endDate={toDate}
@@ -357,7 +343,7 @@ const Loganalysis = () => {
       </div>
       {loading && <p style={{ textAlign: "center" }}>Loading...</p>}
       {error && <p style={{ textAlign: "center", color: "red" }}>{error}</p>}
-      <br></br>
+      <br />
       <h2 style={{ marginLeft: "50px" }}>File Data</h2>
       <div
         style={{
