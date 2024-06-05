@@ -205,24 +205,24 @@ const Loganalysis = () => {
       console.error("Content is not a valid string:", content);
       return content;
     }
-
+  
     if (!keywords || !Array.isArray(keywords)) {
       console.error("Keywords are not a valid array:", keywords);
       return content;
     }
-
+  
     const uniqueKeywords = Array.from(new Set(keywords)).sort(
       (a, b) => b.length - a.length
     );
-
+  
     const escapedKeywords = uniqueKeywords.map((keyword) =>
       keyword.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&")
     );
-
+  
     const regexPattern = new RegExp(`(${escapedKeywords.join("|")})`, "gi");
-
+  
     const parts = content.split(regexPattern);
-
+  
     return parts.map((part, index) =>
       uniqueKeywords.some(
         (keyword) => part.toLowerCase() === keyword.toLowerCase()
@@ -239,13 +239,16 @@ const Loganalysis = () => {
       console.error("Filtered data is not available");
       return null;
     }
-
+  
     const lines = filteredData.split("\n");
-
+  
     return (
       <div>
         {lines.map((line, index) => (
-          <div key={index}>
+          <div
+            key={index}
+            style={{ color: /Error|error/.test(line) ? "red" : "inherit" }}
+          >
             {renderContentWithKeywords(line, selectedKeywords)}
           </div>
         ))}
