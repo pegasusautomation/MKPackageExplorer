@@ -113,22 +113,35 @@ const Loganalysis = () => {
     if (!fromDate || !toDate) {
       return data;
     }
-
+  
     const fromDateObj = new Date(fromDate);
     const toDateObj = new Date(toDate);
-
+  
     const filteredLines = data.split("\n").filter((line) => {
-      const match = line.match(/^\b\w{3} \d{2} \d{2}:\d{2}:\d{2}/);
+      // Match patterns like "Jan 27 10:05:58" or "[Tue Jan 27 10:05:58 2024]"
+      const match = line.match(/^(\w{3} \d{2} \d{2}:\d{2}:\d{2}|\[\w{3} \w{3} \d{2} \d{2}:\d{2}:\d{2} \d{4}\])/);
       if (match) {
         const dateStr = match[0];
-        const date = new Date(dateStr + " " + new Date().getFullYear());
+  
+        // Handle both formats by extracting the relevant parts and creating Date objects
+        let date;
+        if (dateStr.startsWith("[")) {
+          // Extract date part for format "[Tue Jan 27 10:05:58 2024]"
+          const datePart = dateStr.slice(1, -1); // Remove surrounding brackets
+          date = new Date(datePart);
+        } else {
+          // Assume the format is "Jan 27 10:05:58" and append current year
+          date = new Date(dateStr + " " + new Date().getFullYear());
+        }
+  
         return date >= fromDateObj && date <= toDateObj;
       }
       return true;
     });
-
+  
     return filteredLines.join("\n");
   };
+  
 
   const extractKeywords = (data) => {
     const words = data.match(/\b\w+\b/g);
@@ -272,6 +285,7 @@ const Loganalysis = () => {
     <div>
       <h1 style={{ textAlign: "center", fontSize: "25px" }}>Log Analysis</h1>
       <div style={{ margin: "20px 100px" }}>
+      <span style={{ marginRight: "40px" }}>File List: </span>
         <input
           type="text"
           value={searchQuery}
@@ -281,7 +295,7 @@ const Loganalysis = () => {
           style={{ width: "400px", padding: "5px" }}
           onBlur={handleFileSelect}
         />
-        <datalist id="file-suggestions">
+        <datalist id="file-suggestions">        
           {searchResults.map((file, index) => (
             <option key={index} value={file} />
           ))}
@@ -319,7 +333,7 @@ const Loganalysis = () => {
         </button>
       </div>
       {/* Date pickers */}
-      <div style={{ marginBottom: "10px" }}>
+      <div style={{ marginRight: "10px" }}>
         <span>From: </span>
         <DatePicker
           selected={fromDate}
@@ -329,8 +343,9 @@ const Loganalysis = () => {
           endDate={toDate}
         />
       </div>
+      <br></br>
       <div>
-        <span>To: </span>
+        <span style={{ marginRight: "20px" }}>To: </span>
         <DatePicker
           selected={toDate}
           onChange={handleToDateChange}
@@ -342,6 +357,7 @@ const Loganalysis = () => {
       </div>
       {loading && <p style={{ textAlign: "center" }}>Loading...</p>}
       {error && <p style={{ textAlign: "center", color: "red" }}>{error}</p>}
+      <br></br>
       <h2 style={{ marginLeft: "50px" }}>File Data</h2>
       <div
         style={{
