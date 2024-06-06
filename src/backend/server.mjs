@@ -372,21 +372,16 @@ app.post('/upload', upload.single('folder'), async (req, res) => {
   // Construct the destination folder path
   const destinationFolder = path.join(__dirname, '../../public/uploads/folders');
 
-  // Remove previous folder if exists
-  if (fs.existsSync(destinationFolder)) {
-    try {
-      fs.rmSync(destinationFolder, { recursive: true, force: true });
-    } catch (err) {
-      if (err.code !== 'ENOTEMPTY') {
-        console.error('Error removing previous folder:', err);
-        return res.status(500).send('Error removing previous folder');
-      }
-    }
-  }
-
-  fs.mkdirSync(destinationFolder, { recursive: true }); // Recreate folder to avoid errors if it's deleted
-
   try {
+    // Remove previous folder if exists
+    if (fs.existsSync(destinationFolder)) {
+      fs.rmSync(destinationFolder, { recursive: true, force: true });
+    }
+
+    // Recreate the destination folder
+    fs.mkdirSync(destinationFolder, { recursive: true });
+
+    // Extract the new zip file
     await extractNestedZip(zipFilePath, destinationFolder);
 
     // Remove the temporary zip file
@@ -394,8 +389,8 @@ app.post('/upload', upload.single('folder'), async (req, res) => {
 
     res.status(200).send('Folder uploaded and replaced successfully');
   } catch (err) {
-    console.error('Error extracting folder:', err);
-    res.status(500).send('Error extracting folder');
+    console.error('Error processing the upload:', err);
+    res.status(500).send('Error processing the upload');
   }
 });
 
