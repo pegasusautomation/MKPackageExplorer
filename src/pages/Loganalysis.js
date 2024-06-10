@@ -114,16 +114,18 @@ const Loganalysis = () => {
     if (!fromDate || !toDate) {
       return data;
     }
-  
+
     const fromDateObj = new Date(fromDate);
     const toDateObj = new Date(toDate);
-  
+
     const filteredLines = data.split("\n").filter((line) => {
       // Match patterns like "Jan 27 10:05:58" or "[Tue Jan 27 10:05:58 2024]"
-      const match = line.match(/^(\w{3} \d{2} \d{2}:\d{2}:\d{2}|\[\w{3} \w{3} \d{2} \d{2}:\d{2}:\d{2} \d{4}\])/);
+      const match = line.match(
+        /^(\w{3} \d{2} \d{2}:\d{2}:\d{2}|\[\w{3} \w{3} \d{2} \d{2}:\d{2}:\d{2} \d{4}\])/
+      );
       if (match) {
         const dateStr = match[0];
-  
+
         // Handle both formats by extracting the relevant parts and creating Date objects
         let date;
         if (dateStr.startsWith("[")) {
@@ -134,15 +136,14 @@ const Loganalysis = () => {
           // Assume the format is "Jan 27 10:05:58" and append current year
           date = new Date(dateStr + " " + new Date().getFullYear());
         }
-  
+
         return date >= fromDateObj && date <= toDateObj;
       }
       return true;
     });
-  
+
     return filteredLines.join("\n");
   };
-  
 
   const extractKeywords = (data) => {
     const words = data.match(/\b\w+\b/g);
@@ -206,24 +207,24 @@ const Loganalysis = () => {
       console.error("Content is not a valid string:", content);
       return content;
     }
-  
+
     if (!keywords || !Array.isArray(keywords)) {
       console.error("Keywords are not a valid array:", keywords);
       return content;
     }
-  
+
     const uniqueKeywords = Array.from(new Set(keywords)).sort(
       (a, b) => b.length - a.length
     );
-  
+
     const escapedKeywords = uniqueKeywords.map((keyword) =>
       keyword.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&")
     );
-  
+
     const regexPattern = new RegExp(`(${escapedKeywords.join("|")})`, "gi");
-  
+
     const parts = content.split(regexPattern);
-  
+
     return parts.map((part, index) =>
       uniqueKeywords.some(
         (keyword) => part.toLowerCase() === keyword.toLowerCase()
@@ -240,15 +241,17 @@ const Loganalysis = () => {
       console.error("Filtered data is not available");
       return null;
     }
-  
+
     const lines = filteredData.split("\n");
-  
+
     return (
       <div>
         {lines.map((line, index) => (
           <div
             key={index}
-            style={{ color: /ERROR|Error|error/.test(line) ? "red" : "inherit" }}
+            style={{
+              color: /ERROR|Error|error/.test(line) ? "red" : "inherit",
+            }}
           >
             {renderContentWithKeywords(line, selectedKeywords)}
           </div>
@@ -475,22 +478,33 @@ const Loganalysis = () => {
                 Search
               </button>
             </div>
-            <ul>
-              {lineSearchResults.map((file, index) => (
-                <u style={{color:'darkblue'}}><li
-                  key={index}
-                  onClick={() => handleLineSearchSelect(file)}
-                  onMouseEnter={() => setHoveredFile(file)} // Set hovered file on mouse enter
-                  onMouseLeave={() => setHoveredFile(null)} // Unset hovered file on mouse leave
-                  style={{
-                    cursor: "pointer",
-                    backgroundColor: hoveredFile === file ? "Darkgray" : "transparent", // Change background color on hover
-                  }}
-                >
-                  {file}
-                </li></u>
-              ))}
-            </ul>
+            <div
+              style={{
+                minHeight: "10px",
+                maxHeight: "300px",
+                overflow: "auto",
+              }}
+            >
+              <ul>
+                {lineSearchResults.map((file, index) => (
+                  <u style={{ color: "darkblue" }}>
+                    <li
+                      key={index}
+                      onClick={() => handleLineSearchSelect(file)}
+                      onMouseEnter={() => setHoveredFile(file)} // Set hovered file on mouse enter
+                      onMouseLeave={() => setHoveredFile(null)} // Unset hovered file on mouse leave
+                      style={{
+                        cursor: "pointer",
+                        backgroundColor:
+                          hoveredFile === file ? "Darkgray" : "transparent", // Change background color on hover
+                      }}
+                    >
+                      {file}
+                    </li>
+                  </u>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       )}
