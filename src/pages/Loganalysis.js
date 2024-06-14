@@ -7,6 +7,7 @@ const Loganalysis = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const [selectedFile, setSelectedFile] = useState("");
+  const [selectedLineFile, setSelectedLineFile] = useState("");
   const [fileData, setFileData] = useState("");
   const [filteredData, setFilteredData] = useState("");
   const [keyword, setKeyword] = useState("");
@@ -282,11 +283,19 @@ const Loganalysis = () => {
     }
   };
 
+
   const handleLineSearchSelect = async (file) => {
+    console.log(file);
     setSelectedFile(file);
+    setSelectedLineFile(file);
     setShowLineSearchPopup(false);
-    await handleSubmit();
   };
+  
+  useEffect(() => {
+    if (selectedLineFile) {
+      handleSubmit();
+    }
+  }, [selectedLineFile]);
 
   return (
     <div>
