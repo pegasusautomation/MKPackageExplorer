@@ -139,7 +139,7 @@ import Packageuploader from "./pages/Packageuploader.js";
 import Loganalysis from "./pages/Loganalysis.js";
 import Certtable from "./pages/certtable.js";
 import Alarm from "./pages/Alarm.js";
-import Spdetails from "./pages/Spdetails.js";
+import Help from "./pages/Help.js";
 import "./Table.css";
 import "./App.css";
 
@@ -185,8 +185,8 @@ const App = () => {
                 <Route exact path="/uptime">
                   <Uptime />
                 </Route>
-                <Route exact path="/spdetails">
-                  <Spdetails />
+                <Route exact path="/help">
+                  <Help />
                 </Route>
               </Switch>
               </Layout>

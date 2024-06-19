@@ -128,7 +128,7 @@ const linksArray = [
     {
         label: "Help",
         icon: <BsTicketDetailed/>,
-        to: "/spdetails",
+        to: "/help",
     },
 ];
 //     const secondaryLinksArray = [
