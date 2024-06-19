@@ -14,13 +14,13 @@ import {
 } from "./styles";
 
 import {
-    AiFillSafetyCertificate,
-    AiOutlineFieldTime,
+    // AiFillSafetyCertificate,
+    // AiOutlineFieldTime,
     AiOutlineLeft,
     AiOutlineLoading3Quarters,
 } from "react-icons/ai";
 // import { MdLogout } from "react-icons/md";
-import { BsAlarmFill, BsCloudUpload, BsGraphUp, BsServer, BsTicketDetailed } from "react-icons/bs";
+import {  BsCloudUpload, BsTicketDetailed } from "react-icons/bs";
 
 import { useLocation } from "react-router-dom";
 
@@ -95,40 +95,40 @@ const linksArray = [
         icon: <BsCloudUpload />,
         to: "/pkgupload",
     },
-    {
-        label: "Bitrate",
-        icon: <BsServer />,
-        to: "/Bitrates",
-    },
-    {
-        label: "Bitrate Graph",
-        icon: <BsGraphUp />,
-        to: "/graph",
-    },
-    {
-        label: "Alarm",
-        icon: <BsAlarmFill />,
-        to: "/Alarm",
-    },
-    {
-        label: "Licence",
-        icon: <AiFillSafetyCertificate />,
-        to: "/Licences",
-    },
-    {
-        label: "Uptime",
-        icon: <AiOutlineFieldTime/>,
-        to: "/uptime",
-    },
-    {
-        label: "SP Details",
-        icon: <BsTicketDetailed/>,
-        to: "/spdetails",
-    },
+    // {
+    //     label: "Bitrate",
+    //     icon: <BsServer />,
+    //     to: "/Bitrates",
+    // },
+    // {
+    //     label: "Bitrate Graph",
+    //     icon: <BsGraphUp />,
+    //     to: "/graph",
+    // },
+    // {
+    //     label: "Alarm",
+    //     icon: <BsAlarmFill />,
+    //     to: "/Alarm",
+    // },
+    // {
+    //     label: "Licence",
+    //     icon: <AiFillSafetyCertificate />,
+    //     to: "/Licences",
+    // },
+    // {
+    //     label: "Uptime",
+    //     icon: <AiOutlineFieldTime/>,
+    //     to: "/uptime",
+    // },
     {
         label: "Log Analysis",
         icon: <AiOutlineLoading3Quarters/>,
         to: "/loganalysis",
+    },
+    {
+        label: "Help",
+        icon: <BsTicketDetailed/>,
+        to: "/spdetails",
     },
 ];
 //     const secondaryLinksArray = [
