@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+MK Support Package Analyzer
+ 
+ This tool aims to simplify the process of analyzing support packages by providing intuitive search and analysis features. 
+ Whether you're troubleshooting errors or conducting detailed inspections, our Support Package Analyzer offers the tools you need for effective package management.
+ 
+Features:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+	1. Upload support packge:
+		Download the package from the specified source.
+		
+		Unzip the downloaded package file (package.Zip).
 
-## Available Scripts
+		Access the contents of the unzipped folder.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+		Extract the report needed for analysis.
+		
+		Upload the extracted file in the "Upload Support Package" tab.
+		
+		Navigate to "loganalysis" section to start analysing the package.
+		
+	2. Listing all files of uploaded Package:
+		Type the file name in the search bar to locate the required file.
+		
+		Choose the file from the search results.
+		
+		Click on the "submit" button to view detailed data and analysis of the selected file.
+		
+	3. Search files by line:
+		Type line in "Search by Line" search bar and click on "search" to list files.
+		
+		Choose the file from the search results.
+		
+		Click on file to view detailed data and analysis of the selected file.
+	
+	4. Search file data by keywords:
+		After selecting a particular file, a "Select Keywords" pop up will appear.
+		
+		Type a keyword to search in selected file.
+		
+		Click on "Ok" button to view lines having that particular keyword.
+		
+	5. Filter data for specified time range:
+		To filter data for a specified time range, access "From" and "To" for starting and ending time.
+		
+		Select time manually or set time from the Calender.
+		
+		Click on the "submit" button to view the file data for respective time range.
+		
+	
+ 
+Launch app by opening exe file "MK Package Application"
