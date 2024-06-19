@@ -370,7 +370,7 @@ app.post('/upload', upload.single('folder'), async (req, res) => {
   const { path: zipFilePath } = req.file;
 
   // Construct the destination folder path
-  const destinationFolder = path.join(__dirname, '../../public/uploads/folders');
+  const destinationFolder = path.join(__dirname, '../../src/uploads/folders');
 
   try {
     // Remove previous folder if exists
@@ -396,7 +396,7 @@ app.post('/upload', upload.single('folder'), async (req, res) => {
 
 // Route to list files for dropdown menu
 app.get('/list-files', (req, res) => {
-  const destinationFolder = path.join(__dirname, '../../public/uploads/folders');
+  const destinationFolder = path.join(__dirname, '../../src/uploads/folders');
 
   // Function to list files recursively
   function listFiles(directory) {
@@ -423,7 +423,7 @@ app.get('/list-files', (req, res) => {
 // Route to handle file search
 app.get('/search', (req, res) => {
   const { query } = req.query;
-  const destinationFolder = path.join(__dirname, '../../public/uploads/folders');
+  const destinationFolder = path.join(__dirname, '../../src/uploads/folders');
 
   // Function to list files recursively
   function listFiles(directory) {
@@ -449,7 +449,7 @@ app.get('/search', (req, res) => {
 });
 
 // Define the base directory
-const baseDirectory = path.resolve(__dirname, '../../public/uploads/folders');
+const baseDirectory = path.resolve(__dirname, '../../src/uploads/folders');
 
 app.get('/file-data', (req, res) => {
   const { file } = req.query;
@@ -497,7 +497,7 @@ app.get('/file-data', (req, res) => {
 
 app.get('/search-by-line', (req, res) => {
   const { query } = req.query;
-  const destinationFolder = path.join(__dirname, '../../public/uploads/folders');
+  const destinationFolder = path.join(__dirname, '../../src/uploads/folders');
 
   if (!query) {
     return res.status(400).send('No search query provided');
