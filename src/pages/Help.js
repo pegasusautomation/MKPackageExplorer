@@ -1,36 +1,81 @@
 import React from "react";
  
 const Help = () => {
-    return <table className="hopmepage"><br></br><b>MK Support Package Analyzer</b><br></br><br></br>
-    <b>User Story 1 : </b><br></br>
-    This tool aims to simplify the process of analyzing support packages by providing intuitive search and analysis features. 
+    return <table className="hopmepage" style={{paddingLeft: "40px"}}><br></br><b style={{ fontSize: '1.2em' }}>MK Support Package Analyzer</b><br>
+    </br><br></br>
+    This tool aims to simplify the process of analyzing support packages by providing intuitive search and analysis features. <br></br>
     Whether you're troubleshooting errors or conducting detailed inspections, our Support Package Analyzer offers the tools you need for effective package management.
     <br></br>
-    2. Identify the servers
     <br></br>
-    3. Get the certificate details of server using power shell script
+    <b>Features:</b>
     <br></br>
-    4. Post the certificate details to dashboard
+    <div style={{paddingLeft: "50px", maxHeight:"400px", overflow:"auto"}}>
+     <br></br>
+     <b>1. Upload support packge:</b>
+     <br></br>
+     <br></br>
+     <div style={{paddingLeft:"40px"}}>
+     Download the package from the specified source.
+     <br></br>
+    Unzip the downloaded package file (package.Zip).
     <br></br>
-    5. Create alert email mechanism to alert concerned stakeholders about certificate expiry status
-    <br></br><br></br>
-    <b>User Story 2 : </b>  <br></br>
-    Need a dashboard to monitor the status of Mediaroom service with alert mechanism and action to recycle services and IIS A simple dashboard that gets populated from the server layout showing all the NBLs and service status for various Mediaroom services
-    Once there is a view this tool can be used to recycle services and IIS from single machine like EMS server  
+    Extract the report needed for analysis.
     <br></br>
-    1. Create a dashboard to view service details <br></br>
-    2. Tool to see the service status
+    Upload the extracted file in the "Upload Support Package" tab.
     <br></br>
-    3. Actions to restart the services by checking their health
+    Navigate to "loganalysis" section to start analysing the package.
     <br></br>
-    4. Create alert email mechanism to alert concerned stakeholders about service status
-    <br></br><br></br>
-    <b>User Story 3 : </b>  <br></br>
-    Get server logs on failure to know the root cause for failure to reduce turnaround time of the ticket raised.   Server error logs distribution to be automated.
     <br></br>
-    1. Get the server logs
+    </div>
+    <b>2. Listing all files of uploaded Package:</b>
+     <br></br>
+     <br></br>
+     <div style={{paddingLeft:"40px"}}>
+     Type the file name in the search bar to locate the required file.
     <br></br>
-    2. Automation script to share logs based on the demand
+    Choose the file from the search results.
+    <br></br>
+    Click on the "submit" button to view detailed data and analysis of the selected file.
+    <br></br>
+    <br></br>
+    </div>
+    <b>3. Search files by line:</b>
+     <br></br>
+     <br></br>
+     <div style={{paddingLeft:"40px"}}>
+     Type line in "Search by Line" search bar and click on "search" to list files.
+    <br></br>
+    Choose the file from the search results.
+    <br></br>
+    Click on file to view detailed data and analysis of the selected file.
+    <br></br>
+    <br></br>
+    </div>
+    <b>4. Search file data by keywords:</b>
+     <br></br>
+     <br></br>
+     <div style={{paddingLeft:"40px"}}>
+     After selecting a particular file, a "Select Keywords" pop up will appear.
+    <br></br>
+    Type a keyword to search in selected file.
+    <br></br>
+    Click on "Ok" button to view lines having that particular keyword.
+    <br></br>
+    <br></br>
+    </div>
+    <b>5. Filter data for specified time range:</b>
+     <br></br>
+     <br></br>
+     <div style={{paddingLeft:"40px"}}>
+     To filter data for a specified time range, access "From" and "To" for starting and ending time.
+    <br></br>
+    Select time manually or set time from the Calender.
+    <br></br>
+    Click on the "submit" button to view the file data for respective time range.
+    <br></br>
+    <br></br>
+    </div>
+    </div>
     </table>;
 };
  
