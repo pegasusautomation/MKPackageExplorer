@@ -75,13 +75,25 @@
 // }
 
 // export default Packageuploader
-import React, {  useCallback,useEffect,useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { useDropzone } from 'react-dropzone';
 import axios from 'axios'; // Import axios for making HTTP requests
+import Modal from 'react-modal'; // Import react-modal for popups
 // import "./Packageuploader.css"
 
+Modal.setAppElement('#root'); // Set the root element for the modal
+
 const Packageuploader = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalMessage, setModalMessage] = useState('Uploading...');
+  const [uploadComplete, setUploadComplete] = useState(false);
+
   const onDrop = useCallback((acceptedFiles) => {
+    // Open the modal
+    setIsModalOpen(true);
+    setUploadComplete(false);
+    setModalMessage('Uploading...');
+
     // Create FormData object to append files/folders
     const formData = new FormData();
     formData.append('folder', acceptedFiles[0]); // Assuming only one folder is dropped
@@ -94,10 +106,13 @@ const Packageuploader = () => {
     }).then(response => {
       // Handle response from the backend if needed
       console.log(response.data);
-      alert("Package Uploaded successfully");
+      setModalMessage('Uploaded');
+      setUploadComplete(true);
+      // alert("Package Uploaded successfully");
     }).catch(error => {
       // Handle error if request fails
       console.error('Error uploading folder:', error);
+      setModalMessage('Error uploading');
     });
   }, []);
 
@@ -108,6 +123,7 @@ const Packageuploader = () => {
     // noClick: true ,// Prevent opening file dialog on click
     preventDefault: true
   });
+
   const [packageInfo, setPackageInfo] = useState(null);
 
   useEffect(() => {
@@ -139,10 +155,6 @@ Support package ended: 2024-02-09T06:05:19.224497`;
       setPackageInfo({ startDate, endDate });
     }
   }, []);
-  // const preventDefaultAndStopPropagation = (event) => {
-  //   event.preventDefault();
-  //   event.stopPropagation();
-  // };
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -151,7 +163,7 @@ Support package ended: 2024-02-09T06:05:19.224497`;
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '-5px' }}>
           <p style={{ marginRight: '100px', marginBottom: '-85px' }}><b>Upload Support Package</b></p>
           <div>
-            <button {...getRootProps()}  style={{
+            <button {...getRootProps()} style={{
               border: '2px solid #cccccc',
               borderRadius: '8px',
               padding: '20px',
@@ -188,21 +200,66 @@ Support package ended: 2024-02-09T06:05:19.224497`;
         </div>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
           <p style={{ marginRight: '226px' }}><b>Reported Issue</b></p>
-          <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '30px', width: '272px' }}>
-          </input></div>
+          <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '30px', width: '272px' }} />
+          </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
           <p style={{ marginRight: '116px' }}><b>Reported Issue Date and Time</b></p>
-          <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '24px', width: '272px' }}>
-          </input></div>
+          <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '24px', width: '272px' }} />
+          </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
           <p style={{ marginRight: '45px' }}><b>Reported Issue Date and Time threshold</b></p>
-          <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '16px', width: '273px' }}>
-          </input></div>
+          <div><input style={{ border: '1px solid black', padding: '5px', backgroundColor: 'rgb(105, 88, 154)', color: 'white', marginLeft: '16px', width: '273px' }} />
+          </div>
         </div>
       </div>
+
+      {/* Modal for upload progress */}
+      <Modal
+        isOpen={isModalOpen}
+        onRequestClose={() => setIsModalOpen(false)}
+        contentLabel="Upload Progress"
+        style={{
+          content: {
+            top: '50%',
+            left: '50%',
+            right: 'auto',
+            bottom: 'auto',
+            marginRight: '-50%',
+            transform: 'translate(-50%, -50%)',
+            padding: '20px',
+            borderRadius: '10px',
+            border: '1px solid #ccc',
+            backgroundColor: '#fff',
+            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+            width: '300px',
+            textAlign: 'center'
+          },
+          overlay: {
+            backgroundColor: 'rgba(0, 0, 0, 0.75)'
+          }
+        }}
+      >
+        <h2 style={{ marginBottom: '20px', color: 'rgb(105, 88, 154)' }}>{modalMessage}</h2>
+        <button
+          onClick={() => setIsModalOpen(false)}
+          disabled={!uploadComplete}
+          style={{
+            padding: '10px 20px',
+            borderRadius: '5px',
+            border: 'none',
+            backgroundColor: uploadComplete ? 'green' : 'grey',
+            color: 'white',
+            cursor: uploadComplete ? 'pointer' : 'not-allowed',
+            transition: 'background-color 0.3s'
+          }}
+        >
+          OK
+        </button>
+      </Modal>
     </div>
   );
 };
+
 export default Packageuploader;
