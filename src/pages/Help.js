@@ -11,7 +11,7 @@ const Help = () => {
     <br></br>
     <div style={{paddingLeft: "50px", maxHeight:"400px", overflow:"auto"}}>
      <br></br>
-     <b>1. Upload support packge:</b>
+     <b>1. Upload support package:</b>
      <br></br>
      <br></br>
      <div style={{paddingLeft:"40px"}}>

@@ -330,8 +330,8 @@ const Loganalysis = () => {
         </button>
       </div>
       {/* Date pickers */}
-      <div style={{ marginRight: "50px", position: "relative" }}>
-        <span>From: </span>
+      <div style={{ marginRight: "50px", width:"100%",display:"flex"}}>
+        <span style={{ marginLeft: "10px" }}>From: </span>
         <DatePicker
           selected={fromDate}
           onChange={handleFromDateChange}
@@ -343,8 +343,7 @@ const Loganalysis = () => {
           endDate={toDate}
           style={{ marginRight: "20px" }}
         />
-
-        <span style={{ marginLeft: "20px" }}>To: </span>
+        <span style={{ marginLeft: "20px"}}>To: </span>
         <DatePicker
           selected={toDate}
           onChange={handleToDateChange}
@@ -360,12 +359,12 @@ const Loganalysis = () => {
       {loading && <p style={{ textAlign: "center" }}>Loading...</p>}
       {error && <p style={{ textAlign: "center", color: "red" }}>{error}</p>}
       <br />
-      <h2 style={{ marginLeft: "50px" }}>File Data</h2>
+      <h2 style={{ marginLeft: "10px" }}>File Data</h2>
       <div
         style={{
-          marginLeft: "50px",
-          height: "410px",
-          width: "1000px",
+          marginLeft: "10px",
+          height: "360px",
+          width: "100%",
           overflow: "auto",
           border: "1px solid black",
           padding: "10px",
