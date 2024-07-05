@@ -10,7 +10,6 @@ import {
     SLinkNotification,
     SLogo,
     SSidebar,
-    SSidebarButton,
 } from "./styles";
 
 import {
@@ -25,17 +24,16 @@ import {  BsCloudUpload, BsTicketDetailed } from "react-icons/bs";
 import { useLocation } from "react-router-dom";
 
 const Sidebar = () => {
-    const [sidebarOpen, setSidebarOpen] = useState(false);
     const { pathname } = useLocation();
 
  
     return (
       
-        <SSidebar isOpen={sidebarOpen} style={{background:'#8482b8',height:'1000px'}}>
+        <SSidebar style={{background:'#8482b8'}}>
             <>
-                <SSidebarButton isOpen={sidebarOpen} onClick={() => setSidebarOpen((p) => !p)}>
+                {/* <SSidebarButton isOpen={sidebarOpen} onClick={() => setSidebarOpen((p) => !p)}>
                     <AiOutlineLeft />
-                </SSidebarButton>
+                </SSidebarButton> */}
             </>
             <SLogo>
                 {/* <h1><br></br>MK</h1> */}
@@ -45,9 +43,9 @@ const Sidebar = () => {
             <SDivider />
             {linksArray.map(({ icon, label, notification, to }) => (
                 <SLinkContainer key={label} isActive={pathname === to}>
-                    <SLink to={to} style={!sidebarOpen ? { width: `fit-content` } : {}}>
+                    <SLink to={to}>
                         <SLinkIcon>{icon}</SLinkIcon>
-                        {sidebarOpen && (
+                       
                             <>
                                 <SLinkLabel>{label}</SLinkLabel>
                                 {/* if notifications are at 0 or null, do not display */}
@@ -55,7 +53,6 @@ const Sidebar = () => {
                                     <SLinkNotification>{notification}</SLinkNotification>
                                 )}
                             </>
-                        )}
                     </SLink>
                 </SLinkContainer>
             ))}

@@ -183,11 +183,13 @@ Support package ended: 2024-02-09T06:05:19.224497`;
               <input {...getInputProps()} />
               <p style={{
                 position: 'relative',
-                top: '50%',
+                bottom:'-12px',
+                // top: '-100%',
                 left: '50%',
-                right: '20%',
+                // right: '20%',
                 transform: 'translate(-50%, -50%)',
-                fontSize: '20px'
+                fontSize: '20px',
+                color:'white',
               }}>Upload Your Package</p>
             </button>
           </div>
