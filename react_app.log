@@ -21,3 +21,281 @@ Note that the development build is not optimized.
 To create a production build, use npm run build.
 
 webpack compiled [1m[32msuccessfully[39m[22m
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN cli npm v10.4.0 does not support Node.js v16.16.0. This version of npm supports the following node versions: `^18.17.0 || >=20.5.0`. You can find the latest version at https://nodejs.org/.
+
+> 2-sidebar-react@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:21164) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:21164) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view 2-sidebar-react in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.37:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+Compiling...
+Compiled successfully!
+webpack compiled [1m[32msuccessfully[39m[22m
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN cli npm v10.4.0 does not support Node.js v16.16.0. This version of npm supports the following node versions: `^18.17.0 || >=20.5.0`. You can find the latest version at https://nodejs.org/.
+
+> 2-sidebar-react@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:3216) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:3216) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 11:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 14:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 15:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 16:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 16:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 222:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 298:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 11:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 14:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 15:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 16:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 16:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 222:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 298:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+^C^Cnpm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN cli npm v10.4.0 does not support Node.js v16.16.0. This version of npm supports the following node versions: `^18.17.0 || >=20.5.0`. You can find the latest version at https://nodejs.org/.
+
+> 2-sidebar-react@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:13188) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:13188) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN cli npm v10.4.0 does not support Node.js v16.16.0. This version of npm supports the following node versions: `^18.17.0 || >=20.5.0`. You can find the latest version at https://nodejs.org/.
+
+> 2-sidebar-react@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:18680) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:18680) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+^C^Cnpm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN cli npm v10.4.0 does not support Node.js v16.16.0. This version of npm supports the following node versions: `^18.17.0 || >=20.5.0`. You can find the latest version at https://nodejs.org/.
+
+> 2-sidebar-react@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:20644) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:20644) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 11:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 14:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 15:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 16:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 16:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 222:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 298:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 11:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 14:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 15:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 16:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 16:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 222:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 298:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\components\Sidebar\Sidebar.js
+  Line 1:17:  'useState' is defined but never used       no-unused-vars
+  Line 18:5:  'AiOutlineLeft' is defined but never used  no-unused-vars
+
+src\pages\Loganalysis.js
+  Line 11:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 14:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 15:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 16:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 16:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 222:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 298:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\components\Sidebar\Sidebar.js
+  Line 1:17:  'useState' is defined but never used       no-unused-vars
+  Line 18:5:  'AiOutlineLeft' is defined but never used  no-unused-vars
+
+src\pages\Loganalysis.js
+  Line 11:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 14:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 15:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 16:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 16:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 222:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 298:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+^C^CTerminate batch job (Y/N)? npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm WARN cli npm v10.4.0 does not support Node.js v16.16.0. This version of npm supports the following node versions: `^18.17.0 || >=20.5.0`. You can find the latest version at https://nodejs.org/.
+
+> 2-sidebar-react@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:4340) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:4340) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src\components\Sidebar\Sidebar.js
+  Line 1:17:  'useState' is defined but never used       no-unused-vars
+  Line 18:5:  'AiOutlineLeft' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\components\Sidebar\Sidebar.js
+  Line 1:17:  'useState' is defined but never used       no-unused-vars
+  Line 18:5:  'AiOutlineLeft' is defined but never used  no-unused-vars
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m

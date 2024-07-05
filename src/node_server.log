@@ -1,17 +1,1 @@
 Server is running on http://localhost:8000
-Requested File Path: C:\MKPackageExplorer\src\uploads\folders\bash_history_100_last_lines.log
-Error checking file stats: [Error: ENOENT: no such file or directory, stat 'C:\MKPackageExplorer\src\uploads\folders\bash_history_100_last_lines.log'] {
-  errno: -4058,
-  code: 'ENOENT',
-  syscall: 'stat',
-  path: 'C:\\MKPackageExplorer\\src\\uploads\\folders\\bash_history_100_last_lines.log'
-}
-Requested File Path: C:\MKPackageExplorer\src\uploads\folders\bash_history_100_last_lines.log
-Error checking file stats: [Error: ENOENT: no such file or directory, stat 'C:\MKPackageExplorer\src\uploads\folders\bash_history_100_last_lines.log'] {
-  errno: -4058,
-  code: 'ENOENT',
-  syscall: 'stat',
-  path: 'C:\\MKPackageExplorer\\src\\uploads\\folders\\bash_history_100_last_lines.log'
-}
-Requested File Path: C:\MKPackageExplorer\src\uploads\folders\support[MXFUTEN42-CTRL7S]4e-503966-20240516141339\report\bash_history_100_last_lines.log
-Requested File Path: C:\MKPackageExplorer\src\uploads\folders\support[]4e-503335-20240315113746\report\Apache2_ver.log
