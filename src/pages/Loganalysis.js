@@ -299,16 +299,16 @@ const Loganalysis = () => {
 
   return (
     <div>
-      <h1 style={{ textAlign: "center", fontSize: "25px" }}>Log Analysis</h1>
-      <div style={{ margin: "20px 100px", height: "55px" }}>
-        <span style={{ marginRight: "40px" }}>File List: </span>
+      <h1 style={{ textAlign: "center", fontSize: "20px"}}>Log Analysis</h1>
+      <div style={{ margin: "20px 100px", height: "45px",display:"flex"}}>
+        <span style={{ marginRight: "30px",fontSize:"15px" }}>File List: </span>
         <input
           type="text"
           value={searchQuery}
           onChange={(e) => handleSearch(e.target.value)}
           placeholder="Search for a file..."
           list="file-suggestions"
-          style={{ width: "400px", padding: "5px" }}
+          style={{ width: "400px", padding: "5px",minHeight:"22px",height:"22px"}}
           onBlur={handleFileSelect}
         />
         <datalist id="file-suggestions">
@@ -318,13 +318,13 @@ const Loganalysis = () => {
         </datalist>
         <button
           onClick={handleSubmit}
-          style={{ marginLeft: "10px", padding: "5px" }}
+          style={{ marginLeft: "10px",minHeight:"22px",height:"22px",fontSize:"12px" }}
         >
           Submit
         </button>
         <button
           onClick={() => setShowLineSearchPopup(true)}
-          style={{ marginLeft: "10px", padding: "5px" }}
+          style={{ marginLeft: "10px",minHeight:"22px",height:"22px",fontSize:"12px" }}
         >
           Search by Line
         </button>
@@ -359,15 +359,16 @@ const Loganalysis = () => {
       {loading && <p style={{ textAlign: "center" }}>Loading...</p>}
       {error && <p style={{ textAlign: "center", color: "red" }}>{error}</p>}
       <br />
-      <h2 style={{ marginLeft: "10px" }}>File Data</h2>
+      <h2 style={{ marginLeft: "10px",fontSize:"18px"}}>File Data</h2>
       <div
         style={{
           marginLeft: "10px",
-          height: "360px",
-          width: "100%",
+          height: "390px",
+          width: "120%",
           overflow: "auto",
           border: "1px solid black",
           padding: "10px",
+          fontSize:"12px"
         }}
       >
         {renderHighlightedContent()}
@@ -392,10 +393,10 @@ const Loganalysis = () => {
               backgroundColor: "white",
               padding: "20px",
               borderRadius: "5px",
-              width: "500px",
+              width: "450px",
             }}
           >
-            <h2>Select Keywords</h2>
+            <h2 style={{fontSize:"20px"}}>Select Keywords</h2>
             <input
               type="text"
               value={keyword}
@@ -418,7 +419,7 @@ const Loganalysis = () => {
                   {kw}
                   <button
                     onClick={() => handleRemoveKeyword(kw)}
-                    style={{ marginLeft: "10px", padding: "5px" }}
+                    style={{ marginLeft: "10px",minHeight:"22px",height:"22px",fontSize:"12px" }}
                   >
                     Remove
                   </button>
@@ -428,13 +429,13 @@ const Loganalysis = () => {
             <div style={{ textAlign: "right" }}>
               <button
                 onClick={handleKeywordModalOk}
-                style={{ marginRight: "10px", padding: "5px" }}
+                style={{ marginRight: "10px",minHeight:"22px",height:"22px",fontSize:"12px"}}
               >
                 OK
               </button>
               <button
                 onClick={handleKeywordModalCancel}
-                style={{ padding: "5px" }}
+                style={{ minHeight:"22px",height:"22px",fontSize:"12px"}}
               >
                 Cancel
               </button>
@@ -465,7 +466,7 @@ const Loganalysis = () => {
               width: "600px",
             }}
           >
-            <h2>Search by Line</h2>
+            <h2 style={{fontSize:"20px"}}>Search by Line</h2>
             <textarea
               value={lineSearchQuery}
               onChange={(e) => setLineSearchQuery(e.target.value)}
@@ -475,13 +476,13 @@ const Loganalysis = () => {
             <div style={{ textAlign: "right" }}>
               <button
                 onClick={() => setShowLineSearchPopup(false)}
-                style={{ marginRight: "10px", padding: "5px" }}
+                style={{ marginRight: "10px", minHeight:"22px",height:"22px",fontSize:"12px"}}
               >
                 Cancel
               </button>
               <button
                 onClick={handleLineSearchSubmit}
-                style={{ padding: "5px" }}
+                style={{ minHeight:"22px",height:"22px",fontSize:"12px"}}
               >
                 Search
               </button>
