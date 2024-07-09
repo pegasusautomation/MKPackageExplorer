@@ -364,11 +364,11 @@ const Loganalysis = () => {
         style={{
           marginLeft: "10px",
           height: "390px",
-          width: "120%",
-          overflow: "auto",
+          width: "100%",
           border: "1px solid black",
           padding: "10px",
-          fontSize:"12px"
+          fontSize:"12px",
+          overflow:"auto",
         }}
       >
         {renderHighlightedContent()}
