@@ -156,7 +156,7 @@ const App = () => {
       <ThemeProvider theme={themeStyle}>
         <GlobalStyle />
         <Helmet>
-          <title>MediaRoom - Servers</title>
+          <title>MP Analyser</title>
         </Helmet>
 
         <Router>
