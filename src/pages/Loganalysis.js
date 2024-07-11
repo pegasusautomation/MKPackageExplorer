@@ -27,6 +27,8 @@ const Loganalysis = () => {
   const [fromDate, setFromDate] = useState(null);
   const [toDate, setToDate] = useState(null);
   const [hoveredFile, setHoveredFile] = useState(null); // New state for hovered file
+  const [globalFromDate, setGlobalFromDate] = useState(null); // Global From Date state
+  const [globalToDate, setGlobalToDate] = useState(null); // Global To Date state
 
   useEffect(() => {
     const fetchInitialFiles = async () => {
@@ -49,6 +51,14 @@ const Loganalysis = () => {
 
   const handleToDateChange = (date) => {
     setToDate(date);
+  };
+
+  const handleGlobalFromDateChange = (date) => {
+    setGlobalFromDate(date);
+  };
+
+  const handleGlobalToDateChange = (date) => {
+    setGlobalToDate(date);
   };
 
   const fetchFiles = async (query) => {
@@ -297,6 +307,40 @@ const Loganalysis = () => {
       handleSubmit();
     }
   }, [selectedLineFile]);
+
+  const handleGlobalSearchSubmit = async () => {
+    try {
+      setLoading(true);
+      const response = await axios.get("/list-files");
+      const files = response.data.files;
+
+      let filteredResults = [];
+      for (const file of files) {
+        const fileResponse = await axios.get(
+          `/file-data?file=${encodeURIComponent(file)}`
+        );
+        const fileContent = fileResponse.data;
+        const filteredContent = filterDataByDate(
+          fileContent,
+          globalFromDate,
+          globalToDate
+        );
+        if (filteredContent) {
+          filteredResults.push({
+            file,
+            content: filteredContent,
+          });
+        }
+      }
+
+      setSearchResults(filteredResults);
+      setLoading(false);
+      setShowGlobalSearchPopup(false);
+    } catch (error) {
+      setLoading(false);
+      setError("Error performing global search");
+    }
+  };
 
   return (
     <div>
@@ -549,16 +593,55 @@ const Loganalysis = () => {
               height:"560px",
             }}
           >
+        <h2 style={{ fontSize: "20px" }}>Global Search</h2><br></br>
+        <div style={{ marginRight: "50px", width:"100%",display:"flex"}}>
+        <span style={{ marginLeft: "10px" }}>From: </span>
+              <DatePicker
+                selected={globalFromDate}
+                onChange={handleGlobalFromDateChange}
+                showTimeSelect
+                timeIntervals={15}
+                dateFormat="MMMM d, yyyy h:mm aa"
+                // placeholderText="Select from date and time"
+                style={{ flex: "1" }}
+              />
+              <span style={{ marginLeft: "10px", marginRight: "10px" }}>To: </span>
+              <DatePicker
+                selected={globalToDate}
+                onChange={handleGlobalToDateChange}
+                showTimeSelect
+                timeIntervals={15}
+                dateFormat="MMMM d, yyyy h:mm aa"
+                // placeholderText="Select to date and time"
+                style={{ flex: "1" }}
+              />
+              <span style={{ marginLeft: "10px", marginRight: "10px" }}></span>
+                <button
+                onClick={handleGlobalSearchSubmit}
+                style={{
+                  marginRight: "10px",
+                  minHeight: "22px",
+                  height: "22px",
+                  fontSize: "12px",
+                }}
+              >
+                Submit
+              </button>
+            </div>
             <div style={{ textAlign: "right" }}>
               <button
                 onClick={() => setShowGlobalSearchPopup(false)}
-                style={{ marginRight: "10px", minHeight:"22px",height:"22px",fontSize:"12px"}}
+                style={{
+                  minHeight: "22px",
+                  height: "22px",
+                  fontSize: "12px",
+                }}
               >
                 Cancel
               </button>
             </div>
+          </div>
         </div>
-      </div>
       )}
     </div>
   );
