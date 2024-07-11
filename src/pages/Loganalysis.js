@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -29,6 +31,7 @@ const Loganalysis = () => {
   const [hoveredFile, setHoveredFile] = useState(null); // New state for hovered file
   const [globalFromDate, setGlobalFromDate] = useState(null); // Global From Date state
   const [globalToDate, setGlobalToDate] = useState(null); // Global To Date state
+  const [isHovered, setIsHovered] = useState(false); 
 
   useEffect(() => {
     const fetchInitialFiles = async () => {
@@ -342,6 +345,14 @@ const Loganalysis = () => {
     }
   };
 
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
   return (
     <div>
       <h1 style={{ textAlign: "center", fontSize: "20px"}}>Log Analysis</h1>
@@ -595,7 +606,7 @@ const Loganalysis = () => {
           >
         <h2 style={{ fontSize: "20px" }}>Global Search</h2><br></br>
         <div style={{ marginRight: "50px", width:"100%",display:"flex"}}>
-        <span style={{ marginLeft: "10px" }}>From: </span>
+        <span style={{ marginLeft: "10px", marginRight: "10px"  }}>From: </span>
               <DatePicker
                 selected={globalFromDate}
                 onChange={handleGlobalFromDateChange}
@@ -628,17 +639,28 @@ const Loganalysis = () => {
                 Submit
               </button>
             </div>
-            <div style={{ textAlign: "right" }}>
-              <button
+            <div
                 onClick={() => setShowGlobalSearchPopup(false)}
                 style={{
+                  position:"absolute",
+                  marginTop:"-87px",
+                  marginRight: "16px",
                   minHeight: "22px",
+                  width:"22px",
                   height: "22px",
                   fontSize: "12px",
+                  cursor: "pointer",
+                  display: "flex",
+                  right:"0px",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  backgroundColor:isHovered ? "red" : "lightgray",
+                  color: isHovered ? 'white' : 'black', 
                 }}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               >
-                Cancel
-              </button>
+              <FontAwesomeIcon icon={faTimes} />
             </div>
           </div>
         </div>
