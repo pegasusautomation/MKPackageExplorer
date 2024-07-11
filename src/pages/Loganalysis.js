@@ -529,7 +529,7 @@ const Loganalysis = () => {
         <div
         style={{
           position: "fixed",
-          top: 0,
+          top: "15px",
           left: 0,
           width: "100%",
           height: "100%",
@@ -537,6 +537,7 @@ const Loganalysis = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          
         }}
       >
         <div
@@ -544,8 +545,8 @@ const Loganalysis = () => {
               backgroundColor: "white",
               padding: "20px",
               borderRadius: "5px",
-              width: "800px",
-              height:"100px"
+              width: "1200px",
+              height:"560px",
             }}
           >
             <div style={{ textAlign: "right" }}>
