@@ -37,8 +37,9 @@ const Sidebar = () => {
             </>
             <SLogo>
                 {/* <h1><br></br>MK</h1> */}
-                <img src={logo} alt="Logo" style={{ width: '100%', height: '50px' }}/>
-                <caption>Support Package Analyser</caption>
+                <img src={logo} alt="Logo" style={{ width: '90%', height: '30px'}} />
+                <caption style={{width:"200px",textAlign:"left",fontSize:"15px",color:"white"}}>Support</caption>
+                <caption style={{width:"200px",textAlign:"left",fontSize:"15px",color:"white"}}>Package Analyser</caption>
             </SLogo>
             <SDivider />
             {linksArray.map(({ icon, label, notification, to }) => (
@@ -88,7 +89,7 @@ const linksArray = [
 //     // )}
 //         },
     {
-        label: "Package Uploader",
+        label: "Pkg Uploader",
         icon: <BsCloudUpload />,
         to: "/pkgupload",
     },
@@ -118,7 +119,7 @@ const linksArray = [
     //     to: "/uptime",
     // },
     {
-        label: "Log Analysis",
+        label: "Pkg Analysis",
         icon: <AiOutlineLoading3Quarters/>,
         to: "/loganalysis",
     },
