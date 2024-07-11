@@ -21,6 +21,7 @@ const Loganalysis = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [showLineSearchPopup, setShowLineSearchPopup] = useState(false);
+  const [showGlobalSearchPopup, setShowGlobalSearchPopup] = useState(false);
   const [lineSearchQuery, setLineSearchQuery] = useState("");
   const [lineSearchResults, setLineSearchResults] = useState([]);
   const [fromDate, setFromDate] = useState(null);
@@ -328,6 +329,12 @@ const Loganalysis = () => {
         >
           Search by Line
         </button>
+        <button
+          onClick={() => setShowGlobalSearchPopup(true)}
+          style={{ marginLeft: "10px",minHeight:"22px",height:"22px",fontSize:"12px" }}
+        >
+          Global Search
+        </button>
       </div>
       {/* Date pickers */}
       <div style={{ marginRight: "50px", width:"100%",display:"flex"}}>
@@ -516,6 +523,41 @@ const Loganalysis = () => {
             </div>
           </div>
         </div>
+      )}
+      {/* Global Search Pop Up  */}
+      {showGlobalSearchPopup &&(
+        <div
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          backgroundColor: "rgba(0,0,0,0.5)",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <div
+            style={{
+              backgroundColor: "white",
+              padding: "20px",
+              borderRadius: "5px",
+              width: "800px",
+              height:"100px"
+            }}
+          >
+            <div style={{ textAlign: "right" }}>
+              <button
+                onClick={() => setShowGlobalSearchPopup(false)}
+                style={{ marginRight: "10px", minHeight:"22px",height:"22px",fontSize:"12px"}}
+              >
+                Cancel
+              </button>
+            </div>
+        </div>
+      </div>
       )}
     </div>
   );
