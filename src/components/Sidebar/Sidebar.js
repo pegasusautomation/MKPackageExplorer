@@ -37,7 +37,8 @@ const Sidebar = () => {
             </>
             <SLogo>
                 {/* <h1><br></br>MK</h1> */}
-                <img src={logo} alt="Logo" style={{ width: '90%', height: '30px'}}/>
+                <img src={logo} alt="Logo" style={{ width: '90%', height: '30px'}} />
+                <caption style={{width:"200px",textAlign:"left",fontSize:"15px",color:"white"}}>Support</caption>
                 <caption style={{width:"200px",textAlign:"left",fontSize:"15px",color:"white"}}>Package Analyser</caption>
             </SLogo>
             <SDivider />
