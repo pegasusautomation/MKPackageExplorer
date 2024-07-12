@@ -640,7 +640,8 @@ const Loganalysis = () => {
               </button>
             </div>
             <div
-                onClick={() => setShowGlobalSearchPopup(false)}
+                onClick={() => {setShowGlobalSearchPopup(false);
+                  setIsHovered(false);}}
                 style={{
                   position:"absolute",
                   marginTop:"-87px",
