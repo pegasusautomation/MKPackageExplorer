@@ -31,6 +31,7 @@ const Loganalysis = () => {
   const [hoveredFile, setHoveredFile] = useState(null); // New state for hovered file
   const [globalFromDate, setGlobalFromDate] = useState(null); // Global From Date state
   const [globalToDate, setGlobalToDate] = useState(null); // Global To Date state
+  const [globalSearchResults, setGlobalSearchResults] = useState([]);
   const [isHovered, setIsHovered] = useState(false); 
 
   useEffect(() => {
@@ -312,38 +313,44 @@ const Loganalysis = () => {
   }, [selectedLineFile]);
 
   const handleGlobalSearchSubmit = async () => {
+    setLoading(true);
+    setError("");
+
     try {
-      setLoading(true);
-      const response = await axios.get("/list-files");
-      const files = response.data.files;
+      const response = await axios.get("/global-search", {
+        params: {
+          fromDate: globalFromDate,
+          toDate: globalToDate,
+        },
+      });
+      const { files } = response.data;
+      setGlobalSearchResults(files);
+      setLoading(false);
 
-      let filteredResults = [];
-      for (const file of files) {
-        const fileResponse = await axios.get(
-          `/file-data?file=${encodeURIComponent(file)}`
-        );
-        const fileContent = fileResponse.data;
-        const filteredContent = filterDataByDate(
-          fileContent,
-          globalFromDate,
-          globalToDate
-        );
-        if (filteredContent) {
-          filteredResults.push({
-            file,
-            content: filteredContent,
-          });
-        }
+      if (files.length === 0) {
+        setError("Filtered data is not available");
       }
-
-      setSearchResults(filteredResults);
+    } catch (err) {
+      console.error("Error fetching global search results:", err);
       setLoading(false);
-      setShowGlobalSearchPopup(false);
-    } catch (error) {
-      setLoading(false);
-      setError("Error performing global search");
+      setError("Error fetching global search results");
     }
   };
+
+  const renderContent = () => {
+    if (globalSearchResults.length === 0) {
+      return <p style={{ textAlign: "center" }}></p>;
+    }
+
+    return (
+      <ul>
+        {globalSearchResults.map((file, index) => (
+          <li key={index}>{file}</li>
+        ))}
+      </ul>
+    );
+  };
+
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -663,6 +670,19 @@ const Loganalysis = () => {
               >
               <FontAwesomeIcon icon={faTimes} />
             </div>
+            <div
+          style={{
+            marginTop: "20px",
+            minHeight: "10px",
+            maxHeight: "300px",
+            overflow: "auto",
+            border: "1px solid #ddd",
+            padding: "10px",
+            backgroundColor: "#f9f9f9",
+          }}
+        >
+          {loading ? <p style={{ textAlign: "center" }}>Loading...</p> : renderContent()}
+        </div>
           </div>
         </div>
       )}

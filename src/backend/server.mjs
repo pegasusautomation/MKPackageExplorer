@@ -366,6 +366,16 @@ async function extractNestedZip(source, destination) {
   });
 }
 
+function extractDatesFromFileContent(data) {
+  const datePattern = /(\w{3} \d{2} \d{2}:\d{2}:\d{2})/g;
+  const dates = [];
+  let match;
+  while ((match = datePattern.exec(data)) !== null) {
+    dates.push(match[0]);
+  }
+  return dates;
+}
+
 app.post('/upload', upload.single('folder'), async (req, res) => {
   const { path: zipFilePath } = req.file;
 
@@ -529,6 +539,46 @@ app.get('/search-by-line', (req, res) => {
   res.json({ files });
 });
 
+app.get('/global-search', async (req, res) => {
+  const { fromDate, toDate } = req.query;
+
+  if (!fromDate || !toDate) {
+    return res.status(400).json({ error: 'Missing fromDate or toDate' });
+  }
+
+  const fromDateObj = new Date(fromDate);
+  const toDateObj = new Date(toDate);
+
+  const filesDir = path.join(__dirname, '../../src/uploads/folders');
+
+  let matchingFiles = [];
+
+  const searchFiles = (dir) => {
+    const files = fs.readdirSync(dir);
+    files.forEach((file) => {
+      const filePath = path.join(dir, file);
+      const stat = fs.statSync(filePath);
+      if (stat.isDirectory()) {
+        searchFiles(filePath);
+      } else {
+        const content = fs.readFileSync(filePath, 'utf-8');
+        const dates = extractDatesFromFileContent(content);
+        for (const dateStr of dates) {
+          const date = new Date(dateStr + " " + new Date().getFullYear());
+          if (date >= fromDateObj && date <= toDateObj) {
+            // Push relative path to filesDir into matchingFiles
+            matchingFiles.push(path.relative(filesDir, filePath));
+            break;
+          }
+        }
+      }
+    });
+  };
+
+  searchFiles(filesDir);
+
+  res.json({ files: matchingFiles });
+});
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
