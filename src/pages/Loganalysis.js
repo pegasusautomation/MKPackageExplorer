@@ -337,6 +337,33 @@ const Loganalysis = () => {
     }
   };
 
+  const handleFileSelectFromGlobalSearch = async (file) => {
+    try {
+      setLoading(true);
+      const response = await axios.get(`/file-data?file=${encodeURIComponent(file)}`);
+
+      let fileContent = response.data;
+
+      if (typeof fileContent === "object") {
+        fileContent = JSON.stringify(fileContent, null, 2);
+        setIsJsonFile(true);
+      } else {
+        setIsJsonFile(false);
+      }
+
+      setFileData(fileContent);
+      const filteredContent = filterDataByDate(fileContent, fromDate, toDate);
+      setFilteredData(filteredContent);
+      extractKeywords(filteredContent);
+      setIsSubmitted(true);
+      setShowKeywordModal(true);
+      setLoading(false);
+      setShowGlobalSearchPopup(false); // Close the global search popup
+    } catch (error) {
+      setLoading(false);
+      setError("Error fetching file data");
+    }
+  };
   const renderContent = () => {
     if (globalSearchResults.length === 0) {
       return <p style={{ textAlign: "center" }}></p>;
@@ -345,11 +372,26 @@ const Loganalysis = () => {
     return (
       <ul>
         {globalSearchResults.map((file, index) => (
-          <li key={index}>{file}</li>
-        ))}
-      </ul>
-    );
-  };
+          <li
+            key={index}
+            onClick={() => handleFileSelectFromGlobalSearch(file)}
+            style={{
+              cursor: "pointer",
+              padding: "0.5rem",
+              border: "1px solid #ccc",
+backgroundColor: hoveredFile === file ? "lightgray" : "transparent",
+color: hoveredFile === file ? "blue" : "blue",
+textDecoration: hoveredFile === file ? "underline" : "underline"
+}}
+onMouseEnter={() => setHoveredFile(file)}
+onMouseLeave={() => setHoveredFile(null)}
+>
+{file}
+</li>
+))}
+</ul>
+);
+};
 
 
   const handleMouseEnter = () => {
@@ -587,94 +629,89 @@ const Loganalysis = () => {
         </div>
       )}
       {/* Global Search Pop Up  */}
-      {showGlobalSearchPopup &&(
-        <div
+      {showGlobalSearchPopup && (
+    <div
+      style={{
+        position: "fixed",
+        top: "15px",
+        left: 0,
+        width: "100%",
+        height: "100%",
+        backgroundColor: "rgba(0,0,0,0.5)",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <div
         style={{
-          position: "fixed",
-          top: "15px",
-          left: 0,
-          width: "100%",
-          height: "100%",
-          backgroundColor: "rgba(0,0,0,0.5)",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          
+          backgroundColor: "white",
+          padding: "20px",
+          borderRadius: "5px",
+          width: "1200px",
+          height: "560px",
         }}
       >
-        <div
+        <h2 style={{ fontSize: "20px" }}>Global Search</h2><br />
+        <div style={{ marginRight: "50px", width: "100%", display: "flex" }}>
+          <span style={{ marginLeft: "10px", marginRight: "10px" }}>From: </span>
+          <DatePicker
+            selected={globalFromDate}
+            onChange={handleGlobalFromDateChange}
+            showTimeSelect
+            timeIntervals={15}
+            dateFormat="MMMM d, yyyy h:mm aa"
+            style={{ flex: "1" }}
+          />
+          <span style={{ marginLeft: "10px", marginRight: "10px" }}>To: </span>
+          <DatePicker
+            selected={globalToDate}
+            onChange={handleGlobalToDateChange}
+            showTimeSelect
+            timeIntervals={15}
+            dateFormat="MMMM d, yyyy h:mm aa"
+            style={{ flex: "1" }}
+          />
+          <button
+            onClick={handleGlobalSearchSubmit}
             style={{
-              backgroundColor: "white",
-              padding: "20px",
-              borderRadius: "5px",
-              width: "1200px",
-              height:"560px",
+              marginRight: "10px",
+              minHeight: "22px",
+              height: "22px",
+              fontSize: "12px",
             }}
           >
-        <h2 style={{ fontSize: "20px" }}>Global Search</h2><br></br>
-        <div style={{ marginRight: "50px", width:"100%",display:"flex"}}>
-        <span style={{ marginLeft: "10px", marginRight: "10px"  }}>From: </span>
-              <DatePicker
-                selected={globalFromDate}
-                onChange={handleGlobalFromDateChange}
-                showTimeSelect
-                timeIntervals={15}
-                dateFormat="MMMM d, yyyy h:mm aa"
-                // placeholderText="Select from date and time"
-                style={{ flex: "1" }}
-              />
-              <span style={{ marginLeft: "10px", marginRight: "10px" }}>To: </span>
-              <DatePicker
-                selected={globalToDate}
-                onChange={handleGlobalToDateChange}
-                showTimeSelect
-                timeIntervals={15}
-                dateFormat="MMMM d, yyyy h:mm aa"
-                // placeholderText="Select to date and time"
-                style={{ flex: "1" }}
-              />
-              <span style={{ marginLeft: "10px", marginRight: "10px" }}></span>
-                <button
-                onClick={handleGlobalSearchSubmit}
-                style={{
-                  marginRight: "10px",
-                  minHeight: "22px",
-                  height: "22px",
-                  fontSize: "12px",
-                }}
-              >
-                Submit
-              </button>
-            </div>
-            <div
-                onClick={() => {setShowGlobalSearchPopup(false);
-                  setIsHovered(false);}}
-                style={{
-                  position:"absolute",
-                  marginTop:"-87px",
-                  marginRight: "16px",
-                  minHeight: "22px",
-                  width:"22px",
-                  height: "22px",
-                  fontSize: "12px",
-                  cursor: "pointer",
-                  display: "flex",
-                  right:"0px",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  backgroundColor:isHovered ? "red" : "lightgray",
-                  color: isHovered ? 'white' : 'black', 
-                }}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-              >
-              <FontAwesomeIcon icon={faTimes} />
-            </div>
-            <div
+            Submit
+          </button>
+        </div>
+        <div
+          onClick={() => { setShowGlobalSearchPopup(false); setIsHovered(false); }}
+          style={{
+            position: "absolute",
+            marginTop: "-87px",
+            marginRight: "16px",
+            minHeight: "22px",
+            width: "22px",
+            height: "22px",
+            fontSize: "12px",
+            cursor: "pointer",
+            display: "flex",
+            right: "0px",
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundColor: isHovered ? "red" : "lightgray",
+            color: isHovered ? 'white' : 'black',
+          }}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <FontAwesomeIcon icon={faTimes} />
+        </div>
+        <div
           style={{
             marginTop: "20px",
             minHeight: "10px",
-            maxHeight: "300px",
+            maxHeight: "400px",
             overflow: "auto",
             border: "1px solid #ddd",
             padding: "10px",
@@ -683,11 +720,10 @@ const Loganalysis = () => {
         >
           {loading ? <p style={{ textAlign: "center" }}>Loading...</p> : renderContent()}
         </div>
-          </div>
-        </div>
-      )}
+      </div>
     </div>
-  );
+  )}
+</div>
+);
 };
-
 export default Loganalysis;
