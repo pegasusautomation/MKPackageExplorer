@@ -56,6 +56,7 @@ const Loganalysis = () => {
   const [filteredFiles, setFilteredFiles] = useState([]);
   const [isHovered, setIsHovered] = useState(false); 
   const [SelectedFileName, setSelectedFileName] = useState("");
+  const [filterCondition, setFilterCondition] = useState(false);
 
   useEffect(() => {
     const fetchInitialFiles = async () => {
@@ -375,7 +376,7 @@ const Loganalysis = () => {
       setLoading(false);
 
       if (globalSearchResults.length === 0) {
-        setError("Filtered data is not available");
+        setFilterCondition(true);
       }
     } catch (err) {
       console.error("Error fetching global search results:", err);
@@ -414,7 +415,9 @@ const Loganalysis = () => {
   };
   const renderContent = () => {
     if (globalSearchResults.length === 0) {
-      return <p style={{ textAlign: "center" }}>No content</p>;
+      return filterCondition 
+        ? <p style={{ textAlign: "center" }}>No content matched for selected criteria</p>
+        : <p style={{ textAlign: "center" }}>No content</p>;
     }
 
     return (
@@ -737,24 +740,24 @@ const Loganalysis = () => {
         <div style={{ marginRight: "50px", width: "100%", display: "flex", alignItems: "center" }}>
        <span style={{ marginLeft: "10px", marginRight: "10px" }}><b>From:</b> </span>
 
-<DatePicker
-    selected={globalFromDate}
-    onChange={handleGlobalFromDateChange}
-    showTimeSelect
-    timeIntervals={15}
-    dateFormat="MMMM d, yyyy h:mm aa"
-    customInput={<CustomInput />}
-  />
-  <span style={{ marginLeft: "10px", marginRight: "10px" }}><b>To: </b></span>
-  <DatePicker
-    selected={globalToDate}
-    onChange={handleGlobalToDateChange}
-    showTimeSelect
-    timeIntervals={15}
-    dateFormat="MMMM d, yyyy h:mm aa"
-    customInput={<CustomInput />}
-  />
-          <div style={{width: "20%", display: "flex", alignItems: "center",marginLeft:"10px"}}>
+        <DatePicker
+          selected={globalFromDate}
+          onChange={handleGlobalFromDateChange}
+          showTimeSelect
+          timeIntervals={15}
+          dateFormat="MMMM d, yyyy h:mm aa"
+          customInput={<CustomInput />}
+        />
+        <span style={{ marginLeft: "10px", marginRight: "10px" }}><b>To: </b></span>
+        <DatePicker
+          selected={globalToDate}
+          onChange={handleGlobalToDateChange}
+          showTimeSelect
+          timeIntervals={15}
+          dateFormat="MMMM d, yyyy h:mm aa"
+          customInput={<CustomInput />}
+        />
+        <div style={{width: "20%", display: "flex", alignItems: "center",marginLeft:"10px"}}>
             {globalFromDate && globalToDate && (
               <input
                 type="text"
@@ -765,25 +768,26 @@ const Loganalysis = () => {
               />
             )}
             <button
-    onClick={handleGlobalSearchSubmit}
-    style={{
-      marginLeft: "10px",
-      padding: "5px 10px",
-      minHeight: "30px",
-      fontSize: "14px",
-      backgroundColor: "#4CAF50",
-      color: "white",
-      border: "none",
-      borderRadius: "4px",
-      cursor: "pointer",
-    }}
-  >
-    Submit
-  </button>
-          </div>
+              onClick={handleGlobalSearchSubmit}
+              style={{
+                marginLeft: "10px",
+                padding: "5px 10px",
+                minHeight: "30px",
+                fontSize: "14px",
+                backgroundColor: !globalFromDate || !globalToDate ? "#a5d6a7" : "#4CAF50",
+                color: "white",
+                border: "none",
+                borderRadius: "4px",
+                cursor: !globalFromDate || !globalToDate ? "not-allowed" : "pointer",
+              }}
+              disabled={!globalFromDate || !globalToDate}
+            >
+            Submit
+            </button>
+        </div>
         </div>
         <div
-          onClick={() => { setShowGlobalSearchPopup(false); setIsHovered(false); }}
+          onClick={() => { setShowGlobalSearchPopup(false); setIsHovered(false); setFilterCondition(false); setGlobalFromDate(null); setGlobalToDate(null); setGlobalSearchLine(''); setGlobalSearchResults([]);}}
           style={{
             position: "absolute",
             marginTop: "-94px",
