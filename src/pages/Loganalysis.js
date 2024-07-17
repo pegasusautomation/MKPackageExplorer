@@ -32,6 +32,8 @@ const Loganalysis = () => {
   const [globalFromDate, setGlobalFromDate] = useState(null); // Global From Date state
   const [globalToDate, setGlobalToDate] = useState(null); // Global To Date state
   const [globalSearchResults, setGlobalSearchResults] = useState([]);
+  const [globalSearchLine, setGlobalSearchLine] = useState("");
+  const [filteredFiles, setFilteredFiles] = useState([]);
   const [isHovered, setIsHovered] = useState(false); 
 
   useEffect(() => {
@@ -315,7 +317,6 @@ const Loganalysis = () => {
   const handleGlobalSearchSubmit = async () => {
     setLoading(true);
     setError("");
-
     try {
       const response = await axios.get("/global-search", {
         params: {
@@ -324,10 +325,33 @@ const Loganalysis = () => {
         },
       });
       const { files } = response.data;
-      setGlobalSearchResults(files);
+      const filteredResults = files;
+      setFilteredFiles(filteredResults);
+
+      if (globalSearchLine) {
+        const batchSize = 30;
+        const fileBatches = [];
+        for (let i = 0; i < filteredFiles.length; i += batchSize) {
+          fileBatches.push(filteredFiles.slice(i, i + batchSize).map(file => file.replace(/\\/g, '/')));
+        }
+
+        const results = [];
+        for (const batch of fileBatches) {
+          const searchResponse = await axios.get('/search-line', {
+            params: {
+              query: globalSearchLine,
+              files: batch,
+            },
+          });
+          results.push(...searchResponse.data.files);
+        }
+        setGlobalSearchResults(results);
+      } else {
+        setGlobalSearchResults(filteredResults);
+      }
       setLoading(false);
 
-      if (files.length === 0) {
+      if (globalSearchResults.length === 0) {
         setError("Filtered data is not available");
       }
     } catch (err) {
@@ -352,7 +376,7 @@ const Loganalysis = () => {
       }
 
       setFileData(fileContent);
-      const filteredContent = filterDataByDate(fileContent, fromDate, toDate);
+      const filteredContent = filterDataByDate(fileContent, globalFromDate, globalToDate);
       setFilteredData(filteredContent);
       extractKeywords(filteredContent);
       setIsSubmitted(true);
@@ -366,7 +390,7 @@ const Loganalysis = () => {
   };
   const renderContent = () => {
     if (globalSearchResults.length === 0) {
-      return <p style={{ textAlign: "center" }}></p>;
+      return <p style={{ textAlign: "center" }}>No content</p>;
     }
 
     return (
@@ -379,19 +403,19 @@ const Loganalysis = () => {
               cursor: "pointer",
               padding: "0.5rem",
               border: "1px solid #ccc",
-backgroundColor: hoveredFile === file ? "lightgray" : "transparent",
-color: hoveredFile === file ? "blue" : "blue",
-textDecoration: hoveredFile === file ? "underline" : "underline"
-}}
-onMouseEnter={() => setHoveredFile(file)}
-onMouseLeave={() => setHoveredFile(null)}
->
-{file}
-</li>
-))}
-</ul>
-);
-};
+              backgroundColor: hoveredFile === file ? "lightgray" : "transparent",
+              color: hoveredFile === file ? "blue" : "blue",
+              textDecoration: hoveredFile === file ? "underline" : "underline"
+            }}
+          onMouseEnter={() => setHoveredFile(file)}
+          onMouseLeave={() => setHoveredFile(null)}
+          >
+        {file}
+        </li>
+      ))}
+    </ul>
+    );
+  };
 
 
   const handleMouseEnter = () => {
@@ -672,20 +696,30 @@ onMouseLeave={() => setHoveredFile(null)}
             dateFormat="MMMM d, yyyy h:mm aa"
             style={{ flex: "1" }}
           />
-          <button
-            onClick={handleGlobalSearchSubmit}
-            style={{
-              marginRight: "10px",
-              minHeight: "22px",
-              height: "22px",
-              fontSize: "12px",
-            }}
-          >
-            Submit
-          </button>
+          <div style={{width: "20%", display: "flex", alignItems: "center",marginLeft:"10px"}}>
+            {globalFromDate && globalToDate && (
+              <input
+                type="text"
+                placeholder="Search line"
+                value={globalSearchLine}
+                onChange={(e) => setGlobalSearchLine(e.target.value)}
+                style={{ flex: "1", marginRight: "10px" }}
+              />
+            )}
+            <button
+              onClick={handleGlobalSearchSubmit}
+              style={{
+                minHeight: "22px",
+                height: "22px",
+                fontSize: "12px",
+              }}
+            >
+              Submit
+            </button>
+          </div>
         </div>
         <div
-          onClick={() => { setShowGlobalSearchPopup(false); setIsHovered(false); }}
+          onClick={() => { setShowGlobalSearchPopup(false); setIsHovered(false);}}
           style={{
             position: "absolute",
             marginTop: "-87px",

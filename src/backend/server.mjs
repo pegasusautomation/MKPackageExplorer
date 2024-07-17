@@ -579,6 +579,25 @@ app.get('/global-search', async (req, res) => {
 
   res.json({ files: matchingFiles });
 });
+
+app.get('/search-line', async (req, res) => {
+  const { query, files } = req.query;
+  const destinationFolder = path.join(__dirname, '../../src/uploads/folders');
+
+  if (!query || !Array.isArray(files)) {
+    return res.status(400).send('Invalid request');
+  }
+  const matchingFiles = files.filter(file => {
+    const filePath = path.join(destinationFolder, file);
+    if (fs.existsSync(filePath)) {
+      const fileContent = fs.readFileSync(filePath, 'utf8');
+      return fileContent.includes(query);
+    }
+    return false;
+  });
+
+  res.json({ files: matchingFiles });
+});
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
