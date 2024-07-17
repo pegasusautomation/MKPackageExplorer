@@ -5,6 +5,26 @@ import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
+
+// CustomInput component
+const CustomInput = React.forwardRef(({ value, onClick }, ref) => (
+  <button
+    className="custom-date-input"
+    onClick={onClick}
+    ref={ref}
+    style={{
+      padding: "5px 10px",
+      border: "1px solid #ccc",
+      borderRadius: "4px",
+      backgroundColor: "white",
+      cursor: "pointer",
+      minHeight: "30px",
+    }}
+  >
+    {value || "Select Date and Time"}
+  </button>
+));
+
 const Loganalysis = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
@@ -35,6 +55,7 @@ const Loganalysis = () => {
   const [globalSearchLine, setGlobalSearchLine] = useState("");
   const [filteredFiles, setFilteredFiles] = useState([]);
   const [isHovered, setIsHovered] = useState(false); 
+  const [SelectedFileName, setSelectedFileName] = useState("");
 
   useEffect(() => {
     const fetchInitialFiles = async () => {
@@ -87,6 +108,7 @@ const Loganalysis = () => {
   const handleFileSelect = (event) => {
     const file = event.target.value;
     setSelectedFile(file);
+    setSelectedFileName(file); 
     console.log("Selected file:", file);
   };
 
@@ -305,7 +327,8 @@ const Loganalysis = () => {
     console.log(file);
     setSelectedFile(file);
     setSelectedLineFile(file);
-    setShowLineSearchPopup(false);
+    setShowLineSearchPopup(false); 
+    setSelectedFileName(file); 
   };
   
   useEffect(() => {
@@ -382,6 +405,7 @@ const Loganalysis = () => {
       setIsSubmitted(true);
       setShowKeywordModal(true);
       setLoading(false);
+      setSelectedFileName(file); 
       setShowGlobalSearchPopup(false); // Close the global search popup
     } catch (error) {
       setLoading(false);
@@ -429,15 +453,22 @@ const Loganalysis = () => {
   return (
     <div>
       <h1 style={{ textAlign: "center", fontSize: "20px"}}>Log Analysis</h1>
-      <div style={{ margin: "20px 100px", height: "45px",display:"flex"}}>
-        <span style={{ marginRight: "30px",fontSize:"15px" }}>File List: </span>
+      <div style={{ margin: "20px 100px", height: "40px",display:"flex",alignItems: "center" }}>
+        <span style={{ marginRight: "30px",fontSize:"15px" ,whiteSpace: "nowrap"}}><b>File List:</b></span>
         <input
           type="text"
           value={searchQuery}
           onChange={(e) => handleSearch(e.target.value)}
           placeholder="Search for a file..."
           list="file-suggestions"
-          style={{ width: "400px", padding: "5px",minHeight:"22px",height:"22px"}}
+          style={{
+            width: "420px",
+            padding: "5px 10px",
+            height: "32px",
+            borderRadius: "5px",
+            border: "1px solid #ccc",
+            boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+          }}
           onBlur={handleFileSelect}
         />
         <datalist id="file-suggestions">
@@ -447,19 +478,45 @@ const Loganalysis = () => {
         </datalist>
         <button
           onClick={handleSubmit}
-          style={{ marginLeft: "10px",minHeight:"22px",height:"22px",fontSize:"12px" }}
+          style={{ marginLeft: "10px",minHeight:"22px",height:"30px",fontSize:"12px",padding: "0 15px",
+            color:"white",background:"#419639",borderRadius: "5px",  border: "none",
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+            cursor: "pointer",
+            transition: "background 0.3s, transform 0.2s",}}
         >
           Submit
         </button>
         <button
           onClick={() => setShowLineSearchPopup(true)}
-          style={{ marginLeft: "10px",minHeight:"22px",height:"22px",fontSize:"12px" }}
+          style={{ marginLeft: "10px",
+            minHeight: "22px",
+            height: "30px",
+            padding: "0 15px",
+            fontSize: "12px",
+            borderRadius: "5px",
+            background:"#262D76" ,
+            color:"white",
+            border: "none",
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+            cursor: "pointer",
+            transition: "background 0.3s, transform 0.2s",}}
         >
           Search by Line
         </button>
         <button
           onClick={() => setShowGlobalSearchPopup(true)}
-          style={{ marginLeft: "10px",minHeight:"22px",height:"22px",fontSize:"12px" }}
+          style={{ marginLeft: "10px",
+            minHeight: "22px",
+            height: "30px",
+            padding: "0 15px",
+            fontSize: "12px",
+            borderRadius: "5px",
+            background: "#AB3925",
+            color: "white",
+            border: "none",
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+            cursor: "pointer",
+            transition: "background 0.3s, transform 0.2s",}}
         >
           Global Search
         </button>
@@ -494,7 +551,7 @@ const Loganalysis = () => {
       {loading && <p style={{ textAlign: "center" }}>Loading...</p>}
       {error && <p style={{ textAlign: "center", color: "red" }}>{error}</p>}
       <br />
-      <h2 style={{ marginLeft: "10px",fontSize:"18px"}}>File Data</h2>
+      <div style={{display:"flex"}}><h2 style={{ marginLeft: "10px",fontSize:"18px"}}>File Data:</h2><span style={{color:"rgb(46, 43, 134)",marginLeft:"10px"}}>{SelectedFileName}</span></div>
       <div
         style={{
           marginLeft: "10px",
@@ -677,56 +734,63 @@ const Loganalysis = () => {
         }}
       >
         <h2 style={{ fontSize: "20px" }}>Global Search</h2><br />
-        <div style={{ marginRight: "50px", width: "100%", display: "flex" }}>
-          <span style={{ marginLeft: "10px", marginRight: "10px" }}>From: </span>
-          <DatePicker
-            selected={globalFromDate}
-            onChange={handleGlobalFromDateChange}
-            showTimeSelect
-            timeIntervals={15}
-            dateFormat="MMMM d, yyyy h:mm aa"
-            style={{ flex: "1" }}
-          />
-          <span style={{ marginLeft: "10px", marginRight: "10px" }}>To: </span>
-          <DatePicker
-            selected={globalToDate}
-            onChange={handleGlobalToDateChange}
-            showTimeSelect
-            timeIntervals={15}
-            dateFormat="MMMM d, yyyy h:mm aa"
-            style={{ flex: "1" }}
-          />
+        <div style={{ marginRight: "50px", width: "100%", display: "flex", alignItems: "center" }}>
+       <span style={{ marginLeft: "10px", marginRight: "10px" }}><b>From:</b> </span>
+
+<DatePicker
+    selected={globalFromDate}
+    onChange={handleGlobalFromDateChange}
+    showTimeSelect
+    timeIntervals={15}
+    dateFormat="MMMM d, yyyy h:mm aa"
+    customInput={<CustomInput />}
+  />
+  <span style={{ marginLeft: "10px", marginRight: "10px" }}><b>To: </b></span>
+  <DatePicker
+    selected={globalToDate}
+    onChange={handleGlobalToDateChange}
+    showTimeSelect
+    timeIntervals={15}
+    dateFormat="MMMM d, yyyy h:mm aa"
+    customInput={<CustomInput />}
+  />
           <div style={{width: "20%", display: "flex", alignItems: "center",marginLeft:"10px"}}>
             {globalFromDate && globalToDate && (
               <input
                 type="text"
-                placeholder="Search line"
+                placeholder="Search Text"
                 value={globalSearchLine}
                 onChange={(e) => setGlobalSearchLine(e.target.value)}
                 style={{ flex: "1", marginRight: "10px" }}
               />
             )}
             <button
-              onClick={handleGlobalSearchSubmit}
-              style={{
-                minHeight: "22px",
-                height: "22px",
-                fontSize: "12px",
-              }}
-            >
-              Submit
-            </button>
+    onClick={handleGlobalSearchSubmit}
+    style={{
+      marginLeft: "10px",
+      padding: "5px 10px",
+      minHeight: "30px",
+      fontSize: "14px",
+      backgroundColor: "#4CAF50",
+      color: "white",
+      border: "none",
+      borderRadius: "4px",
+      cursor: "pointer",
+    }}
+  >
+    Submit
+  </button>
           </div>
         </div>
         <div
-          onClick={() => { setShowGlobalSearchPopup(false); setIsHovered(false);}}
+          onClick={() => { setShowGlobalSearchPopup(false); setIsHovered(false); }}
           style={{
             position: "absolute",
-            marginTop: "-87px",
+            marginTop: "-94px",
             marginRight: "16px",
-            minHeight: "22px",
-            width: "22px",
-            height: "22px",
+            minHeight: "28px",
+            width: "28px",
+            height: "28px",
             fontSize: "12px",
             cursor: "pointer",
             display: "flex",
@@ -735,6 +799,7 @@ const Loganalysis = () => {
             justifyContent: "center",
             backgroundColor: isHovered ? "red" : "lightgray",
             color: isHovered ? 'white' : 'black',
+            borderRadius: "20%",
           }}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
@@ -747,7 +812,7 @@ const Loganalysis = () => {
             minHeight: "10px",
             maxHeight: "400px",
             overflow: "auto",
-            border: "1px solid #ddd",
+            border: "1px solid #000000",
             padding: "10px",
             backgroundColor: "#f9f9f9",
           }}
