@@ -371,6 +371,8 @@ const extractDatesFromFileContent = (fileContent) => {
   const datePattern2 = /\b([A-Za-z]{3}\s{1,2}\d{1,2}\s{1,2}\d{4}\s{1,2}\d{2}:\d{2}:\d{2})\b/g; // Apr  5 2023 17:18:30
   const datePattern3 = /\b(\d{2}\/\d{2}\/\d{4}-\d{2}:\d{2}:\d{2})\b/g;
   const datePattern4 = /\b([A-Za-z]{3} \d{1,2} \d{4})\b/g; // New pattern for "MMM d yyyy"
+  const datePattern5 = /\b([A-Za-z]{3} \d{1,2} \d{2}:\d{2}:\d{2}\.\d{6} \d{4})\b/g; // May 11 23:08:15.846704 2022
+
   const dates = [];
   
   let match;
@@ -401,7 +403,12 @@ const extractDatesFromFileContent = (fileContent) => {
       dates.push(date);
     }
   }
-  
+  while ((match = datePattern5.exec(fileContent)) !== null) {
+    const date = parse(match[1], "MMM d HH:mm:ss.SSSSSS yyyy", new Date());
+    if (!isNaN(date)) {
+      dates.push(date);
+    }
+  }
   return dates;
 };
 
