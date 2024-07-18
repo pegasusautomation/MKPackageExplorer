@@ -619,7 +619,7 @@ const Loganalysis = () => {
                   {kw}
                   <button
                     onClick={() => handleRemoveKeyword(kw)}
-                    style={{ marginLeft: "10px",minHeight:"22px",height:"22px",fontSize:"12px" }}
+                    style={{ marginLeft: "10px",minHeight:"22px",height:"22px",fontSize:"12px",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",background:"#9e9e9e",color:"white",border: "none",borderRadius: "5px" }}
                   >
                     Remove
                   </button>
@@ -628,16 +628,16 @@ const Loganalysis = () => {
             </ul>
             <div style={{ textAlign: "right" }}>
               <button
-                onClick={handleKeywordModalOk}
-                style={{ marginRight: "10px",minHeight:"22px",height:"22px",fontSize:"12px"}}
-              >
-                OK
-              </button>
-              <button
                 onClick={handleKeywordModalCancel}
-                style={{ minHeight:"22px",height:"22px",fontSize:"12px"}}
+                style={{ marginRight: "10px",minHeight:"22px",height:"22px",fontSize:"12px",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",background:"#7d7d7d",color:"white",border: "none",borderRadius: "5px"}}
               >
                 Cancel
+              </button>
+              <button
+                onClick={handleKeywordModalOk}
+                style={{ minHeight:"22px",height:"22px",fontSize:"12px",color:"white",background:"#419639",borderRadius: "5px",border: "none",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",cursor: "pointer",transition: "background 0.3s, transform 0.2s",}}
+              >
+                OK
               </button>
             </div>
           </div>
@@ -676,13 +676,13 @@ const Loganalysis = () => {
             <div style={{ textAlign: "right" }}>
               <button
                 onClick={() => setShowLineSearchPopup(false)}
-                style={{ marginRight: "10px", minHeight:"22px",height:"22px",fontSize:"12px"}}
+                style={{ marginRight: "10px", minHeight:"22px",height:"22px",fontSize:"12px",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",background:"#7d7d7d",color:"white",border: "none",borderRadius: "5px"}}
               >
                 Cancel
               </button>
               <button
                 onClick={handleLineSearchSubmit}
-                style={{ minHeight:"22px",height:"22px",fontSize:"12px"}}
+                style={{ minHeight:"22px",height:"22px",fontSize:"12px",boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",background:"#262D76",color:"white",border: "none",borderRadius: "5px",cursor: "pointer",}}
               >
                 Search
               </button>
@@ -779,10 +779,11 @@ const Loganalysis = () => {
                 padding: "5px 10px",
                 minHeight: "30px",
                 fontSize: "14px",
-                backgroundColor: !globalFromDate || !globalToDate ? "#a5d6a7" : "#4CAF50",
+                backgroundColor: !globalFromDate || !globalToDate ? "#a57b7b" : "#AB3925",
                 color: "white",
                 border: "none",
                 borderRadius: "4px",
+                boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
                 cursor: !globalFromDate || !globalToDate ? "not-allowed" : "pointer",
               }}
               disabled={!globalFromDate || !globalToDate}
@@ -806,7 +807,7 @@ const Loganalysis = () => {
             right: "0px",
             alignItems: "center",
             justifyContent: "center",
-            backgroundColor: isHovered ? "red" : "lightgray",
+            backgroundColor: isHovered ? "#AB3925" : "lightgray",
             color: isHovered ? 'white' : 'black',
             borderRadius: "20%",
           }}

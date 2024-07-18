@@ -396,3 +396,1472 @@ Browserslist: caniuse-lite is outdated. Please run:
 (node:21492) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 Starting the development server...
 
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm warn cli npm v10.8.1 does not support Node.js v16.16.0. This version of npm supports the following node versions: `^18.17.0 || >=20.5.0`. You can find the latest version at https://nodejs.org/.
+
+> 2-sidebar-react@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:8120) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:8120) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\Loganalysis.js
+Syntax error: Unexpected token, expected "," (787:16) (787:16)
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 787:16:  Parsing [1m[31merror[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token, expected "," (787:16)
+
+[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\Loganalysis.js
+Syntax error: Unexpected token, expected "," (787:16) (787:16)
+[1m[31mERROR[39m[22m in [1m./src/pages/Loganalysis.js[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Ravi.Grewal\MKPackageExplorer\src\pages\Loganalysis.js: [1m[31mUnexpected[39m[22m[1m token, expected "," (787:16)
+
+  785 |                 borderRadius: "4px",
+  786 |                 boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)"
+> 787 |                 cursor: !globalFromDate || !globalToDate ? "not-allowed" : "pointer",
+      |                 ^
+  788 |               }}
+  789 |               disabled={!globalFromDate || !globalToDate}
+  790 |             >
+    at constructor (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:356:19)
+    at FlowParserMixin.raise (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3223:19)
+    at FlowParserMixin.[1m[31munexpected[39m[22m[1m (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3253:16)
+    at FlowParserMixin.expect (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3585:28)
+    at FlowParserMixin.parseObjectLike (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11650:14)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11155:23)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6932:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10857:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10840:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10816:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10654:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10659:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10636:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10597:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5755:18)
+    at FlowParserMixin.parseExpressionBase (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10551:23)
+    at C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10547:39
+    at FlowParserMixin.allowInAnd (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:12284:12)
+    at FlowParserMixin.parseExpression (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10547:17)
+    at FlowParserMixin.jsxParseExpressionContainer (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6792:31)
+    at FlowParserMixin.jsxParseAttributeValue (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6760:21)
+    at FlowParserMixin.jsxParseAttribute (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6813:38)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6827:28)
+    at FlowParserMixin.jsxParseOpeningElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6822:17)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6846:33)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElement (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6915:17)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6927:19)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10857:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10840:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10816:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10654:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10659:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10636:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10597:21)
+    at C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5700:39
+    at FlowParserMixin.tryParse (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3592:20)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5700:18)
+    at C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10567:39
+    at FlowParserMixin.allowInAnd (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:12284:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10567:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11499:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5799:18)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11137:23)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6932:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10857:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10840:21)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 787:16:  Parsing [1m[31merror[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token, expected "," (787:16)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\Loganalysis.js
+Syntax error: Unexpected digit after hash token. (782:68) (782:68)
+[1m[31mERROR[39m[22m in [1m./src/pages/Loganalysis.js[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Ravi.Grewal\MKPackageExplorer\src\pages\Loganalysis.js: [1m[31mUnexpected[39m[22m[1m digit after hash token. (782:68)
+
+  780 |                 minHeight: "30px",
+  781 |                 fontSize: "14px",
+> 782 |                 backgroundColor: !globalFromDate || !globalToDate ? #520404 : "#AB3925",
+      |                                                                     ^
+  783 |                 color: "white",
+  784 |                 border: "none",
+  785 |                 borderRadius: "4px",
+    at constructor (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:356:19)
+    at FlowParserMixin.raise (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3223:19)
+    at FlowParserMixin.readToken_numberSign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:2509:18)
+    at FlowParserMixin.getTokenFromCode (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:2874:14)
+    at FlowParserMixin.getTokenFromCode (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6965:11)
+    at FlowParserMixin.getTokenFromCode (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5374:13)
+    at FlowParserMixin.nextToken (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:2347:10)
+    at FlowParserMixin.next (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:2258:10)
+    at FlowParserMixin.eat (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:2262:12)
+    at FlowParserMixin.expect (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3585:10)
+    at FlowParserMixin.parseConditional (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5147:10)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10640:17)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10597:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5755:18)
+    at C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10567:39
+    at FlowParserMixin.allowInAnd (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:12284:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10567:17)
+    at FlowParserMixin.parseObjectProperty (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11784:83)
+    at FlowParserMixin.parseObjPropValue (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11811:100)
+    at FlowParserMixin.parseObjPropValue (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5526:26)
+    at FlowParserMixin.parsePropertyDefinition (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11745:17)
+    at FlowParserMixin.parseObjectLike (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11660:21)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11155:23)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6932:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10857:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10840:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10816:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10654:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10659:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10636:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10597:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5755:18)
+    at FlowParserMixin.parseExpressionBase (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10551:23)
+    at C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10547:39
+    at FlowParserMixin.allowInAnd (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:12284:12)
+    at FlowParserMixin.parseExpression (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10547:17)
+    at FlowParserMixin.jsxParseExpressionContainer (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6792:31)
+    at FlowParserMixin.jsxParseAttributeValue (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6760:21)
+    at FlowParserMixin.jsxParseAttribute (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6813:38)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6827:28)
+    at FlowParserMixin.jsxParseOpeningElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6822:17)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6846:33)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElement (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6915:17)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6927:19)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10857:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10840:21)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 782:68:  Parsing [1m[31merror[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m digit after hash token. (782:68)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\Loganalysis.js
+Syntax error: Unexpected digit after hash token. (782:68) (782:68)
+[1m[31mERROR[39m[22m in [1m./src/pages/Loganalysis.js[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Ravi.Grewal\MKPackageExplorer\src\pages\Loganalysis.js: [1m[31mUnexpected[39m[22m[1m digit after hash token. (782:68)
+
+  780 |                 minHeight: "30px",
+  781 |                 fontSize: "14px",
+> 782 |                 backgroundColor: !globalFromDate || !globalToDate ? #520404" : "#AB3925",
+      |                                                                     ^
+  783 |                 color: "white",
+  784 |                 border: "none",
+  785 |                 borderRadius: "4px",
+    at constructor (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:356:19)
+    at FlowParserMixin.raise (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3223:19)
+    at FlowParserMixin.readToken_numberSign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:2509:18)
+    at FlowParserMixin.getTokenFromCode (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:2874:14)
+    at FlowParserMixin.getTokenFromCode (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6965:11)
+    at FlowParserMixin.getTokenFromCode (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5374:13)
+    at FlowParserMixin.nextToken (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:2347:10)
+    at FlowParserMixin.next (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:2258:10)
+    at FlowParserMixin.eat (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:2262:12)
+    at FlowParserMixin.expect (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3585:10)
+    at FlowParserMixin.parseConditional (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5147:10)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10640:17)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10597:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5755:18)
+    at C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10567:39
+    at FlowParserMixin.allowInAnd (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:12284:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10567:17)
+    at FlowParserMixin.parseObjectProperty (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11784:83)
+    at FlowParserMixin.parseObjPropValue (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11811:100)
+    at FlowParserMixin.parseObjPropValue (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5526:26)
+    at FlowParserMixin.parsePropertyDefinition (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11745:17)
+    at FlowParserMixin.parseObjectLike (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11660:21)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11155:23)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6932:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10857:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10840:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10816:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10654:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10659:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10636:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10597:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5755:18)
+    at FlowParserMixin.parseExpressionBase (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10551:23)
+    at C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10547:39
+    at FlowParserMixin.allowInAnd (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:12284:12)
+    at FlowParserMixin.parseExpression (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10547:17)
+    at FlowParserMixin.jsxParseExpressionContainer (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6792:31)
+    at FlowParserMixin.jsxParseAttributeValue (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6760:21)
+    at FlowParserMixin.jsxParseAttribute (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6813:38)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6827:28)
+    at FlowParserMixin.jsxParseOpeningElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6822:17)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6846:33)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElement (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6915:17)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6927:19)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10857:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10840:21)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 782:68:  Parsing [1m[31merror[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m digit after hash token. (782:68)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\pages\Loganalysis.js
+Syntax error: Unexpected token, expected "," (787:16) (787:16)
+[1m[31mERROR[39m[22m in [1m./src/pages/Loganalysis.js[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Ravi.Grewal\MKPackageExplorer\src\pages\Loganalysis.js: [1m[31mUnexpected[39m[22m[1m token, expected "," (787:16)
+
+  785 |                 borderRadius: "4px",
+  786 |                 boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)"
+> 787 |                 cursor: !globalFromDate || !globalToDate ? "not-allowed" : "pointer",
+      |                 ^
+  788 |               }}
+  789 |               disabled={!globalFromDate || !globalToDate}
+  790 |             >
+    at constructor (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:356:19)
+    at FlowParserMixin.raise (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3223:19)
+    at FlowParserMixin.[1m[31munexpected[39m[22m[1m (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3253:16)
+    at FlowParserMixin.expect (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3585:28)
+    at FlowParserMixin.parseObjectLike (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11650:14)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11155:23)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6932:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10857:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10840:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10816:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10654:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10659:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10636:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10597:21)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5755:18)
+    at FlowParserMixin.parseExpressionBase (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10551:23)
+    at C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10547:39
+    at FlowParserMixin.allowInAnd (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:12284:12)
+    at FlowParserMixin.parseExpression (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10547:17)
+    at FlowParserMixin.jsxParseExpressionContainer (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6792:31)
+    at FlowParserMixin.jsxParseAttributeValue (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6760:21)
+    at FlowParserMixin.jsxParseAttribute (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6813:38)
+    at FlowParserMixin.jsxParseOpeningElementAfterName (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6827:28)
+    at FlowParserMixin.jsxParseOpeningElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6822:17)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6846:33)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6858:32)
+    at FlowParserMixin.jsxParseElement (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6915:17)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6927:19)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10857:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10840:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10816:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10654:61)
+    at FlowParserMixin.parseExprOps (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10659:23)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10636:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10597:21)
+    at C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5700:39
+    at FlowParserMixin.tryParse (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:3592:20)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5700:18)
+    at C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10567:39
+    at FlowParserMixin.allowInAnd (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:12284:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10567:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11499:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:5799:18)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:11137:23)
+    at FlowParserMixin.parseExprAtom (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:6932:20)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10857:23)
+    at FlowParserMixin.parseUpdate (C:\Users\Ravi.Grewal\MKPackageExplorer\node_modules\@babel\parser\lib\index.js:10840:21)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 787:16:  Parsing [1m[31merror[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token, expected "," (787:16)
+
+[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 305:9:   'handleKeywordModalOk' is assigned a value but never used                                                        no-unused-vars
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 305:9:   'handleKeywordModalOk' is assigned a value but never used                                                        no-unused-vars
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 305:9:   'handleKeywordModalOk' is assigned a value but never used                                                        no-unused-vars
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 305:9:   'handleKeywordModalOk' is assigned a value but never used                                                        no-unused-vars
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\pages\Loganalysis.js
+  Line 34:10:   'fileData' is assigned a value but never used                                                                    no-unused-vars
+  Line 37:10:   'isSubmitted' is assigned a value but never used                                                                 no-unused-vars
+  Line 38:10:   'isJsonFile' is assigned a value but never used                                                                  no-unused-vars
+  Line 39:10:   'showTableView' is assigned a value but never used                                                               no-unused-vars
+  Line 39:25:   'setShowTableView' is assigned a value but never used                                                            no-unused-vars
+  Line 263:26:  Unnecessary escape character: \/                                                                                 no-useless-escape
+  Line 340:6:   React Hook useEffect has a missing dependency: 'handleSubmit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+^C^Cnpm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+npm warn cli npm v10.8.1 does not support Node.js v16.16.0. This version of npm supports the following node versions: `^18.17.0 || >=20.5.0`. You can find the latest version at https://nodejs.org/.
+
+> 2-sidebar-react@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:11308) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:11308) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view 2-sidebar-react in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.20.41:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled [1m[32msuccessfully[39m[22m

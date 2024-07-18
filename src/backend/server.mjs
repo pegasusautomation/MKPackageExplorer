@@ -565,11 +565,11 @@ app.get('/search-by-line', (req, res) => {
 
     return files;
   }
-
+  const decodedQuery = decodeURIComponent(query).toLocaleLowerCase();
   // Search for files containing the exact query line
   const files = listFiles(destinationFolder).filter(file => {
-    const fileContent = fs.readFileSync(file, 'utf8');
-    return fileContent.includes(query);
+    const fileContent = fs.readFileSync(file, 'utf8').toLocaleLowerCase();
+    return fileContent.includes(decodedQuery);
   }).map(file => path.relative(destinationFolder, file));
 
   res.json({ files });
@@ -630,11 +630,12 @@ app.get('/search-line', async (req, res) => {
   if (!query || !Array.isArray(files)) {
     return res.status(400).send('Invalid request');
   }
+  const decodedQuery = decodeURIComponent(query).toLocaleLowerCase();
   const matchingFiles = files.filter(file => {
     const filePath = path.join(destinationFolder, file);
     if (fs.existsSync(filePath)) {
-      const fileContent = fs.readFileSync(filePath, 'utf8');
-      return fileContent.includes(query);
+      const fileContent = fs.readFileSync(filePath, 'utf8').toLocaleLowerCase();
+      return fileContent.includes(decodedQuery);
     }
     return false;
   });
