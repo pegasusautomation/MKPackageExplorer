@@ -367,46 +367,27 @@ async function extractNestedZip(source, destination) {
 }
 
 const extractDatesFromFileContent = (fileContent) => {
-  const datePattern1 = /\b([A-Za-z]{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (AM|PM))\b/g;
-  const datePattern2 = /\b([A-Za-z]{3}\s{1,2}\d{1,2}\s{1,2}\d{4}\s{1,2}\d{2}:\d{2}:\d{2})\b/g; // Apr  5 2023 17:18:30
-  const datePattern3 = /\b(\d{2}\/\d{2}\/\d{4}-\d{2}:\d{2}:\d{2})\b/g;
-  const datePattern4 = /\b([A-Za-z]{3} \d{1,2} \d{4})\b/g; // New pattern for "MMM d yyyy"
-  const datePattern5 = /\b([A-Za-z]{3} \d{1,2} \d{2}:\d{2}:\d{2}\.\d{6} \d{4})\b/g; // May 11 23:08:15.846704 2022
+  const datePatterns = [
+    { regex: /\b([A-Za-z]{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (AM|PM))\b/g, format: "MMM d, yyyy h:mm aa" }, // Mar 14, 2024 12:00 AM
+    { regex: /\b([A-Za-z]{3}\s{1,2}\d{1,2}\s{1,2}\d{4}\s{1,2}\d{2}:\d{2}:\d{2})\b/g, format: "MMM d yyyy HH:mm:ss" }, // Apr 5 2023 17:18:30
+    { regex: /\b(\d{2}\/\d{2}\/\d{4}-\d{2}:\d{2}:\d{2})\b/g, format: "MM/dd/yyyy-HH:mm:ss" }, // 05/24/2021-02:54:22
+    { regex: /\b([A-Za-z]{3} \d{1,2} \d{2}:\d{2}:\d{2}\.\d{6} \d{4})\b/g, format: "MMM d HH:mm:ss.SSSSSS yyyy" }, // May 11 23:08:15.846704 2022
+    { regex: /\b([A-Za-z]{3} \d{1,2} \d{2}:\d{2}:\d{2} \d{4})\b/g, format: "MMM d HH:mm:ss yyyy" }, // May 23 19:35:00 2021
+    { regex: /\b(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})\b/g, format: "yyyy-MM-dd'T'HH:mm:ss" }, // 2024-03-15T02:39:14.100Z
+    { regex: /\b(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3})\b/g, format: "yyyy-MM-dd'T'HH:mm:ss.SSS" }, // 2024-03-15T09:48:50.288+09:00
+    { regex: /\b(\d{2}\/[A-Za-z]{3}\/\d{4}:\d{2}:\d{2}:\d{2})\b/g, format: "dd/MMM/yyyy:HH:mm:ss" }, // 15/Mar/2024:11:37:38
+    { regex: /\b(\d{4}-\d{2}-\d{2}\s{1,2}\d{2}:\d{2}:\d{2})\b/g, format: "yyyy-MM-dd HH:mm:ss" }, // 2023-05-30 02:21:16,214
+  ];
 
   const dates = [];
-  
-  let match;
-  while ((match = datePattern1.exec(fileContent)) !== null) {
-    const date = parse(match[1], "MMM d, yyyy h:mm aa", new Date());
-    if (!isNaN(date)) {
-      dates.push(date);
-    }
-  }
-  
-  while ((match = datePattern2.exec(fileContent)) !== null) {
-    const date = parse(match[1].replace(/\s{2,}/g, ' '), "MMM d yyyy HH:mm:ss", new Date()); // Replace multiple spaces with single space
-    if (!isNaN(date)) {
-      dates.push(date);
-    }
-  }
-
-  while ((match = datePattern3.exec(fileContent)) !== null) {
-    const date = parse(match[1], "MM/dd/yyyy-HH:mm:ss", new Date());
-    if (!isNaN(date)) {
-      dates.push(date);
-    }
-  }
-
-  while ((match = datePattern4.exec(fileContent)) !== null) {
-    const date = parse(match[1], "MMM d yyyy", new Date());
-    if (!isNaN(date)) {
-      dates.push(date);
-    }
-  }
-  while ((match = datePattern5.exec(fileContent)) !== null) {
-    const date = parse(match[1], "MMM d HH:mm:ss.SSSSSS yyyy", new Date());
-    if (!isNaN(date)) {
-      dates.push(date);
+  for (const { regex, format } of datePatterns) {
+    let match;
+    while ((match = regex.exec(fileContent)) !== null) {
+      const cleanedDateStr = match[1].replace(/\s{2,}/g, ' '); // Replace multiple spaces with single space
+      const date = parse(cleanedDateStr, format, new Date());
+      if (!isNaN(date)) {
+        dates.push(date);
+      }
     }
   }
   return dates;
