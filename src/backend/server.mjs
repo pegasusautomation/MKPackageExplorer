@@ -306,8 +306,8 @@ import { promisify } from 'util';
 import yauzl from 'yauzl';
 import { fileURLToPath } from 'url';
 import path from 'path';
-import tar from 'tar-stream';
-
+// import tar from 'tar-stream';
+import { parse } from 'date-fns';
 const app = express();
 const PORT = 8000;
 
@@ -366,15 +366,44 @@ async function extractNestedZip(source, destination) {
   });
 }
 
-function extractDatesFromFileContent(data) {
-  const datePattern = /(\w{3} \d{2} \d{2}:\d{2}:\d{2})/g;
+const extractDatesFromFileContent = (fileContent) => {
+  const datePattern1 = /\b([A-Za-z]{3} \d{1,2}, \d{4} \d{1,2}:\d{2} (AM|PM))\b/g;
+  const datePattern2 = /\b([A-Za-z]{3}\s{1,2}\d{1,2}\s{1,2}\d{4}\s{1,2}\d{2}:\d{2}:\d{2})\b/g; // Apr  5 2023 17:18:30
+  const datePattern3 = /\b(\d{2}\/\d{2}\/\d{4}-\d{2}:\d{2}:\d{2})\b/g;
+  const datePattern4 = /\b([A-Za-z]{3} \d{1,2} \d{4})\b/g; // New pattern for "MMM d yyyy"
   const dates = [];
+  
   let match;
-  while ((match = datePattern.exec(data)) !== null) {
-    dates.push(match[0]);
+  while ((match = datePattern1.exec(fileContent)) !== null) {
+    const date = parse(match[1], "MMM d, yyyy h:mm aa", new Date());
+    if (!isNaN(date)) {
+      dates.push(date);
+    }
   }
+  
+  while ((match = datePattern2.exec(fileContent)) !== null) {
+    const date = parse(match[1].replace(/\s{2,}/g, ' '), "MMM d yyyy HH:mm:ss", new Date()); // Replace multiple spaces with single space
+    if (!isNaN(date)) {
+      dates.push(date);
+    }
+  }
+
+  while ((match = datePattern3.exec(fileContent)) !== null) {
+    const date = parse(match[1], "MM/dd/yyyy-HH:mm:ss", new Date());
+    if (!isNaN(date)) {
+      dates.push(date);
+    }
+  }
+
+  while ((match = datePattern4.exec(fileContent)) !== null) {
+    const date = parse(match[1], "MMM d yyyy", new Date());
+    if (!isNaN(date)) {
+      dates.push(date);
+    }
+  }
+  
   return dates;
-}
+};
 
 app.post('/upload', upload.single('folder'), async (req, res) => {
   const { path: zipFilePath } = req.file;
@@ -546,8 +575,10 @@ app.get('/global-search', async (req, res) => {
     return res.status(400).json({ error: 'Missing fromDate or toDate' });
   }
 
-  const fromDateObj = new Date(fromDate);
-  const toDateObj = new Date(toDate);
+  const fromDateObj = parse(fromDate, "MMM d, yyyy h:mm aa", new Date());
+  const toDateObj = parse(toDate, "MMM d, yyyy h:mm aa", new Date());
+
+  console.log(`Searching files between ${fromDateObj} and ${toDateObj}`);
 
   const filesDir = path.join(__dirname, '../../src/uploads/folders');
 
@@ -561,14 +592,18 @@ app.get('/global-search', async (req, res) => {
       if (stat.isDirectory()) {
         searchFiles(filePath);
       } else {
+        
         const content = fs.readFileSync(filePath, 'utf-8');
         const dates = extractDatesFromFileContent(content);
-        for (const dateStr of dates) {
-          const date = new Date(dateStr + " " + new Date().getFullYear());
+          for (const date of dates){
+            console.log(`Checking date ${date} in file ${filePath}`);
           if (date >= fromDateObj && date <= toDateObj) {
+            console.log(`Date ${date} in file ${filePath} is within range`);
             // Push relative path to filesDir into matchingFiles
             matchingFiles.push(path.relative(filesDir, filePath));
             break;
+          } else {
+            console.log(`Date ${date} in file ${filePath} is out of range`);
           }
         }
       }
@@ -576,6 +611,7 @@ app.get('/global-search', async (req, res) => {
   };
 
   searchFiles(filesDir);
+  console.log(`Matching files: ${matchingFiles}`);
 
   res.json({ files: matchingFiles });
 });

@@ -4,6 +4,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { format } from 'date-fns';
 
 
 // CustomInput component
@@ -341,11 +342,15 @@ const Loganalysis = () => {
   const handleGlobalSearchSubmit = async () => {
     setLoading(true);
     setError("");
+    const formattedFromDate = format(globalFromDate, "MMM d, yyyy h:mm aa");
+    const formattedToDate = format(globalToDate, "MMM d, yyyy h:mm aa");
+
+
     try {
       const response = await axios.get("/global-search", {
         params: {
-          fromDate: globalFromDate,
-          toDate: globalToDate,
+          fromDate: formattedFromDate,
+          toDate: formattedToDate,
         },
       });
       const { files } = response.data;
@@ -740,23 +745,23 @@ const Loganalysis = () => {
         <div style={{ marginRight: "50px", width: "100%", display: "flex", alignItems: "center" }}>
        <span style={{ marginLeft: "10px", marginRight: "10px" }}><b>From:</b> </span>
 
-        <DatePicker
-          selected={globalFromDate}
-          onChange={handleGlobalFromDateChange}
-          showTimeSelect
-          timeIntervals={15}
-          dateFormat="MMMM d, yyyy h:mm aa"
-          customInput={<CustomInput />}
-        />
+       <DatePicker
+        selected={globalFromDate}
+        onChange={handleGlobalFromDateChange}
+        showTimeSelect
+        timeIntervals={15}
+        dateFormat="MMM d, yyyy h:mm aa"
+        customInput={<CustomInput />}
+      />
         <span style={{ marginLeft: "10px", marginRight: "10px" }}><b>To: </b></span>
         <DatePicker
-          selected={globalToDate}
-          onChange={handleGlobalToDateChange}
-          showTimeSelect
-          timeIntervals={15}
-          dateFormat="MMMM d, yyyy h:mm aa"
-          customInput={<CustomInput />}
-        />
+        selected={globalToDate}
+        onChange={handleGlobalToDateChange}
+        showTimeSelect
+        timeIntervals={15}
+        dateFormat="MMM d, yyyy h:mm aa"
+        customInput={<CustomInput />}
+      />
         <div style={{width: "20%", display: "flex", alignItems: "center",marginLeft:"10px"}}>
             {globalFromDate && globalToDate && (
               <input
