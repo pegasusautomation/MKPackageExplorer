@@ -1,8 +1,0 @@
-# Auto-discovery of the NMOS config location
-fileType: mediakind.io/interface-discovery-registration@v1
-location: 192.168.21.51
-annotations:
-  mediakind.io/discoverable-interfaces: nmos-config
-  mediakind.io/nmos-config-port: "8080"
-  mediakind.io/nmos-config-service-type: "live_encoding"
-  mediakind.io/nmos-config-path: "/api/services/live_encodings/batch/nmos"

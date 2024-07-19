@@ -1,5 +1,0 @@
------------List files in directory /var/crash (ls -lastrR)---------------------------
-/var/crash:
-total 8
-4 drwxr-xr-x.  2 root root 4096 Jun 10  2021 .
-4 drwxr-xr-x. 26 root root 4096 May 12  2022 ..

@@ -1,1 +1,0 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"service_id":{"$numberInt":"1"},"service_type":{"$numberInt":"1"}},"name":"service_id_1_service_type_1"}],"uuid":"d6c2510d7ced4d14a722afe891b6c17f","collectionName":"live_encoding","type":"collection"}
