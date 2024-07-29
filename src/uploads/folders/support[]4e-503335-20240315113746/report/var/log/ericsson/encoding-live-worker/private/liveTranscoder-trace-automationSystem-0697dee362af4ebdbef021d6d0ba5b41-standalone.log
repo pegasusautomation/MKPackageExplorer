@@ -1,0 +1,70 @@
+Aug  8 00:52:25.087982 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:25.106464 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:25.110242 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:52:25.148047 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:52:25.822893 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 00:59:35.734455 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.750369 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.754083 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:59:35.789863 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:59:36.627796 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 23:10:28.842859 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:28.859067 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:28.862967 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 23:10:28.897607 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 23:10:29.314346 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:31:02.830944 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:02.851329 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:02.856528 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:31:02.902230 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:31:03.348926 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:39:24.747044 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:24.764035 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:24.767835 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:39:24.804267 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:39:25.217455 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Sep 25 16:35:21.156004 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:21.171949 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:21.175523 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Sep 25 16:35:21.211366 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 25 16:35:21.634667 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Oct 25 03:27:36.126225 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.143002 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.146625 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Oct 25 03:27:36.181510 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Oct 25 03:27:37.136338 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Nov 16 16:47:15.607687 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:15.623993 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:15.627795 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Nov 16 16:47:15.663432 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 16 16:47:16.084193 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Nov 23 10:21:24.600060 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:24.616147 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:24.619395 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Nov 23 10:21:24.656374 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 23 10:21:25.071170 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Nov 28 14:34:01.993968 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:34:02.010014 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:34:02.013970 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Nov 28 14:34:02.048708 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 28 14:34:02.479805 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Dec 18 14:02:50.290979 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:50.306863 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:50.310080 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Dec 18 14:02:50.343362 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 18 14:02:51.189237 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Jan 24 13:31:36.404486 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:36.421219 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:36.425227 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Jan 24 13:31:36.463286 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Jan 24 13:31:36.877400 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:06:26.473869 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.490281 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.493475 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:06:26.528097 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:06:27.666464 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:08:34.783379 BS20_TS13_MBC_Dajeon  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:34.801883 BS20_TS13_MBC_Dajeon  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:34.805840 BS20_TS13_MBC_Dajeon  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:08:34.845615 BS20_TS13_MBC_Dajeon  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:08:35.255510 BS20_TS13_MBC_Dajeon  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS13 on AlternateDynamicLive1 (Master__input_1)

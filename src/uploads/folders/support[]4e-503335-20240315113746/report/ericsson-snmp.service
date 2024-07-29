@@ -1,0 +1,16 @@
+[Unit]
+Description=ericsson-snmp
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+PermissionsStartOnly=true 
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/snmp/private
+ExecStartPre=/usr/bin/chown ericsson: /var/log/ericsson/snmp/private 
+ExecStart=/bin/bash -c "cd /opt/ericsson/snmp/bin ; ./snmpAgent /opt/ericsson/snmp/etc/snmpConfig.json"
+ExecStop=/bin/kill -s HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

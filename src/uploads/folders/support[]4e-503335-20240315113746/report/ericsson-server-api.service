@@ -1,0 +1,26 @@
+[Unit]
+Description=envivio-server-api
+After=network.target
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+# BEGINNING OF BZ47235
+PermissionsStartOnly=true
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/server-api/public /var/log/ericsson/server-api/private
+ExecStartPre=/usr/bin/chown ericsson: /var/log/ericsson/server-api/public /var/log/ericsson/server-api/private
+ExecStartPre=/usr/sbin/restorecon -R /var/log/ericsson/server-api
+# END OF BZ47235
+Environment=PYTHONDONTWRITEBYTECODE="True"
+ExecStart=/bin/bash -c     "cd /opt/ericsson/server-api/bin;source activate;./envivio-server-api --logging /opt/ericsson/server-api/etc/logging.json --conf /opt/ericsson/server-api/etc/server-api.ini >> /var/log/ericsson/server-api/private/console.log 2>&1"
+ExecStartPost=/bin/bash -c "ps aux|egrep -e './envivio-server-api'|grep -v grep|awk '{print $2}'>/var/opt/ericsson/server-api/envivio-server-api.pid"
+ExecReload=/bin/bash -c    "/bin/pkill -15 -F /var/opt/ericsson/server-api/envivio-server-api.pid; sleep 1"
+ExecReload=/bin/bash -c    "cd /opt/ericsson/server-api/bin;source activate;./envivio-server-api --logging /opt/ericsson/server-api/etc/logging.json --conf /opt/ericsson/server-api/etc/server-api.ini >> /var/log/ericsson/server-api/private/console.log 2>&1;"
+ExecReload=/bin/bash -c    "ps aux|egrep -e './envivio-server-api'|grep -v grep|awk '{print $2}'>/var/opt/ericsson/server-api/envivio-server-api.pid"
+ExecStop=/bin/bash -c      "/bin/pkill -15 -F /var/opt/ericsson/server-api/envivio-server-api.pid; sleep 1"
+ExecStopPost=/bin/bash -c  "rm -f /var/opt/ericsson/server-api/envivio-server-api.pid"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

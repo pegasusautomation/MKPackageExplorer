@@ -1,0 +1,41 @@
+  ericsson-alarm-api.service                                                                 loaded active running   ericsson-alarm
+  ericsson-alarm-collector.service                                                           loaded active running   ericsson-alarm
+  ericsson-alarm-daemon.service                                                              loaded active running   ericsson-alarm
+  ericsson-alarm-legacy-collector.service                                                    loaded active running   ericsson-alarm
+  ericsson-alarm-legacy-daemon.service                                                       loaded active running   ericsson-alarm
+  ericsson-alarm-proxy-redis.service                                                         loaded active running   Redis persistent key-value database
+  ericsson-alarm-proxy.service                                                               loaded active running   ericsson-alarm-proxy
+  ericsson-automation-config.service                                                         loaded active running   ericsson-automation-config
+  ericsson-automation-proxy-primary.service                                                  loaded active running   ericsson-automation-proxy-primary
+  ericsson-automation-proxy-secondary.service                                                loaded active running   ericsson-automation-proxy-secondary
+  ericsson-command-api.service                                                               loaded active running   ericsson-command-api
+  ericsson-command-redis.service                                                             loaded active running   Redis persistent key-value database
+  ericsson-controller-config.service                                                         loaded active running   ericsson-controller-config
+  ericsson-controller-mapserverid.service                                                    loaded active running   mapserverid
+  ericsson-encoding-live-config.service                                                      loaded active running   ericsson-encoding-live-config
+  ericsson-encoding-live-ui-connector.service                                                loaded active running   ericsson-encoding-live-ui-connector
+  ericsson-encoding-live-worker.service                                                      loaded active running   ericsson-encoding-live-worker
+  ericsson-esam-proxy.service                                                                loaded active running   ericsson-esam-proxy
+  ericsson-failover-api-celery.service                                                       loaded active running   ericsson-failover-api-celery
+  ericsson-failover-api.service                                                              loaded active running   ericsson-failover-api
+  ericsson-failover-daemon.service                                                           loaded active running   ericsson-failover-daemon
+  ericsson-flow.service                                                                      loaded active running   mediakind-flow
+  ericsson-interface-discovery.service                                                       loaded active running   ericsson-interface-discovery
+  ericsson-license-api.service                                                               loaded active running   ericsson-license-api
+  ericsson-license-server.service                                                            loaded active running   lserv
+  ericsson-nmos-sidecar.service                                                              loaded active running   mediakind-nmos-sidecar
+  ericsson-server-api.service                                                                loaded active running   envivio-server-api
+  ericsson-server-daemon.service                                                             loaded active running   envivio-server-daemon
+  ericsson-server-monitor.service                                                            loaded active running   ericsson-server-monitor
+  ericsson-service-api.service                                                               loaded active running   envivio-service-api
+  ericsson-service-monitor.service                                                           loaded active running   envivio-service-monitor
+  ericsson-snmp-notification.service                                                         loaded active running   ericsson-snmp-notification
+  ericsson-snmp.service                                                                      loaded active running   ericsson-snmp
+  ericsson-statistic-api.service                                                             loaded active running   ericsson-statistic-api
+  ericsson-statistic-redis.service                                                           loaded active running   Redis persistent key-value database
+  ericsson-template-api.service                                                              loaded active running   envivio-template-api
+  ericsson-unified-ui-celery.service                                                         loaded active running   ericsson-unified-ui-celery
+  ericsson-unified-ui-celerybeat.service                                                     loaded active running   ericsson-unified-ui-celerybeat
+  ericsson-unified-ui-daphne.service                                                         loaded active running   ericsson-unified-ui-daphne webserver
+  ericsson-unified-ui-ws.service                                                             loaded active running   ericsson-unified-ui-ws
+  ericsson-unified-ui.service                                                                loaded active running   ericsson-unified-ui

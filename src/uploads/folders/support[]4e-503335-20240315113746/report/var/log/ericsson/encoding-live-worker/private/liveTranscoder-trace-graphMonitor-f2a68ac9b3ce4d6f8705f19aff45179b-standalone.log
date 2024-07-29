@@ -1,0 +1,40 @@
+Aug  8 00:52:24.934273 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Aug  8 00:52:55.480042 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 00:52:55.480064 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 37 samples
+Aug  8 00:59:35.270395 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Aug  8 01:04:21.666226 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 01:04:21.666280 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 22 samples
+Aug  8 23:10:42.200859 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Aug  8 23:11:12.657120 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 23:11:12.657139 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 40 samples
+Sep 14 02:31:04.821310 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Sep 14 02:31:35.282750 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 14 02:31:35.282767 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 31 samples
+Sep 14 02:39:42.168912 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Sep 14 02:40:12.615690 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 14 02:40:12.615704 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 43 samples
+Sep 25 16:35:33.758410 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Sep 25 16:36:04.238423 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 25 16:36:04.238444 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 39 samples
+Oct 25 03:27:36.108817 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Oct 25 03:32:22.143583 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Oct 25 03:32:22.143611 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 37 samples
+Nov 16 16:47:33.337946 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Nov 16 16:48:03.821356 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 16 16:48:03.821392 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 48 samples
+Nov 23 10:21:36.644120 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Nov 23 10:22:07.127828 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 23 10:22:07.127844 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 52 samples
+Nov 28 14:34:11.997159 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Nov 28 14:34:42.471314 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 28 14:34:42.471331 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 39 samples
+Dec 18 14:02:49.606947 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Dec 18 14:07:36.029011 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Dec 18 14:07:36.029033 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 19 samples
+Jan 24 13:31:45.584691 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Jan 24 13:32:16.052906 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Jan 24 13:32:16.052922 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 51 samples
+Feb 27 10:06:26.456181 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Feb 27 10:08:58.304491 CS24_TS15_Shopping and T  [standalone] Start monitoring (inputSourceId: f2a68ac9b3ce4d6f8705f19aff45179b)
+Feb 27 10:10:59.205251 CS24_TS15_Shopping and T  [standalone] Encoder f2a68ac9b3ce4d6f8705f19aff45179b.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Feb 27 10:10:59.205278 CS24_TS15_Shopping and T  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 37 samples

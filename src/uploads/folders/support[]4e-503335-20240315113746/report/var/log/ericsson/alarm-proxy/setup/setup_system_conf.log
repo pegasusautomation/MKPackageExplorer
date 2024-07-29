@@ -1,0 +1,24 @@
+*******************************************
+Configuring selinux for alarm-proxy
+semodule -i /opt/ericsson/alarm-proxy/etc/alarm-proxy-redis.pp
+*******************************************
+*******************************************
+Configuring selinux for alarm-proxy
+semodule -i /opt/ericsson/alarm-proxy/etc/alarm-proxy-redis.pp
+*******************************************
+*******************************************
+Configuring selinux for alarm-proxy
+semodule -i /opt/ericsson/alarm-proxy/etc/alarm-proxy-redis.pp
+*******************************************
+*******************************************
+Configuring selinux for alarm-proxy
+semodule -i /opt/ericsson/alarm-proxy/etc/alarm-proxy-redis.pp
+*******************************************
+*******************************************
+Configuring selinux for alarm-proxy
+semodule -i /opt/ericsson/alarm-proxy/etc/alarm-proxy-redis.pp
+*******************************************
+*******************************************
+Configuring selinux for alarm-proxy
+semodule -i /opt/ericsson/alarm-proxy/etc/alarm-proxy-redis.pp
+*******************************************

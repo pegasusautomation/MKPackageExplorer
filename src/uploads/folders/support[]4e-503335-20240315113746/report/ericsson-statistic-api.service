@@ -1,0 +1,15 @@
+#!/bin/bash
+[Unit]
+Description=ericsson-statistic-api
+After=network.target
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+ExecStart=/bin/bash -c "/opt/ericsson/statistic/bin/mfvp-stats-api --conf /opt/ericsson/statistic/etc/statistic.cfg --logging /opt/ericsson/statistic/etc/logging.json"
+ExecStop=/bin/kill -s HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

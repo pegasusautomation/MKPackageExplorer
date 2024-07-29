@@ -1,0 +1,70 @@
+Aug  8 00:52:24.906259 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:24.923913 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:24.927339 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:52:24.968254 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:52:25.498408 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 00:59:35.286488 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.302842 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.306527 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:59:35.341994 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:59:36.300883 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 23:10:40.001222 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:40.018204 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:40.021853 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 23:10:40.065428 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 23:10:40.512602 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:31:04.190421 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:04.208948 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:04.212622 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:31:04.249436 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:31:04.666536 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:39:39.373795 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:39.391316 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:39.395558 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:39:39.433285 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:39:39.863130 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Sep 25 16:35:31.708593 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:31.725604 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:31.729785 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Sep 25 16:35:31.768916 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 25 16:35:32.220398 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Oct 25 03:27:36.126403 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.143274 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.146606 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Oct 25 03:27:36.180977 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Oct 25 03:27:37.113916 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Nov 16 16:47:30.425655 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:30.446003 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:30.450492 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Nov 16 16:47:30.487644 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 16 16:47:30.934371 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Nov 23 10:21:34.359821 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:34.377406 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:34.381551 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Nov 23 10:21:34.417527 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 23 10:21:34.878927 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Nov 28 14:34:10.490228 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:34:10.507568 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:34:10.512552 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Nov 28 14:34:10.554171 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 28 14:34:11.007287 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Dec 18 14:02:49.624061 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:49.640577 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:49.644160 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Dec 18 14:02:49.680846 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 18 14:02:51.006205 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Jan 24 13:31:43.410876 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:43.428148 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:43.431953 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Jan 24 13:31:43.469178 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Jan 24 13:31:43.908055 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:06:26.473830 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.490708 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.493841 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:06:26.527347 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:06:27.828072 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:08:56.113290 CS24_TS14_gongyoung shop  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:56.130477 CS24_TS14_gongyoung shop  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:56.134690 CS24_TS14_gongyoung shop  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:08:56.175490 CS24_TS14_gongyoung shop  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:08:56.616788 CS24_TS14_gongyoung shop  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS07 on AlternateDynamicLive1 (Master__input_1)

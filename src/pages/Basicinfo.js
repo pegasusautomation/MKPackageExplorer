@@ -96,7 +96,7 @@ const extractDesiredInfo = (text) => {
             <caption style={{fontSize:'30px',marginLeft:'400px',whiteSpace:"nowrap"}}><b>Basic Information</b></caption>
           <br></br>
           {info ? (
-        <div>
+        <div style={{fontSize:'12px'}}>
           <p>{info.supportPackage}</p>
           <br></br>
           <p><strong>Local:</strong> {info.localTime.replace('Local:', '').trim()}</p>

@@ -1,0 +1,26 @@
+[Unit]
+Description=mediakind-flow
+After=network.target
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+# BEGINNING OF BZ47235
+PermissionsStartOnly=true
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/flow/public /var/log/ericsson/flow/private
+ExecStartPre=/usr/bin/chown ericsson: /var/log/ericsson/flow/public /var/log/ericsson/flow/private
+ExecStartPre=/usr/sbin/restorecon -R /var/log/ericsson/flow
+# END OF BZ47235
+Environment=PYTHONDONTWRITEBYTECODE="True"
+ExecStart=/bin/bash -c     "cd /opt/ericsson/flow/bin;source activate;./mediakind-flow --logging /opt/ericsson/flow/etc/logging.json --conf /opt/ericsson/flow/etc/flow.ini >> /var/log/ericsson/flow/private/console.log 2>&1"
+ExecStartPost=/bin/bash -c "ps aux|egrep -e './mediakind-flow'|grep -v grep|awk '{print $2}'>/var/opt/ericsson/flow/mediakind-flow.pid"
+ExecReload=/bin/bash -c    "/bin/pkill -15 -F /var/opt/ericsson/flow/mediakind-flow.pid; sleep 1"
+ExecReload=/bin/bash -c    "cd /opt/ericsson/flow/bin;source activate;./mediakind-flow --logging /opt/ericsson/flow/etc/logging.json --conf /opt/ericsson/flow/etc/flow.ini >> /var/log/ericsson/flow/private/console.log 2>&1;"
+ExecReload=/bin/bash -c    "ps aux|egrep -e './mediakind-flow'|grep -v grep|awk '{print $2}'>/var/opt/ericsson/flow/mediakind-flow.pid"
+ExecStop=/bin/bash -c      "/bin/pkill -15 -F /var/opt/ericsson/flow/mediakind-flow.pid; sleep 1"
+ExecStopPost=/bin/bash -c  "rm -f /var/opt/ericsson/flow/mediakind-flow.pid"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

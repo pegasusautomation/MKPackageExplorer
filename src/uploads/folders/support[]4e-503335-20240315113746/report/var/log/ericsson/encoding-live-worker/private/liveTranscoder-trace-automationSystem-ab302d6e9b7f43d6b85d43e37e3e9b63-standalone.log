@@ -1,0 +1,75 @@
+Aug  8 00:52:25.211239 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:25.229426 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:25.233392 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:52:25.271973 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:52:27.223699 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 00:59:35.683200 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.698904 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.702445 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:59:35.735611 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:59:36.676084 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 05:10:47.380942 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 05:10:47.400207 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 05:10:47.404829 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 05:10:47.455610 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 05:10:47.945821 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 23:10:30.817778 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:30.834008 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:30.838029 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 23:10:30.873838 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 23:10:31.292887 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:31:02.711189 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:02.729852 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:02.733524 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:31:02.772307 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:31:03.206776 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:39:27.895108 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:27.914426 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:27.918529 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:39:27.957954 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:39:28.406278 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Sep 25 16:35:23.292037 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:23.308705 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:23.312206 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Sep 25 16:35:23.349093 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 25 16:35:23.759565 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Oct 25 03:27:36.126600 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.143712 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.146951 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Oct 25 03:27:36.181159 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Oct 25 03:27:37.182520 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Nov 16 16:47:18.482003 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:18.498525 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:18.502086 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Nov 16 16:47:18.539324 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 16 16:47:18.951983 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Nov 23 10:21:25.794901 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:25.811498 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:25.815053 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Nov 23 10:21:25.851982 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 23 10:21:26.281661 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Nov 28 14:34:03.664193 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:34:03.680882 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:34:03.684953 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Nov 28 14:34:03.721911 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 28 14:34:04.142037 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Dec 18 14:02:50.290997 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:50.306911 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:50.310565 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Dec 18 14:02:50.344118 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 18 14:02:51.154746 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Jan 24 13:31:38.048098 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:38.066173 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:38.069819 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Jan 24 13:31:38.106171 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Jan 24 13:31:38.529661 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:06:26.473656 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.490160 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.493725 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:06:26.527669 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:06:27.928649 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:08:37.472406 CS14_TS15_MBC_Andong  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:37.488662 CS14_TS15_MBC_Andong  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:37.492544 CS14_TS15_MBC_Andong  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:08:37.528076 CS14_TS15_MBC_Andong  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:08:37.935721 CS14_TS15_MBC_Andong  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS15 on AlternateDynamicLive1 (Master__input_1)

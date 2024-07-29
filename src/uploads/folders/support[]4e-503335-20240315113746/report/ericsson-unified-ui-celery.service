@@ -1,0 +1,23 @@
+[Unit]
+Description=ericsson-unified-ui-celery
+After=network.target
+
+[Service]
+Type=simple
+User=ericsson
+Group=ericsson
+EnvironmentFile=-/opt/ericsson/unified-ui/etc/celery.conf
+Restart=always
+# BEGINNING OF BZ47235
+PermissionsStartOnly=true
+ExecStartPre=/usr/bin/mkdir -p /var/log/ericsson/unified-ui/private
+ExecStartPre=/usr/bin/chown ericsson: /var/log/ericsson/unified-ui/private
+# END OF BZ47235
+Environment=PYTHONDONTWRITEBYTECODE="True"
+ExecStart=/bin/sh -c '${CELERY_BIN} -A ${CELERY_APP} worker --logfile=${CELERYD_LOG_FILE} --loglevel=${CELERYD_LOG_LEVEL} ${CELERYD_OPTS}'
+
+KillSignal=SIGTERM
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

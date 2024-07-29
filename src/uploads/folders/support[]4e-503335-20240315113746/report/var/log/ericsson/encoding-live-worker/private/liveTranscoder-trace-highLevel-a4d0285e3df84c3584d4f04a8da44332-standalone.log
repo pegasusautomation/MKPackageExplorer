@@ -1,0 +1,970 @@
+Aug  8 00:52:24.723784 noServiceName  **********************************************************
+Aug  8 00:52:24.723798 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Aug  8 00:52:24.723804 noServiceName  [GENERAL] Log system is syslog
+Aug  8 00:52:24.723982 noServiceName  [GENERAL] The process is starting
+Aug  8 00:52:25.218224 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9114
+Aug  8 00:52:25.218315 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Aug  8 00:52:25.222593 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:52:25.229234 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:52:25.644676 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 00:52:25.644692 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:52:25.644700 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:52:25.644706 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 00:52:25.644744 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Aug  8 00:52:25.644865 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Aug  8 00:52:25.644876 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:52:25.644885 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:52:25.644894 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Aug  8 00:52:25.644930 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Aug  8 00:52:25.646194 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Aug  8 00:52:25.646294 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Aug  8 00:52:25.648014 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Aug  8 00:52:25.770777 BS18_TS06_shinhome  [GENERAL] License status=started
+Aug  8 00:52:27.267707 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:52:28.024192 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Aug  8 00:52:28.024583 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Aug  8 00:52:28.024616 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Aug  8 00:52:28.024639 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 00:52:28.024646 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Aug  8 00:52:28.024652 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Aug  8 00:52:28.024660 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:52:28.024697 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Aug  8 00:52:28.024710 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:52:28.024720 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Aug  8 00:52:28.024727 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 00:52:28.024744 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Aug  8 00:52:28.024906 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Aug  8 00:59:35.246092 noServiceName  **********************************************************
+Aug  8 00:59:35.246105 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Aug  8 00:59:35.246111 noServiceName  [GENERAL] Log system is syslog
+Aug  8 00:59:35.246274 noServiceName  [GENERAL] The process is starting
+Aug  8 00:59:35.696030 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9112
+Aug  8 00:59:35.696089 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Aug  8 00:59:35.699321 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:59:35.705303 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:59:36.075548 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 00:59:36.075561 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:59:36.075569 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:59:36.075575 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 00:59:36.075615 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Aug  8 00:59:36.075707 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Aug  8 00:59:36.075722 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:59:36.075729 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:59:36.075735 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Aug  8 00:59:36.075761 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Aug  8 00:59:36.078789 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Aug  8 00:59:36.078856 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Aug  8 00:59:36.080475 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Aug  8 00:59:36.186823 BS18_TS06_shinhome  [GENERAL] License status=started
+Aug  8 00:59:36.580193 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 00:59:37.329022 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Aug  8 00:59:37.329347 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Aug  8 00:59:37.329368 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Aug  8 00:59:37.329390 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 00:59:37.329397 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Aug  8 00:59:37.329403 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Aug  8 00:59:37.329411 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 00:59:37.329441 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Aug  8 00:59:37.329453 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 00:59:37.329462 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Aug  8 00:59:37.329469 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 00:59:37.329485 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Aug  8 00:59:37.329582 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Aug  8 05:10:43.356458 BS18_TS06_shinhome  [GENERAL] The process is ending
+Aug  8 05:10:43.566248 noServiceName  **********************************************************
+Aug  8 05:10:43.566263 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Aug  8 05:10:43.566269 noServiceName  [GENERAL] Log system is syslog
+Aug  8 05:10:43.566471 noServiceName  [GENERAL] The process is starting
+Aug  8 05:10:44.201596 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9112
+Aug  8 05:10:44.201706 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Aug  8 05:10:44.207214 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 05:10:44.218224 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 05:10:44.719787 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 05:10:44.719820 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 05:10:44.719834 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 05:10:44.719844 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 05:10:44.719909 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Aug  8 05:10:44.720063 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Aug  8 05:10:44.720076 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 05:10:44.720087 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 05:10:44.720098 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Aug  8 05:10:44.720142 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Aug  8 05:10:44.722412 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Aug  8 05:10:44.722603 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Aug  8 05:10:44.726963 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Aug  8 05:10:44.815085 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 05:10:44.939537 BS18_TS06_shinhome  [GENERAL] License status=started
+Aug  8 05:10:45.270125 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Aug  8 05:10:45.270626 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Aug  8 05:10:45.270655 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Aug  8 05:10:45.270679 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 05:10:45.270686 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Aug  8 05:10:45.270693 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Aug  8 05:10:45.270701 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 05:10:45.270756 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Aug  8 05:10:45.270771 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 05:10:45.270781 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Aug  8 05:10:45.270788 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 05:10:45.270807 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Aug  8 05:10:45.270937 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Aug  8 23:10:10.131518 BS18_TS06_shinhome  [GENERAL] The process is ending
+Aug  8 23:10:26.421437 noServiceName  **********************************************************
+Aug  8 23:10:26.421451 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Aug  8 23:10:26.421457 noServiceName  [GENERAL] Log system is syslog
+Aug  8 23:10:26.421632 noServiceName  [GENERAL] The process is starting
+Aug  8 23:10:26.871071 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9105
+Aug  8 23:10:26.871135 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Aug  8 23:10:26.874688 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 23:10:26.881175 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 23:10:27.260547 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 23:10:27.260559 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 23:10:27.260567 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 23:10:27.260573 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 23:10:27.260614 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Aug  8 23:10:27.260707 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Aug  8 23:10:27.260725 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 23:10:27.260732 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 23:10:27.260738 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Aug  8 23:10:27.260763 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Aug  8 23:10:27.262074 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Aug  8 23:10:27.262190 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Aug  8 23:10:27.265144 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Aug  8 23:10:27.318032 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Aug  8 23:10:27.393578 BS18_TS06_shinhome  [GENERAL] License status=started
+Aug  8 23:10:28.151781 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Aug  8 23:10:28.152246 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Aug  8 23:10:28.152273 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Aug  8 23:10:28.152296 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Aug  8 23:10:28.152303 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Aug  8 23:10:28.152309 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Aug  8 23:10:28.152317 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Aug  8 23:10:28.152362 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Aug  8 23:10:28.152377 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Aug  8 23:10:28.152386 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Aug  8 23:10:28.152393 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Aug  8 23:10:28.152412 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Aug  8 23:10:28.152555 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Sep 14 02:31:01.882507 BS18_TS06_shinhome  [GENERAL] The process is ending
+Sep 14 02:31:01.989382 noServiceName  **********************************************************
+Sep 14 02:31:01.989396 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Sep 14 02:31:01.989401 noServiceName  [GENERAL] Log system is syslog
+Sep 14 02:31:01.989603 noServiceName  [GENERAL] The process is starting
+Sep 14 02:31:02.545524 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9105
+Sep 14 02:31:02.545594 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Sep 14 02:31:02.550824 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:31:02.558302 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:31:03.006570 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Sep 14 02:31:03.006584 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:31:03.006592 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:31:03.006598 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 14 02:31:03.006643 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Sep 14 02:31:03.006786 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Sep 14 02:31:03.006796 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:31:03.006803 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:31:03.006809 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Sep 14 02:31:03.006835 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Sep 14 02:31:03.008341 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Sep 14 02:31:03.008479 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Sep 14 02:31:03.010632 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Sep 14 02:31:03.072883 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:31:03.166917 BS18_TS06_shinhome  [GENERAL] License status=started
+Sep 14 02:31:03.343013 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Sep 14 02:31:03.343479 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Sep 14 02:31:03.343507 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Sep 14 02:31:03.343528 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Sep 14 02:31:03.343536 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Sep 14 02:31:03.343543 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Sep 14 02:31:03.343550 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:31:03.343595 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Sep 14 02:31:03.343610 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:31:03.343620 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Sep 14 02:31:03.343627 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 14 02:31:03.343645 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Sep 14 02:31:03.343809 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Sep 14 02:38:57.827261 BS18_TS06_shinhome  [GENERAL] The process is ending
+Sep 14 02:39:21.602858 noServiceName  **********************************************************
+Sep 14 02:39:21.602871 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Sep 14 02:39:21.602877 noServiceName  [GENERAL] Log system is syslog
+Sep 14 02:39:21.603039 noServiceName  [GENERAL] The process is starting
+Sep 14 02:39:22.031441 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9105
+Sep 14 02:39:22.031502 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Sep 14 02:39:22.034992 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:39:22.041016 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:39:22.412507 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Sep 14 02:39:22.412519 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:39:22.412526 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:39:22.412533 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 14 02:39:22.412571 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Sep 14 02:39:22.412662 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Sep 14 02:39:22.412669 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:39:22.412676 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:39:22.412682 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Sep 14 02:39:22.412707 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Sep 14 02:39:22.413908 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Sep 14 02:39:22.414025 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Sep 14 02:39:22.415680 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Sep 14 02:39:22.472538 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 14 02:39:22.540632 BS18_TS06_shinhome  [GENERAL] License status=started
+Sep 14 02:39:23.150993 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Sep 14 02:39:23.151482 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Sep 14 02:39:23.151510 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Sep 14 02:39:23.151534 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Sep 14 02:39:23.151541 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Sep 14 02:39:23.151548 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Sep 14 02:39:23.151556 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 14 02:39:23.151604 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Sep 14 02:39:23.151620 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 14 02:39:23.151630 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Sep 14 02:39:23.151637 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 14 02:39:23.151655 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Sep 14 02:39:23.151825 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Sep 25 16:34:25.146024 BS18_TS06_shinhome  [GENERAL] The process is ending
+Sep 25 16:35:18.541337 noServiceName  **********************************************************
+Sep 25 16:35:18.541354 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Sep 25 16:35:18.541362 noServiceName  [GENERAL] Log system is syslog
+Sep 25 16:35:18.541550 noServiceName  [GENERAL] The process is starting
+Sep 25 16:35:18.988537 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9105
+Sep 25 16:35:18.988601 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Sep 25 16:35:18.992176 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 25 16:35:18.998407 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Sep 25 16:35:19.373400 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Sep 25 16:35:19.373412 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 25 16:35:19.373420 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 25 16:35:19.373426 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 25 16:35:19.373468 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Sep 25 16:35:19.373563 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Sep 25 16:35:19.373576 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 25 16:35:19.373582 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 25 16:35:19.373588 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Sep 25 16:35:19.373613 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Sep 25 16:35:19.374925 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Sep 25 16:35:19.375049 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Sep 25 16:35:19.376744 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Sep 25 16:35:19.432493 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Sep 25 16:35:19.508130 BS18_TS06_shinhome  [GENERAL] License status=started
+Sep 25 16:35:20.262347 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Sep 25 16:35:20.262826 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Sep 25 16:35:20.262854 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Sep 25 16:35:20.262878 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Sep 25 16:35:20.262886 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Sep 25 16:35:20.262893 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Sep 25 16:35:20.262901 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Sep 25 16:35:20.262947 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Sep 25 16:35:20.262962 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Sep 25 16:35:20.262972 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Sep 25 16:35:20.262980 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Sep 25 16:35:20.262999 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Sep 25 16:35:20.263168 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Oct 25 03:27:34.060680 noServiceName  **********************************************************
+Oct 25 03:27:34.060693 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Oct 25 03:27:34.060698 noServiceName  [GENERAL] Log system is syslog
+Oct 25 03:27:34.060868 noServiceName  [GENERAL] The process is starting
+Oct 25 03:27:36.108863 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9114
+Oct 25 03:27:36.108943 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Oct 25 03:27:36.117104 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Oct 25 03:27:36.124861 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Oct 25 03:27:36.617857 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Oct 25 03:27:36.617871 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Oct 25 03:27:36.617878 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Oct 25 03:27:36.617884 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Oct 25 03:27:36.617925 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Oct 25 03:27:36.618027 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Oct 25 03:27:36.618040 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Oct 25 03:27:36.618048 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Oct 25 03:27:36.618054 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Oct 25 03:27:36.618079 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Oct 25 03:27:36.621112 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Oct 25 03:27:36.621176 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Oct 25 03:27:36.622524 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Oct 25 03:27:36.788916 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Oct 25 03:27:36.969112 BS18_TS06_shinhome  [GENERAL] License status=started
+Oct 25 03:27:37.555170 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Oct 25 03:27:37.555553 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Oct 25 03:27:37.555575 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Oct 25 03:27:37.555596 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Oct 25 03:27:37.555603 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Oct 25 03:27:37.555610 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Oct 25 03:27:37.555618 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Oct 25 03:27:37.555647 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Oct 25 03:27:37.555659 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Oct 25 03:27:37.555669 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Oct 25 03:27:37.555675 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Oct 25 03:27:37.555691 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Oct 25 03:27:37.555813 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Nov 16 16:46:47.056445 BS18_TS06_shinhome  [GENERAL] The process is ending
+Nov 16 16:47:12.705357 noServiceName  **********************************************************
+Nov 16 16:47:12.705370 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Nov 16 16:47:12.705376 noServiceName  [GENERAL] Log system is syslog
+Nov 16 16:47:12.705539 noServiceName  [GENERAL] The process is starting
+Nov 16 16:47:13.199090 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9105
+Nov 16 16:47:13.199151 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Nov 16 16:47:13.202409 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 16 16:47:13.208421 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Nov 16 16:47:13.597472 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Nov 16 16:47:13.597485 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 16 16:47:13.597493 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 16 16:47:13.597499 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 16 16:47:13.597540 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Nov 16 16:47:13.597640 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Nov 16 16:47:13.597647 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 16 16:47:13.597654 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 16 16:47:13.597659 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Nov 16 16:47:13.597684 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Nov 16 16:47:13.598984 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Nov 16 16:47:13.599119 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Nov 16 16:47:13.601205 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Nov 16 16:47:13.655588 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 16 16:47:13.722230 BS18_TS06_shinhome  [GENERAL] License status=started
+Nov 16 16:47:14.407238 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Nov 16 16:47:14.407692 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Nov 16 16:47:14.407718 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Nov 16 16:47:14.407741 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Nov 16 16:47:14.407748 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Nov 16 16:47:14.407755 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Nov 16 16:47:14.407762 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 16 16:47:14.407805 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Nov 16 16:47:14.407819 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 16 16:47:14.407829 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Nov 16 16:47:14.407836 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 16 16:47:14.407854 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Nov 16 16:47:14.407984 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Nov 23 10:21:07.338383 BS18_TS06_shinhome  [GENERAL] The process is ending
+Nov 23 10:21:22.584309 noServiceName  **********************************************************
+Nov 23 10:21:22.584322 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Nov 23 10:21:22.584328 noServiceName  [GENERAL] Log system is syslog
+Nov 23 10:21:22.584495 noServiceName  [GENERAL] The process is starting
+Nov 23 10:21:23.011574 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9105
+Nov 23 10:21:23.011637 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Nov 23 10:21:23.014910 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 23 10:21:23.020859 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Nov 23 10:21:23.388551 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Nov 23 10:21:23.388563 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 23 10:21:23.388571 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 23 10:21:23.388577 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 23 10:21:23.388615 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Nov 23 10:21:23.388705 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Nov 23 10:21:23.388714 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 23 10:21:23.388721 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 23 10:21:23.388727 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Nov 23 10:21:23.388751 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Nov 23 10:21:23.390005 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Nov 23 10:21:23.390121 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Nov 23 10:21:23.391707 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Nov 23 10:21:23.449935 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 23 10:21:23.520807 BS18_TS06_shinhome  [GENERAL] License status=started
+Nov 23 10:21:24.632935 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Nov 23 10:21:24.633386 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Nov 23 10:21:24.633411 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Nov 23 10:21:24.633435 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Nov 23 10:21:24.633442 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Nov 23 10:21:24.633455 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Nov 23 10:21:24.633462 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 23 10:21:24.633504 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Nov 23 10:21:24.633517 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 23 10:21:24.633526 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Nov 23 10:21:24.633533 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 23 10:21:24.633551 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Nov 23 10:21:24.633698 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Nov 28 14:33:32.507615 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:33:32.688055 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Nov 28 14:33:32.688219 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Nov 28 14:33:32.688235 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Nov 28 14:33:32.688255 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Nov 28 14:33:32.688262 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 2, type:VIDEO, PID 0xb20
+Nov 28 14:33:32.688268 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 3, type:AUDIO, PID 0xb22
+Nov 28 14:33:32.688275 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:33:32.688290 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 2, type:VIDEO, PID 0xb20
+Nov 28 14:33:32.688298 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:33:32.688307 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 3, type:AUDIO, PID 0xb22
+Nov 28 14:33:32.688313 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 28 14:33:32.688326 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Nov 28 14:33:32.688378 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Nov 28 14:33:45.671210 BS18_TS06_shinhome  [GENERAL] The process is ending
+Nov 28 14:33:59.889986 noServiceName  **********************************************************
+Nov 28 14:33:59.890001 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Nov 28 14:33:59.890006 noServiceName  [GENERAL] Log system is syslog
+Nov 28 14:33:59.890184 noServiceName  [GENERAL] The process is starting
+Nov 28 14:34:00.324733 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9105
+Nov 28 14:34:00.324797 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Nov 28 14:34:00.328361 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:34:00.334599 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:34:00.701689 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Nov 28 14:34:00.701701 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:34:00.701709 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:34:00.701715 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 28 14:34:00.701756 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Nov 28 14:34:00.701852 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Nov 28 14:34:00.701875 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:34:00.701885 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:34:00.701891 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Nov 28 14:34:00.701917 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Nov 28 14:34:00.703326 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Nov 28 14:34:00.703454 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Nov 28 14:34:00.705084 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Nov 28 14:34:00.759664 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 28 14:34:00.834659 BS18_TS06_shinhome  [GENERAL] License status=started
+Nov 28 14:34:01.487252 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Nov 28 14:34:01.487880 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Nov 28 14:34:01.487914 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Nov 28 14:34:01.487959 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Nov 28 14:34:01.487969 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Nov 28 14:34:01.487977 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Nov 28 14:34:01.487988 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 28 14:34:01.488043 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Nov 28 14:34:01.488063 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 28 14:34:01.488076 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Nov 28 14:34:01.488085 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 28 14:34:01.488110 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Nov 28 14:34:01.488303 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Nov 29 10:39:28.037247 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 29 10:39:28.258200 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Nov 29 10:39:28.258363 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Nov 29 10:39:28.258380 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Nov 29 10:39:28.258400 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Nov 29 10:39:28.258407 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 2, type:VIDEO, PID 0xb20
+Nov 29 10:39:28.258413 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 3, type:AUDIO, PID 0xb22
+Nov 29 10:39:28.258421 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 29 10:39:28.258437 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 2, type:VIDEO, PID 0xb20
+Nov 29 10:39:28.258446 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 29 10:39:28.258455 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 3, type:AUDIO, PID 0xb22
+Nov 29 10:39:28.258462 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 29 10:39:28.258476 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Nov 29 10:39:28.258529 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Nov 29 10:39:46.632775 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Nov 29 10:39:46.862355 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Nov 29 10:39:46.862539 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Nov 29 10:39:46.862564 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Nov 29 10:39:46.862595 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Nov 29 10:39:46.862606 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 4, type:VIDEO, PID 0xb20
+Nov 29 10:39:46.862616 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 5, type:AUDIO, PID 0xb22
+Nov 29 10:39:46.862627 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Nov 29 10:39:46.862653 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 4, type:VIDEO, PID 0xb20
+Nov 29 10:39:46.862666 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Nov 29 10:39:46.862681 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 5, type:AUDIO, PID 0xb22
+Nov 29 10:39:46.862692 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Nov 29 10:39:46.862713 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Nov 29 10:39:46.862790 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 13 10:45:56.323767 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 13 10:45:56.343811 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 13 10:45:56.344053 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 13 10:45:56.344083 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 13 10:45:56.344119 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 13 10:45:56.344132 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 6, type:VIDEO, PID 0xb20
+Dec 13 10:45:56.344144 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 7, type:AUDIO, PID 0xb22
+Dec 13 10:45:56.344158 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 10:45:56.344188 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 6, type:VIDEO, PID 0xb20
+Dec 13 10:45:56.344203 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 10:45:56.344221 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 7, type:AUDIO, PID 0xb22
+Dec 13 10:45:56.344234 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 13 10:45:56.344261 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 13 10:45:56.344355 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 13 10:47:29.837007 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 13 10:47:29.939370 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 13 10:47:29.939569 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 13 10:47:29.939593 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 13 10:47:29.939623 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 13 10:47:29.939634 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 8, type:VIDEO, PID 0xb20
+Dec 13 10:47:29.939643 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 9, type:AUDIO, PID 0xb22
+Dec 13 10:47:29.939655 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 10:47:29.939683 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 8, type:VIDEO, PID 0xb20
+Dec 13 10:47:29.939713 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 10:47:29.939740 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 9, type:AUDIO, PID 0xb22
+Dec 13 10:47:29.939756 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 13 10:47:29.939778 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 13 10:47:29.939870 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 13 16:44:49.111233 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 13 16:44:49.341250 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 13 16:44:49.341404 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 13 16:44:49.341422 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 13 16:44:49.341445 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 13 16:44:49.341453 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 10, type:VIDEO, PID 0xb20
+Dec 13 16:44:49.341460 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 11, type:AUDIO, PID 0xb22
+Dec 13 16:44:49.341468 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 16:44:49.341487 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 10, type:VIDEO, PID 0xb20
+Dec 13 16:44:49.341497 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 16:44:49.341507 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 11, type:AUDIO, PID 0xb22
+Dec 13 16:44:49.341518 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 13 16:44:49.341542 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 13 16:44:49.341675 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 13 16:47:08.210577 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 13 16:47:08.239701 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 13 16:47:08.239911 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 13 16:47:08.239969 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 13 16:47:08.239994 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 13 16:47:08.240002 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 12, type:VIDEO, PID 0xb20
+Dec 13 16:47:08.240009 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 13, type:AUDIO, PID 0xb22
+Dec 13 16:47:08.240017 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 16:47:08.240035 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 12, type:VIDEO, PID 0xb20
+Dec 13 16:47:08.240045 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 16:47:08.240055 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 13, type:AUDIO, PID 0xb22
+Dec 13 16:47:08.240063 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 13 16:47:08.240078 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 13 16:47:08.240134 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 13 16:48:53.466373 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 13 16:48:53.543041 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 13 16:48:53.543174 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 13 16:48:53.543190 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 13 16:48:53.543211 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 13 16:48:53.543218 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 14, type:VIDEO, PID 0xb20
+Dec 13 16:48:53.543225 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 15, type:AUDIO, PID 0xb22
+Dec 13 16:48:53.543232 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 13 16:48:53.543249 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 14, type:VIDEO, PID 0xb20
+Dec 13 16:48:53.543257 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 13 16:48:53.543267 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 15, type:AUDIO, PID 0xb22
+Dec 13 16:48:53.543273 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 13 16:48:53.543288 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 13 16:48:53.543338 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 18 14:02:50.768394 noServiceName  **********************************************************
+Dec 18 14:02:50.768407 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Dec 18 14:02:50.768412 noServiceName  [GENERAL] Log system is syslog
+Dec 18 14:02:50.768594 noServiceName  [GENERAL] The process is starting
+Dec 18 14:02:51.220525 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9114
+Dec 18 14:02:51.220591 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Dec 18 14:02:51.223969 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 18 14:02:51.230019 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Dec 18 14:02:51.598032 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 18 14:02:51.598044 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 18 14:02:51.598051 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 18 14:02:51.598057 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 18 14:02:51.598095 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Dec 18 14:02:51.598189 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Dec 18 14:02:51.598196 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 18 14:02:51.598203 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 18 14:02:51.598209 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Dec 18 14:02:51.598234 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Dec 18 14:02:51.599404 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Dec 18 14:02:51.599527 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Dec 18 14:02:51.601024 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Dec 18 14:02:51.680190 BS18_TS06_shinhome  [GENERAL] License status=started
+Dec 18 14:02:52.109401 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 18 14:02:52.360769 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 18 14:02:52.361178 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 18 14:02:52.361203 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 18 14:02:52.361226 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 18 14:02:52.361234 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Dec 18 14:02:52.361254 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Dec 18 14:02:52.361262 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 18 14:02:52.361305 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Dec 18 14:02:52.361319 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 18 14:02:52.361329 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Dec 18 14:02:52.361336 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 18 14:02:52.361354 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Dec 18 14:02:52.361521 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Dec 19 13:18:04.691228 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 19 13:18:04.833119 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 19 13:18:04.833310 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 19 13:18:04.833326 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 19 13:18:04.833345 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 19 13:18:04.833352 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 2, type:VIDEO, PID 0xb20
+Dec 19 13:18:04.833358 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 3, type:AUDIO, PID 0xb22
+Dec 19 13:18:04.833365 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 13:18:04.833386 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 2, type:VIDEO, PID 0xb20
+Dec 19 13:18:04.833402 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 13:18:04.833423 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 3, type:AUDIO, PID 0xb22
+Dec 19 13:18:04.833431 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 19 13:18:04.833446 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 19 13:18:04.833499 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 19 13:29:55.990303 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 19 13:29:56.139730 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 19 13:29:56.139952 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 19 13:29:56.139980 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 19 13:29:56.140023 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 19 13:29:56.140035 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 4, type:VIDEO, PID 0xb20
+Dec 19 13:29:56.140047 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 5, type:AUDIO, PID 0xb22
+Dec 19 13:29:56.140060 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 13:29:56.140087 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 4, type:VIDEO, PID 0xb20
+Dec 19 13:29:56.140102 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 13:29:56.140117 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 5, type:AUDIO, PID 0xb22
+Dec 19 13:29:56.140129 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 19 13:29:56.140154 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 19 13:29:56.140263 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 19 13:30:25.503341 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 19 13:30:25.547115 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 19 13:30:25.547285 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 19 13:30:25.547304 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 19 13:30:25.547335 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 19 13:30:25.547346 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 6, type:VIDEO, PID 0xb20
+Dec 19 13:30:25.547357 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 7, type:AUDIO, PID 0xb22
+Dec 19 13:30:25.547370 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 13:30:25.547394 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 6, type:VIDEO, PID 0xb20
+Dec 19 13:30:25.547407 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 13:30:25.547418 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 7, type:AUDIO, PID 0xb22
+Dec 19 13:30:25.547428 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 19 13:30:25.547452 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 19 13:30:25.547582 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 19 14:29:23.327583 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 19 14:29:23.477588 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 19 14:29:23.477762 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 19 14:29:23.477780 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 19 14:29:23.477803 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 19 14:29:23.477811 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 8, type:VIDEO, PID 0xb20
+Dec 19 14:29:23.477819 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 9, type:AUDIO, PID 0xb22
+Dec 19 14:29:23.477827 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 19 14:29:23.477845 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 8, type:VIDEO, PID 0xb20
+Dec 19 14:29:23.477854 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 19 14:29:23.477865 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 9, type:AUDIO, PID 0xb22
+Dec 19 14:29:23.477872 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 19 14:29:23.477887 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 19 14:29:23.477942 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 20 14:37:58.402944 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 20 14:37:58.480019 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 20 14:37:58.480159 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 20 14:37:58.480176 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 20 14:37:58.480197 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 20 14:37:58.480204 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 10, type:VIDEO, PID 0xb20
+Dec 20 14:37:58.480211 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 11, type:AUDIO, PID 0xb22
+Dec 20 14:37:58.480219 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 20 14:37:58.480237 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 10, type:VIDEO, PID 0xb20
+Dec 20 14:37:58.480246 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 20 14:37:58.480256 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 11, type:AUDIO, PID 0xb22
+Dec 20 14:37:58.480262 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 20 14:37:58.480277 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 20 14:37:58.480330 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 28 09:49:09.463853 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 28 09:49:09.539826 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 28 09:49:09.539986 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 28 09:49:09.540005 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 28 09:49:09.540042 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 28 09:49:09.540051 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 12, type:VIDEO, PID 0xb20
+Dec 28 09:49:09.540059 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 13, type:AUDIO, PID 0xb22
+Dec 28 09:49:09.540067 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 28 09:49:09.540087 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 12, type:VIDEO, PID 0xb20
+Dec 28 09:49:09.540097 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 28 09:49:09.540108 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 13, type:AUDIO, PID 0xb22
+Dec 28 09:49:09.540117 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 28 09:49:09.540133 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 28 09:49:09.540193 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 28 14:40:08.978511 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 28 14:40:09.102975 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 28 14:40:09.103181 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 28 14:40:09.103204 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 28 14:40:09.103232 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 28 14:40:09.103242 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 14, type:VIDEO, PID 0xb20
+Dec 28 14:40:09.103255 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 15, type:AUDIO, PID 0xb22
+Dec 28 14:40:09.103265 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 28 14:40:09.103288 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 14, type:VIDEO, PID 0xb20
+Dec 28 14:40:09.103300 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 28 14:40:09.103313 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 15, type:AUDIO, PID 0xb22
+Dec 28 14:40:09.103322 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 28 14:40:09.103342 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 28 14:40:09.103413 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 28 14:59:15.184627 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 28 14:59:15.414331 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 28 14:59:15.414529 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 28 14:59:15.414546 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 28 14:59:15.414568 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 28 14:59:15.414575 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 16, type:VIDEO, PID 0xb20
+Dec 28 14:59:15.414581 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 17, type:AUDIO, PID 0xb22
+Dec 28 14:59:15.414589 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 28 14:59:15.414606 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 16, type:VIDEO, PID 0xb20
+Dec 28 14:59:15.414615 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 28 14:59:15.414624 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 17, type:AUDIO, PID 0xb22
+Dec 28 14:59:15.414631 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 28 14:59:15.414645 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 28 14:59:15.414700 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 29 10:37:02.388752 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 29 10:37:02.570537 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 29 10:37:02.570682 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 29 10:37:02.570699 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 29 10:37:02.570721 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 29 10:37:02.570728 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 18, type:VIDEO, PID 0xb20
+Dec 29 10:37:02.570735 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 19, type:AUDIO, PID 0xb22
+Dec 29 10:37:02.570743 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 29 10:37:02.570763 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 18, type:VIDEO, PID 0xb20
+Dec 29 10:37:02.570772 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 29 10:37:02.570781 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 19, type:AUDIO, PID 0xb22
+Dec 29 10:37:02.570789 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 29 10:37:02.570803 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 29 10:37:02.570857 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 29 13:40:39.224252 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 29 13:40:39.269416 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 29 13:40:39.269557 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 29 13:40:39.269573 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 29 13:40:39.269594 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 29 13:40:39.269601 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 20, type:VIDEO, PID 0xb20
+Dec 29 13:40:39.269608 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 21, type:AUDIO, PID 0xb22
+Dec 29 13:40:39.269615 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 29 13:40:39.269629 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 20, type:VIDEO, PID 0xb20
+Dec 29 13:40:39.269638 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 29 13:40:39.269647 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 21, type:AUDIO, PID 0xb22
+Dec 29 13:40:39.269654 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 29 13:40:39.269668 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 29 13:40:39.269716 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Dec 29 13:41:58.583717 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Dec 29 13:41:58.773543 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Dec 29 13:41:58.773676 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Dec 29 13:41:58.773692 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Dec 29 13:41:58.773712 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Dec 29 13:41:58.773720 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 22, type:VIDEO, PID 0xb20
+Dec 29 13:41:58.773726 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 23, type:AUDIO, PID 0xb22
+Dec 29 13:41:58.773734 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Dec 29 13:41:58.773751 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 22, type:VIDEO, PID 0xb20
+Dec 29 13:41:58.773759 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Dec 29 13:41:58.773769 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 23, type:AUDIO, PID 0xb22
+Dec 29 13:41:58.773775 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Dec 29 13:41:58.773789 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Dec 29 13:41:58.773871 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Jan 24 13:28:58.842802 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:28:59.056732 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Jan 24 13:28:59.056989 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Jan 24 13:28:59.057018 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Jan 24 13:28:59.057051 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Jan 24 13:28:59.057062 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 24, type:VIDEO, PID 0xb20
+Jan 24 13:28:59.057071 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 25, type:AUDIO, PID 0xb22
+Jan 24 13:28:59.057082 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:28:59.057108 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 24, type:VIDEO, PID 0xb20
+Jan 24 13:28:59.057121 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:28:59.057136 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 25, type:AUDIO, PID 0xb22
+Jan 24 13:28:59.057146 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Jan 24 13:28:59.057167 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Jan 24 13:28:59.057266 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Jan 24 13:29:24.404794 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:29:24.554489 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Jan 24 13:29:24.554626 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Jan 24 13:29:24.554642 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Jan 24 13:29:24.554663 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Jan 24 13:29:24.554670 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 26, type:VIDEO, PID 0xb20
+Jan 24 13:29:24.554676 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 27, type:AUDIO, PID 0xb22
+Jan 24 13:29:24.554684 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:29:24.554700 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 26, type:VIDEO, PID 0xb20
+Jan 24 13:29:24.554708 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:29:24.554718 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 27, type:AUDIO, PID 0xb22
+Jan 24 13:29:24.554724 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Jan 24 13:29:24.554738 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Jan 24 13:29:24.554787 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Jan 24 13:29:42.692710 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:29:42.859026 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Jan 24 13:29:42.859234 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Jan 24 13:29:42.859259 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Jan 24 13:29:42.859291 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Jan 24 13:29:42.859302 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 28, type:VIDEO, PID 0xb20
+Jan 24 13:29:42.859313 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 29, type:AUDIO, PID 0xb22
+Jan 24 13:29:42.859323 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:29:42.859346 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 28, type:VIDEO, PID 0xb20
+Jan 24 13:29:42.859358 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:29:42.859371 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 29, type:AUDIO, PID 0xb22
+Jan 24 13:29:42.859381 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Jan 24 13:29:42.859401 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Jan 24 13:29:42.859455 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Jan 24 13:31:16.285005 BS18_TS06_shinhome  [GENERAL] The process is ending
+Jan 24 13:31:34.310776 noServiceName  **********************************************************
+Jan 24 13:31:34.310796 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Jan 24 13:31:34.310804 noServiceName  [GENERAL] Log system is syslog
+Jan 24 13:31:34.311054 noServiceName  [GENERAL] The process is starting
+Jan 24 13:31:34.753857 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9105
+Jan 24 13:31:34.753922 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Jan 24 13:31:34.757640 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:31:34.764003 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:31:35.133983 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Jan 24 13:31:35.133996 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:31:35.134004 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:31:35.134010 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Jan 24 13:31:35.134057 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Jan 24 13:31:35.134164 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Jan 24 13:31:35.134176 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:31:35.134195 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:31:35.134201 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Jan 24 13:31:35.134226 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Jan 24 13:31:35.135616 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Jan 24 13:31:35.135742 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Jan 24 13:31:35.137883 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Jan 24 13:31:35.193834 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Jan 24 13:31:35.263836 BS18_TS06_shinhome  [GENERAL] License status=started
+Jan 24 13:31:35.358791 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Jan 24 13:31:35.359234 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Jan 24 13:31:35.359258 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Jan 24 13:31:35.359281 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Jan 24 13:31:35.359288 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Jan 24 13:31:35.359295 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Jan 24 13:31:35.359302 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Jan 24 13:31:35.359346 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Jan 24 13:31:35.359360 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Jan 24 13:31:35.359370 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Jan 24 13:31:35.359376 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Jan 24 13:31:35.359394 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Jan 24 13:31:35.359521 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Feb 19 10:31:36.187142 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 19 10:31:36.260121 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Feb 19 10:31:36.260282 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Feb 19 10:31:36.260298 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Feb 19 10:31:36.260319 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 19 10:31:36.260326 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 2, type:VIDEO, PID 0xb20
+Feb 19 10:31:36.260332 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 3, type:AUDIO, PID 0xb22
+Feb 19 10:31:36.260339 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 10:31:36.260357 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 2, type:VIDEO, PID 0xb20
+Feb 19 10:31:36.260367 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 10:31:36.260376 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 3, type:AUDIO, PID 0xb22
+Feb 19 10:31:36.260383 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 19 10:31:36.260397 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Feb 19 10:31:36.260482 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Feb 19 10:57:21.966827 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 19 10:57:22.172046 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Feb 19 10:57:22.172182 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Feb 19 10:57:22.172199 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Feb 19 10:57:22.172220 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 19 10:57:22.172227 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 4, type:VIDEO, PID 0xb20
+Feb 19 10:57:22.172234 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 5, type:AUDIO, PID 0xb22
+Feb 19 10:57:22.172242 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 10:57:22.172258 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 4, type:VIDEO, PID 0xb20
+Feb 19 10:57:22.172267 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 10:57:22.172277 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 5, type:AUDIO, PID 0xb22
+Feb 19 10:57:22.172284 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 19 10:57:22.172299 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Feb 19 10:57:22.172356 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Feb 19 11:04:01.352341 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 19 11:04:01.475254 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Feb 19 11:04:01.475402 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Feb 19 11:04:01.475428 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Feb 19 11:04:01.475461 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 19 11:04:01.475468 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 6, type:VIDEO, PID 0xb20
+Feb 19 11:04:01.475475 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 7, type:AUDIO, PID 0xb22
+Feb 19 11:04:01.475483 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 11:04:01.475514 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 6, type:VIDEO, PID 0xb20
+Feb 19 11:04:01.475524 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 11:04:01.475535 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 7, type:AUDIO, PID 0xb22
+Feb 19 11:04:01.475545 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 19 11:04:01.475568 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Feb 19 11:04:01.475646 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Feb 19 11:11:41.684917 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 19 11:11:41.985970 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Feb 19 11:11:41.986104 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Feb 19 11:11:41.986120 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Feb 19 11:11:41.986140 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 19 11:11:41.986147 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 8, type:VIDEO, PID 0xb20
+Feb 19 11:11:41.986153 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 9, type:AUDIO, PID 0xb22
+Feb 19 11:11:41.986160 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 19 11:11:41.986176 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 8, type:VIDEO, PID 0xb20
+Feb 19 11:11:41.986185 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 19 11:11:41.986194 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 9, type:AUDIO, PID 0xb22
+Feb 19 11:11:41.986201 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 19 11:11:41.986215 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Feb 19 11:11:41.986274 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Feb 21 16:49:39.286357 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 21 16:49:39.322485 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Feb 21 16:49:39.322787 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Feb 21 16:49:39.322823 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Feb 21 16:49:39.322879 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 21 16:49:39.322898 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 10, type:VIDEO, PID 0xb20
+Feb 21 16:49:39.322916 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 11, type:AUDIO, PID 0xb22
+Feb 21 16:49:39.322965 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 21 16:49:39.323004 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 10, type:VIDEO, PID 0xb20
+Feb 21 16:49:39.323027 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 21 16:49:39.323053 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 11, type:AUDIO, PID 0xb22
+Feb 21 16:49:39.323073 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 21 16:49:39.323112 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Feb 21 16:49:39.323258 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Feb 23 17:14:51.787469 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 23 17:14:52.071000 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Feb 23 17:14:52.071184 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Feb 23 17:14:52.071205 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Feb 23 17:14:52.071247 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 23 17:14:52.071258 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 12, type:VIDEO, PID 0xb20
+Feb 23 17:14:52.071267 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 13, type:AUDIO, PID 0xb22
+Feb 23 17:14:52.071277 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 23 17:14:52.071302 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 12, type:VIDEO, PID 0xb20
+Feb 23 17:14:52.071315 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 23 17:14:52.071329 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 13, type:AUDIO, PID 0xb22
+Feb 23 17:14:52.071338 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 23 17:14:52.071358 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Feb 23 17:14:52.071431 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Feb 23 17:15:57.906976 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 23 17:15:58.071525 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Feb 23 17:15:58.071719 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Feb 23 17:15:58.071743 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Feb 23 17:15:58.071773 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 23 17:15:58.071784 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 14, type:VIDEO, PID 0xb20
+Feb 23 17:15:58.071794 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 15, type:AUDIO, PID 0xb22
+Feb 23 17:15:58.071806 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 23 17:15:58.071829 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 14, type:VIDEO, PID 0xb20
+Feb 23 17:15:58.071884 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 23 17:15:58.071902 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 15, type:AUDIO, PID 0xb22
+Feb 23 17:15:58.071912 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 23 17:15:58.071934 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Feb 23 17:15:58.072015 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)
+Feb 27 10:06:24.410385 noServiceName  **********************************************************
+Feb 27 10:06:24.410397 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Feb 27 10:06:24.410402 noServiceName  [GENERAL] Log system is syslog
+Feb 27 10:06:24.410569 noServiceName  [GENERAL] The process is starting
+Feb 27 10:06:26.455659 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9105
+Feb 27 10:06:26.455733 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Feb 27 10:06:26.464327 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:06:26.471723 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:06:27.075306 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 27 10:06:27.075319 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:06:27.075327 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:06:27.075333 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 27 10:06:27.075373 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Feb 27 10:06:27.075471 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Feb 27 10:06:27.075477 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:06:27.075484 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:06:27.075489 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Feb 27 10:06:27.075514 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Feb 27 10:06:27.221813 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Feb 27 10:06:27.221889 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Feb 27 10:06:27.223869 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Feb 27 10:06:27.334198 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:06:27.335360 BS18_TS06_shinhome  [GENERAL] License status=started
+Feb 27 10:06:28.026617 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Feb 27 10:06:28.026984 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Feb 27 10:06:28.027006 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Feb 27 10:06:28.027028 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 27 10:06:28.027034 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Feb 27 10:06:28.027041 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Feb 27 10:06:28.027048 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:06:28.027085 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Feb 27 10:06:28.027098 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:06:28.027107 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Feb 27 10:06:28.027114 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 27 10:06:28.027130 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Feb 27 10:06:28.027233 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Feb 27 10:08:12.611560 BS18_TS06_shinhome  [GENERAL] The process is ending
+Feb 27 10:08:31.982840 noServiceName  **********************************************************
+Feb 27 10:08:31.982855 noServiceName  [GENERAL] MKEL 14.0 - configVersion 17.13.1 - statsVersion 3.15.3
+Feb 27 10:08:31.982860 noServiceName  [GENERAL] Log system is syslog
+Feb 27 10:08:31.983046 noServiceName  [GENERAL] The process is starting
+Feb 27 10:08:32.425972 BS18_TS06_shinhome  [GENERAL] Esam Server started with ip=192.168.21.51 - port=9105
+Feb 27 10:08:32.426038 BS18_TS06_shinhome  [GENERAL] Service id=a4d0285e3df84c3584d4f04a8da44332 - Server id=standalone
+Feb 27 10:08:32.429631 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:08:32.435680 BS18_TS06_shinhome  [SOURCE 2_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:08:32.803402 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 27 10:08:32.803415 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:08:32.803423 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:08:32.803430 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 27 10:08:32.803474 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] inputStream with same type not found
+Feb 27 10:08:32.803574 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Start routing
+Feb 27 10:08:32.803586 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:08:32.803593 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:08:32.803598 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] Finished routing
+Feb 27 10:08:32.803624 BS18_TS06_shinhome  [SOURCE 2_0] [ROUTING] inputStream with same type not found
+Feb 27 10:08:32.804958 BS18_TS06_shinhome  [CONFIG] Configuration parsed with success
+Feb 27 10:08:32.805073 BS18_TS06_shinhome  [GENERAL] License status=wait for license
+Feb 27 10:08:32.806982 BS18_TS06_shinhome  [GENERAL] Register in serviceDiscovery interface 'esamreceiver' for networkName 'BS18_06'
+Feb 27 10:08:32.865376 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Feb 27 10:08:32.887559 BS18_TS06_shinhome  [GENERAL] License status=started
+Feb 27 10:08:33.757833 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Feb 27 10:08:33.758439 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Feb 27 10:08:33.758475 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Feb 27 10:08:33.758508 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Feb 27 10:08:33.758520 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 0, type:VIDEO, PID 0xb20
+Feb 27 10:08:33.758531 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 1, type:AUDIO, PID 0xb22
+Feb 27 10:08:33.758553 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Feb 27 10:08:33.758611 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 0, type:VIDEO, PID 0xb20
+Feb 27 10:08:33.758632 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Feb 27 10:08:33.758647 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 1, type:AUDIO, PID 0xb22
+Feb 27 10:08:33.758657 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Feb 27 10:08:33.758684 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=32 (0x20)
+Feb 27 10:08:33.758869 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=33 (0x21)
+Mar 13 10:36:42.801376 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Select program by PMT (use default program number)
+Mar 13 10:36:42.835631 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected program 113
+Mar 13 10:36:42.835781 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Video: PID=2848 (0xb20) codec=h264
+Mar 13 10:36:42.835797 BS18_TS06_shinhome  [SOURCE 1_0] [INPUT] Detected Audio: PID=2850 (0xb22) codec=ac3, language=eng
+Mar 13 10:36:42.835820 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Start routing
+Mar 13 10:36:42.835827 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 2, type:VIDEO, PID 0xb20
+Mar 13 10:36:42.835834 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Input stream 3, type:AUDIO, PID 0xb22
+Mar 13 10:36:42.835841 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 0, type:VIDEO
+Mar 13 10:36:42.835857 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 2, type:VIDEO, PID 0xb20
+Mar 13 10:36:42.835866 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing output stream 1, type:AUDIO
+Mar 13 10:36:42.835875 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Matched input stream 3, type:AUDIO, PID 0xb22
+Mar 13 10:36:42.835882 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Finished routing
+Mar 13 10:36:42.835896 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2848 (0xb20) on PID=2848 (0xb20)
+Mar 13 10:36:42.835989 BS18_TS06_shinhome  [SOURCE 1_0] [ROUTING] Routing for input PID=2850 (0xb22) on PID=2850 (0xb22)

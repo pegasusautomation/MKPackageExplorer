@@ -1,0 +1,931 @@
+
+________________________________________________________________________________
+Fri May 13 11:37:48 KST 2022 installation logs
+________________________________________________________________________________
+
+Check os compatibility: CentOS Linux release 7.9.2009 (Core) officially supported
+  authorization: enabled
+[mongodb-upgrade] Old mongodb-org-server installation detected. Checking upgrade compatibility...
+[mongodb-upgrade] Storage engine: wiredTiger
+[mongodb-upgrade] MongoDB in standalone
+[mongodb-upgrade] Removing mmapv1 lines from /etc/mongod.conf
+[mongodb-upgrade] MongoDB in standalone
+[mongodb-upgrade] Checking feature compatibility version
+[mongodb-upgrade] Old version: 4.4.9
+[mongodb-upgrade] New version: 4.4.9
+[mongodb-upgrade] MongoDB already at required version : 4.4.9
+mfvp-mongo-arbiter
+ericsson-license-manager
+Old ericsson-license-manager installation detected
+Old Ericsson License Manager detected
+Loaded plugins: fastestmirror, versionlock
+Determining fastest mirrors
+No packages marked for update
+Restarting: ericsson-license-server
+Restarting: ericsson-license-api
+Restarting: ericsson-server-daemon
+ericsson-controller
+Old ericsson-controller installation detected
+Old mongodb-org-server installation detected
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package ericsson-controller.x86_64 0:14.0.4-657.el7 will be updated
+---> Package ericsson-controller.x86_64 0:14.0.5-669.el7 will be an update
+--> Processing Dependency: ericsson-unified-ui >= 1.128.6-0.el7 for package: ericsson-controller-14.0.5-669.el7.x86_64
+--> Processing Dependency: ericsson-snmp-notification >= 0.65.1-0.el7 for package: ericsson-controller-14.0.5-669.el7.x86_64
+--> Processing Dependency: ericsson-flow >= 0.48.5-0.el7 for package: ericsson-controller-14.0.5-669.el7.x86_64
+--> Processing Dependency: ericsson-alarm >= 1.80.1-0.el7 for package: ericsson-controller-14.0.5-669.el7.x86_64
+--> Running transaction check
+---> Package ericsson-alarm.x86_64 0:1.80.0-0.el7 will be updated
+---> Package ericsson-alarm.x86_64 0:1.80.1-0.el7 will be an update
+---> Package ericsson-flow.x86_64 0:0.48.4-0.el7 will be updated
+---> Package ericsson-flow.x86_64 0:0.48.5-0.el7 will be an update
+---> Package ericsson-snmp-notification.x86_64 0:0.65.0-0.el7 will be updated
+---> Package ericsson-snmp-notification.x86_64 0:0.65.1-0.el7 will be an update
+---> Package ericsson-unified-ui.x86_64 0:1.128.5-0.el7 will be updated
+---> Package ericsson-unified-ui.x86_64 0:1.128.6-0.el7 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                 Arch   Version        Repository                  Size
+================================================================================
+Updating:
+ ericsson-controller     x86_64 14.0.5-669.el7 local-mfvp-controller-repo  46 k
+Updating for dependencies:
+ ericsson-alarm          x86_64 1.80.1-0.el7   local-mfvp-controller-repo 3.1 M
+ ericsson-flow           x86_64 0.48.5-0.el7   local-mfvp-controller-repo 3.4 M
+ ericsson-snmp-notification
+                         x86_64 0.65.1-0.el7   local-mfvp-controller-repo  10 M
+ ericsson-unified-ui     x86_64 1.128.6-0.el7  local-mfvp-controller-repo  31 M
+
+Transaction Summary
+================================================================================
+Upgrade  1 Package (+4 Dependent packages)
+
+Total download size: 48 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              356 MB/s |  48 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : ericsson-flow-0.48.5-0.el7.x86_64                           1/10 
+  Updating   : ericsson-alarm-1.80.1-0.el7.x86_64                          2/10 
+  Updating   : ericsson-unified-ui-1.128.6-0.el7.x86_64                    3/10 
+  Updating   : ericsson-snmp-notification-0.65.1-0.el7.x86_64              4/10 
+  Updating   : ericsson-controller-14.0.5-669.el7.x86_64                   5/10 
+2022-05-13 11:38:12,980 | cfg_soft | INFO     | controller: update name ericsson-controller -> ericsson-controller
+2022-05-13 11:38:12,980 | cfg_soft | INFO     | controller : update version 14.0.4.657 -> 14.0.5.669
+  Cleanup    : ericsson-controller-14.0.4-657.el7.x86_64                   6/10 
+  Cleanup    : ericsson-alarm-1.80.0-0.el7.x86_64                          7/10 
+  Cleanup    : ericsson-flow-0.48.4-0.el7.x86_64                           8/10 
+  Cleanup    : ericsson-snmp-notification-0.65.0-0.el7.x86_64              9/10 
+  Cleanup    : ericsson-unified-ui-1.128.5-0.el7.x86_64                   10/10 
+  Verifying  : ericsson-snmp-notification-0.65.1-0.el7.x86_64              1/10 
+  Verifying  : ericsson-unified-ui-1.128.6-0.el7.x86_64                    2/10 
+  Verifying  : ericsson-alarm-1.80.1-0.el7.x86_64                          3/10 
+  Verifying  : ericsson-flow-0.48.5-0.el7.x86_64                           4/10 
+  Verifying  : ericsson-controller-14.0.5-669.el7.x86_64                   5/10 
+  Verifying  : ericsson-flow-0.48.4-0.el7.x86_64                           6/10 
+  Verifying  : ericsson-controller-14.0.4-657.el7.x86_64                   7/10 
+  Verifying  : ericsson-snmp-notification-0.65.0-0.el7.x86_64              8/10 
+  Verifying  : ericsson-alarm-1.80.0-0.el7.x86_64                          9/10 
+  Verifying  : ericsson-unified-ui-1.128.5-0.el7.x86_64                   10/10 
+
+Updated:
+  ericsson-controller.x86_64 0:14.0.5-669.el7                                   
+
+Dependency Updated:
+  ericsson-alarm.x86_64 0:1.80.1-0.el7                                          
+  ericsson-flow.x86_64 0:0.48.5-0.el7                                           
+  ericsson-snmp-notification.x86_64 0:0.65.1-0.el7                              
+  ericsson-unified-ui.x86_64 0:1.128.6-0.el7                                    
+
+Complete!
+Reinstalling ericsson-server-monitor
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package ericsson-server-monitor.x86_64 0:0.58.0-0.el7 will be reinstalled
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                 Arch   Version        Repository                  Size
+================================================================================
+Reinstalling:
+ ericsson-server-monitor x86_64 0.58.0-0.el7   local-mfvp-controller-repo 2.9 M
+
+Transaction Summary
+================================================================================
+Reinstall  1 Package
+
+Total download size: 2.9 M
+Installed size: 15 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : ericsson-server-monitor-0.58.0-0.el7.x86_64                  1/1 
+  Verifying  : ericsson-server-monitor-0.58.0-0.el7.x86_64                  1/1 
+
+Installed:
+  ericsson-server-monitor.x86_64 0:0.58.0-0.el7                                 
+
+Complete!
+  authorization: enabled
+[mongodb-upgrade] MongoDB in standalone
+[mongodb-upgrade] All servers at same version: 4.4.9, with FCV: 4.4
+Restarting: mongod
+                                                 :mm           :mm                mm:
+                                               MMMMKKK:      KKKKKKKm          kKKKKKKK
+                                             MMMMKKKKKM     mKKKKKKKK        kKKKKKKKKKm
+            ::                             KKKMMKKKKKKM      KKKKKKKk      MKMMKKKKKKKK
+         kKKMMMMm                        KKKMKKKKKKKKKM        MKKm      kKMKKKKKKKKK:
+        :MMKKKKKKKm                    KKMKKKKKKKKKKKKM                MKMMKKKKKKKK:
+        :MMKKKKKKKMMm                KKKKKKKKKKKKKKKKKM              MKKKKKKKKKKK:
+        :MKKKKKKKKMMMKm            MMKKKKKKKKKKKKKKKKKM            MKKKKKKKKKKK
+        :MKKKKKKKKKKKMMKm        KKKKKKKKKKKM mKKKKKKKM          MKMKKKKKKKKK
+        :MKKKKKKKKKKKKKKMMm    KKKKKKKKKKKM   mMKKKKKKM        MKMMKKKKKKKK
+        :MKKKKKKKKKKKKKKKKKKkKKKKKKKKKKMk     :MMKKKKKK      :KKKKKKKKKKK
+        :MMKKKKKK mMKKKKKKKKKKKKKKKKKKM       mKMKKKKKK      MKKKKKKKKKK
+        :MMKKKKKK   mMKKKKKKKKKKKKKKk         mKKKKKKKM       KKKKKKKKKKKK
+        :KMKKKKKK     mKKKKKKKKKKKM           mMKKKKKKM         KKKKKKKKKKKK
+        :KMKKKKKK       :KMKKKKMM             mMMKKKKKM           KKKKKKKKKKKK
+        :MMKKKKKK          kMM:               :MKKKKKKM             KMMKKKKKKKKK
+        :KKKKKKKK                             mMKKKKKKK      mM       KKMKKKKKKKKK
+        :MMKKKKKK                             mKKKKKKKK      MKKK       KKKKKKKKKKKK
+        :MMMKKKKK                             mKKKKKKMK      MKKKKM       KMMMKKKKKKKK
+        :MMMKKKKK                             mKKKKKKMM      MKKKKKK:       KMMKKKKKKKK
+        :MMKKKKKM                             mKKKKKKKM      MKKKKM           KMMKKKKKK:
+         MKKKKKK:                              KKKKKKK:      MMMk               KKKKKK:
+            ::                                    ::         :m
+           ____    ___    _   _   _____   ____     ___    _       _       _____   ____
+          / ___|  / _ \  | \ | | |_   _| |  _ \   / _ \  | |     | |     | ____| |  _ \
+         | |     | | | | |  \| |   | |   | |_) | | | | | | |     | |     |  _|   | |_) |
+         | |___  | |_| | | |\  |   | |   |  _ <  | |_| | | |___  | |___  | |___  |  _ <
+          \____|  \___/  |_| \_|   |_|   |_| \_\  \___/  |_____| |_____| |_____| |_| \_\
+
+
+Remote execution: stdout/stderr will not be logged
+An existing controller installation has been detected
+Configuring support
+Configuring mongo
+/etc/logrotate.d/mongodb already exists
+config saved as /etc/logrotate.d/mongodb.rpmsave
+Enabling: mongod
+Restarting: mongod
+Creating MongoDB user accounts
+Checking replica set configuration
+Locating MongoDB primary amongst 192.168.21.52 
+Trying 192.168.21.52
+Primary controller has been detected on 192.168.21.52
+Creating user: MediaKind for db: admin with role: root.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: admin
+Creating user: keepalived for db: admin with role: read.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: keepalived already exists for database: admin
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: envivioCluster
+Creating user: MediaKind for db: alarm with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: alarm
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: mediakindMongolock
+Configuring system...
+Configuring SElinux...
+Configuring firewall...
+check that firewalld is running
+Configuring firewall for license-manager
+Opening firewalld port 5093 for license-manager
+Warning: ALREADY_ENABLED: '5093:udp'
+success
+Opening firewalld port 8080 for license-manager
+Warning: ALREADY_ENABLED: '8080:tcp'
+success
+Configuring firewall for rabbitmq-server
+Opening firewalld port 5672 for rabbitmq-server
+Warning: ALREADY_ENABLED: '5672:tcp'
+success
+Opening firewalld port 25672 for rabbitmq-server
+Warning: ALREADY_ENABLED: '25672:tcp'
+success
+Opening firewalld port 4369 for rabbitmq-server
+Warning: ALREADY_ENABLED: '4369:tcp'
+success
+Configuring firewall for mongoDB
+Opening firewalld for mongoDB port 27017
+Warning: ALREADY_ENABLED: '27017:tcp'
+success
+Configuring firewall for Apache
+Opening firewalld port 8080 for Apache HTTP
+Port 8080 has already been opened in configure_firewall_license-manager()
+Opening firewalld port 8443 for Apache HTTPS
+Found existing controller-ui firewalld service - deleting
+Removing service 'controller-ui' from default zone.
+success
+success
+Creating new controller-ui firewalld service
+success
+success
+success
+success
+Configuring firewall for ETCD
+Opening firewalld for ETCD client port 2379
+Warning: ALREADY_ENABLED: '2379:tcp'
+success
+Opening firewalld for ETCD peer port 2380
+Warning: ALREADY_ENABLED: '2380:tcp'
+success
+Configuring firewall for interface-discovery
+Opening firewalld for interface-discovery port 8200
+Warning: ALREADY_ENABLED: '8200:tcp'
+success
+Saving firewall rules
+Configuring apache...
+Creating JWT authentication directories
+Setting permissions on JWT authentication files
+Verifying apache config for httpd...
+Enabling: httpd
+Restarting: httpd
+Enabling MongoDB client authorization and internal authentication
+Enabling: mongod
+Restarting: mongod
+Configuring ETCD as a standalone node
+Configure ETCD as standalone Node
+Enabling: etcd
+Restarting: etcd
+rabbitMQ check_cluster...
+resetting rabbitMQ cluster
+Stopping rabbit application on node controller@192.168.21.52 ...
+Resetting node controller@192.168.21.52 ...
+Configuring rabbitmq-server
+/etc/rabbitmq/rabbitmq.conf already exists
+config saved as /etc/rabbitmq/rabbitmq.conf.back
+/etc/rabbitmq/rabbitmq-env.conf already exists
+config saved as /etc/rabbitmq/rabbitmq-env.conf.back
+/etc/systemd/system/rabbitmq-server.service.d/limits.conf already exists
+config saved as /etc/systemd/system/rabbitmq-server.service.d/limits.conf.back
+/etc/logrotate.d/rabbitmq-server already exists
+config saved as /etc/logrotate.d/rabbitmq-server.rpmsave
+Enabling plugins on node controller@192.168.21.52:
+rabbitmq_management
+The following plugins have been configured:
+  rabbitmq_management
+  rabbitmq_management_agent
+  rabbitmq_web_dispatch
+Applying plugin configuration to controller@192.168.21.52...
+Plugin configuration unchanged.
+Enabling: rabbitmq-server
+Restarting: rabbitmq-server
+Checking RabbitMQ users list
+Adding RabbitMQ admin user
+Setting RabbitMQ admin user permissions
+Setting RabbitMQ admin user tags
+Upgrading MongoDB alarms on controller at 127.0.0.1:27017
+Updating old active/history alarm IDs...
+success
+Removing alarm catalogue entries for old alarm IDs...
+success
+Configuring unified-ui
+Configuring template-api
+Configuring server-api
+Configuring flow
+Configuring service-api
+Configuring server-daemon
+2022-05-13 11:41:06,282 | cfg_soft | INFO     | controller: update name ericsson-controller -> ericsson-controller
+2022-05-13 11:41:06,282 | cfg_soft | INFO     | controller : update version 14.0.5.669 -> 14.0.5.669
+2022-05-13 11:41:06,990 | cfg_soft | INFO     | licensing: update name ericsson-license-manager -> ericsson-license-manager
+2022-05-13 11:41:06,991 | cfg_soft | INFO     | licensing : update version 0.72.0-0 -> 0.72.0-0
+Configuring alarm-proxy
+Configuring selinux for alarm-proxy
+Configuring alarm-api
+Configuring failover-api
+Configuring server-monitor
+Configuring snmp-notification
+Configuring interface-discovery
+Configuring esam-proxy
+Configuring controller-config
+Configuring nmos-sidecar
+Configuring license-manager
+Enabling: httpd
+Restarting: httpd
+Enabling: ericsson-unified-ui
+Restarting: ericsson-unified-ui
+Enabling: ericsson-server-api
+Restarting: ericsson-server-api
+Enabling: ericsson-flow
+Restarting: ericsson-flow
+Enabling: ericsson-service-api
+Restarting: ericsson-service-api
+Enabling: ericsson-service-monitor
+Restarting: ericsson-service-monitor
+Enabling: ericsson-template-api
+Restarting: ericsson-template-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+Enabling: ericsson-alarm-proxy-redis
+Restarting: ericsson-alarm-proxy-redis
+Enabling: ericsson-alarm-proxy
+Restarting: ericsson-alarm-proxy
+Enabling: ericsson-alarm-api
+Restarting: ericsson-alarm-api
+Enabling: ericsson-alarm-collector
+Restarting: ericsson-alarm-collector
+Enabling: ericsson-alarm-daemon
+Restarting: ericsson-alarm-daemon
+Enabling: ericsson-alarm-legacy-collector
+Restarting: ericsson-alarm-legacy-collector
+Enabling: ericsson-alarm-legacy-daemon
+Restarting: ericsson-alarm-legacy-daemon
+Enabling: ericsson-controller-mapserverid
+Restarting: ericsson-controller-mapserverid
+Enabling: ericsson-unified-ui-celery
+Restarting: ericsson-unified-ui-celery
+Enabling: ericsson-unified-ui-celerybeat
+Restarting: ericsson-unified-ui-celerybeat
+Enabling: ericsson-unified-ui-daphne
+Restarting: ericsson-unified-ui-daphne
+Enabling: ericsson-unified-ui-ws
+Restarting: ericsson-unified-ui-ws
+Enabling: ericsson-failover-api
+Restarting: ericsson-failover-api
+Enabling: ericsson-failover-api-celery
+Restarting: ericsson-failover-api-celery
+Enabling: ericsson-failover-daemon
+Restarting: ericsson-failover-daemon
+Enabling: ericsson-server-monitor
+Restarting: ericsson-server-monitor
+Enabling: ericsson-snmp-notification
+Restarting: ericsson-snmp-notification
+Enabling: ericsson-interface-discovery
+Restarting: ericsson-interface-discovery
+Enabling: ericsson-esam-proxy
+Restarting: ericsson-esam-proxy
+Enabling: ericsson-controller-config
+Restarting: ericsson-controller-config
+Enabling: ericsson-nmos-sidecar
+Restarting: ericsson-nmos-sidecar
+Enabling: ericsson-license-server
+Restarting: ericsson-license-server
+Enabling: ericsson-license-api
+Restarting: ericsson-license-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+register controller server_id=standalone
+Server standalone already exists...
+Server standalone already supports controller type! or support package url
+register licensing server_id=standalone
+Server standalone already exists...
+Server standalone already supports licensing type! or support package url
+Setting RabbitMQ policies
+Setting RabbitMQ max length policy
+Setting policy "max-length" for pattern "" to "{"max-length":50000}" with priority "0" for vhost "/" ...
+Check ntp...
+
+WARNING : ntp is NOT synchronised. The system cannot work correctly if clocks are out-of-sync.
+Please configure ntp and make sure it is synchronised. There is no requirement to re-run configure.sh on this controller afterwards.
+
+________________________________________________________________________________
+Tue Aug  8 00:23:41 KST 2023 installation logs
+________________________________________________________________________________
+
+Check os compatibility: CentOS Linux release 7.9.2009 (Core) officially supported
+  authorization: enabled
+[mongodb-upgrade] Old mongodb-org-server installation detected. Checking upgrade compatibility...
+[mongodb-upgrade] Storage engine: wiredTiger
+[mongodb-upgrade] MongoDB in standalone
+[mongodb-upgrade] Removing mmapv1 lines from /etc/mongod.conf
+[mongodb-upgrade] MongoDB in standalone
+[mongodb-upgrade] Checking feature compatibility version
+[mongodb-upgrade] Old version: 4.4.9
+[mongodb-upgrade] New version: 4.4.9
+[mongodb-upgrade] MongoDB already at required version : 4.4.9
+mfvp-mongo-arbiter
+ericsson-license-manager
+Old ericsson-license-manager installation detected
+Old Ericsson License Manager detected
+Loaded plugins: fastestmirror, versionlock
+Determining fastest mirrors
+Resolving Dependencies
+--> Running transaction check
+---> Package ericsson-license-manager.x86_64 0:0.72.0-0.el7 will be updated
+---> Package ericsson-license-manager.x86_64 0:0.72.4-0.el7 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                  Arch   Version       Repository                  Size
+================================================================================
+Updating:
+ ericsson-license-manager x86_64 0.72.4-0.el7  local-mfvp-controller-repo  11 M
+
+Transaction Summary
+================================================================================
+Upgrade  1 Package
+
+Total download size: 11 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : ericsson-license-manager-0.72.4-0.el7.x86_64                 1/2 
+  Cleanup    : ericsson-license-manager-0.72.0-0.el7.x86_64                 2/2 
+  Verifying  : ericsson-license-manager-0.72.4-0.el7.x86_64                 1/2 
+  Verifying  : ericsson-license-manager-0.72.0-0.el7.x86_64                 2/2 
+
+Updated:
+  ericsson-license-manager.x86_64 0:0.72.4-0.el7                                
+
+Complete!
+Restarting: ericsson-license-server
+Restarting: ericsson-license-api
+Restarting: ericsson-server-daemon
+ericsson-controller
+Old ericsson-controller installation detected
+Old mongodb-org-server installation detected
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package ericsson-controller.x86_64 0:14.0.5-669.el7 will be updated
+---> Package ericsson-controller.x86_64 0:14.0.10-753.el7 will be an update
+--> Processing Dependency: redis >= 6.2.7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-unified-ui >= 1.128.21-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-template-api >= 0.58.4-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-snmp-notification >= 0.69.5-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-service-api >= 0.93.5-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-server-monitor >= 0.58.1-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-server-daemon >= 0.58.4-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-server-api >= 0.80.4-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-interface-discovery >= 0.67.4-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-flow >= 0.48.10-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-failover-api >= 0.80.3-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-esam-proxy >= 0.51.2-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-controller-config >= 0.29.4-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-alarm-proxy >= 1.46.2-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Processing Dependency: ericsson-alarm >= 1.80.4-0.el7 for package: ericsson-controller-14.0.10-753.el7.x86_64
+--> Running transaction check
+---> Package ericsson-alarm.x86_64 0:1.80.1-0.el7 will be updated
+---> Package ericsson-alarm.x86_64 0:1.80.4-0.el7 will be an update
+---> Package ericsson-alarm-proxy.x86_64 0:1.46.0-0.el7 will be updated
+---> Package ericsson-alarm-proxy.x86_64 0:1.46.2-0.el7 will be an update
+---> Package ericsson-controller-config.x86_64 0:0.29.2-0.el7 will be updated
+---> Package ericsson-controller-config.x86_64 0:0.29.4-0.el7 will be an update
+---> Package ericsson-esam-proxy.x86_64 0:0.51.0-0.el7 will be updated
+---> Package ericsson-esam-proxy.x86_64 0:0.51.2-0.el7 will be an update
+---> Package ericsson-failover-api.x86_64 0:0.80.0-0.el7 will be updated
+---> Package ericsson-failover-api.x86_64 0:0.80.3-0.el7 will be an update
+---> Package ericsson-flow.x86_64 0:0.48.5-0.el7 will be updated
+---> Package ericsson-flow.x86_64 0:0.48.10-0.el7 will be an update
+---> Package ericsson-interface-discovery.x86_64 0:0.67.0-0.el7 will be updated
+---> Package ericsson-interface-discovery.x86_64 0:0.67.4-0.el7 will be an update
+---> Package ericsson-server-api.x86_64 0:0.80.2-0.el7 will be updated
+---> Package ericsson-server-api.x86_64 0:0.80.4-0.el7 will be an update
+---> Package ericsson-server-daemon.x86_64 0:0.58.1-0.el7 will be updated
+---> Package ericsson-server-daemon.x86_64 0:0.58.4-0.el7 will be an update
+---> Package ericsson-server-monitor.x86_64 0:0.58.0-0.el7 will be updated
+---> Package ericsson-server-monitor.x86_64 0:0.58.1-0.el7 will be an update
+---> Package ericsson-service-api.x86_64 0:0.93.1-0.el7 will be updated
+---> Package ericsson-service-api.x86_64 0:0.93.5-0.el7 will be an update
+---> Package ericsson-snmp-notification.x86_64 0:0.65.1-0.el7 will be updated
+---> Package ericsson-snmp-notification.x86_64 0:0.69.5-0.el7 will be an update
+---> Package ericsson-template-api.x86_64 0:0.58.2-0.el7 will be updated
+---> Package ericsson-template-api.x86_64 0:0.58.4-0.el7 will be an update
+---> Package ericsson-unified-ui.x86_64 0:1.128.6-0.el7 will be updated
+---> Package ericsson-unified-ui.x86_64 0:1.128.21-0.el7 will be an update
+---> Package redis.x86_64 0:6.2.6-el7 will be updated
+---> Package redis.x86_64 0:6.2.7-el7 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                Arch   Version         Repository                  Size
+================================================================================
+Updating:
+ ericsson-controller    x86_64 14.0.10-753.el7 local-mfvp-controller-repo  46 k
+Updating for dependencies:
+ ericsson-alarm         x86_64 1.80.4-0.el7    local-mfvp-controller-repo 3.1 M
+ ericsson-alarm-proxy   x86_64 1.46.2-0.el7    local-mfvp-controller-repo 1.9 M
+ ericsson-controller-config
+                        x86_64 0.29.4-0.el7    local-mfvp-controller-repo 2.2 M
+ ericsson-esam-proxy    x86_64 0.51.2-0.el7    local-mfvp-controller-repo 2.9 M
+ ericsson-failover-api  x86_64 0.80.3-0.el7    local-mfvp-controller-repo 3.9 M
+ ericsson-flow          x86_64 0.48.10-0.el7   local-mfvp-controller-repo 3.4 M
+ ericsson-interface-discovery
+                        x86_64 0.67.4-0.el7    local-mfvp-controller-repo 8.2 M
+ ericsson-server-api    x86_64 0.80.4-0.el7    local-mfvp-controller-repo 2.4 M
+ ericsson-server-daemon x86_64 0.58.4-0.el7    local-mfvp-controller-repo 2.6 M
+ ericsson-server-monitor
+                        x86_64 0.58.1-0.el7    local-mfvp-controller-repo 2.9 M
+ ericsson-service-api   x86_64 0.93.5-0.el7    local-mfvp-controller-repo 4.2 M
+ ericsson-snmp-notification
+                        x86_64 0.69.5-0.el7    local-mfvp-controller-repo  10 M
+ ericsson-template-api  x86_64 0.58.4-0.el7    local-mfvp-controller-repo 2.4 M
+ ericsson-unified-ui    x86_64 1.128.21-0.el7  local-mfvp-controller-repo  33 M
+ redis                  x86_64 6.2.7-el7       local-dependencies-repo    1.0 M
+
+Transaction Summary
+================================================================================
+Upgrade  1 Package (+15 Dependent packages)
+
+Total download size: 84 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              229 MB/s |  84 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : ericsson-template-api-0.58.4-0.el7.x86_64                   1/32 
+  Updating   : ericsson-service-api-0.93.5-0.el7.x86_64                    2/32 
+  Updating   : redis-6.2.7-el7.x86_64                                      3/32 
+  Updating   : ericsson-controller-config-0.29.4-0.el7.x86_64              4/32 
+  Updating   : ericsson-alarm-1.80.4-0.el7.x86_64                          5/32 
+  Updating   : ericsson-flow-0.48.10-0.el7.x86_64                          6/32 
+warning: /opt/ericsson/flow/etc/flow.ini saved as /opt/ericsson/flow/etc/flow.ini.rpmsave
+  Updating   : ericsson-server-daemon-0.58.4-0.el7.x86_64                  7/32 
+  Updating   : ericsson-server-monitor-0.58.1-0.el7.x86_64                 8/32 
+  Updating   : ericsson-interface-discovery-0.67.4-0.el7.x86_64            9/32 
+  Updating   : ericsson-alarm-proxy-1.46.2-0.el7.x86_64                   10/32 
+  Updating   : ericsson-unified-ui-1.128.21-0.el7.x86_64                  11/32 
+  Updating   : ericsson-server-api-0.80.4-0.el7.x86_64                    12/32 
+  Updating   : ericsson-esam-proxy-0.51.2-0.el7.x86_64                    13/32 
+  Updating   : ericsson-failover-api-0.80.3-0.el7.x86_64                  14/32 
+  Updating   : ericsson-snmp-notification-0.69.5-0.el7.x86_64             15/32 
+warning: /opt/ericsson/snmp-notification/etc/snmp-notification.ini saved as /opt/ericsson/snmp-notification/etc/snmp-notification.ini.rpmsave
+  Updating   : ericsson-controller-14.0.10-753.el7.x86_64                 16/32 
+2023-08-08 00:24:39,278 | cfg_soft | INFO     | controller: update name ericsson-controller -> ericsson-controller
+2023-08-08 00:24:39,278 | cfg_soft | INFO     | controller : update version 14.0.5.669 -> 14.0.10.753
+  Cleanup    : ericsson-controller-14.0.5-669.el7.x86_64                  17/32 
+  Cleanup    : ericsson-alarm-1.80.1-0.el7.x86_64                         18/32 
+  Cleanup    : ericsson-alarm-proxy-1.46.0-0.el7.x86_64                   19/32 
+  Cleanup    : ericsson-controller-config-0.29.2-0.el7.x86_64             20/32 
+  Cleanup    : ericsson-esam-proxy-0.51.0-0.el7.x86_64                    21/32 
+  Cleanup    : ericsson-failover-api-0.80.0-0.el7.x86_64                  22/32 
+  Cleanup    : ericsson-flow-0.48.5-0.el7.x86_64                          23/32 
+  Cleanup    : ericsson-interface-discovery-0.67.0-0.el7.x86_64           24/32 
+  Cleanup    : ericsson-server-api-0.80.2-0.el7.x86_64                    25/32 
+  Cleanup    : ericsson-server-daemon-0.58.1-0.el7.x86_64                 26/32 
+  Cleanup    : ericsson-server-monitor-0.58.0-0.el7.x86_64                27/32 
+  Cleanup    : ericsson-service-api-0.93.1-0.el7.x86_64                   28/32 
+  Cleanup    : ericsson-snmp-notification-0.65.1-0.el7.x86_64             29/32 
+  Cleanup    : ericsson-template-api-0.58.2-0.el7.x86_64                  30/32 
+  Cleanup    : ericsson-unified-ui-1.128.6-0.el7.x86_64                   31/32 
+  Cleanup    : redis-6.2.6-el7.x86_64                                     32/32 
+  Verifying  : ericsson-snmp-notification-0.69.5-0.el7.x86_64              1/32 
+  Verifying  : ericsson-failover-api-0.80.3-0.el7.x86_64                   2/32 
+  Verifying  : ericsson-esam-proxy-0.51.2-0.el7.x86_64                     3/32 
+  Verifying  : ericsson-server-api-0.80.4-0.el7.x86_64                     4/32 
+  Verifying  : ericsson-unified-ui-1.128.21-0.el7.x86_64                   5/32 
+  Verifying  : ericsson-alarm-proxy-1.46.2-0.el7.x86_64                    6/32 
+  Verifying  : ericsson-controller-14.0.10-753.el7.x86_64                  7/32 
+  Verifying  : ericsson-interface-discovery-0.67.4-0.el7.x86_64            8/32 
+  Verifying  : ericsson-server-monitor-0.58.1-0.el7.x86_64                 9/32 
+  Verifying  : ericsson-server-daemon-0.58.4-0.el7.x86_64                 10/32 
+  Verifying  : ericsson-flow-0.48.10-0.el7.x86_64                         11/32 
+  Verifying  : ericsson-alarm-1.80.4-0.el7.x86_64                         12/32 
+  Verifying  : ericsson-controller-config-0.29.4-0.el7.x86_64             13/32 
+  Verifying  : redis-6.2.7-el7.x86_64                                     14/32 
+  Verifying  : ericsson-service-api-0.93.5-0.el7.x86_64                   15/32 
+  Verifying  : ericsson-template-api-0.58.4-0.el7.x86_64                  16/32 
+  Verifying  : ericsson-server-monitor-0.58.0-0.el7.x86_64                17/32 
+  Verifying  : ericsson-service-api-0.93.1-0.el7.x86_64                   18/32 
+  Verifying  : ericsson-alarm-proxy-1.46.0-0.el7.x86_64                   19/32 
+  Verifying  : ericsson-template-api-0.58.2-0.el7.x86_64                  20/32 
+  Verifying  : ericsson-unified-ui-1.128.6-0.el7.x86_64                   21/32 
+  Verifying  : ericsson-server-api-0.80.2-0.el7.x86_64                    22/32 
+  Verifying  : ericsson-controller-config-0.29.2-0.el7.x86_64             23/32 
+  Verifying  : ericsson-server-daemon-0.58.1-0.el7.x86_64                 24/32 
+  Verifying  : ericsson-snmp-notification-0.65.1-0.el7.x86_64             25/32 
+  Verifying  : ericsson-interface-discovery-0.67.0-0.el7.x86_64           26/32 
+  Verifying  : ericsson-flow-0.48.5-0.el7.x86_64                          27/32 
+  Verifying  : ericsson-esam-proxy-0.51.0-0.el7.x86_64                    28/32 
+  Verifying  : ericsson-failover-api-0.80.0-0.el7.x86_64                  29/32 
+  Verifying  : redis-6.2.6-el7.x86_64                                     30/32 
+  Verifying  : ericsson-alarm-1.80.1-0.el7.x86_64                         31/32 
+  Verifying  : ericsson-controller-14.0.5-669.el7.x86_64                  32/32 
+
+Updated:
+  ericsson-controller.x86_64 0:14.0.10-753.el7                                  
+
+Dependency Updated:
+  ericsson-alarm.x86_64 0:1.80.4-0.el7                                          
+  ericsson-alarm-proxy.x86_64 0:1.46.2-0.el7                                    
+  ericsson-controller-config.x86_64 0:0.29.4-0.el7                              
+  ericsson-esam-proxy.x86_64 0:0.51.2-0.el7                                     
+  ericsson-failover-api.x86_64 0:0.80.3-0.el7                                   
+  ericsson-flow.x86_64 0:0.48.10-0.el7                                          
+  ericsson-interface-discovery.x86_64 0:0.67.4-0.el7                            
+  ericsson-server-api.x86_64 0:0.80.4-0.el7                                     
+  ericsson-server-daemon.x86_64 0:0.58.4-0.el7                                  
+  ericsson-server-monitor.x86_64 0:0.58.1-0.el7                                 
+  ericsson-service-api.x86_64 0:0.93.5-0.el7                                    
+  ericsson-snmp-notification.x86_64 0:0.69.5-0.el7                              
+  ericsson-template-api.x86_64 0:0.58.4-0.el7                                   
+  ericsson-unified-ui.x86_64 0:1.128.21-0.el7                                   
+  redis.x86_64 0:6.2.7-el7                                                      
+
+Complete!
+Reinstalling ericsson-server-monitor
+Loaded plugins: fastestmirror, versionlock
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package ericsson-server-monitor.x86_64 0:0.58.1-0.el7 will be reinstalled
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                 Arch   Version        Repository                  Size
+================================================================================
+Reinstalling:
+ ericsson-server-monitor x86_64 0.58.1-0.el7   local-mfvp-controller-repo 2.9 M
+
+Transaction Summary
+================================================================================
+Reinstall  1 Package
+
+Total download size: 2.9 M
+Installed size: 15 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : ericsson-server-monitor-0.58.1-0.el7.x86_64                  1/1 
+  Verifying  : ericsson-server-monitor-0.58.1-0.el7.x86_64                  1/1 
+
+Installed:
+  ericsson-server-monitor.x86_64 0:0.58.1-0.el7                                 
+
+Complete!
+  authorization: enabled
+[mongodb-upgrade] MongoDB in standalone
+[mongodb-upgrade] All servers at same version: 4.4.9, with FCV: 4.4
+Restarting: mongod
+                                                 :mm           :mm                mm:
+                                               MMMMKKK:      KKKKKKKm          kKKKKKKK
+                                             MMMMKKKKKM     mKKKKKKKK        kKKKKKKKKKm
+            ::                             KKKMMKKKKKKM      KKKKKKKk      MKMMKKKKKKKK
+         kKKMMMMm                        KKKMKKKKKKKKKM        MKKm      kKMKKKKKKKKK:
+        :MMKKKKKKKm                    KKMKKKKKKKKKKKKM                MKMMKKKKKKKK:
+        :MMKKKKKKKMMm                KKKKKKKKKKKKKKKKKM              MKKKKKKKKKKK:
+        :MKKKKKKKKMMMKm            MMKKKKKKKKKKKKKKKKKM            MKKKKKKKKKKK
+        :MKKKKKKKKKKKMMKm        KKKKKKKKKKKM mKKKKKKKM          MKMKKKKKKKKK
+        :MKKKKKKKKKKKKKKMMm    KKKKKKKKKKKM   mMKKKKKKM        MKMMKKKKKKKK
+        :MKKKKKKKKKKKKKKKKKKkKKKKKKKKKKMk     :MMKKKKKK      :KKKKKKKKKKK
+        :MMKKKKKK mMKKKKKKKKKKKKKKKKKKM       mKMKKKKKK      MKKKKKKKKKK
+        :MMKKKKKK   mMKKKKKKKKKKKKKKk         mKKKKKKKM       KKKKKKKKKKKK
+        :KMKKKKKK     mKKKKKKKKKKKM           mMKKKKKKM         KKKKKKKKKKKK
+        :KMKKKKKK       :KMKKKKMM             mMMKKKKKM           KKKKKKKKKKKK
+        :MMKKKKKK          kMM:               :MKKKKKKM             KMMKKKKKKKKK
+        :KKKKKKKK                             mMKKKKKKK      mM       KKMKKKKKKKKK
+        :MMKKKKKK                             mKKKKKKKK      MKKK       KKKKKKKKKKKK
+        :MMMKKKKK                             mKKKKKKMK      MKKKKM       KMMMKKKKKKKK
+        :MMMKKKKK                             mKKKKKKMM      MKKKKKK:       KMMKKKKKKKK
+        :MMKKKKKM                             mKKKKKKKM      MKKKKM           KMMKKKKKK:
+         MKKKKKK:                              KKKKKKK:      MMMk               KKKKKK:
+            ::                                    ::         :m
+           ____    ___    _   _   _____   ____     ___    _       _       _____   ____
+          / ___|  / _ \  | \ | | |_   _| |  _ \   / _ \  | |     | |     | ____| |  _ \
+         | |     | | | | |  \| |   | |   | |_) | | | | | | |     | |     |  _|   | |_) |
+         | |___  | |_| | | |\  |   | |   |  _ <  | |_| | | |___  | |___  | |___  |  _ <
+          \____|  \___/  |_| \_|   |_|   |_| \_\  \___/  |_____| |_____| |_____| |_| \_\
+
+
+Remote execution: stdout/stderr will not be logged
+An existing controller installation has been detected
+Configuring support
+Configuring mongo
+/etc/logrotate.d/mongodb already exists
+config saved as /etc/logrotate.d/mongodb.rpmsave
+Enabling: mongod
+Restarting: mongod
+Creating MongoDB user accounts
+Checking replica set configuration
+Locating MongoDB primary amongst 192.168.21.51 
+Trying 192.168.21.51
+Primary controller has been detected on 192.168.21.51
+Creating user: MediaKind for db: admin with role: root.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: admin
+Creating user: keepalived for db: admin with role: read.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: keepalived already exists for database: admin
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: envivioCluster
+Creating user: MediaKind for db: alarm with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: alarm
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: mediakindMongolock
+Configuring system...
+Configuring SElinux...
+Configuring firewall...
+check that firewalld is running
+Configuring firewall for license-manager
+Opening firewalld port 5093 for license-manager
+Warning: ALREADY_ENABLED: '5093:udp'
+success
+Opening firewalld port 8080 for license-manager
+Warning: ALREADY_ENABLED: '8080:tcp'
+success
+Configuring firewall for rabbitmq-server
+Opening firewalld port 5672 for rabbitmq-server
+Warning: ALREADY_ENABLED: '5672:tcp'
+success
+Opening firewalld port 25672 for rabbitmq-server
+Warning: ALREADY_ENABLED: '25672:tcp'
+success
+Opening firewalld port 4369 for rabbitmq-server
+Warning: ALREADY_ENABLED: '4369:tcp'
+success
+Configuring firewall for mongoDB
+Opening firewalld for mongoDB port 27017
+Warning: ALREADY_ENABLED: '27017:tcp'
+success
+Configuring firewall for Apache
+Opening firewalld port 8080 for Apache HTTP
+Port 8080 has already been opened in configure_firewall_license-manager()
+Opening firewalld port 8443 for Apache HTTPS
+Found existing controller-ui firewalld service - deleting
+Removing service 'controller-ui' from default zone.
+success
+success
+Creating new controller-ui firewalld service
+success
+success
+success
+success
+Configuring firewall for ETCD
+Opening firewalld for ETCD client port 2379
+Warning: ALREADY_ENABLED: '2379:tcp'
+success
+Opening firewalld for ETCD peer port 2380
+Warning: ALREADY_ENABLED: '2380:tcp'
+success
+Configuring firewall for interface-discovery
+Opening firewalld for interface-discovery port 8200
+Warning: ALREADY_ENABLED: '8200:tcp'
+success
+Saving firewall rules
+Configuring apache...
+Creating JWT authentication directories
+Setting permissions on JWT authentication files
+Verifying apache config for httpd...
+Enabling: httpd
+Restarting: httpd
+Enabling MongoDB client authorization and internal authentication
+Enabling: mongod
+Restarting: mongod
+Configuring ETCD as a standalone node
+Configure ETCD as standalone Node
+Enabling: etcd
+Restarting: etcd
+rabbitMQ check_cluster...
+resetting rabbitMQ cluster
+Stopping rabbit application on node controller@192.168.21.51 ...
+Resetting node controller@192.168.21.51 ...
+Configuring rabbitmq-server
+/etc/rabbitmq/rabbitmq.conf already exists
+config saved as /etc/rabbitmq/rabbitmq.conf.back
+/etc/rabbitmq/rabbitmq-env.conf already exists
+config saved as /etc/rabbitmq/rabbitmq-env.conf.back
+/etc/systemd/system/rabbitmq-server.service.d/limits.conf already exists
+config saved as /etc/systemd/system/rabbitmq-server.service.d/limits.conf.back
+/etc/logrotate.d/rabbitmq-server already exists
+config saved as /etc/logrotate.d/rabbitmq-server.rpmsave
+Enabling plugins on node controller@192.168.21.51:
+rabbitmq_management
+The following plugins have been configured:
+  rabbitmq_management
+  rabbitmq_management_agent
+  rabbitmq_web_dispatch
+Applying plugin configuration to controller@192.168.21.51...
+Plugin configuration unchanged.
+Enabling: rabbitmq-server
+Restarting: rabbitmq-server
+Checking RabbitMQ users list
+Adding RabbitMQ admin user
+Setting RabbitMQ admin user permissions
+Setting RabbitMQ admin user tags
+Upgrading MongoDB alarms on controller at 127.0.0.1:27017
+Updating old active/history alarm IDs...
+success
+Removing alarm catalogue entries for old alarm IDs...
+success
+Configuring unified-ui
+Configuring template-api
+Configuring server-api
+Configuring flow
+Configuring service-api
+Configuring server-daemon
+2023-08-08 00:31:59,582 | cfg_soft | INFO     | controller: update name ericsson-controller -> ericsson-controller
+2023-08-08 00:31:59,582 | cfg_soft | INFO     | controller : update version 14.0.10.753 -> 14.0.10.753
+2023-08-08 00:32:00,715 | cfg_soft | INFO     | licensing: update name ericsson-license-manager -> ericsson-license-manager
+2023-08-08 00:32:00,715 | cfg_soft | INFO     | licensing : update version 0.72.0-0 -> 0.72.4-0
+Configuring alarm-proxy
+Configuring selinux for alarm-proxy
+Configuring alarm-api
+Configuring failover-api
+Configuring server-monitor
+Configuring snmp-notification
+Configuring interface-discovery
+Configuring esam-proxy
+Configuring controller-config
+Configuring nmos-sidecar
+Configuring license-manager
+Enabling: httpd
+Restarting: httpd
+Enabling: ericsson-unified-ui
+Restarting: ericsson-unified-ui
+Enabling: ericsson-server-api
+Restarting: ericsson-server-api
+Enabling: ericsson-flow
+Restarting: ericsson-flow
+Enabling: ericsson-service-api
+Restarting: ericsson-service-api
+Enabling: ericsson-service-monitor
+Restarting: ericsson-service-monitor
+Enabling: ericsson-template-api
+Restarting: ericsson-template-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+Enabling: ericsson-alarm-proxy-redis
+Restarting: ericsson-alarm-proxy-redis
+Enabling: ericsson-alarm-proxy
+Restarting: ericsson-alarm-proxy
+Enabling: ericsson-alarm-api
+Restarting: ericsson-alarm-api
+Enabling: ericsson-alarm-collector
+Restarting: ericsson-alarm-collector
+Enabling: ericsson-alarm-daemon
+Restarting: ericsson-alarm-daemon
+Enabling: ericsson-alarm-legacy-collector
+Restarting: ericsson-alarm-legacy-collector
+Enabling: ericsson-alarm-legacy-daemon
+Restarting: ericsson-alarm-legacy-daemon
+Enabling: ericsson-controller-mapserverid
+Restarting: ericsson-controller-mapserverid
+Enabling: ericsson-unified-ui-celery
+Restarting: ericsson-unified-ui-celery
+Enabling: ericsson-unified-ui-celerybeat
+Restarting: ericsson-unified-ui-celerybeat
+Enabling: ericsson-unified-ui-daphne
+Restarting: ericsson-unified-ui-daphne
+Enabling: ericsson-unified-ui-ws
+Restarting: ericsson-unified-ui-ws
+Enabling: ericsson-failover-api
+Restarting: ericsson-failover-api
+Enabling: ericsson-failover-api-celery
+Restarting: ericsson-failover-api-celery
+Enabling: ericsson-failover-daemon
+Restarting: ericsson-failover-daemon
+Enabling: ericsson-server-monitor
+Restarting: ericsson-server-monitor
+Enabling: ericsson-snmp-notification
+Restarting: ericsson-snmp-notification
+Enabling: ericsson-interface-discovery
+Restarting: ericsson-interface-discovery
+Enabling: ericsson-esam-proxy
+Restarting: ericsson-esam-proxy
+Enabling: ericsson-controller-config
+Restarting: ericsson-controller-config
+Enabling: ericsson-nmos-sidecar
+Restarting: ericsson-nmos-sidecar
+Enabling: ericsson-license-server
+Restarting: ericsson-license-server
+Enabling: ericsson-license-api
+Restarting: ericsson-license-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+register controller server_id=standalone
+Server standalone already exists...
+Server standalone already supports controller type! or support package url
+register licensing server_id=standalone
+Server standalone already exists...
+Server standalone already supports licensing type! or support package url
+Setting RabbitMQ policies
+Setting RabbitMQ max length policy
+Setting policy "max-length" for pattern "" to "{"max-length":50000}" with priority "0" for vhost "/" ...
+Check ntp...
+ntp is synchronised
+Setting python overrides

@@ -1,0 +1,108 @@
+{
+  "alarms": {
+    "redis": {
+      "socket": "",
+      "host": "127.0.0.1",
+      "port": 6380,
+      "key": "alarms/servers/%SERVER_ID%/liveEncodings/%SERVICE_ID%"
+    },
+    "expire": 10,
+    "syslogFacility": 0
+  },
+  "statistics": {
+    "redis": {
+      "socket": "",
+      "host": "127.0.0.1",
+      "port": 6381,
+      "key": "statistics/mfvpel/servers/%SERVER_ID%/liveEncodings/%SERVICE_ID%"
+    },
+    "expire": 10,
+    "periodInMs": 1000,
+    "cacheSize": 10
+  },
+  "thumbnails": {
+    "path": "/var/opt/ericsson/encoding-live-worker/thumbnails",
+    "key": "statistics/mfvpel/servers/%SERVER_ID%/liveEncodings_thumbnails/%SERVICE_ID%"
+  },
+  "licensing": {
+    "host": "192.168.21.51",
+    "port": 5093
+  },
+  "controller": {
+    "host": "192.168.21.51"
+  },
+  "commands": {
+    "redis": {
+      "socket": "",
+      "host": "127.0.0.1",
+      "port": 6382,
+      "key": "command/mfvpel/servers/%SERVER_ID%/liveEncodings/%SERVICE_ID%"
+    },
+    "timeout": 200
+  },
+  "esamServer": {
+    "portRangeMin": 9100,
+    "portRangeMax": 9200
+  },
+  "scte104Server": {
+    "portRangeMin": 9201,
+    "portRangeMax": 9300
+  },
+  "serviceDiscovery": {
+    "host": "192.168.21.51",
+    "port": "2379",
+    "ttl": 15,
+    "rootKey": "mediakind/interfacediscovery"
+  },
+  "resiliency": {
+    "host": "192.168.21.51",
+    "port": 8080,
+    "key": "api/pois/resiliency"
+  },
+  "variantState": {
+    "restApi": {
+      "url": "http://192.168.21.51:8080",
+      "endpoint": "/api/services/liveEncodings/%SERVICE_ID%/variantStates"
+    },
+    "rabbitmq": {
+      "url": "amqp://admin:admin@192.168.21.51:5672/",
+      "exchange": "mfvp.services",
+      "key": "notif.services.live_encoding.%SERVICE_ID%.variant_state.changed",
+      "heartbeat": 60
+    }
+  },
+  "lineUp": {
+    "restApi": {
+      "url": "http://192.168.21.51:8080",
+      "endpoint": "/api/liveServices/"
+    },
+    "rabbitmq": {
+      "url": "amqp://admin:admin@192.168.21.51:5672/",
+      "exchange": "mfvp.services",
+      "key": "notif.services.live_services.config_changed",
+      "heartbeat": 60
+    }
+  },
+  "sdiRoute": {
+    "restApi": {
+      "url": "http://192.168.21.51:8080",
+      "endpoint": "/api/flow/route?inputLabel=%INPUT_LABEL%&serviceId=%SERVICE_ID%&serviceType=live_encoding&serverId=%SERVER_ID%"
+    },
+    "rabbitmq": {
+      "url": "amqp://admin:admin@192.168.21.51:5672/",
+      "exchange": "mfvp.services",
+      "key": "notif.services.live_encoding.%SERVICE_ID%.route_set"
+    }
+  },
+  "crashDumpDir": "/var/log/ericsson/encoding-live-worker/private",
+  "unixSocketDir": "/var/lib/ericsson/encoding-live-worker",
+  "unixSocketScte104": "%SERVICE_ID%_automationSystem",
+  "synchroConfDir": "/var/opt/ericsson/encoding-live-worker/synchro",
+  "synchroTraceDir": "/var/log/ericsson/encoding-live-worker/private",
+  "nielsenDecoderLogDir": "/var/log/ericsson/encoding-live-worker/private/nielsen",
+  "nielsenDecoderResultDir": "/var/log/ericsson/encoding-live-worker/private/nielsen",
+  "nielsenRTVODMetadataDir": "/var/log/ericsson/encoding-live-worker/private/nielsen",
+  "flashOverlay.flashExtractor.path": "/opt/ericsson/encoding-live-worker/flashextractor.sh",
+  "flashOverlay.swfEmbedder.dir": "/opt/ericsson/encoding-live-worker/lib",
+  "nielsenLicensePath": "/opt/ericsson/encoding-live-worker/etc/NielsenProd5.3License.lic"
+}

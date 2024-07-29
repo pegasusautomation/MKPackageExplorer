@@ -1,0 +1,784 @@
+Aug  8 00:52:24.902256 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:24.921075 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:25.333317 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:52:25.333336 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:52:25.338509 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:52:25.338526 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:52:25.340357 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:52:25.340368 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:52:25.493579 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Aug  8 00:52:25.498655 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Aug  8 00:52:26.106252 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:52:26.106318 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Aug  8 00:52:29.814119 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:52:29.820653 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:35.283839 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:35.300310 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:35.768278 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:59:35.768309 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:59:35.773574 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:59:35.773600 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:59:35.775439 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:59:35.775459 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:59:36.295393 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Aug  8 00:59:36.301121 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Aug  8 00:59:37.333234 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:59:37.490273 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Aug  8 00:59:37.554444 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:37.554487 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 00:59:40.194326 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:40.199916 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:13.799176 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Stop -----------
+Aug  8 23:10:13.799190 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Stop -----------
+Aug  8 23:10:13.799576 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Stop -----------
+Aug  8 23:10:13.799589 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Stop -----------
+Aug  8 23:10:39.997849 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:40.015638 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:40.432122 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Aug  8 23:10:40.432143 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Aug  8 23:10:40.437401 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 23:10:40.437423 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 23:10:40.439679 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 23:10:40.439695 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 23:10:40.507336 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Aug  8 23:10:40.512879 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Aug  8 23:10:41.415149 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 23:10:41.481126 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:41.481172 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 23:10:41.551154 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Aug  8 23:10:44.909325 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:44.915250 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:31:03.405623 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:31:03.405634 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:31:03.405979 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:31:03.406007 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:31:04.187033 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:04.206141 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:04.595417 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:31:04.595437 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:31:04.600496 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:31:04.600512 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:31:04.602266 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:31:04.602276 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:31:04.650226 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Sep 14 02:31:04.666798 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Sep 14 02:31:05.303777 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:31:05.303844 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Sep 14 02:31:05.367951 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:31:05.367995 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:31:09.005701 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:31:09.098680 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:00.855882 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:39:00.855894 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:39:00.856327 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:39:00.856345 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:39:39.370600 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:39.388477 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:39.788274 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:39:39.788294 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:39:39.793162 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:39:39.793179 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:39:39.794949 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:39:39.794961 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:39:39.858913 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Sep 14 02:39:39.863387 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Sep 14 02:39:40.407233 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:39:40.407335 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Sep 14 02:39:40.497247 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:40.497286 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:39:44.282090 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:44.288107 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:34:27.962318 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Stop -----------
+Sep 25 16:34:27.962330 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Stop -----------
+Sep 25 16:34:27.962675 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Stop -----------
+Sep 25 16:34:27.962688 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Stop -----------
+Sep 25 16:35:31.705688 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:31.723039 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:32.135785 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Sep 25 16:35:32.135807 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Sep 25 16:35:32.141374 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Sep 25 16:35:32.141397 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Sep 25 16:35:32.143276 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Sep 25 16:35:32.143293 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Sep 25 16:35:32.203973 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Sep 25 16:35:32.220677 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Sep 25 16:35:33.318627 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 25 16:35:33.318708 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Sep 25 16:35:33.382797 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:35:33.382849 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 25 16:35:36.616739 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:35:36.622668 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:36.123331 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.140801 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.616658 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Oct 25 03:27:36.616681 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Oct 25 03:27:36.621701 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Oct 25 03:27:36.621723 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Oct 25 03:27:36.623493 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Oct 25 03:27:36.623506 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Oct 25 03:27:37.108954 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Oct 25 03:27:37.114171 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Oct 25 03:27:37.766227 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Oct 25 03:27:37.772535 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Oct 25 03:27:37.832129 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:37.832159 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 25 03:27:41.034283 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:41.040415 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:46:50.132864 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Stop -----------
+Nov 16 16:46:50.132895 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Stop -----------
+Nov 16 16:46:50.133269 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Stop -----------
+Nov 16 16:46:50.133282 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Stop -----------
+Nov 16 16:47:30.421274 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:30.443014 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:30.851878 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Nov 16 16:47:30.851900 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Nov 16 16:47:30.857464 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Nov 16 16:47:30.857496 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Nov 16 16:47:30.859955 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Nov 16 16:47:30.859972 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Nov 16 16:47:30.917543 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Nov 16 16:47:30.934602 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Nov 16 16:47:31.656192 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 16 16:47:31.656292 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Nov 16 16:47:31.720318 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:31.720384 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 16 16:47:35.335219 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:35.342607 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:10.248255 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Stop -----------
+Nov 23 10:21:10.248267 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Stop -----------
+Nov 23 10:21:10.248568 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Stop -----------
+Nov 23 10:21:10.248580 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Stop -----------
+Nov 23 10:21:34.356704 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:34.374755 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:34.801765 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Nov 23 10:21:34.801785 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Nov 23 10:21:34.806613 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Nov 23 10:21:34.806631 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Nov 23 10:21:34.808463 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Nov 23 10:21:34.808477 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Nov 23 10:21:34.874619 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Nov 23 10:21:34.879161 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Nov 23 10:21:35.583836 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 23 10:21:35.583922 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Nov 23 10:21:35.648000 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:35.648050 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 23 10:21:35.705317 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:35.705362 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 23 10:21:39.268388 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:39.274357 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.412230 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Nov 28 14:33:32.416672 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Nov 28 14:33:32.557325 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:33:32.557391 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.557417 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.619055 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.619087 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.653422 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.653446 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.704445 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.704561 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.712333 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.712414 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:33.178460 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:33.178483 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 28 14:33:33.178649 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -1138
+Nov 28 14:33:33.186192 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:48.506699 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Stop -----------
+Nov 28 14:33:48.506710 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Stop -----------
+Nov 28 14:33:48.507070 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Stop -----------
+Nov 28 14:33:48.507083 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Stop -----------
+Nov 28 14:34:10.487015 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:10.504611 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:10.923662 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Nov 28 14:34:10.923682 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Nov 28 14:34:10.928672 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Nov 28 14:34:10.928688 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Nov 28 14:34:10.930551 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Nov 28 14:34:10.930562 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Nov 28 14:34:10.991262 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Nov 28 14:34:11.007565 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Nov 28 14:34:11.551603 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:34:11.551678 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Nov 28 14:34:15.398337 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:15.404108 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.091006 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Nov 29 10:39:28.097182 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Nov 29 10:39:28.255850 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 29 10:39:28.255902 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.256222 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.302051 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.302093 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.304118 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.304138 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.383658 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.384088 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.391666 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.392591 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.563166 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.563188 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 29 10:39:28.563346 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -183
+Nov 29 10:39:28.576383 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.763714 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Nov 29 10:39:46.767596 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Nov 29 10:39:46.896022 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Nov 29 10:39:46.896102 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 0
+Nov 29 10:39:46.896118 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.896139 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.902366 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.902395 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.974671 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.974691 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.985165 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.986109 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.992227 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.992246 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.001170 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.001420 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.065190 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.065470 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.315132 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.315152 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 29 10:39:47.315221 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -183
+Nov 29 10:39:47.330450 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.398278 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 13 10:45:56.404714 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 13 10:45:56.517149 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 10:45:56.517236 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 3116
+Dec 13 10:45:56.517253 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.517274 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.579656 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.579691 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.645615 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.645636 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.699293 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.699616 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.896184 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.896201 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 10:45:56.896285 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -183
+Dec 13 10:45:56.900096 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:32.087724 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 13 10:47:32.092286 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 13 10:47:32.219490 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 10:47:32.219570 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 3116
+Dec 13 10:47:32.219587 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:32.219610 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:32.229329 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:32.229361 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:32.291038 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:32.291071 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:32.325429 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:32.325457 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:32.340417 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:32.340701 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:32.388473 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:32.389240 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:32.659619 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:32.659642 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 10:47:32.659741 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -183
+Dec 13 10:47:32.661509 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.168380 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 13 16:44:48.171778 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 13 16:44:48.470130 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:44:48.470211 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 3175
+Dec 13 16:44:48.470229 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.483388 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:49.008082 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:49.008649 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.005982 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 13 16:47:08.009945 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 13 16:47:08.250730 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 16:47:08.250812 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.251092 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.251255 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.251403 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.291458 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.291490 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.306193 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.306884 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.747812 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.747840 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:47:08.747928 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -183
+Dec 13 16:47:08.756553 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.412001 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 13 16:48:54.417110 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 13 16:48:54.535161 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:48:54.535301 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 3175
+Dec 13 16:48:54.535334 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.535368 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.537236 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.537407 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.540071 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.540107 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.545243 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.545629 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.630615 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.630646 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.660092 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.660125 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.713387 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.713890 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.920475 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.920502 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:48:54.920625 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -183
+Dec 13 16:48:54.922788 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 18 14:02:49.621262 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:49.638008 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:50.020055 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Dec 18 14:02:50.020077 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Dec 18 14:02:50.025047 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Dec 18 14:02:50.025068 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Dec 18 14:02:50.026943 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Dec 18 14:02:50.026955 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Dec 18 14:02:51.002447 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 18 14:02:51.006461 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 18 14:02:51.511022 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 18 14:02:51.642850 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Dec 18 14:02:54.431935 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:02:54.437630 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:03:01.999323 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:03:02.135788 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:05.781196 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 19 13:18:05.784644 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 19 13:18:05.962154 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:18:05.962264 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:05.962300 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:06.066113 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:06.066223 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:06.077202 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:06.077229 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:06.082017 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:06.082082 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:06.489958 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:06.489973 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:18:06.490153 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 19 13:18:06.491582 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:56.155776 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 19 13:29:56.159168 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 19 13:29:56.396401 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 13:29:56.396479 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2
+Dec 19 13:29:56.396496 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:56.396525 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:56.456710 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:56.457372 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:57.066020 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:57.066037 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:29:57.066106 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 19 13:29:57.067649 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.443928 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 19 13:30:24.448492 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 19 13:30:24.587711 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 13:30:24.587788 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2
+Dec 19 13:30:24.587804 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.587825 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.637466 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.637724 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.702121 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.702145 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.731624 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.731658 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.741082 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.744945 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:25.093751 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:25.093767 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:30:25.093836 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 19 13:30:25.102303 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.091916 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 19 14:29:23.095085 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 19 14:29:23.201347 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 14:29:23.201469 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 12
+Dec 19 14:29:23.201496 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.201635 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.225398 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.225737 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.329753 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.329834 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.345873 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.346110 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.393045 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.394025 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.861979 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.861994 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 14:29:23.862066 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 19 14:29:23.867761 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:55.776112 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 20 14:37:55.779595 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 20 14:37:56.076983 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 20 14:37:56.077066 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 242
+Dec 20 14:37:56.077094 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.077206 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.223771 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.223786 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 20 14:37:56.223851 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 20 14:37:56.236883 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.341848 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 28 09:49:09.346591 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 28 09:49:09.552590 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 09:49:09.552680 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2004
+Dec 28 09:49:09.552698 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.553039 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.580655 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.580679 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.640855 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.643100 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:10.187783 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:10.187801 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 09:49:10.187891 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 28 09:49:10.202855 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.055226 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 28 14:40:09.058244 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 28 14:40:09.187923 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 14:40:09.188004 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2046
+Dec 28 14:40:09.188021 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.188130 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.220073 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.220404 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.252186 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.252283 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.268246 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.268354 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.356531 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.374791 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.897118 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.897135 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 14:40:09.897211 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 28 14:40:09.902625 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:14.989248 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 28 14:59:14.992969 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 28 14:59:15.122050 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 14:59:15.122132 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2048
+Dec 28 14:59:15.122149 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.122523 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.166630 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.166663 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.212940 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.212974 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.231194 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.231223 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.234399 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.234583 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.266571 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.266765 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.290119 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.290654 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.876775 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.876971 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.289210 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 29 10:37:02.292267 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 29 10:37:02.495913 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 29 10:37:02.495979 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.496004 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.498010 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.498032 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.590662 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.591213 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.875767 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.875792 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 29 10:37:02.875891 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -403
+Dec 29 10:37:03.386135 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.285538 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 29 13:40:39.289120 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 29 13:40:39.425777 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 29 13:40:39.425855 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2076
+Dec 29 13:40:39.425873 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.425894 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.432166 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.432200 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.571350 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.571467 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.585841 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.587217 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:40.047721 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:40.047737 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 29 13:40:40.047805 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -403
+Dec 29 13:40:40.052921 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.750299 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Dec 29 13:41:58.754285 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Dec 29 13:41:58.872008 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 29 13:41:58.872090 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2076
+Dec 29 13:41:58.872108 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.872131 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.882629 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.882867 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.890660 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.890832 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.947692 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.947743 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.954867 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.954955 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.955011 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.955120 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.992782 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.992804 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.051394 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.051704 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.494702 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.494726 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 29 13:41:59.494823 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -403
+Dec 29 13:41:59.500928 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.615120 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Jan 24 13:28:58.617914 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Jan 24 13:28:58.756290 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Jan 24 13:28:58.756400 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 7999
+Jan 24 13:28:58.756417 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.756681 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.892701 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.892977 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.897314 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.897338 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.908755 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.909111 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.916243 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.916764 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:59.237095 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:59.237113 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Jan 24 13:28:59.237199 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -403
+Jan 24 13:28:59.245946 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.321033 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Jan 24 13:29:24.325261 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Jan 24 13:29:24.453180 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Jan 24 13:29:24.453294 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 7999
+Jan 24 13:29:24.453325 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.453359 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.531047 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.531071 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.548595 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.548617 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.621586 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.623391 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.028783 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.028808 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Jan 24 13:29:25.028910 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -403
+Jan 24 13:29:25.032877 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.489932 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Jan 24 13:29:42.493728 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Jan 24 13:29:42.662969 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Jan 24 13:29:42.663061 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 7999
+Jan 24 13:29:42.663084 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.663260 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.679014 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.679347 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.708119 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.708142 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.727193 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.727272 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.790918 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.791415 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:43.247245 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:43.247263 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Jan 24 13:29:43.247334 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -403
+Jan 24 13:29:43.257095 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:19.612469 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Stop -----------
+Jan 24 13:31:19.612480 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Stop -----------
+Jan 24 13:31:19.612902 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Stop -----------
+Jan 24 13:31:19.612925 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Stop -----------
+Jan 24 13:31:43.407526 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:43.425429 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:43.821414 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Jan 24 13:31:43.821435 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Jan 24 13:31:43.827286 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Jan 24 13:31:43.827303 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Jan 24 13:31:43.829169 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Jan 24 13:31:43.829181 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Jan 24 13:31:43.904189 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Jan 24 13:31:43.908267 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Jan 24 13:31:44.527569 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:31:44.527680 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Jan 24 13:31:44.591715 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:44.591777 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:44.708100 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:44.708143 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:48.318717 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:48.325056 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.048795 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Feb 19 10:31:36.053520 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Feb 19 10:31:36.169585 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 10:31:36.169718 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.169756 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.227814 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.227837 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.276786 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.276920 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.289586 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.289626 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.291684 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.291706 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.348792 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.349906 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.889062 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.889081 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 10:31:36.889226 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -5961
+Feb 19 10:31:36.902828 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.129564 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Feb 19 10:57:20.133350 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Feb 19 10:57:20.256708 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 19 10:57:20.256792 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 4
+Feb 19 10:57:20.256811 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.256842 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.354939 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.354963 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.400600 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.400622 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.430279 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.430741 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.863860 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.863876 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 10:57:20.863941 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -5961
+Feb 19 10:57:20.871878 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.283168 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Feb 19 11:03:59.287850 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Feb 19 11:03:59.404219 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 19 11:03:59.404297 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 4
+Feb 19 11:03:59.404314 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.404602 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.468496 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.468691 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.524676 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.524852 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.532685 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.532762 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.568964 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.569001 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.571072 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.571106 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.580862 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.583661 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:04:00.096818 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:04:00.096834 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 11:04:00.096906 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -5961
+Feb 19 11:04:00.102767 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.488926 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Feb 19 11:11:40.493352 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Feb 19 11:11:40.657196 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 19 11:11:40.657301 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 5
+Feb 19 11:11:40.657325 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.657359 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.772282 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.772318 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.789777 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.790202 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:41.323894 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:41.323909 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 11:11:41.323985 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -5961
+Feb 19 11:11:41.328075 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.388635 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Feb 21 16:49:38.392964 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Feb 21 16:49:38.519708 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 21 16:49:38.519819 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 522
+Feb 21 16:49:38.519845 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.520009 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.520057 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.520302 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.567893 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.567996 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.616042 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.616117 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.688330 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.688561 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.897045 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:39.389079 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.024100 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Feb 23 17:14:49.028145 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Feb 23 17:14:49.149003 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 23 17:14:49.149088 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.149210 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.157024 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.157346 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.172634 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.172668 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.221261 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.221352 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.229240 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.229338 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.270860 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.270884 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.315746 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.315768 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.324884 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.325655 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.496878 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.496969 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 23 17:14:49.497068 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -6428
+Feb 23 17:14:49.510329 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.175389 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Feb 23 17:15:56.183157 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Feb 23 17:15:56.313653 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 23 17:15:56.313733 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 522
+Feb 23 17:15:56.313750 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.313953 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.345757 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.346033 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.372611 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.372635 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.409980 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.410051 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.426028 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.426201 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.472249 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.472278 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.474405 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.475762 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.665979 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.665995 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 23 17:15:56.666073 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -6428
+Feb 23 17:15:56.666932 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:06:26.470794 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:26.488270 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:27.221865 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:06:27.221888 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:06:27.228007 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:06:27.228034 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:06:27.229873 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:06:27.229886 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:06:27.823155 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Feb 27 10:06:27.828420 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Feb 27 10:06:28.918878 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:06:29.097011 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Feb 27 10:06:31.681589 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:31.687915 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:39.681505 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:39.906944 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:08:15.780432 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Stop -----------
+Feb 27 10:08:15.780448 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Stop -----------
+Feb 27 10:08:15.781033 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Stop -----------
+Feb 27 10:08:15.781056 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Stop -----------
+Feb 27 10:08:56.110250 CS24_TS14_gongyoung shop  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:08:56.127898 CS24_TS14_gongyoung shop  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:08:56.539716 CS24_TS14_gongyoung shop  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:08:56.539737 CS24_TS14_gongyoung shop  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:08:56.544404 CS24_TS14_gongyoung shop  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:08:56.544422 CS24_TS14_gongyoung shop  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:08:56.546163 CS24_TS14_gongyoung shop  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:08:56.546174 CS24_TS14_gongyoung shop  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:08:56.611994 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Feb 27 10:08:56.617044 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Feb 27 10:08:57.055067 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:08:57.055146 CS24_TS14_gongyoung shop  [SWITCHER 1]  First sample received
+Feb 27 10:09:01.021697 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:09:01.027478 CS24_TS14_gongyoung shop  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:13:41.204839 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:13:41.204972 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:13:42.169220 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:13:42.169427 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:28:58.852840 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:28:58.853027 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:31:46.988885 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:31:46.988916 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.667196 CS24_TS14_gongyoung shop  [CAPTURE 1_0] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.51 
+Mar 13 10:36:42.671680 CS24_TS14_gongyoung shop  [CAPTURE 1_1] Connect to url udp://239.10.20.13:5000 using interface 172.16.12.141 
+Mar 13 10:36:42.859003 CS24_TS14_gongyoung shop  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Mar 13 10:36:42.859074 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.859104 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.877938 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.877963 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.906751 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.906780 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.943088 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.943484 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.959145 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.959928 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.967153 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.967800 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.365840 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.365863 CS24_TS14_gongyoung shop  [SWITCHER 1]  Switch active source from 0 to 1
+Mar 13 10:36:43.366034 CS24_TS14_gongyoung shop  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -3502
+Mar 13 10:36:43.368618 CS24_TS14_gongyoung shop  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK

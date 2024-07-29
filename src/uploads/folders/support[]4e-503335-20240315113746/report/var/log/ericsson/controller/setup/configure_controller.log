@@ -1,0 +1,1400 @@
+*******************************************
+Thu May 12 06:28:28 UTC 2022 - configure_controller with parameters --serverID standalone --controllerIP1 192.168.21.52
+A new controller installation has been detected
+Configuring support
+Configuring support package
+Ignoring adaptPyVersion.py file
+Installing firewall-cmd-list-all selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/firewall-cmd-list-all.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/firewall-cmd-list-all.mod
+Installing mk-dbus selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/mk-dbus.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/mk-dbus.mod
+Configuring mongo
+Enabling: mongod
+Restarting: mongod
+Creating MongoDB user accounts
+check mongo is ready
+connected
+Checking replica set configuration
+Creating user: MediaKind for db: admin with role: root.
+Creating user: MediaKind for db: admin with role: root.
+Successfully created MongoDB user: MediaKind for database: admin
+Successfully created MongoDB user: MediaKind for database: admin
+Creating user: keepalived for db: admin with role: read.
+Creating user: keepalived for db: admin with role: read.
+Successfully created MongoDB user: keepalived for database: admin
+Successfully created MongoDB user: keepalived for database: admin
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+Successfully created MongoDB user: MediaKind for database: envivioCluster
+Successfully created MongoDB user: MediaKind for database: envivioCluster
+Creating user: MediaKind for db: alarm with role: readWrite.
+Creating user: MediaKind for db: alarm with role: readWrite.
+Successfully created MongoDB user: MediaKind for database: alarm
+Successfully created MongoDB user: MediaKind for database: alarm
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+Successfully created MongoDB user: MediaKind for database: mediakindMongolock
+Successfully created MongoDB user: MediaKind for database: mediakindMongolock
+Configuring system...
+Configuring SElinux...
+Configuring firewall...
+check that firewalld is running
+Configuring firewall for license-manager
+Opening firewalld port 5093 for license-manager
+success
+Opening firewalld port 8080 for license-manager
+Warning: ALREADY_ENABLED: '8080:tcp'
+success
+Configuring firewall for rabbitmq-server
+Opening firewalld port 5672 for rabbitmq-server
+success
+Opening firewalld port 25672 for rabbitmq-server
+success
+Opening firewalld port 4369 for rabbitmq-server
+success
+Configuring firewall for mongoDB
+Opening firewalld for mongoDB port 27017
+success
+Configuring firewall for Apache
+Opening firewalld port 8080 for Apache HTTP
+Port 8080 has already been opened in configure_firewall_license-manager()
+Opening firewalld port 8443 for Apache HTTPS
+Creating new controller-ui firewalld service
+success
+success
+success
+success
+Configuring firewall for ETCD
+Opening firewalld for ETCD client port 2379
+success
+Opening firewalld for ETCD peer port 2380
+success
+Configuring firewall for interface-discovery
+Opening firewalld for interface-discovery port 8200
+success
+Saving firewall rules
+Configuring apache...
+Creating JWT authentication directories
+Generating JWT private key and self-signed certificate
+Generating a 2048 bit RSA private key
+......+++
+..........+++
+writing new private key to '/etc/pki/authentication/private/authentication.key'
+-----
+Setting permissions on JWT authentication files
+Verifying apache config for httpd...
+AH00548: NameVirtualHost has no effect and will be removed in the next release /etc/httpd/conf.d/ericsson-proxy-controller.conf:1
+[Thu May 12 15:28:50.884726 2022] [alias:warn] [pid 12833] AH00671: The Alias directive in /etc/httpd/conf.d/ericsson-proxy-license-manager.conf at line 8 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::567b:da57:285f:40eb. Set the 'ServerName' directive globally to suppress this message
+Syntax OK
+Patching rsyslog logrotate configuration file due to a bug in rsyslog.
+/etc/logrotate.d/syslog patched.
+Enabling: httpd
+Restarting: httpd
+Enabling MongoDB client authorization and internal authentication
+Enabling: mongod
+Restarting: mongod
+check mongo is ready
+connected
+Configuring ETCD as a standalone node
+Configure ETCD as standalone Node
+Logging stdout and stderr output to /var/log/ericsson/controller/setup/configure_etcd.log
+Remote execution: stdout/stderr will not be logged
+Specified ETCD Node name: standalone
+Specified local IP Address: 127.0.0.1
+*******************************************
+Thu May 12 15:28:52 KST 2022 - configure_etcd
+Configuring node instance parameters
+Setting node name to standalone
+Setting peer listen URLs to: http://127.0.0.1:2380
+Setting listen client URLs to: http://0.0.0.0:2379
+Setting listen client advertise URLs to: http://localhost:2379
+Enabling: etcd
+Created symlink from /etc/systemd/system/multi-user.target.wants/etcd.service to /usr/lib/systemd/system/etcd.service.
+Restarting: etcd
+rabbitMQ check_cluster...
+Configuring rabbitmq-server
+/etc/logrotate.d/rabbitmq-server already exists
+config saved as /etc/logrotate.d/rabbitmq-server.rpmsave
+Enabling plugins on node controller@192.168.21.52:
+rabbitmq_management
+The following plugins have been configured:
+  rabbitmq_management
+  rabbitmq_management_agent
+  rabbitmq_web_dispatch
+Applying plugin configuration to controller@192.168.21.52...
+The following plugins have been enabled:
+  rabbitmq_management
+  rabbitmq_management_agent
+  rabbitmq_web_dispatch
+
+set 3 plugins.
+Offline change; changes will take effect at broker restart.
+Enabling: rabbitmq-server
+Created symlink from /etc/systemd/system/multi-user.target.wants/rabbitmq-server.service to /usr/lib/systemd/system/rabbitmq-server.service.
+Restarting: rabbitmq-server
+Checking RabbitMQ users list
+Listing users ...
+user	tags
+guest	[administrator]
+Adding RabbitMQ admin user
+Adding user "admin" ...
+Setting RabbitMQ admin user permissions
+Setting permissions for user "admin" in vhost "/" ...
+Setting RabbitMQ admin user tags
+Setting tags for user "admin" to [administrator] ...
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/alarm?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("7e898a93-be34-424f-972a-88723140ffb5") }
+MongoDB server version: 4.4.9
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/envivioCluster?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("d8922d39-0b65-450b-971a-7474c0bc9278") }
+MongoDB server version: 4.4.9
+WriteResult({ "nRemoved" : 0 })
+Upgrading MongoDB alarms on controller at 127.0.0.1:27017
+Updating old active/history alarm IDs...
+success
+Removing alarm catalogue entries for old alarm IDs...
+success
+Configuring unified-ui
+Configuring template-api
+Configuring server-api
+Configuring flow
+Configuring service-api
+Configuring server-daemon
+Configuring alarm-proxy
+Configuring selinux for alarm-proxy
+Configuring alarm-api
+Configuring failover-api
+Configuring server-monitor
+Configuring snmp-notification
+Configuring interface-discovery
+Configuring esam-proxy
+Configuring controller-config
+Configuring nmos-sidecar
+Configuring license-manager
+Enabling: httpd
+Restarting: httpd
+Enabling: ericsson-unified-ui
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-unified-ui.service to /etc/systemd/system/ericsson-unified-ui.service.
+Restarting: ericsson-unified-ui
+Enabling: ericsson-server-api
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-server-api.service to /etc/systemd/system/ericsson-server-api.service.
+Restarting: ericsson-server-api
+Enabling: ericsson-flow
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-flow.service to /etc/systemd/system/ericsson-flow.service.
+Restarting: ericsson-flow
+Enabling: ericsson-service-api
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-service-api.service to /etc/systemd/system/ericsson-service-api.service.
+Restarting: ericsson-service-api
+Enabling: ericsson-service-monitor
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-service-monitor.service to /etc/systemd/system/ericsson-service-monitor.service.
+Restarting: ericsson-service-monitor
+Enabling: ericsson-template-api
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-template-api.service to /etc/systemd/system/ericsson-template-api.service.
+Restarting: ericsson-template-api
+Enabling: ericsson-server-daemon
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-server-daemon.service to /etc/systemd/system/ericsson-server-daemon.service.
+Restarting: ericsson-server-daemon
+Enabling: ericsson-alarm-proxy-redis
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-alarm-proxy-redis.service to /etc/systemd/system/ericsson-alarm-proxy-redis.service.
+Restarting: ericsson-alarm-proxy-redis
+Enabling: ericsson-alarm-proxy
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-alarm-proxy.service to /etc/systemd/system/ericsson-alarm-proxy.service.
+Restarting: ericsson-alarm-proxy
+Enabling: ericsson-alarm-api
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-alarm-api.service to /etc/systemd/system/ericsson-alarm-api.service.
+Restarting: ericsson-alarm-api
+Enabling: ericsson-alarm-collector
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-alarm-collector.service to /etc/systemd/system/ericsson-alarm-collector.service.
+Restarting: ericsson-alarm-collector
+Enabling: ericsson-alarm-daemon
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-alarm-daemon.service to /etc/systemd/system/ericsson-alarm-daemon.service.
+Restarting: ericsson-alarm-daemon
+Enabling: ericsson-alarm-legacy-collector
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-alarm-legacy-collector.service to /etc/systemd/system/ericsson-alarm-legacy-collector.service.
+Restarting: ericsson-alarm-legacy-collector
+Enabling: ericsson-alarm-legacy-daemon
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-alarm-legacy-daemon.service to /etc/systemd/system/ericsson-alarm-legacy-daemon.service.
+Restarting: ericsson-alarm-legacy-daemon
+Enabling: ericsson-controller-mapserverid
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-controller-mapserverid.service to /etc/systemd/system/ericsson-controller-mapserverid.service.
+Restarting: ericsson-controller-mapserverid
+Enabling: ericsson-unified-ui-celery
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-unified-ui-celery.service to /etc/systemd/system/ericsson-unified-ui-celery.service.
+Restarting: ericsson-unified-ui-celery
+Enabling: ericsson-unified-ui-celerybeat
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-unified-ui-celerybeat.service to /etc/systemd/system/ericsson-unified-ui-celerybeat.service.
+Restarting: ericsson-unified-ui-celerybeat
+Enabling: ericsson-unified-ui-daphne
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-unified-ui-daphne.service to /etc/systemd/system/ericsson-unified-ui-daphne.service.
+Restarting: ericsson-unified-ui-daphne
+Enabling: ericsson-unified-ui-ws
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-unified-ui-ws.service to /etc/systemd/system/ericsson-unified-ui-ws.service.
+Restarting: ericsson-unified-ui-ws
+Enabling: ericsson-failover-api
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-failover-api.service to /etc/systemd/system/ericsson-failover-api.service.
+Restarting: ericsson-failover-api
+Enabling: ericsson-failover-api-celery
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-failover-api-celery.service to /etc/systemd/system/ericsson-failover-api-celery.service.
+Restarting: ericsson-failover-api-celery
+Enabling: ericsson-failover-daemon
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-failover-daemon.service to /etc/systemd/system/ericsson-failover-daemon.service.
+Restarting: ericsson-failover-daemon
+Enabling: ericsson-server-monitor
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-server-monitor.service to /etc/systemd/system/ericsson-server-monitor.service.
+Restarting: ericsson-server-monitor
+Enabling: ericsson-snmp-notification
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-snmp-notification.service to /etc/systemd/system/ericsson-snmp-notification.service.
+Restarting: ericsson-snmp-notification
+Enabling: ericsson-interface-discovery
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-interface-discovery.service to /etc/systemd/system/ericsson-interface-discovery.service.
+Restarting: ericsson-interface-discovery
+Enabling: ericsson-esam-proxy
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-esam-proxy.service to /etc/systemd/system/ericsson-esam-proxy.service.
+Restarting: ericsson-esam-proxy
+Enabling: ericsson-controller-config
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-controller-config.service to /etc/systemd/system/ericsson-controller-config.service.
+Restarting: ericsson-controller-config
+Enabling: ericsson-nmos-sidecar
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-nmos-sidecar.service to /etc/systemd/system/ericsson-nmos-sidecar.service.
+Restarting: ericsson-nmos-sidecar
+Enabling: ericsson-license-server
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-license-server.service to /etc/systemd/system/ericsson-license-server.service.
+Restarting: ericsson-license-server
+Enabling: ericsson-license-api
+Created symlink from /etc/systemd/system/multi-user.target.wants/ericsson-license-api.service to /etc/systemd/system/ericsson-license-api.service.
+Restarting: ericsson-license-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+save_controller-config
+{"ipController1" : "192.168.21.52",    "serverID" : "standalone", "httpsPort" : "8443"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   237  100   150  100    87   2747   1593 --:--:-- --:--:-- --:--:--  2830
+{"network": {"ipController1": "192.168.21.52", "ipController2": null, "vip": null, "viplicense": null, "httpsPort": "8443", "serverID": "standalone"}}register controller server_id=standalone
+Server standalone does not exist...
+Server standalone successfully created!
+register licensing server_id=standalone
+Server standalone already exists...
+b'{"serverId": "standalone", "supportedServiceTypes": ["controller", "licensing"], "supportPackageUrl": "", "canBeDeleted": true, "canBeRebooted": false, "hideServer": false, "timeout": 10, "tags": []}': Server standalone successfully modified!
+Setting RabbitMQ policies
+Setting RabbitMQ max length policy
+Setting policy "max-length" for pattern "" to "{"max-length":50000}" with priority "0" for vhost "/" ...
+Check ntp...
+ntp-4.2.6p5-29.el7.centos.2.x86_64
+unsynchronised
+poll interval unknown
+
+WARNING : ntp is NOT synchronised. The system cannot work correctly if clocks are out-of-sync.
+Please configure ntp and make sure it is synchronised. There is no requirement to re-run configure.sh on this controller afterwards.
+no crontab for root
+no crontab for root
+@reboot /opt/ericsson/controller/setup/repair_secondary_mongodb.sh >> /var/log/ericsson/controller/setup/repair_secondary_mongodb.log 2>&1
+@reboot /opt/ericsson/controller/setup/repair_secondary_mongodb.sh >> /var/log/ericsson/controller/setup/repair_secondary_mongodb.log 2>&1
+@reboot sleep 300 && /opt/ericsson/python3.7/bin/python3.7 /opt/ericsson/controller/setup/rescue_rabbitmq.py --delete_stuck_queues >> /var/log/ericsson/controller/setup/rescue_rabbitmq.log 2>&1
+/opt/ericsson/unified-ui/bin/python3.7  /opt/ericsson/controller/setup/params.py save -c1 192.168.21.52    -s standalone -ps 8443
+2022-05-12 15:31:02,708 | params | INFO     | save (write): {'network': {'ipController1': '192.168.21.52', 'ipController2': '', 'vip': '', 'viplicense': '', 'serverID': 'standalone', 'httpsPort': '8443'}}
+Saving configure parameters --serverID standalone --controllerIP1 192.168.21.52 to /opt/ericsson/controller/setup/last_configure.sh
+*******************************************
+Thu May 12 06:59:04 UTC 2022 - configure_controller with parameters --serverID standalone --controllerIP1 192.168.21.52
+An existing controller installation has been detected
+Configuring support
+Configuring support package
+Ignoring adaptPyVersion.py file
+Installing firewall-cmd-list-all selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/firewall-cmd-list-all.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/firewall-cmd-list-all.mod
+Installing mk-dbus selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/mk-dbus.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/mk-dbus.mod
+Configuring mongo
+/etc/logrotate.d/mongodb already exists
+config saved as /etc/logrotate.d/mongodb.rpmsave
+Enabling: mongod
+Restarting: mongod
+Creating MongoDB user accounts
+check mongo is ready
+Error: couldn't connect to server 127.0.0.1:27017, connection attempt failed: SocketException: Error connecting to 127.0.0.1:27017 :: caused by :: Connection timed out :
+connect@src/mongo/shell/mongo.js:374:17
+@(connect):3:6
+exception: connect failed
+exiting with code 1
+Waiting 0 second(s) until next attempt...Error: couldn't connect to server 127.0.0.1:27017, connection attempt failed: SocketException: Error connecting to 127.0.0.1:27017 :: caused by :: Connection timed out :
+connect@src/mongo/shell/mongo.js:374:17
+@(connect):3:6
+exception: connect failed
+exiting with code 1
+Waiting 1 second(s) until next attempt...Error: couldn't connect to server 127.0.0.1:27017, connection attempt failed: SocketException: Error connecting to 127.0.0.1:27017 :: caused by :: Connection timed out :
+connect@src/mongo/shell/mongo.js:374:17
+@(connect):3:6
+exception: connect failed
+exiting with code 1
+Waiting 2 second(s) until next attempt...Error: couldn't connect to server 127.0.0.1:27017, connection attempt failed: SocketException: Error connecting to 127.0.0.1:27017 :: caused by :: Connection timed out :
+connect@src/mongo/shell/mongo.js:374:17
+@(connect):3:6
+exception: connect failed
+exiting with code 1
+Waiting 3 second(s) until next attempt...Error: couldn't connect to server 127.0.0.1:27017, connection attempt failed: SocketException: Error connecting to 127.0.0.1:27017 :: caused by :: Connection timed out :
+connect@src/mongo/shell/mongo.js:374:17
+@(connect):3:6
+exception: connect failed
+exiting with code 1
+Waiting 4 second(s) until next attempt...Error: couldn't connect to server 127.0.0.1:27017, connection attempt failed: SocketException: Error connecting to 127.0.0.1:27017 :: caused by :: Connection timed out :
+connect@src/mongo/shell/mongo.js:374:17
+@(connect):3:6
+exception: connect failed
+exiting with code 1
+Waiting 5 second(s) until next attempt...Error: couldn't connect to server 127.0.0.1:27017, connection attempt failed: SocketException: Error connecting to 127.0.0.1:27017 :: caused by :: Connection timed out :
+connect@src/mongo/shell/mongo.js:374:17
+@(connect):3:6
+exception: connect failed
+exiting with code 1
+Waiting 6 second(s) until next attempt...Error: couldn't connect to server 127.0.0.1:27017, connection attempt failed: SocketException: Error connecting to 127.0.0.1:27017 :: caused by :: Connection timed out :
+connect@src/mongo/shell/mongo.js:374:17
+@(connect):3:6
+exception: connect failed
+exiting with code 1
+Waiting 7 second(s) until next attempt...connected
+Checking replica set configuration
+Locating MongoDB primary amongst 192.168.21.52 
+Trying 192.168.21.52
+Primary controller has been detected on 192.168.21.52
+Creating user: MediaKind for db: admin with role: root.
+Creating user: MediaKind for db: admin with role: root.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: admin
+MongoDB user: MediaKind already exists for database: admin
+Creating user: keepalived for db: admin with role: read.
+Creating user: keepalived for db: admin with role: read.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: keepalived already exists for database: admin
+MongoDB user: keepalived already exists for database: admin
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: envivioCluster
+MongoDB user: MediaKind already exists for database: envivioCluster
+Creating user: MediaKind for db: alarm with role: readWrite.
+Creating user: MediaKind for db: alarm with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: alarm
+MongoDB user: MediaKind already exists for database: alarm
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: mediakindMongolock
+MongoDB user: MediaKind already exists for database: mediakindMongolock
+Configuring system...
+Configuring SElinux...
+Configuring firewall...
+check that firewalld is running
+Configuring firewall for license-manager
+Opening firewalld port 5093 for license-manager
+Warning: ALREADY_ENABLED: '5093:udp'
+success
+Opening firewalld port 8080 for license-manager
+Warning: ALREADY_ENABLED: '8080:tcp'
+success
+Configuring firewall for rabbitmq-server
+Opening firewalld port 5672 for rabbitmq-server
+Warning: ALREADY_ENABLED: '5672:tcp'
+success
+Opening firewalld port 25672 for rabbitmq-server
+Warning: ALREADY_ENABLED: '25672:tcp'
+success
+Opening firewalld port 4369 for rabbitmq-server
+Warning: ALREADY_ENABLED: '4369:tcp'
+success
+Configuring firewall for mongoDB
+Opening firewalld for mongoDB port 27017
+Warning: ALREADY_ENABLED: '27017:tcp'
+success
+Configuring firewall for Apache
+Opening firewalld port 8080 for Apache HTTP
+Port 8080 has already been opened in configure_firewall_license-manager()
+Opening firewalld port 8443 for Apache HTTPS
+Found existing controller-ui firewalld service - deleting
+Removing service 'controller-ui' from default zone.
+success
+success
+Creating new controller-ui firewalld service
+success
+success
+success
+success
+Configuring firewall for ETCD
+Opening firewalld for ETCD client port 2379
+Warning: ALREADY_ENABLED: '2379:tcp'
+success
+Opening firewalld for ETCD peer port 2380
+Warning: ALREADY_ENABLED: '2380:tcp'
+success
+Configuring firewall for interface-discovery
+Opening firewalld for interface-discovery port 8200
+Warning: ALREADY_ENABLED: '8200:tcp'
+success
+Saving firewall rules
+Configuring apache...
+Creating JWT authentication directories
+Setting permissions on JWT authentication files
+Verifying apache config for httpd...
+AH00548: NameVirtualHost has no effect and will be removed in the next release /etc/httpd/conf.d/ericsson-proxy-controller.conf:1
+[Thu May 12 16:00:36.576400 2022] [alias:warn] [pid 27424] AH00671: The Alias directive in /etc/httpd/conf.d/ericsson-proxy-license-manager.conf at line 8 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.21.52. Set the 'ServerName' directive globally to suppress this message
+Syntax OK
+Patching rsyslog logrotate configuration file due to a bug in rsyslog.
+WARNING: /etc/logrotate.d/syslog either patched already or rsyslog not installed.
+WARNING: If this is a fresh install and not an upgrade please check /etc/logrotate.d/syslog for errors.
+Enabling: httpd
+Restarting: httpd
+Enabling MongoDB client authorization and internal authentication
+Enabling: mongod
+Restarting: mongod
+check mongo is ready
+connected
+Configuring ETCD as a standalone node
+Configure ETCD as standalone Node
+Logging stdout and stderr output to /var/log/ericsson/controller/setup/configure_etcd.log
+Remote execution: stdout/stderr will not be logged
+Specified ETCD Node name: standalone
+Specified local IP Address: 127.0.0.1
+*******************************************
+Thu May 12 16:00:37 KST 2022 - configure_etcd
+Configuring node instance parameters
+Setting node name to standalone
+Setting peer listen URLs to: http://127.0.0.1:2380
+Setting listen client URLs to: http://0.0.0.0:2379
+Setting listen client advertise URLs to: http://localhost:2379
+Enabling: etcd
+Restarting: etcd
+rabbitMQ check_cluster...
+resetting rabbitMQ cluster
+Stopping rabbit application on node controller@192.168.21.52 ...
+Resetting node controller@192.168.21.52 ...
+Configuring rabbitmq-server
+/etc/rabbitmq/rabbitmq.conf already exists
+config saved as /etc/rabbitmq/rabbitmq.conf.back
+/etc/rabbitmq/rabbitmq-env.conf already exists
+config saved as /etc/rabbitmq/rabbitmq-env.conf.back
+/etc/systemd/system/rabbitmq-server.service.d/limits.conf already exists
+config saved as /etc/systemd/system/rabbitmq-server.service.d/limits.conf.back
+/etc/logrotate.d/rabbitmq-server already exists
+config saved as /etc/logrotate.d/rabbitmq-server.rpmsave
+Enabling plugins on node controller@192.168.21.52:
+rabbitmq_management
+The following plugins have been configured:
+  rabbitmq_management
+  rabbitmq_management_agent
+  rabbitmq_web_dispatch
+Applying plugin configuration to controller@192.168.21.52...
+Plugin configuration unchanged.
+Enabling: rabbitmq-server
+Restarting: rabbitmq-server
+Checking RabbitMQ users list
+Listing users ...
+user	tags
+guest	[administrator]
+Adding RabbitMQ admin user
+Adding user "admin" ...
+Setting RabbitMQ admin user permissions
+Setting permissions for user "admin" in vhost "/" ...
+Setting RabbitMQ admin user tags
+Setting tags for user "admin" to [administrator] ...
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/alarm?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("a35ace2d-2f4d-4703-a5fb-d90d5edc3384") }
+MongoDB server version: 4.4.9
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/envivioCluster?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("24b4d332-cf62-4647-a57a-8c664b2cc461") }
+MongoDB server version: 4.4.9
+WriteResult({ "nRemoved" : 0 })
+Upgrading MongoDB alarms on controller at 127.0.0.1:27017
+Updating old active/history alarm IDs...
+success
+Removing alarm catalogue entries for old alarm IDs...
+success
+Configuring unified-ui
+Configuring template-api
+Configuring server-api
+Configuring flow
+Configuring service-api
+Configuring server-daemon
+2022-05-12 16:04:45,413 | cfg_soft | INFO     | controller: update name ericsson-controller -> ericsson-controller
+2022-05-12 16:04:45,413 | cfg_soft | INFO     | controller : update version 14.0.4.657 -> 14.0.4.657
+2022-05-12 16:04:46,119 | cfg_soft | INFO     | licensing: update name ericsson-license-manager -> ericsson-license-manager
+2022-05-12 16:04:46,119 | cfg_soft | INFO     | licensing : update version 0.72.0-0 -> 0.72.0-0
+Configuring alarm-proxy
+Configuring selinux for alarm-proxy
+Configuring alarm-api
+Configuring failover-api
+Configuring server-monitor
+Configuring snmp-notification
+Configuring interface-discovery
+Configuring esam-proxy
+Configuring controller-config
+Configuring nmos-sidecar
+Configuring license-manager
+Enabling: httpd
+Restarting: httpd
+Enabling: ericsson-unified-ui
+Restarting: ericsson-unified-ui
+Enabling: ericsson-server-api
+Restarting: ericsson-server-api
+Enabling: ericsson-flow
+Restarting: ericsson-flow
+Enabling: ericsson-service-api
+Restarting: ericsson-service-api
+Enabling: ericsson-service-monitor
+Restarting: ericsson-service-monitor
+Enabling: ericsson-template-api
+Restarting: ericsson-template-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+Enabling: ericsson-alarm-proxy-redis
+Restarting: ericsson-alarm-proxy-redis
+Enabling: ericsson-alarm-proxy
+Restarting: ericsson-alarm-proxy
+Enabling: ericsson-alarm-api
+Restarting: ericsson-alarm-api
+Enabling: ericsson-alarm-collector
+Restarting: ericsson-alarm-collector
+Enabling: ericsson-alarm-daemon
+Restarting: ericsson-alarm-daemon
+Enabling: ericsson-alarm-legacy-collector
+Restarting: ericsson-alarm-legacy-collector
+Enabling: ericsson-alarm-legacy-daemon
+Restarting: ericsson-alarm-legacy-daemon
+Enabling: ericsson-controller-mapserverid
+Restarting: ericsson-controller-mapserverid
+Enabling: ericsson-unified-ui-celery
+Restarting: ericsson-unified-ui-celery
+Enabling: ericsson-unified-ui-celerybeat
+Restarting: ericsson-unified-ui-celerybeat
+Enabling: ericsson-unified-ui-daphne
+Restarting: ericsson-unified-ui-daphne
+Enabling: ericsson-unified-ui-ws
+Restarting: ericsson-unified-ui-ws
+Enabling: ericsson-failover-api
+Restarting: ericsson-failover-api
+Enabling: ericsson-failover-api-celery
+Restarting: ericsson-failover-api-celery
+Enabling: ericsson-failover-daemon
+Restarting: ericsson-failover-daemon
+Enabling: ericsson-server-monitor
+Restarting: ericsson-server-monitor
+Enabling: ericsson-snmp-notification
+Restarting: ericsson-snmp-notification
+Enabling: ericsson-interface-discovery
+Restarting: ericsson-interface-discovery
+Enabling: ericsson-esam-proxy
+Restarting: ericsson-esam-proxy
+Enabling: ericsson-controller-config
+Restarting: ericsson-controller-config
+Enabling: ericsson-nmos-sidecar
+Restarting: ericsson-nmos-sidecar
+Enabling: ericsson-license-server
+Restarting: ericsson-license-server
+Enabling: ericsson-license-api
+Restarting: ericsson-license-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+save_controller-config
+{"ipController1" : "192.168.21.52",    "serverID" : "standalone", "httpsPort" : "8443"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   237  100   150  100    87   7712   4473 --:--:-- --:--:-- --:--:--  8333
+{"network": {"ipController1": "192.168.21.52", "ipController2": null, "vip": null, "viplicense": null, "httpsPort": "8443", "serverID": "standalone"}}register controller server_id=standalone
+Server standalone already exists...
+Server standalone already supports controller type! or support package url
+register licensing server_id=standalone
+Server standalone already exists...
+Server standalone already supports licensing type! or support package url
+Setting RabbitMQ policies
+Setting RabbitMQ max length policy
+Setting policy "max-length" for pattern "" to "{"max-length":50000}" with priority "0" for vhost "/" ...
+Check ntp...
+ntp-4.2.6p5-29.el7.centos.2.x86_64
+unsynchronised
+  time server re-starting
+   polling server every 8 s
+
+WARNING : ntp is NOT synchronised. The system cannot work correctly if clocks are out-of-sync.
+Please configure ntp and make sure it is synchronised. There is no requirement to re-run configure.sh on this controller afterwards.
+@reboot /opt/ericsson/controller/setup/repair_secondary_mongodb.sh >> /var/log/ericsson/controller/setup/repair_secondary_mongodb.log 2>&1
+@reboot sleep 300 && /opt/ericsson/python3.7/bin/python3.7 /opt/ericsson/controller/setup/rescue_rabbitmq.py --delete_stuck_queues >> /var/log/ericsson/controller/setup/rescue_rabbitmq.log 2>&1
+@reboot /opt/ericsson/controller/setup/repair_rabbitmq.sh >> /var/log/ericsson/controller/setup/repair_rabbitmq.log 2>&1
+/opt/ericsson/unified-ui/bin/python3.7  /opt/ericsson/controller/setup/params.py save -c1 192.168.21.52    -s standalone -ps 8443
+2022-05-12 16:06:59,100 | params | INFO     | save (update): {'network': {'ipController1': '192.168.21.52', 'ipController2': '', 'vip': '', 'viplicense': '', 'serverID': 'standalone', 'httpsPort': '8443', 'serverIP': '192.168.21.52', 'licenseServerIP': '192.168.21.52'}}
+Saving configure parameters --serverID standalone --controllerIP1 192.168.21.52 to /opt/ericsson/controller/setup/last_configure.sh
+*******************************************
+Fri May 13 02:38:35 UTC 2022 - configure_controller with parameters --serverID standalone --controllerIP1 192.168.21.52
+Configuring support package
+Ignoring adaptPyVersion.py file
+Installing firewall-cmd-list-all selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/firewall-cmd-list-all.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/firewall-cmd-list-all.mod
+Installing mk-dbus selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/mk-dbus.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/mk-dbus.mod
+check mongo is ready
+connected
+Creating user: MediaKind for db: admin with role: root.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: admin
+Creating user: keepalived for db: admin with role: read.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: keepalived already exists for database: admin
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: envivioCluster
+Creating user: MediaKind for db: alarm with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: alarm
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: mediakindMongolock
+AH00548: NameVirtualHost has no effect and will be removed in the next release /etc/httpd/conf.d/ericsson-proxy-controller.conf:1
+[Fri May 13 11:39:01.750271 2022] [alias:warn] [pid 10081] AH00671: The Alias directive in /etc/httpd/conf.d/ericsson-proxy-license-manager.conf at line 8 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.21.52. Set the 'ServerName' directive globally to suppress this message
+Syntax OK
+Patching rsyslog logrotate configuration file due to a bug in rsyslog.
+WARNING: /etc/logrotate.d/syslog either patched already or rsyslog not installed.
+WARNING: If this is a fresh install and not an upgrade please check /etc/logrotate.d/syslog for errors.
+check mongo is ready
+connected
+Logging stdout and stderr output to /var/log/ericsson/controller/setup/configure_etcd.log
+Remote execution: stdout/stderr will not be logged
+Specified ETCD Node name: standalone
+Specified local IP Address: 127.0.0.1
+*******************************************
+Fri May 13 11:39:03 KST 2022 - configure_etcd
+Configuring node instance parameters
+Setting node name to standalone
+Setting peer listen URLs to: http://127.0.0.1:2380
+Setting listen client URLs to: http://0.0.0.0:2379
+Setting listen client advertise URLs to: http://localhost:2379
+Listing users ...
+user	tags
+guest	[administrator]
+Adding user "admin" ...
+Setting permissions for user "admin" in vhost "/" ...
+Setting tags for user "admin" to [administrator] ...
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/alarm?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("9b5c9357-b650-4395-a404-174239a6b91f") }
+MongoDB server version: 4.4.9
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/envivioCluster?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("74d6cf4f-e633-413e-a353-ecc99a132b09") }
+MongoDB server version: 4.4.9
+WriteResult({ "nRemoved" : 0 })
+save_controller-config
+{"ipController1" : "192.168.21.52",    "serverID" : "standalone", "httpsPort" : "8443"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   237  100   150  100    87   7532   4368 --:--:-- --:--:-- --:--:--  7894
+{"network": {"ipController1": "192.168.21.52", "ipController2": null, "vip": null, "viplicense": null, "httpsPort": "8443", "serverID": "standalone"}}ntp-4.2.6p5-29.el7.centos.2.x86_64
+unsynchronised
+  time server re-starting
+   polling server every 8 s
+@reboot /opt/ericsson/controller/setup/repair_secondary_mongodb.sh >> /var/log/ericsson/controller/setup/repair_secondary_mongodb.log 2>&1
+@reboot sleep 300 && /opt/ericsson/python3.7/bin/python3.7 /opt/ericsson/controller/setup/rescue_rabbitmq.py --delete_stuck_queues >> /var/log/ericsson/controller/setup/rescue_rabbitmq.log 2>&1
+@reboot /opt/ericsson/controller/setup/repair_rabbitmq.sh >> /var/log/ericsson/controller/setup/repair_rabbitmq.log 2>&1
+/opt/ericsson/unified-ui/bin/python3.7  /opt/ericsson/controller/setup/params.py save -c1 192.168.21.52    -s standalone -ps 8443
+2022-05-13 11:43:20,934 | params | INFO     | save (update): {'network': {'ipController1': '192.168.21.52', 'ipController2': '', 'vip': '', 'viplicense': '', 'serverID': 'standalone', 'httpsPort': '8443', 'serverIP': '192.168.21.52', 'licenseServerIP': '192.168.21.52'}}
+Saving configure parameters --serverID standalone --controllerIP1 192.168.21.52 to /opt/ericsson/controller/setup/last_configure.sh
+*******************************************
+Tue Jul 12 09:56:05 UTC 2022 - configure_controller with parameters --serverID standalone --controllerIP1 127.0.0.1/opt/ericsson/controller/setup/configure.sh --serverID standalone --controllerIP1 127.0.0.1
+An existing controller installation has been detected
+Configuring support
+Configuring support package
+Ignoring adaptPyVersion.py file
+Installing firewall-cmd-list-all selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/firewall-cmd-list-all.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/firewall-cmd-list-all.mod
+Installing mk-dbus selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/mk-dbus.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/mk-dbus.mod
+Configuring mongo
+/etc/logrotate.d/mongodb already exists
+config saved as /etc/logrotate.d/mongodb.rpmsave
+Enabling: mongod
+Restarting: mongod
+Creating MongoDB user accounts
+check mongo is ready
+connected
+Checking replica set configuration
+Locating MongoDB primary amongst 127.0.0.1 
+Trying 127.0.0.1
+Primary controller has been detected on 127.0.0.1
+Creating user: MediaKind for db: admin with role: root.
+Creating user: MediaKind for db: admin with role: root.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: admin
+MongoDB user: MediaKind already exists for database: admin
+Creating user: keepalived for db: admin with role: read.
+Creating user: keepalived for db: admin with role: read.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: keepalived already exists for database: admin
+MongoDB user: keepalived already exists for database: admin
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: envivioCluster
+MongoDB user: MediaKind already exists for database: envivioCluster
+Creating user: MediaKind for db: alarm with role: readWrite.
+Creating user: MediaKind for db: alarm with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: alarm
+MongoDB user: MediaKind already exists for database: alarm
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: mediakindMongolock
+MongoDB user: MediaKind already exists for database: mediakindMongolock
+Configuring system...
+Configuring SElinux...
+Configuring firewall...
+check that firewalld is running
+Configuring firewall for license-manager
+Opening firewalld port 5093 for license-manager
+Warning: ALREADY_ENABLED: '5093:udp'
+success
+Opening firewalld port 8080 for license-manager
+Warning: ALREADY_ENABLED: '8080:tcp'
+success
+Configuring firewall for rabbitmq-server
+Opening firewalld port 5672 for rabbitmq-server
+Warning: ALREADY_ENABLED: '5672:tcp'
+success
+Opening firewalld port 25672 for rabbitmq-server
+Warning: ALREADY_ENABLED: '25672:tcp'
+success
+Opening firewalld port 4369 for rabbitmq-server
+Warning: ALREADY_ENABLED: '4369:tcp'
+success
+Configuring firewall for mongoDB
+Opening firewalld for mongoDB port 27017
+Warning: ALREADY_ENABLED: '27017:tcp'
+success
+Configuring firewall for Apache
+Opening firewalld port 8080 for Apache HTTP
+Port 8080 has already been opened in configure_firewall_license-manager()
+Opening firewalld port 8443 for Apache HTTPS
+Found existing controller-ui firewalld service - deleting
+Removing service 'controller-ui' from default zone.
+success
+success
+Creating new controller-ui firewalld service
+success
+success
+success
+success
+Configuring firewall for ETCD
+Opening firewalld for ETCD client port 2379
+Warning: ALREADY_ENABLED: '2379:tcp'
+success
+Opening firewalld for ETCD peer port 2380
+Warning: ALREADY_ENABLED: '2380:tcp'
+success
+Configuring firewall for interface-discovery
+Opening firewalld for interface-discovery port 8200
+Warning: ALREADY_ENABLED: '8200:tcp'
+success
+Saving firewall rules
+Configuring apache...
+Creating JWT authentication directories
+Setting permissions on JWT authentication files
+Verifying apache config for httpd...
+AH00548: NameVirtualHost has no effect and will be removed in the next release /etc/httpd/conf.d/ericsson-proxy-controller.conf:1
+[Tue Jul 12 18:56:34.567435 2022] [alias:warn] [pid 122691] AH00671: The Alias directive in /etc/httpd/conf.d/ericsson-proxy-license-manager.conf at line 8 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using fe80::b4ba:fc98:c486:2731. Set the 'ServerName' directive globally to suppress this message
+Syntax OK
+Patching rsyslog logrotate configuration file due to a bug in rsyslog.
+WARNING: /etc/logrotate.d/syslog either patched already or rsyslog not installed.
+WARNING: If this is a fresh install and not an upgrade please check /etc/logrotate.d/syslog for errors.
+Enabling: httpd
+Restarting: httpd
+Enabling MongoDB client authorization and internal authentication
+Enabling: mongod
+Restarting: mongod
+check mongo is ready
+connected
+Configuring ETCD as a standalone node
+Configure ETCD as standalone Node
+Logging stdout and stderr output to /var/log/ericsson/controller/setup/configure_etcd.log
+Remote execution: stdout/stderr will not be logged
+Specified ETCD Node name: standalone
+Specified local IP Address: 127.0.0.1
+*******************************************
+Tue Jul 12 18:56:36 KST 2022 - configure_etcd
+Configuring node instance parameters
+Setting node name to standalone
+Setting peer listen URLs to: http://127.0.0.1:2380
+Setting listen client URLs to: http://0.0.0.0:2379
+Setting listen client advertise URLs to: http://localhost:2379
+Enabling: etcd
+Restarting: etcd
+rabbitMQ check_cluster...
+resetting rabbitMQ cluster
+Stopping rabbit application on node controller@192.168.21.52 ...
+Resetting node controller@192.168.21.52 ...
+Configuring rabbitmq-server
+/etc/rabbitmq/rabbitmq.conf already exists
+config saved as /etc/rabbitmq/rabbitmq.conf.back
+/etc/rabbitmq/rabbitmq-env.conf already exists
+config saved as /etc/rabbitmq/rabbitmq-env.conf.back
+/etc/systemd/system/rabbitmq-server.service.d/limits.conf already exists
+config saved as /etc/systemd/system/rabbitmq-server.service.d/limits.conf.back
+/etc/logrotate.d/rabbitmq-server already exists
+config saved as /etc/logrotate.d/rabbitmq-server.rpmsave
+Enabling plugins on node controller@127.0.0.1:
+rabbitmq_management
+The following plugins have been configured:
+  rabbitmq_management
+  rabbitmq_management_agent
+  rabbitmq_web_dispatch
+Applying plugin configuration to controller@127.0.0.1...
+Plugin configuration unchanged.
+Enabling: rabbitmq-server
+Restarting: rabbitmq-server
+Checking RabbitMQ users list
+Listing users ...
+user	tags
+guest	[administrator]
+Adding RabbitMQ admin user
+Adding user "admin" ...
+Setting RabbitMQ admin user permissions
+Setting permissions for user "admin" in vhost "/" ...
+Setting RabbitMQ admin user tags
+Setting tags for user "admin" to [administrator] ...
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/alarm?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("f31a483f-f573-4ef0-a9be-d080f405d044") }
+MongoDB server version: 4.4.9
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/envivioCluster?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("9b59da1b-b66c-446c-a39a-c706bbfb5ad7") }
+MongoDB server version: 4.4.9
+WriteResult({ "nRemoved" : 0 })
+Upgrading MongoDB alarms on controller at 127.0.0.1:27017
+Updating old active/history alarm IDs...
+success
+Removing alarm catalogue entries for old alarm IDs...
+success
+Configuring unified-ui
+Configuring template-api
+Configuring server-api
+Configuring flow
+Configuring service-api
+Configuring server-daemon
+2022-07-12 18:57:26,693 | cfg_soft | INFO     | controller: update name ericsson-controller -> ericsson-controller
+2022-07-12 18:57:26,693 | cfg_soft | INFO     | controller : update version 14.0.5.669 -> 14.0.5.669
+2022-07-12 18:57:28,161 | cfg_soft | INFO     | licensing: update name ericsson-license-manager -> ericsson-license-manager
+2022-07-12 18:57:28,161 | cfg_soft | INFO     | licensing : update version 0.72.0-0 -> 0.72.0-0
+Configuring alarm-proxy
+Configuring selinux for alarm-proxy
+Configuring alarm-api
+Configuring failover-api
+Configuring server-monitor
+Configuring snmp-notification
+Configuring interface-discovery
+Configuring esam-proxy
+Configuring controller-config
+Configuring nmos-sidecar
+Configuring license-manager
+Enabling: httpd
+Restarting: httpd
+Enabling: ericsson-unified-ui
+Restarting: ericsson-unified-ui
+Enabling: ericsson-server-api
+Restarting: ericsson-server-api
+Enabling: ericsson-flow
+Restarting: ericsson-flow
+Enabling: ericsson-service-api
+Restarting: ericsson-service-api
+Enabling: ericsson-service-monitor
+Restarting: ericsson-service-monitor
+Enabling: ericsson-template-api
+Restarting: ericsson-template-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+Enabling: ericsson-alarm-proxy-redis
+Restarting: ericsson-alarm-proxy-redis
+Enabling: ericsson-alarm-proxy
+Restarting: ericsson-alarm-proxy
+Enabling: ericsson-alarm-api
+Restarting: ericsson-alarm-api
+Enabling: ericsson-alarm-collector
+Restarting: ericsson-alarm-collector
+Enabling: ericsson-alarm-daemon
+Restarting: ericsson-alarm-daemon
+Enabling: ericsson-alarm-legacy-collector
+Restarting: ericsson-alarm-legacy-collector
+Enabling: ericsson-alarm-legacy-daemon
+Restarting: ericsson-alarm-legacy-daemon
+Enabling: ericsson-controller-mapserverid
+Restarting: ericsson-controller-mapserverid
+Enabling: ericsson-unified-ui-celery
+Restarting: ericsson-unified-ui-celery
+Enabling: ericsson-unified-ui-celerybeat
+Restarting: ericsson-unified-ui-celerybeat
+Enabling: ericsson-unified-ui-daphne
+Restarting: ericsson-unified-ui-daphne
+Enabling: ericsson-unified-ui-ws
+Restarting: ericsson-unified-ui-ws
+Enabling: ericsson-failover-api
+Restarting: ericsson-failover-api
+Enabling: ericsson-failover-api-celery
+Restarting: ericsson-failover-api-celery
+Enabling: ericsson-failover-daemon
+Restarting: ericsson-failover-daemon
+Enabling: ericsson-server-monitor
+Restarting: ericsson-server-monitor
+Enabling: ericsson-snmp-notification
+Restarting: ericsson-snmp-notification
+Enabling: ericsson-interface-discovery
+Restarting: ericsson-interface-discovery
+Enabling: ericsson-esam-proxy
+Restarting: ericsson-esam-proxy
+Enabling: ericsson-controller-config
+Restarting: ericsson-controller-config
+Enabling: ericsson-nmos-sidecar
+Restarting: ericsson-nmos-sidecar
+Enabling: ericsson-license-server
+Restarting: ericsson-license-server
+Enabling: ericsson-license-api
+Restarting: ericsson-license-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+save_controller-config
+{"ipController1" : "127.0.0.1",    "serverID" : "standalone", "httpsPort" : "8443"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   229  100   146  100    83   5967   3392 --:--:-- --:--:-- --:--:--  6347
+{"network": {"ipController1": "127.0.0.1", "ipController2": null, "vip": null, "viplicense": null, "httpsPort": "8443", "serverID": "standalone"}}register controller server_id=standalone
+Server standalone already exists...
+Server standalone already supports controller type! or support package url
+register licensing server_id=standalone
+Server standalone already exists...
+Server standalone already supports licensing type! or support package url
+Setting RabbitMQ policies
+Setting RabbitMQ max length policy
+Setting policy "max-length" for pattern "" to "{"max-length":50000}" with priority "0" for vhost "/" ...
+Check ntp...
+ntp-4.2.6p5-29.el7.centos.2.x86_64
+synchronised to NTP server (192.168.21.111) at stratum 2
+   time correct to within 10132 ms
+   polling server every 1024 s
+ntp is synchronised
+@reboot /opt/ericsson/controller/setup/repair_secondary_mongodb.sh >> /var/log/ericsson/controller/setup/repair_secondary_mongodb.log 2>&1
+@reboot sleep 300 && /opt/ericsson/python3.7/bin/python3.7 /opt/ericsson/controller/setup/rescue_rabbitmq.py --delete_stuck_queues >> /var/log/ericsson/controller/setup/rescue_rabbitmq.log 2>&1
+@reboot /opt/ericsson/controller/setup/repair_rabbitmq.sh >> /var/log/ericsson/controller/setup/repair_rabbitmq.log 2>&1
+/opt/ericsson/unified-ui/bin/python3.7  /opt/ericsson/controller/setup/params.py save -c1 127.0.0.1    -s standalone -ps 8443
+2022-07-12 18:59:45,136 | params | INFO     | save (update): {'network': {'ipController1': '127.0.0.1', 'ipController2': '', 'vip': '', 'viplicense': '', 'serverID': 'standalone', 'httpsPort': '8443', 'serverIP': '192.168.21.52', 'licenseServerIP': '192.168.21.52'}}
+Saving configure parameters --serverID standalone --controllerIP1 127.0.0.1/opt/ericsson/controller/setup/configure.sh --serverID standalone --controllerIP1 127.0.0.1 to /opt/ericsson/controller/setup/last_configure.sh
+*******************************************
+Tue Jul 12 10:33:51 UTC 2022 - configure_controller with parameters --serverID standalone --controllerIP1 192.168.21.51
+An existing controller installation has been detected
+Configuring support
+Configuring support package
+Ignoring adaptPyVersion.py file
+Installing firewall-cmd-list-all selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/firewall-cmd-list-all.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/firewall-cmd-list-all.mod
+Installing mk-dbus selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/mk-dbus.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/mk-dbus.mod
+Configuring mongo
+/etc/logrotate.d/mongodb already exists
+config saved as /etc/logrotate.d/mongodb.rpmsave
+Enabling: mongod
+Restarting: mongod
+Creating MongoDB user accounts
+check mongo is ready
+connected
+Checking replica set configuration
+Locating MongoDB primary amongst 192.168.21.51 
+Trying 192.168.21.51
+Primary controller has been detected on 192.168.21.51
+Creating user: MediaKind for db: admin with role: root.
+Creating user: MediaKind for db: admin with role: root.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: admin
+MongoDB user: MediaKind already exists for database: admin
+Creating user: keepalived for db: admin with role: read.
+Creating user: keepalived for db: admin with role: read.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: keepalived already exists for database: admin
+MongoDB user: keepalived already exists for database: admin
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: envivioCluster
+MongoDB user: MediaKind already exists for database: envivioCluster
+Creating user: MediaKind for db: alarm with role: readWrite.
+Creating user: MediaKind for db: alarm with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: alarm
+MongoDB user: MediaKind already exists for database: alarm
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: mediakindMongolock
+MongoDB user: MediaKind already exists for database: mediakindMongolock
+Configuring system...
+Configuring SElinux...
+Configuring firewall...
+check that firewalld is running
+Configuring firewall for license-manager
+Opening firewalld port 5093 for license-manager
+Warning: ALREADY_ENABLED: '5093:udp'
+success
+Opening firewalld port 8080 for license-manager
+Warning: ALREADY_ENABLED: '8080:tcp'
+success
+Configuring firewall for rabbitmq-server
+Opening firewalld port 5672 for rabbitmq-server
+Warning: ALREADY_ENABLED: '5672:tcp'
+success
+Opening firewalld port 25672 for rabbitmq-server
+Warning: ALREADY_ENABLED: '25672:tcp'
+success
+Opening firewalld port 4369 for rabbitmq-server
+Warning: ALREADY_ENABLED: '4369:tcp'
+success
+Configuring firewall for mongoDB
+Opening firewalld for mongoDB port 27017
+Warning: ALREADY_ENABLED: '27017:tcp'
+success
+Configuring firewall for Apache
+Opening firewalld port 8080 for Apache HTTP
+Port 8080 has already been opened in configure_firewall_license-manager()
+Opening firewalld port 8443 for Apache HTTPS
+Found existing controller-ui firewalld service - deleting
+Removing service 'controller-ui' from default zone.
+success
+success
+Creating new controller-ui firewalld service
+success
+success
+success
+success
+Configuring firewall for ETCD
+Opening firewalld for ETCD client port 2379
+Warning: ALREADY_ENABLED: '2379:tcp'
+success
+Opening firewalld for ETCD peer port 2380
+Warning: ALREADY_ENABLED: '2380:tcp'
+success
+Configuring firewall for interface-discovery
+Opening firewalld for interface-discovery port 8200
+Warning: ALREADY_ENABLED: '8200:tcp'
+success
+Saving firewall rules
+Configuring apache...
+Creating JWT authentication directories
+Setting permissions on JWT authentication files
+Verifying apache config for httpd...
+AH00548: NameVirtualHost has no effect and will be removed in the next release /etc/httpd/conf.d/ericsson-proxy-controller.conf:1
+[Tue Jul 12 19:34:18.241461 2022] [alias:warn] [pid 13086] AH00671: The Alias directive in /etc/httpd/conf.d/ericsson-proxy-license-manager.conf at line 8 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.21.51. Set the 'ServerName' directive globally to suppress this message
+Syntax OK
+Patching rsyslog logrotate configuration file due to a bug in rsyslog.
+WARNING: /etc/logrotate.d/syslog either patched already or rsyslog not installed.
+WARNING: If this is a fresh install and not an upgrade please check /etc/logrotate.d/syslog for errors.
+Enabling: httpd
+Restarting: httpd
+Enabling MongoDB client authorization and internal authentication
+Enabling: mongod
+Restarting: mongod
+check mongo is ready
+connected
+Configuring ETCD as a standalone node
+Configure ETCD as standalone Node
+Logging stdout and stderr output to /var/log/ericsson/controller/setup/configure_etcd.log
+Remote execution: stdout/stderr will not be logged
+Specified ETCD Node name: standalone
+Specified local IP Address: 127.0.0.1
+*******************************************
+Tue Jul 12 19:34:19 KST 2022 - configure_etcd
+Configuring node instance parameters
+Setting node name to standalone
+Setting peer listen URLs to: http://127.0.0.1:2380
+Setting listen client URLs to: http://0.0.0.0:2379
+Setting listen client advertise URLs to: http://localhost:2379
+Enabling: etcd
+Restarting: etcd
+rabbitMQ check_cluster...
+resetting rabbitMQ cluster
+Stopping rabbit application on node controller@127.0.0.1 ...
+Resetting node controller@127.0.0.1 ...
+Configuring rabbitmq-server
+/etc/rabbitmq/rabbitmq.conf already exists
+config saved as /etc/rabbitmq/rabbitmq.conf.back
+/etc/rabbitmq/rabbitmq-env.conf already exists
+config saved as /etc/rabbitmq/rabbitmq-env.conf.back
+/etc/systemd/system/rabbitmq-server.service.d/limits.conf already exists
+config saved as /etc/systemd/system/rabbitmq-server.service.d/limits.conf.back
+/etc/logrotate.d/rabbitmq-server already exists
+config saved as /etc/logrotate.d/rabbitmq-server.rpmsave
+Enabling plugins on node controller@192.168.21.51:
+rabbitmq_management
+The following plugins have been configured:
+  rabbitmq_management
+  rabbitmq_management_agent
+  rabbitmq_web_dispatch
+Applying plugin configuration to controller@192.168.21.51...
+Plugin configuration unchanged.
+Enabling: rabbitmq-server
+Restarting: rabbitmq-server
+Checking RabbitMQ users list
+Listing users ...
+user	tags
+guest	[administrator]
+Adding RabbitMQ admin user
+Adding user "admin" ...
+Setting RabbitMQ admin user permissions
+Setting permissions for user "admin" in vhost "/" ...
+Setting RabbitMQ admin user tags
+Setting tags for user "admin" to [administrator] ...
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/alarm?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("c09fa374-5ac6-44da-b5b5-9da747412898") }
+MongoDB server version: 4.4.9
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/envivioCluster?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("83b60d83-a2da-4cc2-ba86-98776088d429") }
+MongoDB server version: 4.4.9
+WriteResult({ "nRemoved" : 0 })
+Upgrading MongoDB alarms on controller at 127.0.0.1:27017
+Updating old active/history alarm IDs...
+success
+Removing alarm catalogue entries for old alarm IDs...
+success
+Configuring unified-ui
+Configuring template-api
+Configuring server-api
+Configuring flow
+Configuring service-api
+Configuring server-daemon
+2022-07-12 19:36:46,665 | cfg_soft | INFO     | controller: update name ericsson-controller -> ericsson-controller
+2022-07-12 19:36:46,665 | cfg_soft | INFO     | controller : update version 14.0.5.669 -> 14.0.5.669
+2022-07-12 19:36:48,061 | cfg_soft | INFO     | licensing: update name ericsson-license-manager -> ericsson-license-manager
+2022-07-12 19:36:48,061 | cfg_soft | INFO     | licensing : update version 0.72.0-0 -> 0.72.0-0
+Configuring alarm-proxy
+Configuring selinux for alarm-proxy
+Configuring alarm-api
+Configuring failover-api
+Configuring server-monitor
+Configuring snmp-notification
+Configuring interface-discovery
+Configuring esam-proxy
+Configuring controller-config
+Configuring nmos-sidecar
+Configuring license-manager
+Enabling: httpd
+Restarting: httpd
+Enabling: ericsson-unified-ui
+Restarting: ericsson-unified-ui
+Enabling: ericsson-server-api
+Restarting: ericsson-server-api
+Enabling: ericsson-flow
+Restarting: ericsson-flow
+Enabling: ericsson-service-api
+Restarting: ericsson-service-api
+Enabling: ericsson-service-monitor
+Restarting: ericsson-service-monitor
+Enabling: ericsson-template-api
+Restarting: ericsson-template-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+Enabling: ericsson-alarm-proxy-redis
+Restarting: ericsson-alarm-proxy-redis
+Enabling: ericsson-alarm-proxy
+Restarting: ericsson-alarm-proxy
+Enabling: ericsson-alarm-api
+Restarting: ericsson-alarm-api
+Enabling: ericsson-alarm-collector
+Restarting: ericsson-alarm-collector
+Enabling: ericsson-alarm-daemon
+Restarting: ericsson-alarm-daemon
+Enabling: ericsson-alarm-legacy-collector
+Restarting: ericsson-alarm-legacy-collector
+Enabling: ericsson-alarm-legacy-daemon
+Restarting: ericsson-alarm-legacy-daemon
+Enabling: ericsson-controller-mapserverid
+Restarting: ericsson-controller-mapserverid
+Enabling: ericsson-unified-ui-celery
+Restarting: ericsson-unified-ui-celery
+Enabling: ericsson-unified-ui-celerybeat
+Restarting: ericsson-unified-ui-celerybeat
+Enabling: ericsson-unified-ui-daphne
+Restarting: ericsson-unified-ui-daphne
+Enabling: ericsson-unified-ui-ws
+Restarting: ericsson-unified-ui-ws
+Enabling: ericsson-failover-api
+Restarting: ericsson-failover-api
+Enabling: ericsson-failover-api-celery
+Restarting: ericsson-failover-api-celery
+Enabling: ericsson-failover-daemon
+Restarting: ericsson-failover-daemon
+Enabling: ericsson-server-monitor
+Restarting: ericsson-server-monitor
+Enabling: ericsson-snmp-notification
+Restarting: ericsson-snmp-notification
+Enabling: ericsson-interface-discovery
+Restarting: ericsson-interface-discovery
+Enabling: ericsson-esam-proxy
+Restarting: ericsson-esam-proxy
+Enabling: ericsson-controller-config
+Restarting: ericsson-controller-config
+Enabling: ericsson-nmos-sidecar
+Restarting: ericsson-nmos-sidecar
+Enabling: ericsson-license-server
+Restarting: ericsson-license-server
+Enabling: ericsson-license-api
+Restarting: ericsson-license-api
+Enabling: ericsson-server-daemon
+Restarting: ericsson-server-daemon
+save_controller-config
+{"ipController1" : "192.168.21.51",    "serverID" : "standalone", "httpsPort" : "8443"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   237  100   150  100    87   6698   3885 --:--:-- --:--:-- --:--:--  7142
+{"network": {"ipController1": "192.168.21.51", "ipController2": null, "vip": null, "viplicense": null, "httpsPort": "8443", "serverID": "standalone"}}register controller server_id=standalone
+Server standalone already exists...
+Server standalone already supports controller type! or support package url
+register licensing server_id=standalone
+Server standalone already exists...
+Server standalone already supports licensing type! or support package url
+Setting RabbitMQ policies
+Setting RabbitMQ max length policy
+Setting policy "max-length" for pattern "" to "{"max-length":50000}" with priority "0" for vhost "/" ...
+Check ntp...
+ntp-4.2.6p5-29.el7.centos.2.x86_64
+synchronised to NTP server (192.168.21.111) at stratum 2
+   time correct to within 10145 ms
+   polling server every 64 s
+ntp is synchronised
+@reboot /opt/ericsson/controller/setup/repair_secondary_mongodb.sh >> /var/log/ericsson/controller/setup/repair_secondary_mongodb.log 2>&1
+@reboot sleep 300 && /opt/ericsson/python3.7/bin/python3.7 /opt/ericsson/controller/setup/rescue_rabbitmq.py --delete_stuck_queues >> /var/log/ericsson/controller/setup/rescue_rabbitmq.log 2>&1
+@reboot /opt/ericsson/controller/setup/repair_rabbitmq.sh >> /var/log/ericsson/controller/setup/repair_rabbitmq.log 2>&1
+/opt/ericsson/unified-ui/bin/python3.7  /opt/ericsson/controller/setup/params.py save -c1 192.168.21.51    -s standalone -ps 8443
+2022-07-12 19:39:01,947 | params | INFO     | save (update): {'network': {'ipController1': '192.168.21.51', 'ipController2': '', 'vip': '', 'viplicense': '', 'serverID': 'standalone', 'httpsPort': '8443', 'serverIP': '192.168.21.52', 'licenseServerIP': '192.168.21.52'}}
+Saving configure parameters --serverID standalone --controllerIP1 192.168.21.51 to /opt/ericsson/controller/setup/last_configure.sh
+*******************************************
+Mon Aug  7 15:27:27 UTC 2023 - configure_controller with parameters --serverID standalone --controllerIP1 192.168.21.51
+Configuring support package
+Ignoring adaptPyVersion.py file
+Installing firewall-cmd-list-all selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/firewall-cmd-list-all.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/firewall-cmd-list-all.mod
+Installing mk-dbus selinux policy...
+checkmodule:  loading policy configuration from /opt/ericsson/support/selinux/mk-dbus.te
+checkmodule:  policy configuration loaded
+checkmodule:  writing binary representation (version 19) to /opt/ericsson/support/selinux/mk-dbus.mod
+check mongo is ready
+connected
+Creating user: MediaKind for db: admin with role: root.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: admin
+Creating user: keepalived for db: admin with role: read.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: keepalived already exists for database: admin
+Creating user: MediaKind for db: envivioCluster with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: envivioCluster
+Creating user: MediaKind for db: alarm with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: alarm
+Creating user: MediaKind for db: mediakindMongolock with role: readWrite.
+MongoDB authentication is enabled, retrying using authentication.
+MongoDB user: MediaKind already exists for database: mediakindMongolock
+AH00548: NameVirtualHost has no effect and will be removed in the next release /etc/httpd/conf.d/ericsson-proxy-controller.conf:1
+[Tue Aug 08 00:29:37.797931 2023] [alias:warn] [pid 24413] AH00671: The Alias directive in /etc/httpd/conf.d/ericsson-proxy-license-manager.conf at line 8 will probably never match because it overlaps an earlier Alias.
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 192.168.21.51. Set the 'ServerName' directive globally to suppress this message
+Syntax OK
+Patching rsyslog logrotate configuration file due to a bug in rsyslog.
+WARNING: /etc/logrotate.d/syslog either patched already or rsyslog not installed.
+WARNING: If this is a fresh install and not an upgrade please check /etc/logrotate.d/syslog for errors.
+check mongo is ready
+connected
+Logging stdout and stderr output to /var/log/ericsson/controller/setup/configure_etcd.log
+Remote execution: stdout/stderr will not be logged
+Specified ETCD Node name: standalone
+Specified local IP Address: 127.0.0.1
+*******************************************
+Tue Aug  8 00:29:39 KST 2023 - configure_etcd
+Configuring node instance parameters
+Setting node name to standalone
+Setting peer listen URLs to: http://127.0.0.1:2380
+Setting listen client URLs to: http://0.0.0.0:2379
+Setting listen client advertise URLs to: http://localhost:2379
+Listing users ...
+user	tags
+guest	[administrator]
+Adding user "admin" ...
+Setting permissions for user "admin" in vhost "/" ...
+Setting tags for user "admin" to [administrator] ...
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/alarm?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("fe6a2f24-daaa-417d-81e3-17c10c6571bb") }
+MongoDB server version: 4.4.9
+{ "acknowledged" : true, "matchedCount" : 0, "modifiedCount" : 0 }
+MongoDB shell version v4.4.9
+connecting to: mongodb://127.0.0.1:27017/envivioCluster?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("1d188ac2-be77-4308-93be-92ea2a102e31") }
+MongoDB server version: 4.4.9
+WriteResult({ "nRemoved" : 0 })
+save_controller-config
+{"ipController1" : "192.168.21.51",    "serverID" : "standalone", "httpsPort" : "8443"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   237  100   150  100    87   4128   2394 --:--:-- --:--:-- --:--:--  4411
+{"network": {"ipController1": "192.168.21.51", "ipController2": null, "vip": null, "viplicense": null, "httpsPort": "8443", "serverID": "standalone"}}ntp-4.2.6p5-29.el7.centos.2.x86_64
+synchronised to NTP server (192.168.50.152) at stratum 3
+   time correct to within 9 ms
+   polling server every 64 s
+@reboot /opt/ericsson/controller/setup/repair_secondary_mongodb.sh >> /var/log/ericsson/controller/setup/repair_secondary_mongodb.log 2>&1
+@reboot sleep 300 && /opt/ericsson/python3.7/bin/python3.7 /opt/ericsson/controller/setup/rescue_rabbitmq.py --delete_stuck_queues >> /var/log/ericsson/controller/setup/rescue_rabbitmq.log 2>&1
+@reboot /opt/ericsson/controller/setup/repair_rabbitmq.sh >> /var/log/ericsson/controller/setup/repair_rabbitmq.log 2>&1
+/opt/ericsson/unified-ui/bin/python3.7  /opt/ericsson/controller/setup/params.py save -c1 192.168.21.51    -s standalone -ps 8443
+2023-08-08 00:34:34,968 | params | INFO     | save (update): {'network': {'ipController1': '192.168.21.51', 'ipController2': '', 'vip': '', 'viplicense': '', 'serverID': 'standalone', 'httpsPort': '8443', 'serverIP': '192.168.21.51', 'licenseServerIP': '192.168.21.51'}}
+Saving configure parameters --serverID standalone --controllerIP1 192.168.21.51 to /opt/ericsson/controller/setup/last_configure.sh

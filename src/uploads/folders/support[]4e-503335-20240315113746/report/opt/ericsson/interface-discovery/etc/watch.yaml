@@ -1,0 +1,41 @@
+kind: mediakind.io/interface-discovery-watch@v1
+watchers:
+- config:
+    directory: /etc/ericsson/interface-discovery/discoverables
+  name: directory-mediakind
+  type: directory
+- config:
+    rootKey: mediakind/interfacediscovery/
+  name: etcd-mediakind
+  type: etcd
+watches:
+- interface: uiconnector
+  passthruAnnotations: ^mediakind\.io\/uiconnector-.*
+- interface: esamreceiver
+  passthruAnnotations: ^mediakind\.io\/esamreceiver-.*
+- interface: nmos-config
+  passthruAnnotations: ^mediakind\.io\/nmos-config-.*
+- interface: scte104receiver
+  passthruAnnotations: ^mediakind\.io\/scte104receiver-.*
+- interface: esni-viewing-policy-manager
+  passthruAnnotations: ^mediakind\.io\/esni-viewing-policy-manager-.*
+- interface: bxf-viewing-policy-manager
+  passthruAnnotations: ^mediakind\.io\/bxf-viewing-policy-manager-.*
+- interface: csv-viewing-policy-manager
+  passthruAnnotations: ^mediakind\.io\/csv-viewing-policy-manager-.*
+- interface: esni-i02-viewing-policy-manager
+  passthruAnnotations: ^mediakind\.io\/esni-i02-viewing-policy-manager-.*
+- interface: eas-viewing-policy-manager
+  passthruAnnotations: ^mediakind\.io\/eas-viewing-policy-manager-.*
+- interface: esam-stream-conditioning
+  passthruAnnotations: ^mediakind\.io\/esam-stream-conditioning-.*
+- interface: esam-manifest-conditioning
+  passthruAnnotations: ^mediakind\.io\/esam-manifest-conditioning-.*
+- interface: ccms-viewing-policy-manager
+  passthruAnnotations: ^mediakind\.io\/ccms-viewing-policy-manager-.*
+- interface: esni-content-decisioning
+  passthruAnnotations: ^mediakind\.io\/esni-content-decisioning-.*
+- interface: endpoint-stream-conditioning
+  passthruAnnotations: ^mediakind\.io\/endpoint-stream-conditioning-.*
+- interface: content-extraction
+  passthruAnnotations: ^mediakind\.io\/content-extraction.*

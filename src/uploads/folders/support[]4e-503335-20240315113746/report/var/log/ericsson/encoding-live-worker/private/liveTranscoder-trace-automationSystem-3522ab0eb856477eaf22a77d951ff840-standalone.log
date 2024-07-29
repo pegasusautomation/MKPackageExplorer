@@ -1,0 +1,110 @@
+Aug  8 00:52:24.851988 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:24.866472 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:24.868780 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:52:24.902717 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:52:25.154697 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 00:59:35.285299 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.298850 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.300561 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:59:35.337044 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:59:36.321896 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 23:10:18.567849 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:18.580634 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:18.582416 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 23:10:18.610551 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 23:10:18.787184 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:31:00.810031 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:00.826757 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:00.829076 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:31:00.865963 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:31:01.085540 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:39:11.498546 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:11.512082 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:11.513847 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:39:11.543141 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:39:11.722597 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Sep 25 16:35:09.738981 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:09.752127 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:09.753877 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Sep 25 16:35:09.781777 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 25 16:35:09.963159 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Oct 25 03:27:36.124959 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.138400 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.140282 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Oct 25 03:27:36.169980 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Oct 25 03:27:36.852657 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Nov 16 16:47:03.801517 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:03.814528 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:03.816614 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Nov 16 16:47:03.845031 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 16 16:47:04.017649 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Nov 23 10:21:17.217773 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:17.231410 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:17.233148 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Nov 23 10:21:17.261552 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 23 10:21:17.442189 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Nov 27 11:27:31.207951 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 27 11:27:31.223300 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 27 11:27:31.226335 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Nov 27 11:27:31.272209 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 27 11:27:31.508223 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Nov 28 14:33:53.677349 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:33:53.690726 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:33:53.692463 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Nov 28 14:33:53.721791 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 28 14:33:53.906194 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Nov 29 10:39:53.197752 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 29 10:39:53.212102 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 29 10:39:53.214056 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Nov 29 10:39:53.248058 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 29 10:39:53.502526 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Dec 13 10:49:33.176886 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 13 10:49:33.192317 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 13 10:49:33.194461 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Dec 13 10:49:33.231203 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 13 10:49:33.472698 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Dec 13 14:01:11.175687 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 13 14:01:11.192774 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 13 14:01:11.195035 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Dec 13 14:01:11.234871 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 13 14:01:11.476699 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Dec 13 16:24:07.411400 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 13 16:24:07.428694 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 13 16:24:07.431198 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Dec 13 16:24:07.476907 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 13 16:24:07.714789 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Dec 18 14:02:49.622749 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:49.636349 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:49.638740 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Dec 18 14:02:49.676171 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 18 14:02:50.895906 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Jan 24 13:29:51.743996 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:29:51.759468 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:29:51.761924 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Jan 24 13:29:51.793905 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Jan 24 13:29:52.002741 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Jan 24 13:31:26.813932 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:26.827202 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:26.828929 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Jan 24 13:31:26.857298 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Jan 24 13:31:27.037013 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Feb 23 17:20:21.206692 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 23 17:20:21.222282 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 23 17:20:21.224364 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Feb 23 17:20:21.254958 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 23 17:20:21.488141 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:06:26.475167 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.494516 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.496861 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:06:26.533513 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:06:26.784833 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:06:31.870456 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:31.885837 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:31.888771 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:06:31.920711 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:06:32.114265 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:08:23.972041 BS18_TS02_KBS1_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:23.985550 BS18_TS02_KBS1_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:23.987644 BS18_TS02_KBS1_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:08:24.017271 BS18_TS02_KBS1_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:08:24.197157 BS18_TS02_KBS1_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS02 on AlternateDynamicLive1 (Master__input_1)

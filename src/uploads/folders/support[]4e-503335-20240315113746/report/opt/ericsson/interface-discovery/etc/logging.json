@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "disable_existing_loggers": true,
+    "formatters": {
+        "standard": {
+            "()": "mediakind.common.logging.LogFormatter",
+            "fmt": "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+        },
+        "verbose": {
+            "()": "mediakind.common.logging.LogFormatter",
+            "fmt": "%(asctime)s [%(levelname)s] %(name)s: %(module)s %(process)d %(thread)d: %(message)s"
+        }
+    },
+    "filters": {
+        "probe": {
+            "()": "mediakind.common.logging.ProbeFilter"
+        }
+    },
+    "handlers": {
+        "logfile": {
+            "level":"INFO",
+            "class": "logging.handlers.WatchedFileHandler",
+            "formatter": "standard",
+            "filters": ["probe"],
+            "filename": "/var/log/ericsson/interface-discovery/private/interface-discovery.log",
+            "encoding": "utf8"
+        },
+        "console": {
+            "level": "INFO",
+            "class": "logging.StreamHandler",
+            "formatter": "standard",
+            "filters": ["probe"],
+            "stream": "ext://sys.stdout"
+        }
+    },
+    "loggers": {
+         "": {
+            "handlers": ["logfile"],
+            "level": "ERROR"
+        },
+        "ericsson": {
+            "handlers": ["logfile"],
+            "level": "INFO",
+            "propagate": false
+        },
+        "tornado.application": {
+            "handlers": ["logfile"],
+            "level": "WARNING",
+            "propagate": false
+        },
+        "tornado.access": {
+            "handlers": ["logfile"],
+            "level": "INFO",
+            "propagate": false
+        }
+    }
+}

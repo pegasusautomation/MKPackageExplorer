@@ -1,0 +1,1 @@
+{"controller": {"name": "ericsson-controller", "version": "14.0.10.753"}, "licensing": {"name": "ericsson-license-manager", "version": "0.72.4-0"}, "live_encoding": {"name": "ericsson-encoding-live", "version": "14.0.8.250"}, "connector__live_encoding": {"name": "live_encoding", "version": "2.71.3"}}

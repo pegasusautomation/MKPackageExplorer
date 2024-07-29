@@ -1,0 +1,42 @@
+Aug  8 00:52:24.954663 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Aug  8 00:52:55.480733 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 00:52:55.480757 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 44 samples
+Aug  8 00:59:35.269807 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Aug  8 01:04:21.869302 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 01:04:21.869328 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 27 samples
+Aug  8 23:10:44.121991 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Aug  8 23:11:14.616292 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Aug  8 23:11:14.616313 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 47 samples
+Sep 14 02:31:05.148869 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Sep 14 02:31:35.605273 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 14 02:31:35.605294 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 44 samples
+Sep 14 02:39:45.050815 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Sep 14 02:40:15.520766 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 14 02:40:15.520782 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 53 samples
+Sep 25 16:35:36.207101 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Sep 25 16:36:06.691997 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Sep 25 16:36:06.692029 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 55 samples
+Oct 19 03:56:10.683604 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Oct 25 03:27:36.108856 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Oct 25 03:32:22.143677 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Oct 25 03:32:22.143702 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 48 samples
+Nov 16 16:47:35.964245 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Nov 16 16:48:06.461202 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 16 16:48:06.461216 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 41 samples
+Nov 23 10:21:38.301591 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Nov 23 10:22:08.809142 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 23 10:22:08.809162 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 46 samples
+Nov 28 14:34:13.943571 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Nov 28 14:34:44.425770 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Nov 28 14:34:44.425786 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 34 samples
+Dec 18 14:02:49.607159 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Dec 18 14:07:36.010405 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Dec 18 14:07:36.010421 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 23 samples
+Dec 22 02:34:32.626582 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 1 samples late
+Jan 24 13:31:46.928872 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Jan 24 13:32:17.419535 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Jan 24 13:32:17.419559 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 35 samples
+Feb 27 10:06:26.455716 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Feb 27 10:09:00.861061 CS24_TS16_SBS FIL  [standalone] Start monitoring (inputSourceId: 2d773fd785ef4c189f022a7007a6f81e)
+Feb 27 10:11:01.790594 CS24_TS16_SBS FIL  [standalone] Encoder 2d773fd785ef4c189f022a7007a6f81e.Processings_0.Video_01_enc_1 : encoded 51 samples late
+Feb 27 10:11:01.790618 CS24_TS16_SBS FIL  [standalone] SampleQueue main.processings.processing_0.Video_01_enc_1.encoderQueue_Video_01_enc_1 : skipped 54 samples

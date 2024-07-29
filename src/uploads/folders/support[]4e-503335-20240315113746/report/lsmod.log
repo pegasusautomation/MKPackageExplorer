@@ -1,0 +1,113 @@
+Module                  Size  Used by
+tcp_diag               12591  0 
+inet_diag              18949  1 tcp_diag
+binfmt_misc            17468  1 
+sch_fq                 17156  1 
+xt_pkttype             12504  6 
+xt_addrtype            12676  4 
+ip6t_rpfilter          12595  1 
+ip6t_REJECT            12625  2 
+nf_reject_ipv6         13717  1 ip6t_REJECT
+ipt_REJECT             12541  2 
+nf_reject_ipv4         13373  1 ipt_REJECT
+xt_conntrack           12760  47 
+rdma_ucm               27023  0 
+ebtable_nat            12807  1 
+rdma_cm                64595  1 rdma_ucm
+iw_cm                  43918  1 rdma_cm
+ebtable_broute         12731  1 
+bridge                155432  1 ebtable_broute
+stp                    12976  1 bridge
+llc                    14552  2 stp,bridge
+ip6table_nat           12864  1 
+nf_conntrack_ipv6      18935  24 
+nf_defrag_ipv6         35104  1 nf_conntrack_ipv6
+nf_nat_ipv6            14131  1 ip6table_nat
+ib_ipoib              124872  0 
+ib_cm                  53085  2 rdma_cm,ib_ipoib
+ip6table_mangle        12700  1 
+ip6table_security      12710  1 
+ip6table_raw           12683  1 
+ib_umad                27744  0 
+iptable_nat            12875  1 
+nf_conntrack_ipv4      19149  25 
+nf_defrag_ipv4         12729  1 nf_conntrack_ipv4
+nf_nat_ipv4            14115  1 iptable_nat
+nf_nat                 26583  2 nf_nat_ipv4,nf_nat_ipv6
+iptable_mangle         12695  1 
+iptable_security       12705  1 
+iptable_raw            12678  1 
+nf_conntrack          143360  6 nf_nat,nf_nat_ipv4,nf_nat_ipv6,xt_conntrack,nf_conntrack_ipv4,nf_conntrack_ipv6
+libcrc32c              12644  2 nf_nat,nf_conntrack
+mlx5_ib               371350  0 
+ib_uverbs             132961  2 mlx5_ib,rdma_ucm
+mlx5_core            1322327  1 mlx5_ib
+ib_core               357701  8 rdma_cm,ib_cm,iw_cm,mlx5_ib,ib_umad,ib_uverbs,rdma_ucm,ib_ipoib
+mlx_compat             55063  10 rdma_cm,ib_cm,iw_cm,mlx5_ib,ib_core,ib_umad,ib_uverbs,mlx5_core,rdma_ucm,ib_ipoib
+mlxfw                  22321  1 mlx5_core
+psample                13526  1 mlx5_core
+devlink                60067  1 mlx5_core
+ip_set                 45799  0 
+ebtable_filter         12827  1 
+ebtables               35009  3 ebtable_broute,ebtable_nat,ebtable_filter
+ip6table_filter        12815  1 
+ip6_tables             26912  5 ip6table_filter,ip6table_mangle,ip6table_security,ip6table_nat,ip6table_raw
+iptable_filter         12810  1 
+acpi_ipmi              13066  0 
+iTCO_wdt               13572  0 
+iTCO_vendor_support    13242  1 iTCO_wdt
+skx_edac               18293  0 
+intel_powerclamp       14451  0 
+coretemp               13444  0 
+intel_rapl             19451  0 
+iosf_mbi               15582  1 intel_rapl
+kvm                   653928  0 
+irqbypass              13503  1 kvm
+crc32_pclmul           13133  0 
+ghash_clmulni_intel    13273  0 
+aesni_intel           189456  1 
+lrw                    13286  1 aesni_intel
+gf128mul               15139  1 lrw
+glue_helper            13990  1 aesni_intel
+ablk_helper            13597  1 aesni_intel
+cryptd                 21190  3 ghash_clmulni_intel,aesni_intel,ablk_helper
+pcspkr                 12718  0 
+sg                     40719  0 
+i2c_i801               22736  0 
+mei_me                 32848  0 
+joydev                 17389  0 
+mei                    95246  1 mei_me
+lpc_ich                21086  0 
+wmi                    21636  0 
+acpi_power_meter       18104  0 
+acpi_pad              116316  0 
+ip_tables              27126  5 iptable_security,iptable_filter,iptable_mangle,iptable_nat,iptable_raw
+ext4                  592325  4 
+mbcache                14958  1 ext4
+jbd2                  107486  1 ext4
+sd_mod                 46281  3 
+crc_t10dif             12912  1 sd_mod
+crct10dif_generic      12647  0 
+crct10dif_pclmul       14307  1 
+i40e                  373429  0 
+crct10dif_common       12595  3 crct10dif_pclmul,crct10dif_generic,crc_t10dif
+igb                   223919  0 
+crc32c_intel           22094  1 
+ahci                   34056  2 
+dca                    15130  1 igb
+libahci                31992  1 ahci
+i2c_algo_bit           13413  1 igb
+ptp                    23551  3 igb,i40e,mlx5_core
+libata                247190  2 ahci,libahci
+pps_core               19057  1 ptp
+nfit                   59735  1 skx_edac
+libnvdimm             163620  1 nfit
+dm_mirror              22326  0 
+dm_region_hash         20813  1 dm_mirror
+dm_log                 18411  2 dm_region_hash,dm_mirror
+dm_mod                128595  11 dm_log,dm_mirror
+ipmi_si                59965  1 
+ipmi_devintf           17459  0 
+ipmi_msghandler        56728  3 acpi_ipmi,ipmi_devintf,ipmi_si
+i2c_smbus              13356  0 
+i2c_dev                13985  0 

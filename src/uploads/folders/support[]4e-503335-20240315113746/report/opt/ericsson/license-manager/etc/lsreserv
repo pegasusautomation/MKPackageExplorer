@@ -1,0 +1,4 @@
+# Created By Sentinel RMS Development Kit Group Manager ::: 8.6.1.0021 ::: 1.0
+# 2 MUSE_G5ANY licenses are reserved for group backup which is composed of 2 machines: backup_01 and backup_02
+MUSE_G5ANY:backup:2:$backup_01 $backup_02
+

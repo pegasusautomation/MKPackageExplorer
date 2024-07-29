@@ -1,0 +1,597 @@
+Aug  8 00:52:24.885071 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:24.899318 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:25.287776 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:52:25.287795 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:52:25.291406 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:52:25.291422 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:52:25.292330 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:52:25.292341 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:52:25.443321 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Aug  8 00:52:25.447928 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Aug  8 00:52:26.162946 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:52:26.235250 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Aug  8 00:52:29.693521 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:52:29.698971 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:35.282803 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:35.295647 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:35.764207 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:59:35.764230 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:59:35.768112 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:59:35.768136 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:59:35.769092 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:59:35.769118 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:59:36.407732 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Aug  8 00:59:36.412180 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Aug  8 00:59:37.274884 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:59:37.274948 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Aug  8 00:59:40.190479 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:40.195338 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:12.556600 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Stop -----------
+Aug  8 23:10:12.556612 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Stop -----------
+Aug  8 23:10:12.556883 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Stop -----------
+Aug  8 23:10:12.556903 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Stop -----------
+Aug  8 23:10:35.508536 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:35.521776 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:35.890182 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Aug  8 23:10:35.890201 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Aug  8 23:10:35.894255 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 23:10:35.894272 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 23:10:35.895168 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 23:10:35.895178 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 23:10:35.963475 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Aug  8 23:10:35.969076 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Aug  8 23:10:36.243756 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 23:10:36.375074 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Aug  8 23:10:40.316464 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:40.321482 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 21 01:30:17.233320 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 21 01:30:17.233443 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug 21 01:30:17.242928 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 21 01:30:17.243132 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:31:02.752552 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:31:02.752570 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:31:02.752961 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:31:02.752985 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:31:03.770714 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:03.784414 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:04.187919 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:31:04.187939 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:31:04.192261 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:31:04.192276 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:31:04.193194 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:31:04.193206 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:31:04.284556 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Sep 14 02:31:04.289133 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Sep 14 02:31:05.299666 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:31:05.359876 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Sep 14 02:31:08.678444 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:31:08.683898 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:38:59.562523 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:38:59.562535 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:38:59.562815 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:38:59.562841 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:39:33.715190 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:33.729275 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:34.097556 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:39:34.097576 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:39:34.101824 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:39:34.101841 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:39:34.102735 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:39:34.102748 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:39:34.167952 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Sep 14 02:39:34.172600 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Sep 14 02:39:35.254018 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:39:35.254107 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Sep 14 02:39:38.523381 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:38.528994 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:31:18.982743 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:31:25.012305 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 18:32:18.314708 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:32:26.356062 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 18:32:34.814694 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:32:37.340922 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 18:32:46.932850 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:32:48.603427 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 18:32:58.062331 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:33:00.099656 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 18:33:09.091112 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:33:11.095431 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 18:33:20.487388 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:33:22.224433 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 18:33:31.749491 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:33:33.353351 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 18:33:43.096173 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:33:45.118980 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 18:50:46.175868 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 18:50:47.380244 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 25 16:34:27.131380 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Stop -----------
+Sep 25 16:34:27.131394 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Stop -----------
+Sep 25 16:34:27.131690 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Stop -----------
+Sep 25 16:34:27.131703 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Stop -----------
+Sep 25 16:35:27.477875 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:27.490892 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:27.867410 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Sep 25 16:35:27.867429 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Sep 25 16:35:27.872035 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Sep 25 16:35:27.872050 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Sep 25 16:35:27.872971 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Sep 25 16:35:27.872983 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Sep 25 16:35:27.961838 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Sep 25 16:35:27.966345 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Sep 25 16:35:28.278102 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 25 16:35:28.278185 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Sep 25 16:35:32.285660 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:35:32.290580 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:36.123262 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.136544 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.613059 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Oct 25 03:27:36.613078 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Oct 25 03:27:36.617063 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Oct 25 03:27:36.617083 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Oct 25 03:27:36.618014 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Oct 25 03:27:36.618029 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Oct 25 03:27:37.093583 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Oct 25 03:27:37.094106 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Oct 25 03:27:37.548816 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Oct 25 03:27:37.742114 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Oct 25 03:27:41.031212 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:41.036233 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:46:48.945631 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Stop -----------
+Nov 16 16:46:48.945642 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Stop -----------
+Nov 16 16:46:48.945913 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Stop -----------
+Nov 16 16:46:48.945923 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Stop -----------
+Nov 16 16:47:24.456528 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:24.470362 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:24.844016 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Nov 16 16:47:24.844034 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Nov 16 16:47:24.848417 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Nov 16 16:47:24.848446 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Nov 16 16:47:24.849713 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Nov 16 16:47:24.849731 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Nov 16 16:47:24.922795 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Nov 16 16:47:24.926954 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Nov 16 16:47:25.529349 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 16 16:47:25.529440 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Nov 16 16:47:29.264669 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:29.270084 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:09.292834 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Stop -----------
+Nov 23 10:21:09.292845 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Stop -----------
+Nov 23 10:21:09.293144 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Stop -----------
+Nov 23 10:21:09.293162 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Stop -----------
+Nov 23 10:21:30.795705 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:30.809457 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:31.190704 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Nov 23 10:21:31.190723 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Nov 23 10:21:31.194939 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Nov 23 10:21:31.194955 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Nov 23 10:21:31.195847 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Nov 23 10:21:31.195859 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Nov 23 10:21:31.270821 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Nov 23 10:21:31.274840 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Nov 23 10:21:31.509481 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 23 10:21:31.509564 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Nov 23 10:21:35.604173 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:35.609065 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:41.922087 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:42.050661 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.533821 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Nov 28 14:33:32.543479 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Nov 28 14:33:32.754665 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:33:32.754762 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.754801 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.828788 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.834187 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:33.347634 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:33.347650 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 28 14:33:33.347810 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 0
+Nov 28 14:33:33.350814 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:47.692752 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Stop -----------
+Nov 28 14:33:47.692764 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Stop -----------
+Nov 28 14:33:47.693007 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Stop -----------
+Nov 28 14:33:47.693018 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Stop -----------
+Nov 28 14:34:07.025802 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:07.039409 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:07.418705 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Nov 28 14:34:07.418727 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Nov 28 14:34:07.422888 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Nov 28 14:34:07.422906 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Nov 28 14:34:07.423822 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Nov 28 14:34:07.423834 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Nov 28 14:34:07.485405 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Nov 28 14:34:07.501640 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Nov 28 14:34:08.657632 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:34:08.722093 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Nov 28 14:34:11.833621 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:11.838888 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.512828 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Nov 29 10:39:28.516769 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Nov 29 10:39:28.654337 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 29 10:39:28.654507 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.654599 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.765415 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.765670 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.813612 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:29.311419 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.849153 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Nov 29 10:39:46.853395 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Nov 29 10:39:47.022444 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 29 10:39:47.022509 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.022530 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.134237 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.134693 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.150202 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.150425 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.311670 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.311688 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 29 10:39:47.311879 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 0
+Nov 29 10:39:47.326910 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.548208 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 13 10:45:56.551529 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 13 10:45:56.832287 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 10:45:56.832440 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -5
+Dec 13 10:45:56.832463 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.832840 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.848369 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.849680 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.920577 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:57.409448 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:31.146869 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 13 10:47:31.154136 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 13 10:47:31.357359 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 10:47:31.357459 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:31.357646 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:31.408938 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:31.408963 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:31.445703 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:31.448064 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:31.902080 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:31.902102 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 10:47:31.902244 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 0
+Dec 13 10:47:31.919348 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.132076 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 13 16:44:50.137241 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 13 16:44:50.286240 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:44:50.286391 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -14
+Dec 13 16:44:50.286423 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.286458 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.361269 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.361584 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.433029 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.433518 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.751814 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.751838 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:44:50.751949 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 0
+Dec 13 16:44:50.762696 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.356076 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 13 16:47:08.360296 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 13 16:47:08.429226 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:47:08.429324 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -14
+Dec 13 16:47:08.493125 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.493146 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.536205 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.536384 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.656611 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.657182 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.922716 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.922741 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:47:08.922889 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 0
+Dec 13 16:47:08.929567 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.253557 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 13 16:48:53.258325 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 13 16:48:53.486065 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:48:53.486150 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -14
+Dec 13 16:48:53.486176 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.486199 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.554242 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.554676 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.560625 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.560641 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:48:53.560715 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 0
+Dec 13 16:48:54.076176 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 18 14:02:49.620795 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:49.633901 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:50.010699 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Dec 18 14:02:50.010717 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Dec 18 14:02:50.014889 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Dec 18 14:02:50.014904 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Dec 18 14:02:50.015808 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Dec 18 14:02:50.015821 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Dec 18 14:02:50.817926 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 18 14:02:50.821805 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 18 14:02:51.414349 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 18 14:02:51.515636 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Dec 18 14:02:54.428670 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:02:54.433554 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.770088 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 19 13:18:04.773091 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 19 13:18:04.943166 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:18:04.943296 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.943370 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.959295 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.959495 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:56.124359 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 19 13:29:56.127407 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 19 13:29:56.174734 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:29:56.193605 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:56.193684 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.464915 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 19 13:30:24.468972 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 19 13:30:24.766324 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:30:24.766414 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.766525 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.913258 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.913275 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:30:24.913469 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 4
+Dec 19 13:30:24.926944 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.060874 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 19 14:29:25.063434 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 19 14:29:25.169453 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 14:29:25.169563 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1
+Dec 19 14:29:25.169582 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.169688 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.361614 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.362193 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.386200 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.887661 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:55.872721 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 20 14:37:55.875732 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 20 14:37:56.116999 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 20 14:37:56.117070 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.117094 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.173770 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.173986 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.480062 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.480078 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 20 14:37:56.480158 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -6
+Dec 20 14:37:56.486934 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:10.496299 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 28 09:49:10.500016 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 28 09:49:10.557285 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 09:49:10.557384 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 6
+Dec 28 09:49:10.621520 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:10.621615 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:10.646015 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:10.646057 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:10.797747 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:10.798121 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:11.182000 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:11.182017 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 09:49:11.182104 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -6
+Dec 28 09:49:11.191578 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.183918 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 28 14:40:09.186389 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 28 14:40:09.478160 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 14:40:09.478249 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 5
+Dec 28 14:40:09.478266 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.478568 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.485394 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.486175 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.751944 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.751971 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 14:40:09.752076 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -6
+Dec 28 14:40:09.767314 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:14.902244 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 28 14:59:14.905450 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 28 14:59:15.062521 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 14:59:15.062655 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 6
+Dec 28 14:59:15.062681 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.062716 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.107160 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.107341 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.203548 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.203589 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.335179 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.335204 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 14:59:15.335314 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -6
+Dec 28 14:59:15.348025 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.036802 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 29 10:37:02.042055 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 29 10:37:02.098689 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 29 10:37:02.098782 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 6
+Dec 29 10:37:02.335575 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.337886 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.389600 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.389616 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 29 10:37:02.389692 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -6
+Dec 29 10:37:02.897594 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.055082 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 29 13:40:39.058854 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 29 13:40:39.267306 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 29 13:40:39.267417 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 7
+Dec 29 13:40:39.267456 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.267892 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.355592 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.356194 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.387713 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.866991 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:42:00.911457 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Dec 29 13:42:00.916033 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Dec 29 13:42:01.147899 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 29 13:42:01.148003 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:42:01.148400 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:42:01.212095 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:42:01.213489 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:42:01.482606 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:42:01.482630 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 29 13:42:01.482739 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -6
+Dec 29 13:42:01.493012 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.816538 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Jan 24 13:28:58.819695 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Jan 24 13:28:59.006313 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Jan 24 13:28:59.006394 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 3
+Jan 24 13:28:59.006410 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:59.006697 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:59.032208 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:59.032231 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:59.117581 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:59.596439 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.571090 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Jan 24 13:29:24.573623 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Jan 24 13:29:24.871980 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:29:24.872050 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.873468 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.121157 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.121172 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Jan 24 13:29:25.121241 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -7
+Jan 24 13:29:25.130450 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.667776 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Jan 24 13:29:42.671522 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Jan 24 13:29:42.945164 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Jan 24 13:29:42.945247 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 3
+Jan 24 13:29:42.945263 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.945560 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.969241 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.969656 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:43.138568 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:43.138583 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Jan 24 13:29:43.138656 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -7
+Jan 24 13:29:43.145879 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:18.380647 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Stop -----------
+Jan 24 13:31:18.380663 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Stop -----------
+Jan 24 13:31:18.381062 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Stop -----------
+Jan 24 13:31:18.381081 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Stop -----------
+Jan 24 13:31:40.857403 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:40.871302 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:41.245691 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Jan 24 13:31:41.245710 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Jan 24 13:31:41.250156 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Jan 24 13:31:41.250171 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Jan 24 13:31:41.251076 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Jan 24 13:31:41.251087 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Jan 24 13:31:41.328798 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Jan 24 13:31:41.333269 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Jan 24 13:31:42.528692 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:31:42.528776 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Jan 24 13:31:45.665593 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:45.670976 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.096261 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Feb 19 10:31:36.105958 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Feb 19 10:31:36.148353 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 10:31:36.212576 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.212708 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.334840 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.334887 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.389185 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.396984 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.611437 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.611451 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 10:31:36.611587 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Feb 19 10:31:36.622050 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.074023 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Feb 19 10:57:20.077793 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Feb 19 10:57:20.310058 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 19 10:57:20.310146 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -2
+Feb 19 10:57:20.310163 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.310542 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.374320 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.374854 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.687459 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.688070 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.168462 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Feb 19 11:03:59.173745 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Feb 19 11:03:59.216809 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 11:03:59.452642 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.453051 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.468694 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.470404 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.716397 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.716413 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 11:03:59.716529 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Feb 19 11:03:59.733659 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:42.697901 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Feb 19 11:11:42.701988 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Feb 19 11:11:42.974204 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 19 11:11:42.974337 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -2
+Feb 19 11:11:42.974364 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:42.975028 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:42.998220 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:43.016213 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:43.408666 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:43.408683 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 11:11:43.408757 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 3
+Feb 19 11:11:43.431820 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:40.297530 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Feb 21 16:49:40.300843 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Feb 21 16:49:40.365439 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 21 16:49:40.365550 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta -12
+Feb 21 16:49:40.431418 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:40.431440 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:40.438726 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:40.438924 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.119958 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Feb 23 17:14:49.123074 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Feb 23 17:14:49.168853 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 23 17:14:49.232756 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.232776 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.309781 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.310184 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.228554 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Feb 23 17:15:56.231311 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Feb 23 17:15:56.299812 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 23 17:15:56.369918 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.369940 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.442381 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.442795 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.529325 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.530656 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.538133 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.538150 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 23 17:15:56.538228 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -1
+Feb 23 17:15:56.546752 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:06:26.470457 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:26.483375 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:27.070684 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:06:27.070701 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:06:27.074288 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:06:27.074302 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:06:27.076927 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:06:27.076946 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:06:27.281160 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Feb 27 10:06:27.294364 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Feb 27 10:06:27.805366 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:06:28.017181 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Feb 27 10:06:31.478129 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:31.483078 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:38.344757 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:38.529450 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:08:14.949239 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Stop -----------
+Feb 27 10:08:14.949250 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Stop -----------
+Feb 27 10:08:14.949484 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Stop -----------
+Feb 27 10:08:14.949495 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Stop -----------
+Feb 27 10:08:51.257230 CS16_TS16_PlayboyTV  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:08:51.270612 CS16_TS16_PlayboyTV  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:08:51.653559 CS16_TS16_PlayboyTV  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:08:51.653578 CS16_TS16_PlayboyTV  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:08:51.657112 CS16_TS16_PlayboyTV  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:08:51.657128 CS16_TS16_PlayboyTV  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:08:51.658020 CS16_TS16_PlayboyTV  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:08:51.658031 CS16_TS16_PlayboyTV  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:08:51.727025 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Feb 27 10:08:51.738047 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Feb 27 10:08:52.820949 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:08:52.821033 CS16_TS16_PlayboyTV  [SWITCHER 1]  First sample received
+Feb 27 10:08:56.065009 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:08:56.070280 CS16_TS16_PlayboyTV  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:25:55.896933 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:25:56.059613 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 11:26:14.196212 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 11:26:14.309529 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 13:06:25.793154 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 13:06:25.939768 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.840832 CS16_TS16_PlayboyTV  [CAPTURE 1_0] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.51 
+Mar 13 10:36:42.845038 CS16_TS16_PlayboyTV  [CAPTURE 1_1] Connect to url udp://239.10.1.151:5000 using interface 172.16.12.141 
+Mar 13 10:36:43.049637 CS16_TS16_PlayboyTV  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Mar 13 10:36:43.049698 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.049724 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.133337 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.133766 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.141272 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.142038 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.559875 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.559891 CS16_TS16_PlayboyTV  [SWITCHER 1]  Switch active source from 0 to 1
+Mar 13 10:36:43.560034 CS16_TS16_PlayboyTV  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -16
+Mar 13 10:36:43.574982 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 15:35:12.512711 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 15:35:13.558752 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 15:35:22.173325 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 15:35:23.069209 CS16_TS16_PlayboyTV  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK

@@ -1,0 +1,96 @@
+2022-05-12 15:30:38,929 | ini_setup | INFO     | configure /opt/ericsson/service-api/etc/service-api.ini from /opt/ericsson/service-api/etc/service-api.ini
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [api]server_url=http://localhost:8001/api/servers/{server_id}
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [api]timeout=10
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [messaging]heartbeat_cached_db_read=false
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [messaging]heartbeat_interval=10
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [messaging]heartbeat_max_repeat_count=10
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [messaging]heartbeat_mode=limited
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [messaging]server_url=amqp://admin:admin@localhost:5672/?heartbeat=30
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [messaging]setup_back_off=3
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [server]host=127.0.0.1
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [server]port=8002
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [service_config]manager_url_format=http://localhost:8080/api/{service_type}
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [storage]url=mongodb://127.0.0.1:27017/envivioCluster
+2022-05-12 15:30:38,929 | ini_setup | INFO     | [storage_lock]url=mongodb://127.0.0.1:27017/mediakindMongolock
+2022-05-12 15:30:38,930 | ini_setup | INFO     | return code 0
+2022-05-12 15:30:38,930 | ini_setup | INFO     | ---
+2022-05-12 16:04:45,327 | ini_setup | INFO     | configure /opt/ericsson/service-api/etc/service-api.ini from /opt/ericsson/service-api/etc/service-api.ini
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [api]server_url=http://localhost:8001/api/servers/{server_id}
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [api]timeout=10
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [messaging]heartbeat_cached_db_read=false
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [messaging]heartbeat_interval=10
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [messaging]heartbeat_max_repeat_count=10
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [messaging]heartbeat_mode=limited
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [messaging]server_url=amqp://admin:admin@localhost:5672/?heartbeat=30
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [messaging]setup_back_off=3
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [server]host=127.0.0.1
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [server]port=8002
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [service_config]manager_url_format=http://localhost:8080/api/{service_type}
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [storage]url=mongodb://127.0.0.1:27017/envivioCluster
+2022-05-12 16:04:45,328 | ini_setup | INFO     | [storage_lock]url=mongodb://127.0.0.1:27017/mediakindMongolock
+2022-05-12 16:04:45,328 | ini_setup | INFO     | return code 0
+2022-05-12 16:04:45,328 | ini_setup | INFO     | ---
+2022-05-13 11:41:06,196 | ini_setup | INFO     | configure /opt/ericsson/service-api/etc/service-api.ini from /opt/ericsson/service-api/etc/service-api.ini
+2022-05-13 11:41:06,196 | ini_setup | INFO     | [api]server_url=http://localhost:8001/api/servers/{server_id}
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [api]timeout=10
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [messaging]heartbeat_cached_db_read=false
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [messaging]heartbeat_interval=10
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [messaging]heartbeat_max_repeat_count=10
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [messaging]heartbeat_mode=limited
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [messaging]server_url=amqp://admin:admin@localhost:5672/?heartbeat=30
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [messaging]setup_back_off=3
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [server]host=127.0.0.1
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [server]port=8002
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [service_config]manager_url_format=http://localhost:8080/api/{service_type}
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [storage]url=mongodb://127.0.0.1:27017/envivioCluster
+2022-05-13 11:41:06,197 | ini_setup | INFO     | [storage_lock]url=mongodb://127.0.0.1:27017/mediakindMongolock
+2022-05-13 11:41:06,197 | ini_setup | INFO     | return code 0
+2022-05-13 11:41:06,197 | ini_setup | INFO     | ---
+2022-07-12 18:57:26,584 | ini_setup | INFO     | configure /opt/ericsson/service-api/etc/service-api.ini from /opt/ericsson/service-api/etc/service-api.ini
+2022-07-12 18:57:26,584 | ini_setup | INFO     | [api]server_url=http://localhost:8001/api/servers/{server_id}
+2022-07-12 18:57:26,584 | ini_setup | INFO     | [api]timeout=10
+2022-07-12 18:57:26,584 | ini_setup | INFO     | [messaging]heartbeat_cached_db_read=false
+2022-07-12 18:57:26,584 | ini_setup | INFO     | [messaging]heartbeat_interval=10
+2022-07-12 18:57:26,584 | ini_setup | INFO     | [messaging]heartbeat_max_repeat_count=10
+2022-07-12 18:57:26,584 | ini_setup | INFO     | [messaging]heartbeat_mode=limited
+2022-07-12 18:57:26,584 | ini_setup | INFO     | [messaging]server_url=amqp://admin:admin@localhost:5672/?heartbeat=30
+2022-07-12 18:57:26,584 | ini_setup | INFO     | [messaging]setup_back_off=3
+2022-07-12 18:57:26,584 | ini_setup | INFO     | [server]host=127.0.0.1
+2022-07-12 18:57:26,585 | ini_setup | INFO     | [server]port=8002
+2022-07-12 18:57:26,585 | ini_setup | INFO     | [service_config]manager_url_format=http://localhost:8080/api/{service_type}
+2022-07-12 18:57:26,585 | ini_setup | INFO     | [storage]url=mongodb://127.0.0.1:27017/envivioCluster
+2022-07-12 18:57:26,585 | ini_setup | INFO     | [storage_lock]url=mongodb://127.0.0.1:27017/mediakindMongolock
+2022-07-12 18:57:26,585 | ini_setup | INFO     | return code 0
+2022-07-12 18:57:26,585 | ini_setup | INFO     | ---
+2022-07-12 19:36:46,584 | ini_setup | INFO     | configure /opt/ericsson/service-api/etc/service-api.ini from /opt/ericsson/service-api/etc/service-api.ini
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [api]server_url=http://localhost:8001/api/servers/{server_id}
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [api]timeout=10
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [messaging]heartbeat_cached_db_read=false
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [messaging]heartbeat_interval=10
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [messaging]heartbeat_max_repeat_count=10
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [messaging]heartbeat_mode=limited
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [messaging]server_url=amqp://admin:admin@localhost:5672/?heartbeat=30
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [messaging]setup_back_off=3
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [server]host=127.0.0.1
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [server]port=8002
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [service_config]manager_url_format=http://localhost:8080/api/{service_type}
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [storage]url=mongodb://127.0.0.1:27017/envivioCluster
+2022-07-12 19:36:46,585 | ini_setup | INFO     | [storage_lock]url=mongodb://127.0.0.1:27017/mediakindMongolock
+2022-07-12 19:36:46,585 | ini_setup | INFO     | return code 0
+2022-07-12 19:36:46,585 | ini_setup | INFO     | ---
+2023-08-08 00:31:59,430 | ini_setup | INFO     | configure /opt/ericsson/service-api/etc/service-api.ini from /opt/ericsson/service-api/etc/service-api.ini
+2023-08-08 00:31:59,431 | ini_setup | INFO     | [api]server_url=http://localhost:8001/api/servers/{server_id}
+2023-08-08 00:31:59,431 | ini_setup | INFO     | [api]timeout=10
+2023-08-08 00:31:59,431 | ini_setup | INFO     | [messaging]heartbeat_cached_db_read=false
+2023-08-08 00:31:59,431 | ini_setup | INFO     | [messaging]heartbeat_interval=10
+2023-08-08 00:31:59,431 | ini_setup | INFO     | [messaging]heartbeat_max_repeat_count=10
+2023-08-08 00:31:59,432 | ini_setup | INFO     | [messaging]heartbeat_mode=limited
+2023-08-08 00:31:59,432 | ini_setup | INFO     | [messaging]server_url=amqp://admin:admin@localhost:5672/?heartbeat=30
+2023-08-08 00:31:59,432 | ini_setup | INFO     | [messaging]setup_back_off=3
+2023-08-08 00:31:59,432 | ini_setup | INFO     | [server]host=127.0.0.1
+2023-08-08 00:31:59,432 | ini_setup | INFO     | [server]port=8002
+2023-08-08 00:31:59,432 | ini_setup | INFO     | [service_config]manager_url_format=http://localhost:8080/api/{service_type}
+2023-08-08 00:31:59,432 | ini_setup | INFO     | [storage]url=mongodb://127.0.0.1:27017/envivioCluster
+2023-08-08 00:31:59,432 | ini_setup | INFO     | [storage_lock]url=mongodb://127.0.0.1:27017/mediakindMongolock
+2023-08-08 00:31:59,433 | ini_setup | INFO     | return code 0
+2023-08-08 00:31:59,433 | ini_setup | INFO     | ---

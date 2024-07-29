@@ -1,0 +1,800 @@
+Aug  8 00:52:25.056246 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:25.074865 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:25.390228 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:52:25.390259 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:52:25.394693 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:52:25.394714 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:52:25.396036 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:52:25.396051 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:52:25.631964 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Aug  8 00:52:25.636065 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Aug  8 00:52:26.106192 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:52:26.106286 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Aug  8 00:52:29.867273 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:52:29.874373 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:35.709578 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:35.723619 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:35.962256 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:59:35.962284 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:59:35.965900 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:59:35.965918 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:59:35.966807 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:59:35.966818 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:59:36.555903 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Aug  8 00:59:36.559729 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Aug  8 00:59:37.363957 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:59:37.530235 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Aug  8 00:59:40.417888 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:40.423268 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 01:03:03.866434 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 01:03:03.866652 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 23:10:12.956022 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Stop -----------
+Aug  8 23:10:12.956034 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Stop -----------
+Aug  8 23:10:12.956300 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Stop -----------
+Aug  8 23:10:12.956314 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Stop -----------
+Aug  8 23:10:37.789934 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:37.805512 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:38.058426 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Aug  8 23:10:38.058452 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Aug  8 23:10:38.062234 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 23:10:38.062251 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 23:10:38.063153 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 23:10:38.063166 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 23:10:38.127261 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Aug  8 23:10:38.132131 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Aug  8 23:10:39.314315 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 23:10:39.378139 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:39.378187 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 23:10:39.479050 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Aug  8 23:10:42.498881 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:42.505194 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  9 15:47:54.453223 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  9 15:47:54.453323 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug 18 06:15:04.340217 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 18 06:15:04.340245 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug 26 06:18:22.164052 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 26 06:18:22.164094 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug 29 14:11:52.544371 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 29 14:11:52.544462 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug 29 14:11:52.704887 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug 29 14:11:52.704949 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:31:03.000395 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:31:03.000412 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:31:03.000914 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:31:03.000933 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:31:03.846385 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:03.860267 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:04.109527 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:31:04.109551 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:31:04.113880 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:31:04.113896 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:31:04.114800 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:31:04.114812 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:31:04.182045 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Sep 14 02:31:04.186564 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Sep 14 02:31:05.343819 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:31:05.343927 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Sep 14 02:31:08.554626 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:31:08.559949 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:38:59.967570 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:38:59.967580 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:38:59.967840 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:38:59.967852 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:39:36.500416 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:36.513379 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:36.755070 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:39:36.755097 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:39:36.759612 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:39:36.759631 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:39:36.760533 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:39:36.760544 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:39:36.819204 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Sep 14 02:39:36.832197 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Sep 14 02:39:37.428563 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:39:37.472221 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Sep 14 02:39:37.492390 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:37.492424 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:39:41.208083 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:41.213052 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:34:27.603753 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Stop -----------
+Sep 25 16:34:27.603767 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Stop -----------
+Sep 25 16:34:27.604090 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Stop -----------
+Sep 25 16:34:27.604108 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Stop -----------
+Sep 25 16:35:29.505728 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:29.518526 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:29.762966 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Sep 25 16:35:29.762991 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Sep 25 16:35:29.767414 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Sep 25 16:35:29.767432 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Sep 25 16:35:29.768351 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Sep 25 16:35:29.768362 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Sep 25 16:35:29.838833 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Sep 25 16:35:29.843189 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Sep 25 16:35:30.366912 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 25 16:35:30.367005 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Sep 25 16:35:34.213463 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:35:34.218244 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 29 08:48:23.134324 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 29 08:48:23.218456 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct  1 16:34:46.934389 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct  1 16:34:46.934424 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct  5 23:12:08.089913 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct  5 23:12:08.107461 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 13 09:04:22.268167 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 09:04:22.300962 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 14 12:35:43.200124 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 14 12:35:43.216286 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 18 20:25:40.307183 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 18 20:25:40.307207 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 18 20:25:40.806223 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 18 20:25:40.839228 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 25 03:27:36.122914 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.136551 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.381407 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Oct 25 03:27:36.381432 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Oct 25 03:27:36.385129 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Oct 25 03:27:36.385145 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Oct 25 03:27:36.386064 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Oct 25 03:27:36.386076 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Oct 25 03:27:36.934767 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Oct 25 03:27:36.934771 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Oct 25 03:27:37.788443 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Oct 25 03:27:37.788523 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Oct 25 03:27:40.830927 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:40.836218 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 29 17:56:23.042549 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 29 17:56:23.075629 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 29 21:13:00.879625 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 29 21:13:00.896399 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov  4 20:06:35.262126 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov  4 20:06:35.295092 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov  6 14:26:41.748263 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov  6 14:26:41.847214 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 12 08:24:52.694038 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 12 08:24:52.694060 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 16 14:38:52.267647 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 14:38:52.483207 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 16 16:46:49.692498 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Stop -----------
+Nov 16 16:46:49.692509 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Stop -----------
+Nov 16 16:46:49.692774 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Stop -----------
+Nov 16 16:46:49.692787 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Stop -----------
+Nov 16 16:47:27.291997 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:27.304866 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:27.550169 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Nov 16 16:47:27.550193 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Nov 16 16:47:27.554564 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Nov 16 16:47:27.554606 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Nov 16 16:47:27.555562 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Nov 16 16:47:27.555579 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Nov 16 16:47:27.619747 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Nov 16 16:47:27.624277 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Nov 16 16:47:28.696329 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 16 16:47:28.696436 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Nov 16 16:47:31.999804 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:32.004590 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:39.181165 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:39.205270 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 23 10:21:09.598545 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Stop -----------
+Nov 23 10:21:09.598557 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Stop -----------
+Nov 23 10:21:09.598879 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Stop -----------
+Nov 23 10:21:09.598891 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Stop -----------
+Nov 23 10:21:32.431691 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:32.445539 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:32.692956 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Nov 23 10:21:32.692981 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Nov 23 10:21:32.697170 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Nov 23 10:21:32.697185 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Nov 23 10:21:32.698080 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Nov 23 10:21:32.698090 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Nov 23 10:21:32.766694 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Nov 23 10:21:32.770867 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Nov 23 10:21:33.824150 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 23 10:21:33.824235 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Nov 23 10:21:33.907715 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:33.907755 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 23 10:21:37.139901 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:37.145222 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.666159 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Nov 28 14:33:32.668813 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Nov 28 14:33:32.799171 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:33:32.799230 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.799363 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.802736 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.802757 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.863407 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.863489 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.948076 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.948111 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.966318 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.967769 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:33.128468 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:33.128492 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 28 14:33:33.128729 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -1138
+Nov 28 14:33:33.200599 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:47.987560 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Stop -----------
+Nov 28 14:33:47.987573 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Stop -----------
+Nov 28 14:33:47.987849 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Stop -----------
+Nov 28 14:33:47.987863 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Stop -----------
+Nov 28 14:34:08.630227 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:08.643396 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:08.884474 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Nov 28 14:34:08.884501 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Nov 28 14:34:08.888755 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Nov 28 14:34:08.888771 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Nov 28 14:34:08.889678 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Nov 28 14:34:08.889700 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Nov 28 14:34:08.959120 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Nov 28 14:34:08.962985 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Nov 28 14:34:09.619517 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:34:09.792612 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Nov 28 14:34:13.338176 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:13.343094 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:20.226635 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:20.438128 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.018077 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Nov 29 10:39:28.022280 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Nov 29 10:39:28.194553 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 29 10:39:28.194623 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.194652 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.318571 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.319435 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.645164 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.645181 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Nov 29 10:39:28.645384 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -183
+Nov 29 10:39:28.712063 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.498425 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Nov 29 10:39:46.502050 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Nov 29 10:39:46.623089 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Nov 29 10:39:46.623165 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 0
+Nov 29 10:39:46.623184 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.623310 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.687308 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.687385 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.751530 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.751611 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.799025 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.799691 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.960263 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.396363 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec  1 04:21:53.739204 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec  1 04:21:53.806614 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec  8 14:00:42.162517 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec  8 14:00:42.228428 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.468979 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 13 10:45:56.472042 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 13 10:45:56.650477 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 10:45:56.650536 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.650704 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.738824 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.738858 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.770394 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.770803 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:57.027772 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:57.458279 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:32.117648 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 13 10:47:32.120210 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 13 10:47:32.419874 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 10:47:32.419979 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:32.429383 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:32.987149 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:32.987165 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 10:47:32.987232 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -3304
+Dec 13 10:47:33.054155 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.366972 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 13 16:44:48.369310 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 13 16:44:48.573067 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:44:48.573200 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 54
+Dec 13 16:44:48.573221 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.573485 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.596456 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.596487 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.667354 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.669493 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:48.968489 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:48.968505 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:44:48.968608 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -3304
+Dec 13 16:44:49.030736 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.245250 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 13 16:47:08.248255 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 13 16:47:08.372001 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:47:08.372122 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 55
+Dec 13 16:47:08.372146 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.372168 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.437368 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.437399 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.501145 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.501174 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.545357 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.546273 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:08.875296 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:08.875312 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:47:08.875398 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -3304
+Dec 13 16:47:08.947824 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.407465 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 13 16:48:53.411340 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 13 16:48:53.548329 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 13 16:48:53.548408 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 55
+Dec 13 16:48:53.548426 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.548566 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.692815 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.692960 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.708127 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.708884 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.246579 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.246602 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 13 16:48:54.246696 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -3305
+Dec 13 16:48:54.311128 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 18 14:02:49.627037 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:49.639981 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:49.884765 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Dec 18 14:02:49.884792 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Dec 18 14:02:49.888703 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Dec 18 14:02:49.888720 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Dec 18 14:02:49.889742 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Dec 18 14:02:49.889753 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Dec 18 14:02:50.870536 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 18 14:02:50.874430 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 18 14:02:51.475756 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 18 14:02:51.540285 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:02:51.540318 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 18 14:02:51.642696 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Dec 18 14:02:54.334654 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:02:54.339625 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:03:02.071384 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:03:02.135668 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:06.815396 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 19 13:18:06.819350 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 19 13:18:06.932682 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:18:06.932775 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:06.932806 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:06.956982 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:06.957094 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:07.061068 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:07.061090 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:07.109515 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:07.109668 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:07.115870 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:07.117526 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:07.395259 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:07.395281 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:18:07.395440 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 19 13:18:07.462873 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.468042 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 19 13:29:58.472863 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 19 13:29:58.592668 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 13:29:58.592744 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1
+Dec 19 13:29:58.592761 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.592878 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.721138 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.721213 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.769241 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.769306 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:59.340081 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:59.340108 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:29:59.340210 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 19 13:29:59.403686 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.521540 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 19 13:30:24.525067 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 19 13:30:24.660598 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 13:30:24.660741 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 2
+Dec 19 13:30:24.660769 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.660801 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.772984 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.773150 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.821097 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.822673 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:25.064855 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:25.064872 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:30:25.064974 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 19 13:30:25.134278 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.028417 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 19 14:29:25.032073 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 19 14:29:25.187586 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 14:29:25.187666 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 8
+Dec 19 14:29:25.187688 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.187720 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.288636 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.288748 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:25.328638 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:25.328714 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:26.069270 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:26.069292 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 14:29:26.069398 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 19 14:29:26.139670 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:58.326880 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 20 14:37:58.330155 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 20 14:37:58.467470 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 20 14:37:58.467604 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 236
+Dec 20 14:37:58.467629 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:58.467657 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:58.588919 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:58.589192 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:58.612713 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:58.612751 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:58.628157 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:58.629032 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:58.894947 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:58.894970 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 20 14:37:58.895073 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -215
+Dec 20 14:37:58.958763 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 24 19:52:08.762896 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 24 19:52:08.812721 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 25 11:48:38.011722 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 25 11:48:38.013111 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 25 22:53:11.699759 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 25 22:53:11.699824 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 26 08:16:59.072990 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 26 08:17:06.496651 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 1 to 0
+Dec 26 08:17:06.496739 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1534
+Dec 26 08:17:07.277979 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 26 08:17:36.738235 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 26 08:17:44.814739 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 26 11:01:25.329240 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 26 11:01:25.429080 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.660007 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 28 09:49:09.662568 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 28 09:49:09.953768 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 28 09:49:09.953857 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.954169 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.960902 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.961787 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:10.325920 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:10.325936 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 09:49:10.326017 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -682
+Dec 28 09:49:10.395325 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:10.234531 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 28 14:40:10.238381 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 28 14:40:10.358722 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 14:40:10.358867 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1577
+Dec 28 14:40:10.358888 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:10.358920 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:10.432201 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:10.432546 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:10.455651 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:10.455675 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:10.534915 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:10.536514 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:10.902746 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:10.902770 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 14:40:10.902863 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -682
+Dec 28 14:40:10.970187 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.212875 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 28 14:59:15.215308 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 28 14:59:15.397377 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 28 14:59:15.397475 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1580
+Dec 28 14:59:15.397509 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.397538 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.435043 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.435154 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:15.513853 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:15.515248 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:16.013706 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:16.013724 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 28 14:59:16.013807 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -682
+Dec 28 14:59:16.085351 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:04.948018 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 29 10:37:04.952290 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 29 10:37:05.087885 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 29 10:37:05.087996 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1762
+Dec 29 10:37:05.088019 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:05.088215 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:05.175579 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:05.175607 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:05.248564 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:05.249245 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:05.445771 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:05.445798 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 29 10:37:05.445914 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -682
+Dec 29 10:37:05.513383 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.189344 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 29 13:40:39.192526 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 29 13:40:39.330094 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 29 13:40:39.330173 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1793
+Dec 29 13:40:39.330191 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.330312 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.418417 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.418475 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.448085 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.448121 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:39.490704 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.490896 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:39.643256 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:40.082658 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.452680 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Dec 29 13:41:58.456036 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Dec 29 13:41:58.585429 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 29 13:41:58.585491 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.585627 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.614975 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.614997 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.657649 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.657707 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.678834 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.678855 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.753945 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.754054 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.027737 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.027754 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 29 13:41:59.027848 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -681
+Dec 29 13:41:59.099203 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan  4 17:51:35.439947 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan  4 17:51:35.505927 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan  9 14:29:29.676870 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan  9 14:29:29.860075 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 13 06:55:17.976263 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 13 06:55:17.976352 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 13 06:55:18.040194 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 13 06:55:18.040282 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 13 15:30:58.965936 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 13 15:30:59.133082 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 14 07:54:16.854091 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 14 07:54:16.854199 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 14 07:54:17.388158 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 14 07:54:17.438053 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 15 00:24:42.988599 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 15 00:24:43.072867 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 15 12:58:35.222975 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 15 12:58:35.223045 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 15 12:58:35.660295 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 15 12:58:35.726240 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 17 11:45:42.737245 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 17 11:45:42.820071 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 17 22:51:50.728696 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 17 22:51:50.778606 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 18 01:16:59.629886 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 18 01:16:59.846791 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 21 02:33:34.979092 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 21 02:33:35.012742 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.863030 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Jan 24 13:28:58.866086 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Jan 24 13:28:58.999618 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Jan 24 13:28:58.999718 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 7714
+Jan 24 13:28:58.999742 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.999772 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:59.053163 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:59.053267 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:59.095791 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:59.095820 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:59.163897 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:59.165482 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:59.606163 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:59.606185 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Jan 24 13:28:59.606288 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -681
+Jan 24 13:28:59.671347 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.521284 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Jan 24 13:29:24.524548 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Jan 24 13:29:24.639267 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Jan 24 13:29:24.639334 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 7714
+Jan 24 13:29:24.639351 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.639431 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.735589 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.735656 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.822857 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.823903 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.032731 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.465196 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.521471 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Jan 24 13:29:42.524739 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Jan 24 13:29:42.654746 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:29:42.654809 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.654929 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.807641 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.807665 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.823046 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.823315 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:43.048142 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:43.484358 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:19.172290 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Stop -----------
+Jan 24 13:31:19.172300 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Stop -----------
+Jan 24 13:31:19.172530 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Stop -----------
+Jan 24 13:31:19.172544 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Stop -----------
+Jan 24 13:31:42.160715 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:42.173919 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:42.421577 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Jan 24 13:31:42.421605 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Jan 24 13:31:42.426330 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Jan 24 13:31:42.426348 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Jan 24 13:31:42.427258 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Jan 24 13:31:42.427271 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Jan 24 13:31:42.492089 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Jan 24 13:31:42.496299 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Jan 24 13:31:43.511342 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:31:43.616138 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Jan 24 13:31:43.680393 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:43.680469 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:46.868600 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:46.873643 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 25 06:31:45.710272 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 25 06:31:45.776245 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 27 09:20:59.163716 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 27 09:20:59.346846 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 29 13:47:20.407029 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 29 13:47:20.539739 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 29 14:35:21.602635 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 29 14:35:21.618814 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb  5 00:12:51.366279 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb  5 00:12:51.515798 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb  6 14:25:30.552993 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb  6 14:25:30.602734 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 10 06:51:06.788590 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 10 06:51:06.822243 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 12 02:18:11.707759 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 12 02:18:11.923932 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 14 18:39:28.400702 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 14 18:39:28.435046 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 16 13:31:40.731012 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 16 13:31:40.948655 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.272272 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Feb 19 10:31:36.277061 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Feb 19 10:31:36.450839 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 10:31:36.450971 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.451004 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.553933 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.554048 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.569470 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.572973 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:36.794088 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:36.794105 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 10:31:36.794265 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -5963
+Feb 19 10:31:36.858586 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.036819 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Feb 19 10:57:20.040548 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Feb 19 10:57:20.161160 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 19 10:57:20.161244 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 4
+Feb 19 10:57:20.161262 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.161350 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.257536 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.257625 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.258627 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.258654 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.337779 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.337927 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:20.474334 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:20.901664 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.299520 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Feb 19 11:03:59.304304 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Feb 19 11:03:59.488391 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 11:03:59.488454 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.488626 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.552630 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.552698 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.554721 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.554741 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:03:59.600837 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:03:59.601055 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:04:00.166113 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:04:00.166138 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 11:04:00.166246 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -5965
+Feb 19 11:04:00.235109 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.348226 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Feb 19 11:11:40.352567 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Feb 19 11:11:40.601367 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 19 11:11:40.601477 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 5
+Feb 19 11:11:40.601514 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.601756 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.649206 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.649530 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:41.160885 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:41.160902 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 19 11:11:41.160992 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -5965
+Feb 19 11:11:41.227628 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.623165 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Feb 21 16:49:38.626191 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Feb 21 16:49:38.743832 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 21 16:49:38.743920 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 521
+Feb 21 16:49:38.743940 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.743969 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.748362 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.748459 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.839998 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.840020 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.876816 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.876966 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.924208 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.924983 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:39.551023 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:39.551039 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 21 16:49:39.551114 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -5965
+Feb 21 16:49:39.615535 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:50.737484 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Feb 23 17:14:50.740390 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Feb 23 17:14:50.950321 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Feb 23 17:14:50.950404 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 987
+Feb 23 17:14:50.950421 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:50.950471 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:51.007406 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:51.007688 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:51.038686 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:51.039546 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:51.256318 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:51.687960 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.200785 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Feb 23 17:15:56.204938 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Feb 23 17:15:56.317564 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 23 17:15:56.317624 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.317711 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.358369 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.358404 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.413879 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.413945 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.501626 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:56.502193 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:57.119978 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:57.119995 CS18_TS12_Lotte  [SWITCHER 1]  Switch active source from 0 to 1
+Feb 23 17:15:57.120067 CS18_TS12_Lotte  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta -5966
+Feb 23 17:15:57.184757 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 19:24:42.520913 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 19:24:42.521045 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 25 18:13:49.882752 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 25 18:13:49.915805 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 25 20:30:03.863274 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 25 20:30:03.863362 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 00:26:34.489132 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 00:26:34.505970 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:06:26.470336 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:26.483400 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:26.730486 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:06:26.730514 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:06:26.734701 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:06:26.734717 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:06:26.735579 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:06:26.735590 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:06:26.944817 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Feb 27 10:06:26.945283 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Feb 27 10:06:27.400812 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:06:27.464986 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:27.465058 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:06:28.203068 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Feb 27 10:06:31.178005 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:31.183051 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:38.578762 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:38.763478 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:08:15.300323 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Stop -----------
+Feb 27 10:08:15.300333 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Stop -----------
+Feb 27 10:08:15.300611 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Stop -----------
+Feb 27 10:08:15.300622 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Stop -----------
+Feb 27 10:08:53.737810 CS18_TS12_Lotte  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:08:53.753024 CS18_TS12_Lotte  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:08:54.003247 CS18_TS12_Lotte  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:08:54.003274 CS18_TS12_Lotte  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:08:54.007486 CS18_TS12_Lotte  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:08:54.007517 CS18_TS12_Lotte  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:08:54.008499 CS18_TS12_Lotte  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:08:54.008512 CS18_TS12_Lotte  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:08:54.065618 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Feb 27 10:08:54.070167 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Feb 27 10:08:54.928010 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:08:54.928123 CS18_TS12_Lotte  [SWITCHER 1]  First sample received
+Feb 27 10:08:54.992066 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:08:54.992125 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:08:58.446187 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:08:58.452414 CS18_TS12_Lotte  [SWITCHER 2]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:09:05.245935 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:09:05.446660 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:13:28.556219 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:13:28.804045 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:13:45.726640 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:13:45.887298 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar  3 07:45:07.352319 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar  3 07:45:07.352351 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar  5 02:50:11.809625 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar  5 02:50:11.976761 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar  7 13:27:58.049226 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar  7 13:27:58.064633 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.722404 CS18_TS12_Lotte  [CAPTURE 1_0] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.51 
+Mar 13 10:36:42.725985 CS18_TS12_Lotte  [CAPTURE 1_1] Connect to url udp://239.10.20.9:5000 using interface 172.16.12.141 
+Mar 13 10:36:42.839143 CS18_TS12_Lotte  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Mar 13 10:36:42.839230 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.839253 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.903066 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.903094 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.943741 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.944099 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:42.966936 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:42.966967 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.023775 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.024064 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.152587 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.583752 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 15 09:59:47.914120 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 15 09:59:47.997761 CS18_TS12_Lotte  [SWITCHER 1]  srcIdx[1] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK

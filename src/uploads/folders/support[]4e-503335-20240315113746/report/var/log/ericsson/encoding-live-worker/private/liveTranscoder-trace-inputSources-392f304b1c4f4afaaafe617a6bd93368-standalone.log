@@ -1,0 +1,772 @@
+Aug  8 00:52:25.120730 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:25.138631 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:52:25.557159 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:52:25.557181 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:52:25.561994 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:52:25.562013 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:52:25.563864 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:52:25.563878 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:52:26.171101 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Aug  8 00:52:26.176607 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Aug  8 00:52:27.174118 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:52:27.240844 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Aug  8 00:52:30.032234 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:52:30.038192 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:35.704582 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:35.720606 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 00:59:36.095353 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Aug  8 00:59:36.095372 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Aug  8 00:59:36.100292 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 00:59:36.100308 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 00:59:36.102045 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 00:59:36.102055 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 00:59:36.647224 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Aug  8 00:59:36.651614 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Aug  8 00:59:37.381239 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 00:59:37.410519 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Aug  8 00:59:37.458444 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:37.458488 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 00:59:40.514790 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 00:59:40.520293 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 05:10:49.038284 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Stop -----------
+Aug  8 05:10:49.038340 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Stop -----------
+Aug  8 05:10:49.039247 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Stop -----------
+Aug  8 05:10:49.039292 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Stop -----------
+Aug  8 05:10:50.276443 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 05:10:50.294382 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 05:10:50.751147 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Aug  8 05:10:50.751165 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Aug  8 05:10:50.756298 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 05:10:50.756315 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 05:10:50.758250 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 05:10:50.758267 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 05:10:50.830648 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Aug  8 05:10:50.837501 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Aug  8 05:10:51.252279 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 05:10:51.254583 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Aug  8 05:10:51.303486 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 05:10:51.303529 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Aug  8 05:10:55.187519 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 05:10:55.193882 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:15.054269 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Stop -----------
+Aug  8 23:10:15.054282 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Stop -----------
+Aug  8 23:10:15.054695 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Stop -----------
+Aug  8 23:10:15.054711 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Stop -----------
+Aug  8 23:10:46.367860 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:46.385903 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Aug  8 23:10:46.826413 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Aug  8 23:10:46.826442 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Aug  8 23:10:46.832789 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Aug  8 23:10:46.832818 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Aug  8 23:10:46.835173 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Aug  8 23:10:46.835187 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Aug  8 23:10:46.939049 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Aug  8 23:10:46.945180 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Aug  8 23:10:47.519336 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Aug  8 23:10:47.535613 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Aug  8 23:10:51.279177 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Aug  8 23:10:51.285486 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:31:04.318076 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:31:04.318088 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:31:04.318443 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:31:04.318468 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:31:05.690089 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:05.708196 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:31:06.119636 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:31:06.119662 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:31:06.125758 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:31:06.125779 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:31:06.127824 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:31:06.127835 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:31:06.183077 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Sep 14 02:31:06.187924 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Sep 14 02:31:07.430497 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:31:07.447199 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Sep 14 02:31:10.601290 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:31:10.607880 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:02.293963 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Stop -----------
+Sep 14 02:39:02.293975 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Stop -----------
+Sep 14 02:39:02.294367 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Stop -----------
+Sep 14 02:39:02.294382 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Stop -----------
+Sep 14 02:39:48.008491 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:48.026251 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 14 02:39:48.459098 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Sep 14 02:39:48.459119 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Sep 14 02:39:48.464785 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Sep 14 02:39:48.464812 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Sep 14 02:39:48.466942 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Sep 14 02:39:48.466956 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Sep 14 02:39:48.569835 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Sep 14 02:39:48.577252 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Sep 14 02:39:49.363350 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 14 02:39:49.374754 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Sep 14 02:39:49.415157 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:49.415247 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:39:49.430629 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:49.430693 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 14 02:39:52.919834 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 14 02:39:52.925668 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 22 02:23:13.940978 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 22 02:23:14.308129 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 22 02:23:14.537077 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 22 02:23:14.537208 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 22 02:23:14.548265 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 22 02:23:14.548291 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 22 02:23:14.550250 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 22 02:23:15.516912 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Sep 25 16:34:29.675372 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Stop -----------
+Sep 25 16:34:29.675385 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Stop -----------
+Sep 25 16:34:29.675733 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Stop -----------
+Sep 25 16:34:29.675758 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Stop -----------
+Sep 25 16:35:38.276493 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:38.293788 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Sep 25 16:35:38.743166 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Sep 25 16:35:38.743199 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Sep 25 16:35:38.750237 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Sep 25 16:35:38.750278 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Sep 25 16:35:38.753110 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Sep 25 16:35:38.753130 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Sep 25 16:35:38.820152 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Sep 25 16:35:38.838975 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Sep 25 16:35:39.302286 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Sep 25 16:35:39.318925 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Sep 25 16:35:43.187605 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Sep 25 16:35:43.193366 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 01:58:21.952480 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 01:58:22.298521 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 13 01:58:22.554608 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 01:58:23.116600 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 13 02:00:54.356398 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 02:00:55.831028 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 13 02:14:20.243443 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 02:14:20.260360 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 02:14:20.546866 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 13 02:14:20.546891 CS24_TS17_MBC Deagu  [SWITCHER 1]  Switch active source from 0 to 1
+Oct 13 02:14:20.547176 CS24_TS17_MBC Deagu  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 6
+Oct 13 02:14:20.573508 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 13 02:14:20.582949 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 02:14:20.583026 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 13 02:14:20.597551 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 02:14:20.597573 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 13 02:14:20.621632 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 02:14:20.621654 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 13 02:14:20.835049 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 02:14:20.846531 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 13 02:14:21.408467 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 13 02:14:21.408483 CS24_TS17_MBC Deagu  [SWITCHER 1]  Switch active source from 1 to 0
+Oct 13 02:14:21.408557 CS24_TS17_MBC Deagu  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 0
+Oct 13 02:14:21.436476 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Oct 25 03:27:36.123624 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.140501 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Oct 25 03:27:36.616650 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Oct 25 03:27:36.616677 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Oct 25 03:27:36.621602 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Oct 25 03:27:36.621622 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Oct 25 03:27:36.623394 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Oct 25 03:27:36.623421 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Oct 25 03:27:37.093284 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Oct 25 03:27:37.093290 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Oct 25 03:27:37.634138 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Oct 25 03:27:37.651061 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Oct 25 03:27:41.034363 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:41.040111 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:48.476107 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Oct 25 03:27:48.508139 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 16 16:46:52.144484 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Stop -----------
+Nov 16 16:46:52.144494 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Stop -----------
+Nov 16 16:46:52.144848 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Stop -----------
+Nov 16 16:46:52.144861 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Stop -----------
+Nov 16 16:47:39.605563 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:39.626117 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 16 16:47:40.066867 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Nov 16 16:47:40.066902 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Nov 16 16:47:40.072834 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Nov 16 16:47:40.072863 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Nov 16 16:47:40.074697 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Nov 16 16:47:40.074710 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Nov 16 16:47:40.156255 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Nov 16 16:47:40.164150 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Nov 16 16:47:40.582681 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 16 16:47:40.672591 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Nov 16 16:47:40.729091 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:40.729155 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 16 16:47:44.518132 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 16 16:47:44.525642 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:12.243471 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Stop -----------
+Nov 23 10:21:12.243481 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Stop -----------
+Nov 23 10:21:12.243886 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Stop -----------
+Nov 23 10:21:12.243906 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Stop -----------
+Nov 23 10:21:40.034997 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:40.058600 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 23 10:21:40.502305 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Nov 23 10:21:40.502332 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Nov 23 10:21:40.508880 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Nov 23 10:21:40.508907 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Nov 23 10:21:40.511502 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Nov 23 10:21:40.511521 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Nov 23 10:21:40.585936 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Nov 23 10:21:40.590754 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Nov 23 10:21:41.683255 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 23 10:21:41.692460 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Nov 23 10:21:41.733125 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:41.733162 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 23 10:21:41.748408 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:41.748515 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 23 10:21:44.950544 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 23 10:21:44.958178 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.443796 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Nov 28 14:33:32.448652 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Nov 28 14:33:32.520179 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:33:32.520276 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.520299 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.581372 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.581395 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.593205 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.593226 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.641271 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.641306 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.703329 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.703469 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.727294 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.727681 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:32.743382 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:32.744563 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:33:33.209078 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:33.238132 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:33:50.501194 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Stop -----------
+Nov 28 14:33:50.501212 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Stop -----------
+Nov 28 14:33:50.501575 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Stop -----------
+Nov 28 14:33:50.501591 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Stop -----------
+Nov 28 14:34:15.879299 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:15.899906 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Nov 28 14:34:16.317745 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Nov 28 14:34:16.317765 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Nov 28 14:34:16.322665 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Nov 28 14:34:16.322681 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Nov 28 14:34:16.324439 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Nov 28 14:34:16.324450 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Nov 28 14:34:16.416075 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Nov 28 14:34:16.421392 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Nov 28 14:34:17.527670 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 28 14:34:17.527755 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Nov 28 14:34:17.637639 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:17.637676 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 28 14:34:20.792197 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 28 14:34:20.799443 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:27.923619 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Nov 29 10:39:27.928993 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Nov 29 10:39:28.066142 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 29 10:39:28.114251 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.114404 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.154384 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.154878 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.173258 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.173278 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.218612 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.224588 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:28.690682 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:28.722037 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.477356 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Nov 29 10:39:46.481104 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Nov 29 10:39:46.674084 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Nov 29 10:39:46.674153 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.674295 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.746302 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.746564 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:46.775556 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:46.778350 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Nov 29 10:39:47.115679 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Nov 29 10:39:47.407517 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.433324 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 13 10:45:56.436763 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 13 10:45:56.496129 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 10:45:56.521164 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.521193 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.558843 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.558970 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.593098 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.593230 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.593502 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.593521 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.665378 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.665537 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:56.729593 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:56.734350 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:45:57.203309 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:45:57.234531 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:29.805547 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 13 10:47:29.808987 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 13 10:47:29.858328 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 10:47:29.913984 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:29.914061 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:29.930069 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:29.930326 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:29.978218 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:29.978306 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.093340 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.093362 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.106447 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.106642 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 10:47:30.636638 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 10:47:30.661200 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.177196 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 13 16:44:50.180773 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 13 16:44:50.325345 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 16:44:50.325439 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.325582 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.342542 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.342569 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.357499 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.357858 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.401057 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.401081 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.429796 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.430321 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.475605 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.478063 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:44:50.726801 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:44:50.747194 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:09.318510 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 13 16:47:09.322020 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 13 16:47:09.522789 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 16:47:09.522865 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:09.523041 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:09.541318 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:09.541350 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:09.562899 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:09.563227 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:09.600557 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:09.600631 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:09.619097 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:09.619647 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:47:10.068843 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:47:10.085582 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.446809 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 13 16:48:53.450788 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 13 16:48:53.613888 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 13 16:48:53.613959 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.613980 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.669186 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.669210 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.683431 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.683672 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.691455 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.692060 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.713287 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.713318 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:53.747490 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:53.747727 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 13 16:48:54.165245 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 13 16:48:54.190371 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 18 14:02:50.288619 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:50.304643 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Dec 18 14:02:50.678570 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Dec 18 14:02:50.678589 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Dec 18 14:02:50.683588 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Dec 18 14:02:50.683603 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Dec 18 14:02:50.685391 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Dec 18 14:02:50.685407 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Dec 18 14:02:51.106891 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 18 14:02:51.111032 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 18 14:02:51.620922 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 18 14:02:51.635009 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Dec 18 14:02:55.098870 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 18 14:02:55.104312 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.416732 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 19 13:18:04.422048 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 19 13:18:04.605232 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:18:04.629115 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.629564 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.661261 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.661540 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.701817 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.701850 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.709657 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.709684 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:04.717396 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:04.717593 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:18:05.203174 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:18:05.203191 CS24_TS17_MBC Deagu  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 19 13:18:05.203315 CS24_TS17_MBC Deagu  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 5
+Dec 19 13:18:05.207216 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.587745 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 19 13:29:58.590649 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 19 13:29:58.657315 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 19 13:29:58.657405 CS24_TS17_MBC Deagu  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 1
+Dec 19 13:29:58.681344 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.681477 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.701640 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.701669 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.707600 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.707632 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.713486 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.713645 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.729572 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.729705 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.758889 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.758919 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.801648 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.801683 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:58.889149 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:58.890127 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:29:59.596746 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:29:59.617010 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.240992 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 19 13:30:24.245982 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 19 13:30:24.404698 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 13:30:24.404758 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.405072 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.436174 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.436578 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.508361 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.508615 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:24.540486 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:24.542111 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 13:30:25.214920 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 13:30:25.241666 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.061319 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 19 14:29:23.065324 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 19 14:29:23.257699 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 19 14:29:23.257773 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.258183 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.305924 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.306518 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.325449 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.325472 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.362065 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.362935 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 19 14:29:23.683256 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 19 14:29:23.709805 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:55.918347 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 20 14:37:55.920591 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 20 14:37:55.984109 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 20 14:37:56.017664 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.017687 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.070957 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.070979 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.113744 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.113774 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.148663 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.148800 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.180817 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.181267 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.219051 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.220942 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 20 14:37:56.638515 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 20 14:37:56.669840 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.636047 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 28 09:49:09.638932 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 28 09:49:09.889947 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 28 09:49:09.933108 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.933147 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.936996 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.938043 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:09.938454 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:09.938629 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 09:49:10.379672 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 09:49:10.404284 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.223236 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 28 14:40:09.225808 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 28 14:40:09.332668 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 28 14:40:09.332741 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.332874 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.380840 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.381031 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.453150 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.453177 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.509618 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.509641 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.524087 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.525383 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:40:09.950903 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:40:09.978842 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:17.413543 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 28 14:59:17.418344 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 28 14:59:17.555474 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 28 14:59:17.565318 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:17.565349 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:17.606110 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:17.606133 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:17.664655 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:17.664681 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:17.714655 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:17.715319 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 28 14:59:18.301484 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 28 14:59:18.326000 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.226066 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 29 10:37:02.229574 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 29 10:37:02.270557 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 29 10:37:02.310457 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.310648 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.374629 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.374737 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.438899 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.438933 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.498095 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.498132 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.526930 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.527152 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 10:37:02.888314 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 10:37:02.888337 CS24_TS17_MBC Deagu  [SWITCHER 1]  Switch active source from 0 to 1
+Dec 29 10:37:02.888428 CS24_TS17_MBC Deagu  [SWITCHER 1]  update reference clock with clock from activeSource 1 and delta 6
+Dec 29 10:37:02.888653 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:41.831494 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 29 13:40:41.836281 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 29 13:40:41.923657 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 1 to 0
+Dec 29 13:40:41.923764 CS24_TS17_MBC Deagu  [SWITCHER 1]  update reference clock with clock from activeSource 0 and delta 4
+Dec 29 13:40:41.971786 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:41.971890 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:41.979819 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:41.980174 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:42.093570 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:42.093599 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:42.132433 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:42.133056 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:40:42.268862 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:40:42.529250 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.717145 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Dec 29 13:41:58.720251 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Dec 29 13:41:58.893213 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Dec 29 13:41:58.893287 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.893313 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.949800 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.949834 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:58.993196 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:58.993219 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.011289 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.011425 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.017577 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.019258 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Dec 29 13:41:59.452934 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Dec 29 13:41:59.471699 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.647452 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Jan 24 13:28:58.650616 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Jan 24 13:28:58.867243 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:28:58.916995 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.917123 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.917860 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.917882 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.941066 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.941480 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.944864 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.944901 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:58.948131 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:58.949070 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:28:59.358616 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:28:59.381818 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:24.852331 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Jan 24 13:29:24.855718 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Jan 24 13:29:24.957747 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:29:24.957810 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:24.957832 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.025045 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.025188 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.030786 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.030815 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.049088 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.049308 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.059080 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.059103 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.129335 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.129701 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.153197 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.153507 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:25.514764 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:25.542779 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:42.747376 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Jan 24 13:29:42.750551 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Jan 24 13:29:42.957474 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:29:42.957553 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:42.957577 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:43.014025 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:43.014048 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:43.024442 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:43.024703 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:43.047585 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:43.048529 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:29:43.666760 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:29:43.693846 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Jan 24 13:31:21.611569 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Stop -----------
+Jan 24 13:31:21.611580 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Stop -----------
+Jan 24 13:31:21.611960 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Stop -----------
+Jan 24 13:31:21.611973 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Stop -----------
+Jan 24 13:31:48.046833 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:48.069839 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Jan 24 13:31:48.529975 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Jan 24 13:31:48.529996 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Jan 24 13:31:48.535236 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Jan 24 13:31:48.535255 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Jan 24 13:31:48.537133 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Jan 24 13:31:48.537145 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Jan 24 13:31:48.617038 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Jan 24 13:31:48.624377 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Jan 24 13:31:49.431227 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Jan 24 13:31:49.431341 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Jan 24 13:31:52.961630 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Jan 24 13:31:52.969099 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:38.993913 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Feb 19 10:31:38.999868 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Feb 19 10:31:39.056386 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 10:31:39.093863 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:39.093998 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:39.107614 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:39.107661 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:39.125066 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:39.125216 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:39.166837 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:39.166867 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:39.197354 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:39.197964 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:39.293724 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:39.295146 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:31:39.815537 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:31:39.840028 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:21.870483 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Feb 19 10:57:21.874979 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Feb 19 10:57:21.968104 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 10:57:21.968195 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:21.968225 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:21.977956 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:21.977993 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:22.002270 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:22.002426 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:22.020051 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:22.020081 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:22.042338 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:22.042536 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:22.078670 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:22.078694 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:22.106642 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:22.106917 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:22.170739 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:22.170789 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 10:57:22.692742 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 10:57:22.715018 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:04:01.293740 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Feb 19 11:04:01.298062 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Feb 19 11:04:01.337684 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 11:04:01.393703 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:04:01.394010 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:04:01.578096 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:04:01.578124 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:04:01.594358 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:04:01.595163 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:04:02.019871 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:04:02.046744 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.679663 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Feb 19 11:11:40.683119 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Feb 19 11:11:40.900032 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 19 11:11:40.900119 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.900155 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.909134 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.909296 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.942766 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.942792 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.980951 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.981248 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:40.981625 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:40.981694 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 19 11:11:41.679816 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 19 11:11:41.706170 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.537488 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Feb 21 16:49:38.541115 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Feb 21 16:49:38.662641 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 21 16:49:38.662703 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.662828 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.742890 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.743098 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.767030 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.767613 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:38.839308 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:38.845767 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 21 16:49:39.369218 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 21 16:49:39.928941 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.713120 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Feb 23 17:14:49.716140 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Feb 23 17:14:49.894064 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 23 17:14:49.894173 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.894341 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.910104 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.910441 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.917512 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.917546 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.959007 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.959044 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:49.998411 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:49.999077 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:50.014224 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:50.014491 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:14:50.576575 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:14:50.597911 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:56.829171 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Feb 23 17:15:56.832616 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Feb 23 17:15:57.091013 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 23 17:15:57.091117 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:57.091287 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:57.114992 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:57.115443 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:57.117540 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:57.117562 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:57.129972 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:57.130931 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 23 17:15:57.845625 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 23 17:15:57.865050 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:06:26.471188 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:26.488386 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:06:27.221848 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:06:27.221877 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:06:27.227078 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:06:27.227098 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:06:27.228921 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:06:27.228948 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:06:27.875375 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Feb 27 10:06:27.880108 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Feb 27 10:06:28.952181 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:06:29.030572 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Feb 27 10:06:31.682101 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:31.687994 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:39.374748 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:06:39.445203 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:08:18.251224 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Stop -----------
+Feb 27 10:08:18.251235 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Stop -----------
+Feb 27 10:08:18.251630 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Stop -----------
+Feb 27 10:08:18.251644 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Stop -----------
+Feb 27 10:09:03.722847 CS24_TS17_MBC Deagu  [SWITCHER 1]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:09:03.742898 CS24_TS17_MBC Deagu  [SWITCHER 2]  FIRST TIME : update reference clock with clock from activeSource 0 and delta 0
+Feb 27 10:09:04.188946 CS24_TS17_MBC Deagu  [SWITCHER 1]  ----------- Start -----------
+Feb 27 10:09:04.188971 CS24_TS17_MBC Deagu  [SWITCHER 2]  ----------- Start -----------
+Feb 27 10:09:04.195763 CS24_TS17_MBC Deagu  [CAPTURE 2_1] ----------- Start -----------
+Feb 27 10:09:04.195800 CS24_TS17_MBC Deagu  [CAPTURE 2_0] ----------- Start -----------
+Feb 27 10:09:04.198652 CS24_TS17_MBC Deagu  [CAPTURE 1_1] ----------- Start -----------
+Feb 27 10:09:04.198690 CS24_TS17_MBC Deagu  [CAPTURE 1_0] ----------- Start -----------
+Feb 27 10:09:04.288824 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Feb 27 10:09:04.296025 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Feb 27 10:09:05.019091 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Feb 27 10:09:05.043581 CS24_TS17_MBC Deagu  [SWITCHER 1]  First sample received
+Feb 27 10:09:05.099665 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:09:05.099732 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:09:08.636184 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:09:08.642475 CS24_TS17_MBC Deagu  [SWITCHER 2]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:14:20.726279 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:14:20.726379 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:14:21.288815 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:14:21.302669 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Feb 27 10:15:28.051722 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Feb 27 10:15:28.051902 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.689061 CS24_TS17_MBC Deagu  [CAPTURE 1_0] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.51 
+Mar 13 10:36:43.692491 CS24_TS17_MBC Deagu  [CAPTURE 1_1] Connect to url udp://239.10.21.22:5000 using interface 172.16.12.141 
+Mar 13 10:36:43.835067 CS24_TS17_MBC Deagu  [SWITCHER 1]  Active source reset: Switch active source from 0 to 0
+Mar 13 10:36:43.835170 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.835502 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[1] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.869011 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.869039 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.878825 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.878859 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[4] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.899330 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.899793 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[2] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.970212 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.970236 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[5] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:43.987579 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:43.989964 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_OK to HEALTH_STATUS_NOK_ES_DATA_LOSS
+Mar 13 10:36:44.268741 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[0] mimoIdx[0] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK
+Mar 13 10:36:44.294678 CS24_TS17_MBC Deagu  [SWITCHER 1]  srcIdx[1] mimoIdx[3] healthChanged from HEALTH_STATUS_NOK_ES_DATA_LOSS to HEALTH_STATUS_OK

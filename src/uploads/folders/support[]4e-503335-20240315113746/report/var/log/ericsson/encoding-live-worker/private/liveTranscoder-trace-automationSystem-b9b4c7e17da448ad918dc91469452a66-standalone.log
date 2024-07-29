@@ -1,0 +1,120 @@
+Aug  8 00:52:24.849083 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:24.863160 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:52:24.865681 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:52:24.896075 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:52:25.208538 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 00:59:35.285149 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.298307 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 00:59:35.300394 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 00:59:35.334467 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 00:59:36.343074 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 01:00:47.914139 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 01:00:47.935092 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 01:00:47.938792 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 01:00:47.976839 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 01:00:48.354141 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Aug  8 23:10:16.185065 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:16.198414 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Aug  8 23:10:16.200133 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Aug  8 23:10:16.226659 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Aug  8 23:10:16.507075 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:31:00.521603 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:00.535762 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:31:00.537695 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:31:00.571647 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:31:00.902865 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Sep 14 02:39:08.742675 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:08.755901 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 14 02:39:08.757668 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Sep 14 02:39:08.784560 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 14 02:39:09.069071 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Sep 25 16:35:05.268652 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:05.281691 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:35:05.283482 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Sep 25 16:35:05.309156 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 25 16:35:05.586053 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Sep 25 16:48:19.908251 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:48:19.928267 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 16:48:19.932404 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Sep 25 16:48:19.979193 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 25 16:48:20.335673 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Sep 25 17:11:06.257938 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 17:11:06.276115 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 17:11:06.278375 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Sep 25 17:11:06.312587 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 25 17:11:06.658837 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Sep 25 17:12:33.045141 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 17:12:33.065543 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Sep 25 17:12:33.068009 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Sep 25 17:12:33.102676 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Sep 25 17:12:33.492752 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Oct 25 02:58:37.588957 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 02:58:37.606239 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 02:58:37.608937 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Oct 25 02:58:37.646439 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Oct 25 02:58:37.958314 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Oct 25 03:27:36.125209 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.139039 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Oct 25 03:27:36.141094 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Oct 25 03:27:36.167975 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Oct 25 03:27:36.920172 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Nov 16 16:47:01.514988 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:01.528317 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 16 16:47:01.530014 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Nov 16 16:47:01.558089 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 16 16:47:01.828119 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Nov 23 10:21:15.626621 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:15.639664 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 23 10:21:15.641427 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Nov 23 10:21:15.666953 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 23 10:21:15.938411 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Nov 28 14:33:52.167595 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:33:52.180705 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 28 14:33:52.182835 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Nov 28 14:33:52.208601 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 28 14:33:52.481075 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Nov 29 10:39:50.389671 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 29 10:39:50.405185 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Nov 29 10:39:50.407315 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Nov 29 10:39:50.438093 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Nov 29 10:39:50.770839 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Dec 13 14:09:26.641426 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 13 14:09:26.659765 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 13 14:09:26.661908 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Dec 13 14:09:26.693698 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 13 14:09:27.032010 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Dec 18 14:02:49.622982 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:49.636420 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:49.638742 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Dec 18 14:02:49.673628 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 18 14:02:50.917441 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Dec 18 14:02:52.781138 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:52.793795 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 18 14:02:52.795633 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Dec 18 14:02:52.821062 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 18 14:02:53.087076 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Dec 19 13:37:47.386074 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 19 13:37:47.400306 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Dec 19 13:37:47.402616 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Dec 19 13:37:47.440538 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Dec 19 13:37:47.826388 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Jan 24 13:29:50.385635 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:29:50.399247 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:29:50.401779 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Jan 24 13:29:50.430314 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Jan 24 13:29:50.786545 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Jan 24 13:31:23.839904 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:23.853227 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Jan 24 13:31:23.854961 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Jan 24 13:31:23.880746 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Jan 24 13:31:24.167301 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:06:26.474746 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.494046 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:06:26.496383 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:06:26.533485 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:06:26.881434 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)
+Feb 27 10:08:22.173226 BS18_TS01_ENA_TEST  (Master__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:22.186222 BS18_TS01_ENA_TEST  (AlternateDynamicLive2__input_1_scte35_oob) ----------- Starting SpliceInserter ------------
+Feb 27 10:08:22.189040 BS18_TS01_ENA_TEST  (input_1) ----------- Starting AutomationFilter ------------
+Feb 27 10:08:22.215148 BS18_TS01_ENA_TEST  (auto.Processings_0) ----------- Starting EsamStatusNotifier ------------
+Feb 27 10:08:22.504483 BS18_TS01_ENA_TEST  (input_1) [AUTOMATION_FILTER] Starting default service TC16_TS01 on AlternateDynamicLive1 (Master__input_1)

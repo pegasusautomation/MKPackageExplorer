@@ -1,0 +1,20 @@
+-----------NTP peers (ntpdc -c peers)---------------------------
+     remote           local      st poll reach  delay   offset    disp
+=======================================================================
+*192.168.50.152  192.168.21.51    2 1024  377 0.00023  0.000280 0.12825
+
+-----------NTP loop Info (ntpdc -c loopinfo)---------------------------
+offset:               0.000280 s
+frequency:            13.890 ppm
+poll adjust:          30
+watchdog timer:       239 s
+
+-----------NTP kern Info (ntpdc -c kerninfo)---------------------------
+pll offset:           0.000264185 s
+pll frequency:        13.890 ppm
+maximum error:        0.151248 s
+estimated error:      0.000326 s
+status:               6001  pll nano mode=fll
+pll time constant:    10
+precision:            1e-09 s
+frequency tolerance:  500 ppm
