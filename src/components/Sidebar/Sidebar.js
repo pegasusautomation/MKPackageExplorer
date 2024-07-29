@@ -19,7 +19,7 @@ import {
     AiOutlineLoading3Quarters,
 } from "react-icons/ai";
 // import { MdLogout } from "react-icons/md";
-import {  BsCloudUpload, BsTicketDetailed } from "react-icons/bs";
+import {  BsCloudUpload, BsInfoCircleFill, BsTicketDetailed } from "react-icons/bs";
 
 import { useLocation } from "react-router-dom";
 
@@ -93,6 +93,11 @@ const linksArray = [
         icon: <BsCloudUpload />,
         to: "/pkgupload",
     },
+    {
+        label: "Basic Info",
+        icon:<BsInfoCircleFill/>,
+        to: "/basicinfo",
+    },
     // {
     //     label: "Bitrate",
     //     icon: <BsServer />,
@@ -118,6 +123,7 @@ const linksArray = [
     //     icon: <AiOutlineFieldTime/>,
     //     to: "/uptime",
     // },
+
     {
         label: "Pkg Analysis",
         icon: <AiOutlineLoading3Quarters/>,

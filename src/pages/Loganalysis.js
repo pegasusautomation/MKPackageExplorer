@@ -5,6 +5,7 @@ import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { format } from 'date-fns';
+// import extractDetails from "C:/MKPackageExplorer/src/backend/ExtractDetails.js";
 
 
 // CustomInput component
@@ -58,7 +59,10 @@ const Loganalysis = () => {
   const [isHovered, setIsHovered] = useState(false); 
   const [SelectedFileName, setSelectedFileName] = useState("");
   const [filterCondition, setFilterCondition] = useState(false);
-
+  const [filteredResults, setFilteredResults] = useState([]);
+  const [fileTypeFilter, setFileTypeFilter] = useState('');
+  const [showBasicInfoModal, setShowBasicInfoModal] = useState(false);
+  const [basicInfoContent, setBasicInfoContent] = useState({});
   useEffect(() => {
     const fetchInitialFiles = async () => {
       try {
@@ -354,7 +358,18 @@ const Loganalysis = () => {
         },
       });
       const { files } = response.data;
-      const filteredResults = files;
+      let filteredResults = files;
+      if (fileTypeFilter) {
+        if (fileTypeFilter === 'alarm') {
+          filteredResults = filteredResults.filter((file) =>
+            file.toLowerCase().includes('alarm')
+          );
+        }  else {
+          filteredResults = filteredResults.filter((file) =>
+            file.endsWith(fileTypeFilter)
+          );
+        }
+      }
       setFilteredFiles(filteredResults);
 
       if (globalSearchLine) {
@@ -390,34 +405,56 @@ const Loganalysis = () => {
     }
   };
 
+
   const handleFileSelectFromGlobalSearch = async (file) => {
     try {
-      setLoading(true);
-      const response = await axios.get(`/file-data?file=${encodeURIComponent(file)}`);
+        setLoading(true);
+     
+            const response = await axios.get(`/file-data?file=${encodeURIComponent(file)}`);
 
-      let fileContent = response.data;
+            let fileContent = response.data;
 
-      if (typeof fileContent === "object") {
-        fileContent = JSON.stringify(fileContent, null, 2);
-        setIsJsonFile(true);
-      } else {
-        setIsJsonFile(false);
-      }
+            if (typeof fileContent === 'object') {
+                fileContent = JSON.stringify(fileContent, null, 2);
+                setIsJsonFile(true);
+            } else {
+                setIsJsonFile(false);
+            }
 
-      setFileData(fileContent);
-      const filteredContent = filterDataByDate(fileContent, globalFromDate, globalToDate);
-      setFilteredData(filteredContent);
-      extractKeywords(filteredContent);
-      setIsSubmitted(true);
-      setShowKeywordModal(true);
-      setLoading(false);
-      setSelectedFileName(file); 
-      setShowGlobalSearchPopup(false); // Close the global search popup
+            setFileData(fileContent);
+            const filteredContent = filterDataByDate(fileContent, globalFromDate, globalToDate);
+            setFilteredData(filteredContent);
+            extractKeywords(filteredContent);
+            setIsSubmitted(true);
+            setShowKeywordModal(true);
+        
+        setLoading(false);
+        setSelectedFileName(file);
+        setShowGlobalSearchPopup(false); // Close the global search popup
     } catch (error) {
-      setLoading(false);
-      setError("Error fetching file data");
+        setLoading(false);
+        setError('Error fetching file data');
     }
-  };
+};
+
+  const handleFileTypeChange = (e) => {
+    const selectedType = e.target.value;
+    setFileTypeFilter(selectedType);
+    if (selectedType === '') {
+        setFilteredResults(globalSearchResults);
+    } else if (selectedType === 'alarm') {
+        const filtered = globalSearchResults.filter((file) =>
+            file.toLowerCase().includes('alarm')
+        );
+        setFilteredResults(filtered);
+    }  else {
+        const filtered = globalSearchResults.filter((file) =>
+            file.endsWith(selectedType)
+        );
+        setFilteredResults(filtered);
+    }
+};
+
   const renderContent = () => {
     if (globalSearchResults.length === 0) {
       return filterCondition 
@@ -449,6 +486,7 @@ const Loganalysis = () => {
     );
   };
 
+ 
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -457,6 +495,8 @@ const Loganalysis = () => {
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
+
+  
 
   return (
     <div>
@@ -772,6 +812,14 @@ const Loganalysis = () => {
                 style={{ flex: "1", marginRight: "10px" }}
               />
             )}
+            <span style={{ marginRight: '10px',whiteSpace:"nowrap"}}><b>File Type:</b></span>
+              <select value={fileTypeFilter} onChange={handleFileTypeChange} style={{width:"140px",height:"20px"}}>
+                <option value="">All</option>
+                <option value=".txt">Text files</option>
+                <option value=".log">Log files</option>
+                <option value="alarm">Alarm files</option>
+                {/* <option value="basic info">Basic Info</option> */}
+              </select>
             <button
               onClick={handleGlobalSearchSubmit}
               style={{
@@ -790,6 +838,7 @@ const Loganalysis = () => {
             >
             Submit
             </button>
+            
         </div>
         </div>
         <div
@@ -826,7 +875,7 @@ const Loganalysis = () => {
             padding: "10px",
             backgroundColor: "#f9f9f9",
           }}
-        >
+        >          
           {loading ? <p style={{ textAlign: "center" }}>Loading...</p> : renderContent()}
         </div>
       </div>

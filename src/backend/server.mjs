@@ -308,6 +308,7 @@ import { fileURLToPath } from 'url';
 import path from 'path';
 // import tar from 'tar-stream';
 import { parse } from 'date-fns';
+
 const app = express();
 const PORT = 8000;
 
@@ -365,6 +366,8 @@ async function extractNestedZip(source, destination) {
     });
   });
 }
+
+
 
 const extractDatesFromFileContent = (fileContent) => {
   const datePatterns = [
@@ -442,10 +445,13 @@ app.get('/list-files', (req, res) => {
     return files;
   }
 
+ 
   // Get list of files and send as response
   const files = listFiles(destinationFolder);
   res.json({ files });
 });
+
+
 
 // Route to handle file search
 app.get('/search', (req, res) => {
@@ -566,7 +572,7 @@ app.get('/global-search', async (req, res) => {
   const fromDateObj = parse(fromDate, "MMM d, yyyy h:mm aa", new Date());
   const toDateObj = parse(toDate, "MMM d, yyyy h:mm aa", new Date());
 
-  console.log(`Searching files between ${fromDateObj} and ${toDateObj}`);
+  // console.log(`Searching files between ${fromDateObj} and ${toDateObj}`);
 
   const filesDir = path.join(__dirname, '../../src/uploads/folders');
 
@@ -584,14 +590,14 @@ app.get('/global-search', async (req, res) => {
         const content = fs.readFileSync(filePath, 'utf-8');
         const dates = extractDatesFromFileContent(content);
           for (const date of dates){
-            console.log(`Checking date ${date} in file ${filePath}`);
+            // console.log(`Checking date ${date} in file ${filePath}`);
           if (date >= fromDateObj && date <= toDateObj) {
-            console.log(`Date ${date} in file ${filePath} is within range`);
+            // console.log(`Date ${date} in file ${filePath} is within range`);
             // Push relative path to filesDir into matchingFiles
             matchingFiles.push(path.relative(filesDir, filePath));
             break;
           } else {
-            console.log(`Date ${date} in file ${filePath} is out of range`);
+            // console.log(`Date ${date} in file ${filePath} is out of range`);
           }
         }
       }
@@ -599,7 +605,7 @@ app.get('/global-search', async (req, res) => {
   };
 
   searchFiles(filesDir);
-  console.log(`Matching files: ${matchingFiles}`);
+  // console.log(`Matching files: ${matchingFiles}`);
 
   res.json({ files: matchingFiles });
 });
@@ -623,6 +629,21 @@ app.get('/search-line', async (req, res) => {
 
   res.json({ files: matchingFiles });
 });
+//C:\MKPackageExplorer\src\uploads\folders\support[]4e-503335-20240315113746\report\README.txt
+app.get('/read-file', (req, res) => {
+  const filePath = path.join(__dirname, '../../src/uploads/folders/support[]4e-503335-20240315113746/report/README.txt');
+
+  fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+      console.error('Error reading file:', err);
+      return res.status(500).send('Error reading file');
+    }
+    res.send(data);
+  });
+});
+
+
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

@@ -142,7 +142,7 @@ import Alarm from "./pages/Alarm.js";
 import Help from "./pages/Help.js";
 import "./Table.css";
 import "./App.css";
-
+import Basicinfo from "./pages/Basicinfo.js";
 
 export const ThemeContext = React.createContext(null);
 const App = () => {
@@ -187,6 +187,9 @@ const App = () => {
                 </Route>
                 <Route exact path="/help">
                   <Help />
+                </Route>
+                <Route exact path="/basicinfo">
+                  <Basicinfo />
                 </Route>
               </Switch>
               </Layout>
