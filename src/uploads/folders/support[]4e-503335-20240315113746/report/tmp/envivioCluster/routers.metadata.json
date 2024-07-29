@@ -1,1 +1,0 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"unique":true,"key":{"ip_address":{"$numberInt":"1"}},"name":"ip_address_1","background":false,"sparse":false}],"uuid":"56ae4ed04f0d4127aadc973791479839","collectionName":"routers","type":"collection"}

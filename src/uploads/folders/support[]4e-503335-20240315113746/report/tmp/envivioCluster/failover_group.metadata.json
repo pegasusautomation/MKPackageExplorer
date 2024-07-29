@@ -1,1 +1,0 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"unique":true,"key":{"group_name":{"$numberInt":"1"}},"name":"group_name_1","background":false,"sparse":false}],"uuid":"6897dc412dc54749acec885d8616fd7e","collectionName":"failover_group","type":"collection"}
