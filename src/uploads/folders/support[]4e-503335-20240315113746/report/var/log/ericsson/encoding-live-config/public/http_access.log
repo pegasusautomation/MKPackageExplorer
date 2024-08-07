@@ -1,7 +1,0 @@
-127.0.0.1 - - [15/Mar/2024:11:38:11 +0900] "GET /api/services/liveEncodings?automation HTTP/1.1" 200 2
-127.0.0.1 - - [15/Mar/2024:11:38:11 +0900] "GET /api/services/liveEncodings?automation HTTP/1.1" 200 2
-127.0.0.1 - - [15/Mar/2024:11:38:16 +0900] "GET /api/services/liveEncodings?automation HTTP/1.1" 200 2
-127.0.0.1 - - [15/Mar/2024:11:38:17 +0900] "GET /api/services/liveEncodings?automation HTTP/1.1" 200 2
-127.0.0.1 - - [15/Mar/2024:11:38:22 +0900] "GET /api/services/liveEncodings?automation HTTP/1.1" 200 2
-127.0.0.1 - - [15/Mar/2024:11:38:22 +0900] "GET /api/services/liveEncodings?automation HTTP/1.1" 200 2
-127.0.0.1 - - [15/Mar/2024:11:38:25 +0900] "GET /api/services/liveEncodings/b9b4c7e17da448ad918dc91469452a66 HTTP/1.1" 200 3811
