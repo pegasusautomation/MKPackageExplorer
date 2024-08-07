@@ -642,7 +642,16 @@ app.get('/read-file', (req, res) => {
   });
 });
 
-
+app.get('/alarm-log', (req, res) => {
+  const filePath = path.join(__dirname, '../../src/uploads/folders/support[]4e-503335-20240315113746/report/var/log/ericsson/alarm/private/alarm-legacy-collector.log');
+  
+  fs.readFile(filePath, 'utf8', (err, data) => {
+      if (err) {
+          return res.status(500).send('Error reading file');
+      }
+      res.send(data);
+  });
+});
 
 // Start the server
 app.listen(PORT, () => {

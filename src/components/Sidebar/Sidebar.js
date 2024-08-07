@@ -19,7 +19,7 @@ import {
     AiOutlineLoading3Quarters,
 } from "react-icons/ai";
 // import { MdLogout } from "react-icons/md";
-import {  BsCloudUpload, BsInfoCircleFill, BsTicketDetailed } from "react-icons/bs";
+import {  BsCloudUpload, BsInfoCircleFill, BsTicketDetailed ,BsAlarmFill} from "react-icons/bs";
 
 import { useLocation } from "react-router-dom";
 
@@ -108,11 +108,7 @@ const linksArray = [
     //     icon: <BsGraphUp />,
     //     to: "/graph",
     // },
-    // {
-    //     label: "Alarm",
-    //     icon: <BsAlarmFill />,
-    //     to: "/Alarm",
-    // },
+  
     // {
     //     label: "Licence",
     //     icon: <AiFillSafetyCertificate />,
@@ -128,6 +124,11 @@ const linksArray = [
         label: "Pkg Analysis",
         icon: <AiOutlineLoading3Quarters/>,
         to: "/loganalysis",
+    },
+    {
+        label: "Alarm",
+        icon: <BsAlarmFill />,
+        to: "/Alarm",
     },
     {
         label: "Help",
