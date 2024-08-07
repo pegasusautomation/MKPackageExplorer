@@ -457,6 +457,7 @@ app.get('/list-files', (req, res) => {
 app.get('/search', (req, res) => {
   const { query } = req.query;
   const destinationFolder = path.join(__dirname, '../../src/uploads/folders');
+  const lowerCaseQuery = query.toLocaleLowerCase();
 
   // Function to list files recursively
   function listFiles(directory) {
@@ -468,7 +469,7 @@ app.get('/search', (req, res) => {
       if (stat.isDirectory()) {
         files = files.concat(listFiles(filePath));
       } else {
-        files.push(path.relative(destinationFolder, filePath));
+        files.push(path.relative(destinationFolder, filePath).toLocaleLowerCase());
       }
     });
 
@@ -476,7 +477,7 @@ app.get('/search', (req, res) => {
   }
 
   // Search for files matching the query
-  const files = listFiles(destinationFolder).filter(file => file.includes(query));
+  const files = listFiles(destinationFolder).filter(file => file.includes(lowerCaseQuery));
 
   res.json({ files });
 });

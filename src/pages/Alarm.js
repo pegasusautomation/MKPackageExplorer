@@ -72,18 +72,22 @@ const Alarm = () => {
     };
 
     return (
-        <div style={{ textAlign: 'center' }}>
-            <caption style={{ fontSize: '30px', marginLeft: '30px' }}>
+        <div style={{ textAlign: 'left',width:"85vw",marginRight:"100px"}}>
+            <caption style={{ fontSize: '30px', marginLeft: '500px' }}>
                 <b>Alarms</b>
             </caption>
-            <select onChange={handleAlarmSelect} value={selectedAlarmId} style={{ marginTop: '20px' }}>
+            <select onChange={handleAlarmSelect} value={selectedAlarmId} style={{ marginTop: '20px',marginLeft:"20px", height:"30px"}}>
                 <option value="" disabled>Select Alarm ID</option>
                 {Object.keys(alarms).map(alarmId => (
                     <option key={alarmId} value={alarmId}>{alarmId}</option>
                 ))}
             </select>
-            {selectedAlarmId && alarms[selectedAlarmId] && (
-                <div style={{ textAlign: 'left', marginTop: '20px', padding: '10px', border: '1px solid #ccc' }}>
+            {selectedAlarmId === '' ? (
+                <div style={{ textAlign: 'center', marginTop: '50px', padding: '10px', border: '1px solid black', height: "50px" }}>
+                    <p> No content, Please proceed to select the alarmID from the available options</p>
+                </div>
+            ) : alarms[selectedAlarmId] ? (
+                <div style={{ textAlign: 'left', marginTop: '20px', padding: '10px', border: '1px solid #ccc', maxHeight: "450px", overflow: "auto" }}>
                     {alarms[selectedAlarmId].map((alarm, index) => (
                         <div key={index} style={{ marginBottom: '10px' }}>
                             <p><b>mediakind.legacy.alarm.collector.notifications:</b> {alarm.message}</p>
@@ -97,6 +101,10 @@ const Alarm = () => {
                             <hr />
                         </div>
                     ))}
+                </div>
+            ) : (
+                <div style={{ textAlign: 'center', marginTop: '50px', padding: '10px', border: '1px solid black', height: "50px" }}>
+                    <p>No content available for the selected Alarm ID</p>
                 </div>
             )}
             {/* <pre style={{ textAlign: 'left', marginTop: '20px', padding: '10px', border: '1px solid #ccc' }}>

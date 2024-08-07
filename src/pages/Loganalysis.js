@@ -192,7 +192,7 @@ const Loganalysis = () => {
   };
 
   const extractKeywords = (data) => {
-    const words = data.match(/\b\w+\b/g);
+    const words = data.match(/[a-zA-Z0-9]+(?:[-:.$_][a-zA-Z0-9]+)*/g);
     const uniqueWords = Array.from(new Set(words));
     setAllKeywords(uniqueWords);
   };
@@ -644,7 +644,7 @@ const Loganalysis = () => {
               placeholder="Enter keyword..."
               style={{ width: "100%", marginBottom: "10px" }}
             />
-            <ul>
+            <ul style={{maxHeight:"300px", overflow:"auto"}}>
               {suggestedKeywords.map((kw, index) => (
                 <li
                   key={index}
