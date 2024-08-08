@@ -76,7 +76,8 @@ const Alarm = () => {
             <caption style={{ fontSize: '30px', marginLeft: '500px' }}>
                 <b>Alarms</b>
             </caption>
-            <select onChange={handleAlarmSelect} value={selectedAlarmId} style={{ marginTop: '20px',marginLeft:"20px", height:"30px"}}>
+            <label><b>AlarmID :</b></label>
+            <select onChange={handleAlarmSelect} value={selectedAlarmId} style={{ marginTop: '20px',marginLeft:"15px", height:"30px",}}>
                 <option value="" disabled>Select Alarm ID</option>
                 {Object.keys(alarms).map(alarmId => (
                     <option key={alarmId} value={alarmId}>{alarmId}</option>
@@ -87,20 +88,35 @@ const Alarm = () => {
                     <p> No content, Please proceed to select the alarmID from the available options</p>
                 </div>
             ) : alarms[selectedAlarmId] ? (
-                <div style={{ textAlign: 'left', marginTop: '20px', padding: '10px', border: '1px solid #ccc', maxHeight: "450px", overflow: "auto" }}>
-                    {alarms[selectedAlarmId].map((alarm, index) => (
-                        <div key={index} style={{ marginBottom: '10px' }}>
-                            <p><b>mediakind.legacy.alarm.collector.notifications:</b> {alarm.message}</p>
-                            <p><b>Timestamp:</b> {alarm.timestamp}</p>
-                            <p><b>Alarm id:</b> {alarm.alarmId}</p>
-                            <p><b>State:</b> {alarm.state}</p>
-                            <p><b>Date:</b> {alarm.date}</p>
-                            <p><b>Label:</b> {alarm.label}</p>
-                            <p><b>Additional Info:</b> {alarm.additionalInformation || alarm.additionalInfo}</p>
-                            <p><b>Severity:</b> {alarm.severity}</p>
-                            <hr />
-                        </div>
-                    ))}
+                <div style={{ textAlign: 'left', marginTop: '20px', border: '1px solid black', maxHeight: "450px", overflow: "auto",position:"relative" }}>
+                    <table style={{ width: '100%',  boxSizing: 'border-box' }}>
+                        <thead>
+                            <tr style={{ background: '#908fb0', height: '30px'}}>
+                                <th style={{padding: '8px', position: 'sticky', top: 0, zIndex: 2,backgroundColor:'#908fb0',border: '1px solid black',fontSize: '12px',}}>Date</th>
+                                <th style={{padding: '8px', position: 'sticky', top: 0, zIndex: 2,backgroundColor:'#908fb0',border: '1px solid black',fontSize: '12px',}}>AlarmID</th>
+                                <th style={{padding: '8px', position: 'sticky', top: 0, zIndex: 2,backgroundColor:'#908fb0',border: '1px solid black',fontSize: '12px',}}>Label</th>      
+                                <th style={{padding: '8px', position: 'sticky', top: 0, zIndex: 2,backgroundColor:'#908fb0',border: '1px solid black',fontSize: '12px',}}>Timestamp</th>
+                                <th style={{padding: '8px', position: 'sticky', top: 0, zIndex: 2,backgroundColor:'#908fb0',border: '1px solid black',fontSize: '12px',}}>Message</th>
+                                <th style={{padding: '8px', position: 'sticky', top: 0, zIndex: 2,backgroundColor:'#908fb0',border: '1px solid black',fontSize: '12px',}}>State</th>
+                                <th style={{padding: '8px', position: 'sticky', top: 0, zIndex: 2,backgroundColor:'#908fb0',border: '1px solid black',fontSize: '12px',}}>Additional Info</th>
+                                <th style={{padding: '8px', position: 'sticky', top: 0, zIndex: 2,backgroundColor:'#908fb0',border: '1px solid black',fontSize: '12px',}}>Severity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {alarms[selectedAlarmId].map((alarm, index) => (
+                                <tr key={index}>
+                                    <td style={{fontSize: '10px',}}>{alarm.date}</td>
+                                    <td style={{fontSize: '10px',}}>{alarm.alarmId}</td>
+                                    <td style={{fontSize: '10px',}}>{alarm.label}</td>
+                                    <td style={{fontSize: '10px',}}>{alarm.timestamp}</td>
+                                    <td style={{fontSize: '10px',}}>{alarm.message}</td>
+                                    <td style={{fontSize: '10px',}}>{alarm.state}</td>
+                                    <td style={{fontSize: '10px',}}>{alarm.additionalInformation || alarm.additionalInfo}</td>
+                                    <td style={{fontSize: '10px',}}>{alarm.severity}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
                 </div>
             ) : (
                 <div style={{ textAlign: 'center', marginTop: '50px', padding: '10px', border: '1px solid black', height: "50px" }}>
